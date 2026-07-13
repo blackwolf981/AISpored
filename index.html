@@ -157,8 +157,8 @@
     <!-- Iskalnik -->
     <div class="iskanje-bar">
       <div class="iskanje-nacin">
-        <button class="iskanje-nacin-btn active" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
-        <button class="iskanje-nacin-btn" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
+        <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
+        <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
       </div>
       <div class="iskanje-input-wrap">
         <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči po sporedu..." oninput="onIskanjeInput()">
@@ -263,7 +263,7 @@ let aktivniZanr = null;
 let aktivnaOcenaTip = 'brez';
 let aktivnaImdbMin = 0;
 let aktivnaRtMin = 0;
-let iskanjeNacin = 'vse';
+let iskanjeNacin = 'naziv';
 let iskanjeQuery = '';
 
 function formatDatum(d) {
