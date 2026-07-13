@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TV Vodič</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d0f18; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+
+  .header { background: #13161f; border-bottom: 1px solid #252838; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 1rem; }
+  .header h1 { font-size: 20px; font-weight: 600; color: #fff; }
+  .now-badge { background: #e8702a; color: #fff; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+  .posodobljeno { font-size: 11px; color: #444; margin-left: auto; }
+
+  .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .kanal-btn { padding: 6px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #888; font-size: 13px; cursor: pointer; transition: all 0.15s; }
+  .kanal-btn.active { background: #e8702a; border-color: #e8702a; color: #fff; }
+  .kanal-btn:not(.active):hover { background: #1e2130; color: #ccc; }
+
+  .main { padding: 1.5rem; }
+
+  .filter-bar { margin-bottom: 1rem; }
+  .filter-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; align-items: center; min-height: 32px; }
+  .filter-label { font-size: 11px; color: #555; width: 60px; flex-shrink: 0; }
+  .filter-btn { padding: 5px 14px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #777; font-size: 12px; cursor: pointer; transition: all 0.15s; text-transform: capitalize; }
+  .filter-btn:hover { background: #1e2130; color: #ccc; }
+  .filter-btn.active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
+  .filter-btn.reset.active { background: #1e2130; border-color: #3a4a5a; color: #aaa; }
+  .filter-btn:not(.reset).active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
+
+  .rezultati-info { font-size: 12px; color: #555; margin-bottom: 12px; }
+
+  .filter-nivo2-wrap { background: #0f1220; border: 1px solid #1e2130; border-radius: 8px; padding: 12px 16px; margin-bottom: 8px; display: none; }
+  .filter-nivo2-wrap.active { display: block; }
+  .filter-sekcija { margin-bottom: 12px; }
+  .filter-sekcija:last-child { margin-bottom: 0; }
+  .filter-sekcija-label { font-size: 11px; color: #555; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .ocena-toggle { display: flex; gap: 8px; margin-bottom: 10px; }
+  .ocena-toggle-btn { padding: 4px 14px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #666; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .ocena-toggle-btn.active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
+  .slider-wrap { display: none; align-items: center; gap: 12px; }
+  .slider-wrap.active { display: flex; }
+  .slider-wrap input[type=range] { flex: 1; accent-color: #e8702a; }
+  .slider-val { font-size: 13px; font-weight: 600; color: #e8702a; min-width: 50px; }
+  .slider-reset { font-size: 11px; color: #555; cursor: pointer; text-decoration: underline; }
+  .slider-reset:hover { color: #e8702a; }
+  .iskanje-bar { background: #0f1220; border: 1px solid #1e2130; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
+  .iskanje-nacin { display: flex; gap: 8px; margin-bottom: 10px; }
+  .iskanje-nacin-btn { padding: 5px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #666; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .iskanje-nacin-btn.active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
+  .iskanje-nacin-btn:hover:not(.active) { background: #1e2130; color: #ccc; }
+  .iskanje-input-wrap { display: flex; gap: 8px; align-items: center; }
+  .iskanje-input { flex: 1; background: #13161f; border: 1px solid #2e3148; border-radius: 6px; padding: 8px 14px; color: #e0e0e0; font-size: 13px; outline: none; transition: border-color 0.15s; }
+  .iskanje-input:focus { border-color: #4a6a9a; }
+  .iskanje-input::placeholder { color: #444; }
+  .iskanje-clear { background: none; border: none; color: #444; font-size: 18px; cursor: pointer; padding: 0 4px; line-height: 1; }
+  .iskanje-clear:hover { color: #888; }
+  .tip-skupina-naslov { font-size: 11px; font-weight: 700; color: #555; text-transform: uppercase; letter-spacing: 1px; margin: 18px 0 10px 0; padding-bottom: 6px; border-bottom: 1px solid #1e2130; }
+  .tip-skupina-naslov:first-child { margin-top: 0; }
+
+  .rezultati-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+  .kartica { background: #13161f; border: 1px solid #1e2130; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.15s; }
+  .kartica:hover { border-color: #3a4a6a; }
+  .kartica-slika { width: 100%; height: 110px; object-fit: cover; display: block; }
+  .kartica-placeholder { width: 100%; height: 60px; background: #1e2130; }
+  .kartica-body { padding: 10px; }
+  .kartica-meta { font-size: 10px; color: #555; margin-bottom: 4px; text-transform: capitalize; }
+  .kartica-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 2px; }
+  .kartica-orig { font-size: 11px; color: #555; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .kartica-info { font-size: 11px; color: #555; margin-top: 4px; }
+  .kartica-termini { font-size: 10px; color: #e8702a; margin-top: 4px; }
+
+  .timeline-container { overflow-x: auto; position: relative; }
+  .timeline-header { display: flex; margin-left: 110px; margin-bottom: 6px; min-width: max-content; }
+  .hour-tick { width: 100px; font-size: 11px; color: #444; flex-shrink: 0; border-left: 1px solid #1e2130; padding-left: 4px; }
+  .timeline-row { display: flex; align-items: center; margin-bottom: 6px; min-width: max-content; }
+  .row-label { width: 110px; flex-shrink: 0; padding-right: 8px; text-align: right; }
+  .rl-dan { font-size: 13px; font-weight: 600; color: #ccc; }
+  .rl-datum { font-size: 11px; color: #555; }
+  .row-track { position: relative; height: 64px; background: #13161f; border-radius: 6px; width: 2400px; overflow: hidden; border: 1px solid #1e2130; }
+  .oddaja-blok { position: absolute; top: 3px; bottom: 3px; border-radius: 5px; cursor: pointer; display: flex; flex-direction: column; justify-content: center; padding: 0 8px; overflow: hidden; transition: filter 0.15s; border: 1px solid transparent; }
+  .oddaja-blok:hover { filter: brightness(1.2); border-color: rgba(255,255,255,0.2); z-index: 2; }
+  .b-cas { font-size: 10px; color: rgba(255,255,255,0.45); white-space: nowrap; }
+  .b-naslov { font-size: 12px; font-weight: 600; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .b-zanr { font-size: 10px; color: rgba(255,255,255,0.4); white-space: nowrap; text-transform: capitalize; }
+  .zanr-akcija { background: #1a2a4a; }
+  .zanr-drama { background: #2a1a3a; }
+  .zanr-komedija { background: #1a3a1a; }
+  .zanr-triler { background: #2a2a1a; }
+  .zanr-grozljivka { background: #3a1a1a; }
+  .zanr-romantični { background: #3a1a2a; }
+  .zanr-dokumentarni { background: #1a2a2a; }
+  .zanr-serija { background: #1a2a3a; }
+  .zanr-drugo { background: #1e2130; }
+  .now-line { position: absolute; top: 0; bottom: 0; width: 2px; background: #e8702a; z-index: 5; pointer-events: none; }
+  .now-line-label { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: 10px; color: #e8702a; white-space: nowrap; background: #0d0f18; padding: 1px 4px; }
+  .row-separator { height: 1px; background: #1a1d28; margin: 4px 0 4px 110px; width: 2400px; }
+  .ni-podatkov-row { height: 64px; display: flex; align-items: center; padding-left: 12px; font-size: 12px; color: #333; font-style: italic; }
+  .legenda { display: flex; gap: 16px; margin-top: 1.5rem; flex-wrap: wrap; }
+  .leg-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #555; }
+  .leg-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+  .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 50; }
+  .overlay.active { display: block; }
+  .popup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #13161f; border: 1px solid #2e3148; border-radius: 12px; padding: 1.5rem; width: 500px; max-width: 95vw; max-height: 85vh; overflow-y: auto; z-index: 51; }
+  .popup.active { display: block; }
+  .popup-close { position: absolute; top: 12px; right: 16px; background: none; border: none; color: #555; font-size: 22px; cursor: pointer; }
+  .popup-close:hover { color: #fff; }
+  .popup-slika { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; }
+  .popup-zanr-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; background: #1e2130; color: #888; margin-bottom: 8px; text-transform: capitalize; }
+  .popup h2 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .popup .orig-naslov { font-size: 13px; color: #555; margin-bottom: 8px; font-style: italic; }
+  .popup-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .popup-meta span { font-size: 12px; color: #777; background: #1a1d28; padding: 3px 10px; border-radius: 20px; }
+  .popup-opis { font-size: 13px; color: #aaa; line-height: 1.7; margin-bottom: 1rem; }
+  .popup-termini-naslov { font-size: 11px; font-weight: 600; color: #555; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .termin-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; background: #1a1d28; border-radius: 6px; margin-bottom: 6px; font-size: 12px; flex-wrap: wrap; }
+  .termin-kanal { color: #e8702a; font-weight: 600; min-width: 90px; }
+  .termin-datum { color: #888; }
+  .termin-cas { color: #ccc; font-weight: 600; }
+  .termin-trajanje { color: #555; margin-left: auto; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>TV Vodič</h1>
+  <span class="now-badge" id="now-time">ZDAJ</span>
+  <span class="posodobljeno" id="posodobljeno-txt"></span>
+</div>
+
+<div class="kanali-bar" id="kanali-bar">
+  <button class="kanal-btn active" data-kanal="vse">Vsi kanali</button>
+  <!-- Kanali se dodajo samodejno iz kanali.json -->
+</div>
+
+<div id="view-casovnica" class="main" style="display:none">
+  <div class="timeline-container" id="timeline-container">
+    <div style="text-align:center;padding:3rem;color:#444">Nalagam podatke...</div>
+  </div>
+  <div class="legenda">
+    <div class="leg-item"><div class="leg-dot zanr-akcija"></div>Akcija</div>
+    <div class="leg-item"><div class="leg-dot zanr-drama"></div>Drama</div>
+    <div class="leg-item"><div class="leg-dot zanr-komedija"></div>Komedija</div>
+    <div class="leg-item"><div class="leg-dot zanr-triler"></div>Triler</div>
+    <div class="leg-item"><div class="leg-dot zanr-grozljivka"></div>Grozljivka</div>
+    <div class="leg-item"><div class="leg-dot zanr-serija"></div>Serija</div>
+    <div class="leg-item"><div class="leg-dot zanr-dokumentarni"></div>Dokumentarni</div>
+    <div class="leg-item"><div class="leg-dot zanr-drugo"></div>Drugo</div>
+    <div class="leg-item"><div class="leg-dot" style="background:#e8702a"></div>Zdaj</div>
+  </div>
+</div>
+
+<div id="view-iskanje" class="main">
+  <div class="filter-bar">
+    <!-- Iskalnik -->
+    <div class="iskanje-bar">
+      <div class="iskanje-nacin">
+        <button class="iskanje-nacin-btn active" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
+        <button class="iskanje-nacin-btn" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
+      </div>
+      <div class="iskanje-input-wrap">
+        <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči po sporedu..." oninput="onIskanjeInput()">
+        <button class="iskanje-clear" id="iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
+      </div>
+    </div>
+    <div class="filter-row" id="filter-nivo1-row">
+      <span class="filter-label">Tip:</span>
+    </div>
+
+    <!-- NIVO 2: Žanr + Ocena (skupaj) -->
+    <div class="filter-nivo2-wrap" id="filter-nivo2-wrap">
+
+      <!-- Žanr -->
+      <div class="filter-sekcija">
+        <div class="filter-sekcija-label">Žanr</div>
+        <div class="filter-row" id="filter-zanr-row" style="margin-bottom:0">
+          <button class="filter-btn reset active" onclick="resetZanr()">Vsi</button>
+        </div>
+      </div>
+
+      <!-- Ocena -->
+      <div class="filter-sekcija">
+        <div class="filter-sekcija-label">Ocena</div>
+        <div class="ocena-toggle">
+          <button class="ocena-toggle-btn active" id="ocena-btn-brez" onclick="izberOcenaTip('brez')">Brez filtra</button>
+          <button class="ocena-toggle-btn" id="ocena-btn-imdb" onclick="izberOcenaTip('imdb')">IMDB</button>
+          <button class="ocena-toggle-btn" id="ocena-btn-rt" onclick="izberOcenaTip('rt')">Rotten Tomatoes</button>
+          <button class="ocena-toggle-btn" id="ocena-btn-brez-ocene" onclick="izberOcenaTip('brez_ocene')">Brez ocene</button>
+        </div>
+        <div class="slider-wrap" id="slider-imdb">
+          <span style="font-size:12px;color:#666;width:40px">IMDB</span>
+          <input type="range" id="imdb-slider" min="0" max="10" step="0.5" value="0"
+            oninput="posodobiSlider('imdb')">
+          <span class="slider-val" id="imdb-val">0+</span>
+          <span class="slider-reset" onclick="resetOcena()">Ponastavi</span>
+        </div>
+        <div class="slider-wrap" id="slider-rt">
+          <span style="font-size:12px;color:#666;width:40px">RT</span>
+          <input type="range" id="rt-slider" min="0" max="100" step="5" value="0"
+            oninput="posodobiSlider('rt')">
+          <span class="slider-val" id="rt-val">0%+</span>
+          <span class="slider-reset" onclick="resetOcena()">Ponastavi</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="rezultati-info" id="rezultati-info"></div>
+  <div id="iskanje-rezultati"></div>
+</div>
+
+<div class="overlay" id="overlay" onclick="zapriPopup()"></div>
+<div class="popup" id="popup">
+  <button class="popup-close" onclick="zapriPopup()">×</button>
+  <!-- Slika: NEO ali OMDB poster -->
+  <img id="p-slika" class="popup-slika" src="" alt="" onerror="this.style.display='none'" style="display:none">
+  <div id="p-zanr" class="popup-zanr-badge"></div>
+  <h2 id="p-naslov"></h2>
+  <div id="p-orig" class="orig-naslov"></div>
+  <div class="popup-meta">
+    <span id="p-trajanje"></span>
+    <span id="p-leto"></span>
+    <span id="p-pg"></span>
+  </div>
+  <div style="display:flex;gap:10px;margin-bottom:8px;flex-wrap:wrap;">
+    <span id="p-imdb" style="font-size:13px;font-weight:600;color:#f5c518;display:none"></span>
+    <span id="p-rt" style="font-size:13px;color:#fa320a;display:none"></span>
+  </div>
+  <div id="p-reziser" style="font-size:12px;color:#666;margin-bottom:4px;display:none"></div>
+  <div id="p-igralci" style="font-size:12px;color:#666;margin-bottom:12px;display:none"></div>
+  <!-- Opis NEO (slovenski) -->
+  <div id="p-opis-neo-wrap" style="display:none;margin-bottom:12px;">
+    <div style="font-size:10px;color:#444;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Opis (SLO)</div>
+    <div id="p-opis-neo" class="popup-opis" style="margin-bottom:0"></div>
+  </div>
+  <!-- Opis OMDB (angleški) -->
+  <div id="p-opis-omdb-wrap" style="display:none;margin-bottom:12px;">
+    <div style="font-size:10px;color:#444;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Opis (OMDB)</div>
+    <div id="p-opis-omdb" class="popup-opis" style="margin-bottom:0"></div>
+  </div>
+  <!-- Fallback če ni ne enega ne drugega -->
+  <div id="p-opis-fallback" class="popup-opis" style="display:none"></div>
+  <div class="popup-termini-naslov">Na sporedu</div>
+  <div id="p-termini"></div>
+</div>
+
+<script>
+const PX_NA_MIN = 100 / 60;
+const MESECI = ['jan','feb','mar','apr','maj','jun','jul','avg','sep','okt','nov','dec'];
+const DNEVI_KRATKO = ['Ned','Pon','Tor','Sre','Čet','Pet','Sob'];
+
+let konfig = [];          // seznam kanalov iz kanali.json
+let bazaFilmov = {};      // OMDB baza filmov
+let trenutniKanal = 'vse';
+let trenutniView = 'iskanje';
+let naloženiSporedi = {}; // { 'Kino': {kanal, oddaje, posodobljeno, ...} }
+let vsaOddaja = [];       // flat array vseh oddaj (z _kanal, _datum)
+let deduplicirani = [];   // za iskanje — 1x na naslov
+let aktivniTip = 'Film';  // default: Film
+let aktivniZanr = null;
+let aktivnaOcenaTip = 'brez';
+let aktivnaImdbMin = 0;
+let aktivnaRtMin = 0;
+let iskanjeNacin = 'vse';
+let iskanjeQuery = '';
+
+function formatDatum(d) {
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function zanrClass(kategorija, zanri) {
+  const kat = (kategorija || '').toLowerCase();
+  const z = zanri && zanri.length > 0 ? zanri[0].toLowerCase() : '';
+  if (kat.includes('serij') || kat.includes('nadalj')) return 'zanr-serija';
+  if (z.includes('akcij') || kat.includes('akcij')) return 'zanr-akcija';
+  if (z.includes('dram') || kat.includes('dram')) return 'zanr-drama';
+  if (z.includes('komedij')) return 'zanr-komedija';
+  if (z.includes('triler') || z.includes('thriller')) return 'zanr-triler';
+  if (z.includes('grozljiv') || z.includes('horror')) return 'zanr-grozljivka';
+  if (z.includes('roman')) return 'zanr-romantični';
+  if (z.includes('dokument') || kat.includes('dokument')) return 'zanr-dokumentarni';
+  return 'zanr-drugo';
+}
+
+function casVMin(cas) {
+  const [h, m] = cas.split(':').map(Number);
+  return h * 60 + m;
+}
+
+// =====================
+// INIT
+// =====================
+async function init() {
+  // Naloži bazo filmov
+  try {
+    const respBaza = await fetch('baza_filmov.json');
+    if (respBaza.ok) bazaFilmov = await respBaza.json();
+  } catch(e) {}
+
+  try {
+    const resp = await fetch('kanali.json');
+    const data = await resp.json();
+    konfig = data.kanali || [];
+  } catch(e) {
+    console.error('Napaka pri branju kanali.json:', e);
+    konfig = [];
+  }
+
+  // Zgradi gumbe kanalov dinamično
+  const bar = document.getElementById('kanali-bar');
+  konfig.forEach(k => {
+    const btn = document.createElement('button');
+    btn.className = 'kanal-btn';
+    btn.dataset.kanal = k.ime;
+    btn.textContent = k.ime;
+    btn.addEventListener('click', async function() {
+      document.querySelectorAll('.kanal-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      trenutniKanal = this.dataset.kanal;
+      aktivniTip = 'Film';
+      aktivniZanr = null;
+      aktivnaOcenaTip = 'brez';
+      iskanjeQuery = '';
+      document.getElementById('iskanje-input').value = '';
+      document.getElementById('iskanje-clear').style.display = 'none';
+      await naloziVseSporede();
+    });
+    bar.appendChild(btn);
+  });
+
+  // "Vsi kanali" gumb
+  bar.querySelector('[data-kanal="vse"]').addEventListener('click', async function() {
+    document.querySelectorAll('.kanal-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    trenutniKanal = 'vse';
+    aktivniTip = 'Film';
+    aktivniZanr = null;
+    aktivnaOcenaTip = 'brez';
+    iskanjeQuery = '';
+    document.getElementById('iskanje-input').value = '';
+    document.getElementById('iskanje-clear').style.display = 'none';
+    await naloziVseSporede();
+  });
+
+  await naloziVseSporede();
+}
+
+async function naloziVseSporede() {
+  const kanaliZaNaloz = trenutniKanal === 'vse' ? konfig : konfig.filter(k => k.ime === trenutniKanal);
+
+  for (const k of kanaliZaNaloz) {
+    if (naloženiSporedi[k.ime]) continue; // Že naložen
+    try {
+      const resp = await fetch(`sporedi/${k.ime}.json`);
+      if (resp.ok) {
+        naloženiSporedi[k.ime] = await resp.json();
+      }
+    } catch(e) {}
+  }
+
+  // Posodobljeno timestamp
+  const cas = Object.values(naloženiSporedi).map(s => s.posodobljeno).filter(Boolean).sort().pop();
+  if (cas) document.getElementById('posodobljeno-txt').textContent = `Posodobljeno: ${cas}`;
+
+  zgradiFlatArray();
+  const tipi = [...new Set(deduplicirani.map(o => o.kategorija || 'Drugo').filter(Boolean))];
+  if (!aktivniTip || !tipi.includes(aktivniTip)) {
+    aktivniTip = tipi.includes('Film') ? 'Film' : (tipi[0] || null);
+  }
+  izrisiFilterNivo1();
+  osvežiPrikaz();
+}
+
+function osvežiPrikaz() {
+  if (trenutniView === 'casovnica') izrisiCasovnico();
+  else { izrisiFilterNivo1(); }
+}
+
+// =====================
+// FLAT ARRAY + DEDUP
+// =====================
+function zgradiFlatArray() {
+  const kanali = trenutniKanal === 'vse'
+    ? Object.values(naloženiSporedi)
+    : Object.values(naloženiSporedi).filter(s => s.kanal === trenutniKanal);
+
+  vsaOddaja = [];
+  kanali.forEach(sporedi => {
+    (sporedi.oddaje || []).forEach(o => {
+      vsaOddaja.push({ ...o, _kanal: sporedi.kanal });
+    });
+  });
+
+  // Dedup po naslovu
+  const grupirani = {};
+  vsaOddaja.forEach(o => {
+    const kljuc = o.naslov_sl.toLowerCase().trim();
+    if (!grupirani[kljuc]) {
+      grupirani[kljuc] = { ...o, _termini: [] };
+    }
+    grupirani[kljuc]._termini.push({
+      kanal: o._kanal,
+      datum: o.datum,
+      dan: o.dan,
+      cas: o.cas,
+      cas_konec: o.cas_konec,
+      trajanje: o.trajanje,
+    });
+    if (!grupirani[kljuc].slika && o.slika) grupirani[kljuc].slika = o.slika;
+  });
+
+  deduplicirani = Object.values(grupirani).sort((a, b) => a.naslov_sl.localeCompare(b.naslov_sl, 'sl'));
+}
+
+// =====================
+// ČASOVNICA
+// =====================
+function izrisiCasovnico() {
+  const container = document.getElementById('timeline-container');
+  const prikazKanal = trenutniKanal === 'vse' ? (konfig[0] ? konfig[0].ime : null) : trenutniKanal;
+  if (!prikazKanal) { container.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni podatkov.</div>'; return; }
+
+  const sporedi = naloženiSporedi[prikazKanal];
+  if (!sporedi) { container.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni podatkov za ta kanal.</div>'; return; }
+
+  const now = new Date();
+  const nowMin = now.getHours() * 60 + now.getMinutes();
+  const nowLeft = nowMin * PX_NA_MIN;
+  const nowStr = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+  const danes = formatDatum(now);
+
+  // Pridobi zadnje 3 unikatne datume iz podatkov
+  const vsiDatumi = [...new Set((sporedi.oddaje || []).map(o => o.datum))].sort();
+  const prikazDatumi = vsiDatumi.slice(-3);
+
+  let html = '<div class="timeline-header">';
+  for (let h = 0; h < 24; h++) html += `<div class="hour-tick">${String(h).padStart(2,'0')}:00</div>`;
+  html += '</div>';
+
+  prikazDatumi.forEach((datStr, rowIdx) => {
+    const oddajeDan = (sporedi.oddaje || []).filter(o => o.datum === datStr);
+    const d = new Date(datStr + 'T00:00:00');
+    const jeDanes = datStr === danes;
+    const danTxt = jeDanes ? 'Danes' : DNEVI_KRATKO[d.getDay()];
+    const datTxt = `${d.getDate()}. ${MESECI[d.getMonth()]}`;
+
+    html += `<div class="timeline-row">
+      <div class="row-label">
+        <div class="rl-dan" style="color:${jeDanes ? '#e8702a' : '#ccc'}">${danTxt}</div>
+        <div class="rl-datum">${datTxt}</div>
+      </div>
+      <div class="row-track">`;
+
+    if (oddajeDan.length === 0) {
+      html += `<div class="ni-podatkov-row">Ni podatkov za ${datStr}</div>`;
+    } else {
+      oddajeDan.forEach((o, idx) => {
+        const startMin = casVMin(o.cas);
+        let endMin = casVMin(o.cas_konec);
+        if (endMin <= startMin) endMin += 1440;
+        const dur = Math.max(endMin - startMin, 10);
+        const left = startMin * PX_NA_MIN;
+        const width = dur * PX_NA_MIN - 2;
+        const cls = zanrClass(o.kategorija, o.zanr);
+        const zanrTxt = o.zanr && o.zanr.length > 0 ? o.zanr[0] : (o.kategorija || '');
+        // Najdi globalni index v vsaOddaja
+        const gIdx = vsaOddaja.findIndex(x => x._kanal === prikazKanal && x.datum === datStr && x.cas === o.cas && x.naslov_sl === o.naslov_sl);
+        html += `<div class="oddaja-blok ${cls}" style="left:${left}px;width:${width}px"
+          onclick="odpriPopupIdx(${gIdx})" title="${o.naslov_sl}">
+          <div class="b-cas">${o.cas}–${o.cas_konec}</div>
+          <div class="b-naslov">${o.naslov_sl}</div>
+          <div class="b-zanr">${zanrTxt}</div>
+        </div>`;
+      });
+      if (jeDanes) {
+        html += `<div class="now-line" style="left:${nowLeft}px"><div class="now-line-label">${nowStr}</div></div>`;
+      }
+    }
+
+    html += `</div></div>`;
+    if (rowIdx < prikazDatumi.length - 1) html += `<div class="row-separator"></div>`;
+  });
+
+  container.innerHTML = html;
+  setTimeout(() => { container.scrollLeft = Math.max(0, nowLeft - 200); }, 100);
+}
+
+// =====================
+// FILTER
+// =====================
+function izrisiFilterNivo1() {
+  const tipi = [...new Set(deduplicirani.map(o => o.kategorija || 'Drugo').filter(Boolean))].sort();
+  const tipiSorted = ['Film', ...tipi.filter(t => t !== 'Film')];
+  if (!aktivniTip || !tipi.includes(aktivniTip)) {
+    aktivniTip = tipi.includes('Film') ? 'Film' : (tipi[0] || null);
+  }
+  const row = document.getElementById('filter-nivo1-row');
+  row.innerHTML = `<span class="filter-label">Tip:</span>`;
+  tipiSorted.forEach(tip => {
+    if (!tipi.includes(tip)) return;
+    row.innerHTML += `<button class="filter-btn ${aktivniTip === tip ? 'active' : ''}" onclick="izberTip('${tip}')">${tip}</button>`;
+  });
+  if (aktivniTip) izrisiFilterNivo2(aktivniTip);
+  prikaziRezultate();
+}
+
+function izrisiFilterNivo2(tip) {
+  const wrap = document.getElementById('filter-nivo2-wrap');
+
+  if (!tip) { wrap.classList.remove('active'); prikaziRezultate(); return; }
+
+  // Žanri
+  const zanri = [...new Set(
+    deduplicirani.filter(o => (o.kategorija || 'Drugo') === tip).flatMap(o => o.zanr || []).filter(Boolean)
+  )].sort();
+
+  const row = document.getElementById('filter-zanr-row');
+  row.innerHTML = `<button class="filter-btn reset ${!aktivniZanr ? 'active' : ''}" onclick="resetZanr()">Vsi</button>`;
+  zanri.forEach(zanr => {
+    row.innerHTML += `<button class="filter-btn ${aktivniZanr === zanr ? 'active' : ''}" onclick="izberZanr('${zanr}')">${zanr}</button>`;
+  });
+
+  wrap.classList.add('active');
+  prikaziRezultate();
+}
+
+function izberTip(tip) { aktivniTip = tip; aktivniZanr = null; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
+function izberZanr(zanr) { aktivniZanr = zanr; prikaziRezultate(); }
+function resetFilter() { aktivniZanr = null; aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
+function resetZanr() { aktivniZanr = null; document.getElementById('filter-zanr-row').querySelectorAll('.filter-btn').forEach((b,i) => b.classList.toggle('active', i===0)); prikaziRezultate(); }
+
+function izberOcenaTip(tip) {
+  aktivnaOcenaTip = tip;
+  document.querySelectorAll('.ocena-toggle-btn').forEach(b => b.classList.remove('active'));
+  const btnId = tip === 'brez_ocene' ? 'ocena-btn-brez-ocene' : 'ocena-btn-' + tip;
+  document.getElementById(btnId).classList.add('active');
+  document.getElementById('slider-imdb').classList.toggle('active', tip === 'imdb');
+  document.getElementById('slider-rt').classList.toggle('active', tip === 'rt');
+  prikaziRezultate();
+}
+
+function posodobiSlider(tip) {
+  if (tip === 'imdb') {
+    aktivnaImdbMin = parseFloat(document.getElementById('imdb-slider').value);
+    document.getElementById('imdb-val').textContent = aktivnaImdbMin.toFixed(1) + '+';
+  } else {
+    aktivnaRtMin = parseInt(document.getElementById('rt-slider').value);
+    document.getElementById('rt-val').textContent = aktivnaRtMin + '%+';
+  }
+  prikaziRezultate();
+}
+
+function resetOcena() {
+  aktivnaOcenaTip = 'brez';
+  document.querySelectorAll('.ocena-toggle-btn').forEach((b,i) => b.classList.toggle('active', i===0));
+  document.getElementById('slider-imdb').classList.remove('active');
+  document.getElementById('slider-rt').classList.remove('active');
+  document.getElementById('imdb-slider').value = 0;
+  document.getElementById('rt-slider').value = 0;
+  document.getElementById('imdb-val').textContent = '0+';
+  document.getElementById('rt-val').textContent = '0%+';
+  prikaziRezultate();
+}
+
+function izberIskanjeNacin(nacin) {
+  iskanjeNacin = nacin;
+  document.getElementById('iskanje-btn-vse').classList.toggle('active', nacin === 'vse');
+  document.getElementById('iskanje-btn-naziv').classList.toggle('active', nacin === 'naziv');
+  if (iskanjeQuery) prikaziRezultate();
+}
+
+function onIskanjeInput() {
+  iskanjeQuery = document.getElementById('iskanje-input').value.trim();
+  document.getElementById('iskanje-clear').style.display = iskanjeQuery ? 'block' : 'none';
+  prikaziRezultate();
+}
+
+function pocistiIskanje() {
+  iskanjeQuery = '';
+  document.getElementById('iskanje-input').value = '';
+  document.getElementById('iskanje-clear').style.display = 'none';
+  prikaziRezultate();
+}
+
+function ujemaIskalnik(o, query) {
+  const q = query.toLowerCase();
+  if (iskanjeNacin === 'naziv') {
+    return (o.naslov_sl || '').toLowerCase().includes(q) ||
+           (o.naslov_orig || '').toLowerCase().includes(q);
+  }
+  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+  return (o.naslov_sl || '').toLowerCase().includes(q) ||
+         (o.naslov_orig || '').toLowerCase().includes(q) ||
+         (o.opis || '').toLowerCase().includes(q) ||
+         (b && b.opis_neo && b.opis_neo.toLowerCase().includes(q)) ||
+         (b && b.opis_omdb && b.opis_omdb.toLowerCase().includes(q)) ||
+         (b && b.reziser && b.reziser.toLowerCase().includes(q)) ||
+         (b && b.igralci && b.igralci.some(i => i.toLowerCase().includes(q))) ||
+         (b && b.zanr_omdb && b.zanr_omdb.some(z => z.toLowerCase().includes(q))) ||
+         (o.zanr && o.zanr.some(z => z.toLowerCase().includes(q)));
+}
+
+function karticeHtml(o, idx) {
+  const zanrTxt = o.zanr && o.zanr.length > 0 ? o.zanr[0] : (o.kategorija || '');
+  const stTerminov = o._termini ? o._termini.length : 0;
+  const terminTxt = stTerminov === 1 ? '1 termin' : `${stTerminov} termini`;
+  return `<div class="kartica" onclick="odpriPopupDedup(${idx})">
+    ${o.slika ? `<img src="${o.slika}" class="kartica-slika" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    <div class="kartica-body">
+      <div class="kartica-meta">${zanrTxt}</div>
+      <div class="kartica-naslov">${o.naslov_sl}</div>
+      ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="kartica-orig">${o.naslov_orig}</div>` : ''}
+      ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
+      ${(() => { const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto); if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h ? `<div style="margin-top:2px;">${h}</div>` : ''; })()}
+      <div class="kartica-termini">${terminTxt} na sporedu</div>
+    </div>
+  </div>`;
+}
+
+function prikaziRezultate() {
+  const container = document.getElementById('iskanje-rezultati');
+  const infoEl = document.getElementById('rezultati-info');
+
+  // Iskanje mode
+  if (iskanjeQuery.length >= 2) {
+    const vsi = [...deduplicirani].filter(o => ujemaIskalnik(o, iskanjeQuery));
+    infoEl.textContent = `${vsi.length} zadetkov za "${iskanjeQuery}"`;
+    window._filtrirane = vsi;
+
+    if (vsi.length === 0) {
+      container.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni zadetkov.</div>';
+      return;
+    }
+
+    const grupeMap = {};
+    vsi.forEach((o, idx) => {
+      const tip = o.kategorija || 'Drugo';
+      if (!grupeMap[tip]) grupeMap[tip] = [];
+      grupeMap[tip].push({ o, idx });
+    });
+
+    const tipiVrstni = Object.keys(grupeMap).sort((a, b) => {
+      if (a === aktivniTip) return -1;
+      if (b === aktivniTip) return 1;
+      return a.localeCompare(b, 'sl');
+    });
+
+    let html = '';
+    tipiVrstni.forEach(tip => {
+      html += `<div class="tip-skupina-naslov">${tip} (${grupeMap[tip].length})</div>`;
+      html += '<div class="rezultati-grid" style="margin-bottom:8px;">';
+      grupeMap[tip].forEach(({ o, idx }) => { html += karticeHtml(o, idx); });
+      html += '</div>';
+    });
+    container.innerHTML = html;
+    return;
+  }
+
+  // Filter mode
+  let filtrirane = [...deduplicirani];
+  if (aktivniTip) filtrirane = filtrirane.filter(o => (o.kategorija || 'Drugo') === aktivniTip);
+  if (aktivniZanr) filtrirane = filtrirane.filter(o => (o.zanr || []).includes(aktivniZanr));
+
+  if (aktivnaOcenaTip === 'imdb') {
+    filtrirane = filtrirane.filter(o => {
+      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+      return b && b.imdb_ocena && parseFloat(b.imdb_ocena) >= aktivnaImdbMin;
+    });
+  } else if (aktivnaOcenaTip === 'rt') {
+    filtrirane = filtrirane.filter(o => {
+      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+      if (!b || !b.rt_ocena) return false;
+      const rt = parseInt(b.rt_ocena.replace('%', ''));
+      return !isNaN(rt) && rt >= aktivnaRtMin;
+    });
+  } else if (aktivnaOcenaTip === 'brez_ocene') {
+    filtrirane = filtrirane.filter(o => {
+      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+      return !b || (!b.imdb_ocena && !b.rt_ocena);
+    });
+  }
+
+  infoEl.textContent = `${filtrirane.length} zadetkov`;
+  window._filtrirane = filtrirane;
+
+  let html = '<div class="rezultati-grid">';
+  filtrirane.forEach((o, idx) => { html += karticeHtml(o, idx); });
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+// =====================
+// POPUP
+// =====================
+function odpriPopupDedup(idx) {
+  const o = window._filtrirane[idx];
+  if (!o) return;
+  prikaziPopup(o, o._termini || []);
+}
+
+function odpriPopupIdx(gIdx) {
+  if (gIdx < 0 || gIdx >= vsaOddaja.length) return;
+  const o = vsaOddaja[gIdx];
+  const kljuc = o.naslov_sl.toLowerCase().trim();
+  const dedupO = deduplicirani.find(d => d.naslov_sl.toLowerCase().trim() === kljuc);
+  prikaziPopup(o, dedupO ? dedupO._termini : [{
+    kanal: o._kanal, datum: o.datum, dan: o.dan,
+    cas: o.cas, cas_konec: o.cas_konec, trajanje: o.trajanje
+  }]);
+}
+
+function poisciVBazi(naslov_sl, naslov_orig, leto) {
+  // Poišči film v bazi po ključu — vrni zapis tudi če ni_najden (ima NEO podatke)
+  const kljuc = (naslov_orig || naslov_sl).toLowerCase() + '_' + (leto || '');
+  if (bazaFilmov[kljuc]) return bazaFilmov[kljuc];
+  const kljucBrezLeta = (naslov_orig || naslov_sl).toLowerCase() + '_';
+  if (bazaFilmov[kljucBrezLeta]) return bazaFilmov[kljucBrezLeta];
+  return null;
+}
+
+function prikaziPopup(o, termini) {
+  document.getElementById('p-zanr').textContent = o.zanr && o.zanr.length > 0 ? o.zanr[0] : (o.kategorija || 'Oddaja');
+  document.getElementById('p-naslov').textContent = o.naslov_sl;
+  document.getElementById('p-orig').textContent = o.naslov_orig && o.naslov_orig !== o.naslov_sl ? o.naslov_orig : '';
+  document.getElementById('p-trajanje').textContent = o.trajanje || '';
+  document.getElementById('p-leto').textContent = o.leto || '';
+  document.getElementById('p-pg').textContent = o.starostna_omejitev || '';
+
+  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+
+  // Slika — prioriteta: OMDB poster, potem NEO slika, potem slika iz sporeda
+  const slika = (b && b.poster) ? b.poster : (b && b.slika_neo) ? b.slika_neo : o.slika;
+  const slikaEl = document.getElementById('p-slika');
+  if (slika) { slikaEl.src = slika; slikaEl.style.display = 'block'; }
+  else { slikaEl.style.display = 'none'; }
+
+  // IMDB ocena
+  const imdbEl = document.getElementById('p-imdb');
+  if (b && b.imdb_ocena) {
+    imdbEl.innerHTML = `<span style="color:#f5c518">&#9733;</span> ${b.imdb_ocena}/10`;
+    imdbEl.style.display = 'block';
+  } else { imdbEl.style.display = 'none'; }
+
+  // RT ocena
+  const rtEl = document.getElementById('p-rt');
+  if (b && b.rt_ocena) {
+    rtEl.textContent = `RT: ${b.rt_ocena}`;
+    rtEl.style.display = 'block';
+  } else { rtEl.style.display = 'none'; }
+
+  // Reziser
+  const rezEl = document.getElementById('p-reziser');
+  if (b && b.reziser && b.reziser !== 'N/A') {
+    rezEl.textContent = `Režiser: ${b.reziser}`;
+    rezEl.style.display = 'block';
+  } else { rezEl.style.display = 'none'; }
+
+  // Igralci
+  const igrEl = document.getElementById('p-igralci');
+  if (b && b.igralci && b.igralci.length > 0) {
+    igrEl.textContent = `Igrajo: ${b.igralci.slice(0,4).join(', ')}`;
+    igrEl.style.display = 'block';
+  } else { igrEl.style.display = 'none'; }
+
+  // Opisi — prikaži oba če obstajata
+  const opisNeo = (b && b.opis_neo) ? b.opis_neo : o.opis;
+  const opisOmdb = b && b.opis_omdb;
+
+  const neoWrap = document.getElementById('p-opis-neo-wrap');
+  const omdbWrap = document.getElementById('p-opis-omdb-wrap');
+  const fallback = document.getElementById('p-opis-fallback');
+
+  if (opisNeo && opisOmdb) {
+    document.getElementById('p-opis-neo').textContent = opisNeo;
+    document.getElementById('p-opis-omdb').textContent = opisOmdb;
+    neoWrap.style.display = 'block';
+    omdbWrap.style.display = 'block';
+    fallback.style.display = 'none';
+  } else if (opisNeo) {
+    document.getElementById('p-opis-neo').textContent = opisNeo;
+    neoWrap.style.display = 'block';
+    omdbWrap.style.display = 'none';
+    fallback.style.display = 'none';
+  } else if (opisOmdb) {
+    document.getElementById('p-opis-omdb').textContent = opisOmdb;
+    neoWrap.style.display = 'none';
+    omdbWrap.style.display = 'block';
+    fallback.style.display = 'none';
+  } else {
+    neoWrap.style.display = 'none';
+    omdbWrap.style.display = 'none';
+    fallback.textContent = 'Opis ni na voljo.';
+    fallback.style.display = 'block';
+  }
+
+  const sortirani = [...termini].sort((a, b) => (a.datum + a.cas).localeCompare(b.datum + b.cas));
+  let terminiHtml = '';
+  sortirani.forEach(t => {
+    terminiHtml += `<div class="termin-item">
+      <span class="termin-kanal">${t.kanal}</span>
+      <span class="termin-datum">${t.dan || ''} ${t.datum || ''}</span>
+      <span class="termin-cas">${t.cas} – ${t.cas_konec}</span>
+      <span class="termin-trajanje">${t.trajanje || ''}</span>
+    </div>`;
+  });
+  document.getElementById('p-termini').innerHTML = terminiHtml;
+  document.getElementById('popup').classList.add('active');
+  document.getElementById('overlay').classList.add('active');
+}
+
+function zapriPopup() {
+  document.getElementById('popup').classList.remove('active');
+  document.getElementById('overlay').classList.remove('active');
+}
+
+function posodobiUro() {
+  const now = new Date();
+  document.getElementById('now-time').textContent =
+    `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+}
+setInterval(posodobiUro, 10000);
+posodobiUro();
+
+init();
+</script>
+
+</body>
+</html>
