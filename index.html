@@ -27,8 +27,6 @@
   .filter-btn { padding: 5px 14px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #777; font-size: 12px; cursor: pointer; transition: all 0.15s; text-transform: capitalize; }
   .filter-btn:hover { background: #1e2130; color: #ccc; }
   .filter-btn.active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
-  .filter-btn.reset.active { background: #1e2130; border-color: #3a4a5a; color: #aaa; }
-  .filter-btn:not(.reset).active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
 
   .rezultati-info { font-size: 12px; color: #555; margin-bottom: 12px; }
 
@@ -158,17 +156,6 @@
 
 <div id="view-iskanje" class="main">
   <div class="filter-bar">
-    <!-- Iskalnik -->
-    <div class="iskanje-bar">
-      <div class="iskanje-nacin">
-        <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
-        <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
-      </div>
-      <div class="iskanje-input-wrap">
-        <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči po sporedu..." oninput="onIskanjeInput()">
-        <button class="iskanje-clear" id="iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
-      </div>
-    </div>
     <div class="filter-row" id="filter-nivo1-row">
       <span class="filter-label">Vrsta TV vsebine:</span>
     </div>
@@ -211,6 +198,23 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- Iskalnik (skrčen privzeto) -->
+    <div class="iskanje-bar">
+      <div class="filter-row" style="margin-bottom:0">
+        <button class="filter-btn" id="iskanje-toggle-btn" onclick="preklopiIskanjePanel()">Išči po nazivu ali opisu</button>
+      </div>
+      <div id="iskanje-panel" style="display:none;margin-top:10px">
+        <div class="iskanje-nacin">
+          <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
+          <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
+        </div>
+        <div class="iskanje-input-wrap">
+          <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči po sporedu..." oninput="onIskanjeInput()">
+          <button class="iskanje-clear" id="iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
+        </div>
+      </div>
     </div>
   </div>
   <div class="rezultati-info" id="rezultati-info"></div>
@@ -274,6 +278,7 @@ let aktivnaImdbMin = 0;
 let aktivnaRtMin = 0;
 let iskanjeNacin = 'naziv';
 let iskanjeQuery = '';
+let iskanjePanelOdprt = false;
 
 function formatDatum(d) {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -637,6 +642,18 @@ function resetOcena() {
   document.getElementById('imdb-val').textContent = '0+';
   document.getElementById('rt-val').textContent = '0%+';
   prikaziRezultate();
+}
+
+function preklopiIskanjePanel() {
+  iskanjePanelOdprt = !iskanjePanelOdprt;
+  document.getElementById('iskanje-toggle-btn').classList.toggle('active', iskanjePanelOdprt);
+  document.getElementById('iskanje-panel').style.display = iskanjePanelOdprt ? 'block' : 'none';
+  if (!iskanjePanelOdprt) {
+    iskanjeQuery = '';
+    document.getElementById('iskanje-input').value = '';
+    document.getElementById('iskanje-clear').style.display = 'none';
+    prikaziRezultate();
+  }
 }
 
 function izberIskanjeNacin(nacin) {
