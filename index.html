@@ -170,8 +170,9 @@
       </div>
     </div>
     <div class="filter-row" id="filter-nivo1-row">
-      <span class="filter-label">Tip:</span>
+      <span class="filter-label">Vrsta TV vsebine:</span>
     </div>
+    <div class="filter-row" id="tip-panel-row" style="display:none"></div>
 
     <!-- NIVO 2: Žanr + Ocena (skupaj) -->
     <div class="filter-nivo2-wrap" id="filter-nivo2-wrap">
@@ -264,6 +265,7 @@ let naloženiSporedi = {}; // { 'Kino': {kanal, oddaje, posodobljeno, ...} }
 let vsaOddaja = [];       // flat array vseh oddaj (z _kanal, _datum)
 let deduplicirani = [];   // za iskanje — 1x na naslov
 let aktivniTip = 'Film';  // default: Film
+let tipPanelOdprt = false;
 let aktivniZanr = null;
 let aktivnaOcenaTip = 'brez';
 let aktivnaImdbMin = 0;
@@ -525,13 +527,31 @@ function izrisiFilterNivo1() {
     aktivniTip = tipi.includes('Film') ? 'Film' : (tipi[0] || null);
   }
   const row = document.getElementById('filter-nivo1-row');
-  row.innerHTML = `<span class="filter-label">Tip:</span>`;
-  tipiSorted.forEach(tip => {
-    if (!tipi.includes(tip)) return;
-    row.innerHTML += `<button class="filter-btn ${aktivniTip === tip ? 'active' : ''}" onclick="izberTip('${tip}')">${tip}</button>`;
-  });
+  row.innerHTML = `<span class="filter-label">Vrsta TV vsebine:</span>`;
+  if (aktivniTip) {
+    row.innerHTML += `<button class="filter-btn active" onclick="izberTip('${aktivniTip}')">${aktivniTip}</button>`;
+  }
+  row.innerHTML += `<button class="filter-btn ${tipPanelOdprt ? 'active' : ''}" onclick="preklopiTipPanel()">Ostale TV vsebine</button>`;
+
+  const panelRow = document.getElementById('tip-panel-row');
+  panelRow.innerHTML = '';
+  if (tipPanelOdprt) {
+    tipiSorted.forEach(tip => {
+      if (!tipi.includes(tip) || tip === aktivniTip) return;
+      panelRow.innerHTML += `<button class="filter-btn" onclick="izberTip('${tip}')">${tip}</button>`;
+    });
+    panelRow.style.display = 'flex';
+  } else {
+    panelRow.style.display = 'none';
+  }
+
   if (aktivniTip) izrisiFilterNivo2(aktivniTip);
   prikaziRezultate();
+}
+
+function preklopiTipPanel() {
+  tipPanelOdprt = !tipPanelOdprt;
+  izrisiFilterNivo1();
 }
 
 function izrisiFilterNivo2(tip) {
@@ -554,7 +574,7 @@ function izrisiFilterNivo2(tip) {
   prikaziRezultate();
 }
 
-function izberTip(tip) { aktivniTip = tip; aktivniZanr = null; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
+function izberTip(tip) { aktivniTip = tip; tipPanelOdprt = false; aktivniZanr = null; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
 function izberZanr(zanr) { aktivniZanr = zanr; prikaziRezultate(); }
 function resetFilter() { aktivniZanr = null; aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
 function resetZanr() { aktivniZanr = null; document.getElementById('filter-zanr-row').querySelectorAll('.filter-btn').forEach((b,i) => b.classList.toggle('active', i===0)); prikaziRezultate(); }
