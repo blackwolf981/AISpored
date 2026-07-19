@@ -179,10 +179,11 @@
 
       <!-- Žanr -->
       <div class="filter-sekcija">
-        <div class="filter-sekcija-label">Žanr</div>
+        <div class="filter-sekcija-label" id="zanr-sekcija-label">Žanr</div>
         <div class="filter-row" id="filter-zanr-row" style="margin-bottom:0">
-          <button class="filter-btn reset active" onclick="resetZanr()">Vsi</button>
+          <button class="filter-btn reset active" onclick="resetZanr()">Vsi žanri</button>
         </div>
+        <div class="filter-row" id="zanr-panel-row" style="display:none;margin-top:8px;margin-bottom:0"></div>
       </div>
 
       <!-- Ocena -->
@@ -267,6 +268,7 @@ let deduplicirani = [];   // za iskanje — 1x na naslov
 let aktivniTip = 'Film';  // default: Film
 let tipPanelOdprt = false;
 let aktivniZanr = null;
+let zanrPanelOdprt = false;
 let aktivnaOcenaTip = 'brez';
 let aktivnaImdbMin = 0;
 let aktivnaRtMin = 0;
@@ -564,20 +566,45 @@ function izrisiFilterNivo2(tip) {
     deduplicirani.filter(o => (o.kategorija || 'Drugo') === tip).flatMap(o => o.zanr || []).filter(Boolean)
   )].sort();
 
+  const label = document.getElementById('zanr-sekcija-label');
+  if (label) label.innerHTML = `Žanr: <span style="text-transform:none">${tip}</span>`;
+
   const row = document.getElementById('filter-zanr-row');
-  row.innerHTML = `<button class="filter-btn reset ${!aktivniZanr ? 'active' : ''}" onclick="resetZanr()">Vsi</button>`;
-  zanri.forEach(zanr => {
-    row.innerHTML += `<button class="filter-btn ${aktivniZanr === zanr ? 'active' : ''}" onclick="izberZanr('${zanr}')">${zanr}</button>`;
-  });
+  if (aktivniZanr) {
+    row.innerHTML = `<button class="filter-btn active" onclick="izberZanr('${aktivniZanr}')">${aktivniZanr}</button>`;
+  } else {
+    row.innerHTML = `<button class="filter-btn reset active" onclick="resetZanr()">Vsi žanri</button>`;
+  }
+  row.innerHTML += `<button class="filter-btn ${zanrPanelOdprt ? 'active' : ''}" onclick="preklopiZanrPanel()">Ostali žanri</button>`;
+
+  const panelRow = document.getElementById('zanr-panel-row');
+  panelRow.innerHTML = '';
+  if (zanrPanelOdprt) {
+    if (aktivniZanr) {
+      panelRow.innerHTML += `<button class="filter-btn reset" onclick="resetZanr()">Vsi žanri</button>`;
+    }
+    zanri.forEach(zanr => {
+      if (zanr === aktivniZanr) return;
+      panelRow.innerHTML += `<button class="filter-btn" onclick="izberZanr('${zanr}')">${zanr}</button>`;
+    });
+    panelRow.style.display = 'flex';
+  } else {
+    panelRow.style.display = 'none';
+  }
 
   wrap.classList.add('active');
   prikaziRezultate();
 }
 
-function izberTip(tip) { aktivniTip = tip; tipPanelOdprt = false; aktivniZanr = null; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
-function izberZanr(zanr) { aktivniZanr = zanr; prikaziRezultate(); }
-function resetFilter() { aktivniZanr = null; aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
-function resetZanr() { aktivniZanr = null; document.getElementById('filter-zanr-row').querySelectorAll('.filter-btn').forEach((b,i) => b.classList.toggle('active', i===0)); prikaziRezultate(); }
+function preklopiZanrPanel() {
+  zanrPanelOdprt = !zanrPanelOdprt;
+  izrisiFilterNivo2(aktivniTip);
+}
+
+function izberTip(tip) { aktivniTip = tip; tipPanelOdprt = false; aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
+function izberZanr(zanr) { aktivniZanr = zanr; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
+function resetFilter() { aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
+function resetZanr() { aktivniZanr = null; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
 
 function izberOcenaTip(tip) {
   aktivnaOcenaTip = tip;
