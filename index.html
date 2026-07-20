@@ -766,26 +766,34 @@ function ujemaIskalnik(o, query) {
   return (o.naslov_sl || '').toLowerCase().includes(q) ||
          (o.naslov_orig || '').toLowerCase().includes(q) ||
          (o.opis || '').toLowerCase().includes(q) ||
+         (b && b.opis_sl_tmdb && b.opis_sl_tmdb.toLowerCase().includes(q)) ||
+         (b && b.opis_en_tmdb && b.opis_en_tmdb.toLowerCase().includes(q)) ||
          (b && b.opis_neo && b.opis_neo.toLowerCase().includes(q)) ||
          (b && b.opis_omdb && b.opis_omdb.toLowerCase().includes(q)) ||
+         (b && b.reziser_tmdb && b.reziser_tmdb.toLowerCase().includes(q)) ||
+         (b && b.igralci_tmdb && b.igralci_tmdb.some(i => i.toLowerCase().includes(q))) ||
          (b && b.reziser && b.reziser.toLowerCase().includes(q)) ||
          (b && b.igralci && b.igralci.some(i => i.toLowerCase().includes(q))) ||
+         (b && b.zanr_tmdb && b.zanr_tmdb.some(z => z.toLowerCase().includes(q))) ||
          (b && b.zanr_omdb && b.zanr_omdb.some(z => z.toLowerCase().includes(q))) ||
          (o.zanr && o.zanr.some(z => z.toLowerCase().includes(q)));
 }
 
 function karticeHtml(o, idx) {
+  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
   const zanrTxt = o.zanr && o.zanr.length > 0 ? o.zanr[0] : (o.kategorija || '');
   const stTerminov = o._termini ? o._termini.length : 0;
   const terminTxt = stTerminov === 1 ? '1 termin' : `${stTerminov} termini`;
+  // Slika — prioriteta: TMDb poster, potem slika iz sporeda (NEO)
+  const slikaKartica = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
   return `<div class="kartica" onclick="odpriPopupDedup(${idx})">
-    ${o.slika ? `<img src="${o.slika}" class="kartica-slika" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    ${slikaKartica ? `<img src="${slikaKartica}" class="kartica-slika" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
     <div class="kartica-body">
       <div class="kartica-meta">${zanrTxt}</div>
       <div class="kartica-naslov">${o.naslov_sl}</div>
       ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="kartica-orig">${o.naslov_orig}</div>` : ''}
       ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
-      ${(() => { const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto); if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h ? `<div style="margin-top:2px;">${h}</div>` : ''; })()}
+      ${(() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h ? `<div style="margin-top:2px;">${h}</div>` : ''; })()}
       <div class="kartica-termini">${terminTxt} na sporedu</div>
     </div>
   </div>`;
@@ -903,8 +911,8 @@ function prikaziPopup(o, termini) {
 
   const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
 
-  // Slika — prioriteta: OMDB poster, potem NEO slika, potem slika iz sporeda
-  const slika = (b && b.poster) ? b.poster : (b && b.slika_neo) ? b.slika_neo : o.slika;
+  // Slika — prioriteta: TMDb poster, potem OMDB poster, potem NEO slika, potem slika iz sporeda
+  const slika = (b && b.poster_tmdb) ? b.poster_tmdb : (b && b.poster) ? b.poster : (b && b.slika_neo) ? b.slika_neo : o.slika;
   const slikaEl = document.getElementById('p-slika');
   if (slika) { slikaEl.src = slika; slikaEl.style.display = 'block'; }
   else { slikaEl.style.display = 'none'; }
@@ -923,23 +931,26 @@ function prikaziPopup(o, termini) {
     rtEl.style.display = 'block';
   } else { rtEl.style.display = 'none'; }
 
-  // Reziser
+  // Reziser — prioriteta: TMDb, potem OMDB (staro)
   const rezEl = document.getElementById('p-reziser');
-  if (b && b.reziser && b.reziser !== 'N/A') {
-    rezEl.textContent = `Režiser: ${b.reziser}`;
+  const reziserKoncni = (b && b.reziser_tmdb) ? b.reziser_tmdb : (b && b.reziser && b.reziser !== 'N/A') ? b.reziser : '';
+  if (reziserKoncni) {
+    rezEl.textContent = `Režiser: ${reziserKoncni}`;
     rezEl.style.display = 'block';
   } else { rezEl.style.display = 'none'; }
 
-  // Igralci
+  // Igralci — prioriteta: TMDb, potem OMDB (staro)
   const igrEl = document.getElementById('p-igralci');
-  if (b && b.igralci && b.igralci.length > 0) {
-    igrEl.textContent = `Igrajo: ${b.igralci.slice(0,4).join(', ')}`;
+  const igralciKoncni = (b && b.igralci_tmdb && b.igralci_tmdb.length > 0) ? b.igralci_tmdb : (b && b.igralci) ? b.igralci : [];
+  if (igralciKoncni.length > 0) {
+    igrEl.textContent = `Igrajo: ${igralciKoncni.slice(0,4).join(', ')}`;
     igrEl.style.display = 'block';
   } else { igrEl.style.display = 'none'; }
 
-  // Opisi — prikaži oba če obstajata
-  const opisNeo = (b && b.opis_neo) ? b.opis_neo : o.opis;
-  const opisOmdb = b && b.opis_omdb;
+  // Opisi — SLO: TMDb (že vključuje Neo fallback če TMDb nima) potem stari opis_neo.
+  // ANG: TMDb original opis, potem stari OMDB opis.
+  const opisNeo = (b && b.opis_sl_tmdb) ? b.opis_sl_tmdb : (b && b.opis_neo) ? b.opis_neo : o.opis;
+  const opisOmdb = (b && b.opis_en_tmdb) ? b.opis_en_tmdb : (b && b.opis_omdb) ? b.opis_omdb : '';
 
   const neoWrap = document.getElementById('p-opis-neo-wrap');
   const omdbWrap = document.getElementById('p-opis-omdb-wrap');
