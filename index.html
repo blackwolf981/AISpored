@@ -113,7 +113,13 @@
   .popup.active { display: block; }
   .popup-close { position: absolute; top: 12px; right: 16px; background: none; border: none; color: #555; font-size: 22px; cursor: pointer; }
   .popup-close:hover { color: #fff; }
-  .popup-slika { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; }
+  .popup-slika { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; cursor: zoom-in; position: relative; }
+  .popup-slika-wrap { position: relative; }
+  .popup-slika-zoom-hint { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.55); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; pointer-events: none; }
+  .slika-lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 100; align-items: center; justify-content: center; cursor: zoom-out; }
+  .slika-lightbox.active { display: flex; }
+  .slika-lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; border-radius: 8px; }
+  .slika-lightbox-close { position: absolute; top: 16px; right: 20px; background: none; border: none; color: #fff; font-size: 32px; cursor: pointer; line-height: 1; }
   .popup-zanr-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; background: #1e2130; color: #888; margin-bottom: 8px; text-transform: capitalize; }
   .popup h2 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 4px; }
   .popup .orig-naslov { font-size: 13px; color: #555; margin-bottom: 8px; font-style: italic; }
@@ -236,7 +242,10 @@
 <div class="popup" id="popup">
   <button class="popup-close" onclick="zapriPopup()">×</button>
   <!-- Slika: NEO ali OMDB poster -->
-  <img id="p-slika" class="popup-slika" src="" alt="" onerror="this.style.display='none'" style="display:none">
+  <div id="p-slika-wrap" class="popup-slika-wrap" style="display:none">
+    <img id="p-slika" class="popup-slika" src="" alt="" onerror="this.parentElement.style.display='none'" onclick="odpriSlikoLightbox()">
+    <div class="popup-slika-zoom-hint">⛶</div>
+  </div>
   <div id="p-zanr" class="popup-zanr-badge"></div>
   <h2 id="p-naslov"></h2>
   <div id="p-orig" class="orig-naslov"></div>
@@ -256,15 +265,20 @@
     <div style="font-size:10px;color:#444;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Opis (SLO)</div>
     <div id="p-opis-neo" class="popup-opis" style="margin-bottom:0"></div>
   </div>
-  <!-- Opis OMDB (angleški) -->
+  <!-- Opis EN (TMDb) -->
   <div id="p-opis-omdb-wrap" style="display:none;margin-bottom:12px;">
-    <div style="font-size:10px;color:#444;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Opis (OMDB)</div>
+    <div style="font-size:10px;color:#444;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Opis (EN)</div>
     <div id="p-opis-omdb" class="popup-opis" style="margin-bottom:0"></div>
   </div>
   <!-- Fallback če ni ne enega ne drugega -->
   <div id="p-opis-fallback" class="popup-opis" style="display:none"></div>
   <div class="popup-termini-naslov">Na sporedu</div>
   <div id="p-termini"></div>
+</div>
+
+<div class="slika-lightbox" id="slika-lightbox" onclick="zapriSlikoLightbox()">
+  <button class="slika-lightbox-close" onclick="zapriSlikoLightbox()">×</button>
+  <img id="slika-lightbox-img" src="" alt="">
 </div>
 
 <script>
@@ -914,8 +928,9 @@ function prikaziPopup(o, termini) {
   // Slika — prioriteta: TMDb poster, potem OMDB poster, potem NEO slika, potem slika iz sporeda
   const slika = (b && b.poster_tmdb) ? b.poster_tmdb : (b && b.poster) ? b.poster : (b && b.slika_neo) ? b.slika_neo : o.slika;
   const slikaEl = document.getElementById('p-slika');
-  if (slika) { slikaEl.src = slika; slikaEl.style.display = 'block'; }
-  else { slikaEl.style.display = 'none'; }
+  const slikaWrapEl = document.getElementById('p-slika-wrap');
+  if (slika) { slikaEl.src = slika; slikaWrapEl.style.display = 'block'; }
+  else { slikaWrapEl.style.display = 'none'; }
 
   // IMDB ocena
   const imdbEl = document.getElementById('p-imdb');
@@ -997,6 +1012,17 @@ function prikaziPopup(o, termini) {
 function zapriPopup() {
   document.getElementById('popup').classList.remove('active');
   document.getElementById('overlay').classList.remove('active');
+}
+
+function odpriSlikoLightbox() {
+  const src = document.getElementById('p-slika').src;
+  if (!src) return;
+  document.getElementById('slika-lightbox-img').src = src;
+  document.getElementById('slika-lightbox').classList.add('active');
+}
+
+function zapriSlikoLightbox() {
+  document.getElementById('slika-lightbox').classList.remove('active');
 }
 
 function posodobiUro() {
