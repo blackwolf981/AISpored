@@ -19,6 +19,13 @@
   .kanal-btn.active { background: #e8702a; border-color: #e8702a; color: #fff; }
   .kanal-btn:not(.active):hover { background: #1e2130; color: #ccc; }
 
+  .dnevni-trak-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .dan-btn { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 5px 12px; border-radius: 12px; border: 1px solid #2e3148; background: transparent; color: #888; cursor: pointer; transition: all 0.15s; line-height: 1.25; user-select: none; }
+  .dan-btn:hover { background: #1e2130; color: #ccc; }
+  .dan-btn.active { background: #e8702a; border-color: #e8702a; color: #fff; }
+  .dan-ime { font-size: 12px; font-weight: 600; }
+  .dan-datum { font-size: 10px; opacity: 0.75; }
+
   .main { padding: 1.5rem; }
 
   .filter-bar { margin-bottom: 1rem; }
@@ -135,6 +142,10 @@
 </div>
 <div class="kanali-panel" id="kanali-panel" style="display:none">
   <!-- Kanali se dodajo samodejno iz kanali.json -->
+</div>
+
+<div class="dnevni-trak-bar" id="dnevni-trak">
+  <!-- Dan-gumbi se dodajo samodejno glede na naložene sporede -->
 </div>
 
 <div id="view-casovnica" class="main" style="display:none">
@@ -279,6 +290,9 @@ let aktivnaRtMin = 0;
 let iskanjeNacin = 'naziv';
 let iskanjeQuery = '';
 let iskanjePanelOdprt = false;
+let izbraniDnevi = null;  // null = vsi dnevi izbrani; sicer Set izbranih datumov (YYYY-MM-DD)
+let vsiDnevi = [];        // seznam unikatnih datumov iz trenutno naloženih sporedov, sortirano
+let danKlikTimer = null;  // debounce za ločevanje klika od dvoklika
 
 function formatDatum(d) {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -403,6 +417,7 @@ async function naloziVseSporede() {
   if (cas) document.getElementById('posodobljeno-txt').textContent = `Posodobljeno: ${cas}`;
 
   zgradiFlatArray();
+  izrisiDnevniTrak();
   const tipi = [...new Set(deduplicirani.map(o => o.kategorija || 'Drugo').filter(Boolean))];
   if (!aktivniTip || !tipi.includes(aktivniTip)) {
     aktivniTip = tipi.includes('Film') ? 'Film' : (tipi[0] || null);
@@ -448,6 +463,71 @@ function zgradiFlatArray() {
   });
 
   deduplicirani = Object.values(grupirani).sort((a, b) => a.naslov_sl.localeCompare(b.naslov_sl, 'sl'));
+}
+
+// =====================
+// DNEVNI TRAK (filter po dnevih)
+// =====================
+function izrisiDnevniTrak() {
+  vsiDnevi = [...new Set(vsaOddaja.map(o => o.datum).filter(Boolean))].sort();
+
+  // Če izbrani dnevi ne obstajajo več v podatkih (npr. spored se je pomaknil), jih očisti
+  if (izbraniDnevi) {
+    const ocisceno = new Set([...izbraniDnevi].filter(d => vsiDnevi.includes(d)));
+    izbraniDnevi = ocisceno.size === vsiDnevi.length ? null : ocisceno;
+  }
+
+  const wrap = document.getElementById('dnevni-trak');
+  if (!wrap) return;
+  if (vsiDnevi.length === 0) { wrap.innerHTML = ''; return; }
+
+  const danes = formatDatum(new Date());
+  let html = '';
+  vsiDnevi.forEach(datStr => {
+    const d = new Date(datStr + 'T00:00:00');
+    const jeDanes = datStr === danes;
+    const danTxt = jeDanes ? 'Danes' : DNEVI_KRATKO[d.getDay()];
+    const datTxt = `${d.getDate()}.${d.getMonth() + 1}.`;
+    const aktiven = jeDnevIzbran(datStr);
+    html += `<button class="dan-btn ${aktiven ? 'active' : ''}" onclick="onKlikDan('${datStr}')" ondblclick="onDvoklikDan('${datStr}')">
+      <span class="dan-ime">${danTxt}</span><span class="dan-datum">${datTxt}</span>
+    </button>`;
+  });
+  wrap.innerHTML = html;
+}
+
+function jeDnevIzbran(datStr) {
+  return izbraniDnevi === null || izbraniDnevi.has(datStr);
+}
+
+function jeVIzbranihDnevih(o) {
+  if (izbraniDnevi === null) return true;
+  return (o._termini || []).some(t => izbraniDnevi.has(t.datum));
+}
+
+function preklopiDan(datStr) {
+  if (izbraniDnevi === null) izbraniDnevi = new Set(vsiDnevi);
+  if (izbraniDnevi.has(datStr)) izbraniDnevi.delete(datStr);
+  else izbraniDnevi.add(datStr);
+  if (izbraniDnevi.size === vsiDnevi.length) izbraniDnevi = null;
+  izrisiDnevniTrak();
+  prikaziRezultate();
+}
+
+function onKlikDan(datStr) {
+  // Debounce — počaka, da vidi, ali sledi dvoklik, preden izvede enojni klik
+  if (danKlikTimer) clearTimeout(danKlikTimer);
+  danKlikTimer = setTimeout(() => {
+    preklopiDan(datStr);
+    danKlikTimer = null;
+  }, 220);
+}
+
+function onDvoklikDan(datStr) {
+  if (danKlikTimer) { clearTimeout(danKlikTimer); danKlikTimer = null; }
+  izbraniDnevi = new Set([datStr]);
+  izrisiDnevniTrak();
+  prikaziRezultate();
 }
 
 // =====================
@@ -717,7 +797,7 @@ function prikaziRezultate() {
 
   // Iskanje mode
   if (iskanjeQuery.length >= 2) {
-    const vsi = [...deduplicirani].filter(o => ujemaIskalnik(o, iskanjeQuery));
+    const vsi = [...deduplicirani].filter(o => ujemaIskalnik(o, iskanjeQuery) && jeVIzbranihDnevih(o));
     infoEl.textContent = `${vsi.length} zadetkov za "${iskanjeQuery}"`;
     window._filtrirane = vsi;
 
@@ -752,6 +832,7 @@ function prikaziRezultate() {
 
   // Filter mode
   let filtrirane = [...deduplicirani];
+  filtrirane = filtrirane.filter(jeVIzbranihDnevih);
   if (aktivniTip) filtrirane = filtrirane.filter(o => (o.kategorija || 'Drugo') === aktivniTip);
   if (aktivniZanr) filtrirane = filtrirane.filter(o => (o.zanr || []).includes(aktivniZanr));
 
