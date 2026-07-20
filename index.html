@@ -111,11 +111,11 @@
   .overlay.active { display: block; }
   .popup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #13161f; border: 1px solid #2e3148; border-radius: 12px; padding: 1.5rem; width: 500px; max-width: 95vw; max-height: 85vh; overflow-y: auto; z-index: 51; }
   .popup.active { display: block; }
-  .popup-close { position: absolute; top: 12px; right: 16px; background: none; border: none; color: #555; font-size: 22px; cursor: pointer; }
-  .popup-close:hover { color: #fff; }
-  .popup-slika { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; cursor: zoom-in; position: relative; }
+  .popup-close { position: absolute; top: 10px; right: 10px; z-index: 5; background: rgba(0,0,0,0.6); border: 2px solid rgba(255,255,255,0.25); color: #fff; font-size: 20px; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; line-height: 1; cursor: pointer; }
+  .popup-close:hover { background: rgba(0,0,0,0.85); color: #fff; }
+  .popup-slika { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; cursor: zoom-in; position: relative; display: block; }
   .popup-slika-wrap { position: relative; }
-  .popup-slika-zoom-hint { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.55); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; pointer-events: none; }
+  .popup-slika-zoom-hint { position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.55); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; pointer-events: none; }
   .slika-lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 100; align-items: center; justify-content: center; cursor: zoom-out; }
   .slika-lightbox.active { display: flex; }
   .slika-lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; border-radius: 8px; }
