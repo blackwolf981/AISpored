@@ -132,6 +132,35 @@
   .termin-datum { color: #888; }
   .termin-cas { color: #ccc; font-weight: 600; }
   .termin-trajanje { color: #555; margin-left: auto; }
+
+  /* ===== Top 9 pas ===== */
+  .top9-sekcija { padding: 1.25rem 1.5rem 0.25rem; }
+  .top9-glava { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .top9-naslov { font-size: 14px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+  .top9-caret { font-size: 10px; color: #e8702a; transition: transform 0.15s; }
+  .top9-sekcija.zvito .top9-caret { transform: rotate(-90deg); }
+  .top9-sekcija.zvito .top9-grid { display: none; }
+  .top9-podnaslov { font-size: 11px; color: #555; font-weight: 400; margin-left: 4px; }
+  .top9-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  @media (min-width: 760px) { .top9-grid { grid-template-columns: repeat(9, 1fr); } }
+  .top9-kartica { position: relative; background: #13161f; border: 1px solid #1e2130; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
+  .top9-kartica:hover { border-color: #e8702a; transform: translateY(-2px); }
+  .top9-slika { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: #1e2130; }
+  .top9-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); color: #f5c518; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
+  .top9-naslov-k { font-size: 11px; font-weight: 600; color: #fff; padding: 6px 7px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  /* ===== Gumb "Prikaži vse filme" + placeholder ===== */
+  .prikazi-vse-btn { padding: 8px 20px; border-radius: 22px; border: 1px solid #e8702a; background: #e8702a; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
+  .prikazi-vse-btn:hover { background: #d5641f; border-color: #d5641f; }
+  .mreza-placeholder { text-align: center; padding: 2.5rem 1rem; }
+  .prikazi-vse-btn.velik { padding: 12px 28px; font-size: 14px; }
+
+  /* ===== Paginacija ===== */
+  .paginacija { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 1.5rem; flex-wrap: wrap; }
+  .pag-btn { padding: 7px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #aaa; font-size: 13px; cursor: pointer; transition: all 0.15s; }
+  .pag-btn:hover:not(:disabled) { background: #1e2130; color: #fff; }
+  .pag-btn:disabled { opacity: 0.35; cursor: default; }
+  .pag-info { font-size: 12px; color: #666; min-width: 90px; text-align: center; }
 </style>
 </head>
 <body>
@@ -152,6 +181,15 @@
 
 <div class="dnevni-trak-bar" id="dnevni-trak">
   <!-- Dan-gumbi se dodajo samodejno glede na naložene sporede -->
+</div>
+
+<!-- ===== Top 9 pas ===== -->
+<div id="top9-sekcija" class="top9-sekcija">
+  <div class="top9-glava">
+    <span class="top9-naslov" onclick="preklopiTop9()"><span class="top9-caret">▼</span>Najbolje ocenjeni ta teden<span class="top9-podnaslov">po IMDB oceni</span></span>
+    <button class="prikazi-vse-btn" onclick="odpriMrezo()">Prikaži vse filme</button>
+  </div>
+  <div class="top9-grid" id="top9-grid"></div>
 </div>
 
 <div id="view-casovnica" class="main" style="display:none">
@@ -307,6 +345,9 @@ let iskanjePanelOdprt = false;
 let izbraniDnevi = null;  // null = vsi dnevi izbrani; sicer Set izbranih datumov (YYYY-MM-DD)
 let vsiDnevi = [];        // seznam unikatnih datumov iz trenutno naloženih sporedov, sortirano
 let danKlikTimer = null;  // debounce za ločevanje klika od dvoklika
+let mrezaOdprta = false;  // false = prikazan samo Top 9 + gumb; true = izrisana polna mreža
+let trenutnaStran = 1;    // paginacija mreže
+const NA_STRAN = 15;      // filmov na stran
 
 function formatDatum(d) {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -380,6 +421,10 @@ function resetFiltrovObMenjaviKanala() {
   iskanjeQuery = '';
   document.getElementById('iskanje-input').value = '';
   document.getElementById('iskanje-clear').style.display = 'none';
+  // ob menjavi kanala nazaj na hitri Top 9 pogled
+  mrezaOdprta = false;
+  trenutnaStran = 1;
+  razsiriTop9();
 }
 
 function posodobiKanaliBar() {
@@ -438,6 +483,7 @@ async function naloziVseSporede() {
   }
   izrisiFilterNivo1();
   osvežiPrikaz();
+  izberiTop9();
 }
 
 function osvežiPrikaz() {
@@ -525,6 +571,7 @@ function preklopiDan(datStr) {
   else izbraniDnevi.add(datStr);
   if (izbraniDnevi.size === vsiDnevi.length) izbraniDnevi = null;
   izrisiDnevniTrak();
+  izberiTop9();
   prikaziRezultate();
 }
 
@@ -700,12 +747,13 @@ function preklopiZanrPanel() {
   izrisiFilterNivo2(aktivniTip);
 }
 
-function izberTip(tip) { aktivniTip = tip; tipPanelOdprt = false; aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
-function izberZanr(zanr) { aktivniZanr = zanr; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
-function resetFilter() { aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
-function resetZanr() { aktivniZanr = null; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
+function izberTip(tip) { oznaciMrezoOdprto(); aktivniTip = tip; tipPanelOdprt = false; aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
+function izberZanr(zanr) { oznaciMrezoOdprto(); aktivniZanr = zanr; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
+function resetFilter() { oznaciMrezoOdprto(); aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
+function resetZanr() { oznaciMrezoOdprto(); aktivniZanr = null; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
 
 function izberOcenaTip(tip) {
+  oznaciMrezoOdprto();
   aktivnaOcenaTip = tip;
   document.querySelectorAll('.ocena-toggle-btn').forEach(b => b.classList.remove('active'));
   const btnId = tip === 'brez_ocene' ? 'ocena-btn-brez-ocene' : 'ocena-btn-' + tip;
@@ -716,6 +764,7 @@ function izberOcenaTip(tip) {
 }
 
 function posodobiSlider(tip) {
+  oznaciMrezoOdprto();
   if (tip === 'imdb') {
     aktivnaImdbMin = parseFloat(document.getElementById('imdb-slider').value);
     document.getElementById('imdb-val').textContent = aktivnaImdbMin.toFixed(1) + '+';
@@ -758,6 +807,7 @@ function izberIskanjeNacin(nacin) {
 }
 
 function onIskanjeInput() {
+  oznaciMrezoOdprto();
   iskanjeQuery = document.getElementById('iskanje-input').value.trim();
   document.getElementById('iskanje-clear').style.display = iskanjeQuery ? 'block' : 'none';
   prikaziRezultate();
@@ -801,7 +851,7 @@ function karticeHtml(o, idx) {
   // Slika — prioriteta: TMDb poster, potem slika iz sporeda (NEO)
   const slikaKartica = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
   return `<div class="kartica" onclick="odpriPopupDedup(${idx})">
-    ${slikaKartica ? `<img src="${slikaKartica}" class="kartica-slika" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    ${slikaKartica ? `<img src="${slikaKartica}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
     <div class="kartica-body">
       <div class="kartica-meta">${zanrTxt}</div>
       <div class="kartica-naslov">${o.naslov_sl}</div>
@@ -810,6 +860,79 @@ function karticeHtml(o, idx) {
       ${(() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h ? `<div style="margin-top:2px;">${h}</div>` : ''; })()}
       <div class="kartica-termini">${terminTxt} na sporedu</div>
     </div>
+  </div>`;
+}
+
+// =====================
+// TOP 9 (najbolje ocenjeni filmi ta teden po IMDB)
+// =====================
+function izberiTop9() {
+  const grid = document.getElementById('top9-grid');
+  if (!grid) return;
+  const kandidati = deduplicirani
+    .filter(o => (o.kategorija || 'Drugo') === 'Film' && jeVIzbranihDnevih(o))
+    .map(o => {
+      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+      const ocena = b && b.imdb_ocena ? parseFloat(b.imdb_ocena) : null;
+      const poster = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
+      return { o, ocena, poster };
+    })
+    .filter(x => x.ocena !== null && !isNaN(x.ocena))
+    .sort((a, b) => b.ocena - a.ocena)
+    .slice(0, 9);
+
+  window._top9 = kandidati.map(x => x.o);
+
+  if (kandidati.length === 0) { grid.innerHTML = '<div style="grid-column:1/-1;color:#444;font-size:12px;">Ni ocenjenih filmov v izbranem obdobju.</div>'; return; }
+
+  grid.innerHTML = kandidati.map((x, i) => `
+    <div class="top9-kartica" onclick="odpriTop9(${i})">
+      ${x.poster ? `<img src="${x.poster}" class="top9-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="top9-slika"></div>`}
+      <div class="top9-badge">&#9733; ${x.ocena.toFixed(1)}</div>
+      <div class="top9-naslov-k">${x.o.naslov_sl}</div>
+    </div>`).join('');
+}
+
+function odpriTop9(i) {
+  const o = (window._top9 || [])[i];
+  if (o) prikaziPopup(o, o._termini || []);
+}
+
+function skrciTop9() { document.getElementById('top9-sekcija').classList.add('zvito'); }
+function razsiriTop9() { document.getElementById('top9-sekcija').classList.remove('zvito'); }
+function preklopiTop9() { document.getElementById('top9-sekcija').classList.toggle('zvito'); }
+
+// Odpre polno mrežo (na klik gumba "Prikaži vse filme")
+function odpriMrezo() {
+  mrezaOdprta = true;
+  trenutnaStran = 1;
+  skrciTop9();
+  prikaziRezultate();
+  document.getElementById('view-iskanje').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Označi mrežo kot odprto ob spremembi filtra (funkcije filtrov same sprožijo izris)
+function oznaciMrezoOdprto() {
+  mrezaOdprta = true;
+  trenutnaStran = 1;
+  skrciTop9();
+}
+
+function naStran(n) {
+  const skupaj = (window._filtrirane || []).length;
+  const maxStran = Math.max(1, Math.ceil(skupaj / NA_STRAN));
+  trenutnaStran = Math.min(Math.max(1, n), maxStran);
+  prikaziRezultate();
+  document.getElementById('rezultati-info').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function paginacijaHtml(skupaj) {
+  const maxStran = Math.max(1, Math.ceil(skupaj / NA_STRAN));
+  if (maxStran <= 1) return '';
+  return `<div class="paginacija">
+    <button class="pag-btn" onclick="naStran(${trenutnaStran - 1})" ${trenutnaStran <= 1 ? 'disabled' : ''}>‹ Prejšnja</button>
+    <span class="pag-info">Stran ${trenutnaStran} / ${maxStran}</span>
+    <button class="pag-btn" onclick="naStran(${trenutnaStran + 1})" ${trenutnaStran >= maxStran ? 'disabled' : ''}>Naslednja ›</button>
   </div>`;
 }
 
@@ -880,9 +1003,27 @@ function prikaziRezultate() {
   infoEl.textContent = `${filtrirane.length} zadetkov`;
   window._filtrirane = filtrirane;
 
+  // Mreža zaprta → prikaži samo gumb (hitro nalaganje strani)
+  if (!mrezaOdprta) {
+    container.innerHTML = `<div class="mreza-placeholder"><button class="prikazi-vse-btn velik" onclick="odpriMrezo()">Prikaži vse filme (${filtrirane.length})</button></div>`;
+    return;
+  }
+
+  if (filtrirane.length === 0) {
+    container.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni zadetkov.</div>';
+    return;
+  }
+
+  // Paginacija — 15 na stran
+  const maxStran = Math.max(1, Math.ceil(filtrirane.length / NA_STRAN));
+  if (trenutnaStran > maxStran) trenutnaStran = maxStran;
+  const zacetek = (trenutnaStran - 1) * NA_STRAN;
+  const stran = filtrirane.slice(zacetek, zacetek + NA_STRAN);
+
   let html = '<div class="rezultati-grid">';
-  filtrirane.forEach((o, idx) => { html += karticeHtml(o, idx); });
+  stran.forEach((o, li) => { html += karticeHtml(o, zacetek + li); });
   html += '</div>';
+  html += paginacijaHtml(filtrirane.length);
   container.innerHTML = html;
 }
 
