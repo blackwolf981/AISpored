@@ -163,6 +163,15 @@
   .pag-btn:hover:not(:disabled) { background: #1e2130; color: #fff; }
   .pag-btn:disabled { opacity: 0.35; cursor: default; }
   .pag-info { font-size: 12px; color: #666; min-width: 90px; text-align: center; }
+
+  /* ===== Nalaganje (overlay pod glavo) ===== */
+  .nalaganje { position: fixed; left: 0; right: 0; bottom: 0; top: 56px; background: #0d0f18; z-index: 40; display: flex; align-items: center; justify-content: center; }
+  .nalaganje.skrito { display: none; }
+  .nalaganje-box { text-align: center; padding: 0 1.5rem; }
+  .nalaganje-spinner { width: 44px; height: 44px; border: 4px solid #1e2130; border-top-color: #e8702a; border-radius: 50%; margin: 0 auto 16px; animation: nal-spin 0.9s linear infinite; }
+  @keyframes nal-spin { to { transform: rotate(360deg); } }
+  .nalaganje-tekst { font-size: 15px; font-weight: 600; color: #fff; }
+  .nalaganje-podtekst { font-size: 12px; color: #777; margin-top: 6px; }
 </style>
 </head>
 <body>
@@ -171,6 +180,15 @@
   <h1>TV Vodič</h1>
   <span class="now-badge" id="now-time">ZDAJ</span>
   <span class="posodobljeno" id="posodobljeno-txt"></span>
+</div>
+
+<!-- ===== Nalaganje (prekrije vsebino pod glavo, dokler se podatki ne naložijo) ===== -->
+<div id="nalaganje" class="nalaganje">
+  <div class="nalaganje-box">
+    <div class="nalaganje-spinner"></div>
+    <div class="nalaganje-tekst">Nalagam TV spored…</div>
+    <div class="nalaganje-podtekst">Lahko traja do 10 sekund</div>
+  </div>
 </div>
 
 <div class="kanali-bar" id="kanali-bar">
@@ -192,7 +210,7 @@
   </div>
   <div class="top9-grid" id="top9-grid"></div>
   <div class="top9-akcija">
-    <button class="prikazi-vse-btn" onclick="odpriMrezo()">Prikaži vse filme</button>
+    <button class="prikazi-vse-btn" id="top9-prikazi-btn" onclick="odpriMrezo()">Prikaži vse filme</button>
   </div>
 </div>
 
@@ -379,40 +397,58 @@ function casVMin(cas) {
 // =====================
 // INIT
 // =====================
-async function init() {
-  // Naloži bazo filmov
-  try {
-    const respBaza = await fetch('baza_filmov.json');
-    if (respBaza.ok) bazaFilmov = await respBaza.json();
-  } catch(e) {}
-
-  try {
-    const resp = await fetch('kanali.json');
-    const data = await resp.json();
-    konfig = data.kanali || [];
-  } catch(e) {
-    console.error('Napaka pri branju kanali.json:', e);
-    konfig = [];
-  }
-
-  // Zgradi gumbe posameznih kanalov v skritem panelu ("Izberi kanale")
-  const panel = document.getElementById('kanali-panel');
-  konfig.forEach(k => {
-    const btn = document.createElement('button');
-    btn.className = 'kanal-btn active';
-    btn.dataset.kanal = k.ime;
-    btn.textContent = k.ime;
-    btn.addEventListener('click', async function() {
-      await preklopiKanal(k.ime);
-    });
-    panel.appendChild(btn);
-  });
-
-  document.getElementById('btn-vsi-kanali').addEventListener('click', izberiVsiKanali);
-  document.getElementById('btn-izberi-kanale').addEventListener('click', preklopiKanalPanel);
-
-  await naloziVseSporede();
+function skrijNalaganje() {
+  const el = document.getElementById('nalaganje');
+  if (el) el.classList.add('skrito');
 }
+
+async function init() {
+  try {
+    // Odmik overlaya točno pod glavo
+    const glava = document.querySelector('.header');
+    const overlay = document.getElementById('nalaganje');
+    if (glava && overlay) overlay.style.top = glava.offsetHeight + 'px';
+
+    // Naloži bazo filmov
+    try {
+      const respBaza = await fetch('baza_filmov.json');
+      if (respBaza.ok) bazaFilmov = await respBaza.json();
+    } catch(e) {}
+
+    try {
+      const resp = await fetch('kanali.json');
+      const data = await resp.json();
+      konfig = data.kanali || [];
+    } catch(e) {
+      console.error('Napaka pri branju kanali.json:', e);
+      konfig = [];
+    }
+
+    // Zgradi gumbe posameznih kanalov v skritem panelu ("Izberi kanale")
+    const panel = document.getElementById('kanali-panel');
+    konfig.forEach(k => {
+      const btn = document.createElement('button');
+      btn.className = 'kanal-btn active';
+      btn.dataset.kanal = k.ime;
+      btn.textContent = k.ime;
+      btn.addEventListener('click', async function() {
+        await preklopiKanal(k.ime);
+      });
+      panel.appendChild(btn);
+    });
+
+    document.getElementById('btn-vsi-kanali').addEventListener('click', izberiVsiKanali);
+    document.getElementById('btn-izberi-kanale').addEventListener('click', preklopiKanalPanel);
+
+    await naloziVseSporede();
+  } catch(e) {
+    console.error('init napaka:', e);
+  } finally {
+    skrijNalaganje();
+  }
+}
+// Varnostni izhod — če se kaj zatakne, overlay vseeno izgine
+setTimeout(skrijNalaganje, 20000);
 
 function jeKanalIzbran(ime) {
   return izbraniKanali === null || izbraniKanali.has(ime);
@@ -902,6 +938,11 @@ function odpriTop9(i) {
   if (o) prikaziPopup(o, o._termini || []);
 }
 
+function posodobiPrikaziGumb(n) {
+  const b = document.getElementById('top9-prikazi-btn');
+  if (b) b.textContent = `Prikaži vse filme (${n})`;
+}
+
 function skrciTop9() { document.getElementById('top9-sekcija').classList.add('zvito'); }
 function razsiriTop9() { document.getElementById('top9-sekcija').classList.remove('zvito'); }
 function preklopiTop9() { document.getElementById('top9-sekcija').classList.toggle('zvito'); }
@@ -948,6 +989,7 @@ function prikaziRezultate() {
   if (iskanjeQuery.length >= 2) {
     const vsi = [...deduplicirani].filter(o => ujemaIskalnik(o, iskanjeQuery) && jeVIzbranihDnevih(o));
     infoEl.textContent = `${vsi.length} zadetkov za "${iskanjeQuery}"`;
+    posodobiPrikaziGumb(vsi.length);
     window._filtrirane = vsi;
 
     if (vsi.length === 0) {
@@ -1005,6 +1047,7 @@ function prikaziRezultate() {
   }
 
   infoEl.textContent = `${filtrirane.length} zadetkov`;
+  posodobiPrikaziGumb(filtrirane.length);
   window._filtrirane = filtrirane;
 
   // Mreža zaprta → prikaži samo gumb (hitro nalaganje strani)
