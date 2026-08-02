@@ -142,7 +142,9 @@
   .top9-sekcija.zvito .top9-grid { display: none; }
   .top9-podnaslov { font-size: 11px; color: #555; font-weight: 400; margin-left: 4px; }
   .top9-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-  @media (min-width: 760px) { .top9-grid { grid-template-columns: repeat(9, 1fr); } }
+  @media (min-width: 760px) { .top9-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); } }
+  .top9-akcija { text-align: center; margin-top: 14px; }
+  .top9-sekcija.zvito .top9-akcija { display: none; }
   .top9-kartica { position: relative; background: #13161f; border: 1px solid #1e2130; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
   .top9-kartica:hover { border-color: #e8702a; transform: translateY(-2px); }
   .top9-slika { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: #1e2130; }
@@ -183,13 +185,15 @@
   <!-- Dan-gumbi se dodajo samodejno glede na naložene sporede -->
 </div>
 
-<!-- ===== Top 9 pas ===== -->
+<!-- ===== Top 15 pas ===== -->
 <div id="top9-sekcija" class="top9-sekcija">
   <div class="top9-glava">
-    <span class="top9-naslov" onclick="preklopiTop9()"><span class="top9-caret">▼</span>Najbolje ocenjeni ta teden<span class="top9-podnaslov">po IMDB oceni</span></span>
-    <button class="prikazi-vse-btn" onclick="odpriMrezo()">Prikaži vse filme</button>
+    <span class="top9-naslov" onclick="preklopiTop9()"><span class="top9-caret">▼</span>TOP 15 filmov ta teden<span class="top9-podnaslov">po IMDB oceni</span></span>
   </div>
   <div class="top9-grid" id="top9-grid"></div>
+  <div class="top9-akcija">
+    <button class="prikazi-vse-btn" onclick="odpriMrezo()">Prikaži vse filme</button>
+  </div>
 </div>
 
 <div id="view-casovnica" class="main" style="display:none">
@@ -879,7 +883,7 @@ function izberiTop9() {
     })
     .filter(x => x.ocena !== null && !isNaN(x.ocena))
     .sort((a, b) => b.ocena - a.ocena)
-    .slice(0, 9);
+    .slice(0, 15);
 
   window._top9 = kandidati.map(x => x.o);
 
