@@ -238,17 +238,25 @@
     </div>
     <div class="filter-row" id="tip-panel-row" style="display:none"></div>
 
-    <!-- NIVO 2: Žanr + Ocena (skupaj) -->
-    <div class="filter-nivo2-wrap" id="filter-nivo2-wrap">
-
-      <!-- Žanr -->
-      <div class="filter-sekcija">
-        <div class="filter-sekcija-label" id="zanr-sekcija-label">Žanr</div>
-        <div class="filter-row" id="filter-zanr-row" style="margin-bottom:0">
-          <button class="filter-btn reset active" onclick="resetZanr()">Vsi žanri</button>
-        </div>
-        <div class="filter-row" id="zanr-panel-row" style="display:none;margin-top:8px;margin-bottom:0"></div>
+    <!-- 2) ISKANJE (takoj pod Vrsta TV vsebine) -->
+    <div class="iskanje-bar">
+      <div class="filter-row" style="margin-bottom:0">
+        <button class="filter-btn" id="iskanje-toggle-btn" onclick="preklopiIskanjePanel()">Išči po nazivu ali opisu</button>
       </div>
+      <div id="iskanje-panel" style="display:none;margin-top:10px">
+        <div class="iskanje-nacin">
+          <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
+          <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
+        </div>
+        <div class="iskanje-input-wrap">
+          <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči po sporedu..." oninput="onIskanjeInput()">
+          <button class="iskanje-clear" id="iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3) OCENA + 4) ŽANR (žanr nazadnje, tik nad karticami) -->
+    <div class="filter-nivo2-wrap" id="filter-nivo2-wrap">
 
       <!-- Ocena -->
       <div class="filter-sekcija">
@@ -275,23 +283,14 @@
         </div>
       </div>
 
-    </div>
+      <!-- Žanr (multi-select, vsi žanri vidni hkrati) -->
+      <div class="filter-sekcija">
+        <div class="filter-sekcija-label" id="zanr-sekcija-label">Žanr</div>
+        <div class="filter-row" id="filter-zanr-row" style="margin-bottom:0">
+          <button class="filter-btn reset active" onclick="resetZanr()">Vsi žanri</button>
+        </div>
+      </div>
 
-    <!-- Iskalnik (skrčen privzeto) -->
-    <div class="iskanje-bar">
-      <div class="filter-row" style="margin-bottom:0">
-        <button class="filter-btn" id="iskanje-toggle-btn" onclick="preklopiIskanjePanel()">Išči po nazivu ali opisu</button>
-      </div>
-      <div id="iskanje-panel" style="display:none;margin-top:10px">
-        <div class="iskanje-nacin">
-          <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
-          <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
-        </div>
-        <div class="iskanje-input-wrap">
-          <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči po sporedu..." oninput="onIskanjeInput()">
-          <button class="iskanje-clear" id="iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
-        </div>
-      </div>
     </div>
   </div>
   <div class="rezultati-info" id="rezultati-info"></div>
@@ -356,8 +355,7 @@ let vsaOddaja = [];       // flat array vseh oddaj (z _kanal, _datum)
 let deduplicirani = [];   // za iskanje — 1x na naslov
 let aktivniTip = 'Film';  // default: Film
 let tipPanelOdprt = false;
-let aktivniZanr = null;
-let zanrPanelOdprt = false;
+let izbraniZanri = new Set();  // prazno = vsi žanri (multi-select)
 let aktivnaOcenaTip = 'brez';
 let aktivnaImdbMin = 0;
 let aktivnaRtMin = 0;
@@ -456,7 +454,7 @@ function jeKanalIzbran(ime) {
 
 function resetFiltrovObMenjaviKanala() {
   aktivniTip = 'Film';
-  aktivniZanr = null;
+  izbraniZanri.clear();
   aktivnaOcenaTip = 'brez';
   iskanjeQuery = '';
   document.getElementById('iskanje-input').value = '';
@@ -755,42 +753,32 @@ function izrisiFilterNivo2(tip) {
   const label = document.getElementById('zanr-sekcija-label');
   if (label) label.innerHTML = `Žanr: <span style="text-transform:none">${tip}</span>`;
 
+  // Multi-select: "Vsi žanri" + vsi žanri hkrati vidni; klik = toggle
   const row = document.getElementById('filter-zanr-row');
-  if (aktivniZanr) {
-    row.innerHTML = `<button class="filter-btn active" onclick="izberZanr('${aktivniZanr}')">${aktivniZanr}</button>`;
-  } else {
-    row.innerHTML = `<button class="filter-btn reset active" onclick="resetZanr()">Vsi žanri</button>`;
-  }
-  row.innerHTML += `<button class="filter-btn ${zanrPanelOdprt ? 'active' : ''}" onclick="preklopiZanrPanel()">Ostali žanri</button>`;
-
-  const panelRow = document.getElementById('zanr-panel-row');
-  panelRow.innerHTML = '';
-  if (zanrPanelOdprt) {
-    if (aktivniZanr) {
-      panelRow.innerHTML += `<button class="filter-btn reset" onclick="resetZanr()">Vsi žanri</button>`;
-    }
-    zanri.forEach(zanr => {
-      if (zanr === aktivniZanr) return;
-      panelRow.innerHTML += `<button class="filter-btn" onclick="izberZanr('${zanr}')">${zanr}</button>`;
-    });
-    panelRow.style.display = 'flex';
-  } else {
-    panelRow.style.display = 'none';
-  }
+  // odstrani žanre, ki jih trenutni tip nima (npr. ob menjavi tipa)
+  [...izbraniZanri].forEach(z => { if (!zanri.includes(z)) izbraniZanri.delete(z); });
+  let html = `<button class="filter-btn reset ${izbraniZanri.size === 0 ? 'active' : ''}" onclick="resetZanr()">Vsi žanri</button>`;
+  zanri.forEach(zanr => {
+    const aktiven = izbraniZanri.has(zanr);
+    html += `<button class="filter-btn ${aktiven ? 'active' : ''}" onclick="preklopiZanr('${zanr.replace(/'/g, "\\'")}')">${zanr}</button>`;
+  });
+  row.innerHTML = html;
 
   wrap.classList.add('active');
   prikaziRezultate();
 }
 
-function preklopiZanrPanel() {
-  zanrPanelOdprt = !zanrPanelOdprt;
+// Toggle posameznega žanra (multi-select); prazen izbor = vsi žanri
+function preklopiZanr(zanr) {
+  oznaciMrezoOdprto();
+  if (izbraniZanri.has(zanr)) izbraniZanri.delete(zanr);
+  else izbraniZanri.add(zanr);
   izrisiFilterNivo2(aktivniTip);
 }
 
-function izberTip(tip) { oznaciMrezoOdprto(); aktivniTip = tip; tipPanelOdprt = false; aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
-function izberZanr(zanr) { oznaciMrezoOdprto(); aktivniZanr = zanr; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
-function resetFilter() { oznaciMrezoOdprto(); aktivniZanr = null; zanrPanelOdprt = false; aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
-function resetZanr() { oznaciMrezoOdprto(); aktivniZanr = null; zanrPanelOdprt = false; izrisiFilterNivo2(aktivniTip); }
+function izberTip(tip) { oznaciMrezoOdprto(); aktivniTip = tip; tipPanelOdprt = false; izbraniZanri.clear(); aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
+function resetFilter() { oznaciMrezoOdprto(); izbraniZanri.clear(); aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
+function resetZanr() { oznaciMrezoOdprto(); izbraniZanri.clear(); izrisiFilterNivo2(aktivniTip); }
 
 function izberOcenaTip(tip) {
   oznaciMrezoOdprto();
@@ -1025,7 +1013,7 @@ function prikaziRezultate() {
   let filtrirane = [...deduplicirani];
   filtrirane = filtrirane.filter(jeVIzbranihDnevih);
   if (aktivniTip) filtrirane = filtrirane.filter(o => (o.kategorija || 'Drugo') === aktivniTip);
-  if (aktivniZanr) filtrirane = filtrirane.filter(o => (o.zanr || []).includes(aktivniZanr));
+  if (izbraniZanri.size > 0) filtrirane = filtrirane.filter(o => (o.zanr || []).some(z => izbraniZanri.has(z)));
 
   if (aktivnaOcenaTip === 'imdb') {
     filtrirane = filtrirane.filter(o => {
