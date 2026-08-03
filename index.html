@@ -8,10 +8,33 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #0d0f18; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
 
-  .header { background: #13161f; border-bottom: 1px solid #252838; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 1rem; }
+  .header { background: #13161f; border-bottom: 1px solid #252838; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 0.75rem 1rem; flex-wrap: wrap; }
   .header h1 { font-size: 20px; font-weight: 600; color: #fff; }
-  .now-badge { background: #e8702a; color: #fff; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
-  .posodobljeno { font-size: 11px; color: #444; margin-left: auto; }
+  .header h1 .glava-tip { color: #e8702a; text-transform: uppercase; }
+  .glava-tip-btn { background: transparent; border: 1px solid #6e4a28; color: #e8702a; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 20px; cursor: pointer; transition: all 0.15s; }
+  .glava-tip-btn:hover { background: #241a10; border-color: #e8702a; }
+  .now-badge { background: #e8702a; color: #fff; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-left: auto; }
+  .posodobljeno { font-size: 11px; color: #6a6f80; }
+
+  .tip-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 60; display: none; }
+  .tip-overlay.active { display: block; }
+  .tip-popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #13161f; border: 1px solid #2e3148; border-radius: 12px; padding: 20px; z-index: 61; width: min(340px, 90vw); display: none; }
+  .tip-popup.active { display: block; }
+  .tip-popup-naslov { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 14px; }
+  .tip-popup-gumbi { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+  .tip-popup-gumb { padding: 10px 14px; border-radius: 8px; border: 1px solid #2e3148; background: transparent; color: #aab; font-size: 14px; cursor: pointer; text-align: left; transition: all 0.15s; }
+  .tip-popup-gumb:hover { background: #1e2130; color: #fff; }
+  .tip-popup-gumb.active { background: #e8702a; border-color: #e8702a; color: #fff; }
+  .tip-popup-zapri { width: 100%; padding: 9px; border-radius: 8px; border: 1px solid #2e3148; background: #0f1220; color: #888; font-size: 13px; cursor: pointer; }
+  .tip-popup-zapri:hover { color: #ccc; border-color: #4a4f66; }
+
+  .filtriraj-naslov { font-size: 12px; color: #8a8f9e; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #1e2130; }
+  .filtriraj-naslov .ft-tip { color: #e8702a; font-weight: 700; text-transform: uppercase; }
+
+  #top9-sekcija { background: #171208; border-left: 3px solid #e8702a; }
+  #view-iskanje { background: #0f1119; border-top: 2px solid #252838; }
+  #prih-top-sekcija { background: #111527; border-left: 3px solid #7c83ff; }
+  #prih-mreza-wrap { background: #0d0f1c; }
 
   .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
   .kanali-panel { background: #0f1220; padding: 0.75rem 1.5rem; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
@@ -177,9 +200,17 @@
 <body>
 
 <div class="header">
-  <h1>TV Vodič</h1>
-  <span class="now-badge" id="now-time">ZDAJ</span>
+  <h1>TV vodič: <span class="glava-tip" id="glava-tip">Film</span></h1>
   <span class="posodobljeno" id="posodobljeno-txt"></span>
+  <button class="glava-tip-btn" id="glava-tip-btn" onclick="odpriTipPopup()">Izberi drugo TV vsebino</button>
+  <span class="now-badge" id="now-time">ZDAJ</span>
+</div>
+
+<div class="tip-overlay" id="tip-overlay" onclick="zapriTipPopup()"></div>
+<div class="tip-popup" id="tip-popup">
+  <div class="tip-popup-naslov">Izberi vrsto TV vsebine</div>
+  <div class="tip-popup-gumbi" id="tip-popup-gumbi"></div>
+  <button class="tip-popup-zapri" onclick="zapriTipPopup()">Zapri</button>
 </div>
 
 <!-- ===== Nalaganje (prekrije vsebino pod glavo, dokler se podatki ne naložijo) ===== -->
@@ -233,10 +264,7 @@
 
 <div id="view-iskanje" class="main">
   <div class="filter-bar">
-    <div class="filter-row" id="filter-nivo1-row">
-      <span class="filter-label">Vrsta TV vsebine:</span>
-    </div>
-    <div class="filter-row" id="tip-panel-row" style="display:none"></div>
+    <!-- Vrsta TV vsebine je preseljena v glavo strani (gumb "Izberi drugo TV vsebino") -->
 
     <!-- 2) ISKANJE (takoj pod Vrsta TV vsebine) -->
     <div class="iskanje-bar">
@@ -257,6 +285,8 @@
 
     <!-- 3) OCENA + 4) ŽANR (žanr nazadnje, tik nad karticami) -->
     <div class="filter-nivo2-wrap" id="filter-nivo2-wrap">
+
+      <div class="filtriraj-naslov" id="filtriraj-naslov"><span class="ft-tip">Film</span> · FILTRIRAJ: žanr in IMDB / Rotten Tomatoes ocena filma</div>
 
       <!-- Ocena -->
       <div class="filter-sekcija">
@@ -753,36 +783,41 @@ function izrisiCasovnico() {
 // =====================
 function izrisiFilterNivo1() {
   const tipi = [...new Set(deduplicirani.map(o => o.kategorija || 'Drugo').filter(Boolean))].sort();
-  const tipiSorted = ['Film', ...tipi.filter(t => t !== 'Film')];
   if (!aktivniTip || !tipi.includes(aktivniTip)) {
     aktivniTip = tipi.includes('Film') ? 'Film' : (tipi[0] || null);
   }
-  const row = document.getElementById('filter-nivo1-row');
-  row.innerHTML = `<span class="filter-label">Vrsta TV vsebine:</span>`;
-  if (aktivniTip) {
-    row.innerHTML += `<button class="filter-btn active" onclick="izberTip('${aktivniTip}')">${aktivniTip}</button>`;
-  }
-  row.innerHTML += `<button class="filter-btn ${tipPanelOdprt ? 'active' : ''}" onclick="preklopiTipPanel()">Ostale TV vsebine</button>`;
-
-  const panelRow = document.getElementById('tip-panel-row');
-  panelRow.innerHTML = '';
-  if (tipPanelOdprt) {
-    tipiSorted.forEach(tip => {
-      if (!tipi.includes(tip) || tip === aktivniTip) return;
-      panelRow.innerHTML += `<button class="filter-btn" onclick="izberTip('${tip}')">${tip}</button>`;
-    });
-    panelRow.style.display = 'flex';
-  } else {
-    panelRow.style.display = 'none';
-  }
-
+  posodobiGlavoTip();
   if (aktivniTip) izrisiFilterNivo2(aktivniTip);
   prikaziRezultate();
 }
 
-function preklopiTipPanel() {
-  tipPanelOdprt = !tipPanelOdprt;
-  izrisiFilterNivo1();
+// Posodobi aktivno vrsto v glavi ("TV vodič: FILMI") in v naslovu filtra ("FILMI · FILTRIRAJ ...").
+function posodobiGlavoTip() {
+  const t = aktivniTip || 'Film';
+  const g = document.getElementById('glava-tip');
+  if (g) g.textContent = t;
+  const ft = document.querySelector('#filtriraj-naslov .ft-tip');
+  if (ft) ft.textContent = t;
+}
+
+// Popup za izbor vrste TV vsebine (odpre se iz gumba v glavi)
+function odpriTipPopup() {
+  const tipi = [...new Set(deduplicirani.map(o => o.kategorija || 'Drugo').filter(Boolean))];
+  const tipiSorted = ['Film', ...tipi.filter(t => t !== 'Film')].filter(t => tipi.includes(t));
+  const wrap = document.getElementById('tip-popup-gumbi');
+  wrap.innerHTML = tipiSorted.map(t =>
+    `<button class="tip-popup-gumb ${t === aktivniTip ? 'active' : ''}" onclick="izberTipIzPopupa('${t.replace(/'/g, "\\'")}')">${t}</button>`
+  ).join('');
+  document.getElementById('tip-overlay').classList.add('active');
+  document.getElementById('tip-popup').classList.add('active');
+}
+function zapriTipPopup() {
+  document.getElementById('tip-overlay').classList.remove('active');
+  document.getElementById('tip-popup').classList.remove('active');
+}
+function izberTipIzPopupa(tip) {
+  izberTip(tip);
+  zapriTipPopup();
 }
 
 function izrisiFilterNivo2(tip) {
