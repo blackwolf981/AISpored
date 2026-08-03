@@ -31,6 +31,10 @@
   .filtriraj-naslov { font-size: 12px; color: #8a8f9e; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #1e2130; }
   .filtriraj-naslov .ft-tip { color: #e8702a; font-weight: 700; text-transform: uppercase; }
 
+  .global-iskanje-bar { background: #13161f; padding: 0.75rem 1.5rem; border-bottom: 1px solid #1e2130; }
+  .global-iskanje-bar .iskanje-nacin { margin-bottom: 8px; }
+  .isk-prihaja-badge { position: absolute; top: 6px; right: 6px; background: #7c83ff; color: #fff; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.5px; z-index: 2; }
+
   #top9-sekcija { background: #171208; border-left: 3px solid #e8702a; }
   #view-iskanje { background: #0f1119; border-top: 2px solid #252838; }
   #prih-top-sekcija { background: #111527; border-left: 3px solid #7c83ff; }
@@ -234,6 +238,18 @@
   <!-- Dan-gumbi se dodajo samodejno glede na naložene sporede -->
 </div>
 
+<!-- ===== Globalni iskalnik (čez vse: na sporedu + prihajajoči, znotraj izbrane vrste) ===== -->
+<div class="global-iskanje-bar">
+  <div class="iskanje-nacin">
+    <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
+    <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
+  </div>
+  <div class="iskanje-input-wrap">
+    <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči — na sporedu in prihajajoči…" oninput="onIskanjeInput()">
+    <button class="iskanje-clear" id="iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
+  </div>
+</div>
+
 <!-- ===== Top 15 pas ===== -->
 <div id="top9-sekcija" class="top9-sekcija">
   <div class="top9-glava">
@@ -263,27 +279,10 @@
 </div>
 
 <div id="view-iskanje" class="main">
-  <div class="filter-bar">
-    <!-- Vrsta TV vsebine je preseljena v glavo strani (gumb "Izberi drugo TV vsebino") -->
+  <div class="filter-bar" id="filter-bar">
+    <!-- Vrsta TV vsebine je v glavi; iskalnik je globalen (pod dnevnim trakom). -->
 
-    <!-- 2) ISKANJE (takoj pod Vrsta TV vsebine) -->
-    <div class="iskanje-bar">
-      <div class="filter-row" style="margin-bottom:0">
-        <button class="filter-btn" id="iskanje-toggle-btn" onclick="preklopiIskanjePanel()">Išči po nazivu ali opisu</button>
-      </div>
-      <div id="iskanje-panel" style="display:none;margin-top:10px">
-        <div class="iskanje-nacin">
-          <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
-          <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
-        </div>
-        <div class="iskanje-input-wrap">
-          <input type="text" class="iskanje-input" id="iskanje-input" placeholder="Išči po sporedu..." oninput="onIskanjeInput()">
-          <button class="iskanje-clear" id="iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- 3) OCENA + 4) ŽANR (žanr nazadnje, tik nad karticami) -->
+    <!-- OCENA + ŽANR (žanr nazadnje, tik nad karticami) -->
     <div class="filter-nivo2-wrap" id="filter-nivo2-wrap">
 
       <div class="filtriraj-naslov" id="filtriraj-naslov"><span class="ft-tip">Film</span> · FILTRIRAJ: žanr in IMDB / Rotten Tomatoes ocena filma</div>
@@ -798,6 +797,8 @@ function posodobiGlavoTip() {
   if (g) g.textContent = t;
   const ft = document.querySelector('#filtriraj-naslov .ft-tip');
   if (ft) ft.textContent = t;
+  const inp = document.getElementById('iskanje-input');
+  if (inp) inp.placeholder = `Išči med: ${t.toUpperCase()} — na sporedu in prihajajoči…`;
 }
 
 // Popup za izbor vrste TV vsebine (odpre se iz gumba v glavi)
@@ -895,18 +896,6 @@ function resetOcena() {
   prikaziRezultate();
 }
 
-function preklopiIskanjePanel() {
-  iskanjePanelOdprt = !iskanjePanelOdprt;
-  document.getElementById('iskanje-toggle-btn').classList.toggle('active', iskanjePanelOdprt);
-  document.getElementById('iskanje-panel').style.display = iskanjePanelOdprt ? 'block' : 'none';
-  if (!iskanjePanelOdprt) {
-    iskanjeQuery = '';
-    document.getElementById('iskanje-input').value = '';
-    document.getElementById('iskanje-clear').style.display = 'none';
-    prikaziRezultate();
-  }
-}
-
 function izberIskanjeNacin(nacin) {
   iskanjeNacin = nacin;
   document.getElementById('iskanje-btn-vse').classList.toggle('active', nacin === 'vse');
@@ -915,7 +904,6 @@ function izberIskanjeNacin(nacin) {
 }
 
 function onIskanjeInput() {
-  oznaciMrezoOdprto();
   iskanjeQuery = document.getElementById('iskanje-input').value.trim();
   document.getElementById('iskanje-clear').style.display = iskanjeQuery ? 'block' : 'none';
   prikaziRezultate();
@@ -967,6 +955,32 @@ function karticeHtml(o, idx) {
       ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
       ${(() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h ? `<div style="margin-top:2px;">${h}</div>` : ''; })()}
       <div class="kartica-termini">${terminTxt} na sporedu</div>
+    </div>
+  </div>`;
+}
+
+// Kartica za rezultate globalnega iskanja: prihajajoči filmi obdržijo PRIHAJA značko + countdown.
+function iskanjeKarticaHtml(o, idx) {
+  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+  const zanrTxt = o.zanr && o.zanr.length > 0 ? o.zanr[0] : (o.kategorija || '');
+  const slika = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
+  const prih = imaPrihodnjiTermin(o);
+  const dt = prih ? prvaPrihodnjaO(o) : null;
+  const ts = dt ? dt.getTime() : 0;
+  const stTerminov = o._termini ? o._termini.length : 0;
+  const oceneHtml = (() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h; })();
+  return `<div class="kartica" onclick="odpriPopupDedup(${idx})" style="position:relative">
+    ${prih ? `<span class="isk-prihaja-badge">PRIHAJA</span>` : ''}
+    ${slika ? `<img src="${slika}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    <div class="kartica-body">
+      <div class="kartica-meta">${zanrTxt}</div>
+      <div class="kartica-naslov">${o.naslov_sl}</div>
+      ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="kartica-orig">${o.naslov_orig}</div>` : ''}
+      ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
+      ${oceneHtml ? `<div style="margin-top:2px;">${oceneHtml}</div>` : ''}
+      ${prih
+        ? `<div class="kartica-termini prih-countdown-inline js-countdown" data-ts="${ts}">—</div>`
+        : `<div class="kartica-termini">${stTerminov === 1 ? '1 termin' : stTerminov + ' termini'} na sporedu</div>`}
     </div>
   </div>`;
 }
@@ -1053,39 +1067,33 @@ function prikaziRezultate() {
   const container = document.getElementById('iskanje-rezultati');
   const infoEl = document.getElementById('rezultati-info');
 
-  // Iskanje mode
-  if (iskanjeQuery.length >= 2) {
-    const vsi = [...deduplicirani].filter(o => ujemaIskalnik(o, iskanjeQuery) && jeVIzbranihDnevih(o));
-    infoEl.textContent = `${vsi.length} zadetkov za "${iskanjeQuery}"`;
-    posodobiPrikaziGumb(vsi.length);
+  // Globalni iskalnik je aktiven pri >=2 znakih. Takrat skrijemo oddelke
+  // (TOP 15, prihajajoči, filtri ta teden) in pokažemo en združen seznam.
+  const iscem = iskanjeQuery.length >= 2;
+  const t9 = document.getElementById('top9-sekcija');
+  const prihSek = document.getElementById('prihajajoci-sekcija');
+  const fbar = document.getElementById('filter-bar');
+  if (t9) t9.style.display = iscem ? 'none' : '';
+  if (fbar) fbar.style.display = iscem ? 'none' : '';
+  if (prihSek) prihSek.style.display = iscem ? 'none' : (prihBandData.length > 0 ? '' : 'none');
+
+  // Iskanje mode — znotraj izbrane vrste (aktivniTip), čez ves čas (ta teden + prihajajoči)
+  if (iscem) {
+    const vsi = deduplicirani
+      .filter(o => (o.kategorija || 'Drugo') === aktivniTip && ujemaIskalnik(o, iskanjeQuery))
+      .sort((a, b) => a.naslov_sl.localeCompare(b.naslov_sl, 'sl'));
+    infoEl.textContent = `${vsi.length} zadetkov za "${iskanjeQuery}" — ${aktivniTip || ''} (na sporedu + prihajajoči)`;
     window._filtrirane = vsi;
 
     if (vsi.length === 0) {
       container.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni zadetkov.</div>';
       return;
     }
-
-    const grupeMap = {};
-    vsi.forEach((o, idx) => {
-      const tip = o.kategorija || 'Drugo';
-      if (!grupeMap[tip]) grupeMap[tip] = [];
-      grupeMap[tip].push({ o, idx });
-    });
-
-    const tipiVrstni = Object.keys(grupeMap).sort((a, b) => {
-      if (a === aktivniTip) return -1;
-      if (b === aktivniTip) return 1;
-      return a.localeCompare(b, 'sl');
-    });
-
-    let html = '';
-    tipiVrstni.forEach(tip => {
-      html += `<div class="tip-skupina-naslov">${tip} (${grupeMap[tip].length})</div>`;
-      html += '<div class="rezultati-grid" style="margin-bottom:8px;">';
-      grupeMap[tip].forEach(({ o, idx }) => { html += karticeHtml(o, idx); });
-      html += '</div>';
-    });
+    let html = '<div class="rezultati-grid">';
+    vsi.forEach((o, idx) => { html += iskanjeKarticaHtml(o, idx); });
+    html += '</div>';
     container.innerHTML = html;
+    osveziCountdowne();
     return;
   }
 
@@ -1259,9 +1267,6 @@ function izrisiPrihFilter() {
   bar.innerHTML = `
     <div class="filter-row"><span class="filter-label">Vrsta:</span>
       ${tipi.map(t => `<button class="filter-btn ${t === p_tip ? 'active' : ''}" onclick="prihIzberTip('${esc(t)}')">${t}</button>`).join('')}
-    </div>
-    <div class="iskanje-input-wrap" style="margin:10px 0">
-      <input type="text" class="iskanje-input" id="prih-iskanje" placeholder="Išči med prihajajočimi..." value="${p_iskanje.replace(/"/g, '&quot;')}" oninput="prihOnIskanje()">
     </div>
     <div class="filter-sekcija">
       <div class="filter-sekcija-label">Ocena — IMDB najmanj: <span id="prih-imdb-val">${p_imdbMin}+</span></div>
