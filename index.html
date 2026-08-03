@@ -270,7 +270,7 @@
   <!-- poddelek: TOP 15 -->
   <div id="top9-sekcija" class="top9-sekcija">
     <div class="top9-glava">
-      <span class="top9-naslov" onclick="preklopiTop9()"><span class="top9-caret">▼</span>TOP 15 filmov ta teden<span class="top9-podnaslov">po IMDB oceni</span></span>
+      <span class="top9-naslov" onclick="preklopiTop9()"><span class="top9-caret">▼</span>TOP 15 ta teden<span class="top9-podnaslov">po IMDB oceni</span></span>
     </div>
     <div class="top9-grid" id="top9-grid"></div>
   </div>
@@ -278,51 +278,14 @@
   <!-- poddelek: Vsi filmi ta teden -->
   <div id="view-iskanje" class="main">
     <div class="poddelek-naslov">Vsi filmi ta teden</div>
-    <div class="filter-bar" id="filter-bar">
-    <!-- Vrsta TV vsebine je v glavi; iskalnik je globalen (pod dnevnim trakom). -->
-
-    <!-- OCENA + ŽANR (žanr nazadnje, tik nad karticami) -->
-    <div class="filter-nivo2-wrap" id="filter-nivo2-wrap">
-
-      <div class="filtriraj-naslov" id="filtriraj-naslov"><span class="ft-tip">Film</span> · FILTRIRAJ: žanr in IMDB / Rotten Tomatoes ocena filma</div>
-
-      <!-- Ocena -->
-      <div class="filter-sekcija">
-        <div class="filter-sekcija-label">Ocena</div>
-        <div class="ocena-toggle">
-          <button class="ocena-toggle-btn active" id="ocena-btn-brez" onclick="izberOcenaTip('brez')">Brez filtra</button>
-          <button class="ocena-toggle-btn" id="ocena-btn-imdb" onclick="izberOcenaTip('imdb')">IMDB</button>
-          <button class="ocena-toggle-btn" id="ocena-btn-rt" onclick="izberOcenaTip('rt')">Rotten Tomatoes</button>
-          <button class="ocena-toggle-btn" id="ocena-btn-brez-ocene" onclick="izberOcenaTip('brez_ocene')">Brez ocene</button>
-        </div>
-        <div class="slider-wrap" id="slider-imdb">
-          <span style="font-size:12px;color:#666;width:40px">IMDB</span>
-          <input type="range" id="imdb-slider" min="0" max="10" step="0.5" value="0"
-            oninput="posodobiSlider('imdb')">
-          <span class="slider-val" id="imdb-val">0+</span>
-          <span class="slider-reset" onclick="resetOcena()">Ponastavi</span>
-        </div>
-        <div class="slider-wrap" id="slider-rt">
-          <span style="font-size:12px;color:#666;width:40px">RT</span>
-          <input type="range" id="rt-slider" min="0" max="100" step="5" value="0"
-            oninput="posodobiSlider('rt')">
-          <span class="slider-val" id="rt-val">0%+</span>
-          <span class="slider-reset" onclick="resetOcena()">Ponastavi</span>
-        </div>
+    <div id="tateden-placeholder"><button class="prikazi-vse-btn velik" id="tateden-prikazi-btn" onclick="odpriMrezo()">Prikaži vse filme ta teden</button></div>
+    <div id="tateden-vsebina" style="display:none">
+      <div class="filter-bar" id="filter-bar">
+        <div class="filter-nivo2-wrap active" id="ta-filter"></div>
       </div>
-
-      <!-- Žanr (multi-select, vsi žanri vidni hkrati) -->
-      <div class="filter-sekcija">
-        <div class="filter-sekcija-label" id="zanr-sekcija-label">Žanr</div>
-        <div class="filter-row" id="filter-zanr-row" style="margin-bottom:0">
-          <button class="filter-btn reset active" onclick="resetZanr()">Vsi žanri</button>
-        </div>
-      </div>
-
+      <div class="rezultati-info" id="rezultati-info"></div>
+      <div id="iskanje-rezultati"></div>
     </div>
-  </div>
-    <div class="rezultati-info" id="rezultati-info"></div>
-    <div id="iskanje-rezultati"></div>
   </div>
 </div>
 <!-- /GLAVNI ODDELEK 1 -->
@@ -347,7 +310,7 @@
   <!-- poddelek: TOP 15 prihajajoči -->
   <div class="top9-sekcija prih-top" id="prih-top-sekcija">
     <div class="top9-glava">
-      <span class="top9-naslov" onclick="preklopiPrihTop()"><span class="top9-caret">▼</span>TOP 15 prihajajočih filmov<span class="top9-podnaslov">še niso na sporedu · po IMDB</span></span>
+      <span class="top9-naslov" onclick="preklopiPrihTop()"><span class="top9-caret">▼</span>TOP 15 prihajajoči<span class="top9-podnaslov">še niso na sporedu · po IMDB</span></span>
     </div>
     <div class="top9-grid" id="prih-top-grid"></div>
   </div>
@@ -544,14 +507,18 @@ function jeKanalIzbran(ime) {
 
 function resetFiltrovObMenjaviKanala() {
   aktivniTip = 'Film';
-  izbraniZanri.clear();
-  aktivnaOcenaTip = 'brez';
+  ponastaviFiltre();
   iskanjeQuery = '';
   document.getElementById('iskanje-input').value = '';
   document.getElementById('iskanje-clear').style.display = 'none';
-  // ob menjavi kanala nazaj na hitri Top 9 pogled
+  // ob menjavi kanala nazaj na "samo gumb" pogled obeh oddelkov
   mrezaOdprta = false;
+  p_odprta = false;
   trenutnaStran = 1;
+  const ph = document.getElementById('tateden-placeholder'); if (ph) ph.style.display = '';
+  const vs = document.getElementById('tateden-vsebina'); if (vs) vs.style.display = 'none';
+  const pph = document.getElementById('prih-placeholder'); if (pph) pph.style.display = '';
+  const pvs = document.getElementById('prih-vsebina'); if (pvs) pvs.style.display = 'none';
   razsiriTop9();
 }
 
@@ -810,7 +777,7 @@ function izrisiFilterNivo1() {
     aktivniTip = tipi.includes('Film') ? 'Film' : (tipi[0] || null);
   }
   posodobiGlavoTip();
-  if (aktivniTip) izrisiFilterNivo2(aktivniTip);
+  izrisiFilterMenu('ta');
   prikaziRezultate();
 }
 
@@ -845,80 +812,108 @@ function izberTipIzPopupa(tip) {
   zapriTipPopup();
 }
 
-function izrisiFilterNivo2(tip) {
-  const wrap = document.getElementById('filter-nivo2-wrap');
+// ===== POENOTEN FILTER (ocena + žanr) za oba oddelka: 'ta' (ta teden) in 'prih' (prihajajoči) =====
+const FILTRI = {
+  ta: {
+    containerId: 'ta-filter',
+    ocenaTip: 'imdb', imdbMin: 0, rtMin: 0, zanri: new Set(),
+    filmi: () => deduplicirani.filter(o => (o.kategorija || 'Drugo') === aktivniTip && jeVIzbranihDnevih(o)),
+    izris: () => prikaziRezultate(),
+  },
+  prih: {
+    containerId: 'prih-filter',
+    ocenaTip: 'imdb', imdbMin: 0, rtMin: 0, zanri: new Set(),
+    filmi: () => prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === aktivniTip),
+    izris: () => prikaziPrihRezultate(),
+  },
+};
 
-  if (!tip) { wrap.classList.remove('active'); prikaziRezultate(); return; }
-
-  // Žanri
-  const zanri = [...new Set(
-    deduplicirani.filter(o => (o.kategorija || 'Drugo') === tip).flatMap(o => o.zanr || []).filter(Boolean)
-  )].sort();
-
-  const label = document.getElementById('zanr-sekcija-label');
-  if (label) label.innerHTML = `Žanr: <span style="text-transform:none">${tip}</span>`;
-
-  // Multi-select: "Vsi žanri" + vsi žanri hkrati vidni; klik = toggle
-  const row = document.getElementById('filter-zanr-row');
-  // odstrani žanre, ki jih trenutni tip nima (npr. ob menjavi tipa)
-  [...izbraniZanri].forEach(z => { if (!zanri.includes(z)) izbraniZanri.delete(z); });
-  let html = `<button class="filter-btn reset ${izbraniZanri.size === 0 ? 'active' : ''}" onclick="resetZanr()">Vsi žanri</button>`;
-  zanri.forEach(zanr => {
-    const aktiven = izbraniZanri.has(zanr);
-    html += `<button class="filter-btn ${aktiven ? 'active' : ''}" onclick="preklopiZanr('${zanr.replace(/'/g, "\\'")}')">${zanr}</button>`;
-  });
-  row.innerHTML = html;
-
-  wrap.classList.add('active');
-  prikaziRezultate();
-}
-
-// Toggle posameznega žanra (multi-select); prazen izbor = vsi žanri
-function preklopiZanr(zanr) {
-  oznaciMrezoOdprto();
-  if (izbraniZanri.has(zanr)) izbraniZanri.delete(zanr);
-  else izbraniZanri.add(zanr);
-  izrisiFilterNivo2(aktivniTip);
-}
-
-function izberTip(tip) { oznaciMrezoOdprto(); aktivniTip = tip; tipPanelOdprt = false; izbraniZanri.clear(); aktivnaOcenaTip = 'brez'; iskanjeQuery = ''; document.getElementById('iskanje-input').value = ''; document.getElementById('iskanje-clear').style.display = 'none'; izrisiFilterNivo1(); }
-function resetFilter() { oznaciMrezoOdprto(); izbraniZanri.clear(); aktivnaOcenaTip = 'brez'; izrisiFilterNivo1(); }
-function resetZanr() { oznaciMrezoOdprto(); izbraniZanri.clear(); izrisiFilterNivo2(aktivniTip); }
-
-function izberOcenaTip(tip) {
-  oznaciMrezoOdprto();
-  aktivnaOcenaTip = tip;
-  document.querySelectorAll('.ocena-toggle-btn').forEach(b => b.classList.remove('active'));
-  const btnId = tip === 'brez_ocene' ? 'ocena-btn-brez-ocene' : 'ocena-btn-' + tip;
-  document.getElementById(btnId).classList.add('active');
-  document.getElementById('slider-imdb').classList.toggle('active', tip === 'imdb');
-  document.getElementById('slider-rt').classList.toggle('active', tip === 'rt');
-  prikaziRezultate();
-}
-
-function posodobiSlider(tip) {
-  oznaciMrezoOdprto();
-  if (tip === 'imdb') {
-    aktivnaImdbMin = parseFloat(document.getElementById('imdb-slider').value);
-    document.getElementById('imdb-val').textContent = aktivnaImdbMin.toFixed(1) + '+';
-  } else {
-    aktivnaRtMin = parseInt(document.getElementById('rt-slider').value);
-    document.getElementById('rt-val').textContent = aktivnaRtMin + '%+';
+// Ali film ustreza ocenskemu filtru (isti za oba oddelka)
+function ocenaUstreza(o, st) {
+  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+  if (st.ocenaTip === 'rt') {
+    if (st.rtMin <= 0) return true;
+    if (!b || !b.rt_ocena) return false;
+    const rt = parseInt(String(b.rt_ocena).replace('%', ''));
+    return !isNaN(rt) && rt >= st.rtMin;
   }
-  prikaziRezultate();
+  if (st.ocenaTip === 'brez_ocene') {
+    return !b || (!b.imdb_ocena && !b.rt_ocena);
+  }
+  // privzeto IMDB: 0 = vse (tudi brez ocene), >0 = filtriraj po IMDB
+  if (st.imdbMin <= 0) return true;
+  return b && b.imdb_ocena && parseFloat(b.imdb_ocena) >= st.imdbMin;
 }
 
-function resetOcena() {
-  aktivnaOcenaTip = 'brez';
-  document.querySelectorAll('.ocena-toggle-btn').forEach((b,i) => b.classList.toggle('active', i===0));
-  document.getElementById('slider-imdb').classList.remove('active');
-  document.getElementById('slider-rt').classList.remove('active');
-  document.getElementById('imdb-slider').value = 0;
-  document.getElementById('rt-slider').value = 0;
-  document.getElementById('imdb-val').textContent = '0+';
-  document.getElementById('rt-val').textContent = '0%+';
-  prikaziRezultate();
+function zanrUstreza(o, st) {
+  return st.zanri.size === 0 || (o.zanr || []).some(z => st.zanri.has(z));
 }
+
+// Izriši filter meni (ocena + žanr) za dani oddelek ('ta' ali 'prih')
+function izrisiFilterMenu(key) {
+  const st = FILTRI[key];
+  const cont = document.getElementById(st.containerId);
+  if (!cont) return;
+  const zanri = [...new Set(st.filmi().flatMap(o => o.zanr || []).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'sl'));
+  [...st.zanri].forEach(z => { if (!zanri.includes(z)) st.zanri.delete(z); });
+  const esc = s => String(s).replace(/'/g, "\\'");
+  cont.innerHTML = `
+    <div class="filtriraj-naslov"><span class="ft-tip">${aktivniTip || 'Film'}</span> · FILTRIRAJ: ocena in žanr</div>
+    <div class="filter-sekcija">
+      <div class="filter-sekcija-label">Ocena</div>
+      <div class="ocena-toggle">
+        <button class="ocena-toggle-btn ${st.ocenaTip === 'imdb' ? 'active' : ''}" onclick="filterOcena('${key}','imdb')">IMDB</button>
+        <button class="ocena-toggle-btn ${st.ocenaTip === 'rt' ? 'active' : ''}" onclick="filterOcena('${key}','rt')">Rotten Tomatoes</button>
+        <button class="ocena-toggle-btn ${st.ocenaTip === 'brez_ocene' ? 'active' : ''}" onclick="filterOcena('${key}','brez_ocene')">Brez ocene</button>
+      </div>
+      ${st.ocenaTip === 'imdb' ? `<div class="slider-wrap active"><span style="font-size:12px;color:#666;width:40px">IMDB</span><input type="range" min="0" max="10" step="0.5" value="${st.imdbMin}" oninput="filterSlider('${key}','imdb',this.value)"><span class="slider-val">${st.imdbMin}+</span></div>` : ''}
+      ${st.ocenaTip === 'rt' ? `<div class="slider-wrap active"><span style="font-size:12px;color:#666;width:40px">RT</span><input type="range" min="0" max="100" step="5" value="${st.rtMin}" oninput="filterSlider('${key}','rt',this.value)"><span class="slider-val">${st.rtMin}%+</span></div>` : ''}
+      ${st.ocenaTip === 'brez_ocene' ? `<div style="font-size:11px;color:#666">Prikazani samo filmi brez IMDB in brez Rotten Tomatoes ocene.</div>` : ''}
+    </div>
+    <div class="filter-sekcija">
+      <div class="filter-sekcija-label">Žanr</div>
+      <div class="filter-row" style="margin-bottom:0">
+        <button class="filter-btn reset ${st.zanri.size === 0 ? 'active' : ''}" onclick="filterResetZanr('${key}')">Vsi žanri</button>
+        ${zanri.map(z => `<button class="filter-btn ${st.zanri.has(z) ? 'active' : ''}" onclick="filterToggleZanr('${key}','${esc(z)}')">${z}</button>`).join('')}
+      </div>
+    </div>`;
+}
+
+function filterOcena(key, tip) { FILTRI[key].ocenaTip = tip; izrisiFilterMenu(key); FILTRI[key].izris(); }
+function filterSlider(key, tip, v) {
+  const st = FILTRI[key];
+  const cont = document.getElementById(st.containerId);
+  if (tip === 'imdb') { st.imdbMin = parseFloat(v); const el = cont.querySelector('.slider-val'); if (el) el.textContent = st.imdbMin + '+'; }
+  else { st.rtMin = parseInt(v); const el = cont.querySelector('.slider-val'); if (el) el.textContent = st.rtMin + '%+'; }
+  st.izris();
+}
+function filterResetZanr(key) { FILTRI[key].zanri.clear(); izrisiFilterMenu(key); FILTRI[key].izris(); }
+function filterToggleZanr(key, z) { const s = FILTRI[key].zanri; if (s.has(z)) s.delete(z); else s.add(z); izrisiFilterMenu(key); FILTRI[key].izris(); }
+
+// Ponastavi filtre obeh oddelkov (privzeto IMDB 0 = vse, brez žanrov)
+function ponastaviFiltre() {
+  ['ta', 'prih'].forEach(k => { FILTRI[k].ocenaTip = 'imdb'; FILTRI[k].imdbMin = 0; FILTRI[k].rtMin = 0; FILTRI[k].zanri.clear(); });
+}
+
+function izberTip(tip) {
+  aktivniTip = tip;
+  mrezaOdprta = false; trenutnaStran = 1;
+  p_odprta = false;
+  ponastaviFiltre();
+  iskanjeQuery = '';
+  document.getElementById('iskanje-input').value = '';
+  document.getElementById('iskanje-clear').style.display = 'none';
+  // "Vsi ta teden" nazaj na samo-gumb pogled
+  const ph = document.getElementById('tateden-placeholder'); if (ph) ph.style.display = '';
+  const vs = document.getElementById('tateden-vsebina'); if (vs) vs.style.display = 'none';
+  // "Vsi prihajajoči" nazaj na samo-gumb pogled
+  const pph = document.getElementById('prih-placeholder'); if (pph) pph.style.display = '';
+  const pvs = document.getElementById('prih-vsebina'); if (pvs) pvs.style.display = 'none';
+  izrisiFilterNivo1();
+  izberiTop9();          // osveži TOP 15 ta teden na novo vrsto
+  zgradiPrihajajoce();   // osveži prihajajoči oddelek na novo vrsto
+}
+function resetFilter() { ponastaviFiltre(); izrisiFilterNivo1(); }
 
 function izberIskanjeNacin(nacin) {
   iskanjeNacin = nacin;
@@ -1016,7 +1011,7 @@ function izberiTop9() {
   const grid = document.getElementById('top9-grid');
   if (!grid) return;
   const kandidati = deduplicirani
-    .filter(o => (o.kategorija || 'Drugo') === 'Film' && jeVIzbranihDnevih(o))
+    .filter(o => (o.kategorija || 'Drugo') === aktivniTip && jeVIzbranihDnevih(o))
     .map(o => {
       const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
       const ocena = b && b.imdb_ocena ? parseFloat(b.imdb_ocena) : null;
@@ -1121,40 +1116,27 @@ function prikaziRezultate() {
     return;
   }
 
-  // Filter mode
-  let filtrirane = [...deduplicirani];
-  filtrirane = filtrirane.filter(jeVIzbranihDnevih);
-  if (aktivniTip) filtrirane = filtrirane.filter(o => (o.kategorija || 'Drugo') === aktivniTip);
-  if (izbraniZanri.size > 0) filtrirane = filtrirane.filter(o => (o.zanr || []).some(z => izbraniZanri.has(z)));
-
-  if (aktivnaOcenaTip === 'imdb') {
-    filtrirane = filtrirane.filter(o => {
-      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
-      return b && b.imdb_ocena && parseFloat(b.imdb_ocena) >= aktivnaImdbMin;
-    });
-  } else if (aktivnaOcenaTip === 'rt') {
-    filtrirane = filtrirane.filter(o => {
-      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
-      if (!b || !b.rt_ocena) return false;
-      const rt = parseInt(b.rt_ocena.replace('%', ''));
-      return !isNaN(rt) && rt >= aktivnaRtMin;
-    });
-  } else if (aktivnaOcenaTip === 'brez_ocene') {
-    filtrirane = filtrirane.filter(o => {
-      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
-      return !b || (!b.imdb_ocena && !b.rt_ocena);
-    });
-  }
-
-  infoEl.textContent = `${filtrirane.length} zadetkov`;
-  posodobiPrikaziGumb(filtrirane.length);
+  // Filter mode — "Vsi filmi ta teden" (aktivniTip + dnevi ta teden + poenoten filter)
+  const stTa = FILTRI.ta;
+  const filtrirane = deduplicirani.filter(o =>
+    (o.kategorija || 'Drugo') === aktivniTip && jeVIzbranihDnevih(o) && zanrUstreza(o, stTa) && ocenaUstreza(o, stTa)
+  );
   window._filtrirane = filtrirane;
 
-  // Mreža zaprta → prikaži samo gumb (hitro nalaganje strani)
+  const ph = document.getElementById('tateden-placeholder');
+  const vs = document.getElementById('tateden-vsebina');
+  const phBtn = document.getElementById('tateden-prikazi-btn');
+  if (phBtn) phBtn.textContent = `Prikaži vse filme ta teden (${filtrirane.length})`;
+
+  // Mreža zaprta → samo gumb (filter + mreža skriti)
   if (!mrezaOdprta) {
-    container.innerHTML = `<div class="mreza-placeholder"><button class="prikazi-vse-btn velik" onclick="odpriMrezo()">Prikaži vse filme ta teden (${filtrirane.length})</button></div>`;
+    if (ph) ph.style.display = '';
+    if (vs) vs.style.display = 'none';
     return;
   }
+  if (ph) ph.style.display = 'none';
+  if (vs) vs.style.display = 'block';
+  infoEl.textContent = `${filtrirane.length} zadetkov`;
 
   if (filtrirane.length === 0) {
     container.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni zadetkov.</div>';
@@ -1177,7 +1159,7 @@ function prikaziRezultate() {
 // =====================
 // PRIHAJAJOČI FILMI (naslednji teden)
 // =====================
-let p_tip = 'Film', p_zanri = new Set(), p_imdbMin = 0, p_iskanje = '', p_stran = 1, p_odprta = false;
+let p_stran = 1, p_odprta = false;
 let prihBandData = [];    // [{o, ocena}] — top 15 čisto prihajajočih
 let prihVsiFilm = [];     // vsi (katerakoli vrsta) z vsaj enim prihodnjim terminom → mreža
 let countdownTimer = null;
@@ -1209,9 +1191,9 @@ function imaPrihodnjiTermin(o) {
 }
 
 function zgradiPrihajajoce() {
-  // BAND: čisto prihajajoči filmi (Film), top 15 po IMDB oceni
+  // BAND: čisto prihajajoči (aktivne vrste, npr. Film), top 15 po IMDB oceni
   prihBandData = deduplicirani
-    .filter(o => (o.kategorija || 'Drugo') === 'Film' && jeCistoPrihajajoc(o))
+    .filter(o => (o.kategorija || 'Drugo') === aktivniTip && jeCistoPrihajajoc(o))
     .map(o => {
       const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
       const ocena = b && b.imdb_ocena ? parseFloat(b.imdb_ocena) : null;
@@ -1221,13 +1203,13 @@ function zgradiPrihajajoce() {
     .sort((a, b) => b.ocena - a.ocena)
     .slice(0, 15);
 
-  // MREŽA: vsi filmi s prihodnjim terminom (vključno s tistimi, ki se vrtijo tudi ta teden)
+  // MREŽA: vsi (aktivne vrste) s prihodnjim terminom (tudi tisti, ki se vrtijo že ta teden)
   prihVsiFilm = deduplicirani.filter(imaPrihodnjiTermin);
   const pb = document.getElementById('prih-prikazi-btn');
-  if (pb) pb.textContent = `Prikaži vse prihajajoče filme (${prihVsiFilm.length})`;
+  if (pb) pb.textContent = `Prikaži vse prihajajoče filme (${prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === aktivniTip).length})`;
 
   izrisiPrihBand();
-  if (p_odprta) { izrisiPrihFilter(); prikaziPrihRezultate(); }
+  if (p_odprta) { izrisiFilterMenu('prih'); prikaziPrihRezultate(); }
   osveziCountdowne();
   if (!countdownTimer) countdownTimer = setInterval(osveziCountdowne, 30000);
 }
@@ -1269,76 +1251,17 @@ function odpriPrihMrezo() {
   p_odprta = true;
   document.getElementById('prih-placeholder').style.display = 'none';
   document.getElementById('prih-vsebina').style.display = 'block';
-  izrisiPrihFilter();
+  izrisiFilterMenu('prih');
   prikaziPrihRezultate();
   document.getElementById('prih-vsebina').scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-function prihTipi() {
-  return [...new Set(prihVsiFilm.map(o => o.kategorija || 'Drugo').filter(Boolean))]
-    .sort((a, b) => a === 'Film' ? -1 : b === 'Film' ? 1 : a.localeCompare(b, 'sl'));
-}
-function prihZanri() {
-  const s = new Set();
-  prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === p_tip).forEach(o => (o.zanr || []).forEach(z => z && s.add(z)));
-  return [...s].sort((a, b) => a.localeCompare(b, 'sl'));
-}
-
-function izrisiPrihFilter() {
-  const bar = document.getElementById('prih-filter');
-  if (!bar) return;
-  const tipi = prihTipi();
-  if (!tipi.includes(p_tip)) p_tip = tipi.includes('Film') ? 'Film' : (tipi[0] || 'Film');
-  const zanri = prihZanri();
-  const esc = s => String(s).replace(/'/g, "\\'");
-  bar.innerHTML = `
-    <div class="filter-row"><span class="filter-label">Vrsta:</span>
-      ${tipi.map(t => `<button class="filter-btn ${t === p_tip ? 'active' : ''}" onclick="prihIzberTip('${esc(t)}')">${t}</button>`).join('')}
-    </div>
-    <div class="filter-sekcija">
-      <div class="filter-sekcija-label">Ocena — IMDB najmanj: <span id="prih-imdb-val">${p_imdbMin}+</span></div>
-      <div class="slider-wrap" style="display:flex">
-        <span style="font-size:12px;color:#666;width:40px">IMDB</span>
-        <input type="range" min="0" max="10" step="0.5" value="${p_imdbMin}" oninput="prihSlider(this.value)">
-        <span class="slider-reset" onclick="prihResetOcena()">Ponastavi</span>
-      </div>
-    </div>
-    <div class="filter-sekcija">
-      <div class="filter-sekcija-label">Žanr</div>
-      <div class="filter-row" style="margin-bottom:0">
-        <button class="filter-btn reset ${p_zanri.size === 0 ? 'active' : ''}" onclick="prihResetZanr()">Vsi žanri</button>
-        ${zanri.map(z => `<button class="filter-btn ${p_zanri.has(z) ? 'active' : ''}" onclick="prihPreklopiZanr('${esc(z)}')">${z}</button>`).join('')}
-      </div>
-    </div>`;
-}
-
-function prihIzberTip(t) { p_tip = t; p_zanri.clear(); p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
-function prihPreklopiZanr(z) { if (p_zanri.has(z)) p_zanri.delete(z); else p_zanri.add(z); p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
-function prihResetZanr() { p_zanri.clear(); p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
-function prihSlider(v) { p_imdbMin = parseFloat(v); p_stran = 1; const el = document.getElementById('prih-imdb-val'); if (el) el.textContent = p_imdbMin + '+'; prikaziPrihRezultate(); }
-function prihResetOcena() { p_imdbMin = 0; p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
-function prihOnIskanje() { const el = document.getElementById('prih-iskanje'); p_iskanje = el ? el.value : ''; p_stran = 1; prikaziPrihRezultate(); }
-
-function prihUjemaIskalnik(o, q) {
-  const s = q.toLowerCase();
-  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
-  return (o.naslov_sl || '').toLowerCase().includes(s) ||
-         (o.naslov_orig || '').toLowerCase().includes(s) ||
-         (o.opis || '').toLowerCase().includes(s) ||
-         (b && b.opis_sl_tmdb && b.opis_sl_tmdb.toLowerCase().includes(s)) ||
-         (b && b.opis_en_tmdb && b.opis_en_tmdb.toLowerCase().includes(s)) ||
-         (b && b.reziser_tmdb && b.reziser_tmdb.toLowerCase().includes(s)) ||
-         (b && b.igralci_tmdb && b.igralci_tmdb.some(i => i.toLowerCase().includes(s)));
 }
 
 function prikaziPrihRezultate() {
   const cont = document.getElementById('prih-rezultati');
   const info = document.getElementById('prih-rezultati-info');
   if (!cont) return;
-  let arr = prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === p_tip);
-  if (p_zanri.size > 0) arr = arr.filter(o => (o.zanr || []).some(z => p_zanri.has(z)));
-  if (p_imdbMin > 0) arr = arr.filter(o => { const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto); return b && b.imdb_ocena && parseFloat(b.imdb_ocena) >= p_imdbMin; });
-  if (p_iskanje.trim().length >= 2) arr = arr.filter(o => prihUjemaIskalnik(o, p_iskanje.trim()));
+  const st = FILTRI.prih;
+  let arr = prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === aktivniTip && zanrUstreza(o, st) && ocenaUstreza(o, st));
   // sortiraj po najbližji prihodnji projekciji
   arr.sort((a, b) => { const da = prvaPrihodnjaO(a), db = prvaPrihodnjaO(b); return (da ? da.getTime() : Infinity) - (db ? db.getTime() : Infinity); });
   window._prihFiltrirane = arr;
