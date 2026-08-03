@@ -297,6 +297,39 @@
   <div id="iskanje-rezultati"></div>
 </div>
 
+<!-- ===== Prihajajoči filmi (naslednji teden) ===== -->
+<style>
+  .prih-sekcija { border-top: 3px solid #2a2f45; margin-top: 10px; }
+  .prih-loc { text-align:center; font-size:11px; color:#7c83ff; text-transform:uppercase; letter-spacing:1.5px; font-weight:700; padding:16px 1.5rem 0; }
+  .prih-top .top9-caret { color:#7c83ff; }
+  .prih-top .top9-naslov { color:#cdd0ff; }
+  .prih-top .top9-kartica { border-color:#242a45; }
+  .prih-top .top9-kartica:hover { border-color:#7c83ff; }
+  .prih-kartica .prih-badge-prihaja { position:absolute; top:6px; right:6px; background:#7c83ff; color:#fff; font-size:8px; font-weight:800; padding:2px 6px; border-radius:20px; letter-spacing:0.6px; }
+  .prih-countdown { font-size:10px; font-weight:700; color:#fff; background:rgba(124,131,255,0.9); text-align:center; padding:3px 4px; }
+  .kartica-termini.prih-countdown-inline { color:#7c83ff; font-weight:700; }
+  .prih-btn { background:#3a3f66 !important; }
+  .prih-btn:hover { background:#4a5085 !important; }
+  .prih-mreza-wrap { padding-top:4px; }
+</style>
+<div id="prihajajoci-sekcija" class="prih-sekcija">
+  <div class="prih-loc">↓ Prihajajoči filmi &nbsp;·&nbsp; ki šele pridejo na spored ↓</div>
+  <div class="top9-sekcija prih-top" id="prih-top-sekcija">
+    <div class="top9-glava">
+      <span class="top9-naslov" onclick="preklopiPrihTop()"><span class="top9-caret">▼</span>Prihajajoči filmi — TOP 15<span class="top9-podnaslov">še niso na sporedu · po IMDB oceni</span></span>
+    </div>
+    <div class="top9-grid" id="prih-top-grid"></div>
+    <div class="top9-akcija">
+      <button class="prikazi-vse-btn prih-btn" id="prih-prikazi-btn" onclick="odpriPrihMrezo()">Prikaži vse prihajajoče filme</button>
+    </div>
+  </div>
+  <div id="prih-mreza-wrap" class="prih-mreza-wrap main" style="display:none">
+    <div class="filter-bar" id="prih-filter"></div>
+    <div class="rezultati-info" id="prih-rezultati-info"></div>
+    <div id="prih-rezultati"></div>
+  </div>
+</div>
+
 <div class="overlay" id="overlay" onclick="zapriPopup()"></div>
 <div class="popup" id="popup">
   <button class="popup-close" onclick="zapriPopup()">×</button>
@@ -372,6 +405,10 @@ const NA_STRAN = 15;      // filmov na stran
 function formatDatum(d) {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 }
+
+// Danasnji datum kot YYYY-MM-DD. Racuna se sproti -> ob polnoci se meja "ta teden"
+// vs "prihajajoci" samodejno premakne (ce stran ostane odprta cez polnoc).
+function DANES() { return formatDatum(new Date()); }
 
 function zanrClass(kategorija, zanri) {
   const kat = (kategorija || '').toLowerCase();
@@ -522,6 +559,7 @@ async function naloziVseSporede() {
   izrisiFilterNivo1();
   osvežiPrikaz();
   izberiTop9();
+  zgradiPrihajajoce();
 }
 
 function osvežiPrikaz() {
@@ -567,7 +605,9 @@ function zgradiFlatArray() {
 // DNEVNI TRAK (filter po dnevih)
 // =====================
 function izrisiDnevniTrak() {
-  vsiDnevi = [...new Set(vsaOddaja.map(o => o.datum).filter(Boolean))].sort();
+  // Samo dnevi do vkljucno danes — prihodnji dnevi so v locenem oddelku "Prihajajoci filmi".
+  const ds = DANES();
+  vsiDnevi = [...new Set(vsaOddaja.map(o => o.datum).filter(Boolean))].filter(d => d <= ds).sort();
 
   // Če izbrani dnevi ne obstajajo več v podatkih (npr. spored se je pomaknil), jih očisti
   if (izbraniDnevi) {
@@ -599,7 +639,12 @@ function jeDnevIzbran(datStr) {
 }
 
 function jeVIzbranihDnevih(o) {
-  if (izbraniDnevi === null) return true;
+  // null = "vsi dnevi ta teden" -> film mora imeti vsaj en termin do vkljucno danes,
+  // sicer je cisto prihajajoc in sodi le v oddelek "Prihajajoci filmi".
+  if (izbraniDnevi === null) {
+    const ds = DANES();
+    return (o._termini || []).some(t => t.datum <= ds);
+  }
   return (o._termini || []).some(t => izbraniDnevi.has(t.datum));
 }
 
@@ -647,8 +692,8 @@ function izrisiCasovnico() {
   const nowStr = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
   const danes = formatDatum(now);
 
-  // Pridobi zadnje 3 unikatne datume iz podatkov
-  const vsiDatumi = [...new Set((sporedi.oddaje || []).map(o => o.datum))].sort();
+  // Pridobi zadnje 3 unikatne datume iz podatkov (samo do danes — brez prihodnjih dni)
+  const vsiDatumi = [...new Set((sporedi.oddaje || []).map(o => o.datum))].filter(d => d <= danes).sort();
   const prikazDatumi = vsiDatumi.slice(-3);
 
   let html = '<div class="timeline-header">';
@@ -1060,6 +1105,248 @@ function prikaziRezultate() {
   html += '</div>';
   html += paginacijaHtml(filtrirane.length);
   container.innerHTML = html;
+}
+
+// =====================
+// PRIHAJAJOČI FILMI (naslednji teden)
+// =====================
+let p_tip = 'Film', p_zanri = new Set(), p_imdbMin = 0, p_iskanje = '', p_stran = 1, p_odprta = false;
+let prihBandData = [];    // [{o, ocena}] — top 15 čisto prihajajočih
+let prihVsiFilm = [];     // vsi (katerakoli vrsta) z vsaj enim prihodnjim terminom → mreža
+let countdownTimer = null;
+
+// Najzgodnejši prihodnji termin (datum > danes) kot Date, ali null
+function prvaPrihodnjaO(o) {
+  const ds = DANES();
+  let best = null;
+  (o._termini || []).forEach(t => {
+    if (t.datum > ds) {
+      const dt = new Date(`${t.datum}T${(t.cas || '00:00')}:00`);
+      if (!best || dt < best) best = dt;
+    }
+  });
+  return best;
+}
+
+// "Čisto prihajajoč" = noben termin ni danes ali prej (prva ponovitev v prihodnosti)
+function jeCistoPrihajajoc(o) {
+  const ds = DANES();
+  const t = o._termini || [];
+  return t.length > 0 && t.every(x => x.datum > ds);
+}
+
+// Ima vsaj en prihodnji termin (lahko se vrti tudi ta teden) → za mrežo "vse prihajajoče"
+function imaPrihodnjiTermin(o) {
+  const ds = DANES();
+  return (o._termini || []).some(t => t.datum > ds);
+}
+
+function zgradiPrihajajoce() {
+  // BAND: čisto prihajajoči filmi (Film), top 15 po IMDB oceni
+  prihBandData = deduplicirani
+    .filter(o => (o.kategorija || 'Drugo') === 'Film' && jeCistoPrihajajoc(o))
+    .map(o => {
+      const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+      const ocena = b && b.imdb_ocena ? parseFloat(b.imdb_ocena) : null;
+      return { o, ocena };
+    })
+    .filter(x => x.ocena !== null && !isNaN(x.ocena))
+    .sort((a, b) => b.ocena - a.ocena)
+    .slice(0, 15);
+
+  // MREŽA: vsi filmi s prihodnjim terminom (vključno s tistimi, ki se vrtijo tudi ta teden)
+  prihVsiFilm = deduplicirani.filter(imaPrihodnjiTermin);
+
+  izrisiPrihBand();
+  if (p_odprta) { izrisiPrihFilter(); prikaziPrihRezultate(); }
+  osveziCountdowne();
+  if (!countdownTimer) countdownTimer = setInterval(osveziCountdowne, 30000);
+}
+
+function izrisiPrihBand() {
+  const grid = document.getElementById('prih-top-grid');
+  const sek = document.getElementById('prihajajoci-sekcija');
+  if (!grid) return;
+  if (prihBandData.length === 0) {
+    if (sek) sek.style.display = 'none';   // ni prihajajočih → skrij cel oddelek
+    return;
+  }
+  if (sek) sek.style.display = 'block';
+  window._prihBand = prihBandData.map(x => x.o);
+  grid.innerHTML = prihBandData.map((x, i) => {
+    const o = x.o;
+    const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+    const poster = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
+    const dt = prvaPrihodnjaO(o);
+    const ts = dt ? dt.getTime() : 0;
+    return `<div class="top9-kartica prih-kartica" onclick="odpriPrihBandPopup(${i})">
+      ${poster ? `<img src="${poster}" class="top9-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="top9-slika"></div>`}
+      <div class="top9-badge">&#9733; ${x.ocena.toFixed(1)}</div>
+      <div class="prih-badge-prihaja">PRIHAJA</div>
+      <div class="top9-naslov-k">${o.naslov_sl}</div>
+      <div class="prih-countdown js-countdown" data-ts="${ts}">—</div>
+    </div>`;
+  }).join('');
+}
+
+function odpriPrihBandPopup(i) {
+  const o = (window._prihBand || [])[i];
+  if (o) prikaziPopup(o, (o._termini || []).filter(t => t.datum > DANES()));
+}
+
+function preklopiPrihTop() { document.getElementById('prih-top-sekcija').classList.toggle('zvito'); }
+
+function odpriPrihMrezo() {
+  p_odprta = true;
+  document.getElementById('prih-mreza-wrap').style.display = 'block';
+  izrisiPrihFilter();
+  prikaziPrihRezultate();
+  document.getElementById('prih-mreza-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function prihTipi() {
+  return [...new Set(prihVsiFilm.map(o => o.kategorija || 'Drugo').filter(Boolean))]
+    .sort((a, b) => a === 'Film' ? -1 : b === 'Film' ? 1 : a.localeCompare(b, 'sl'));
+}
+function prihZanri() {
+  const s = new Set();
+  prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === p_tip).forEach(o => (o.zanr || []).forEach(z => z && s.add(z)));
+  return [...s].sort((a, b) => a.localeCompare(b, 'sl'));
+}
+
+function izrisiPrihFilter() {
+  const bar = document.getElementById('prih-filter');
+  if (!bar) return;
+  const tipi = prihTipi();
+  if (!tipi.includes(p_tip)) p_tip = tipi.includes('Film') ? 'Film' : (tipi[0] || 'Film');
+  const zanri = prihZanri();
+  const esc = s => String(s).replace(/'/g, "\\'");
+  bar.innerHTML = `
+    <div class="filter-row"><span class="filter-label">Vrsta:</span>
+      ${tipi.map(t => `<button class="filter-btn ${t === p_tip ? 'active' : ''}" onclick="prihIzberTip('${esc(t)}')">${t}</button>`).join('')}
+    </div>
+    <div class="iskanje-input-wrap" style="margin:10px 0">
+      <input type="text" class="iskanje-input" id="prih-iskanje" placeholder="Išči med prihajajočimi..." value="${p_iskanje.replace(/"/g, '&quot;')}" oninput="prihOnIskanje()">
+    </div>
+    <div class="filter-sekcija">
+      <div class="filter-sekcija-label">Ocena — IMDB najmanj: <span id="prih-imdb-val">${p_imdbMin}+</span></div>
+      <div class="slider-wrap" style="display:flex">
+        <span style="font-size:12px;color:#666;width:40px">IMDB</span>
+        <input type="range" min="0" max="10" step="0.5" value="${p_imdbMin}" oninput="prihSlider(this.value)">
+        <span class="slider-reset" onclick="prihResetOcena()">Ponastavi</span>
+      </div>
+    </div>
+    <div class="filter-sekcija">
+      <div class="filter-sekcija-label">Žanr</div>
+      <div class="filter-row" style="margin-bottom:0">
+        <button class="filter-btn reset ${p_zanri.size === 0 ? 'active' : ''}" onclick="prihResetZanr()">Vsi žanri</button>
+        ${zanri.map(z => `<button class="filter-btn ${p_zanri.has(z) ? 'active' : ''}" onclick="prihPreklopiZanr('${esc(z)}')">${z}</button>`).join('')}
+      </div>
+    </div>`;
+}
+
+function prihIzberTip(t) { p_tip = t; p_zanri.clear(); p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
+function prihPreklopiZanr(z) { if (p_zanri.has(z)) p_zanri.delete(z); else p_zanri.add(z); p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
+function prihResetZanr() { p_zanri.clear(); p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
+function prihSlider(v) { p_imdbMin = parseFloat(v); p_stran = 1; const el = document.getElementById('prih-imdb-val'); if (el) el.textContent = p_imdbMin + '+'; prikaziPrihRezultate(); }
+function prihResetOcena() { p_imdbMin = 0; p_stran = 1; izrisiPrihFilter(); prikaziPrihRezultate(); }
+function prihOnIskanje() { const el = document.getElementById('prih-iskanje'); p_iskanje = el ? el.value : ''; p_stran = 1; prikaziPrihRezultate(); }
+
+function prihUjemaIskalnik(o, q) {
+  const s = q.toLowerCase();
+  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+  return (o.naslov_sl || '').toLowerCase().includes(s) ||
+         (o.naslov_orig || '').toLowerCase().includes(s) ||
+         (o.opis || '').toLowerCase().includes(s) ||
+         (b && b.opis_sl_tmdb && b.opis_sl_tmdb.toLowerCase().includes(s)) ||
+         (b && b.opis_en_tmdb && b.opis_en_tmdb.toLowerCase().includes(s)) ||
+         (b && b.reziser_tmdb && b.reziser_tmdb.toLowerCase().includes(s)) ||
+         (b && b.igralci_tmdb && b.igralci_tmdb.some(i => i.toLowerCase().includes(s)));
+}
+
+function prikaziPrihRezultate() {
+  const cont = document.getElementById('prih-rezultati');
+  const info = document.getElementById('prih-rezultati-info');
+  if (!cont) return;
+  let arr = prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === p_tip);
+  if (p_zanri.size > 0) arr = arr.filter(o => (o.zanr || []).some(z => p_zanri.has(z)));
+  if (p_imdbMin > 0) arr = arr.filter(o => { const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto); return b && b.imdb_ocena && parseFloat(b.imdb_ocena) >= p_imdbMin; });
+  if (p_iskanje.trim().length >= 2) arr = arr.filter(o => prihUjemaIskalnik(o, p_iskanje.trim()));
+  // sortiraj po najbližji prihodnji projekciji
+  arr.sort((a, b) => { const da = prvaPrihodnjaO(a), db = prvaPrihodnjaO(b); return (da ? da.getTime() : Infinity) - (db ? db.getTime() : Infinity); });
+  window._prihFiltrirane = arr;
+  if (info) info.textContent = `${arr.length} prihajajočih`;
+  if (arr.length === 0) { cont.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni zadetkov.</div>'; return; }
+  const maxS = Math.max(1, Math.ceil(arr.length / NA_STRAN));
+  if (p_stran > maxS) p_stran = maxS;
+  const zac = (p_stran - 1) * NA_STRAN;
+  const stran = arr.slice(zac, zac + NA_STRAN);
+  let html = '<div class="rezultati-grid">';
+  stran.forEach((o, li) => { html += prihKarticaHtml(o, zac + li); });
+  html += '</div>';
+  html += prihPaginacijaHtml(arr.length);
+  cont.innerHTML = html;
+  osveziCountdowne();
+}
+
+function prihKarticaHtml(o, idx) {
+  const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+  const zanrTxt = o.zanr && o.zanr.length > 0 ? o.zanr[0] : (o.kategorija || '');
+  const slika = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
+  const dt = prvaPrihodnjaO(o);
+  const ts = dt ? dt.getTime() : 0;
+  const oceneHtml = (() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h; })();
+  return `<div class="kartica" onclick="odpriPrihGridPopup(${idx})">
+    ${slika ? `<img src="${slika}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    <div class="kartica-body">
+      <div class="kartica-meta">${zanrTxt}</div>
+      <div class="kartica-naslov">${o.naslov_sl}</div>
+      ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="kartica-orig">${o.naslov_orig}</div>` : ''}
+      ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
+      ${oceneHtml ? `<div style="margin-top:2px;">${oceneHtml}</div>` : ''}
+      <div class="kartica-termini prih-countdown-inline js-countdown" data-ts="${ts}">—</div>
+    </div>
+  </div>`;
+}
+
+function odpriPrihGridPopup(idx) {
+  const o = (window._prihFiltrirane || [])[idx];
+  if (o) prikaziPopup(o, (o._termini || []).filter(t => t.datum > DANES()));
+}
+
+function prihPaginacijaHtml(skupaj) {
+  const maxS = Math.max(1, Math.ceil(skupaj / NA_STRAN));
+  if (maxS <= 1) return '';
+  return `<div class="paginacija">
+    <button class="pag-btn" onclick="prihNaStran(${p_stran - 1})" ${p_stran <= 1 ? 'disabled' : ''}>‹ Prejšnja</button>
+    <span class="pag-info">Stran ${p_stran} / ${maxS}</span>
+    <button class="pag-btn" onclick="prihNaStran(${p_stran + 1})" ${p_stran >= maxS ? 'disabled' : ''}>Naslednja ›</button>
+  </div>`;
+}
+function prihNaStran(n) {
+  const skupaj = (window._prihFiltrirane || []).length;
+  const maxS = Math.max(1, Math.ceil(skupaj / NA_STRAN));
+  p_stran = Math.min(Math.max(1, n), maxS);
+  prikaziPrihRezultate();
+  document.getElementById('prih-rezultati-info').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function formatOdstevanje(ms) {
+  if (ms <= 0) return 'Kmalu';
+  const totalMin = Math.floor(ms / 60000);
+  const d = Math.floor(totalMin / 1440);
+  const h = Math.floor((totalMin % 1440) / 60);
+  const m = totalMin % 60;
+  if (d > 0) return `čez ${d}d ${h}h ${m}min`;
+  if (h > 0) return `čez ${h}h ${m}min`;
+  return `čez ${m}min`;
+}
+function osveziCountdowne() {
+  const now = Date.now();
+  document.querySelectorAll('.js-countdown[data-ts]').forEach(el => {
+    const ts = parseInt(el.getAttribute('data-ts')) || 0;
+    el.textContent = ts ? formatOdstevanje(ts - now) : '';
+  });
 }
 
 // =====================
