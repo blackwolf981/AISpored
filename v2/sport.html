@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TV Vodič — Šport</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d0f18; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+
+  .header { background: #13161f; border-bottom: 1px solid #252838; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 0.75rem 1rem; flex-wrap: wrap; }
+  .header h1 { font-size: 20px; font-weight: 600; color: #fff; }
+  .header h1 .glava-tip { color: #e8702a; text-transform: uppercase; }
+  .glava-tip-btn { background: transparent; border: 1px solid #6e4a28; color: #e8702a; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 20px; cursor: pointer; transition: all 0.15s; }
+  .glava-tip-btn:hover { background: #241a10; border-color: #e8702a; }
+  .now-badge { background: #e8702a; color: #fff; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-left: auto; }
+  .posodobljeno { font-size: 11px; color: #6a6f80; }
+
+  .tip-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 60; display: none; }
+  .tip-overlay.active { display: block; }
+  .tip-popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #13161f; border: 1px solid #2e3148; border-radius: 12px; padding: 20px; z-index: 61; width: min(340px, 90vw); display: none; }
+  .tip-popup.active { display: block; }
+  .tip-popup-naslov { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 14px; }
+  .tip-popup-gumbi { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+  .tip-popup-gumb { padding: 10px 14px; border-radius: 8px; border: 1px solid #2e3148; background: transparent; color: #aab; font-size: 14px; cursor: pointer; text-align: left; transition: all 0.15s; }
+  .tip-popup-gumb:hover { background: #1e2130; color: #fff; }
+  .tip-popup-gumb.active { background: #e8702a; border-color: #e8702a; color: #fff; }
+  .tip-popup-zapri { width: 100%; padding: 9px; border-radius: 8px; border: 1px solid #2e3148; background: #0f1220; color: #888; font-size: 13px; cursor: pointer; }
+  .tip-popup-zapri:hover { color: #ccc; border-color: #4a4f66; }
+
+  .filtriraj-naslov { font-size: 12px; color: #8a8f9e; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #1e2130; }
+  .filtriraj-naslov .ft-tip { color: #e8702a; font-weight: 700; text-transform: uppercase; }
+
+  .global-iskanje-bar { background: #13161f; padding: 0.75rem 1.5rem; border-bottom: 1px solid #1e2130; }
+  .global-iskanje-bar .iskanje-nacin { margin-bottom: 8px; }
+  .isk-prihaja-badge { position: absolute; top: 6px; right: 6px; background: #7c83ff; color: #fff; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.5px; z-index: 2; }
+
+  .glavni-oddelek { border-top: 3px solid; margin-top: 6px; padding-bottom: 12px; }
+  .oddelek-ta-teden { border-color: #e8702a; }
+  .oddelek-prihajajoci { border-color: #7c83ff; }
+  .glavni-oddelek-naslov { font-size: 16px; font-weight: 700; letter-spacing: 0.4px; padding: 14px 1.5rem 8px; }
+  .oddelek-ta-teden .glavni-oddelek-naslov { color: #e8702a; }
+  .oddelek-prihajajoci .glavni-oddelek-naslov { color: #a9adff; }
+  .poddelek-naslov { font-size: 12px; font-weight: 700; color: #b9bdca; letter-spacing: 0.6px; text-transform: uppercase; margin-bottom: 10px; }
+  #top9-sekcija { background: #17120a; }
+  #view-iskanje { background: #120d07; }
+  #prih-top-sekcija { background: #12152a; }
+  #prih-mreza-wrap { background: #0c0e1a; padding: 1.25rem 1.5rem; }
+
+  .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .kanali-panel { background: #0f1220; padding: 0.75rem 1.5rem; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .kanal-btn { padding: 6px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #888; font-size: 13px; cursor: pointer; transition: all 0.15s; }
+  .kanal-btn.active { background: #e8702a; border-color: #e8702a; color: #fff; }
+  .kanal-btn:not(.active):hover { background: #1e2130; color: #ccc; }
+
+  .dnevni-trak-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .dan-btn { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 5px 12px; border-radius: 12px; border: 1px solid #2e3148; background: transparent; color: #888; cursor: pointer; transition: all 0.15s; line-height: 1.25; user-select: none; }
+  .dan-btn:hover { background: #1e2130; color: #ccc; }
+  .dan-btn.active { background: #e8702a; border-color: #e8702a; color: #fff; }
+  .dan-ime { font-size: 12px; font-weight: 600; }
+  .dan-datum { font-size: 10px; opacity: 0.75; }
+
+  .main { padding: 1.5rem; }
+
+  .filter-bar { margin-bottom: 1rem; }
+  .filter-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; align-items: center; min-height: 32px; }
+  .filter-label { font-size: 11px; color: #555; width: 60px; flex-shrink: 0; }
+  .filter-btn { padding: 5px 14px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #777; font-size: 12px; cursor: pointer; transition: all 0.15s; text-transform: capitalize; }
+  .filter-btn:hover { background: #1e2130; color: #ccc; }
+  .filter-btn.active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
+
+  .rezultati-info { font-size: 12px; color: #555; margin-bottom: 12px; }
+
+  .filter-nivo2-wrap { background: #0f1220; border: 1px solid #1e2130; border-radius: 8px; padding: 12px 16px; margin-bottom: 8px; display: none; }
+  .filter-nivo2-wrap.active { display: block; }
+  .filter-sekcija { margin-bottom: 12px; }
+  .filter-sekcija:last-child { margin-bottom: 0; }
+  .filter-sekcija-label { font-size: 11px; color: #555; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .ocena-toggle { display: flex; gap: 8px; margin-bottom: 10px; }
+  .ocena-toggle-btn { padding: 4px 14px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #666; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .ocena-toggle-btn.active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
+  .slider-wrap { display: none; align-items: center; gap: 12px; }
+  .slider-wrap.active { display: flex; }
+  .slider-wrap input[type=range] { flex: 1; accent-color: #e8702a; }
+  .slider-val { font-size: 13px; font-weight: 600; color: #e8702a; min-width: 50px; }
+  .slider-reset { font-size: 11px; color: #555; cursor: pointer; text-decoration: underline; }
+  .slider-reset:hover { color: #e8702a; }
+  .iskanje-bar { background: #0f1220; border: 1px solid #1e2130; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
+  .iskanje-nacin { display: flex; gap: 8px; margin-bottom: 10px; }
+  .iskanje-nacin-btn { padding: 5px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #666; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .iskanje-nacin-btn.active { background: #2a3a5a; border-color: #4a6a9a; color: #8ab4f0; }
+  .iskanje-nacin-btn:hover:not(.active) { background: #1e2130; color: #ccc; }
+  .iskanje-input-wrap { display: flex; gap: 8px; align-items: center; }
+  .iskanje-input { flex: 1; background: #13161f; border: 1px solid #2e3148; border-radius: 6px; padding: 8px 14px; color: #e0e0e0; font-size: 13px; outline: none; transition: border-color 0.15s; }
+  .iskanje-input:focus { border-color: #4a6a9a; }
+  .iskanje-input::placeholder { color: #444; }
+  .iskanje-clear { background: none; border: none; color: #444; font-size: 18px; cursor: pointer; padding: 0 4px; line-height: 1; }
+  .iskanje-clear:hover { color: #888; }
+  .tip-skupina-naslov { font-size: 11px; font-weight: 700; color: #555; text-transform: uppercase; letter-spacing: 1px; margin: 18px 0 10px 0; padding-bottom: 6px; border-bottom: 1px solid #1e2130; }
+  .tip-skupina-naslov:first-child { margin-top: 0; }
+
+  .rezultati-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+  .kartica { background: #13161f; border: 1px solid #1e2130; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.15s; }
+  .kartica:hover { border-color: #3a4a6a; }
+  .kartica-slika { width: 100%; height: 110px; object-fit: cover; display: block; }
+  .kartica-placeholder { width: 100%; height: 60px; background: #1e2130; }
+  .kartica-body { padding: 10px; }
+  .kartica-meta { font-size: 10px; color: #9a9dae; margin-bottom: 4px; text-transform: capitalize; }
+  .kartica-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 2px; }
+  .kartica-orig { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .kartica-info { font-size: 11px; color: #9a9dae; margin-top: 4px; }
+  .kartica-termini { font-size: 10px; color: #e8702a; margin-top: 4px; }
+
+  .timeline-container { overflow-x: auto; position: relative; }
+  .timeline-header { display: flex; margin-left: 110px; margin-bottom: 6px; min-width: max-content; }
+  .hour-tick { width: 100px; font-size: 11px; color: #444; flex-shrink: 0; border-left: 1px solid #1e2130; padding-left: 4px; }
+  .timeline-row { display: flex; align-items: center; margin-bottom: 6px; min-width: max-content; }
+  .row-label { width: 110px; flex-shrink: 0; padding-right: 8px; text-align: right; }
+  .rl-dan { font-size: 13px; font-weight: 600; color: #ccc; }
+  .rl-datum { font-size: 11px; color: #555; }
+  .row-track { position: relative; height: 64px; background: #13161f; border-radius: 6px; width: 2400px; overflow: hidden; border: 1px solid #1e2130; }
+  .oddaja-blok { position: absolute; top: 3px; bottom: 3px; border-radius: 5px; cursor: pointer; display: flex; flex-direction: column; justify-content: center; padding: 0 8px; overflow: hidden; transition: filter 0.15s; border: 1px solid transparent; }
+  .oddaja-blok:hover { filter: brightness(1.2); border-color: rgba(255,255,255,0.2); z-index: 2; }
+  .b-cas { font-size: 10px; color: rgba(255,255,255,0.45); white-space: nowrap; }
+  .b-naslov { font-size: 12px; font-weight: 600; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .b-zanr { font-size: 10px; color: rgba(255,255,255,0.4); white-space: nowrap; text-transform: capitalize; }
+  .zanr-akcija { background: #1a2a4a; }
+  .zanr-drama { background: #2a1a3a; }
+  .zanr-komedija { background: #1a3a1a; }
+  .zanr-triler { background: #2a2a1a; }
+  .zanr-grozljivka { background: #3a1a1a; }
+  .zanr-romantični { background: #3a1a2a; }
+  .zanr-dokumentarni { background: #1a2a2a; }
+  .zanr-serija { background: #1a2a3a; }
+  .zanr-drugo { background: #1e2130; }
+  .now-line { position: absolute; top: 0; bottom: 0; width: 2px; background: #e8702a; z-index: 5; pointer-events: none; }
+  .now-line-label { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: 10px; color: #e8702a; white-space: nowrap; background: #0d0f18; padding: 1px 4px; }
+  .row-separator { height: 1px; background: #1a1d28; margin: 4px 0 4px 110px; width: 2400px; }
+  .ni-podatkov-row { height: 64px; display: flex; align-items: center; padding-left: 12px; font-size: 12px; color: #333; font-style: italic; }
+  .legenda { display: flex; gap: 16px; margin-top: 1.5rem; flex-wrap: wrap; }
+  .leg-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #555; }
+  .leg-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+  .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 50; }
+  .overlay.active { display: block; }
+  .popup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #13161f; border: 1px solid #2e3148; border-radius: 12px; padding: 1.5rem; width: 500px; max-width: 95vw; max-height: 85vh; overflow-y: auto; z-index: 51; }
+  .popup.active { display: block; }
+  .popup-close { position: absolute; top: 10px; right: 10px; z-index: 5; background: rgba(0,0,0,0.6); border: 2px solid rgba(255,255,255,0.25); color: #fff; font-size: 20px; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; line-height: 1; cursor: pointer; }
+  .popup-close:hover { background: rgba(0,0,0,0.85); color: #fff; }
+  .popup-slika { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; cursor: zoom-in; position: relative; display: block; }
+  .popup-slika-wrap { position: relative; }
+  .popup-slika-zoom-hint { position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.55); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; pointer-events: none; }
+  .slika-lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 100; align-items: center; justify-content: center; cursor: zoom-out; }
+  .slika-lightbox.active { display: flex; }
+  .slika-lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; border-radius: 8px; }
+  .slika-lightbox-close { position: absolute; top: 16px; right: 20px; background: none; border: none; color: #fff; font-size: 32px; cursor: pointer; line-height: 1; }
+  .popup-zanr-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; background: #1e2130; color: #888; margin-bottom: 8px; text-transform: capitalize; }
+  .popup h2 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .popup .orig-naslov { font-size: 13px; color: #555; margin-bottom: 8px; font-style: italic; }
+  .popup-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .popup-meta span { font-size: 12px; color: #777; background: #1a1d28; padding: 3px 10px; border-radius: 20px; }
+  .popup-opis { font-size: 13px; color: #aaa; line-height: 1.7; margin-bottom: 1rem; }
+  .popup-termini-naslov { font-size: 11px; font-weight: 600; color: #555; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .termin-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; background: #1a1d28; border-radius: 6px; margin-bottom: 6px; font-size: 12px; flex-wrap: wrap; }
+  .termin-kanal { color: #e8702a; font-weight: 600; min-width: 90px; }
+  .termin-datum { color: #888; }
+  .termin-cas { color: #ccc; font-weight: 600; }
+  .termin-trajanje { color: #555; margin-left: auto; }
+
+  /* ===== Top 9 pas ===== */
+  .top9-sekcija { padding: 1.25rem 1.5rem 0.25rem; }
+  .top9-glava { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .top9-naslov { font-size: 14px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+  .top9-caret { font-size: 10px; color: #e8702a; transition: transform 0.15s; }
+  .top9-sekcija.zvito .top9-caret { transform: rotate(-90deg); }
+  .top9-sekcija.zvito .top9-grid { display: none; }
+  .top9-podnaslov { font-size: 11px; color: #555; font-weight: 400; margin-left: 4px; }
+  .top9-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  @media (min-width: 760px) { .top9-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); } }
+  .top9-akcija { text-align: center; margin-top: 14px; }
+  .top9-sekcija.zvito .top9-akcija { display: none; }
+  .top9-kartica { position: relative; background: #13161f; border: 1px solid #1e2130; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
+  .top9-kartica:hover { border-color: #e8702a; transform: translateY(-2px); }
+  .top9-slika { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: #1e2130; }
+  .top9-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); color: #f5c518; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
+  .top9-naslov-k { font-size: 11px; font-weight: 600; color: #fff; padding: 6px 7px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  /* ===== Gumb "Prikaži vse filme" + placeholder ===== */
+  .prikazi-vse-btn { padding: 8px 20px; border-radius: 22px; border: 1px solid #e8702a; background: #e8702a; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
+  .prikazi-vse-btn:hover { background: #d5641f; border-color: #d5641f; }
+  .mreza-placeholder { text-align: center; padding: 2.5rem 1rem; }
+  .prikazi-vse-btn.velik { padding: 12px 28px; font-size: 14px; }
+
+  /* ===== Paginacija ===== */
+  .paginacija { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 1.5rem; flex-wrap: wrap; }
+  .pag-btn { padding: 7px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #aaa; font-size: 13px; cursor: pointer; transition: all 0.15s; }
+  .pag-btn:hover:not(:disabled) { background: #1e2130; color: #fff; }
+  .pag-btn:disabled { opacity: 0.35; cursor: default; }
+  .pag-info { font-size: 12px; color: #666; min-width: 90px; text-align: center; }
+
+  /* ===== Nalaganje (overlay pod glavo) ===== */
+  .nalaganje { position: fixed; left: 0; right: 0; bottom: 0; top: 56px; background: #0d0f18; z-index: 40; display: flex; align-items: center; justify-content: center; }
+  .nalaganje.skrito { display: none; }
+  .nalaganje-box { text-align: center; padding: 0 1.5rem; }
+  .nalaganje-spinner { width: 44px; height: 44px; border: 4px solid #1e2130; border-top-color: #e8702a; border-radius: 50%; margin: 0 auto 16px; animation: nal-spin 0.9s linear infinite; }
+  @keyframes nal-spin { to { transform: rotate(360deg); } }
+  .nalaganje-tekst { font-size: 15px; font-weight: 600; color: #fff; }
+  .nalaganje-podtekst { font-size: 12px; color: #777; margin-top: 6px; }
+
+  /* ===== Športna veja — barvna shema =====
+     Filmi so oranžni (#e8702a), šport je zelen (#1fa25a). Namerno, da je
+     ob preklopu veje takoj vidno, kje si. */
+
+  .sp-tip { color: #1fa25a !important; }
+  .sp-now { background: #1fa25a !important; }
+  .header .glava-tip-btn { border-color: #2a5c40; color: #4fd18a; }
+  .header .glava-tip-btn:hover { background: #10281c; border-color: #4fd18a; }
+
+  .sp-sekcija { padding: 1rem 1.5rem 0.25rem; }
+  .sp-sekcija-naslov { font-size: 15px; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 8px; }
+  .sp-naslov-zivo { color: #ff4d4d; }
+  .sp-naslov-kmalu { color: #4fd18a; }
+
+  /* utripajoča pika pri "zdaj v živo" */
+  .sp-pika { width: 9px; height: 9px; border-radius: 50%; background: #ff4d4d; display: inline-block; animation: sp-utrip 1.4s ease-in-out infinite; }
+  @keyframes sp-utrip { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+  /* --- pas ZDAJ V ŽIVO --- */
+  .sp-zivo-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  @media (min-width: 760px) { .sp-zivo-grid { grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); } }
+  .sp-zivo-kartica { background: #1a1114; border: 1px solid #5c2a2a; border-left: 3px solid #ff4d4d; border-radius: 10px; padding: 12px 14px; cursor: pointer; transition: all 0.15s; }
+  .sp-zivo-kartica:hover { border-color: #ff4d4d; background: #211417; }
+  .sp-zivo-naslov { font-size: 14px; font-weight: 600; color: #fff; line-height: 1.35; margin-bottom: 5px; }
+  .sp-zivo-meta { font-size: 11px; color: #b08a8a; display: flex; gap: 10px; flex-wrap: wrap; }
+  .sp-napredek { height: 3px; background: #3a2226; border-radius: 2px; margin-top: 9px; overflow: hidden; }
+  .sp-napredek-bar { height: 100%; background: #ff4d4d; border-radius: 2px; transition: width 30s linear; }
+
+  /* --- pas napovedanih prenosov --- */
+  .sp-kmalu-vrsta { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; }
+  .sp-kmalu-kartica { flex: 0 0 210px; background: #101a14; border: 1px solid #234634; border-radius: 10px; padding: 10px 12px; cursor: pointer; transition: all 0.15s; }
+  .sp-kmalu-kartica:hover { border-color: #4fd18a; background: #13221a; }
+  .sp-kmalu-cas { font-size: 11px; font-weight: 700; color: #4fd18a; }
+  .sp-kmalu-odstevanje { font-size: 10px; color: #7a8f83; margin-left: 6px; font-weight: 600; }
+  .sp-kmalu-naslov { font-size: 12px; color: #dfe6e2; line-height: 1.35; margin-top: 5px; max-height: 50px; overflow: hidden; }
+  .sp-kmalu-kanal { font-size: 10px; color: #6a7f73; margin-top: 6px; }
+
+  /* --- filtri --- */
+  .sp-filtri { background: #13161f; padding: 0.75rem 1.5rem 1rem; border-bottom: 1px solid #1e2130; }
+  .sp-isk { padding: 0 0 0.75rem 0; background: transparent; }
+  .sp-btn-skupina { display: flex; gap: 6px; flex-wrap: wrap; }
+  .sp-btn { padding: 5px 13px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #777; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .sp-btn:hover { background: #1e2130; color: #ccc; }
+  .sp-btn.active { background: #143a28; border-color: #1fa25a; color: #4fd18a; }
+  .sp-btn-stevec { font-size: 10px; opacity: 0.6; margin-left: 4px; }
+
+  /* --- dnevni seznam --- */
+  .sp-dan-naslov { font-size: 13px; font-weight: 700; color: #8a8f9f; text-transform: uppercase; letter-spacing: 0.5px; padding: 1.25rem 0 0.6rem; border-bottom: 1px solid #1e2130; margin-bottom: 0.6rem; }
+  .sp-dan-naslov.danes { color: #4fd18a; }
+
+  .sp-vrstica { display: flex; align-items: flex-start; gap: 12px; padding: 9px 10px; border-radius: 8px; cursor: pointer; transition: background 0.12s; border-left: 3px solid transparent; }
+  .sp-vrstica:hover { background: #171a26; }
+  .sp-vrstica.je-zivo { border-left-color: #ff4d4d; background: #17111400; }
+  .sp-vrstica.je-napovedan { border-left-color: #1fa25a; }
+  .sp-vrstica.je-ponovitev { opacity: 0.62; }
+
+  .sp-cas { flex: 0 0 46px; font-size: 13px; font-weight: 700; color: #cfd3e0; padding-top: 1px; }
+  .sp-telo { flex: 1; min-width: 0; }
+  .sp-naslov { font-size: 13.5px; color: #e6e9f0; line-height: 1.35; }
+  .sp-meta { font-size: 11px; color: #6a6f80; margin-top: 3px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .sp-kanal { color: #8a90a3; }
+
+  .sp-znacka { font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.5px; white-space: nowrap; }
+  .sp-z-zivo { background: #ff4d4d; color: #fff; }
+  .sp-z-napovedan { background: #143a28; color: #4fd18a; border: 1px solid #1fa25a; }
+  .sp-z-bilo { background: #241a1a; color: #a07070; }
+  .sp-z-ponovitev { background: #1e2130; color: #7a7f90; }
+  .sp-z-posnetek { background: #1a1d28; color: #666b7a; }
+  .sp-z-panoga { background: #16202c; color: #6a9ac0; text-transform: capitalize; font-weight: 700; }
+
+  .sp-prazno { text-align: center; color: #5a5f70; padding: 3rem 1rem; font-size: 14px; }
+
+  /* --- popup --- */
+  .sp-popup-znacke { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+  .sp-popup-naslov { font-size: 18px; color: #fff; line-height: 1.3; margin-bottom: 6px; }
+  .sp-popup-kanal { font-size: 12px; color: #8a90a3; margin-bottom: 12px; }
+  .sp-popup-link { display: inline-block; font-size: 12px; color: #4fd18a; text-decoration: none; border: 1px solid #2a5c40; border-radius: 20px; padding: 5px 13px; margin-top: 4px; }
+  .sp-popup-link:hover { background: #10281c; }
+  .sp-p-termin { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid #1e2130; font-size: 12px; }
+  .sp-p-termin-cas { color: #cfd3e0; font-weight: 600; flex: 0 0 118px; }
+
+  @media (max-width: 600px) {
+    .sp-sekcija, .sp-filtri { padding-left: 1rem; padding-right: 1rem; }
+    .filter-label { width: 52px; }
+    .sp-cas { flex-basis: 42px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>TV vodič: <span class="glava-tip sp-tip">Šport</span></h1>
+  <span class="posodobljeno" id="posodobljeno-txt"></span>
+  <a class="glava-tip-btn" href="filmi.html">← Filmi</a>
+  <span class="now-badge sp-now" id="now-time">ZDAJ</span>
+</div>
+
+<!-- ===== Nalaganje (prekrije vsebino pod glavo, dokler se podatki ne naložijo) ===== -->
+<div id="nalaganje" class="nalaganje">
+  <div class="nalaganje-box">
+    <div class="nalaganje-spinner"></div>
+    <div class="nalaganje-tekst">Nalagam športni spored…</div>
+    <div class="nalaganje-podtekst">Trenutek</div>
+  </div>
+</div>
+
+<!-- ===== ZDAJ V ŽIVO (skrito, kadar nič ne teče) ===== -->
+<div class="sp-sekcija sp-sekcija-zivo" id="zivo-sekcija" style="display:none">
+  <div class="sp-sekcija-naslov sp-naslov-zivo"><span class="sp-pika"></span> Zdaj v živo</div>
+  <div class="sp-zivo-grid" id="zivo-grid"></div>
+</div>
+
+<!-- ===== NAPOVEDANI PRENOSI V ŽIVO ===== -->
+<div class="sp-sekcija sp-sekcija-kmalu" id="kmalu-sekcija" style="display:none">
+  <div class="sp-sekcija-naslov sp-naslov-kmalu">📡 Napovedani prenosi v živo</div>
+  <div class="sp-kmalu-vrsta" id="kmalu-grid"></div>
+</div>
+
+<!-- ===== Dnevni trak ===== -->
+<div class="dnevni-trak-bar" id="dnevni-trak"></div>
+
+<!-- ===== Filtri ===== -->
+<div class="sp-filtri">
+  <div class="iskanje-bar sp-isk">
+    <div class="iskanje-input-wrap">
+      <input type="text" class="iskanje-input" id="sp-iskanje" placeholder="Išči ekipo, tekmovanje, panogo…" oninput="onIskanje()">
+      <button class="iskanje-clear" id="sp-iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
+    </div>
+  </div>
+
+  <div class="filter-row">
+    <span class="filter-label">Prikaži</span>
+    <div class="sp-btn-skupina" id="f-status"></div>
+  </div>
+
+  <div class="filter-row">
+    <span class="filter-label">Panoga</span>
+    <div class="sp-btn-skupina" id="f-panoga"></div>
+  </div>
+
+  <div class="filter-row">
+    <span class="filter-label">Kanal</span>
+    <div class="sp-btn-skupina" id="f-kanal"></div>
+  </div>
+</div>
+
+<!-- ===== Spored ===== -->
+<div class="main">
+  <div class="rezultati-info" id="sp-info"></div>
+  <div id="sp-spored"></div>
+</div>
+
+<!-- ===== Popup ===== -->
+<div class="overlay" id="overlay" onclick="zapriPopup()"></div>
+<div class="popup" id="popup">
+  <button class="popup-close" onclick="zapriPopup()">×</button>
+  <div id="p-slika-wrap" class="popup-slika-wrap" style="display:none">
+    <img id="p-slika" class="popup-slika" src="" alt="">
+  </div>
+  <div class="sp-popup-znacke" id="p-znacke"></div>
+  <h2 class="sp-popup-naslov" id="p-naslov"></h2>
+  <div class="sp-popup-kanal" id="p-kanal"></div>
+  <p class="popup-opis" id="p-opis"></p>
+  <a class="sp-popup-link" id="p-link" href="#" target="_blank" rel="noopener" style="display:none">Odpri na neo.io ↗</a>
+  <div class="popup-termini-naslov">Termini</div>
+  <div id="p-termini"></div>
+</div>
+
+<script>
+/* =============================================================================
+   ŠPORTNA VEJA — sport.html
+   =============================================================================
+   Bere veje/sport.json (vsebine + termini) in izriše dogodek-centričen spored.
+
+   KLJUČNA RAZLIKA GLEDE NA FILMSKO VEJO:
+   Filmi so naslov-centrični — en film, več terminov skritih v popupu, razvrščeni
+   po IMDB oceni. Šport je dogodek-centričen — šteje KDAJ in ALI JE V ŽIVO,
+   ocene ni. Zato tu ni mreže s karticami, ampak kronološki seznam po dnevih.
+
+   STATUS SE RAČUNA TUKAJ, NE V PODATKIH:
+   "Zdaj v živo" je lastnost trenutka, ne oddaje. veje/sport.json vsebuje samo
+   dejstva (zivo / zac / kon / prvi); oznake nastanejo ob izrisu in se osvežijo
+   vsakih 30 s. Zato je datoteka, stara tri ure, še vedno pravilna.
+   ========================================================================== */
+
+const PODATKI = '../';
+const PODALJSEK = 15 * 60;     // sekund; tekme se zavlečejo čez predviden konec
+const OSVEZI_MS = 30 * 1000;   // kako pogosto se preračunajo statusi
+const KMALU_KOLIKO = 10;       // koliko napovedanih prenosov v pasu
+
+const DNEVI_SL = ['Nedelja', 'Ponedeljek', 'Torek', 'Sreda', 'Četrtek', 'Petek', 'Sobota'];
+const MESECI = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'avg', 'sep', 'okt', 'nov', 'dec'];
+
+// Žanri, ki jih EPG vrne pri kategoriji Šport, a niso panoga (športne novice,
+// studijske oddaje). V filtru panog nimajo kaj iskati.
+const NI_PANOGA = new Set(['informativna oddaja', 'šport', 'pogovorna oddaja',
+  'intervju', 'dokumentarec', 'posebni dogodek', '']);
+
+let VSEBINE = {};
+let TERMINI = [];
+let META = {};
+
+let izbraniDan = null;          // 'YYYY-MM-DD'; null = vsi dnevi
+let izbranePanoge = new Set();  // prazno = vse
+let izbraniKanali = new Set();  // prazno = vsi
+let statusFilter = 'vse';
+let query = '';
+let tikTimer = null;
+
+// -----------------------------------------------------------------------------
+// Pomožne
+// -----------------------------------------------------------------------------
+
+function zdaj() { return Math.floor(Date.now() / 1000); }
+
+function dvomestno(n) { return n < 10 ? '0' + n : '' + n; }
+
+function uraIz(ts) {
+  const d = new Date(ts * 1000);
+  return dvomestno(d.getHours()) + ':' + dvomestno(d.getMinutes());
+}
+
+function danesStr() {
+  const d = new Date();
+  return d.getFullYear() + '-' + dvomestno(d.getMonth() + 1) + '-' + dvomestno(d.getDate());
+}
+
+function imeDneva(datum) {
+  const d = new Date(datum + 'T12:00:00');
+  const danes = danesStr();
+  if (datum === danes) return 'Danes';
+  const jutri = new Date(); jutri.setDate(jutri.getDate() + 1);
+  const jutriStr = jutri.getFullYear() + '-' + dvomestno(jutri.getMonth() + 1) + '-' + dvomestno(jutri.getDate());
+  if (datum === jutriStr) return 'Jutri';
+  return DNEVI_SL[d.getDay()];
+}
+
+function datumKratko(datum) {
+  const d = new Date(datum + 'T12:00:00');
+  return d.getDate() + '. ' + MESECI[d.getMonth()];
+}
+
+function odstevanje(sekund) {
+  if (sekund < 60) return 'vsak hip';
+  const m = Math.floor(sekund / 60), h = Math.floor(m / 60), dni = Math.floor(h / 24);
+  if (dni > 0) return 'čez ' + dni + ' d ' + (h % 24) + ' h';
+  if (h > 0) return 'čez ' + h + ' h ' + (m % 60) + ' min';
+  return 'čez ' + m + ' min';
+}
+
+function ubegni(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// -----------------------------------------------------------------------------
+// STATUS — edino mesto, kjer se odloča, kaj je kaj
+// -----------------------------------------------------------------------------
+
+function statusTermina(t) {
+  const n = zdaj();
+  if (t.zivo) {
+    if (n < t.zac) return 'napovedan';
+    if (n <= t.kon + PODALJSEK) return 'zdaj';
+    return 'bilo';
+  }
+  return t.prvi ? 'posnetek' : 'ponovitev';
+}
+
+const OZNAKE = {
+  zdaj:      { txt: 'V ŽIVO',    razred: 'sp-z-zivo' },
+  napovedan: { txt: 'V ŽIVO',    razred: 'sp-z-napovedan' },
+  bilo:      { txt: 'bil v živo', razred: 'sp-z-bilo' },
+  ponovitev: { txt: 'ponovitev', razred: 'sp-z-ponovitev' },
+  posnetek:  { txt: 'posnetek',  razred: 'sp-z-posnetek' },
+};
+
+// -----------------------------------------------------------------------------
+// Nalaganje
+// -----------------------------------------------------------------------------
+
+async function init() {
+  try {
+    const resp = await fetch(PODATKI + 'veje/sport.json');
+    if (!resp.ok) throw new Error('sport.json ni dosegljiv (' + resp.status + ')');
+    const d = await resp.json();
+    VSEBINE = d.vsebine || {};
+    TERMINI = d.termini || [];
+    META = d;
+
+    const p = document.getElementById('posodobljeno-txt');
+    if (p) p.textContent = 'osveženo ' + (d.posodobljeno || '');
+
+    izbraniDan = danesStr();
+    if (!TERMINI.some(t => t.datum === izbraniDan)) izbraniDan = null;
+
+    izrisiDnevniTrak();
+    izrisiFiltre();
+    osveziVse();
+
+    tikTimer = setInterval(tik, OSVEZI_MS);
+  } catch (e) {
+    console.error('Napaka pri nalaganju športnega sporeda:', e);
+    document.getElementById('sp-spored').innerHTML =
+      '<div class="sp-prazno">Športnega sporeda ni bilo mogoče naložiti.<br>' + ubegni(e.message) + '</div>';
+  } finally {
+    skrijNalaganje();
+  }
+}
+
+function skrijNalaganje() {
+  const n = document.getElementById('nalaganje');
+  if (n) n.classList.add('skrito');
+}
+
+/* Osveži samo tisto, kar je odvisno od ure. Filtri in dnevni trak ostanejo. */
+function tik() {
+  izrisiZivo();
+  izrisiKmalu();
+  izrisiSpored();
+  posodobiUro();
+}
+
+function osveziVse() {
+  izrisiZivo();
+  izrisiKmalu();
+  izrisiSpored();
+  posodobiUro();
+}
+
+function posodobiUro() {
+  const el = document.getElementById('now-time');
+  if (el) {
+    const d = new Date();
+    el.textContent = dvomestno(d.getHours()) + ':' + dvomestno(d.getMinutes());
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Pas: ZDAJ V ŽIVO
+// -----------------------------------------------------------------------------
+
+function izrisiZivo() {
+  const sek = document.getElementById('zivo-sekcija');
+  const grid = document.getElementById('zivo-grid');
+  const tekoci = TERMINI.filter(t => statusTermina(t) === 'zdaj');
+
+  if (!tekoci.length) { sek.style.display = 'none'; return; }
+  sek.style.display = '';
+
+  const n = zdaj();
+  grid.innerHTML = tekoci.map(t => {
+    const v = VSEBINE[t.v];
+    const skupaj = Math.max(1, t.kon - t.zac);
+    const delez = Math.min(100, Math.max(0, 100 * (n - t.zac) / skupaj));
+    const minute = Math.floor((n - t.zac) / 60);
+    return `<div class="sp-zivo-kartica" onclick="odpriPopup('${t.v}')">
+      <div class="sp-zivo-naslov">${ubegni(v.naslov)}</div>
+      <div class="sp-zivo-meta">
+        <span>${ubegni(v.kanal)}</span>
+        <span>${uraIz(t.zac)}–${uraIz(t.kon)}</span>
+        <span>${minute} min poteka</span>
+      </div>
+      <div class="sp-napredek"><div class="sp-napredek-bar" style="width:${delez.toFixed(1)}%"></div></div>
+    </div>`;
+  }).join('');
+}
+
+// -----------------------------------------------------------------------------
+// Pas: NAPOVEDANI PRENOSI
+// -----------------------------------------------------------------------------
+
+function izrisiKmalu() {
+  const sek = document.getElementById('kmalu-sekcija');
+  const grid = document.getElementById('kmalu-grid');
+  const n = zdaj();
+  const prihodnji = TERMINI
+    .filter(t => statusTermina(t) === 'napovedan')
+    .slice(0, KMALU_KOLIKO);
+
+  if (!prihodnji.length) { sek.style.display = 'none'; return; }
+  sek.style.display = '';
+
+  grid.innerHTML = prihodnji.map(t => {
+    const v = VSEBINE[t.v];
+    const danes = t.datum === danesStr();
+    return `<div class="sp-kmalu-kartica" onclick="odpriPopup('${t.v}')">
+      <div>
+        <span class="sp-kmalu-cas">${danes ? '' : datumKratko(t.datum) + ' '}${uraIz(t.zac)}</span>
+        <span class="sp-kmalu-odstevanje">${odstevanje(t.zac - n)}</span>
+      </div>
+      <div class="sp-kmalu-naslov">${ubegni(v.naslov)}</div>
+      <div class="sp-kmalu-kanal">${ubegni(v.kanal)}</div>
+    </div>`;
+  }).join('');
+}
+
+// -----------------------------------------------------------------------------
+// Dnevni trak
+// -----------------------------------------------------------------------------
+
+function izrisiDnevniTrak() {
+  const dnevi = [...new Set(TERMINI.map(t => t.datum))].sort();
+  const danes = danesStr();
+  const el = document.getElementById('dnevni-trak');
+  el.innerHTML =
+    `<button class="dan-btn ${izbraniDan === null ? 'active' : ''}" onclick="izberiDan(null)">
+       <span class="dan-ime">Vsi</span><span class="dan-datum">dnevi</span>
+     </button>` +
+    dnevi.map(d => {
+      const dt = new Date(d + 'T12:00:00');
+      const oznaka = d === danes ? 'DANES' : DNEVI_SL[dt.getDay()].slice(0, 3);
+      return `<button class="dan-btn ${izbraniDan === d ? 'active' : ''}" onclick="izberiDan('${d}')">
+        <span class="dan-ime">${oznaka}</span>
+        <span class="dan-datum">${dt.getDate()}.${dt.getMonth() + 1}.</span>
+      </button>`;
+    }).join('');
+}
+
+function izberiDan(d) {
+  izbraniDan = d;
+  izrisiDnevniTrak();
+  izrisiSpored();
+}
+
+// -----------------------------------------------------------------------------
+// Filtri
+// -----------------------------------------------------------------------------
+
+function izrisiFiltre() {
+  // status
+  document.getElementById('f-status').innerHTML = [
+    ['vse', 'Vse'],
+    ['zivo', 'Samo v živo'],
+    ['brez-ponovitev', 'Brez ponovitev'],
+  ].map(([k, t]) =>
+    `<button class="sp-btn ${statusFilter === k ? 'active' : ''}" onclick="nastaviStatus('${k}')">${t}</button>`
+  ).join('');
+
+  // panoge — iz vsebin, brez ne-panog
+  const stev = {};
+  TERMINI.forEach(t => {
+    const s = VSEBINE[t.v].sport;
+    if (s && !NI_PANOGA.has(s)) stev[s] = (stev[s] || 0) + 1;
+  });
+  const panoge = Object.keys(stev).sort((a, b) => stev[b] - stev[a]);
+  document.getElementById('f-panoga').innerHTML =
+    `<button class="sp-btn ${izbranePanoge.size === 0 ? 'active' : ''}" onclick="pocistiPanoge()">Vse panoge</button>` +
+    panoge.map(p =>
+      `<button class="sp-btn ${izbranePanoge.has(p) ? 'active' : ''}" onclick="preklopiPanogo('${ubegni(p)}')">
+        ${ubegni(p)}<span class="sp-btn-stevec">${stev[p]}</span></button>`
+    ).join('');
+
+  // kanali — primarni prvi
+  const kan = (META.kanali || []);
+  document.getElementById('f-kanal').innerHTML =
+    `<button class="sp-btn ${izbraniKanali.size === 0 ? 'active' : ''}" onclick="pocistiKanale()">Vsi kanali</button>` +
+    kan.map(k =>
+      `<button class="sp-btn ${izbraniKanali.has(k.ime) ? 'active' : ''}" onclick="preklopiKanal('${ubegni(k.ime)}')">
+        ${ubegni(k.ime)}</button>`
+    ).join('');
+}
+
+function nastaviStatus(k) { statusFilter = k; izrisiFiltre(); izrisiSpored(); }
+function pocistiPanoge() { izbranePanoge.clear(); izrisiFiltre(); izrisiSpored(); }
+function preklopiPanogo(p) {
+  izbranePanoge.has(p) ? izbranePanoge.delete(p) : izbranePanoge.add(p);
+  izrisiFiltre(); izrisiSpored();
+}
+function pocistiKanale() { izbraniKanali.clear(); izrisiFiltre(); izrisiSpored(); }
+function preklopiKanal(k) {
+  izbraniKanali.has(k) ? izbraniKanali.delete(k) : izbraniKanali.add(k);
+  izrisiFiltre(); izrisiSpored();
+}
+
+function onIskanje() {
+  query = document.getElementById('sp-iskanje').value.trim().toLowerCase();
+  document.getElementById('sp-iskanje-clear').style.display = query ? '' : 'none';
+  izrisiSpored();
+}
+
+function pocistiIskanje() {
+  document.getElementById('sp-iskanje').value = '';
+  query = '';
+  document.getElementById('sp-iskanje-clear').style.display = 'none';
+  izrisiSpored();
+}
+
+// -----------------------------------------------------------------------------
+// Glavni seznam
+// -----------------------------------------------------------------------------
+
+function ustreza(t) {
+  const v = VSEBINE[t.v];
+  if (izbraniDan && t.datum !== izbraniDan) return false;
+  if (izbraniKanali.size && !izbraniKanali.has(v.kanal)) return false;
+  if (izbranePanoge.size && !izbranePanoge.has(v.sport)) return false;
+
+  const st = statusTermina(t);
+  if (statusFilter === 'zivo' && st !== 'zdaj' && st !== 'napovedan') return false;
+  if (statusFilter === 'brez-ponovitev' && st === 'ponovitev') return false;
+
+  if (query) {
+    const besedilo = (v.naslov + ' ' + (v.naslov_orig || '') + ' ' + v.sport + ' ' +
+      v.kanal + ' ' + (v.opis || '')).toLowerCase();
+    if (!besedilo.includes(query)) return false;
+  }
+  return true;
+}
+
+function izrisiSpored() {
+  const izbrani = TERMINI.filter(ustreza);
+  const info = document.getElementById('sp-info');
+  const cilj = document.getElementById('sp-spored');
+
+  info.textContent = izbrani.length + (izbrani.length === 1 ? ' termin' : ' terminov');
+
+  if (!izbrani.length) {
+    cilj.innerHTML = '<div class="sp-prazno">Za izbrane filtre ni terminov.</div>';
+    return;
+  }
+
+  const poDnevih = {};
+  izbrani.forEach(t => { (poDnevih[t.datum] = poDnevih[t.datum] || []).push(t); });
+
+  const danes = danesStr();
+  cilj.innerHTML = Object.keys(poDnevih).sort().map(datum => {
+    const vrstice = poDnevih[datum].map(t => vrsticaHtml(t)).join('');
+    return `<div class="sp-dan-naslov ${datum === danes ? 'danes' : ''}">
+        ${imeDneva(datum)} · ${datumKratko(datum)}
+      </div>${vrstice}`;
+  }).join('');
+}
+
+function vrsticaHtml(t) {
+  const v = VSEBINE[t.v];
+  const st = statusTermina(t);
+  const o = OZNAKE[st];
+  const razred = st === 'zdaj' ? 'je-zivo' : st === 'napovedan' ? 'je-napovedan'
+    : st === 'ponovitev' ? 'je-ponovitev' : '';
+  const panoga = (v.sport && !NI_PANOGA.has(v.sport))
+    ? `<span class="sp-znacka sp-z-panoga">${ubegni(v.sport)}</span>` : '';
+  const cd = st === 'napovedan' && t.datum === danesStr()
+    ? `<span>${odstevanje(t.zac - zdaj())}</span>` : '';
+
+  return `<div class="sp-vrstica ${razred}" onclick="odpriPopup('${t.v}')">
+    <div class="sp-cas">${uraIz(t.zac)}</div>
+    <div class="sp-telo">
+      <div class="sp-naslov">${ubegni(v.naslov)}</div>
+      <div class="sp-meta">
+        <span class="sp-znacka ${o.razred}">${o.txt}</span>
+        ${panoga}
+        <span class="sp-kanal">${ubegni(v.kanal)}</span>
+        <span>${uraIz(t.zac)}–${uraIz(t.kon)}</span>
+        ${cd}
+      </div>
+    </div>
+  </div>`;
+}
+
+// -----------------------------------------------------------------------------
+// Popup
+// -----------------------------------------------------------------------------
+
+function odpriPopup(vid) {
+  const v = VSEBINE[vid];
+  if (!v) return;
+
+  const slikaWrap = document.getElementById('p-slika-wrap');
+  const slika = document.getElementById('p-slika');
+  if (v.slika) { slika.src = v.slika; slikaWrap.style.display = ''; }
+  else { slikaWrap.style.display = 'none'; }
+
+  const znacke = [];
+  if (v.sport && !NI_PANOGA.has(v.sport)) znacke.push(`<span class="sp-znacka sp-z-panoga">${ubegni(v.sport)}</span>`);
+  if (v.kategorija && v.kategorija !== 'Šport') znacke.push(`<span class="sp-znacka sp-z-posnetek">${ubegni(v.kategorija)}</span>`);
+  document.getElementById('p-znacke').innerHTML = znacke.join(' ');
+
+  document.getElementById('p-naslov').textContent = v.naslov;
+  document.getElementById('p-kanal').textContent =
+    v.kanal + (v.kanal_st ? ' (' + v.kanal_st + ')' : '') +
+    ' · ' + v.st_terminov + (v.st_terminov === 1 ? ' termin' : ' terminov');
+  document.getElementById('p-opis').textContent = v.opis || '';
+
+  const link = document.getElementById('p-link');
+  if (v.link) { link.href = v.link; link.style.display = ''; }
+  else { link.style.display = 'none'; }
+
+  const moji = TERMINI.filter(t => t.v === vid);
+  document.getElementById('p-termini').innerHTML = moji.map(t => {
+    const o = OZNAKE[statusTermina(t)];
+    return `<div class="sp-p-termin">
+      <span class="sp-p-termin-cas">${imeDneva(t.datum)} ${datumKratko(t.datum)}, ${uraIz(t.zac)}</span>
+      <span class="sp-znacka ${o.razred}">${o.txt}</span>
+    </div>`;
+  }).join('');
+
+  document.getElementById('overlay').classList.add('active');
+  document.getElementById('popup').classList.add('active');
+}
+
+function zapriPopup() {
+  document.getElementById('overlay').classList.remove('active');
+  document.getElementById('popup').classList.remove('active');
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') zapriPopup(); });
+
+init();
+</script>
+
+</body>
+</html>
