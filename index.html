@@ -508,11 +508,16 @@ async function init() {
 
     await naloziVseSporede();
 
-    // Če je stran odprta s ?tip=... (prihod s športne strani), pokaži to vrsto.
+    // Če je stran odprta s ?tip=... (prihod s športne strani), pokaži to vrsto,
+    // nato parameter pobriši iz naslovne vrstice — svojo nalogo je opravil in
+    // bi v naslovu ostal kot smet, tudi ko uporabnik vrsto že zamenja.
     const zeljen = new URLSearchParams(location.search).get('tip');
     if (zeljen) {
       const obstaja = deduplicirani.some(o => (o.kategorija || 'Drugo') === zeljen);
       if (obstaja && zeljen !== aktivniTip) izberTip(zeljen);
+      if (window.history && history.replaceState) {
+        history.replaceState(null, '', location.pathname + location.hash);
+      }
     }
   } catch(e) {
     console.error('init napaka:', e);

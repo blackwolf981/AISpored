@@ -513,7 +513,9 @@ function odpriTipPopup() {
     if (v.veja === 'sport') {
       return `<button class="tip-popup-gumb active" onclick="zapriTipPopup()">${ubegni(v.ime)}</button>`;
     }
-    return `<a class="tip-popup-gumb" href="${v.stran}?tip=${encodeURIComponent(v.ime)}">${ubegni(v.ime)}</a>`;
+    // Privzeta vrsta (Film) ne rabi parametra — stran se v njej odpre sama.
+    const cilj = v.privzeta ? v.stran : `${v.stran}?tip=${encodeURIComponent(v.ime)}`;
+    return `<a class="tip-popup-gumb" href="${cilj}">${ubegni(v.ime)}</a>`;
   }).join('') || '<div style="color:#777;font-size:13px">Seznam vrst ni na voljo.</div>';
   document.getElementById('tip-overlay').classList.add('active');
   document.getElementById('tip-popup').classList.add('active');
