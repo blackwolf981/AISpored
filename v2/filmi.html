@@ -206,6 +206,24 @@
   @keyframes nal-spin { to { transform: rotate(360deg); } }
   .nalaganje-tekst { font-size: 15px; font-weight: 600; color: #fff; }
   .nalaganje-podtekst { font-size: 12px; color: #777; margin-top: 6px; }
+
+  /* ===== Izbornik vej =====
+     Barva aktivne veje se ujema z barvo njene strani: filmi oranžno,
+     šport zeleno. Tako je ob preklopu takoj vidno, kje si. */
+
+  .veje-nav { background: #0f121b; border-bottom: 1px solid #1e2130; padding: 0 1.5rem; display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+  .veje-nav .vn { display: inline-block; padding: 11px 18px; font-size: 13px; font-weight: 600; color: #6a6f80; text-decoration: none; border-bottom: 2px solid transparent; transition: color 0.15s, border-color 0.15s; }
+  .veje-nav .vn:hover { color: #b8bdcc; }
+  .veje-nav .vn-kmalu { margin-left: auto; font-size: 11px; color: #464b5c; padding: 11px 0; }
+
+  .veje-nav[data-aktivna="filmi"] .vn-filmi { color: #e8702a; border-bottom-color: #e8702a; }
+  .veje-nav[data-aktivna="sport"] .vn-sport { color: #1fa25a; border-bottom-color: #1fa25a; }
+
+  @media (max-width: 600px) {
+    .veje-nav { padding: 0 1rem; }
+    .veje-nav .vn { padding: 10px 14px; }
+    .veje-nav .vn-kmalu { display: none; }
+  }
 </style>
 </head>
 <body>
@@ -232,6 +250,15 @@
     <div class="nalaganje-podtekst">Lahko traja do 10 sekund</div>
   </div>
 </div>
+
+<!-- ===== Izbornik vej portala =====
+     Skupen del. Katera veja je aktivna, določi data-aktivna, ki ga ob gradnji
+     vstavi zgradi.py — brez JavaScripta, samo CSS. -->
+<nav class="veje-nav" data-aktivna="filmi">
+  <a class="vn vn-filmi" href="filmi.html">Filmi</a>
+  <a class="vn vn-sport" href="sport.html">Šport</a>
+  <span class="vn-kmalu">Serije · Dokumentarci · Otroški — kmalu</span>
+</nav>
 
 <div class="kanali-bar" id="kanali-bar">
   <button class="kanal-btn active" id="btn-vsi-kanali">Vsi kanali</button>
