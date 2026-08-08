@@ -207,23 +207,11 @@
   .nalaganje-tekst { font-size: 15px; font-weight: 600; color: #fff; }
   .nalaganje-podtekst { font-size: 12px; color: #777; margin-top: 6px; }
 
-  /* ===== Izbornik vej =====
-     Barva aktivne veje se ujema z barvo njene strani: filmi oranžno,
-     šport zeleno. Tako je ob preklopu takoj vidno, kje si. */
-
-  .veje-nav { background: #0f121b; border-bottom: 1px solid #1e2130; padding: 0 1.5rem; display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
-  .veje-nav .vn { display: inline-block; padding: 11px 18px; font-size: 13px; font-weight: 600; color: #6a6f80; text-decoration: none; border-bottom: 2px solid transparent; transition: color 0.15s, border-color 0.15s; }
-  .veje-nav .vn:hover { color: #b8bdcc; }
-  .veje-nav .vn-kmalu { margin-left: auto; font-size: 11px; color: #464b5c; padding: 11px 0; }
-
-  .veje-nav[data-aktivna="filmi"] .vn-filmi { color: #e8702a; border-bottom-color: #e8702a; }
-  .veje-nav[data-aktivna="sport"] .vn-sport { color: #1fa25a; border-bottom-color: #1fa25a; }
-
-  @media (max-width: 600px) {
-    .veje-nav { padding: 0 1rem; }
-    .veje-nav .vn { padding: 10px 14px; }
-    .veje-nav .vn-kmalu { display: none; }
-  }
+  /* Vrsta vsebine, ki ima svojo stran (Šport) — v popupu je povezava, ne filter. */
+  a.tip-popup-gumb { display: block; text-decoration: none; }
+  .tip-popup-veja { border-color: #2a5c40; color: #4fd18a; }
+  .tip-popup-veja:hover { background: #10281c; color: #6fe0a0; }
+  .tip-popup-veja::after { content: '↗'; float: right; opacity: 0.6; }
 
   /* ===== Športna veja — barvna shema =====
      Filmi so oranžni (#e8702a), šport je zelen (#1fa25a). Namerno, da je
@@ -316,10 +304,17 @@
 <body>
 
 <div class="header">
-  <h1>TV vodič: <span class="glava-tip sp-tip">Šport</span></h1>
+  <h1>TV vodič: <span class="glava-tip sp-tip" id="glava-tip">Šport</span></h1>
   <span class="posodobljeno" id="posodobljeno-txt"></span>
-  <a class="glava-tip-btn" href="filmi.html">← Filmi</a>
+  <button class="glava-tip-btn" id="glava-tip-btn" onclick="odpriTipPopup()">Izberi drugo TV vsebino</button>
   <span class="now-badge sp-now" id="now-time">ZDAJ</span>
+</div>
+
+<div class="tip-overlay" id="tip-overlay" onclick="zapriTipPopup()"></div>
+<div class="tip-popup" id="tip-popup">
+  <div class="tip-popup-naslov">Izberi vrsto TV vsebine</div>
+  <div class="tip-popup-gumbi" id="tip-popup-gumbi"></div>
+  <button class="tip-popup-zapri" onclick="zapriTipPopup()">Zapri</button>
 </div>
 
 <!-- ===== Nalaganje (prekrije vsebino pod glavo, dokler se podatki ne naložijo) ===== -->
@@ -330,15 +325,6 @@
     <div class="nalaganje-podtekst">Trenutek</div>
   </div>
 </div>
-
-<!-- ===== Izbornik vej portala =====
-     Skupen del. Katera veja je aktivna, določi data-aktivna, ki ga ob gradnji
-     vstavi zgradi.py — brez JavaScripta, samo CSS. -->
-<nav class="veje-nav" data-aktivna="sport">
-  <a class="vn vn-filmi" href="filmi.html">Filmi</a>
-  <a class="vn vn-sport" href="sport.html">Šport</a>
-  <span class="vn-kmalu">Serije · Dokumentarci · Otroški — kmalu</span>
-</nav>
 
 <!-- ===== ZDAJ V ŽIVO (skrito, kadar nič ne teče) ===== -->
 <div class="sp-sekcija sp-sekcija-zivo" id="zivo-sekcija" style="display:none">
@@ -435,6 +421,7 @@ const NI_PANOGA = new Set(['informativna oddaja', 'šport', 'pogovorna oddaja',
 let VSEBINE = {};
 let TERMINI = [];
 let META = {};
+let VRSTE = [];   // vrste TV vsebine iz veje/vrste.json — za popup "Izberi drugo TV vsebino"
 
 let izbraniDan = null;          // 'YYYY-MM-DD'; null = vsi dnevi
 let izbranePanoge = new Set();  // prazno = vse
@@ -516,8 +503,39 @@ const OZNAKE = {
 // Nalaganje
 // -----------------------------------------------------------------------------
 
+/* Popup "Izberi drugo TV vsebino" — enak kot na filmski strani.
+   Vrste, ki jih pokaže filmska stran, so povezave na filmi.html?tip=…;
+   Šport je trenutna stran, zato je označen kot aktiven. Seznam pride iz
+   veje/vrste.json, da ga ni treba vzdrževati na dveh mestih. */
+function odpriTipPopup() {
+  const wrap = document.getElementById('tip-popup-gumbi');
+  wrap.innerHTML = (VRSTE || []).map(v => {
+    if (v.veja === 'sport') {
+      return `<button class="tip-popup-gumb active" onclick="zapriTipPopup()">${ubegni(v.ime)}</button>`;
+    }
+    return `<a class="tip-popup-gumb" href="${v.stran}?tip=${encodeURIComponent(v.ime)}">${ubegni(v.ime)}</a>`;
+  }).join('') || '<div style="color:#777;font-size:13px">Seznam vrst ni na voljo.</div>';
+  document.getElementById('tip-overlay').classList.add('active');
+  document.getElementById('tip-popup').classList.add('active');
+}
+
+function zapriTipPopup() {
+  document.getElementById('tip-overlay').classList.remove('active');
+  document.getElementById('tip-popup').classList.remove('active');
+}
+
 async function init() {
   try {
+    // Odmik nalagalnega overlaya točno pod glavo (enako kot na filmski strani)
+    const glava = document.querySelector('.header');
+    const ov = document.getElementById('nalaganje');
+    if (glava && ov) ov.style.top = glava.offsetHeight + 'px';
+
+    try {
+      const rv = await fetch(PODATKI + 'veje/vrste.json');
+      if (rv.ok) VRSTE = (await rv.json()).vrste || [];
+    } catch (e) { VRSTE = []; }
+
     const resp = await fetch(PODATKI + 'veje/sport.json');
     if (!resp.ok) throw new Error('sport.json ni dosegljiv (' + resp.status + ')');
     const d = await resp.json();
@@ -841,7 +859,9 @@ function zapriPopup() {
   document.getElementById('popup').classList.remove('active');
 }
 
-document.addEventListener('keydown', e => { if (e.key === 'Escape') zapriPopup(); });
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { zapriPopup(); zapriTipPopup(); }
+});
 
 init();
 </script>
