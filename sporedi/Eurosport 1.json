@@ -1,28 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-08-08 13:41",
+  "posodobljeno": "2026-08-08 14:38",
   "od": "2026-08-01",
   "do": "2026-08-15",
   "oddaje": [
-    {
-      "datum": "2026-08-01",
-      "dan": "Sobota",
-      "cas": "22:59",
-      "cas_konec": "00:32",
-      "trajanje": "93 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 5. dan, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Semi-Final, Judd Trump - Wu Yize",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/20/c/6/20c6921c-19ca-4ed4-9b9f-6f4e5ad8d9c7.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135295458"
-    },
     {
       "datum": "2026-08-01",
       "dan": "Sobota",
@@ -39,7 +21,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/4/9/c249c172-67ad-4ae7-b80d-d5708d2160eb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135295459"
+      "show_id": "CUP_IECOM_EUROSPORT_1135295459",
+      "friendly_id": "kolesarstvo_tour_de_france_pregled_f40429ad"
     },
     {
       "datum": "2026-08-01",
@@ -57,7 +40,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/b/c/54bcdcaa-4cba-4f65-b95b-44c331757408.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139849681"
+      "show_id": "CUP_IECOM_EUROSPORT_1139849681",
+      "friendly_id": "igre_commonwealtha_atletika_in_paraatletika_8_dan_a5010666"
     },
     {
       "datum": "2026-08-01",
@@ -75,7 +59,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/94/e/e/94eeac69-094f-40ac-9676-a370886ecae6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135295461"
+      "show_id": "CUP_IECOM_EUROSPORT_1135295461",
+      "friendly_id": "kolesarstvo_m_dirka_po_danski_3_etapa_fredericia_vs_vejle_26ef1c7f"
     },
     {
       "datum": "2026-08-01",
@@ -93,7 +78,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/4/9/c249c172-67ad-4ae7-b80d-d5708d2160eb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140507314"
+      "show_id": "CUP_IECOM_EUROSPORT_1140507314",
+      "friendly_id": "kolesarstvo_tour_de_france_pregled_e0c7afe7"
     },
     {
       "datum": "2026-08-01",
@@ -111,7 +97,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/b/c/54bcdcaa-4cba-4f65-b95b-44c331757408.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139849682"
+      "show_id": "CUP_IECOM_EUROSPORT_1139849682",
+      "friendly_id": "igre_commonwealtha_atletika_in_paraatletika_8_dan_c2d8cfe5"
     },
     {
       "datum": "2026-08-01",
@@ -129,7 +116,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/7/d/b77dedf0-c86f-4437-a91a-fd34cf66c0c9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135295464"
+      "show_id": "CUP_IECOM_EUROSPORT_1135295464",
+      "friendly_id": "igre_commonwealtha_8_dan_a9b508a0"
     },
     {
       "datum": "2026-08-01",
@@ -147,7 +135,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/4/7/66470b93-0a89-4b4d-b1cf-0fe1f1f846a3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140692202"
+      "show_id": "CUP_IECOM_EUROSPORT_1140692202",
+      "zivo": true,
+      "friendly_id": "snooker_m_sanghajski_masters_6_dan_2026_27c351c9"
     },
     {
       "datum": "2026-08-01",
@@ -165,7 +155,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/b/c/54bcdcaa-4cba-4f65-b95b-44c331757408.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140118974"
+      "show_id": "CUP_IECOM_EUROSPORT_1140118974",
+      "friendly_id": "igre_commonwealtha_atletika_in_paraatletika_8_dan_351292b0"
     },
     {
       "datum": "2026-08-01",
@@ -183,7 +174,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/4/9/c249c172-67ad-4ae7-b80d-d5708d2160eb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666224"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666224",
+      "friendly_id": "kolesarstvo_tour_de_france_pregled_ca824135"
     },
     {
       "datum": "2026-08-01",
@@ -219,7 +211,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/9/89099b73-85b1-48ca-acf8-b8ad3aa801ed.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140118977"
+      "show_id": "CUP_IECOM_EUROSPORT_1140118977",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_1_etapa_lausanne__lausanne_138_km_e4407d26"
     },
     {
       "datum": "2026-08-01",
@@ -237,7 +231,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/9/89099b73-85b1-48ca-acf8-b8ad3aa801ed.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140692334"
+      "show_id": "CUP_IECOM_EUROSPORT_1140692334",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_1_etapa_lausanne__lausanne_138_km_2a6efb24"
     },
     {
       "datum": "2026-08-01",
@@ -255,7 +251,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/c/2/f3c2af29-2c26-4967-be35-175f3ab49194.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666229"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666229",
+      "friendly_id": "kolesarstvo_m_klasika_v_san_sebastianu_donostia_2211km_cb94936a"
     },
     {
       "datum": "2026-08-01",
@@ -273,7 +270,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte novice iz sveta kolesarstva v našem športnem magazinu.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/a/9/61a963d5-99da-4abe-b8df-5e88da52a93d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140692204"
+      "show_id": "CUP_IECOM_EUROSPORT_1140692204",
+      "friendly_id": "kolesarstvo_sov_7a20e8c0"
     },
     {
       "datum": "2026-08-01",
@@ -291,7 +289,9 @@
       "starostna_omejitev": "",
       "opis": "Najboljši atleti z vsega sveta se bodo spopadli za naslove, nagrade in medalje. Vabljeni k ogledu!",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/b/e/eebed5e7-b71c-4535-ae23-e3d768c23149.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666232"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666232",
+      "zivo": true,
+      "friendly_id": "atletika_9_dan_e5a2a4ce"
     },
     {
       "datum": "2026-08-01",
@@ -309,25 +309,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/a/d/63ad3c4f-5f62-4142-968f-91fafa7b6eb2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140692203"
-    },
-    {
-      "datum": "2026-08-02",
-      "dan": "Nedelja",
-      "cas": "23:12",
-      "cas_konec": "00:00",
-      "trajanje": "48 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 6. dan, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Semi-Final, Kyren Wilson - Zhao Xintong",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/a/d/63ad3c4f-5f62-4142-968f-91fafa7b6eb2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140692203"
+      "show_id": "CUP_IECOM_EUROSPORT_1140692203",
+      "friendly_id": "snooker_m_sanghajski_masters_6_dan_2026_4046502f"
     },
     {
       "datum": "2026-08-02",
@@ -345,7 +328,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/02/8/5/02855fb1-fa23-44e0-be0d-19a62b38e52a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666234"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666234",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_fce878e7"
     },
     {
       "datum": "2026-08-02",
@@ -363,7 +347,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/4/9/57491398-443b-4ac2-bdad-a78ecb0f9309.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666235"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666235",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_d32a6d0e"
     },
     {
       "datum": "2026-08-02",
@@ -381,7 +366,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte novice iz sveta kolesarstva v našem športnem magazinu.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/a/9/61a963d5-99da-4abe-b8df-5e88da52a93d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140619880"
+      "show_id": "CUP_IECOM_EUROSPORT_1140619880",
+      "friendly_id": "kolesarstvo_sov_d6634f76"
     },
     {
       "datum": "2026-08-02",
@@ -399,7 +385,8 @@
       "starostna_omejitev": "",
       "opis": "Najboljši atleti z vsega sveta se bodo spopadli za naslove, nagrade in medalje. Vabljeni k ogledu!",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/b/e/eebed5e7-b71c-4535-ae23-e3d768c23149.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666236"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666236",
+      "friendly_id": "atletika_9_dan_af724e59"
     },
     {
       "datum": "2026-08-02",
@@ -417,7 +404,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/9/89099b73-85b1-48ca-acf8-b8ad3aa801ed.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666228"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666228",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_1_etapa_lausanne__lausanne_138_km_3f3b5e77"
     },
     {
       "datum": "2026-08-02",
@@ -435,7 +423,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/c/2/f3c2af29-2c26-4967-be35-175f3ab49194.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666230"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666230",
+      "friendly_id": "kolesarstvo_m_klasika_v_san_sebastianu_donostia_2211km_8dd5fa80"
     },
     {
       "datum": "2026-08-02",
@@ -453,7 +442,8 @@
       "starostna_omejitev": "",
       "opis": "Najboljši atleti z vsega sveta se bodo spopadli za naslove, nagrade in medalje. Vabljeni k ogledu!",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/b/e/eebed5e7-b71c-4535-ae23-e3d768c23149.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666237"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666237",
+      "friendly_id": "atletika_9_dan_bb6842a9"
     },
     {
       "datum": "2026-08-02",
@@ -471,7 +461,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dd/8/3/dd8398e3-cf1b-4d94-ae0e-e462a78829a9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135666238"
+      "show_id": "CUP_IECOM_EUROSPORT_1135666238",
+      "friendly_id": "igre_commonwealtha_9_dan_5ac5bfd4"
     },
     {
       "datum": "2026-08-02",
@@ -489,7 +480,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140692205"
+      "show_id": "CUP_IECOM_EUROSPORT_1140692205",
+      "zivo": true,
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_ad73fee5"
     },
     {
       "datum": "2026-08-02",
@@ -507,7 +500,8 @@
       "starostna_omejitev": "",
       "opis": "Najboljši atleti z vsega sveta se bodo spopadli za naslove, nagrade in medalje. Vabljeni k ogledu!",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/b/e/eebed5e7-b71c-4535-ae23-e3d768c23149.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976010"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976010",
+      "friendly_id": "atletika_9_dan_2557903a"
     },
     {
       "datum": "2026-08-02",
@@ -525,7 +519,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6c/e/a/6cea1957-043f-4ac7-a987-1b95026dd8d4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976011"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976011",
+      "friendly_id": "kolesarstvo_m_dirka_po_danski_4_etapa_rudkobing__faaborg_1725_km_8e202685"
     },
     {
       "datum": "2026-08-02",
@@ -543,7 +538,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/4/c/b74c4172-d29b-4b83-bdee-e3161be9540a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976012"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976012",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m_dirka_po_danski_5_etapa_køge_vs_rødovre_8fd0147f"
     },
     {
       "datum": "2026-08-02",
@@ -561,7 +558,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/c/8/31c8049b-4f57-4576-8fa2-79ee018bb50a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140725131"
+      "show_id": "CUP_IECOM_EUROSPORT_1140725131",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_2_etapa_aigle__geneva_1479_km_66203dd2"
     },
     {
       "datum": "2026-08-02",
@@ -579,7 +578,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v gorskem kolesarstvu je vsakoletno, evropsko tekmovanje v tej vrsti kolesarstva. To prvenstvo poteka od leta 1989.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/7/9/ff79ddf2-6c41-45b8-9118-7f690aeb1b48.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140725134"
+      "show_id": "CUP_IECOM_EUROSPORT_1140725134",
+      "friendly_id": "evropsko_prvenstvo_v_gorskem_kolesarstvu_olimpijski_kros_zenske_vrhunci_monteceneri_d9e059be"
     },
     {
       "datum": "2026-08-02",
@@ -597,7 +597,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v gorskem kolesarstvu je vsakoletno, evropsko tekmovanje v tej vrsti kolesarstva. To prvenstvo poteka od leta 1989.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/7/2/ca7273c8-288f-46e3-8911-caf136555f04.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140725136"
+      "show_id": "CUP_IECOM_EUROSPORT_1140725136",
+      "friendly_id": "evropsko_prvenstvo_v_gorskem_kolesarstvu_olimpijski_kros_moski_vrhunci_monteceneri_3ff63514"
     },
     {
       "datum": "2026-08-02",
@@ -615,7 +616,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976021"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976021",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_487a85d6"
     },
     {
       "datum": "2026-08-02",
@@ -633,7 +635,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/5/4/51549b76-4296-4f14-9269-24e658068423.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976022"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976022",
+      "friendly_id": "gorski_tek_gt_world_series_pitztal_d97cced7"
     },
     {
       "datum": "2026-08-02",
@@ -651,25 +654,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/c/8/31c8049b-4f57-4576-8fa2-79ee018bb50a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976015"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "23:01",
-      "cas_konec": "00:00",
-      "trajanje": "59 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji 2. etapa: Aigle - Geneva (147,9 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 2: Aigle - Geneva (149km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/c/8/31c8049b-4f57-4576-8fa2-79ee018bb50a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976015"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976015",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_2_etapa_aigle__geneva_1479_km_0398464f"
     },
     {
       "datum": "2026-08-03",
@@ -687,7 +673,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/7/7/ca777645-7cfc-4330-8abc-47f41957d1ca.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976023"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976023",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_31a05de7"
     },
     {
       "datum": "2026-08-03",
@@ -705,7 +692,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/3/5/2935596b-ab5c-418d-91e9-2967cc263cc6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976024"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976024",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_ec42c52d"
     },
     {
       "datum": "2026-08-03",
@@ -723,7 +711,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v gorskem kolesarstvu je vsakoletno, evropsko tekmovanje v tej vrsti kolesarstva. To prvenstvo poteka od leta 1989.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/7/9/ff79ddf2-6c41-45b8-9118-7f690aeb1b48.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976018"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976018",
+      "friendly_id": "evropsko_prvenstvo_v_gorskem_kolesarstvu_olimpijski_kros_zenske_vrhunci_monteceneri_b1d82103"
     },
     {
       "datum": "2026-08-03",
@@ -741,7 +730,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v gorskem kolesarstvu je vsakoletno, evropsko tekmovanje v tej vrsti kolesarstva. To prvenstvo poteka od leta 1989.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/7/2/ca7273c8-288f-46e3-8911-caf136555f04.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976020"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976020",
+      "friendly_id": "evropsko_prvenstvo_v_gorskem_kolesarstvu_olimpijski_kros_moski_vrhunci_monteceneri_8705428c"
     },
     {
       "datum": "2026-08-03",
@@ -759,7 +749,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976025"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976025",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_d547acf5"
     },
     {
       "datum": "2026-08-03",
@@ -777,7 +768,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/c/8/31c8049b-4f57-4576-8fa2-79ee018bb50a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976016"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976016",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_2_etapa_aigle__geneva_1479_km_25e376ef"
     },
     {
       "datum": "2026-08-03",
@@ -795,7 +787,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976026"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976026",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_94810302"
     },
     {
       "datum": "2026-08-03",
@@ -813,7 +806,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/7/d/b77dedf0-c86f-4437-a91a-fd34cf66c0c9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976027"
+      "show_id": "CUP_IECOM_EUROSPORT_1135976027",
+      "friendly_id": "igre_commonwealtha_10_dan_29757401"
     },
     {
       "datum": "2026-08-03",
@@ -831,7 +825,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/b/e/a4be9637-697b-43c2-a505-c35d295a8864.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140858516"
+      "show_id": "CUP_IECOM_EUROSPORT_1140858516",
+      "friendly_id": "motokros_m_mx2_1_dirka_vn_flandrije_2026_42071234"
     },
     {
       "datum": "2026-08-03",
@@ -849,7 +844,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/7/0/fc705faa-52a0-417e-9223-35876c289ee9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559045"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559045",
+      "friendly_id": "motokros_m_mxgp_1_dirka_vn_flandrije_2026_ad507842"
     },
     {
       "datum": "2026-08-03",
@@ -867,7 +863,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f0/f/8/f0f85301-7916-4d47-8185-e6c97fd25cf9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559046"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559046",
+      "friendly_id": "motokros_m_mx2_2_dirka_vn_flandrije_2026_0d8b6a73"
     },
     {
       "datum": "2026-08-03",
@@ -885,7 +882,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/a/4/6ea4a8d5-3e56-412c-85ca-e78ac56f920b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559047"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559047",
+      "friendly_id": "motokros_m_mxgp_2_dirka_vn_flandrije_2026_a59c3f2d"
     },
     {
       "datum": "2026-08-03",
@@ -903,7 +901,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559048"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559048",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_f8054227"
     },
     {
       "datum": "2026-08-03",
@@ -921,7 +920,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/f/d/56fd00d9-9fe3-499b-ab68-93fcad1c44bd.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559049"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559049",
+      "friendly_id": "plezanje_ifsc_svetovni_pokal_madrid_finale_moski_balvansko_plezanje_vrhunci_20883a92"
     },
     {
       "datum": "2026-08-03",
@@ -939,7 +939,8 @@
       "starostna_omejitev": "",
       "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/3/7/a837126f-9434-4fcd-9336-b349fdfd1525.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559050"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559050",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_pariz_2024_a5838648"
     },
     {
       "datum": "2026-08-03",
@@ -957,7 +958,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/c/8/31c8049b-4f57-4576-8fa2-79ee018bb50a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559051"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559051",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_2_etapa_aigle__geneva_1479_km_bde0a0ff"
     },
     {
       "datum": "2026-08-03",
@@ -975,7 +977,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/0/4080e470-5883-4268-80e9-b3efa9f1c4dc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559053"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559053",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_3_etapa_geneva__poligny_1565_km_c0d555f1"
     },
     {
       "datum": "2026-08-03",
@@ -993,7 +997,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/b/72eb1ce4-2974-4f68-8e27-7006ea5468b4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559054"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559054",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_1_etapa_gdynia_vs_koszalin_e0659ae1"
     },
     {
       "datum": "2026-08-03",
@@ -1011,7 +1016,8 @@
       "starostna_omejitev": "",
       "opis": "Vse najnovejše novice, najbolj zanimive zgodbe, poudarki in rezultati iz SailGP, vznemirljivega mednarodnega jadralnega tekmovanja, v katerem se ekipe skozi sezono več velikih nagrad po svetu med seboj pomerijo. Ekipe uporabljajo enake visokozmogljive foiling katamarane F50.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/1/9/25199f58-4037-4181-9b6e-c1bf17415c8d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559055"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559055",
+      "friendly_id": "sailgp_jadranje_na_robu_4e532ec1"
     },
     {
       "datum": "2026-08-03",
@@ -1029,7 +1035,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte svetovno prvenstvo, v katerem se bodo najboljši e-športniki borili za prestiž in vredne denarne nagrade. Tekmovalci se pomerijo v več kot dvajsetih igrah.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/1/d3919596-b8a8-49f7-ba25-a572b29531d8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559056"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559056",
+      "friendly_id": "esports_svetovni_pokal_b3a5f5eb"
     },
     {
       "datum": "2026-08-03",
@@ -1047,7 +1054,8 @@
       "starostna_omejitev": "",
       "opis": "Odprto prvenstvo Walesa je razvrstitveni snooker turnir, ki poteka v Cardiffu.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/f/6/7ef6b146-0632-45d4-b271-c71f6ec6fc6c.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559057"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559057",
+      "friendly_id": "snooker_odprto_prvenstvo_walesa_finale_95b47299"
     },
     {
       "datum": "2026-08-03",
@@ -1065,7 +1073,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/0/4080e470-5883-4268-80e9-b3efa9f1c4dc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559058"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559058",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_3_etapa_geneva__poligny_1565_km_7b696e2c"
     },
     {
       "datum": "2026-08-03",
@@ -1083,25 +1092,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/b/72eb1ce4-2974-4f68-8e27-7006ea5468b4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559060"
-    },
-    {
-      "datum": "2026-08-04",
-      "dan": "Torek",
-      "cas": "23:03",
-      "cas_konec": "00:03",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, 1. etapa: Gdynia vs Koszalin",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 1: Gdynia - Koszalin (234km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/b/72eb1ce4-2974-4f68-8e27-7006ea5468b4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559060"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559060",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_1_etapa_gdynia_vs_koszalin_2a338049"
     },
     {
       "datum": "2026-08-04",
@@ -1119,7 +1111,8 @@
       "starostna_omejitev": "",
       "opis": "Odprto prvenstvo Walesa je razvrstitveni snooker turnir, ki poteka v Cardiffu.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/f/6/7ef6b146-0632-45d4-b271-c71f6ec6fc6c.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559061"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559061",
+      "friendly_id": "snooker_odprto_prvenstvo_walesa_finale_9ae29088"
     },
     {
       "datum": "2026-08-04",
@@ -1137,7 +1130,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/b/72eb1ce4-2974-4f68-8e27-7006ea5468b4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559062"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559062",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_1_etapa_gdynia_vs_koszalin_2dedcc6f"
     },
     {
       "datum": "2026-08-04",
@@ -1155,7 +1149,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/0/4080e470-5883-4268-80e9-b3efa9f1c4dc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559063"
+      "show_id": "CUP_IECOM_EUROSPORT_1136559063",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_3_etapa_geneva__poligny_1565_km_3193b4da"
     },
     {
       "datum": "2026-08-04",
@@ -1173,7 +1168,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/f/9/aaf92a4e-6545-458c-b885-654b45335dcc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141984244"
+      "show_id": "CUP_IECOM_EUROSPORT_1141984244",
+      "zivo": true,
+      "friendly_id": "poker_world_series_of_poker_zadnja_miza_1_dan_las_vegas_32f8ced3"
     },
     {
       "datum": "2026-08-04",
@@ -1191,7 +1188,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/f/9/aaf92a4e-6545-458c-b885-654b45335dcc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141543374"
+      "show_id": "CUP_IECOM_EUROSPORT_1141543374",
+      "zivo": true,
+      "friendly_id": "poker_world_series_of_poker_zadnja_miza_1_dan_las_vegas_471e7a60"
     },
     {
       "datum": "2026-08-04",
@@ -1209,7 +1208,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/b/72eb1ce4-2974-4f68-8e27-7006ea5468b4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931103"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931103",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_1_etapa_gdynia_vs_koszalin_2e9496a9"
     },
     {
       "datum": "2026-08-04",
@@ -1227,7 +1227,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/0/4080e470-5883-4268-80e9-b3efa9f1c4dc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931104"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931104",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_3_etapa_geneva__poligny_1565_km_cb2c8ab1"
     },
     {
       "datum": "2026-08-04",
@@ -1245,7 +1246,8 @@
       "starostna_omejitev": "",
       "opis": "Vse najnovejše novice, najbolj zanimive zgodbe, poudarki in rezultati iz SailGP, vznemirljivega mednarodnega jadralnega tekmovanja, v katerem se ekipe skozi sezono več velikih nagrad po svetu med seboj pomerijo. Ekipe uporabljajo enake visokozmogljive foiling katamarane F50.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/1/9/25199f58-4037-4181-9b6e-c1bf17415c8d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931106"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931106",
+      "friendly_id": "sailgp_jadranje_na_robu_25da818e"
     },
     {
       "datum": "2026-08-04",
@@ -1263,7 +1265,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/78/b/7/78b71528-2afd-4783-a30f-505200f0319e.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931107"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931107",
+      "friendly_id": "sportno_plezanje_svetovni_pokal_praga_m_balvansko_plezanje_finale_vrhunci_1af72995"
     },
     {
       "datum": "2026-08-04",
@@ -1281,7 +1284,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/3/c/d13c3e69-4e72-47db-8e89-19f20eafa7ca.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931108"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931108",
+      "friendly_id": "sportno_plezanje_z_svetovni_pokal_praga_balvansko_plezanje_finale_3498aebb"
     },
     {
       "datum": "2026-08-04",
@@ -1299,7 +1303,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931109"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931109",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_67256cb5"
     },
     {
       "datum": "2026-08-04",
@@ -1317,7 +1322,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/0/4080e470-5883-4268-80e9-b3efa9f1c4dc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931105"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931105",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_3_etapa_geneva__poligny_1565_km_6d6081bf"
     },
     {
       "datum": "2026-08-04",
@@ -1335,7 +1341,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/1/8/bb18ca2f-e8d3-4f63-9ad6-89c03b9f4603.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931110"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931110",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_4_etapa_gevreychambertin__dijon_21_km_itt_fc5cdb54"
     },
     {
       "datum": "2026-08-04",
@@ -1353,7 +1361,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931114"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931114",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_2_etapa_miedzyzdroje__szczecin_151_km_ed475722"
     },
     {
       "datum": "2026-08-04",
@@ -1371,7 +1380,8 @@
       "starostna_omejitev": "",
       "opis": "Svetovno odprto prvenstvo v snookerju je profesionalni turnir Svetovnega združenja za profesionalni biljard in snooker. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a7/6/e/a76e04e9-1f14-4721-81bf-389e96470a09.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931117"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931117",
+      "friendly_id": "snooker_svetovno_odprto_prvenstvo_finale_17cde4ae"
     },
     {
       "datum": "2026-08-04",
@@ -1389,7 +1399,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte svetovno prvenstvo, v katerem se bodo najboljši e-športniki borili za prestiž in vredne denarne nagrade. Tekmovalci se pomerijo v več kot dvajsetih igrah.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/1/d3919596-b8a8-49f7-ba25-a572b29531d8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931118"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931118",
+      "friendly_id": "esports_svetovni_pokal_e2747f13"
     },
     {
       "datum": "2026-08-04",
@@ -1407,7 +1418,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/1/8/bb18ca2f-e8d3-4f63-9ad6-89c03b9f4603.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931111"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931111",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_4_etapa_gevreychambertin__dijon_21_km_itt_11e067eb"
     },
     {
       "datum": "2026-08-04",
@@ -1425,11 +1437,12 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931115"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931115",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_2_etapa_miedzyzdroje__szczecin_151_km_445a15c6"
     },
     {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
+      "datum": "2026-08-04",
+      "dan": "Torek",
       "cas": "23:58",
       "cas_konec": "02:00",
       "trajanje": "122 min",
@@ -1443,7 +1456,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/f/9/aaf92a4e-6545-458c-b885-654b45335dcc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141984242"
+      "show_id": "CUP_IECOM_EUROSPORT_1141984242",
+      "friendly_id": "poker_world_series_of_poker_zadnja_miza_1_dan_las_vegas_66b1e9dc"
     },
     {
       "datum": "2026-08-05",
@@ -1461,7 +1475,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/70/6/7/7067d780-a900-4ae2-bafb-e278b9956af4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141984243"
+      "show_id": "CUP_IECOM_EUROSPORT_1141984243",
+      "zivo": true,
+      "friendly_id": "poker_world_series_of_poker_zadnja_miza_2_dan_las_vegas_a42f8719"
     },
     {
       "datum": "2026-08-05",
@@ -1479,7 +1495,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/1/8/bb18ca2f-e8d3-4f63-9ad6-89c03b9f4603.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141761794"
+      "show_id": "CUP_IECOM_EUROSPORT_1141761794",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_4_etapa_gevreychambertin__dijon_21_km_itt_e1596af4"
     },
     {
       "datum": "2026-08-05",
@@ -1497,7 +1514,8 @@
       "starostna_omejitev": "",
       "opis": "Odprto prvenstvo Walesa je razvrstitveni snooker turnir, ki poteka v Cardiffu.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/f/6/7ef6b146-0632-45d4-b271-c71f6ec6fc6c.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136931121"
+      "show_id": "CUP_IECOM_EUROSPORT_1136931121",
+      "friendly_id": "snooker_odprto_prvenstvo_walesa_finale_7e61c12e"
     },
     {
       "datum": "2026-08-05",
@@ -1515,7 +1533,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302866"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302866",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_2_etapa_miedzyzdroje__szczecin_151_km_c06af4ec"
     },
     {
       "datum": "2026-08-05",
@@ -1533,7 +1552,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/1/8/bb18ca2f-e8d3-4f63-9ad6-89c03b9f4603.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302867"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302867",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_4_etapa_gevreychambertin__dijon_21_km_itt_6b2f70eb"
     },
     {
       "datum": "2026-08-05",
@@ -1551,7 +1571,8 @@
       "starostna_omejitev": "",
       "opis": "Vabljeni k ogledu etape Svetovnega pokala v športnem plezanju, ki poteka v Innsbrucku v Avstriji.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1a/3/8/1a386ebc-c9a8-4a5a-bf39-eba4610f6e1f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302869"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302869",
+      "friendly_id": "plezanje_svetovni_pokal_innsbruck_z_balvansko_plezanje_finale_237cd06a"
     },
     {
       "datum": "2026-08-05",
@@ -1569,7 +1590,8 @@
       "starostna_omejitev": "",
       "opis": "Vabljeni k ogledu etape Svetovnega pokala v športnem plezanju, ki poteka v Innsbrucku v Avstriji.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/50/5/8/505812c1-9d17-47c0-b9b0-843d9c42fca0.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302870"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302870",
+      "friendly_id": "plezanje_svetovni_pokal_innsbruck_m_balvansko_plezanje_finale_4e44f1b2"
     },
     {
       "datum": "2026-08-05",
@@ -1587,7 +1609,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/1/8/bb18ca2f-e8d3-4f63-9ad6-89c03b9f4603.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302868"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302868",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_4_etapa_gevreychambertin__dijon_21_km_itt_99f6dba7"
     },
     {
       "datum": "2026-08-05",
@@ -1605,7 +1628,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302871"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302871",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_2f777b69"
     },
     {
       "datum": "2026-08-05",
@@ -1623,7 +1648,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137304282"
+      "show_id": "CUP_IECOM_EUROSPORT_1137304282",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_b96ec083"
     },
     {
       "datum": "2026-08-05",
@@ -1641,7 +1668,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/6/8/d76824cc-1a0e-444a-90a0-892b4b4a0d20.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141989257"
+      "show_id": "CUP_IECOM_EUROSPORT_1141989257",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_3_gorzow_wielkopolski__zielona_gora_1935_km_b235df18"
     },
     {
       "datum": "2026-08-05",
@@ -1659,7 +1687,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/1/8/631899d2-fc3e-4a54-aeea-0debe9cfd0e5.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302877"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302877",
+      "friendly_id": "gorski_teki_golden_trail_world_series_vrhunci_pitzal_68159b0d"
     },
     {
       "datum": "2026-08-05",
@@ -1677,7 +1706,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302878"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302878",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_f2851609"
     },
     {
       "datum": "2026-08-05",
@@ -1695,7 +1725,8 @@
       "starostna_omejitev": "",
       "opis": "Vse najnovejše novice, najbolj zanimive zgodbe, poudarki in rezultati iz SailGP, vznemirljivega mednarodnega jadralnega tekmovanja, v katerem se ekipe skozi sezono več velikih nagrad po svetu med seboj pomerijo. Ekipe uporabljajo enake visokozmogljive foiling katamarane F50.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b0/c/f/b0cfec8b-c1ed-4dae-b8c8-03cca9c668ba.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302879"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302879",
+      "friendly_id": "sailgp_jadranje_na_robu_26088754"
     },
     {
       "datum": "2026-08-05",
@@ -1713,7 +1744,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302872"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302872",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_5d06984d"
     },
     {
       "datum": "2026-08-05",
@@ -1731,7 +1763,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142028787"
+      "show_id": "CUP_IECOM_EUROSPORT_1142028787",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_13a7866c"
     },
     {
       "datum": "2026-08-05",
@@ -1749,25 +1782,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/6/8/d76824cc-1a0e-444a-90a0-892b4b4a0d20.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302875"
-    },
-    {
-      "datum": "2026-08-06",
-      "dan": "Četrtek",
-      "cas": "23:30",
-      "cas_konec": "00:01",
-      "trajanje": "31 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, Stage 3: Gorzow Wielkopolski - Zielona Gora (193,5 km)",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 3: Gorzów Wielkopolski - Zielona Góra (193.5km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/6/8/d76824cc-1a0e-444a-90a0-892b4b4a0d20.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302875"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302875",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_3_gorzow_wielkopolski__zielona_gora_1935_km_6d746f9d"
     },
     {
       "datum": "2026-08-06",
@@ -1785,7 +1801,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/70/6/7/7067d780-a900-4ae2-bafb-e278b9956af4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142028788"
+      "show_id": "CUP_IECOM_EUROSPORT_1142028788",
+      "friendly_id": "poker_world_series_of_poker_zadnja_miza_2_dan_las_vegas_6657b152"
     },
     {
       "datum": "2026-08-06",
@@ -1803,7 +1820,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/6/8/d76824cc-1a0e-444a-90a0-892b4b4a0d20.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302876"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302876",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_3_gorzow_wielkopolski__zielona_gora_1935_km_b6b75e03"
     },
     {
       "datum": "2026-08-06",
@@ -1821,7 +1839,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302873"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302873",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_0b3700f1"
     },
     {
       "datum": "2026-08-06",
@@ -1839,7 +1858,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/70/6/7/7067d780-a900-4ae2-bafb-e278b9956af4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141989261"
+      "show_id": "CUP_IECOM_EUROSPORT_1141989261",
+      "friendly_id": "poker_world_series_of_poker_zadnja_miza_2_dan_las_vegas_5c9d2f0b"
     },
     {
       "datum": "2026-08-06",
@@ -1857,7 +1877,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ab/1/9/ab191caa-9b03-49b6-9b9d-9d7dfc9f019d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141989262"
+      "show_id": "CUP_IECOM_EUROSPORT_1141989262",
+      "zivo": true,
+      "friendly_id": "poker_world_series_of_poker_las_vegas_finale_3_dan_7c5ca732"
     },
     {
       "datum": "2026-08-06",
@@ -1875,7 +1897,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142576994"
+      "show_id": "CUP_IECOM_EUROSPORT_1142576994",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_5298ef09"
     },
     {
       "datum": "2026-08-06",
@@ -1893,7 +1916,8 @@
       "starostna_omejitev": "",
       "opis": "Svetovno odprto prvenstvo v snookerju je profesionalni turnir Svetovnega združenja za profesionalni biljard in snooker. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137302883"
+      "show_id": "CUP_IECOM_EUROSPORT_1137302883",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_1a5616fd"
     },
     {
       "datum": "2026-08-06",
@@ -1911,7 +1935,8 @@
       "starostna_omejitev": "",
       "opis": "Prikazane so aktualne novice iz sveta golfa, pa tudi ozadja, zadnji pomembni dogodki ali prihajajoči turnirji. Poleg tega so predstavljeni portreti legend golfa.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/8/2/54820d77-b399-4477-a6d8-aadfc55409fc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338099"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338099",
+      "friendly_id": "odkrij_golf_df5e9ce9"
     },
     {
       "datum": "2026-08-06",
@@ -1929,7 +1954,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/6/8/d76824cc-1a0e-444a-90a0-892b4b4a0d20.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338101"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338101",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_3_gorzow_wielkopolski__zielona_gora_1935_km_6d73a061"
     },
     {
       "datum": "2026-08-06",
@@ -1947,7 +1973,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338103"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338103",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_f5368c7e"
     },
     {
       "datum": "2026-08-06",
@@ -1965,7 +1992,8 @@
       "starostna_omejitev": "",
       "opis": "Svetovno odprto prvenstvo v snookerju je profesionalni turnir Svetovnega združenja za profesionalni biljard in snooker. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338106"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338106",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_217097f9"
     },
     {
       "datum": "2026-08-06",
@@ -1983,7 +2011,8 @@
       "starostna_omejitev": "",
       "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/7/e/f77ee0da-dd88-4a04-bcdb-35521eb11463.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338107"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338107",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_pariz_2024_9cced3a8"
     },
     {
       "datum": "2026-08-06",
@@ -2001,7 +2030,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/6/3/bf635ddd-ddbe-4aae-aba6-3534f5317737.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338108"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338108",
+      "friendly_id": "plezanje_svetovni_pokal_krakow_hitrostno_plezanje_finale_ca0518a1"
     },
     {
       "datum": "2026-08-06",
@@ -2019,7 +2049,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338105"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338105",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_zenske_stage_5_mâcon__bellevilleenbeaujolais_140_km_06479ba7"
     },
     {
       "datum": "2026-08-06",
@@ -2037,7 +2068,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338109"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338109",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_6_etapa_montbrison__tournonsurrhône_1534_km_0a421e37"
     },
     {
       "datum": "2026-08-06",
@@ -2055,7 +2088,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/a/b/a8ab4a90-312e-4fd7-bf79-528232ed21bb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338113"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338113",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_4_zagan__karpacz_1755_km_b9d5247d"
     },
     {
       "datum": "2026-08-06",
@@ -2073,7 +2107,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/3/563369ef-9be0-40bc-a615-7ebb8ef21142.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338115"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338115",
+      "friendly_id": "sabljanje_svetovno_prvenstvo_posamezno_pregled_hong_kong_fa4bf4ab"
     },
     {
       "datum": "2026-08-06",
@@ -2091,7 +2126,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/e/a/2ceaaf3e-8bc4-4524-97ea-c7694b35f73f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338116"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338116",
+      "friendly_id": "sabljanje_svetovno_prvenstvo_ekipno_pregled_hong_kong_176e71ce"
     },
     {
       "datum": "2026-08-06",
@@ -2109,7 +2145,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338110"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338110",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_6_etapa_montbrison__tournonsurrhône_1534_km_d76bdd3d"
     },
     {
       "datum": "2026-08-06",
@@ -2127,25 +2164,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ab/1/9/ab191caa-9b03-49b6-9b9d-9d7dfc9f019d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142028790"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "23:05",
-      "cas_konec": "00:23",
-      "trajanje": "78 min",
-      "naslov_sl": "Poker: World Series of Poker: Las Vegas, finale, 3. dan",
-      "naslov_orig": "Poker: World Series of Poker: Final Table, Day 3, Las Vegas",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ab/1/9/ab191caa-9b03-49b6-9b9d-9d7dfc9f019d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142028790"
+      "show_id": "CUP_IECOM_EUROSPORT_1142028790",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_finale_3_dan_1dc74440"
     },
     {
       "datum": "2026-08-07",
@@ -2163,7 +2183,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338118"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338118",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_85747fdc"
     },
     {
       "datum": "2026-08-07",
@@ -2181,7 +2202,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/a/b/a8ab4a90-312e-4fd7-bf79-528232ed21bb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338114"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338114",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_4_zagan__karpacz_1755_km_ccde010f"
     },
     {
       "datum": "2026-08-07",
@@ -2199,7 +2221,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338111"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338111",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_6_etapa_montbrison__tournonsurrhône_1534_km_456c84f6"
     },
     {
       "datum": "2026-08-07",
@@ -2217,7 +2240,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338119"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338119",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_f1bfc7d7"
     },
     {
       "datum": "2026-08-07",
@@ -2235,7 +2259,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338112"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338112",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_6_etapa_montbrison__tournonsurrhône_1534_km_15994386"
     },
     {
       "datum": "2026-08-07",
@@ -2253,7 +2278,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/37/1/3/37136367-0113-4571-9a60-e5cc993477ee.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1137338120"
+      "show_id": "CUP_IECOM_EUROSPORT_1137338120",
+      "friendly_id": "snooker_tour_championship_finale_2635bf71"
     },
     {
       "datum": "2026-08-07",
@@ -2271,7 +2297,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/f/2/a6f227d3-ba22-4ade-8174-17219af4b8a8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038096"
+      "show_id": "CUP_IECOM_EUROSPORT_1138038096",
+      "friendly_id": "gorski_tek_gt_serija_pitzal_pregled_25b3db43"
     },
     {
       "datum": "2026-08-07",
@@ -2289,7 +2316,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/a/b/a8ab4a90-312e-4fd7-bf79-528232ed21bb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038097"
+      "show_id": "CUP_IECOM_EUROSPORT_1138038097",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_4_zagan__karpacz_1755_km_8d4e7dca"
     },
     {
       "datum": "2026-08-07",
@@ -2307,7 +2335,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038098"
+      "show_id": "CUP_IECOM_EUROSPORT_1138038098",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_6_etapa_montbrison__tournonsurrhône_1534_km_74685c41"
     },
     {
       "datum": "2026-08-07",
@@ -2325,7 +2354,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038100"
+      "show_id": "CUP_IECOM_EUROSPORT_1138038100",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_32490a92"
     },
     {
       "datum": "2026-08-07",
@@ -2343,7 +2373,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte svetovni pokal v športnem plezanju za ženske in moške v Chamonixu, mestu, ki je gostilo prve zimske olimpijske igre.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e7/9/d/e79d83d5-ada7-4c56-bf93-1591ce0cd63b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038101"
+      "show_id": "CUP_IECOM_EUROSPORT_1138038101",
+      "friendly_id": "sportno_plezanje_svetovni_pokal_v_chamonix_m_z_tezavnostno_plezanje_finale_b8ab91f3"
     },
     {
       "datum": "2026-08-07",
@@ -2361,14 +2392,15 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038099"
+      "show_id": "CUP_IECOM_EUROSPORT_1138038099",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_6_etapa_montbrison__tournonsurrhône_1534_km_a09876ff"
     },
     {
       "datum": "2026-08-07",
       "dan": "Petek",
       "cas": "15:15",
-      "cas_konec": "18:00",
-      "trajanje": "165 min",
+      "cas_konec": "18:16",
+      "trajanje": "181 min",
       "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
       "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
       "kategorija": "Šport",
@@ -2379,16 +2411,18 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038102"
+      "show_id": "CUP_IECOM_EUROSPORT_1138038102",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_7_etapa_la_voultesurrhône__mont_ventoux_1468_km_b1061dff"
     },
     {
       "datum": "2026-08-07",
       "dan": "Petek",
-      "cas": "18:00",
+      "cas": "18:16",
       "cas_konec": "20:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, 5. etapa: Opole - Kocierz Resort (218,5 km)",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 5: Wieliczka (ITT, 12.4km)",
+      "trajanje": "104 min",
+      "naslov_sl": "Kolesarstvo: Dirka po Poljski: 5 Opole - Kocierz (218.5km). etapa",
+      "naslov_orig": "Cycling: Tour of Poland: Stage 5 Opole - Kocierz (218.5km)",
       "kategorija": "Šport",
       "zanr": [
         "kolesarstvo"
@@ -2396,8 +2430,9 @@
       "leto": "0",
       "starostna_omejitev": "",
       "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7f/2/c/7f2c782a-1a11-47f7-9564-14b6bb72e0ff.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038106"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/0/b/610b4dfc-2d0e-4fb3-b619-9baac6adc0d7.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142831571",
+      "friendly_id": "kolesarstvo_dirka_po_poljski_5_opole__kocierz_2185km_etapa_a8923c04"
     },
     {
       "datum": "2026-08-07",
@@ -2415,13 +2450,206 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140858690"
+      "show_id": "CUP_IECOM_EUROSPORT_1140858690",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_716fa15f"
     },
     {
       "datum": "2026-08-07",
       "dan": "Petek",
       "cas": "22:00",
-      "cas_konec": "23:00",
+      "cas_konec": "23:06",
+      "trajanje": "66 min",
+      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
+      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138038103",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_7_etapa_la_voultesurrhône__mont_ventoux_1468_km_68aa1e24"
+    },
+    {
+      "datum": "2026-08-07",
+      "dan": "Petek",
+      "cas": "23:06",
+      "cas_konec": "00:08",
+      "trajanje": "62 min",
+      "naslov_sl": "Kolesarstvo: Dirka po Poljski: 5 Opole - Kocierz (218.5km). etapa",
+      "naslov_orig": "Cycling: Tour of Poland: Stage 5 Opole - Kocierz (218.5km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/0/b/610b4dfc-2d0e-4fb3-b619-9baac6adc0d7.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142831572",
+      "friendly_id": "kolesarstvo_dirka_po_poljski_5_opole__kocierz_2185km_etapa_148a9e1a"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "00:08",
+      "cas_konec": "01:42",
+      "trajanje": "94 min",
+      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
+      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1140858691",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_4f922d6d"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "01:42",
+      "cas_konec": "02:30",
+      "trajanje": "48 min",
+      "naslov_sl": "Kolesarstvo: Dirka po Poljski: 5 Opole - Kocierz (218.5km). etapa",
+      "naslov_orig": "Cycling: Tour of Poland: Stage 5 Opole - Kocierz (218.5km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/0/b/610b4dfc-2d0e-4fb3-b619-9baac6adc0d7.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142831573",
+      "friendly_id": "kolesarstvo_dirka_po_poljski_5_opole__kocierz_2185km_etapa_be9a4459"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "02:30",
+      "cas_konec": "03:27",
+      "trajanje": "57 min",
+      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
+      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138038104",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_7_etapa_la_voultesurrhône__mont_ventoux_1468_km_0846c282"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "03:27",
+      "cas_konec": "05:00",
+      "trajanje": "93 min",
+      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
+      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1140858692",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_153b88f1"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "05:00",
+      "cas_konec": "06:28",
+      "trajanje": "88 min",
+      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
+      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138038105",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_7_etapa_la_voultesurrhône__mont_ventoux_1468_km_42612adc"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "06:28",
+      "cas_konec": "08:00",
+      "trajanje": "92 min",
+      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
+      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1140858693",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_5f9f6aa8"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "08:00",
+      "cas_konec": "08:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
+      "naslov_orig": "Snooker: China Open: Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357375",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_ab9b1b9b"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "08:30",
+      "cas_konec": "11:30",
+      "trajanje": "180 min",
+      "naslov_sl": "Snooker",
+      "naslov_orig": "Snooker",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/a/a/5faa7f13-7ede-49bc-a5cb-7130249d0e54.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357380",
+      "zivo": true,
+      "friendly_id": "snooker_de49080c"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "11:30",
+      "cas_konec": "12:30",
       "trajanje": "60 min",
       "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
       "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
@@ -2433,14 +2661,15 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038103"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357381",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_7_etapa_la_voultesurrhône__mont_ventoux_1468_km_3ca9a7a5"
     },
     {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "12:30",
+      "cas_konec": "13:34",
+      "trajanje": "64 min",
       "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, 5. etapa: Opole - Kocierz Resort (218,5 km)",
       "naslov_orig": "Cycling: Tour of Poland: Stage 5: Wieliczka (ITT, 12.4km)",
       "kategorija": "Šport",
@@ -2451,11 +2680,127 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7f/2/c/7f2c782a-1a11-47f7-9564-14b6bb72e0ff.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038107"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357384",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_5_etapa_opole__kocierz_resort_2185_km_2ed8bdfa"
     },
     {
-      "datum": "2026-08-09",
-      "dan": "Nedelja",
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "13:34",
+      "cas_konec": "14:30",
+      "trajanje": "56 min",
+      "naslov_sl": "Sabljanje: Svetovno prvenstvo: Posamezno, pregled, Hong Kong",
+      "naslov_orig": "Fencing: World Fencing Championships: Individual, Review, Hong Kong",
+      "kategorija": "Šport",
+      "zanr": [
+        "sabljanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/3/563369ef-9be0-40bc-a615-7ebb8ef21142.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357385",
+      "friendly_id": "sabljanje_svetovno_prvenstvo_posamezno_pregled_hong_kong_c78a44f4"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "14:30",
+      "cas_konec": "15:45",
+      "trajanje": "75 min",
+      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
+      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357382",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_7_etapa_la_voultesurrhône__mont_ventoux_1468_km_ed9a04f2"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "15:45",
+      "cas_konec": "18:30",
+      "trajanje": "165 min",
+      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 8. etapa:: Sisteron - Nice (175 km)",
+      "naslov_orig": "Cycling: Tour de France Women: Stage 8: Sisteron - Nice (175km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357386",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_8_etapa_sisteron__nice_175_km_f1dcba94"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "18:30",
+      "cas_konec": "20:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Gorski teki: Sierre-Zinal",
+      "naslov_orig": "Trail Running: World Series: Sierre-Zinal",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/a/5/88a56c7a-512d-4c1d-a66f-29c16396b59d.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357390",
+      "friendly_id": "gorski_teki_sierrezinal_8c06f57d"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "20:00",
+      "cas_konec": "22:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
+      "naslov_orig": "Snooker: China Open: Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357376",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_7bcb21d7"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 8. etapa:: Sisteron - Nice (175 km)",
+      "naslov_orig": "Cycling: Tour de France Women: Stage 8: Sisteron - Nice (175km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1138357387",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_8_etapa_sisteron__nice_175_km_d5252807"
+    },
+    {
+      "datum": "2026-08-08",
+      "dan": "Sobota",
       "cas": "23:00",
       "cas_konec": "00:00",
       "trajanje": "60 min",
@@ -2469,7 +2814,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/46/1/8/461887ca-1631-4081-8ea7-8f59169a065b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357391"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357391",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_6_bukovina_resort__bukowina_tatrzanska_1256_km_d7898015"
     },
     {
       "datum": "2026-08-09",
@@ -2487,7 +2833,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357377"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357377",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_62567392"
     },
     {
       "datum": "2026-08-09",
@@ -2505,7 +2852,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/46/1/8/461887ca-1631-4081-8ea7-8f59169a065b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357392"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357392",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_stage_6_bukovina_resort__bukowina_tatrzanska_1256_km_3b03cd3b"
     },
     {
       "datum": "2026-08-09",
@@ -2523,7 +2871,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357388"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357388",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_8_etapa_sisteron__nice_175_km_b6364848"
     },
     {
       "datum": "2026-08-09",
@@ -2541,7 +2890,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357378"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357378",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_f8f0377b"
     },
     {
       "datum": "2026-08-09",
@@ -2559,7 +2909,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357389"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357389",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_8_etapa_sisteron__nice_175_km_ef0ed8ef"
     },
     {
       "datum": "2026-08-09",
@@ -2577,7 +2928,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357379"
+      "show_id": "CUP_IECOM_EUROSPORT_1138357379",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_dbce7e90"
     },
     {
       "datum": "2026-08-09",
@@ -2595,7 +2947,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738310"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738310",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_d025b50b"
     },
     {
       "datum": "2026-08-09",
@@ -2613,7 +2967,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/a/a/5faa7f13-7ede-49bc-a5cb-7130249d0e54.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738313"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738313",
+      "zivo": true,
+      "friendly_id": "snooker_3a473141"
     },
     {
       "datum": "2026-08-09",
@@ -2631,7 +2987,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738314"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738314",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_8_etapa_sisteron__nice_175_km_7afacba8"
     },
     {
       "datum": "2026-08-09",
@@ -2649,7 +3006,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte svetovni pokal v športnem plezanju za ženske in moške v Chamonixu, mestu, ki je gostilo prve zimske olimpijske igre.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e7/9/d/e79d83d5-ada7-4c56-bf93-1591ce0cd63b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738316"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738316",
+      "friendly_id": "sportno_plezanje_svetovni_pokal_v_chamonix_m_z_tezavnostno_plezanje_finale_3f122189"
     },
     {
       "datum": "2026-08-09",
@@ -2667,7 +3025,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/5/0/6650e462-cec1-4493-a9d8-513e6dac750c.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738317"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738317",
+      "friendly_id": "sabljanje_svetovno_prvenstvo_pregled_fc18ec3c"
     },
     {
       "datum": "2026-08-09",
@@ -2685,7 +3044,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738315"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738315",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_8_etapa_sisteron__nice_175_km_6de7089b"
     },
     {
       "datum": "2026-08-09",
@@ -2703,7 +3063,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738318"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738318",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_9_etapa_nice__nice_99_km_c082e8d6"
     },
     {
       "datum": "2026-08-09",
@@ -2721,7 +3083,8 @@
       "starostna_omejitev": "",
       "opis": "Kolesarska legenda Sir Bradley Wiggins, petkratni olimpijski prvak in zmagovalec Tour de Francea leta 2012, v svoji oddaji pregleduje prihajajoče vrhunske kolesarske dogodke in s svojimi uglednimi gosti razpravlja o novicah in aktualnem dogajanju ter s svojo strokovnostjo kolesarskim navdušencem ponuja povsem poseben vpogled. Ob njem stoji športni novinar Graham Willgoss.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/5/9/4959b897-d7ea-4e48-aefb-4080416ab22e.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738321"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738321",
+      "friendly_id": "kolesarska_oddaja_628bde16"
     },
     {
       "datum": "2026-08-09",
@@ -2739,7 +3102,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte serijo konjeniških tekmovanj v preskakovanju ovir, ki se sestojijo iz 15 tekmovalnih krogov po vsem svetu. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/8/b/cc8b3d40-1e3c-4536-b12e-49134d822b27.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738322"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738322",
+      "friendly_id": "konjeniski_sporti_global_champions_tour_preskakovanje_ovir_11_dogodek_4549e537"
     },
     {
       "datum": "2026-08-09",
@@ -2757,25 +3121,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738323"
-    },
-    {
-      "datum": "2026-08-10",
-      "dan": "Ponedeljek",
-      "cas": "22:00",
-      "cas_konec": "00:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog, vrhunci",
-      "naslov_orig": "Snooker: China Open: Round 1, Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738323"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738323",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_vrhunci_e6cf8a90"
     },
     {
       "datum": "2026-08-10",
@@ -2793,7 +3140,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738311"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738311",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_7dec2783"
     },
     {
       "datum": "2026-08-10",
@@ -2811,7 +3159,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738319"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738319",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_9_etapa_nice__nice_99_km_986fd6f4"
     },
     {
       "datum": "2026-08-10",
@@ -2829,7 +3178,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7f/2/c/7f2c782a-1a11-47f7-9564-14b6bb72e0ff.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738325"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738325",
+      "friendly_id": "kolesarstvo_m_dirka_po_poljski_5_etapa_opole__kocierz_resort_2185_km_686ec207"
     },
     {
       "datum": "2026-08-10",
@@ -2847,7 +3197,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738324"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738324",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_vrhunci_2feb074c"
     },
     {
       "datum": "2026-08-10",
@@ -2865,7 +3216,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738320"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738320",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_9_etapa_nice__nice_99_km_54da326e"
     },
     {
       "datum": "2026-08-10",
@@ -2883,7 +3235,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138738312"
+      "show_id": "CUP_IECOM_EUROSPORT_1138738312",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_6a5b0fd8"
     },
     {
       "datum": "2026-08-10",
@@ -2901,7 +3254,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084255"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084255",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_6ef7c7e1"
     },
     {
       "datum": "2026-08-10",
@@ -2918,8 +3273,10 @@
       "leto": "0",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030241"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030241",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_78e5efff"
     },
     {
       "datum": "2026-08-10",
@@ -2937,7 +3294,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084256"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084256",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_818ee116"
     },
     {
       "datum": "2026-08-10",
@@ -2954,8 +3313,9 @@
       "leto": "0",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030242"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030242",
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_032b71e1"
     },
     {
       "datum": "2026-08-10",
@@ -2973,7 +3333,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084263"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084263",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_9_etapa_nice__nice_99_km_55862f37"
     },
     {
       "datum": "2026-08-10",
@@ -2990,8 +3351,9 @@
       "leto": "0",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030243"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030243",
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_2463fba4"
     },
     {
       "datum": "2026-08-10",
@@ -3008,8 +3370,10 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030244"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030244",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_ec2357bd"
     },
     {
       "datum": "2026-08-10",
@@ -3027,25 +3391,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084264"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 9. etapa: Nice - Nice (99 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 9: Nice (99km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084264"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084264",
+      "friendly_id": "kolesarstvo_z_dirka_po_franciji_9_etapa_nice__nice_99_km_8cea893d"
     },
     {
       "datum": "2026-08-11",
@@ -3063,7 +3410,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/02/8/5/02855fb1-fa23-44e0-be0d-19a62b38e52a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084266"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084266",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_2135dc59"
     },
     {
       "datum": "2026-08-11",
@@ -3081,7 +3429,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084257"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084257",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_c121374c"
     },
     {
       "datum": "2026-08-11",
@@ -3099,7 +3448,8 @@
       "starostna_omejitev": "",
       "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084267"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084267",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_18_etapa_voiron__orcièresmerlette_1852_km_f438e7a5"
     },
     {
       "datum": "2026-08-11",
@@ -3117,7 +3467,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084258"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084258",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_1039a589"
     },
     {
       "datum": "2026-08-11",
@@ -3135,7 +3486,8 @@
       "starostna_omejitev": "",
       "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084268"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084268",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_18_etapa_voiron__orcièresmerlette_1852_km_e2f6cd8a"
     },
     {
       "datum": "2026-08-11",
@@ -3153,7 +3505,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084259"
+      "show_id": "CUP_IECOM_EUROSPORT_1139084259",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_20cd78f0"
     },
     {
       "datum": "2026-08-11",
@@ -3171,7 +3524,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631460"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631460",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_e1523bd9"
     },
     {
       "datum": "2026-08-11",
@@ -3188,8 +3543,10 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030245"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/c/b/28cbb707-9548-4675-acf3-bb5e9111d358.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030245",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_255249a4"
     },
     {
       "datum": "2026-08-11",
@@ -3207,7 +3564,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631461"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631461",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_638cc3b4"
     },
     {
       "datum": "2026-08-11",
@@ -3224,8 +3583,9 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030246"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030246",
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_71b98cdc"
     },
     {
       "datum": "2026-08-11",
@@ -3243,7 +3603,8 @@
       "starostna_omejitev": "",
       "opis": "Spremljajte serijo konjeniških tekmovanj v preskakovanju ovir, ki se sestojijo iz 15 tekmovalnih krogov po vsem svetu. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/8/b/cc8b3d40-1e3c-4536-b12e-49134d822b27.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631468"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631468",
+      "friendly_id": "konjeniski_sporti_global_champions_tour_preskakovanje_ovir_11_dogodek_ddaa3b4e"
     },
     {
       "datum": "2026-08-11",
@@ -3260,8 +3621,9 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030247"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030247",
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_0701021f"
     },
     {
       "datum": "2026-08-11",
@@ -3278,8 +3640,10 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030248"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030248",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_6cd8a3a8"
     },
     {
       "datum": "2026-08-11",
@@ -3297,7 +3661,8 @@
       "starostna_omejitev": "",
       "opis": "Oglejte si najzanimivejše trenutke tekmovanja, v katerem se vozniki motornih čolnov pomerijo za naslov najboljšega.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/3/d/603d5c4f-efad-4c3c-b1b9-4e82757e1163.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141762544"
+      "show_id": "CUP_IECOM_EUROSPORT_1141762544",
+      "friendly_id": "f1h2o_svetovno_prvenstvo_vrhunci_6de2d478"
     },
     {
       "datum": "2026-08-11",
@@ -3315,25 +3680,8 @@
       "starostna_omejitev": "",
       "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141542630"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "23:30",
-      "cas_konec": "00:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 19. etapa: Gap - Alpe d'Huez (127,9 km)",
-      "naslov_orig": "Cycling: Tour de France: Stage 19: Gap - Alpe d'Huez (128km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141542630"
+      "show_id": "CUP_IECOM_EUROSPORT_1141542630",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_19_etapa_gap__alpe_dhuez_1279_km_df50c581"
     },
     {
       "datum": "2026-08-12",
@@ -3351,7 +3699,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/4/9/57491398-443b-4ac2-bdad-a78ecb0f9309.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631471"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631471",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_9bcc5086"
     },
     {
       "datum": "2026-08-12",
@@ -3369,7 +3718,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631462"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631462",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_edde1196"
     },
     {
       "datum": "2026-08-12",
@@ -3387,7 +3737,8 @@
       "starostna_omejitev": "",
       "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631472"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631472",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_19_etapa_gap__alpe_dhuez_1279_km_bcc6a67c"
     },
     {
       "datum": "2026-08-12",
@@ -3405,7 +3756,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631463"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631463",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_752e33d0"
     },
     {
       "datum": "2026-08-12",
@@ -3423,7 +3775,8 @@
       "starostna_omejitev": "",
       "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631473"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631473",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_19_etapa_gap__alpe_dhuez_1279_km_5eccd5d4"
     },
     {
       "datum": "2026-08-12",
@@ -3441,7 +3794,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631464"
+      "show_id": "CUP_IECOM_EUROSPORT_1139631464",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_9e4543b6"
     },
     {
       "datum": "2026-08-12",
@@ -3459,7 +3813,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958061"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958061",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_5d5c87f9"
     },
     {
       "datum": "2026-08-12",
@@ -3476,8 +3832,10 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034932"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142034932",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_3_dan_birmingham_fdd4ddfd"
     },
     {
       "datum": "2026-08-12",
@@ -3495,7 +3853,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958063"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958063",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_0512a3fb"
     },
     {
       "datum": "2026-08-12",
@@ -3512,8 +3872,9 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034933"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142034933",
+      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_4986f6c8"
     },
     {
       "datum": "2026-08-12",
@@ -3531,7 +3892,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/f/2/a6f227d3-ba22-4ade-8174-17219af4b8a8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958065"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958065",
+      "friendly_id": "gorski_tek_gt_serija_pitzal_pregled_ee778d84"
     },
     {
       "datum": "2026-08-12",
@@ -3549,7 +3911,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/a/5/88a56c7a-512d-4c1d-a66f-29c16396b59d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958066"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958066",
+      "friendly_id": "gorski_teki_sierrezinal_pregled_008ebd99"
     },
     {
       "datum": "2026-08-12",
@@ -3566,8 +3929,9 @@
       "leto": "2026",
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034934"
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142034934",
+      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_3a4648c0"
     },
     {
       "datum": "2026-08-12",
@@ -3585,29 +3949,13 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/1/98210a51-1d89-4b3e-942a-1b2f94d6b329.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034935"
+      "show_id": "CUP_IECOM_EUROSPORT_1142034935",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_3_dan_birmingham_f1dbed09"
     },
     {
       "datum": "2026-08-12",
       "dan": "Sreda",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S0E1 - NFL Hard Knocks: Seattle Seahawks",
-      "naslov_orig": "S0E1 - Hard Knocks: Training Camp",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/0/7/5a07a09b-6f71-49f9-9758-d0f325d42cff.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958069"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
       "cas": "23:00",
       "cas_konec": "00:00",
       "trajanje": "60 min",
@@ -3639,7 +3987,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/7/7/ca777645-7cfc-4330-8abc-47f41957d1ca.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958070"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958070",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_9bf11b3e"
     },
     {
       "datum": "2026-08-13",
@@ -3657,7 +4006,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958071"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958071",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_657c7363"
     },
     {
       "datum": "2026-08-13",
@@ -3675,7 +4025,8 @@
       "starostna_omejitev": "",
       "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958072"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958072",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_20_etapa_le_bourg_doisans__alpe_dhuez_1709_km_bc492713"
     },
     {
       "datum": "2026-08-13",
@@ -3693,7 +4044,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958073"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958073",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_6b7e1cfc"
     },
     {
       "datum": "2026-08-13",
@@ -3711,7 +4063,8 @@
       "starostna_omejitev": "",
       "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958097"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958097",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_20_etapa_le_bourg_doisans__alpe_dhuez_1709_km_526bac81"
     },
     {
       "datum": "2026-08-13",
@@ -3729,7 +4082,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958098"
+      "show_id": "CUP_IECOM_EUROSPORT_1139958098",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_b743cc56"
     },
     {
       "datum": "2026-08-13",
@@ -3747,7 +4101,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117822"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117822",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_0f7a69bd"
     },
     {
       "datum": "2026-08-13",
@@ -3765,7 +4121,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052542"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052542",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_eb38bd11"
     },
     {
       "datum": "2026-08-13",
@@ -3783,7 +4141,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140118391"
+      "show_id": "CUP_IECOM_EUROSPORT_1140118391",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_50885358"
     },
     {
       "datum": "2026-08-13",
@@ -3801,7 +4161,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/1/98210a51-1d89-4b3e-942a-1b2f94d6b329.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052543"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052543",
+      "friendly_id": "atletika_evropsko_prvenstvo_3_dan_birmingham_766ff1cb"
     },
     {
       "datum": "2026-08-13",
@@ -3819,7 +4180,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/0/8/dc082f21-df88-411f-8531-1df7d7a0d406.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117830"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117830",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_1_etapa_prague_vs_karlovy_vary_fd95cc55"
     },
     {
       "datum": "2026-08-13",
@@ -3837,7 +4199,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/1/98210a51-1d89-4b3e-942a-1b2f94d6b329.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052544"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052544",
+      "friendly_id": "atletika_evropsko_prvenstvo_3_dan_birmingham_b143d8ee"
     },
     {
       "datum": "2026-08-13",
@@ -3855,7 +4218,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052545"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052545",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_7d799cbd"
     },
     {
       "datum": "2026-08-13",
@@ -3873,25 +4238,8 @@
       "starostna_omejitev": "",
       "opis": "Športni magazin, posvečen najboljšim trenutkom slavne ženske kolesarske dirke Tour de France.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117834"
-    },
-    {
-      "datum": "2026-08-14",
-      "dan": "Petek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Cycling World Tour: Najboljši trenutki dirke Tour de France: ženske",
-      "naslov_orig": "Best of Tour de France Women",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Športni magazin, posvečen najboljšim trenutkom slavne ženske kolesarske dirke Tour de France.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117834"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117834",
+      "friendly_id": "cycling_world_tour_najboljsi_trenutki_dirke_tour_de_france_zenske_53960415"
     },
     {
       "datum": "2026-08-14",
@@ -3909,7 +4257,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/3/5/2935596b-ab5c-418d-91e9-2967cc263cc6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117835"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117835",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_19bd3ae3"
     },
     {
       "datum": "2026-08-14",
@@ -3927,7 +4276,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117824"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117824",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_7a711f26"
     },
     {
       "datum": "2026-08-14",
@@ -3945,7 +4295,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/0/8/dc082f21-df88-411f-8531-1df7d7a0d406.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117831"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117831",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_1_etapa_prague_vs_karlovy_vary_cdcbf4a9"
     },
     {
       "datum": "2026-08-14",
@@ -3963,7 +4314,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/b/7/40b7d237-65bc-434a-8e53-4472a34eb554.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117836"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117836",
+      "friendly_id": "kolesarstvo_m_arkticna_dirka_po_norveski_1_etapa_evenes_vs_myre_d87aa69d"
     },
     {
       "datum": "2026-08-14",
@@ -3981,7 +4333,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117825"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117825",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_4eb7141e"
     },
     {
       "datum": "2026-08-14",
@@ -3999,7 +4352,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/0/8/dc082f21-df88-411f-8531-1df7d7a0d406.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117832"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117832",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_1_etapa_prague_vs_karlovy_vary_6fb75121"
     },
     {
       "datum": "2026-08-14",
@@ -4017,7 +4371,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/b/7/40b7d237-65bc-434a-8e53-4472a34eb554.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117837"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117837",
+      "friendly_id": "kolesarstvo_m_arkticna_dirka_po_norveski_1_etapa_evenes_vs_myre_051cc0cd"
     },
     {
       "datum": "2026-08-14",
@@ -4035,7 +4390,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140117826"
+      "show_id": "CUP_IECOM_EUROSPORT_1140117826",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_f03e4d59"
     },
     {
       "datum": "2026-08-14",
@@ -4053,7 +4409,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693313"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693313",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_cetrtfinale_bb33302a"
     },
     {
       "datum": "2026-08-14",
@@ -4071,7 +4429,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/a/a/5faa7f13-7ede-49bc-a5cb-7130249d0e54.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693317"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693317",
+      "zivo": true,
+      "friendly_id": "snooker_44dcf3f1"
     },
     {
       "datum": "2026-08-14",
@@ -4089,7 +4449,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693318"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693318",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_5_dan_birmingham_3d255421"
     },
     {
       "datum": "2026-08-14",
@@ -4107,7 +4469,9 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693314"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693314",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_cetrtfinale_9ee2263f"
     },
     {
       "datum": "2026-08-14",
@@ -4125,7 +4489,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052546"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052546",
+      "friendly_id": "atletika_evropsko_prvenstvo_1dd7cbbd"
     },
     {
       "datum": "2026-08-14",
@@ -4143,7 +4508,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/9/d/909d50b3-3aac-4c67-8c0a-14b61d3e1861.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693321"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693321",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_2_etapa_mladá_boleslav_vs_jestěd_769edf82"
     },
     {
       "datum": "2026-08-14",
@@ -4161,7 +4527,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052547"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052547",
+      "friendly_id": "atletika_evropsko_prvenstvo_c01f14cc"
     },
     {
       "datum": "2026-08-14",
@@ -4179,7 +4546,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052548"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052548",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_b453520d"
     },
     {
       "datum": "2026-08-14",
@@ -4197,25 +4566,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/2/6/5a269f86-10c5-4794-9963-0a02dfe91f0f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693325"
-    },
-    {
-      "datum": "2026-08-15",
-      "dan": "Sobota",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S0E5 - Poker: World Series of Poker: Las Vegas",
-      "naslov_orig": "S0E5 - Poker: World Series of Poker: Las Vegas",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/2/6/5a269f86-10c5-4794-9963-0a02dfe91f0f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693325"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693325",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_20e8dcd2"
     },
     {
       "datum": "2026-08-15",
@@ -4233,7 +4585,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/2/6/5a269f86-10c5-4794-9963-0a02dfe91f0f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693326"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693326",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_e1472f7d"
     },
     {
       "datum": "2026-08-15",
@@ -4251,7 +4604,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693315"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693315",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_cetrtfinale_1c720a33"
     },
     {
       "datum": "2026-08-15",
@@ -4269,7 +4623,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/9/d/909d50b3-3aac-4c67-8c0a-14b61d3e1861.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693322"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693322",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_2_etapa_mladá_boleslav_vs_jestěd_4baa0494"
     },
     {
       "datum": "2026-08-15",
@@ -4287,7 +4642,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693327"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693327",
+      "friendly_id": "kolesarstvo_m_arkticna_dirka_po_norveski_2_etapa_bø_i_vesterålen_vs_andenes_eda829ac"
     },
     {
       "datum": "2026-08-15",
@@ -4305,7 +4661,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693316"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693316",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_cetrtfinale_db36404d"
     },
     {
       "datum": "2026-08-15",
@@ -4323,7 +4680,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/9/d/909d50b3-3aac-4c67-8c0a-14b61d3e1861.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693323"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693323",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_2_etapa_mladá_boleslav_vs_jestěd_8c0ed9ef"
     },
     {
       "datum": "2026-08-15",
@@ -4341,7 +4699,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140693328"
+      "show_id": "CUP_IECOM_EUROSPORT_1140693328",
+      "friendly_id": "kolesarstvo_m_arkticna_dirka_po_norveski_2_etapa_bø_i_vesterålen_vs_andenes_ade60174"
     },
     {
       "datum": "2026-08-15",
@@ -4359,7 +4718,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142052549"
+      "show_id": "CUP_IECOM_EUROSPORT_1142052549",
+      "friendly_id": "atletika_evropsko_prvenstvo_7db8d937"
     },
     {
       "datum": "2026-08-15",
@@ -4377,7 +4737,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/c/b/28cbb707-9548-4675-acf3-bb5e9111d358.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141029512"
+      "show_id": "CUP_IECOM_EUROSPORT_1141029512",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_6_dan_birmingham_c75c5fd3"
     },
     {
       "datum": "2026-08-15",
@@ -4395,7 +4757,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/c/b/28cbb707-9548-4675-acf3-bb5e9111d358.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141030594"
+      "show_id": "CUP_IECOM_EUROSPORT_1141030594",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_6_dan_birmingham_a99a763e"
     },
     {
       "datum": "2026-08-15",
@@ -4413,7 +4777,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/c/b/28cbb707-9548-4675-acf3-bb5e9111d358.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141030595"
+      "show_id": "CUP_IECOM_EUROSPORT_1141030595",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_6_dan_birmingham_3e88c8bb"
     },
     {
       "datum": "2026-08-15",
@@ -4431,7 +4797,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/7/a1d76b84-0c72-4c3d-91b1-76d160d97ba8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141029513"
+      "show_id": "CUP_IECOM_EUROSPORT_1141029513",
+      "friendly_id": "atletika_evropsko_prvenstvo_5_dan_birmingham_96ce2516"
     },
     {
       "datum": "2026-08-15",
@@ -4449,7 +4816,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3a/2/8/3a281aa7-b2d8-4337-a948-70513f81e187.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141029515"
+      "show_id": "CUP_IECOM_EUROSPORT_1141029515",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_3_etapa_pardubice__dlouhé_strane_17088_km_21d0706c"
     },
     {
       "datum": "2026-08-15",
@@ -4467,7 +4835,8 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/7/a1d76b84-0c72-4c3d-91b1-76d160d97ba8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141029514"
+      "show_id": "CUP_IECOM_EUROSPORT_1141029514",
+      "friendly_id": "atletika_evropsko_prvenstvo_5_dan_birmingham_c5352b1e"
     },
     {
       "datum": "2026-08-15",
@@ -4485,7 +4854,9 @@
       "starostna_omejitev": "",
       "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/c/b/28cbb707-9548-4675-acf3-bb5e9111d358.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141029518"
+      "show_id": "CUP_IECOM_EUROSPORT_1141029518",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_6_dan_birmingham_f351cc46"
     },
     {
       "datum": "2026-08-15",
@@ -4503,331 +4874,8 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787035"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "23:06",
-      "cas_konec": "00:08",
-      "trajanje": "62 min",
-      "naslov_sl": "Kolesarstvo: Dirka po Poljski: 5 Opole - Kocierz (218.5km). etapa",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 5 Opole - Kocierz (218.5km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/0/b/610b4dfc-2d0e-4fb3-b619-9baac6adc0d7.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142831572"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "00:08",
-      "cas_konec": "01:42",
-      "trajanje": "94 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140858691"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "01:42",
-      "cas_konec": "02:30",
-      "trajanje": "48 min",
-      "naslov_sl": "Kolesarstvo: Dirka po Poljski: 5 Opole - Kocierz (218.5km). etapa",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 5 Opole - Kocierz (218.5km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/0/b/610b4dfc-2d0e-4fb3-b619-9baac6adc0d7.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142831573"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "02:30",
-      "cas_konec": "03:27",
-      "trajanje": "57 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038104"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "03:27",
-      "cas_konec": "05:00",
-      "trajanje": "93 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140858692"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "05:00",
-      "cas_konec": "06:28",
-      "trajanje": "88 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138038105"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "06:28",
-      "cas_konec": "08:00",
-      "trajanje": "92 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140858693"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "08:00",
-      "cas_konec": "08:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
-      "naslov_orig": "Snooker: China Open: Round 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357375"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "08:30",
-      "cas_konec": "11:30",
-      "trajanje": "180 min",
-      "naslov_sl": "Snooker",
-      "naslov_orig": "Snooker",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/a/a/5faa7f13-7ede-49bc-a5cb-7130249d0e54.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357380"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "11:30",
-      "cas_konec": "12:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357381"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "12:30",
-      "cas_konec": "13:34",
-      "trajanje": "64 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, 5. etapa: Opole - Kocierz Resort (218,5 km)",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 5: Wieliczka (ITT, 12.4km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7f/2/c/7f2c782a-1a11-47f7-9564-14b6bb72e0ff.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357384"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "13:34",
-      "cas_konec": "14:30",
-      "trajanje": "56 min",
-      "naslov_sl": "Sabljanje: Svetovno prvenstvo: Posamezno, pregled, Hong Kong",
-      "naslov_orig": "Fencing: World Fencing Championships: Individual, Review, Hong Kong",
-      "kategorija": "Šport",
-      "zanr": [
-        "sabljanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/3/563369ef-9be0-40bc-a615-7ebb8ef21142.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357385"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "14:30",
-      "cas_konec": "15:45",
-      "trajanje": "75 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 7. etapa: La Voulte-sur-Rhône - Mont Ventoux (146,8 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 7: La Voulte-sur-Rhône - Mont Ventoux (144km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357382"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "15:45",
-      "cas_konec": "18:30",
-      "trajanje": "165 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 8. etapa:: Sisteron - Nice (175 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 8: Sisteron - Nice (175km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357386"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "18:30",
-      "cas_konec": "20:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Gorski teki: Sierre-Zinal",
-      "naslov_orig": "Trail Running: World Series: Sierre-Zinal",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/a/5/88a56c7a-512d-4c1d-a66f-29c16396b59d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357390"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "20:00",
-      "cas_konec": "22:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
-      "naslov_orig": "Snooker: China Open: Round 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357376"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 8. etapa:: Sisteron - Nice (175 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 8: Sisteron - Nice (175km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357387"
-    },
-    {
-      "datum": "2026-08-08",
-      "dan": "Sobota",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, Stage 6: Bukovina Resort - Bukowina Tatrzanska (125,6 km)",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 6: Bukovina Resort - Bukowina Tatrzańska (125.6km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/46/1/8/461887ca-1631-4081-8ea7-8f59169a065b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1138357391"
+      "show_id": "CUP_IECOM_EUROSPORT_1142787035",
+      "friendly_id": "formula_e_fia_world_championship_london_vrhunci_16_krog_9c9b0cfa"
     }
   ]
 }
