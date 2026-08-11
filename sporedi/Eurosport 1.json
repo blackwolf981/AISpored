@@ -1,448 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-08-10 12:25",
-  "od": "2026-08-03",
-  "do": "2026-08-17",
+  "posodobljeno": "2026-08-11 12:26",
+  "od": "2026-08-04",
+  "do": "2026-08-18",
   "oddaje": [
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "00:00",
-      "cas_konec": "00:58",
-      "trajanje": "58 min",
-      "naslov_sl": "S0E3 - Poker: World Series of Poker: Las Vegas",
-      "naslov_orig": "S0E3 - Poker: World Series of Poker: Las Vegas",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/7/7/ca777645-7cfc-4330-8abc-47f41957d1ca.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976023",
-      "friendly_id": "poker_world_series_of_poker_las_vegas_31a05de7"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "00:58",
-      "cas_konec": "01:57",
-      "trajanje": "59 min",
-      "naslov_sl": "S0E4 - Poker: World Series of Poker: Las Vegas",
-      "naslov_orig": "S0E4 - Poker: World Series of Poker: Las Vegas",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/3/5/2935596b-ab5c-418d-91e9-2967cc263cc6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976024",
-      "friendly_id": "poker_world_series_of_poker_las_vegas_ec42c52d"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "01:57",
-      "cas_konec": "02:42",
-      "trajanje": "45 min",
-      "naslov_sl": "Evropsko prvenstvo v gorskem kolesarstvu: Olimpijski kros, ženske, vrhunci, Monteceneri",
-      "naslov_orig": "European Mountain Bike Championships: Cross-country Olympic, Women Elite, Highlights, Monteceneri",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v gorskem kolesarstvu je vsakoletno, evropsko tekmovanje v tej vrsti kolesarstva. To prvenstvo poteka od leta 1989.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/7/9/ff79ddf2-6c41-45b8-9118-7f690aeb1b48.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976018",
-      "friendly_id": "evropsko_prvenstvo_v_gorskem_kolesarstvu_olimpijski_kros_zenske_vrhunci_monteceneri_b1d82103"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "02:42",
-      "cas_konec": "03:30",
-      "trajanje": "48 min",
-      "naslov_sl": "Evropsko prvenstvo v gorskem kolesarstvu: Olimpijski kros, moški, vrhunci, Monteceneri",
-      "naslov_orig": "European Mountain Bike Championships: Cross-country Olympic, Men Elite, Highlights, Monteceneri",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v gorskem kolesarstvu je vsakoletno, evropsko tekmovanje v tej vrsti kolesarstva. To prvenstvo poteka od leta 1989.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/7/2/ca7273c8-288f-46e3-8911-caf136555f04.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976020",
-      "friendly_id": "evropsko_prvenstvo_v_gorskem_kolesarstvu_olimpijski_kros_moski_vrhunci_monteceneri_8705428c"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "03:30",
-      "cas_konec": "04:58",
-      "trajanje": "88 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976025",
-      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_d547acf5"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "04:58",
-      "cas_konec": "06:28",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji 2. etapa: Aigle - Geneva (147,9 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 2: Aigle - Geneva (149km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/c/8/31c8049b-4f57-4576-8fa2-79ee018bb50a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976016",
-      "friendly_id": "kolesarstvo_z_dirka_po_franciji_2_etapa_aigle__geneva_1479_km_25e376ef"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "06:28",
-      "cas_konec": "07:00",
-      "trajanje": "32 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976026",
-      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_94810302"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "07:00",
-      "cas_konec": "07:59",
-      "trajanje": "59 min",
-      "naslov_sl": "Igre Commonwealtha: 10. dan",
-      "naslov_orig": "Commonwealth Games: Day 10, Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/7/d/b77dedf0-c86f-4437-a91a-fd34cf66c0c9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1135976027",
-      "friendly_id": "igre_commonwealtha_10_dan_29757401"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "07:59",
-      "cas_konec": "09:02",
-      "trajanje": "63 min",
-      "naslov_sl": "Motokros (M): MX2, 1. dirka, VN Flandrije 2026",
-      "naslov_orig": "Motocross: FIM World Championship: Flanders: MX2 | Race 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/b/e/a4be9637-697b-43c2-a505-c35d295a8864.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1140858516",
-      "friendly_id": "motokros_m_mx2_1_dirka_vn_flandrije_2026_42071234"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "09:02",
-      "cas_konec": "09:50",
-      "trajanje": "48 min",
-      "naslov_sl": "Motokros (M): MXGP, 1. dirka, VN Flandrije 2026",
-      "naslov_orig": "Motocross: FIM World Championship: Flanders: MXGP | Race 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/7/0/fc705faa-52a0-417e-9223-35876c289ee9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559045",
-      "friendly_id": "motokros_m_mxgp_1_dirka_vn_flandrije_2026_ad507842"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "09:50",
-      "cas_konec": "10:40",
-      "trajanje": "50 min",
-      "naslov_sl": "Motokros (M): MX2, 2. dirka, VN Flandrije 2026",
-      "naslov_orig": "Motocross: FIM World Championship: Flanders: MX2 | Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f0/f/8/f0f85301-7916-4d47-8185-e6c97fd25cf9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559046",
-      "friendly_id": "motokros_m_mx2_2_dirka_vn_flandrije_2026_0d8b6a73"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "10:40",
-      "cas_konec": "11:33",
-      "trajanje": "53 min",
-      "naslov_sl": "Motokros (M): MXGP, 2. dirka, VN Flandrije 2026",
-      "naslov_orig": "Motocross: FIM World Championship: Flanders: MXGP | Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/a/4/6ea4a8d5-3e56-412c-85ca-e78ac56f920b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559047",
-      "friendly_id": "motokros_m_mxgp_2_dirka_vn_flandrije_2026_a59c3f2d"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "11:33",
-      "cas_konec": "13:02",
-      "trajanje": "89 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559048",
-      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_f8054227"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "13:02",
-      "cas_konec": "14:01",
-      "trajanje": "59 min",
-      "naslov_sl": "Plezanje: IFSC svetovni pokal, Madrid: Finale, moški, balvansko plezanje, vrhunci",
-      "naslov_orig": "Climbing: IFSC Climbing World Cup Madrid: Men's Boulder, Final, Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/f/d/56fd00d9-9fe3-499b-ab68-93fcad1c44bd.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559049",
-      "friendly_id": "plezanje_ifsc_svetovni_pokal_madrid_finale_moski_balvansko_plezanje_vrhunci_20883a92"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "14:01",
-      "cas_konec": "14:58",
-      "trajanje": "57 min",
-      "naslov_sl": "Olimpijske igre: dvorana slavnih: Pariz (2024)",
-      "naslov_orig": "Olympic Games: Hall of Fame",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/3/7/a837126f-9434-4fcd-9336-b349fdfd1525.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559050",
-      "friendly_id": "olimpijske_igre_dvorana_slavnih_pariz_2024_a5838648"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "14:58",
-      "cas_konec": "15:30",
-      "trajanje": "32 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji 2. etapa: Aigle - Geneva (147,9 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 2: Aigle - Geneva (149km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/c/8/31c8049b-4f57-4576-8fa2-79ee018bb50a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559051",
-      "friendly_id": "kolesarstvo_z_dirka_po_franciji_2_etapa_aigle__geneva_1479_km_bde0a0ff"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "15:30",
-      "cas_konec": "18:32",
-      "trajanje": "182 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 3. etapa: Geneva - Poligny (156,5 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 3: Geneva - Poligny (157km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/0/4080e470-5883-4268-80e9-b3efa9f1c4dc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559053",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_z_dirka_po_franciji_3_etapa_geneva__poligny_1565_km_c0d555f1"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "18:32",
-      "cas_konec": "20:00",
-      "trajanje": "88 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, 1. etapa: Gdynia vs Koszalin",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 1: Gdynia - Koszalin (234km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/b/72eb1ce4-2974-4f68-8e27-7006ea5468b4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559054",
-      "friendly_id": "kolesarstvo_m_dirka_po_poljski_1_etapa_gdynia_vs_koszalin_e0659ae1"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "20:00",
-      "cas_konec": "20:32",
-      "trajanje": "32 min",
-      "naslov_sl": "S0E4 - SailGP: Jadranje na robu",
-      "naslov_orig": "S0E4 - SailGP: Racing on the Edge",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vse najnovejše novice, najbolj zanimive zgodbe, poudarki in rezultati iz SailGP, vznemirljivega mednarodnega jadralnega tekmovanja, v katerem se ekipe skozi sezono več velikih nagrad po svetu med seboj pomerijo. Ekipe uporabljajo enake visokozmogljive foiling katamarane F50.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/1/9/25199f58-4037-4181-9b6e-c1bf17415c8d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559055",
-      "friendly_id": "sailgp_jadranje_na_robu_4e532ec1"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "20:32",
-      "cas_konec": "21:02",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E1 - eSports: Svetovni pokal",
-      "naslov_orig": "S0E1 - eSports: World Cup",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte svetovno prvenstvo, v katerem se bodo najboljši e-športniki borili za prestiž in vredne denarne nagrade. Tekmovalci se pomerijo v več kot dvajsetih igrah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/1/d3919596-b8a8-49f7-ba25-a572b29531d8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559056",
-      "friendly_id": "esports_svetovni_pokal_b3a5f5eb"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "21:02",
-      "cas_konec": "21:58",
-      "trajanje": "56 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Walesa: Finale",
-      "naslov_orig": "Snooker: Welsh Open: Final | Day 7 | Evening Session, Barry Hawkins - Jack Lisowski",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Odprto prvenstvo Walesa je razvrstitveni snooker turnir, ki poteka v Cardiffu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/f/6/7ef6b146-0632-45d4-b271-c71f6ec6fc6c.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559057",
-      "friendly_id": "snooker_odprto_prvenstvo_walesa_finale_95b47299"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "21:58",
-      "cas_konec": "23:03",
-      "trajanje": "65 min",
-      "naslov_sl": "Kolesarstvo (Ž): Dirka po Franciji, 3. etapa: Geneva - Poligny (156,5 km)",
-      "naslov_orig": "Cycling: Tour de France Women: Stage 3: Geneva - Poligny (157km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/0/4080e470-5883-4268-80e9-b3efa9f1c4dc.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559058",
-      "friendly_id": "kolesarstvo_z_dirka_po_franciji_3_etapa_geneva__poligny_1565_km_7b696e2c"
-    },
-    {
-      "datum": "2026-08-03",
-      "dan": "Ponedeljek",
-      "cas": "23:03",
-      "cas_konec": "00:03",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Poljski, 1. etapa: Gdynia vs Koszalin",
-      "naslov_orig": "Cycling: Tour of Poland: Stage 1: Gdynia - Koszalin (234km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/b/72eb1ce4-2974-4f68-8e27-7006ea5468b4.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1136559060",
-      "friendly_id": "kolesarstvo_m_dirka_po_poljski_1_etapa_gdynia_vs_koszalin_2a338049"
-    },
     {
       "datum": "2026-08-04",
       "dan": "Torek",
@@ -2183,295 +1745,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1138357377",
       "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_79bb9505"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S0E1 - Poker: World Series of Poker: Las Vegas",
-      "naslov_orig": "S0E1 - Poker: World Series of Poker: Las Vegas",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/02/8/5/02855fb1-fa23-44e0-be0d-19a62b38e52a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084266",
-      "friendly_id": "poker_world_series_of_poker_las_vegas_2135dc59"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "01:00",
-      "cas_konec": "01:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
-      "naslov_orig": "Snooker: China Open: Round 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084257",
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_c121374c"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "01:30",
-      "cas_konec": "04:00",
-      "trajanje": "150 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 18. etapa: Voiron - Orcières-Merlette (185,2 km)",
-      "naslov_orig": "Cycling: Tour de France: Stage 18: Voiron - Orcières-Merlette (185km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084267",
-      "friendly_id": "kolesarstvo_m_dirka_po_franciji_18_etapa_voiron__orcièresmerlette_1852_km_f438e7a5"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "04:00",
-      "cas_konec": "06:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
-      "naslov_orig": "Snooker: China Open: Round 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084258",
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_1039a589"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "06:00",
-      "cas_konec": "07:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 18. etapa: Voiron - Orcières-Merlette (185,2 km)",
-      "naslov_orig": "Cycling: Tour de France: Stage 18: Voiron - Orcières-Merlette (185km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084268",
-      "friendly_id": "kolesarstvo_m_dirka_po_franciji_18_etapa_voiron__orcièresmerlette_1852_km_e2f6cd8a"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "07:30",
-      "cas_konec": "08:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
-      "naslov_orig": "Snooker: China Open: Round 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139084259",
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_20cd78f0"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "08:00",
-      "cas_konec": "11:30",
-      "trajanje": "210 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
-      "naslov_orig": "Snooker: China Open: Round 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631460",
-      "zivo": true,
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_e1523bd9"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "11:30",
-      "cas_konec": "14:05",
-      "trajanje": "155 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 2. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 2, Morning Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/c/b/28cbb707-9548-4675-acf3-bb5e9111d358.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030245",
-      "zivo": true,
-      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_255249a4"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "14:05",
-      "cas_konec": "17:00",
-      "trajanje": "175 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
-      "naslov_orig": "Snooker: China Open: Round 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631461",
-      "zivo": true,
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_638cc3b4"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 1. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 1, Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030246",
-      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_71b98cdc"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Konjeniški športi: Global Champions Tour: Preskakovanje ovir, 11. dogodek",
-      "naslov_orig": "Equestrian: Global Champions Tour: Jumping, London, Event 11",
-      "kategorija": "Šport",
-      "zanr": [
-        "konjeništvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte serijo konjeniških tekmovanj v preskakovanju ovir, ki se sestojijo iz 15 tekmovalnih krogov po vsem svetu. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/8/b/cc8b3d40-1e3c-4536-b12e-49134d822b27.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631468",
-      "friendly_id": "konjeniski_sporti_global_champions_tour_preskakovanje_ovir_11_dogodek_ddaa3b4e"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 1. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 1, Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030247",
-      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_0701021f"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "20:00",
-      "cas_konec": "23:00",
-      "trajanje": "180 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 2. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 2, Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142030248",
-      "zivo": true,
-      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_6cd8a3a8"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "23:00",
-      "cas_konec": "23:30",
-      "trajanje": "30 min",
-      "naslov_sl": "F1H2O Svetovno Prvenstvo: Vrhunci",
-      "naslov_orig": "F1H2O UIM World Championship Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si najzanimivejše trenutke tekmovanja, v katerem se vozniki motornih čolnov pomerijo za naslov najboljšega.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/3/d/603d5c4f-efad-4c3c-b1b9-4e82757e1163.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141762544",
-      "friendly_id": "f1h2o_svetovno_prvenstvo_vrhunci_6de2d478"
-    },
-    {
-      "datum": "2026-08-11",
-      "dan": "Torek",
-      "cas": "23:30",
-      "cas_konec": "00:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 19. etapa: Gap - Alpe d'Huez (127,9 km)",
-      "naslov_orig": "Cycling: Tour de France: Stage 19: Gap - Alpe d'Huez (128km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1141542630",
-      "friendly_id": "kolesarstvo_m_dirka_po_franciji_19_etapa_gap__alpe_dhuez_1279_km_df50c581"
     },
     {
       "datum": "2026-08-12",
@@ -4798,6 +4071,675 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/9/9/f39973db-5844-4184-b11e-cc80218a73f9.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1139084264",
       "friendly_id": "kolesarstvo_z_dirka_po_franciji_9_etapa_nice__nice_99_km_8cea893d"
+    },
+    {
+      "datum": "2026-08-10",
+      "dan": "Ponedeljek",
+      "cas": "23:58",
+      "cas_konec": "00:56",
+      "trajanje": "58 min",
+      "naslov_sl": "S0E1 - Poker: World Series of Poker: Las Vegas",
+      "naslov_orig": "S0E1 - Poker: World Series of Poker: Las Vegas",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/02/8/5/02855fb1-fa23-44e0-be0d-19a62b38e52a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1139084266",
+      "friendly_id": "poker_world_series_of_poker_las_vegas_b68a2dd6"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "00:56",
+      "cas_konec": "01:33",
+      "trajanje": "37 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: Kyren Wilson - Aaron Hill, 1. krog",
+      "naslov_orig": "Snooker: China Open: Kyren Wilson - Aaron Hill, Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/da/c/f/dacfb510-8a5e-46ee-b1d5-b30806fb637e.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1143455042",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_kyren_wilson__aaron_hill_1_krog_c93eab5f"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "01:33",
+      "cas_konec": "04:02",
+      "trajanje": "149 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 18. etapa: Voiron - Orcières-Merlette (185,2 km)",
+      "naslov_orig": "Cycling: Tour de France: Stage 18: Voiron - Orcières-Merlette (185km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1139084267",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_18_etapa_voiron__orcièresmerlette_1852_km_59c6a794"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "04:02",
+      "cas_konec": "06:03",
+      "trajanje": "121 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: Kyren Wilson - Aaron Hill, 1. krog",
+      "naslov_orig": "Snooker: China Open: Kyren Wilson - Aaron Hill, Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/da/c/f/dacfb510-8a5e-46ee-b1d5-b30806fb637e.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1143455043",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_kyren_wilson__aaron_hill_1_krog_64f769c3"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "06:03",
+      "cas_konec": "07:31",
+      "trajanje": "88 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 18. etapa: Voiron - Orcières-Merlette (185,2 km)",
+      "naslov_orig": "Cycling: Tour de France: Stage 18: Voiron - Orcières-Merlette (185km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/4/c/304c1ae2-4fef-453b-b63f-fdff1f2e5bef.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1139084268",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_18_etapa_voiron__orcièresmerlette_1852_km_11325b6c"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "07:31",
+      "cas_konec": "08:00",
+      "trajanje": "29 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: Kyren Wilson - Aaron Hill, 1. krog",
+      "naslov_orig": "Snooker: China Open: Kyren Wilson - Aaron Hill, Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/da/c/f/dacfb510-8a5e-46ee-b1d5-b30806fb637e.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1143455044",
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_kyren_wilson__aaron_hill_1_krog_541adbb0"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "08:00",
+      "cas_konec": "11:30",
+      "trajanje": "210 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 1. krog",
+      "naslov_orig": "Snooker: China Open: Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1139631460",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_1_krog_e1523bd9"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "11:30",
+      "cas_konec": "14:05",
+      "trajanje": "155 min",
+      "naslov_sl": "Atletika: Evropsko prvenstvo: 2. dan, Birmingham",
+      "naslov_orig": "Athletics: European Championship: Birmingham, Day 2, Morning Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/c/b/28cbb707-9548-4675-acf3-bb5e9111d358.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030245",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_255249a4"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "14:05",
+      "cas_konec": "17:00",
+      "trajanje": "175 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: Zhao Xintong - Zhang Anda",
+      "naslov_orig": "Snooker: China Open: Zhao Xintong - Zhang Anda",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1143879360",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_kitajske_zhao_xintong__zhang_anda_ff88fa35"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Atletika: Evropsko prvenstvo: 1. dan, Birmingham",
+      "naslov_orig": "Athletics: European Championship: Birmingham, Day 1, Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030246",
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_71b98cdc"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Konjeniški športi: Global Champions Tour: Preskakovanje ovir, 11. dogodek",
+      "naslov_orig": "Equestrian: Global Champions Tour: Jumping, London, Event 11",
+      "kategorija": "Šport",
+      "zanr": [
+        "konjeništvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte serijo konjeniških tekmovanj v preskakovanju ovir, ki se sestojijo iz 15 tekmovalnih krogov po vsem svetu. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/8/b/cc8b3d40-1e3c-4536-b12e-49134d822b27.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1139631468",
+      "friendly_id": "konjeniski_sporti_global_champions_tour_preskakovanje_ovir_11_dogodek_ddaa3b4e"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Atletika: Evropsko prvenstvo: 1. dan, Birmingham",
+      "naslov_orig": "Athletics: European Championship: Birmingham, Day 1, Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030247",
+      "friendly_id": "atletika_evropsko_prvenstvo_1_dan_birmingham_0701021f"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "20:00",
+      "cas_konec": "23:00",
+      "trajanje": "180 min",
+      "naslov_sl": "Atletika: Evropsko prvenstvo: 2. dan, Birmingham",
+      "naslov_orig": "Athletics: European Championship: Birmingham, Day 2, Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142030248",
+      "zivo": true,
+      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_6cd8a3a8"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "23:00",
+      "cas_konec": "23:30",
+      "trajanje": "30 min",
+      "naslov_sl": "F1H2O Svetovno Prvenstvo: Vrhunci",
+      "naslov_orig": "F1H2O UIM World Championship Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si najzanimivejše trenutke tekmovanja, v katerem se vozniki motornih čolnov pomerijo za naslov najboljšega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/3/d/603d5c4f-efad-4c3c-b1b9-4e82757e1163.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141762544",
+      "friendly_id": "f1h2o_svetovno_prvenstvo_vrhunci_6de2d478"
+    },
+    {
+      "datum": "2026-08-11",
+      "dan": "Torek",
+      "cas": "23:30",
+      "cas_konec": "00:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 19. etapa: Gap - Alpe d'Huez (127,9 km)",
+      "naslov_orig": "Cycling: Tour de France: Stage 19: Gap - Alpe d'Huez (128km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141542630",
+      "friendly_id": "kolesarstvo_m_dirka_po_franciji_19_etapa_gap__alpe_dhuez_1279_km_df50c581"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "00:00",
+      "cas_konec": "01:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Anglije, Finale, 2025",
+      "naslov_orig": "Snooker: English Open: Final Mark Allen - Zhou Yuelong",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/8/bda85d6e-5935-421f-9402-3b75f3400b60.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141819308",
+      "friendly_id": "snooker_m_odprto_prvenstvo_anglije_finale_2025_af5660cf"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "01:30",
+      "cas_konec": "02:15",
+      "trajanje": "45 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Češki, Stage 4: Kromeriz - Pustevny (160,23 km)",
+      "naslov_orig": "Czech Tour: Stage 4: Kroměříž - Pustevny (160.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/0/8/dc082f21-df88-411f-8531-1df7d7a0d406.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141819309",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_stage_4_kromeriz__pustevny_16023_km_e832872e"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "02:15",
+      "cas_konec": "03:00",
+      "trajanje": "45 min",
+      "naslov_sl": "Kolesarstvo (M): Arktična dirka po Norveški, 4. etapa: Sortland vs Narvik",
+      "naslov_orig": "Cycling: Arctic Race of Norway: Stage 4: Sortland - Narvik (190.8km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/b/7/40b7d237-65bc-434a-8e53-4472a34eb554.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141819310",
+      "friendly_id": "kolesarstvo_m_arkticna_dirka_po_norveski_4_etapa_sortland_vs_narvik_26ab2b54"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Anglije, Finale, 2025",
+      "naslov_orig": "Snooker: English Open: Final Mark Allen - Zhou Yuelong",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/8/bda85d6e-5935-421f-9402-3b75f3400b60.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141819311",
+      "friendly_id": "snooker_m_odprto_prvenstvo_anglije_finale_2025_091aa6de"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 6. etapa: Olot - Pal. Andorra (170,3 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 6",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/6/9/9869a0a1-dacb-4fb3-8eb4-9d4ad9e3d6ca.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141819312",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_6_etapa_olot__pal_andorra_1703_km_34eeca23"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "07:00",
+      "cas_konec": "07:45",
+      "trajanje": "45 min",
+      "naslov_sl": "Formula E (M): 1. dirka, Svetovno prvenstvo FIA _ London ePrix",
+      "naslov_orig": "Formula E: London ePrix: Round 16",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Električne formule se bodo pomerile na ulicah Londona, letos v razstavnem središču. Ljubitelje hitrosti vabimo k ogledu!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/e/e/f8ee618a-5ee9-4222-a5f9-3907446dfebb.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141819313",
+      "friendly_id": "formula_e_m_1_dirka_svetovno_prvenstvo_fia___london_eprix_99397b05"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "07:45",
+      "cas_konec": "08:30",
+      "trajanje": "45 min",
+      "naslov_sl": "Formula E: Svetovno prvenstvo FIA: London ePrix: 17. krog, 2. dirka, pregled",
+      "naslov_orig": "Formula E: London ePrix: Round 17, Race 2, Review",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Električne formule se bodo pomerile na ulicah Londona, letos v razstavnem središču. Ljubitelje hitrosti vabimo k ogledu!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/e/e2fef028-cdbf-4728-bc33-094bd67d3267.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1141819314",
+      "friendly_id": "formula_e_svetovno_prvenstvo_fia_london_eprix_17_krog_2_dirka_pregled_80bdc8e8"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "08:30",
+      "cas_konec": "10:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Anglije, Finale, 2025",
+      "naslov_orig": "Snooker: English Open: Final Mark Allen - Zhou Yuelong",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/8/bda85d6e-5935-421f-9402-3b75f3400b60.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142220991",
+      "friendly_id": "snooker_m_odprto_prvenstvo_anglije_finale_2025_ab874731"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "10:30",
+      "cas_konec": "11:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Češki, Stage 4: Kromeriz - Pustevny (160,23 km)",
+      "naslov_orig": "Czech Tour: Stage 4: Kroměříž - Pustevny (160.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/0/8/dc082f21-df88-411f-8531-1df7d7a0d406.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142220993",
+      "friendly_id": "kolesarstvo_m_dirka_po_ceski_stage_4_kromeriz__pustevny_16023_km_8b0bff48"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "11:30",
+      "cas_konec": "12:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Arktična dirka po Norveški, 4. etapa: Sortland vs Narvik",
+      "naslov_orig": "Cycling: Arctic Race of Norway: Stage 4: Sortland - Narvik (190.8km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/b/7/40b7d237-65bc-434a-8e53-4472a34eb554.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142220995",
+      "friendly_id": "kolesarstvo_m_arkticna_dirka_po_norveski_4_etapa_sortland_vs_narvik_16437a5c"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "12:30",
+      "cas_konec": "14:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Anglije, Finale, 2025",
+      "naslov_orig": "Snooker: English Open: Final Mark Allen - Zhou Yuelong",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/8/bda85d6e-5935-421f-9402-3b75f3400b60.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142220992",
+      "friendly_id": "snooker_m_odprto_prvenstvo_anglije_finale_2025_7656aeb5"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "14:30",
+      "cas_konec": "15:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Arktična dirka po Norveški, 4. etapa: Sortland vs Narvik",
+      "naslov_orig": "Cycling: Arctic Race of Norway: Stage 4: Sortland - Narvik (190.8km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/b/7/40b7d237-65bc-434a-8e53-4472a34eb554.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142220996",
+      "friendly_id": "kolesarstvo_m_arkticna_dirka_po_norveski_4_etapa_sortland_vs_narvik_23552f45"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "15:30",
+      "cas_konec": "17:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (M): Hamburg Cyclassics: Buxtehude - Hamburg (206 km)",
+      "naslov_orig": "Cycling: Cyclassics Hamburg: Buxtehude - Hamburg (206km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/78/7/d/787de57e-942b-4303-93da-87d2a90fc182.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142220998",
+      "friendly_id": "kolesarstvo_m_hamburg_cyclassics_buxtehude__hamburg_206_km_50e6617a"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 6. etapa: Olot - Pal. Andorra (170,3 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 6: Olot - Pal (171km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/6/9/9869a0a1-dacb-4fb3-8eb4-9d4ad9e3d6ca.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142220999",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_6_etapa_olot__pal_andorra_1703_km_da2dded2"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "18:00",
+      "cas_konec": "20:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Atletika: Evropsko prvenstvo: 2. dan, Birmingham",
+      "naslov_orig": "Athletics: European Championship: Evening Session, Day 2, Birmingham",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/5/8/92584e58-71ed-4be6-9299-2c9743118f23.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142221000",
+      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_5017194c"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "20:00",
+      "cas_konec": "20:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Gorski teki: Sierre-Zinal: Pregled",
+      "naslov_orig": "Trail Running: World Series: Sierre-Zinal: Review",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/a/5/88a56c7a-512d-4c1d-a66f-29c16396b59d.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142221001",
+      "friendly_id": "gorski_teki_sierrezinal_pregled_bccc4c1a"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "20:30",
+      "cas_konec": "21:00",
+      "trajanje": "30 min",
+      "naslov_sl": "T100 Triathlon World Tour: Vrhunci: Ženske,, Vancouver",
+      "naslov_orig": "T100 Triathlon World Tour: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si najboljše trenutke svetovne turneje v triatlonu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/53/8/c/538cc860-ae94-4cfc-ae1d-f7fc0a4a0d1b.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142221002",
+      "friendly_id": "t100_triathlon_world_tour_vrhunci_zenske_vancouver_43332ed1"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Formula E: FIA World Championship London, Vrhunci: 16. in 17. krog",
+      "naslov_orig": "Formula E: FIA World Championship London, Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_EUROSPORT_1142221003",
+      "friendly_id": "formula_e_fia_world_championship_london_vrhunci_16_in_17_krog_11c2652e"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 6. etapa: Olot - Pal. Andorra (170,3 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 6: Olot - Pal (171km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/6/9/9869a0a1-dacb-4fb3-8eb4-9d4ad9e3d6ca.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142221004",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_6_etapa_olot__pal_andorra_1703_km_bb37b91f"
+    },
+    {
+      "datum": "2026-08-18",
+      "dan": "Torek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 7. etapa: Andorra la Vella - Cerler. Huesca La Magia (188 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 7: ndorra la Vella - Cerler Huesca la Magia (187km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/6/9/9869a0a1-dacb-4fb3-8eb4-9d4ad9e3d6ca.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142221005",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_7_etapa_andorra_la_vella__cerler_huesca_la_magia_188_km_795f1654"
     }
   ]
 }
