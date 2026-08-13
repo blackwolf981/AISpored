@@ -1,333 +1,10 @@
 {
   "kanal": "Šport TV 3",
   "ch_ext_id": "sport-tv-3",
-  "posodobljeno": "2026-08-12 12:26",
-  "od": "2026-08-05",
-  "do": "2026-08-19",
+  "posodobljeno": "2026-08-13 12:26",
+  "od": "2026-08-06",
+  "do": "2026-08-20",
   "oddaje": [
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "01:30",
-      "cas_konec": "02:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E13 - Motokros: MXGP Magazin",
-      "naslov_orig": "S0E13 - Behind the gate (MXGP)",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/e/d/9fed606e-495b-4abf-8e3c-cddcee0d1ee5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137430304",
-      "friendly_id": "motokros_mxgp_magazin_4df2ff35"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "02:00",
-      "cas_konec": "02:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E5 - Mediteranske igre 2026",
-      "naslov_orig": "S0E5 - Mediteranske igre 2026",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/07/6/5/07652b70-4c61-42f0-8055-b889998be665.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137430301",
-      "friendly_id": "mediteranske_igre_2026_e36f459a"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "02:30",
-      "cas_konec": "03:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E44 - Ekstremni športi: Pure Action",
-      "naslov_orig": "S0E44 - Pure Action",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137430297",
-      "friendly_id": "ekstremni_sporti_pure_action_e3b62b93"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Dynamo Dresden - Paderborn, 2. Bundesliga 2025/2026",
-      "naslov_orig": "Nogomet: 2. Bundesliga: Dynamo Dresden - Paderborn",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137430308",
-      "friendly_id": "nogomet_m_dynamo_dresden__paderborn_2_bundesliga_2025_2026_8b874ebe"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Union Berlin - Cagliari, Prijateljska tekma 2026",
-      "naslov_orig": "Nogomet: Prijateljska tekma: Union Berlin - Cagliari",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Prijateljska tekma je športni dogodek, ki nima tekmovalnega značaja. Moštvi preizkušata tekmovalno sposobnost svojih igralcev.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c4/7/5/c4759e1f-1d20-4940-b351-d8eec3c1bff5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431845",
-      "friendly_id": "nogomet_m_union_berlin__cagliari_prijateljska_tekma_2026_8c24136f"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): MX2, 1. dirka, VN Flandrije 2026",
-      "naslov_orig": "Motokros: VN Flandrije: MX2, 1. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Motokros karavana se seli v Lomel, kjer bo na sporedu mivkasta VN Flandrije, tudi s Timom Gajserjem in Janom Pancarjem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/79/2/5/792541b6-bb8e-4ba6-adf4-e7e8605188b0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431838",
-      "friendly_id": "motokros_m_mx2_1_dirka_vn_flandrije_2026_0b5afaf2"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "08:00",
-      "cas_konec": "09:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): MX2, 2. dirka, VN Flandrije 2026",
-      "naslov_orig": "Motokros: VN Flandrije: MX2, 2. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/79/2/5/792541b6-bb8e-4ba6-adf4-e7e8605188b0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431835",
-      "friendly_id": "motokros_m_mx2_2_dirka_vn_flandrije_2026_aa97d3c0"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "09:00",
-      "cas_konec": "10:50",
-      "trajanje": "110 min",
-      "naslov_sl": "Nogomet (M): Ajax - Twente, Nizozemska liga 2025",
-      "naslov_orig": "Nogomet: Eredivisie: Ajax - Twente",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431836",
-      "friendly_id": "nogomet_m_ajax__twente_nizozemska_liga_2025_8b0324c4"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "10:50",
-      "cas_konec": "13:35",
-      "trajanje": "165 min",
-      "naslov_sl": "Nogomet (M): Koper - NSÍ Runavík, Kvalifikacije za Konferenčno ligo 2026/2027",
-      "naslov_orig": "Nogomet: Kvalifikacije za Konferenčno ligo: Koper - Runavík, 2. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/f/3/aaf35b9c-1b34-4f87-ae23-e07ac645c00e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431837",
-      "friendly_id": "nogomet_m_koper__nsí_runavík_kvalifikacije_za_konferencno_ligo_2026_2027_92e72fec"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "13:35",
-      "cas_konec": "15:35",
-      "trajanje": "120 min",
-      "naslov_sl": "Hokej (M): Vaxjo Lakers - Rogle , Švedska liga 2025/2026, Polfinale",
-      "naslov_orig": "Hokej na ledu: Švedska liga: Polfinale: Vaxjo Lakers - Rogle, 5. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Ne zamudite priložnosti, da si ogledate tekme SHL - švedske hokejske lige, najpomembnejše profesionalne hokejske lige na Švedskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ec/9/e/ec9e1a85-6a63-4969-a864-e73ad7fd4a66.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431839",
-      "friendly_id": "hokej_m_vaxjo_lakers__rogle__svedska_liga_2025_2026_polfinale_8c476319"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "15:35",
-      "cas_konec": "17:30",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): PSV - AZ Alkmaar, Nizozemski superpokal 2026",
-      "naslov_orig": "Nogomet: Nizozemski superpokal: PSV - AZ Alkmaar",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nizozemski superpokal je tekma med zmagovalcem nizozemskega pokala in prvakom Eredivisie iz prejšnje sezone, ki se pomerita za pokal Johana Cruyffa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/e/5/41e5cfae-6f30-4432-b9b0-cdcbcd8c869a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431846",
-      "friendly_id": "nogomet_m_psv__az_alkmaar_nizozemski_superpokal_2026_d686003b"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "17:30",
-      "cas_konec": "18:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Kolesarstvo: Dirka po Grčiji: Vrhunci",
-      "naslov_orig": "Cycling: Tour of Greece",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/79/9/4/7994669b-c279-4d79-b8a2-d153cd815b79.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431840",
-      "friendly_id": "kolesarstvo_dirka_po_grciji_vrhunci_9b53c90e"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "18:00",
-      "cas_konec": "18:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E13 - Motokros: MXGP Magazin",
-      "naslov_orig": "S0E13 - Behind the gate (MXGP)",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/e/d/9fed606e-495b-4abf-8e3c-cddcee0d1ee5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431841",
-      "friendly_id": "motokros_mxgp_magazin_01a7d17b"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "18:30",
-      "cas_konec": "19:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E44 - Ekstremni športi: Pure Action",
-      "naslov_orig": "S0E44 - Pure Action",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431832",
-      "friendly_id": "ekstremni_sporti_pure_action_df214b80"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "19:00",
-      "cas_konec": "21:30",
-      "trajanje": "150 min",
-      "naslov_sl": "Hokej (M): Bolzano - Olimpija, ICE Hockey League 2025/2026, Četrtfinale",
-      "naslov_orig": "Hokej na ledu (M): ICE liga: Četrtfinale: Olimpija - Bolzano, 4. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431847",
-      "friendly_id": "hokej_m_bolzano__olimpija_ice_hockey_league_2025_2026_cetrtfinale_fe5c1ac0"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "21:30",
-      "cas_konec": "23:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Košarka (M): Lietkabelis - Budućnost, Eurocup 2025, Skupina B",
-      "naslov_orig": "Košarka: Evropokal: Lietkabelis - Budućnost",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431842",
-      "friendly_id": "kosarka_m_lietkabelis__buducnost_eurocup_2025_skupina_b_eacbd106"
-    },
-    {
-      "datum": "2026-08-05",
-      "dan": "Sreda",
-      "cas": "23:00",
-      "cas_konec": "01:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Celje - Maribor, Prva liga Telemach 2026/2027",
-      "naslov_orig": "Nogomet: Prva liga Telemach: Celje - Maribor",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Čas je za prvi štajerski derbi sezone, državni prvaki iz Celja gostijo Maribor, ki ima v letošnji sezoni samo en cilj, vrnitev na slovenski vrh.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/8/d/df8d1315-cc8f-4928-8b69-920fa0af409a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1137431834",
-      "friendly_id": "nogomet_m_celje__maribor_prva_liga_telemach_2026_2027_34ed27d1"
-    },
     {
       "datum": "2026-08-06",
       "dan": "Četrtek",
@@ -1165,291 +842,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c4/7/5/c4759e1f-1d20-4940-b351-d8eec3c1bff5.jpg",
       "show_id": "CUP_IECOM_SPORTTV3_1140045387",
       "friendly_id": "nogomet_m_b_leverkusen__sevilla_prijateljska_tekma_2026_114e03b9"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "01:30",
-      "cas_konec": "02:45",
-      "trajanje": "75 min",
-      "naslov_sl": "S0E1 - Klubi Bundeslige",
-      "naslov_orig": "S0E1 - Bundesliga Clubs",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ob vsem, kar nam je Nemčija skozi zgodovino dala, ponosno stoji tudi Bundesliga. Kultura navijanja, polnih tribin in vrhunskega nogometa je tisto, kar Bundesligo krasi od njenih začetkov do današnjih dni. V oddaji vam bomo predstavili klube, ki v eni najbolj priljubljenih svetovnih lig merijo moči, igralce, statistiko in ostalo, kar vas zanima o vaših favoritih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/f/0/15f0981b-0053-42e0-b581-eecede1a50b0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1141476829",
-      "friendly_id": "klubi_bundeslige_ecba909d"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "02:45",
-      "cas_konec": "03:15",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E14 - Motokros: MXGP Magazin",
-      "naslov_orig": "S0E14 - Behind the gate (MXGP)",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/e/d/9fed606e-495b-4abf-8e3c-cddcee0d1ee5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140047521",
-      "friendly_id": "motokros_mxgp_magazin_fd65e313"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "03:15",
-      "cas_konec": "05:00",
-      "trajanje": "105 min",
-      "naslov_sl": "Nogomet (M): S. Rotterdam - Feyenoord, Nizozemska liga 2026/2027",
-      "naslov_orig": "Nogomet: Eredivisie: Sparta Rotterdam - Feyenoord",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140047534",
-      "friendly_id": "nogomet_m_s_rotterdam__feyenoord_nizozemska_liga_2026_2027_8fb0a559"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): PSV - Fortuna S, Nizozemska liga 2026/2027",
-      "naslov_orig": "Nogomet: Eredivisie: PSV - Fortuna Sittard",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048617",
-      "friendly_id": "nogomet_m_psv__fortuna_s_nizozemska_liga_2026_2027_521d3c97"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "07:00",
-      "cas_konec": "09:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Nürnberg - Dynamo Dresden, 2. Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: 2. Bundesliga: Nürnberg - Dynamo Dresden",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048610",
-      "friendly_id": "nogomet_m_nürnberg__dynamo_dresden_2_bundesliga_2026_2027_323dc68e"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "09:00",
-      "cas_konec": "11:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): St. Pauli - G. Fürth, 2. Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: 2. Bundesliga: St. Pauli - Greuther Fürth",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048615",
-      "friendly_id": "nogomet_m_st_pauli__g_fürth_2_bundesliga_2026_2027_4ac78d3d"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "11:00",
-      "cas_konec": "13:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Karlsruher - A Bielefeld, 2. Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: 2. Bundesliga: Karlsruher - Arminia Bielefeld",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048611",
-      "friendly_id": "nogomet_m_karlsruher__a_bielefeld_2_bundesliga_2026_2027_56b30942"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "13:00",
-      "cas_konec": "13:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Dviganje uteži: Russian Weightlifting Federation",
-      "naslov_orig": "Federacija tjaželoj atletiki Rossii (FTAR)",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/7/a/df7a57bb-38ab-429d-ae98-4b0026ea830d.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1141767816",
-      "friendly_id": "dviganje_utezi_russian_weightlifting_federation_4c6fb4e4"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "13:30",
-      "cas_konec": "14:45",
-      "trajanje": "75 min",
-      "naslov_sl": "S0E1 - Klubi Bundeslige",
-      "naslov_orig": "S0E1 - Bundesliga Clubs",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ob vsem, kar nam je Nemčija skozi zgodovino dala, ponosno stoji tudi Bundesliga. Kultura navijanja, polnih tribin in vrhunskega nogometa je tisto, kar Bundesligo krasi od njenih začetkov do današnjih dni. V oddaji vam bomo predstavili klube, ki v eni najbolj priljubljenih svetovnih lig merijo moči, igralce, statistiko in ostalo, kar vas zanima o vaših favoritih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/f/0/15f0981b-0053-42e0-b581-eecede1a50b0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1141477162",
-      "friendly_id": "klubi_bundeslige_e1bd1396"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "14:45",
-      "cas_konec": "17:00",
-      "trajanje": "135 min",
-      "naslov_sl": "Motošport: svetovno prvenstvo FIM v superkrosu: Calgary",
-      "naslov_orig": "Motošport: svetovno prvenstvo FIM v superkrosu: Calgary",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Ultimativna izkušnja za ljubitelje motošportov - vabljeni k ogledu svetovnega prvenstva FIM v superkrosu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/58/a/c/58ac69a5-c108-43c5-82f2-eb77220b7039.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048618",
-      "friendly_id": "motosport_svetovno_prvenstvo_fim_v_superkrosu_calgary_27289647"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "17:00",
-      "cas_konec": "19:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Wolfsburg - K'lautern, 2. Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: 2. Bundesliga: Wolfsburg - Kaiserslautern",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048609",
-      "friendly_id": "nogomet_m_wolfsburg__klautern_2_bundesliga_2026_2027_e6754246"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "19:00",
-      "cas_konec": "21:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (Ž): Olimpija - Radomlje, 1. SŽNL 2026/2027",
-      "naslov_orig": "Nogomet: 1. Slovenska liga (ž): Olimpija Ljubljana - Radomlje",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/2/7/d827e4c5-ee18-438e-a2a8-4e6769706704.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048616",
-      "friendly_id": "nogomet_z_olimpija__radomlje_1_sznl_2026_2027_eeb311d1"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "21:00",
-      "cas_konec": "21:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E8 - Idealna linija",
-      "naslov_orig": "S0E8 - Idealna linija",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/d/9/eed99607-cb2a-40bf-b718-6542e59a269c.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048613",
-      "friendly_id": "idealna_linija_e412a3f4"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "21:30",
-      "cas_konec": "23:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Košarka (M): Ulm - JL Bourg, Eurocup 2025, Skupina B",
-      "naslov_orig": "Košarka: Evropokal: Ulm - Bourg-en-Bresse",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048608",
-      "friendly_id": "kosarka_m_ulm__jl_bourg_eurocup_2025_skupina_b_712d2c73"
-    },
-    {
-      "datum": "2026-08-13",
-      "dan": "Četrtek",
-      "cas": "23:00",
-      "cas_konec": "01:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Celje - Olimpija, Prva liga Telemach 2026/2027",
-      "naslov_orig": "Nogomet: Prva liga Telemach: Celje - Olimpija",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Celjane v soboto čaka dvoboj proti štajerskim sosedom.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1140048619",
-      "friendly_id": "nogomet_m_celje__olimpija_prva_liga_telemach_2026_2027_ba6ee70b"
     },
     {
       "datum": "2026-08-14",
@@ -4152,6 +3544,595 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
       "show_id": "CUP_IECOM_SPORTTV3_1142646311",
       "friendly_id": "nogomet_m_olimpija__maribor_prva_liga_telemach_2026_2027_49206828"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "01:30",
+      "cas_konec": "02:45",
+      "trajanje": "75 min",
+      "naslov_sl": "S0E1 - Klubi Bundeslige",
+      "naslov_orig": "S0E1 - Bundesliga Clubs",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ob vsem, kar nam je Nemčija skozi zgodovino dala, ponosno stoji tudi Bundesliga. Kultura navijanja, polnih tribin in vrhunskega nogometa je tisto, kar Bundesligo krasi od njenih začetkov do današnjih dni. V oddaji vam bomo predstavili klube, ki v eni najbolj priljubljenih svetovnih lig merijo moči, igralce, statistiko in ostalo, kar vas zanima o vaših favoritih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/f/0/15f0981b-0053-42e0-b581-eecede1a50b0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1144215332",
+      "friendly_id": "klubi_bundeslige_ecba909d"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "02:45",
+      "cas_konec": "03:15",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E14 - Motokros: MXGP Magazin",
+      "naslov_orig": "S0E14 - Behind the gate (MXGP)",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/e/d/9fed606e-495b-4abf-8e3c-cddcee0d1ee5.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140047521",
+      "friendly_id": "motokros_mxgp_magazin_fd65e313"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "03:15",
+      "cas_konec": "05:00",
+      "trajanje": "105 min",
+      "naslov_sl": "Nogomet (M): S. Rotterdam - Feyenoord, Nizozemska liga 2026/2027",
+      "naslov_orig": "Nogomet: Eredivisie: Sparta Rotterdam - Feyenoord",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140047534",
+      "friendly_id": "nogomet_m_s_rotterdam__feyenoord_nizozemska_liga_2026_2027_8fb0a559"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): PSV - Fortuna S, Nizozemska liga 2026/2027",
+      "naslov_orig": "Nogomet: Eredivisie: PSV - Fortuna Sittard",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048617",
+      "friendly_id": "nogomet_m_psv__fortuna_s_nizozemska_liga_2026_2027_521d3c97"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "09:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Nürnberg - Dynamo Dresden, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Nürnberg - Dynamo Dresden",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048610",
+      "friendly_id": "nogomet_m_nürnberg__dynamo_dresden_2_bundesliga_2026_2027_323dc68e"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "09:00",
+      "cas_konec": "11:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): St. Pauli - G. Fürth, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: St. Pauli - Greuther Fürth",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048615",
+      "friendly_id": "nogomet_m_st_pauli__g_fürth_2_bundesliga_2026_2027_4ac78d3d"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "13:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Karlsruher - A Bielefeld, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Karlsruher - Arminia Bielefeld",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048611",
+      "friendly_id": "nogomet_m_karlsruher__a_bielefeld_2_bundesliga_2026_2027_56b30942"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "13:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Dviganje uteži: Russian Weightlifting Federation",
+      "naslov_orig": "Federacija tjaželoj atletiki Rossii (FTAR)",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/7/a/df7a57bb-38ab-429d-ae98-4b0026ea830d.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1144604307",
+      "friendly_id": "dviganje_utezi_russian_weightlifting_federation_4c6fb4e4"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "13:30",
+      "cas_konec": "14:45",
+      "trajanje": "75 min",
+      "naslov_sl": "S0E1 - Klubi Bundeslige",
+      "naslov_orig": "S0E1 - Bundesliga Clubs",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ob vsem, kar nam je Nemčija skozi zgodovino dala, ponosno stoji tudi Bundesliga. Kultura navijanja, polnih tribin in vrhunskega nogometa je tisto, kar Bundesligo krasi od njenih začetkov do današnjih dni. V oddaji vam bomo predstavili klube, ki v eni najbolj priljubljenih svetovnih lig merijo moči, igralce, statistiko in ostalo, kar vas zanima o vaših favoritih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/f/0/15f0981b-0053-42e0-b581-eecede1a50b0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1144604308",
+      "friendly_id": "klubi_bundeslige_e1bd1396"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "14:45",
+      "cas_konec": "17:00",
+      "trajanje": "135 min",
+      "naslov_sl": "Motošport: svetovno prvenstvo FIM v superkrosu: Calgary",
+      "naslov_orig": "Motošport: svetovno prvenstvo FIM v superkrosu: Calgary",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ultimativna izkušnja za ljubitelje motošportov - vabljeni k ogledu svetovnega prvenstva FIM v superkrosu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/58/a/c/58ac69a5-c108-43c5-82f2-eb77220b7039.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1144604309",
+      "friendly_id": "motosport_svetovno_prvenstvo_fim_v_superkrosu_calgary_27289647"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "17:00",
+      "cas_konec": "19:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Wolfsburg - K'lautern, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Wolfsburg - Kaiserslautern",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048609",
+      "friendly_id": "nogomet_m_wolfsburg__klautern_2_bundesliga_2026_2027_e6754246"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "19:00",
+      "cas_konec": "21:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (Ž): Olimpija - Radomlje, 1. SŽNL 2026/2027",
+      "naslov_orig": "Nogomet: 1. Slovenska liga (ž): Olimpija Ljubljana - Radomlje",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/2/7/d827e4c5-ee18-438e-a2a8-4e6769706704.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048616",
+      "friendly_id": "nogomet_z_olimpija__radomlje_1_sznl_2026_2027_eeb311d1"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "21:00",
+      "cas_konec": "21:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E8 - Idealna linija",
+      "naslov_orig": "S0E8 - Idealna linija",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/d/9/eed99607-cb2a-40bf-b718-6542e59a269c.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048613",
+      "friendly_id": "idealna_linija_e412a3f4"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "21:30",
+      "cas_konec": "23:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Košarka (M): Ulm - JL Bourg, Eurocup 2025, Skupina B",
+      "naslov_orig": "Košarka: Evropokal: Ulm - Bourg-en-Bresse",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048608",
+      "friendly_id": "kosarka_m_ulm__jl_bourg_eurocup_2025_skupina_b_712d2c73"
+    },
+    {
+      "datum": "2026-08-13",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "01:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Celje - Olimpija, Prva liga Telemach 2026/2027",
+      "naslov_orig": "Nogomet: Prva liga Telemach: Celje - Olimpija",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Celjane v soboto čaka dvoboj proti štajerskim sosedom.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1140048619",
+      "friendly_id": "nogomet_m_celje__olimpija_prva_liga_telemach_2026_2027_ba6ee70b"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "01:00",
+      "cas_konec": "03:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): H. Kiel - St. Pauli, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Holstein Kiel - St. Pauli",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646312",
+      "friendly_id": "nogomet_m_h_kiel__st_pauli_2_bundesliga_2026_2027_d9106155"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): E Braunschweig - Bochum, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Eintracht Braunschweig - Bochum",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646313",
+      "friendly_id": "nogomet_m_e_braunschweig__bochum_2_bundesliga_2026_2027_398e7206"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Osnabrueck - Magdeburg, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Osnabrück - Magdeburg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646314",
+      "friendly_id": "nogomet_m_osnabrueck__magdeburg_2_bundesliga_2026_2027_7eca1214"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "07:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E46 - Ekstremni športi: Pure Action",
+      "naslov_orig": "S0E46 - Pure Action",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646315",
+      "friendly_id": "ekstremni_sporti_pure_action_df1b5f6c"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "07:30",
+      "cas_konec": "08:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E6 - Mediteranske igre 2026",
+      "naslov_orig": "S0E6 - Mediteranske igre 2026",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/07/6/5/07652b70-4c61-42f0-8055-b889998be665.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1144048322",
+      "friendly_id": "mediteranske_igre_2026_4b240f46"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "08:00",
+      "cas_konec": "09:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Nizozemska liga: Vrhunci 2. kola",
+      "naslov_orig": "VriendenLoterij Eredivisie Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najboljše trenutke Eredivisie, najmočnejše nizozemske nogometne lige. Prinašamo posnetke nepozabnih akcij in golov. Vabljeni k ogledu!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646317",
+      "friendly_id": "nizozemska_liga_vrhunci_2_kola_d3c38aa8"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "09:00",
+      "cas_konec": "10:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Motokros (M): MX2, 1. dirka, VN Švedske, 2026",
+      "naslov_orig": "Motokros: VN Švedske: MX2, 1. dirka",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Motokrosisti se bodo tokrat pomerili v etapi svetovnega prvenstva, ki poteka na Švedskem. Ljubitelji hitrosti in adrenalina, vabljeni k ogledu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/a/b/9aab4155-47e4-4b51-b78b-a03019e9b4a2.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646318",
+      "friendly_id": "motokros_m_mx2_1_dirka_vn_svedske_2026_18c7ac77"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Motokros (M): MX2, 2. dirka, VN Švedske, 2026",
+      "naslov_orig": "Motokros: VN Švedske: MX2, 2. dirka",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Motokrosisti se bodo tokrat pomerili v etapi svetovnega prvenstva, ki poteka na Švedskem. Ljubitelji hitrosti in adrenalina, vabljeni k ogledu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/a/b/9aab4155-47e4-4b51-b78b-a03019e9b4a2.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646319",
+      "friendly_id": "motokros_m_mx2_2_dirka_vn_svedske_2026_414b50f7"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Motokros (M): MXGP, 1. dirka, VN Švedske, 2026",
+      "naslov_orig": "Motokros: VN Švedske: MXGP, 1. dirka",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Motokrosisti se bodo tokrat pomerili v etapi svetovnega prvenstva, ki poteka na Švedskem. Ljubitelji hitrosti in adrenalina, vabljeni k ogledu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/a/b/9aab4155-47e4-4b51-b78b-a03019e9b4a2.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646320",
+      "friendly_id": "motokros_m_mxgp_1_dirka_vn_svedske_2026_cfafeda8"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Motokros (M): MXGP, 2. dirka, VN Švedske, 2026",
+      "naslov_orig": "Motokros: VN Švedske: MXGP, 2. dirka",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Motokrosisti se bodo tokrat pomerili v etapi svetovnega prvenstva, ki poteka na Švedskem. Ljubitelji hitrosti in adrenalina, vabljeni k ogledu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/a/b/9aab4155-47e4-4b51-b78b-a03019e9b4a2.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646321",
+      "friendly_id": "motokros_m_mxgp_2_dirka_vn_svedske_2026_5251806d"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "15:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): H. Kiel - St. Pauli, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Holstein Kiel - St. Pauli",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646322",
+      "friendly_id": "nogomet_m_h_kiel__st_pauli_2_bundesliga_2026_2027_88849d4e"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "15:00",
+      "cas_konec": "17:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Hannover 96 - Wolfsburg, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Hannover - Wolfsburg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646323",
+      "friendly_id": "nogomet_m_hannover_96__wolfsburg_2_bundesliga_2026_2027_2aafc9f5"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "17:00",
+      "cas_konec": "19:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Olimpija - Maribor, Prva liga Telemach 2026/2027",
+      "naslov_orig": "Nogomet: Prva liga Telemach: Olimpija - Maribor",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Prvi večni derbi Olimpija pričakuje v razsulu, Mariborčani pa polni samozavesti. Lahko četa Darka Milaniča iz Ljubljane odnese vse tri točke?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646324",
+      "friendly_id": "nogomet_m_olimpija__maribor_prva_liga_telemach_2026_2027_d97994e6"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "19:00",
+      "cas_konec": "21:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Excelsior - PSV, Nizozemska liga 2026/2027",
+      "naslov_orig": "Nogomet: Eredivisie: Excelsior - PSV",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646325",
+      "friendly_id": "nogomet_m_excelsior__psv_nizozemska_liga_2026_2027_68ab917e"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "21:00",
+      "cas_konec": "23:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (Ž): Aluminij  - Cerklje, 1. SŽNL 2026/2027",
+      "naslov_orig": "Nogomet: 1. Slovenska liga (ž): Aluminij - Cerklje",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/2/7/d827e4c5-ee18-438e-a2a8-4e6769706704.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646326",
+      "friendly_id": "nogomet_z_aluminij___cerklje_1_sznl_2026_2027_ae001747"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "01:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): G. Fürth - Nürnberg, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Greuther Fürth - Nürnberg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/4/8694902c-d715-4e32-9275-f391265c1eb6.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1142646327",
+      "friendly_id": "nogomet_m_g_fürth__nürnberg_2_bundesliga_2026_2027_e42caeba"
     }
   ]
 }
