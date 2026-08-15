@@ -1,219 +1,10 @@
 {
   "kanal": "Arena Sport 4",
   "ch_ext_id": "arena-sport-4",
-  "posodobljeno": "2026-08-14 12:49",
-  "od": "2026-08-07",
-  "do": "2026-08-21",
+  "posodobljeno": "2026-08-15 12:26",
+  "od": "2026-08-08",
+  "do": "2026-08-22",
   "oddaje": [
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "01:25",
-      "cas_konec": "03:15",
-      "trajanje": "110 min",
-      "naslov_sl": "Rokomet (Ž): Atletico G. - Michalovce, EHF pokal 2025/2026, Finale",
-      "naslov_orig": "Rokomet (Ž): EHF pokal: Finale: Atletico Guardes - Iuventa Michalovce, 2. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "rokomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f5/6/7/f567e99c-5df7-4672-acfc-642b3b5df090.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563834",
-      "friendly_id": "rokomet_z_atletico_g__michalovce_ehf_pokal_2025_2026_finale_5f765f2f"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "03:15",
-      "cas_konec": "05:05",
-      "trajanje": "110 min",
-      "naslov_sl": "EHF Evropska liga 2025/26: Tekma za 3. mesto",
-      "naslov_orig": "Rokomet: EHF Evropska liga: Tekma za 3. mesto",
-      "kategorija": "Šport",
-      "zanr": [
-        "rokomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563840",
-      "friendly_id": "ehf_evropska_liga_2025_26_tekma_za_3_mesto_f2372ce7"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "05:05",
-      "cas_konec": "06:55",
-      "trajanje": "110 min",
-      "naslov_sl": "EHF Evropska liga 2025/26: Finale",
-      "naslov_orig": "Rokomet: EHF Evropska liga: Finale",
-      "kategorija": "Šport",
-      "zanr": [
-        "rokomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563837",
-      "friendly_id": "ehf_evropska_liga_2025_26_finale_0cbf5ddb"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "06:55",
-      "cas_konec": "09:10",
-      "trajanje": "135 min",
-      "naslov_sl": "Hokej (M): C. Hurricanes - Vegas Knights, NHL 2025/2026, Finale",
-      "naslov_orig": "Hokej: Stanleyjev pokal: Carolina Hurricanes - Vegas Golden Knights, 5. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6a/2/a/6a2ae23b-bb4e-4bcf-a418-80b0a2f453de.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563842",
-      "friendly_id": "hokej_m_c_hurricanes__vegas_knights_nhl_2025_2026_finale_2b766544"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "09:10",
-      "cas_konec": "12:00",
-      "trajanje": "170 min",
-      "naslov_sl": "Bejzbol (M): B. Orioles - L.A. Angels, MLB 2026, Redna sezona",
-      "naslov_orig": "Baseball: MLB: Baltimore Orioles - Los Angeles Angels",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563843",
-      "friendly_id": "bejzbol_m_b_orioles__la_angels_mlb_2026_redna_sezona_17e93644"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "12:00",
-      "cas_konec": "14:15",
-      "trajanje": "135 min",
-      "naslov_sl": "Nogomet (M): Lazio - Inter, Coppa Italia 2025, Finale",
-      "naslov_orig": "Nogomet: Coppa Italia: Finale: Lazio - Inter",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/b/b/15bb2708-c8e6-4f54-8d66-8cab89e2afdd.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563835",
-      "friendly_id": "nogomet_m_lazio__inter_coppa_italia_2025_finale_effd1872"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "14:15",
-      "cas_konec": "16:05",
-      "trajanje": "110 min",
-      "naslov_sl": "Rokomet (Ž): Atletico G. - Michalovce, EHF pokal 2025/2026, Finale",
-      "naslov_orig": "Rokomet (Ž): EHF pokal: Finale: Iuventa Michalovce - Atletico Guardes, 1. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "rokomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f5/6/7/f567e99c-5df7-4672-acfc-642b3b5df090.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563836",
-      "friendly_id": "rokomet_z_atletico_g__michalovce_ehf_pokal_2025_2026_finale_5c0599be"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "16:05",
-      "cas_konec": "18:00",
-      "trajanje": "115 min",
-      "naslov_sl": "Rokomet (Ž): Atletico G. - Michalovce, EHF pokal 2025/2026, Finale",
-      "naslov_orig": "Rokomet (Ž): EHF pokal: Finale: Atletico Guardes - Iuventa Michalovce, 2. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "rokomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f5/6/7/f567e99c-5df7-4672-acfc-642b3b5df090.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563838",
-      "friendly_id": "rokomet_z_atletico_g__michalovce_ehf_pokal_2025_2026_finale_c1e9c24e"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "18:00",
-      "cas_konec": "20:50",
-      "trajanje": "170 min",
-      "naslov_sl": "S0E2 - Bejzbol (M): C. Cubs - L. A. Dodgers, MLB 2026, Redna sezona",
-      "naslov_orig": "S0E2 - Baseball: MLB: Chicago Cubs - Los Angeles Dodgers",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563841",
-      "friendly_id": "bejzbol_m_c_cubs__l_a_dodgers_mlb_2026_redna_sezona_f4ab3799"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "20:50",
-      "cas_konec": "23:10",
-      "trajanje": "140 min",
-      "naslov_sl": "Nogomet (M): Francija - Anglija, Svetovno prvenstvo 2026, Tekma za 3. mesto",
-      "naslov_orig": "Nogomet: SP 2026: Tekma za 3. mesto: Francija - Anglija",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563844",
-      "friendly_id": "nogomet_m_francija__anglija_svetovno_prvenstvo_2026_tekma_za_3_mesto_d12d0040"
-    },
-    {
-      "datum": "2026-08-07",
-      "dan": "Petek",
-      "cas": "23:10",
-      "cas_konec": "02:10",
-      "trajanje": "180 min",
-      "naslov_sl": "Nogomet (M): Španija - Argentina, Svetovno prvenstvo 2026, Finale",
-      "naslov_orig": "Nogomet: SP 2026: Finale: Španija - Argentina",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/3/9/3c392355-8f0e-42ed-b28d-b718eca72bdb.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1138563839",
-      "friendly_id": "nogomet_m_spanija__argentina_svetovno_prvenstvo_2026_finale_580e1de2"
-    },
     {
       "datum": "2026-08-08",
       "dan": "Sobota",
@@ -405,24 +196,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d0/d/b/d0dbc3c3-b0c6-481b-abbe-6d6b5ec0a5f7.jpg",
       "show_id": "CUP_IECOM_ARENASLO4_1138566750",
       "friendly_id": "ehf_evropska_liga_2025_26_z_finale_c5a4b9ae"
-    },
-    {
-      "datum": "2026-08-15",
-      "dan": "Sobota",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENASLO4_202608142200_202608142300"
     },
     {
       "datum": "2026-08-09",
@@ -2208,6 +1981,482 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
       "show_id": "CUP_IECOM_ARENASLO4_1144052763",
       "friendly_id": "bejzbol_m_c_guardians__s_f_giants_mlb_2026_redna_sezona_46c520e9"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "01:40",
+      "cas_konec": "03:30",
+      "trajanje": "110 min",
+      "naslov_sl": "Rokomet (Ž): Michalovce - Atletico G., EHF pokal 2025/2026, Finale",
+      "naslov_orig": "Rokomet: Evropski pokal EHF (Ž): Finale: Iuventa Michalovce - Atletico Guardes, 1. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/48/f/e/48fe1824-6e9d-48dd-8861-c6cdd54be249.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022153",
+      "friendly_id": "rokomet_z_michalovce__atletico_g_ehf_pokal_2025_2026_finale_050abfb9"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "03:30",
+      "cas_konec": "05:20",
+      "trajanje": "110 min",
+      "naslov_sl": "Rokomet (Ž): Atletico G. - Michalovce, EHF pokal 2025/2026, Finale",
+      "naslov_orig": "Rokomet: Evropski pokal EHF (Ž): Finale: Atletico Guardes - Iuventa Michalovce, 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/48/f/e/48fe1824-6e9d-48dd-8861-c6cdd54be249.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022154",
+      "friendly_id": "rokomet_z_atletico_g__michalovce_ehf_pokal_2025_2026_finale_b08a3563"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "05:20",
+      "cas_konec": "06:15",
+      "trajanje": "55 min",
+      "naslov_sl": "Svet na naših plečih",
+      "naslov_orig": "The World on Our Shoulders",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/b/b/7bbbf719-ecd2-4ad6-8820-ecdfca51ec67.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022155"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "06:15",
+      "cas_konec": "09:05",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): C. Cubs - L. A. Dodgers, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Chicago Cubs - Los Angeles Dodgers",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022156",
+      "friendly_id": "bejzbol_m_c_cubs__l_a_dodgers_mlb_2026_redna_sezona_e444fcfd"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "09:05",
+      "cas_konec": "11:20",
+      "trajanje": "135 min",
+      "naslov_sl": "Nogomet (M): B. München - Stuttgart, Pokal DFB 2025/2026, Finale",
+      "naslov_orig": "Nogomet: Nemški pokal: Finale: Bayern Munchen - Stuttgart",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/a/9/bca9d5ac-8efd-4733-871a-ad9a01884435.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022157",
+      "friendly_id": "nogomet_m_b_münchen__stuttgart_pokal_dfb_2025_2026_finale_dae0f69a"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "11:20",
+      "cas_konec": "14:10",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): B. Orioles - L.A. Angels, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Baltimore Orioles - Los Angeles Angels",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022158",
+      "friendly_id": "bejzbol_m_b_orioles__la_angels_mlb_2026_redna_sezona_73cb37c1"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "14:10",
+      "cas_konec": "15:10",
+      "trajanje": "60 min",
+      "naslov_sl": "S0E2 - Neuspeh prvakov: Ana Ivanović - 2. del",
+      "naslov_orig": "S0E2 - (Ne)uspjeh prvaka: Ana Ivanović - 2. dio: 2",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "intervju"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "V dokumentarni seriji (Ne)uspeh prvakov proslavljeni nogometni trener Slaven Bilić v pogovoru z vrhunskimi športniki iz Hrvaške in sosednjih držav razkriva drugo plat športa. V tej sezoni si bomo ogledali skupno 13 oddaj pogovorne oddaje v obliki 60-minutnih pogovorov s šestimi športniki in trenerji. To so Janica Kostelić, Luka Modrić, Željko Obradović, Novak Djoković, Goran Ivanišević in Nikola Karabatić. Ti pogovori so na naših prostorih vzbudili veliko zanimanje javnosti, saj so vrhunski športniki Slavenu Biliću zaupali tisto, česar ne bi nikoli nobenemu novinarju. Zato ima (Ne)uspeh prvakov posebno vrednost, v kar se bodo prepričali tudi gledalci Hrvaške radiotelevizije.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022159"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "15:10",
+      "cas_konec": "16:05",
+      "trajanje": "55 min",
+      "naslov_sl": "Svet na naših plečih",
+      "naslov_orig": "The World on Our Shoulders",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/b/b/7bbbf719-ecd2-4ad6-8820-ecdfca51ec67.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022160"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "16:05",
+      "cas_konec": "18:40",
+      "trajanje": "155 min",
+      "naslov_sl": "Nogomet (M): Barcelona - R. Madrid, Španski superpokal 2025/2026, Finale",
+      "naslov_orig": "Nogomet: Španski superpokal: Finale: Barcelona - Real Madrid",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/8/3/28834eb9-4b4b-4447-b8b2-1ccd232150f1.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022161",
+      "friendly_id": "nogomet_m_barcelona__r_madrid_spanski_superpokal_2025_2026_finale_42ba1818"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "18:40",
+      "cas_konec": "19:10",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E1 - Xtreme Collxtion",
+      "naslov_orig": "S0E1 - Xtreme Collxtion",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/0/9820629b-8c7f-4537-8636-edb6d5afed39.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022162",
+      "friendly_id": "xtreme_collxtion_70c90dbd"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "19:10",
+      "cas_konec": "22:15",
+      "trajanje": "185 min",
+      "naslov_sl": "Bejzbol (M): D. Tigers - C. White Sox, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Detroit Tigers - Chicago White Sox",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022163",
+      "zivo": true,
+      "friendly_id": "bejzbol_m_d_tigers__c_white_sox_mlb_2026_redna_sezona_254c26d0"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "22:15",
+      "cas_konec": "22:40",
+      "trajanje": "25 min",
+      "naslov_sl": "S0E2 - Xtreme Collxtion",
+      "naslov_orig": "S0E2 - Xtreme Collxtion",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/0/9820629b-8c7f-4537-8636-edb6d5afed39.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022164",
+      "friendly_id": "xtreme_collxtion_bf0f397b"
+    },
+    {
+      "datum": "2026-08-15",
+      "dan": "Sobota",
+      "cas": "22:40",
+      "cas_konec": "01:30",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): M. Twins - B. Orioles, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Minnesota Twins - Baltimore Orioles",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144022165",
+      "friendly_id": "bejzbol_m_m_twins__b_orioles_mlb_2026_redna_sezona_2ea5a25f"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "00:15",
+      "cas_konec": "02:55",
+      "trajanje": "160 min",
+      "naslov_sl": "Hokej (M): Švica - Finska, IIHF SP elitne skupine 2026, Finale",
+      "naslov_orig": "Hokej na ledu: IIHF svetovno prvenstvo: Finale",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057197",
+      "friendly_id": "hokej_m_svica__finska_iihf_sp_elitne_skupine_2026_finale_5d6cde95"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "02:55",
+      "cas_konec": "05:40",
+      "trajanje": "165 min",
+      "naslov_sl": "Bejzbol (M): C. Reds - St Louis C., MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Cincinnati Reds - St. Louis Cardinals",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057198",
+      "friendly_id": "bejzbol_m_c_reds__st_louis_c_mlb_2026_redna_sezona_cc2a947b"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "05:40",
+      "cas_konec": "08:30",
+      "trajanje": "170 min",
+      "naslov_sl": "Am. nogomet (M): H. Texans - Raiders, NFL  2026/2027, Predsezona",
+      "naslov_orig": "Ameriški nogomet: NFL Preseason: Houston Texans - Las Vegas Raiders",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/3/b/713b3e18-84a7-417d-908b-a88c2d2332c5.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144879637",
+      "friendly_id": "am_nogomet_m_h_texans__raiders_nfl__2026_2027_predsezona_f7c47a04"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "08:30",
+      "cas_konec": "10:45",
+      "trajanje": "135 min",
+      "naslov_sl": "Nogomet (M): Lens - PSG, Francoski Superpokal 2026/2027",
+      "naslov_orig": "Nogomet: Trophée des Champions: Lens - PSG",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/5/4/ad540583-25b3-4caf-b5be-59da22cee295.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057210",
+      "friendly_id": "nogomet_m_lens__psg_francoski_superpokal_2026_2027_9d23efaf"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "10:45",
+      "cas_konec": "11:15",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Napoved 1. kroga",
+      "naslov_orig": "The Ligue 1 Preview Show",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno prvi francoski nogometni ligi, in prvi izvedite najnovejše novice o tem tekmovanju in sodelujočih klubih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/1/9/d8194ab0-6cc0-45dd-8dd7-8a4400d17060.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057211",
+      "friendly_id": "ligue_1_2026_27_napoved_1_kroga_9c7ac394"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "11:15",
+      "cas_konec": "13:10",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Girona - Leganes, 2. španska liga 2026/2027",
+      "naslov_orig": "Nogomet: La Liga 2: Girona - Leganes",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Lige Segunde, druge najmočnejše nogometne lige v Španiji. Ustanovljena je bila leta 1929.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/69/f/9/69f92189-d95e-4d0e-beb2-811fbdafbac5.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057212",
+      "friendly_id": "nogomet_m_girona__leganes_2_spanska_liga_2026_2027_c27f58ca"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "13:10",
+      "cas_konec": "16:00",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): C. Guardians - S. F. Giants, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Cleveland Guardians - San Francisco Giants",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057213",
+      "friendly_id": "bejzbol_m_c_guardians__s_f_giants_mlb_2026_redna_sezona_bc1d54f8"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "16:00",
+      "cas_konec": "18:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Ipswich - Sunderland , Premier liga 2026/2027",
+      "naslov_orig": "Nogomet: Premier League: Ipswich Town - Sunderland",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f0/e/8/f0e8a80b-54e4-47d3-bac8-bab82e8391ad.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057214",
+      "zivo": true,
+      "friendly_id": "nogomet_m_ipswich__sunderland__premier_liga_2026_2027_c69ec6b1"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "18:00",
+      "cas_konec": "20:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Odbojka (Ž): Slovaška - Švedska, Evropsko prvenstvo 2026, Skupina D",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Slovaška - Švedska",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057215",
+      "zivo": true,
+      "friendly_id": "odbojka_z_slovaska__svedska_evropsko_prvenstvo_2026_skupina_d_abdcfa02"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "20:00",
+      "cas_konec": "20:45",
+      "trajanje": "45 min",
+      "naslov_sl": "Ligue 1 2026/27: Napoved 1. kroga",
+      "naslov_orig": "The Ligue 1 Preview Show",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno prvi francoski nogometni ligi, in prvi izvedite najnovejše novice o tem tekmovanju in sodelujočih klubih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/1/9/d8194ab0-6cc0-45dd-8dd7-8a4400d17060.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057216",
+      "friendly_id": "ligue_1_2026_27_napoved_1_kroga_c510a131"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "20:45",
+      "cas_konec": "22:50",
+      "trajanje": "125 min",
+      "naslov_sl": "Nogomet (M): Nice - Lorient, Ligue 1 2026/2027",
+      "naslov_orig": "Nogomet: Ligue 1: Nice - Lorient",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/f/3/aaf35b9c-1b34-4f87-ae23-e07ac645c00e.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057217",
+      "zivo": true,
+      "friendly_id": "nogomet_m_nice__lorient_ligue_1_2026_2027_e8bf7645"
+    },
+    {
+      "datum": "2026-08-22",
+      "dan": "Sobota",
+      "cas": "22:50",
+      "cas_konec": "01:10",
+      "trajanje": "140 min",
+      "naslov_sl": "Nogomet (M): Francija - Anglija, Svetovno prvenstvo 2026, Tekma za 3. mesto",
+      "naslov_orig": "Nogomet: SP 2026: Tekma za 3. mesto: Francija - Anglija",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1144057218",
+      "friendly_id": "nogomet_m_francija__anglija_svetovno_prvenstvo_2026_tekma_za_3_mesto_86b15305"
     }
   ]
 }
