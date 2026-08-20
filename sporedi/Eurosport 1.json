@@ -1,298 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-08-19 12:26",
-  "od": "2026-08-12",
-  "do": "2026-08-26",
+  "posodobljeno": "2026-08-20 12:26",
+  "od": "2026-08-13",
+  "do": "2026-08-27",
   "oddaje": [
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "00:03",
-      "cas_konec": "01:03",
-      "trajanje": "60 min",
-      "naslov_sl": "S0E2 - Poker: World Series of Poker: Las Vegas",
-      "naslov_orig": "S0E2 - Poker: World Series of Poker: Las Vegas",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/4/9/57491398-443b-4ac2-bdad-a78ecb0f9309.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631471",
-      "friendly_id": "poker_world_series_of_poker_las_vegas_840b86f7"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "01:03",
-      "cas_konec": "01:26",
-      "trajanje": "23 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: Zhao Xintong - Zhang Anda",
-      "naslov_orig": "Snooker: China Open: Zhao Xintong - Zhang Anda",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/7/0/29701f5f-f781-43b7-82f8-637a913aa184.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143879361",
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_zhao_xintong__zhang_anda_ac737c1c"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "01:26",
-      "cas_konec": "03:56",
-      "trajanje": "150 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 19. etapa: Gap - Alpe d'Huez (127,9 km)",
-      "naslov_orig": "Cycling: Tour de France: Stage 19: Gap - Alpe d'Huez (128km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631472",
-      "friendly_id": "kolesarstvo_m_dirka_po_franciji_19_etapa_gap__alpe_dhuez_1279_km_a2ed036e"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "03:56",
-      "cas_konec": "05:56",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: Zhao Xintong - Zhang Anda",
-      "naslov_orig": "Snooker: China Open: Zhao Xintong - Zhang Anda",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/7/0/29701f5f-f781-43b7-82f8-637a913aa184.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143879362",
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_zhao_xintong__zhang_anda_17989f69"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "05:56",
-      "cas_konec": "07:24",
-      "trajanje": "88 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Franciji, 19. etapa: Gap - Alpe d'Huez (127,9 km)",
-      "naslov_orig": "Cycling: Tour de France: Stage 19: Gap - Alpe d'Huez (128km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Velikani svetovnega kolesarstva se zberejo na Dirki po Franciji, legendarni francoski etapni dirki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/6/c/916cfa93-6328-41d1-bf24-e4d90391f906.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139631473",
-      "friendly_id": "kolesarstvo_m_dirka_po_franciji_19_etapa_gap__alpe_dhuez_1279_km_fcc29ebd"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "07:24",
-      "cas_konec": "08:00",
-      "trajanje": "36 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: Zhao Xintong - Zhang Anda",
-      "naslov_orig": "Snooker: China Open: Zhao Xintong - Zhang Anda",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/7/0/29701f5f-f781-43b7-82f8-637a913aa184.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143879363",
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_zhao_xintong__zhang_anda_4cc8d1d1"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "08:00",
-      "cas_konec": "11:30",
-      "trajanje": "210 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 2. krog",
-      "naslov_orig": "Snooker: China Open: Round 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958061",
-      "zivo": true,
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_5d5c87f9"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "11:30",
-      "cas_konec": "14:30",
-      "trajanje": "180 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 3. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 3, Morning Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034932",
-      "zivo": true,
-      "friendly_id": "atletika_evropsko_prvenstvo_3_dan_birmingham_fdd4ddfd"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "14:30",
-      "cas_konec": "17:00",
-      "trajanje": "150 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Kitajske: 2. krog",
-      "naslov_orig": "Snooker: China Open: Round 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958063",
-      "zivo": true,
-      "friendly_id": "snooker_odprto_prvenstvo_kitajske_2_krog_0512a3fb"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 2. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 2, Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034933",
-      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_4986f6c8"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "18:00",
-      "cas_konec": "18:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Gorski tek: GT serija, Pitzal: Pregled",
-      "naslov_orig": "Trail running: GT World Series, Pitzal: Review",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/f/2/a6f227d3-ba22-4ade-8174-17219af4b8a8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958065",
-      "friendly_id": "gorski_tek_gt_serija_pitzal_pregled_ee778d84"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "18:30",
-      "cas_konec": "19:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Gorski teki: Sierre-Zinal: Pregled",
-      "naslov_orig": "Trail Running: World Series: Sierre-Zinal: Review",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/a/5/88a56c7a-512d-4c1d-a66f-29c16396b59d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958066",
-      "friendly_id": "gorski_teki_sierrezinal_pregled_008ebd99"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "19:00",
-      "cas_konec": "19:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 2. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 2, Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034934",
-      "friendly_id": "atletika_evropsko_prvenstvo_2_dan_birmingham_3a4648c0"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "19:30",
-      "cas_konec": "23:00",
-      "trajanje": "210 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 3. dan, Birmingham",
-      "naslov_orig": "Athletics: European Championship: Birmingham, Day 3, Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/1/98210a51-1d89-4b3e-942a-1b2f94d6b329.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142034935",
-      "zivo": true,
-      "friendly_id": "atletika_evropsko_prvenstvo_3_dan_birmingham_f1dbed09"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S0E1 - Močni udarci: Seattle Seahawks",
-      "naslov_orig": "S0E1 - Hard Knocks",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1e/a/3/1ea391b8-08bd-4d33-a554-bd348e0ace43.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1139958069"
-    },
     {
       "datum": "2026-08-13",
       "dan": "Četrtek",
@@ -562,330 +274,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1140117834",
       "friendly_id": "cycling_world_tour_najboljsi_trenutki_dirke_tour_de_france_zenske_53960415"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "00:00",
-      "cas_konec": "01:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale, 7. dan",
-      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Tekmovanje v snookerju na Škotskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142628523",
-      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_7_dan_84757840"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "01:30",
-      "cas_konec": "03:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142628517",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_cde9e893"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale, 7. dan",
-      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Tekmovanje v snookerju na Škotskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142628524",
-      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_7_dan_7a68dbe3"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 16. etapa: Poio - Mos.Castro de Herville (167,9 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 16: Poio - Mos-Castro de Herville (172km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142628525",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_16_etapa_poio__moscastro_de_herville_1679_km_43d790d5"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "07:00",
-      "cas_konec": "08:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142628518",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_e9b8dcd0"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "08:30",
-      "cas_konec": "09:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E27 - Odkrij golf",
-      "naslov_orig": "S0E27 - Golf: Discovery Golf",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Prikazane so aktualne novice iz sveta golfa, pa tudi ozadja, zadnji pomembni dogodki ali prihajajoči turnirji. Poleg tega so predstavljeni portreti legend golfa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/6/2/83624fe5-3858-46f4-bcc6-66419f2ce83a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787580",
-      "friendly_id": "odkrij_golf_f8144bf8"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "09:00",
-      "cas_konec": "10:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale, 7. dan",
-      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Tekmovanje v snookerju na Škotskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787581",
-      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_7_dan_8af9987a"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "10:30",
-      "cas_konec": "11:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787584",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_6e5e75c6"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "11:30",
-      "cas_konec": "13:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale, 7. dan",
-      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Tekmovanje v snookerju na Škotskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787582",
-      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_7_dan_72f4bd4b"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "13:00",
-      "cas_konec": "14:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Gorsko kolesarstvo: UCI Svetovni pokal v Vallnord-Pal Arinsalu: Kros, ženske",
-      "naslov_orig": "Mountain Bike: World Cup: Vallnord-Pal Arinsal: Women Elite Cross-country Olympic",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Svetovnega pokala v gorskem kolesarstvu, ki poteka v Vallnord-Pal Arinsalu v Andori.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/2/a/172a3051-bd92-47a6-8b1c-9b94c46cfdfe.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787586",
-      "friendly_id": "gorsko_kolesarstvo_uci_svetovni_pokal_v_vallnordpal_arinsalu_kros_zenske_1c50448b"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "14:30",
-      "cas_konec": "15:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787585",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_d25d805e"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "15:30",
-      "cas_konec": "17:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 2. etapa: Blankenberge vs Ardooie",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 2: Blankenberge - Ardooie (173.9km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787587",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_2_etapa_blankenberge_vs_ardooie_7e0664e2"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "17:30",
-      "cas_konec": "18:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: Robledo de Chavela - Bola del Mundo. Puerto de Navacerrada (165,6 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787591",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_robledo_de_chavela__bola_del_mundo_puerto_de_navacerrada_1656_km_134d89bc"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "18:00",
-      "cas_konec": "20:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Atletika: Evropsko prvenstvo: 5. dan",
-      "naslov_orig": "Athletics: European Championship: Evening Session | Day 5",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787592",
-      "friendly_id": "atletika_evropsko_prvenstvo_5_dan_464fff9e"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "20:00",
-      "cas_konec": "22:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale, 7. dan",
-      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Tekmovanje v snookerju na Škotskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787583",
-      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_7_dan_2415fec8"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 2. etapa: Blankenberge vs Ardooie",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 2: Blankenberge - Ardooie (173.9km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787588",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_2_etapa_blankenberge_vs_ardooie_0c32ffa3"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: Robledo de Chavela - Bola del Mundo. Puerto de Navacerrada (165,6 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1142787593",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_robledo_de_chavela__bola_del_mundo_puerto_de_navacerrada_1656_km_77484ce3"
     },
     {
       "datum": "2026-08-14",
@@ -4775,6 +4163,735 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145148584",
       "friendly_id": "kolesarstvo_m__dirka_po_spaniji_5_etapa_falset_vs_roquetes_9087b6ac"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "00:00",
+      "cas_konec": "01:34",
+      "trajanje": "94 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale",
+      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Škotskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142628523",
+      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_472661ca"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "01:34",
+      "cas_konec": "03:01",
+      "trajanje": "87 min",
+      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
+      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/3/4/663411b3-b8f3-4512-a388-2da1f3fe33da.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142628517",
+      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_68100f26"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "03:01",
+      "cas_konec": "05:00",
+      "trajanje": "119 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale",
+      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Škotskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142628524",
+      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_5c87bd3a"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 16. etapa: Poio - Mos.Castro de Herville (167,9 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 16: Poio - Mos-Castro de Herville (172km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/9/1/8f918b03-37f0-4bd1-950c-df1e04b31822.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142628525",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_16_etapa_poio__moscastro_de_herville_1679_km_43d790d5"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "08:34",
+      "trajanje": "94 min",
+      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
+      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/3/4/663411b3-b8f3-4512-a388-2da1f3fe33da.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142628518",
+      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_e9b8dcd0"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "08:34",
+      "cas_konec": "09:03",
+      "trajanje": "29 min",
+      "naslov_sl": "S0E27 - Odkrij golf",
+      "naslov_orig": "S0E27 - Golf: Discovery Golf",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Prikazane so aktualne novice iz sveta golfa, pa tudi ozadja, zadnji pomembni dogodki ali prihajajoči turnirji. Poleg tega so predstavljeni portreti legend golfa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/6/2/83624fe5-3858-46f4-bcc6-66419f2ce83a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787580",
+      "friendly_id": "odkrij_golf_c6764123"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "09:03",
+      "cas_konec": "10:29",
+      "trajanje": "86 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale",
+      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Škotskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787581",
+      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_0f6357f7"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "10:29",
+      "cas_konec": "11:29",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
+      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/3/4/663411b3-b8f3-4512-a388-2da1f3fe33da.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787584",
+      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_a2df159d"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "11:29",
+      "cas_konec": "13:00",
+      "trajanje": "91 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale",
+      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Škotskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787582",
+      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_3f8f0eae"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "14:27",
+      "trajanje": "87 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI Svetovni pokal v Vallnord-Pal Arinsalu: Kros, ženske",
+      "naslov_orig": "Mountain Bike: World Cup: Vallnord-Pal Arinsal: Women Elite Cross-country Olympic",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Svetovnega pokala v gorskem kolesarstvu, ki poteka v Vallnord-Pal Arinsalu v Andori.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/2/a/172a3051-bd92-47a6-8b1c-9b94c46cfdfe.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787586",
+      "friendly_id": "gorsko_kolesarstvo_uci_svetovni_pokal_v_vallnordpal_arinsalu_kros_zenske_1c50448b"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "14:27",
+      "cas_konec": "15:30",
+      "trajanje": "63 min",
+      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 1. etapa: Diest",
+      "naslov_orig": "Cycling: Benelux Tour: Stage 1: Diest (191.3km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/3/4/663411b3-b8f3-4512-a388-2da1f3fe33da.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787585",
+      "friendly_id": "kolesarstvo_m_turneja_beneluksa_1_etapa_diest_60856828"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "15:30",
+      "cas_konec": "17:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 2. etapa: Blankenberge vs Ardooie",
+      "naslov_orig": "Cycling: Benelux Tour: Stage 2: Blankenberge - Ardooie (173.9km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/3/5/63354e35-dee1-4093-87d0-46a082c40b93.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787587",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m_turneja_beneluksa_2_etapa_blankenberge_vs_ardooie_7e0664e2"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "17:30",
+      "cas_konec": "18:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: Robledo de Chavela - Bola del Mundo. Puerto de Navacerrada (165,6 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787591",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_robledo_de_chavela__bola_del_mundo_puerto_de_navacerrada_1656_km_134d89bc"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "18:00",
+      "cas_konec": "20:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Atletika: Evropsko prvenstvo: 5. dan",
+      "naslov_orig": "Athletics: European Championship: Evening Session | Day 5",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Evropsko prvenstvo v atletiki je tekmovanje, ki poteka od 1934. Od leta 2010 se odvija na vsaki dve leti. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/b/6/e8b668c2-8109-4ade-b0bc-d6723fbe8dc2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787592",
+      "friendly_id": "atletika_evropsko_prvenstvo_5_dan_464fff9e"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "20:00",
+      "cas_konec": "22:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Škotske: Finale",
+      "naslov_orig": "Snooker: Scottish Open: Final | Day 7 | Evening Session",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Škotskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/1/295196c4-8d12-466c-836f-1099d8a29a88.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787583",
+      "friendly_id": "snooker_odprto_prvenstvo_skotske_finale_7c246cf4"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 2. etapa: Blankenberge vs Ardooie",
+      "naslov_orig": "Cycling: Benelux Tour: Stage 2: Blankenberge - Ardooie (173.9km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/3/5/63354e35-dee1-4093-87d0-46a082c40b93.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787588",
+      "friendly_id": "kolesarstvo_m_turneja_beneluksa_2_etapa_blankenberge_vs_ardooie_0c32ffa3"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: Robledo de Chavela - Bola del Mundo. Puerto de Navacerrada (165,6 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1142787593",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_robledo_de_chavela__bola_del_mundo_puerto_de_navacerrada_1656_km_77484ce3"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Kvalifikacije",
+      "naslov_orig": "Tennis: US Open: Qualifying",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145148585",
+      "friendly_id": "tenis_odprto_prvenstvo_zda_kvalifikacije_ff75b7b8"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "01:00",
+      "cas_konec": "02:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mešane dvojice, polfinale",
+      "naslov_orig": "Tennis: US Open: Mixed | Doubles | Semi-Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145148586",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mesane_dvojice_polfinale_2bd13e3e"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mešane dvojice, polfinale",
+      "naslov_orig": "Tennis: US Open: Mixed | Doubles | Semi-Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145148587",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mesane_dvojice_polfinale_85e37c00"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "03:00",
+      "cas_konec": "03:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mešane dvojice, polfinale",
+      "naslov_orig": "Tennis: US Open: Mixed | Doubles | Semi-Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145148588",
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mesane_dvojice_polfinale_fcf1bf93"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "03:30",
+      "cas_konec": "05:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mešane dvojice, finale",
+      "naslov_orig": "Tennis: US Open: Mixed | Doubles | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145148589",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mesane_dvojice_finale_a80dcbdb"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "05:30",
+      "cas_konec": "07:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 5. etapa: Falset vs Roquetes",
+      "naslov_orig": "Vuelta a Espana: Stage 5: Falset - Roquetes (173.4km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145148590",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_5_etapa_falset_vs_roquetes_37a0bc85"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Snooker: Wuhan Open: 4. krog",
+      "naslov_orig": "Snooker: Wuhan Open: Round 4",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145148591",
+      "friendly_id": "snooker_wuhan_open_4_krog_2d732373"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "08:00",
+      "cas_konec": "11:00",
+      "trajanje": "180 min",
+      "naslov_sl": "Snooker: Wuhan Open: Četrtfinale",
+      "naslov_orig": "Snooker: Wuhan Open: Quarter-Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335560",
+      "zivo": true,
+      "friendly_id": "snooker_wuhan_open_cetrtfinale_945712b6"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "11:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E28 - Odkrij golf",
+      "naslov_orig": "S0E28 - Golf: Discovery Golf",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Prikazane so aktualne novice iz sveta golfa, pa tudi ozadja, zadnji pomembni dogodki ali prihajajoči turnirji. Poleg tega so predstavljeni portreti legend golfa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/c/2/e3c2c6e1-bfed-444c-bbb6-202f06b09f9b.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335561",
+      "friendly_id": "odkrij_golf_651f7a4e"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "11:30",
+      "cas_konec": "12:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Jadranje: Sail GP vrhunci: Rockwool Germany Grand Prix",
+      "naslov_orig": "Highlights SailGP",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/4/e/1f4ef275-2b25-437a-8e74-99039d1bdc8d.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335562",
+      "friendly_id": "jadranje_sail_gp_vrhunci_rockwool_germany_grand_prix_4728891f"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "12:30",
+      "cas_konec": "13:30",
+      "trajanje": "60 min",
+      "naslov_sl": "S0E3 - Močni udarci",
+      "naslov_orig": "S0E3 - Hard Knocks",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fe/9/4/fe9416e8-f3ca-4fee-89f0-86a2fe4429e4.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335564"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "13:30",
+      "cas_konec": "14:45",
+      "trajanje": "75 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 5. etapa: Falset vs Roquetes",
+      "naslov_orig": "Vuelta a Espana: Stage 5: Falset - Roquetes (173.4km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335568",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_5_etapa_falset_vs_roquetes_b9fcdafe"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "14:45",
+      "cas_konec": "17:45",
+      "trajanje": "180 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 6. etapa: Alcossebre - Castelló (176,8 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 6: Alcossebre - Castelló (177.4km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335570",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_6_etapa_alcossebre__castelló_1768_km_1c43cccc"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "17:45",
+      "cas_konec": "18:15",
+      "trajanje": "30 min",
+      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Kros, kratke proge, ženske",
+      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Cross-country Short Track, Women, Elite",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/0/5520f9e8-e1b9-4a9b-a8fe-4d4847806726.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146821160",
+      "zivo": true,
+      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_kros_kratke_proge_zenske_d5a5e6c2"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "18:15",
+      "cas_konec": "18:20",
+      "trajanje": "5 min",
+      "naslov_sl": "S0E9 - Kolesarska oddaja",
+      "naslov_orig": "S0E9 - The Cycling Show",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Kolesarska legenda Sir Bradley Wiggins, petkratni olimpijski prvak in zmagovalec Tour de Francea leta 2012, v svoji oddaji pregleduje prihajajoče vrhunske kolesarske dogodke in s svojimi uglednimi gosti razpravlja o novicah in aktualnem dogajanju ter s svojo strokovnostjo kolesarskim navdušencem ponuja povsem poseben vpogled. Ob njem stoji športni novinar Graham Willgoss.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/eb/8/8/eb88d752-5655-4eac-a09c-b2a0dd921549.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335582",
+      "friendly_id": "kolesarska_oddaja_8f19f89d"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "18:20",
+      "cas_konec": "19:30",
+      "trajanje": "70 min",
+      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Kros, kratke proge, moški",
+      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Cross-country Short Track, Men Elite",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/0/5520f9e8-e1b9-4a9b-a8fe-4d4847806726.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146821162",
+      "zivo": true,
+      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_kros_kratke_proge_moski_1ffd24a2"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "19:30",
+      "cas_konec": "21:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mešane dvojice, finale",
+      "naslov_orig": "Tennis: US Open: Mixed | Doubles | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335590",
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mesane_dvojice_finale_abaae2ed"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "21:30",
+      "cas_konec": "22:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E2 - Esports Show",
+      "naslov_orig": "S0E2 - Esports Show",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/6/0/2560a476-fb68-46ca-9baf-f1b43ff3ed25.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146821166",
+      "friendly_id": "esports_show_b01b0a38"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 6. etapa: Alcossebre - Castelló (176,8 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 6: Alcossebre - Castelló (177.4km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1145335592",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_6_etapa_alcossebre__castelló_1768_km_455b3e2a"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "23:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Kros, kratke proge, ženske",
+      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Cross-country Short Track, Women, Elite",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/0/5520f9e8-e1b9-4a9b-a8fe-4d4847806726.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146821161",
+      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_kros_kratke_proge_zenske_3ecbf8ee"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "23:30",
+      "cas_konec": "00:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Kros, kratke proge, moški",
+      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Cross-country Short Track, Men Elite",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/0/5520f9e8-e1b9-4a9b-a8fe-4d4847806726.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146821164",
+      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_kros_kratke_proge_moski_756ae4a7"
     }
   ]
 }

@@ -1,256 +1,10 @@
 {
   "kanal": "Arena Sport 1",
   "ch_ext_id": "arena-sport-1",
-  "posodobljeno": "2026-08-19 12:26",
-  "od": "2026-08-12",
-  "do": "2026-08-26",
+  "posodobljeno": "2026-08-20 12:26",
+  "od": "2026-08-13",
+  "do": "2026-08-27",
   "oddaje": [
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "01:00",
-      "cas_konec": "02:55",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Jagiellonia B. - Widzew L., Poljska liga 2025/2026",
-      "naslov_orig": "Nogomet: Ekstraklasa: Jagiellonia Bialystok - Widzew Lodz",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/b/b/15bb2708-c8e6-4f54-8d66-8cab89e2afdd.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758662",
-      "friendly_id": "nogomet_m_jagiellonia_b__widzew_l_poljska_liga_2025_2026_73b173ea"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "02:55",
-      "cas_konec": "04:45",
-      "trajanje": "110 min",
-      "naslov_sl": "Nogomet (M): Crvena z. - Novi Pazar, Srbska liga 2026/2027",
-      "naslov_orig": "Nogomet: Superliga Srbije: Crvena zvezda - Novi Pazar",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Srbska SuperLiga je najmočnejše ligaško nogometno tekmovanje v Srbiji. V njej sodeluje 20 ekip.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_ARENASLO1_1143570390",
-      "friendly_id": "nogomet_m_crvena_z__novi_pazar_srbska_liga_2026_2027_c31a81fc"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "04:45",
-      "cas_konec": "06:40",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Radomiak R. - Gornik Z., Poljska liga 2026/2027",
-      "naslov_orig": "Nogomet: Ekstraklasa: Radomiak Radom - Gornik Zabrze",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/d/f/52dff209-a6c7-4028-80ba-cac667dbe858.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758664",
-      "friendly_id": "nogomet_m_radomiak_r__gornik_z_poljska_liga_2026_2027_45af343d"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "06:40",
-      "cas_konec": "08:35",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Korona K. - Legia, Poljska liga 2026/2027",
-      "naslov_orig": "Nogomet: Ekstraklasa: Korona Kielce - Legia Warszawa",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/d/f/52dff209-a6c7-4028-80ba-cac667dbe858.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143570391",
-      "friendly_id": "nogomet_m_korona_k__legia_poljska_liga_2026_2027_22aedb97"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "08:35",
-      "cas_konec": "10:30",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Jagiellonia B. - Widzew L., Poljska liga 2026/2027",
-      "naslov_orig": "Nogomet: Ekstraklasa: Jagiellonia Bialystok - Widzew Lodz",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/d/f/52dff209-a6c7-4028-80ba-cac667dbe858.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143570392",
-      "friendly_id": "nogomet_m_jagiellonia_b__widzew_l_poljska_liga_2026_2027_46f8d2d1"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "10:30",
-      "cas_konec": "11:30",
-      "trajanje": "60 min",
-      "naslov_sl": "S0E2 - Neuspeh prvakov: Ana Ivanović - 2. del",
-      "naslov_orig": "S0E2 - (Ne)uspjeh prvaka: Ana Ivanović - 2. dio: 2",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "intervju"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "V dokumentarni seriji (Ne)uspeh prvakov proslavljeni nogometni trener Slaven Bilić v pogovoru z vrhunskimi športniki iz Hrvaške in sosednjih držav razkriva drugo plat športa. V tej sezoni si bomo ogledali skupno 13 oddaj pogovorne oddaje v obliki 60-minutnih pogovorov s šestimi športniki in trenerji. To so Janica Kostelić, Luka Modrić, Željko Obradović, Novak Djoković, Goran Ivanišević in Nikola Karabatić. Ti pogovori so na naših prostorih vzbudili veliko zanimanje javnosti, saj so vrhunski športniki Slavenu Biliću zaupali tisto, česar ne bi nikoli nobenemu novinarju. Zato ima (Ne)uspeh prvakov posebno vrednost, v kar se bodo prepričali tudi gledalci Hrvaške radiotelevizije.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758635"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "11:30",
-      "cas_konec": "13:25",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Korona K. - Legia, Poljska liga 2025/2026",
-      "naslov_orig": "Nogomet: Ekstraklasa: Korona Kielce - Legia Warszawa",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/d/f/52dff209-a6c7-4028-80ba-cac667dbe858.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758636",
-      "friendly_id": "nogomet_m_korona_k__legia_poljska_liga_2025_2026_79c7359b"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "13:25",
-      "cas_konec": "15:20",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Crvena z. - Novi Pazar, Srbska liga 2026/2027",
-      "naslov_orig": "Nogomet: Superliga Srbije: Crvena zvezda - Novi Pazar",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Srbska SuperLiga je najmočnejše ligaško nogometno tekmovanje v Srbiji. V njej sodeluje 20 ekip.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_ARENASLO1_1143570393",
-      "friendly_id": "nogomet_m_crvena_z__novi_pazar_srbska_liga_2026_2027_451349a7"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "15:20",
-      "cas_konec": "15:50",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E14 - Shortlist",
-      "naslov_orig": "S0E14 - Shortlist",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758638",
-      "friendly_id": "shortlist_13eb5e08"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "15:50",
-      "cas_konec": "17:45",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Radomiak R. - Gornik Z., Poljska liga 2026/2027",
-      "naslov_orig": "Nogomet: Ekstraklasa: Radomiak Radom - Gornik Zabrze",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/d/f/52dff209-a6c7-4028-80ba-cac667dbe858.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758639",
-      "friendly_id": "nogomet_m_radomiak_r__gornik_z_poljska_liga_2026_2027_e9cfe1ad"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "17:45",
-      "cas_konec": "19:40",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Jagiellonia B. - Widzew L., Poljska liga 2025/2026",
-      "naslov_orig": "Nogomet: Ekstraklasa: Jagiellonia Bialystok - Widzew Lodz",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/b/b/15bb2708-c8e6-4f54-8d66-8cab89e2afdd.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758640",
-      "friendly_id": "nogomet_m_jagiellonia_b__widzew_l_poljska_liga_2025_2026_79ce054c"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "19:40",
-      "cas_konec": "22:45",
-      "trajanje": "185 min",
-      "naslov_sl": "Bejzbol (M): M. Twins - B. Orioles, MLB 2026, Redna sezona",
-      "naslov_orig": "Baseball: MLB: Minnesota Twins - Baltimore Orioles",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758641",
-      "zivo": true,
-      "friendly_id": "bejzbol_m_m_twins__b_orioles_mlb_2026_redna_sezona_f5abd3cc"
-    },
-    {
-      "datum": "2026-08-12",
-      "dan": "Sreda",
-      "cas": "22:45",
-      "cas_konec": "00:00",
-      "trajanje": "75 min",
-      "naslov_sl": "Gogis Garage / Podkast: Giannis Antetokounmpo",
-      "naslov_orig": "Gogis Garage / Podkast: Giannis Antetokounmpo",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "pogovorna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/b/a/4fba6b1c-441b-4d07-9506-df901cea8ad9.png",
-      "show_id": "CUP_IECOM_ARENASLO1_1139758642"
-    },
     {
       "datum": "2026-08-13",
       "dan": "Četrtek",
@@ -550,386 +304,6 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/b/a/4fba6b1c-441b-4d07-9506-df901cea8ad9.png",
       "show_id": "CUP_IECOM_ARENASLO1_1144215564"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "00:10",
-      "cas_konec": "00:25",
-      "trajanje": "15 min",
-      "naslov_sl": "30 let Premier lige: Neverjetni Rooney",
-      "naslov_orig": "Premier League 30: Iconic Moments",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ob 30. obletnici Premier lige se spominjamo najbolj impresivnih trenutkov, tekem in ekip, ki so zaznamovale to tekmovanje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/b/4/18b4a72e-a31d-4af6-9261-d60b57e713ce.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579835",
-      "friendly_id": "30_let_premier_lige_neverjetni_rooney_af8c4f57"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "00:25",
-      "cas_konec": "02:25",
-      "trajanje": "120 min",
-      "naslov_sl": "Coppa Italia 2026/27: 1. krog: Parma - Catania",
-      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Parma - Catania",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1144317426",
-      "friendly_id": "coppa_italia_2026_27_1_krog_parma__catania_82cd1db9"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "02:25",
-      "cas_konec": "02:40",
-      "trajanje": "15 min",
-      "naslov_sl": "30 let Premier lige: Leicestrovi pravljični lisjaki",
-      "naslov_orig": "Premier League 30: Iconic Moments",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ob 30. obletnici Premier lige se spominjamo najbolj impresivnih trenutkov, tekem in ekip, ki so zaznamovale to tekmovanje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/b/4/18b4a72e-a31d-4af6-9261-d60b57e713ce.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579837",
-      "friendly_id": "30_let_premier_lige_leicestrovi_pravljicni_lisjaki_07d20992"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "02:40",
-      "cas_konec": "03:40",
-      "trajanje": "60 min",
-      "naslov_sl": "Svet na naših plečih",
-      "naslov_orig": "The World on Our Shoulders",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/b/b/7bbbf719-ecd2-4ad6-8820-ecdfca51ec67.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579838"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "03:40",
-      "cas_konec": "05:40",
-      "trajanje": "120 min",
-      "naslov_sl": "Coppa Italia 2026/27: 1. krog: Fiorentina - Benevento",
-      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Fiorentina - Benevento",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1144317427",
-      "friendly_id": "coppa_italia_2026_27_1_krog_fiorentina__benevento_b934667a"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "05:40",
-      "cas_konec": "05:55",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E55 - AS Podkast",
-      "naslov_orig": "S0E55 - AS Podkast",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579840",
-      "friendly_id": "as_podkast_f286e472"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "05:55",
-      "cas_konec": "07:55",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Udinese - Padova, Coppa Italia 2026/2027",
-      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Udinese - Padova",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579841",
-      "friendly_id": "nogomet_m_udinese__padova_coppa_italia_2026_2027_52b32273"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "07:55",
-      "cas_konec": "08:25",
-      "trajanje": "30 min",
-      "naslov_sl": "Coppa Italia 2026/27: Pregled 1. kroga",
-      "naslov_orig": "Coppa Italia Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vrhunci vseh tekem Pokala Italije ekskluzivno na Mediasetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/2/0/9020c3d7-a665-4761-be3e-48c9d76afa36.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579842",
-      "friendly_id": "coppa_italia_2026_27_pregled_1_kroga_d401f12b"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "08:25",
-      "cas_konec": "10:25",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Torino - Carrarese, Coppa Italia 2026/2027",
-      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Torino - Carrarese",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579843",
-      "friendly_id": "nogomet_m_torino__carrarese_coppa_italia_2026_2027_f82d28c4"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "10:25",
-      "cas_konec": "10:40",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E55 - AS Podkast",
-      "naslov_orig": "S0E55 - AS Podkast",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579844",
-      "friendly_id": "as_podkast_251c57a3"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "10:40",
-      "cas_konec": "12:55",
-      "trajanje": "135 min",
-      "naslov_sl": "Nogomet (M): Lens - PSG, Francoski Superpokal 2026/2027",
-      "naslov_orig": "Nogomet: Trophée des Champions: Lens - PSG",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/5/4/ad540583-25b3-4caf-b5be-59da22cee295.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579845",
-      "friendly_id": "nogomet_m_lens__psg_francoski_superpokal_2026_2027_3c071412"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "12:55",
-      "cas_konec": "13:25",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E36 - Shortlist",
-      "naslov_orig": "S0E36 - Shortlist",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579846",
-      "friendly_id": "shortlist_166b4f3f"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "13:25",
-      "cas_konec": "15:25",
-      "trajanje": "120 min",
-      "naslov_sl": "Super Liga Srbije 2026/27: Partizan - Radnički 1923",
-      "naslov_orig": "Nogomet: Superliga Srbije: Partizan - Radnički 1923",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Srbska SuperLiga je najmočnejše ligaško nogometno tekmovanje v Srbiji. V njej sodeluje 20 ekip.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_ARENASLO1_1144317423",
-      "friendly_id": "super_liga_srbije_2026_27_partizan__radnicki_1923_654980b0"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "15:25",
-      "cas_konec": "15:40",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E55 - AS Podkast",
-      "naslov_orig": "S0E55 - AS Podkast",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579848",
-      "friendly_id": "as_podkast_d71caedb"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "15:40",
-      "cas_konec": "17:40",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Lazio - Mantova, Coppa Italia 2026/2027",
-      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Lazio - Mantova",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579849",
-      "friendly_id": "nogomet_m_lazio__mantova_coppa_italia_2026_2027_c89fb6e2"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "17:40",
-      "cas_konec": "18:10",
-      "trajanje": "30 min",
-      "naslov_sl": "Coppa Italia 2026/27: Pregled 1. kroga",
-      "naslov_orig": "Coppa Italia Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vrhunci vseh tekem Pokala Italije ekskluzivno na Mediasetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/2/0/9020c3d7-a665-4761-be3e-48c9d76afa36.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579850",
-      "friendly_id": "coppa_italia_2026_27_pregled_1_kroga_8646ce09"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "18:10",
-      "cas_konec": "20:25",
-      "trajanje": "135 min",
-      "naslov_sl": "Nogomet (M): Lens - PSG, Francoski Superpokal 2026/2027",
-      "naslov_orig": "Nogomet: Trophée des Champions: Lens - PSG",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/5/4/ad540583-25b3-4caf-b5be-59da22cee295.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579851",
-      "friendly_id": "nogomet_m_lens__psg_francoski_superpokal_2026_2027_7046fb00"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "20:25",
-      "cas_konec": "21:00",
-      "trajanje": "35 min",
-      "naslov_sl": "S0E37 - Shortlist",
-      "naslov_orig": "S0E37 - Shortlist",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579852",
-      "friendly_id": "shortlist_af4f39bc"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "21:00",
-      "cas_konec": "23:05",
-      "trajanje": "125 min",
-      "naslov_sl": "Nogomet (M): Sheffield W. - Bradford C., League 1 2026/2027",
-      "naslov_orig": "Nogomet: League 1: Sheffield Wednesday - Bradford City",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7a/5/0/7a50beb5-ba39-4547-9eca-395a47b2ff9e.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579853",
-      "zivo": true,
-      "friendly_id": "nogomet_m_sheffield_w__bradford_c_league_1_2026_2027_daddc3b5"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "23:05",
-      "cas_konec": "01:05",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Palermo - Lecce, Coppa Italia 2026/2027",
-      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Palermo - Lecce",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1143579854",
-      "friendly_id": "nogomet_m_palermo__lecce_coppa_italia_2026_2027_71eb2f57"
     },
     {
       "datum": "2026-08-14",
@@ -1233,25 +607,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
       "show_id": "CUP_IECOM_ARENASLO1_1139767008",
       "friendly_id": "shortlist_243b1c34"
-    },
-    {
-      "datum": "2026-08-20",
-      "dan": "Četrtek",
-      "cas": "23:05",
-      "cas_konec": "01:05",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Flamengo  - Cruzeiro, Copa Libertadores 2026, Osmina finala",
-      "naslov_orig": "Nogomet: Copa Libertadores: Osmina finala: Flamengo - Cruzeiro / 2. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte Pokal Libertadores, mednarodno nogometno tekmovanje, v katerem sodelujejo najboljši klubi Južne Amerike. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/e/e/83eef39b-8a15-4ea8-a859-1a467fcabd7c.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1144830337",
-      "friendly_id": "nogomet_m_flamengo___cruzeiro_copa_libertadores_2026_osmina_finala_2fa9d7ba"
     },
     {
       "datum": "2026-08-21",
@@ -5085,6 +4440,789 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
       "show_id": "CUP_IECOM_ARENASLO1_1144766200",
       "friendly_id": "shortlist_fb778edf"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "00:10",
+      "cas_konec": "00:25",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E55 - AS Podkast",
+      "naslov_orig": "S0E55 - AS Podkast",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1147111092",
+      "friendly_id": "as_podkast_97713c35"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "00:25",
+      "cas_konec": "02:30",
+      "trajanje": "125 min",
+      "naslov_sl": "Nogomet (M): Parma - Catania, Coppa Italia 2026/2027",
+      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Parma - Catania",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144317426",
+      "friendly_id": "nogomet_m_parma__catania_coppa_italia_2026_2027_e4decd40"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "02:30",
+      "cas_konec": "04:40",
+      "trajanje": "130 min",
+      "naslov_sl": "Nogomet (M): Flamengo  - Cruzeiro, Copa Libertadores 2026, Osmina finala",
+      "naslov_orig": "Nogomet: Copa Libertadores: Osmina finala: Flamengo - Cruzeiro / 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte Pokal Libertadores, mednarodno nogometno tekmovanje, v katerem sodelujejo najboljši klubi Južne Amerike. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/e/e/83eef39b-8a15-4ea8-a859-1a467fcabd7c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144830322",
+      "zivo": true,
+      "friendly_id": "nogomet_m_flamengo___cruzeiro_copa_libertadores_2026_osmina_finala_df751cf3"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "04:40",
+      "cas_konec": "05:10",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E37 - Shortlist",
+      "naslov_orig": "S0E37 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144830323",
+      "friendly_id": "shortlist_f93c87a8"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "05:10",
+      "cas_konec": "05:40",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Napoved 1. kroga",
+      "naslov_orig": "The Ligue 1 Preview Show",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno prvi francoski nogometni ligi, in prvi izvedite najnovejše novice o tem tekmovanju in sodelujočih klubih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/1/9/d8194ab0-6cc0-45dd-8dd7-8a4400d17060.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144830324",
+      "friendly_id": "ligue_1_2026_27_napoved_1_kroga_3eec3801"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "05:40",
+      "cas_konec": "05:55",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E1 - Športne igre mladih 2026/27",
+      "naslov_orig": "S0E1 - Športne igre mladih",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športne igre mladih so zakon! To dokazujejo otroci, ki vsak dan pišejo nove športne zgodbe. Tokrat nas čaka pravo športno popotovanje, na katerem bomo spremljali podvige malih športnikov. Krško, Izola, Tolmin, Trbovlje, Litija in prvič Kranjska Gora. Povsod so otroci ustvarili čudovito vzdušje. Šest krajev, šest različnih zgodb in nešteto otroških nasmehov. Za dobro voljo pa povsod poskrbi tudi Viktor, maskota iger.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/9/9/249922a9-017e-4264-b78f-6bf9c32cc3aa.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144830325",
+      "friendly_id": "sportne_igre_mladih_2026_27_3287d6b6"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "05:55",
+      "cas_konec": "07:55",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Udinese - Padova, Coppa Italia 2026/2027",
+      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Udinese - Padova",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579841",
+      "friendly_id": "nogomet_m_udinese__padova_coppa_italia_2026_2027_52b32273"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "07:55",
+      "cas_konec": "08:25",
+      "trajanje": "30 min",
+      "naslov_sl": "Coppa Italia 2026/27: Pregled 1. kroga",
+      "naslov_orig": "Coppa Italia Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vrhunci vseh tekem Pokala Italije ekskluzivno na Mediasetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/2/0/9020c3d7-a665-4761-be3e-48c9d76afa36.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579842",
+      "friendly_id": "coppa_italia_2026_27_pregled_1_kroga_d401f12b"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "08:25",
+      "cas_konec": "10:25",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Flamengo  - Cruzeiro, Copa Libertadores 2026, Osmina finala",
+      "naslov_orig": "Nogomet: Copa Libertadores: Osmina finala: Flamengo - Cruzeiro / 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte Pokal Libertadores, mednarodno nogometno tekmovanje, v katerem sodelujejo najboljši klubi Južne Amerike. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/e/e/83eef39b-8a15-4ea8-a859-1a467fcabd7c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144830336",
+      "friendly_id": "nogomet_m_flamengo___cruzeiro_copa_libertadores_2026_osmina_finala_15fbcec3"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "10:25",
+      "cas_konec": "10:40",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E55 - AS Podkast",
+      "naslov_orig": "S0E55 - AS Podkast",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579844",
+      "friendly_id": "as_podkast_251c57a3"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "10:40",
+      "cas_konec": "12:55",
+      "trajanje": "135 min",
+      "naslov_sl": "Nogomet (M): Lens - PSG, Francoski Superpokal 2026/2027",
+      "naslov_orig": "Nogomet: Trophée des Champions: Lens - PSG",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/5/4/ad540583-25b3-4caf-b5be-59da22cee295.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579845",
+      "friendly_id": "nogomet_m_lens__psg_francoski_superpokal_2026_2027_3c071412"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "12:55",
+      "cas_konec": "13:25",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E36 - Shortlist",
+      "naslov_orig": "S0E36 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579846",
+      "friendly_id": "shortlist_166b4f3f"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "13:25",
+      "cas_konec": "15:25",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Partizan -  Radnicki, Srbska liga 2026/2027",
+      "naslov_orig": "Nogomet: Superliga Srbije: Partizan - Radnički 1923",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Srbska SuperLiga je najmočnejše ligaško nogometno tekmovanje v Srbiji. V njej sodeluje 20 ekip.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_ARENASLO1_1144317423",
+      "friendly_id": "nogomet_m_partizan___radnicki_srbska_liga_2026_2027_3f5d5025"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "15:25",
+      "cas_konec": "15:40",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E55 - AS Podkast",
+      "naslov_orig": "S0E55 - AS Podkast",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579848",
+      "friendly_id": "as_podkast_d71caedb"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "15:40",
+      "cas_konec": "17:40",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Lazio - Mantova, Coppa Italia 2026/2027",
+      "naslov_orig": "Nogomet: Coppa Italia: 1. krog: Lazio - Mantova",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Vse tekme glavnega italijanskega nogometnega pokala v živo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/c/e9fc0f36-82c2-45cf-a3de-598b8a13573f.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579849",
+      "friendly_id": "nogomet_m_lazio__mantova_coppa_italia_2026_2027_c89fb6e2"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "17:40",
+      "cas_konec": "18:10",
+      "trajanje": "30 min",
+      "naslov_sl": "Coppa Italia 2026/27: Pregled 1. kroga",
+      "naslov_orig": "Coppa Italia Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Vrhunci vseh tekem Pokala Italije ekskluzivno na Mediasetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/2/0/9020c3d7-a665-4761-be3e-48c9d76afa36.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579850",
+      "friendly_id": "coppa_italia_2026_27_pregled_1_kroga_8646ce09"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "18:10",
+      "cas_konec": "20:25",
+      "trajanje": "135 min",
+      "naslov_sl": "Nogomet (M): Lens - PSG, Francoski Superpokal 2026/2027",
+      "naslov_orig": "Nogomet: Trophée des Champions: Lens - PSG",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/5/4/ad540583-25b3-4caf-b5be-59da22cee295.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579851",
+      "friendly_id": "nogomet_m_lens__psg_francoski_superpokal_2026_2027_7046fb00"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "20:25",
+      "cas_konec": "21:00",
+      "trajanje": "35 min",
+      "naslov_sl": "S0E37 - Shortlist",
+      "naslov_orig": "S0E37 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579852",
+      "friendly_id": "shortlist_af4f39bc"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "21:00",
+      "cas_konec": "23:05",
+      "trajanje": "125 min",
+      "naslov_sl": "Nogomet (M): Sheffield W. - Bradford C., League 1 2026/2027",
+      "naslov_orig": "Nogomet: League 1: Sheffield Wednesday - Bradford City",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7a/5/0/7a50beb5-ba39-4547-9eca-395a47b2ff9e.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1143579853",
+      "zivo": true,
+      "friendly_id": "nogomet_m_sheffield_w__bradford_c_league_1_2026_2027_daddc3b5"
+    },
+    {
+      "datum": "2026-08-20",
+      "dan": "Četrtek",
+      "cas": "23:05",
+      "cas_konec": "01:05",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Flamengo  - Cruzeiro, Copa Libertadores 2026, Osmina finala",
+      "naslov_orig": "Nogomet: Copa Libertadores: Osmina finala: Flamengo - Cruzeiro / 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte Pokal Libertadores, mednarodno nogometno tekmovanje, v katerem sodelujejo najboljši klubi Južne Amerike. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/e/e/83eef39b-8a15-4ea8-a859-1a467fcabd7c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144830337",
+      "friendly_id": "nogomet_m_flamengo___cruzeiro_copa_libertadores_2026_osmina_finala_2fa9d7ba"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "00:00",
+      "cas_konec": "02:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Odbojka (Ž): Švedska - Hrvaška, Evropsko prvenstvo 2026, Skupina D",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Švedska - Hrvaška",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783174",
+      "friendly_id": "odbojka_z_svedska__hrvaska_evropsko_prvenstvo_2026_skupina_d_87f56ecd"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "02:00",
+      "cas_konec": "02:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E2 - Shortlist",
+      "naslov_orig": "S0E2 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783175",
+      "friendly_id": "shortlist_487d3691"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "02:30",
+      "cas_konec": "04:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Odbojka (Ž): Poljska - Slovenija, Evropsko prvenstvo 2026, Skupina A",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Poljska - Slovenija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783176",
+      "friendly_id": "odbojka_z_poljska__slovenija_evropsko_prvenstvo_2026_skupina_a_a378df61"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "04:30",
+      "cas_konec": "05:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Pregled 1. kroga",
+      "naslov_orig": "French Ligue 1 Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783177",
+      "friendly_id": "ligue_1_2026_27_pregled_1_kroga_52c2581d"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "05:00",
+      "cas_konec": "06:55",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Inter - Monza, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Inter - Monza",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/7/4/f474ea67-639a-4821-af27-68e38249492b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783178",
+      "friendly_id": "nogomet_m_inter__monza_serie_a_2026_2027_feaeb212"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "06:55",
+      "cas_konec": "07:45",
+      "trajanje": "50 min",
+      "naslov_sl": "Serie A 2026/27: Pregled 1. kroga",
+      "naslov_orig": "Italian Serie A: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Prinašamo vam pregled tekem in najboljše trenutke iz lige Serie A, najvišje divizije v italijanskem nogometnem sistemu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/a/2/a2a2f9bb-3bfb-47e0-8778-b235c489e5dc.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783187",
+      "friendly_id": "serie_a_2026_27_pregled_1_kroga_38e5f1ee"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "07:45",
+      "cas_konec": "08:00",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E55 - AS Podkast",
+      "naslov_orig": "S0E55 - AS Podkast",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783188",
+      "friendly_id": "as_podkast_7f1c3c63"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "08:00",
+      "cas_konec": "10:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Odbojka (Ž): Slovenija - Latvija, Skupina A, Evropsko prvenstvo",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Slovenija - Latvija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783189",
+      "friendly_id": "odbojka_z_slovenija__latvija_skupina_a_evropsko_prvenstvo_e3104fec"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "10:00",
+      "cas_konec": "10:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Pregled 1. kroga",
+      "naslov_orig": "French Ligue 1 Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783190",
+      "friendly_id": "ligue_1_2026_27_pregled_1_kroga_e9b23d12"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "10:30",
+      "cas_konec": "12:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Odbojka (Ž): Srbija - Grčija, Evropsko prvenstvo 2026, Skupina B",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Srbija - Grčija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783191",
+      "friendly_id": "odbojka_z_srbija__grcija_evropsko_prvenstvo_2026_skupina_b_98a222c6"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "12:30",
+      "cas_konec": "13:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E2 - Shortlist",
+      "naslov_orig": "S0E2 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783192",
+      "friendly_id": "shortlist_4776e86b"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "15:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Odbojka (Ž): Švedska - Hrvaška, Evropsko prvenstvo 2026, Skupina D",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Švedska - Hrvaška",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783193",
+      "friendly_id": "odbojka_z_svedska__hrvaska_evropsko_prvenstvo_2026_skupina_d_a4817327"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "15:00",
+      "cas_konec": "15:50",
+      "trajanje": "50 min",
+      "naslov_sl": "Serie A 2026/27: Pregled 1. kroga",
+      "naslov_orig": "Italian Serie A: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Prinašamo vam pregled tekem in najboljše trenutke iz lige Serie A, najvišje divizije v italijanskem nogometnem sistemu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/a/2/a2a2f9bb-3bfb-47e0-8778-b235c489e5dc.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783194",
+      "friendly_id": "serie_a_2026_27_pregled_1_kroga_cfedff67"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "15:50",
+      "cas_konec": "18:00",
+      "trajanje": "130 min",
+      "naslov_sl": "Odbojka (Ž): Ukrajina - Srbija, Evropsko prvenstvo 2026, Skupina B",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Ukrajina - Srbija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783195",
+      "zivo": true,
+      "friendly_id": "odbojka_z_ukrajina__srbija_evropsko_prvenstvo_2026_skupina_b_aea85dd5"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "18:00",
+      "cas_konec": "18:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E3 - Shortlist",
+      "naslov_orig": "S0E3 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783196",
+      "friendly_id": "shortlist_5a6df77f"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "18:30",
+      "cas_konec": "19:40",
+      "trajanje": "70 min",
+      "naslov_sl": "Gogis Garage / Podkast: Giannis Antetokounmpo",
+      "naslov_orig": "Gogis Garage / Podkast: Giannis Antetokounmpo",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7a/5/a/7a5a6321-61f9-4549-9e13-fb9261023f18.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783197"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "19:40",
+      "cas_konec": "20:00",
+      "trajanje": "20 min",
+      "naslov_sl": "S0E55 - AS Podkast",
+      "naslov_orig": "S0E55 - AS Podkast",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783198",
+      "friendly_id": "as_podkast_de802e24"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "20:00",
+      "cas_konec": "20:30",
+      "trajanje": "30 min",
+      "naslov_sl": "FIBA Svetovno prvenstvo 2027: Kvalifikacije: V prvi vrsti",
+      "naslov_orig": "Basketball: Qualifications For WC Studio",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783199",
+      "zivo": true,
+      "friendly_id": "fiba_svetovno_prvenstvo_2027_kvalifikacije_v_prvi_vrsti_83e66084"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "20:30",
+      "cas_konec": "22:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Francija - Slovenija, Kvalifikacije za Svetovno prvenstvo 2027, Skupina L",
+      "naslov_orig": "Košarka: Kvalifikacije za SP (M): Francija - Slovenija",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6b/5/8/6b585b90-b4cb-4ec3-ac63-c4071028d6ee.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783200",
+      "zivo": true,
+      "friendly_id": "kosarka_m_francija__slovenija_kvalifikacije_za_svetovno_prvenstvo_2027_skupina_l_f023343a"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "22:30",
+      "cas_konec": "23:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Pregled 1. kroga",
+      "naslov_orig": "French Ligue 1 Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783201",
+      "friendly_id": "ligue_1_2026_27_pregled_1_kroga_6ea75981"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "01:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Odbojka (Ž): Slovenija - Latvija, Skupina A, Evropsko prvenstvo",
+      "naslov_orig": "Odbojka (Ž): Evropsko prvenstvo: Slovenija - Latvija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/8/f/368f1fdc-f052-4823-80e9-9ec11efb25db.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1144783202",
+      "friendly_id": "odbojka_z_slovenija__latvija_skupina_a_evropsko_prvenstvo_5bf3ba3b"
     }
   ]
 }
