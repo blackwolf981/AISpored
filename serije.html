@@ -870,12 +870,15 @@ function izrisiZacetke() {
     const prva = e.zacetek === 'serija';
     const plakat = s.poster_tmdb || s.slika || '';
     const arhiv = kaj === 'arhiv';
-    // Pri arhivskih NE pišemo, koliko časa je še na voljo. Naši podatki so iz
-    // enega ponudnika (Telekom), gledalec pa je lahko na T2, Telemachu ali A1,
-    // kjer je arhiv lahko drugačen. Povemo dejstvo — kdaj je bilo — in ga
-    // napotimo k njegovemu ponudniku. (Andrejeva pripomba 22.8.2026.)
+    // Pri arhivskih piše SAMO, kdaj je bilo. Ne koliko časa je še na voljo
+    // (naši podatki so iz enega ponudnika, gledalec je lahko pri drugem) in
+    // brez napotkov, kje naj išče — to uporabnik ve sam. (Andrej, 22.8.2026.)
+    // "Danes 06:25 ... danes" je odveč — vrstica z dnevom to že pove. Starost
+    // se izpiše samo takrat, ko pove kaj novega (dva dni ali več).
+    const starost = predDnevi(n - t.zac);
     const spodaj = arhiv
-      ? `<span class="se-zacetek-arh">${predDnevi(n - t.zac)} — poišči v arhivu svojega ponudnika</span>`
+      ? (starost === 'danes' || starost === 'včeraj' ? ''
+         : `<span class="se-zacetek-arh">${starost}</span>`)
       : `<span class="se-zacetek-cd">${odstevanje(Math.max(0, t.zac - n))}</span>`;
     return `<div class="se-zacetek${arhiv ? ' arhiv' : ''}" onclick="odpriPopup('${e.serija}', ${e.s})">
       ${plakat ? `<img class="se-zacetek-plakat" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
