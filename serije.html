@@ -293,6 +293,14 @@
   .se-zacetek-meta { font-size: 10px; color: #8f8aa6; margin-top: auto; }
   .se-zacetek-cd { color: #c9aef5; }
 
+  /* Arhivske kartice: jantarno, da se na prvi pogled ločijo od tega, kar šele
+     pride. Stojijo spredaj, ker najstarejša prva pade iz arhiva. */
+  .se-zacetek.arhiv { background: #1a1712; border-color: #3a3020; }
+  .se-zacetek.arhiv:hover { border-color: #d09a6a; }
+  .se-zacetek.arhiv .se-zacetek-oznaka { background: #d09a6a; }
+  .se-zacetek.arhiv .se-zacetek-oznaka.prva { background: #f5c518; }
+  .se-zacetek-arh { color: #d09a6a; }
+
   /* ---- Filtri ---- */
   .se-filtri { padding: 12px 1.5rem; border-bottom: 1px solid #1e2130; display: flex; flex-direction: column; gap: 8px; }
   .se-btn-skupina { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -397,7 +405,7 @@
 <!-- ===== ZAČNI GLEDATI — prve epizode sezon in serij ===== -->
 <div class="se-sekcija se-sekcija-zacetki" id="zacetki-sekcija" style="display:none">
   <div class="se-sekcija-naslov">▶ Začni gledati
-    <span class="se-sekcija-podnaslov">prve epizode, ki šele pridejo na spored</span>
+    <span class="se-sekcija-podnaslov">prve epizode sezon in serij — kaj je bilo v zadnjih dneh in kaj šele pride</span>
   </div>
   <div class="se-zacetki-vrsta" id="zacetki-vrsta"></div>
 </div>
@@ -613,7 +621,8 @@ function izrisiVejeNav(vrste, aktivniTip, filmskiTipi) {
 const PODATKI = '';
 const OSVEZI_MS = 30 * 1000;    // kako pogosto se preračunajo statusi
 const NA_STRAN = 15;            // serij na stran (enako kot filmska mreža)
-const ZACETKOV = 15;            // koliko kartic v pasu "Začni gledati"
+const ZACETKOV = 15;            // koliko prihodnjih kartic v pasu "Začni gledati"
+const ZACETKOV_ARHIV = 10;      // koliko preteklih (že predvajanih) kartic
 const SE_ZAMUDA = 30 * 60;      // sekund po začetku, ko epizoda še šteje za "zdaj"
 
 const DNEVI_SL = ['Nedelja', 'Ponedeljek', 'Torek', 'Sreda', 'Četrtek', 'Petek', 'Sobota'];
@@ -687,6 +696,15 @@ function slikaNiUspela(img) {
   nadomestek.className = img.classList.contains('se-kartica-slika') ? 'se-kartica-brez' : 'se-zacetek-plakat';
   if (nadomestek.className === 'se-kartica-brez') nadomestek.textContent = '📺';
   img.replaceWith(nadomestek);
+}
+
+/* Koliko časa nazaj je bilo. Namenoma brez ur — pri arhivu je natančnost na
+   minuto nepomembna, dan pa je tisto, kar si gledalec zapomni. */
+function predDnevi(sekund) {
+  const dni = Math.floor(sekund / 86400);
+  if (dni <= 0) return 'danes';
+  if (dni === 1) return 'včeraj';
+  return 'pred ' + dni + ' dnevi';
 }
 
 function ubegni(s) {
@@ -812,15 +830,30 @@ function posodobiUro() {
 
 function zacetkiZaPas() {
   const n = zdaj();
-  const kandidati = [];
+  const prihaja = [], arhiv = [];
   Object.keys(EPIZODE).forEach(eid => {
     const e = EPIZODE[eid];
     if (!e.zacetek) return;
     const t = (TERMINI_EP[eid] || []).find(x => x.kon >= n);
-    if (t) kandidati.push({ eid, e, t });
+    if (t) {
+      prihaja.push({ eid, e, t, vrsta: 'prihaja' });
+      return;
+    }
+    // Že predvajano. Vzame se ZADNJI termin — ta je v arhivu najsvežji in bo
+    // iz njega tudi zadnji izpadel.
+    const zadnji = (TERMINI_EP[eid] || []).reduce(
+      (naj, x) => (!naj || x.zac > naj.zac) ? x : naj, null);
+    if (zadnji) arhiv.push({ eid, e, t: zadnji, vrsta: 'arhiv' });
   });
-  kandidati.sort((a, b) => a.t.zac - b.t.zac);
-  return kandidati.slice(0, ZACETKOV);
+
+  // Arhivske gredo naprej, NAJSVEŽEJŠA spredaj. Nasprotno od intuicije "najprej
+  // tisto, kar bo najprej izginilo": ker arhiv vsakega ponudnika traja drugače,
+  // je pri najstarejših najmanj verjetno, da so še na voljo — obljubljali bi
+  // nekaj, česar ni. Najsvežejša epizoda je tista, ki jo gledalec skoraj gotovo
+  // še ujame. Za njimi prihodnje, kronološko.
+  arhiv.sort((a, b) => b.t.zac - a.t.zac);
+  prihaja.sort((a, b) => a.t.zac - b.t.zac);
+  return arhiv.slice(0, ZACETKOV_ARHIV).concat(prihaja.slice(0, ZACETKOV));
 }
 
 function izrisiZacetke() {
@@ -832,11 +865,19 @@ function izrisiZacetke() {
   sek.style.display = '';
 
   const n = zdaj();
-  vrsta.innerHTML = seznam.map(({ e, t }) => {
+  vrsta.innerHTML = seznam.map(({ e, t, vrsta: kaj }) => {
     const s = SERIJE[e.serija] || {};
     const prva = e.zacetek === 'serija';
     const plakat = s.poster_tmdb || s.slika || '';
-    return `<div class="se-zacetek" onclick="odpriPopup('${e.serija}', ${e.s})">
+    const arhiv = kaj === 'arhiv';
+    // Pri arhivskih NE pišemo, koliko časa je še na voljo. Naši podatki so iz
+    // enega ponudnika (Telekom), gledalec pa je lahko na T2, Telemachu ali A1,
+    // kjer je arhiv lahko drugačen. Povemo dejstvo — kdaj je bilo — in ga
+    // napotimo k njegovemu ponudniku. (Andrejeva pripomba 22.8.2026.)
+    const spodaj = arhiv
+      ? `<span class="se-zacetek-arh">${predDnevi(n - t.zac)} — poišči v arhivu svojega ponudnika</span>`
+      : `<span class="se-zacetek-cd">${odstevanje(Math.max(0, t.zac - n))}</span>`;
+    return `<div class="se-zacetek${arhiv ? ' arhiv' : ''}" onclick="odpriPopup('${e.serija}', ${e.s})">
       ${plakat ? `<img class="se-zacetek-plakat" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
                : '<div class="se-zacetek-plakat"></div>'}
       <div class="se-zacetek-telo">
@@ -845,7 +886,7 @@ function izrisiZacetke() {
         ${s.naslov_sl ? `<div class="se-zacetek-sl">${ubegni(s.naslov_sl)}</div>` : ''}
         <div class="se-zacetek-meta">
           ${imeDneva(t.datum)} ${uraIz(t.zac)} · ${ubegni(t.k)}<br>
-          <span class="se-zacetek-cd">${odstevanje(Math.max(0, t.zac - n))}</span>
+          ${spodaj}
         </div>
       </div>
     </div>`;
