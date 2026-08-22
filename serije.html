@@ -310,6 +310,30 @@
   .se-btn.active { background: #7a4fd0; border-color: #7a4fd0; color: #fff; font-weight: 600; }
   .se-btn-stevec { font-size: 10px; color: inherit; opacity: 0.65; margin-left: 5px; }
 
+  /* Zaprta filtra: gumb pove ime, stanje in smer puščice. */
+  .se-filter-vrsta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .se-cta { display: inline-flex; align-items: center; gap: 6px; padding: 6px 13px;
+            border-radius: 18px; border: 1px solid #2e3148; background: transparent;
+            color: #cfd3e0; font-size: 12.5px; font-weight: 600; cursor: pointer;
+            transition: all 0.15s; }
+  .se-cta:hover { border-color: #7a4fd0; color: #fff; }
+  .se-cta.odprt { border-color: #7a4fd0; background: #7a4fd018; color: #fff; }
+  .se-cta.active { border-color: #7a4fd0; background: #7a4fd0; color: #fff; }
+  .se-cta-stanje { font-size: 11px; font-weight: 400; opacity: 0.75; }
+  .se-cta-pusc { font-size: 9px; opacity: 0.7; }
+  .se-locnica { width: 1px; height: 20px; background: #2a2e3d; }
+
+  .se-panel { border: 1px solid #2a2340; border-radius: 8px; background: #12101c;
+              padding: 10px; max-height: 190px; overflow-y: auto; }
+
+  /* Ocena: drsnik kot na filmski strani + gumb "Brez ocene" na koncu. */
+  .se-ocena-wrap { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .se-ocena-wrap .slider-wrap { display: flex; align-items: center; gap: 8px; }
+  .se-ocena-wrap .slider-wrap.onemogocen { opacity: 0.4; }
+  .se-slider-ime { font-size: 11px; color: #6f6a86; }
+  .se-ocena-wrap input[type=range] { width: 130px; accent-color: #7a4fd0; }
+  .se-ocena-wrap .slider-val { font-size: 12px; font-weight: 700; color: #c9aef5; min-width: 34px; }
+
   /* ---- Kartica serije ---- */
   .se-kartica { position: relative; background: #13161f; border: 1px solid #1e2130; border-radius: 8px;
                 overflow: hidden; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
@@ -425,18 +449,19 @@
     <div class="se-btn-skupina" id="f-razvrsti"></div>
   </div>
 
-  <div class="filter-row">
-    <span class="filter-label">Ocena</span>
-    <div class="se-btn-skupina" id="f-ocena"></div>
+  <!-- Kanali in žanri sta ZAPRTA: seznama sta dolga in bi na telefonu pojedla
+       pol zaslona, čeprav ju večina ne odpre. Gumb pove, ali filter deluje. -->
+  <div class="filter-row se-filter-vrsta">
+    <button class="se-cta" id="cta-kanali" onclick="preklopiPanel('kanali')"></button>
+    <button class="se-cta" id="cta-zanri" onclick="preklopiPanel('zanri')"></button>
+    <span class="se-locnica"></span>
+    <div class="se-ocena-wrap" id="se-ocena"></div>
   </div>
 
-  <div class="filter-row">
-    <span class="filter-label">Kanal</span>
+  <div class="se-panel" id="panel-kanali" style="display:none">
     <div class="se-btn-skupina" id="f-kanal"></div>
   </div>
-
-  <div class="filter-row">
-    <span class="filter-label">Žanr</span>
+  <div class="se-panel" id="panel-zanri" style="display:none">
     <div class="se-btn-skupina" id="f-zanr"></div>
   </div>
 </div>
@@ -641,7 +666,9 @@ let TERMINI_SER = {};    // sid  -> [termini], kronološko
 
 let izbraniKanali = new Set();
 let izbraniZanri = new Set();
-let ocenaFilter = 'vse';
+let imdbMin = 0;             // drsnik: najnižja IMDb ocena
+let brezOcene = false;       // izključi drsnik in pokaže samo serije brez ocene
+let odprtPanel = null;       // 'kanali' | 'zanri' | null
 let razvrstitev = 'ocena';
 let query = '';
 let stranIdx = 0;
@@ -907,21 +934,13 @@ const RAZVRSTITVE = [
   ['epizod', 'Največ epizod'],
 ];
 
-const OCENE = [
-  ['vse', 'Vse'],
-  ['8', 'IMDb 8+'],
-  ['7', 'IMDb 7+'],
-  ['brez', 'Brez ocene'],
-];
-
 function izrisiFiltre() {
   document.getElementById('f-razvrsti').innerHTML = RAZVRSTITVE.map(([k, t]) =>
     `<button class="se-btn ${razvrstitev === k ? 'active' : ''}" onclick="nastaviRazvrstitev('${k}')">${t}</button>`
   ).join('');
 
-  document.getElementById('f-ocena').innerHTML = OCENE.map(([k, t]) =>
-    `<button class="se-btn ${ocenaFilter === k ? 'active' : ''}" onclick="nastaviOceno('${k}')">${t}</button>`
-  ).join('');
+  izrisiCta();
+  izrisiOceno();
 
   const kan = META.kanali || [];
   document.getElementById('f-kanal').innerHTML =
@@ -938,8 +957,72 @@ function izrisiFiltre() {
     ).join('');
 }
 
+/* Gumba za kanale in žanre. Ker je seznam zaprt, mora gumb sam povedati, ali
+   filter deluje — sicer bi uporabnik gledal skrajšan seznam serij in ne bi
+   vedel, zakaj. */
+function izrisiCta() {
+  const opis = (mnozica, praznoBesedilo) =>
+    mnozica.size === 0 ? praznoBesedilo
+      : (mnozica.size === 1 ? [...mnozica][0] : mnozica.size + ' izbranih');
+  const gumb = (id, ime, mnozica, prazno) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.classList.toggle('active', mnozica.size > 0);
+    el.classList.toggle('odprt', odprtPanel === id.replace('cta-', ''));
+    el.innerHTML = `${ime} <span class="se-cta-stanje">${ubegni(opis(mnozica, prazno))}</span>
+                    <span class="se-cta-pusc">${odprtPanel === id.replace('cta-', '') ? '▴' : '▾'}</span>`;
+  };
+  gumb('cta-kanali', 'Kanali', izbraniKanali, 'vsi');
+  gumb('cta-zanri', 'Žanri', izbraniZanri, 'vsi');
+}
+
+/* Ocena: drsnik kot na filmski strani, na koncu gumb "Brez ocene".
+   Serije brez IMDb ocene pri drsniku nad 0 izpadejo — to je namen; kdor jih
+   išče, ima za to svoj gumb. */
+function izrisiOceno() {
+  const el = document.getElementById('se-ocena');
+  if (!el) return;
+  el.innerHTML = `
+    <span class="filter-label">Ocena</span>
+    <div class="slider-wrap active${brezOcene ? ' onemogocen' : ''}">
+      <span class="se-slider-ime">IMDb</span>
+      <input type="range" min="0" max="9" step="0.5" value="${imdbMin}"
+             ${brezOcene ? 'disabled' : ''} oninput="nastaviImdbMin(this.value)">
+      <span class="slider-val">${imdbMin > 0 ? imdbMin + '+' : 'vse'}</span>
+    </div>
+    <button class="se-btn ${brezOcene ? 'active' : ''}" onclick="preklopiBrezOcene()">Brez ocene</button>`;
+}
+
+function preklopiPanel(kaj) {
+  odprtPanel = (odprtPanel === kaj) ? null : kaj;
+  ['kanali', 'zanri'].forEach(k => {
+    const p = document.getElementById('panel-' + k);
+    if (p) p.style.display = (odprtPanel === k) ? '' : 'none';
+  });
+  izrisiCta();
+}
+
 function nastaviRazvrstitev(k) { razvrstitev = k; stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
-function nastaviOceno(k) { ocenaFilter = k; stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
+
+function nastaviImdbMin(v) {
+  imdbMin = parseFloat(v);
+  brezOcene = false;
+  stranIdx = 0;
+  // Med vlečenjem drsnika se ne izrisuje cel filter — samo številka poleg njega,
+  // sicer bi se element pod prstom sproti na novo ustvarjal.
+  const el = document.querySelector('#se-ocena .slider-val');
+  if (el) el.textContent = imdbMin > 0 ? imdbMin + '+' : 'vse';
+  izrisiMrezo();
+}
+
+function preklopiBrezOcene() {
+  brezOcene = !brezOcene;
+  if (brezOcene) imdbMin = 0;
+  stranIdx = 0;
+  izrisiOceno();
+  izrisiMrezo();
+}
+
 function pocistiKanale() { izbraniKanali.clear(); stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
 function preklopiKanal(k) {
   izbraniKanali.has(k) ? izbraniKanali.delete(k) : izbraniKanali.add(k);
@@ -989,9 +1072,8 @@ function ustreza(sid) {
   if (izbraniZanri.size && !(s.zanr || []).some(z => izbraniZanri.has(z))) return false;
 
   const ocena = parseFloat(s.imdb_ocena);
-  if (ocenaFilter === 'brez' && !isNaN(ocena)) return false;
-  if (ocenaFilter === '8' && !(ocena >= 8)) return false;
-  if (ocenaFilter === '7' && !(ocena >= 7)) return false;
+  if (brezOcene) { if (!isNaN(ocena)) return false; }
+  else if (imdbMin > 0 && !(ocena >= imdbMin)) return false;
 
   if (query && !besediloSerije(sid).includes(query)) return false;
   return true;
