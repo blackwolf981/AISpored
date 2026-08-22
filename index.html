@@ -212,22 +212,68 @@
   .tip-popup-veja { border-color: #2a5c40; color: #4fd18a; }
   .tip-popup-veja:hover { background: #10281c; color: #6fe0a0; }
   .tip-popup-veja::after { content: '↗'; float: right; opacity: 0.6; }
+
+  /* ===========================================================================
+     IZBORNIK VSEBIN v glavi — skupen za vse strani
+     ===========================================================================
+     Barvni gumbi = veje s svojo stranjo, vsak v barvi svoje veje. Sivi napisi =
+     vrste, ki živijo kot filter na filmski strani. Vrstica NI lepljiva
+     (Andrejeva zahteva 22.8.2026): na telefonu bi lebdeča pojedla preveč
+     zaslona, zato odplava skupaj s stranjo.
+     ======================================================================== */
+
+  #veje-nav { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+  .vn { font-size: 13px; font-weight: 700; letter-spacing: 0.6px; padding: 6px 15px;
+        border-radius: 18px; border: 1px solid; text-decoration: none; white-space: nowrap;
+        transition: all 0.15s; }
+  .vn-filmi  { color: #e8702a; border-color: #e8702a55; background: #e8702a12; }
+  .vn-serije { color: #c9aef5; border-color: #7a4fd055; background: #7a4fd018; }
+  .vn-sport  { color: #4fd18a; border-color: #1fa25a55; background: #1fa25a15; }
+  .vn-filmi:hover  { border-color: #e8702a; background: #e8702a25; }
+  .vn-serije:hover { border-color: #7a4fd0; background: #7a4fd030; }
+  .vn-sport:hover  { border-color: #1fa25a; background: #1fa25a28; }
+  .vn.aktiven { color: #fff; }
+  .vn-filmi.aktiven  { background: #e8702a; border-color: #e8702a; }
+  .vn-serije.aktiven { background: #7a4fd0; border-color: #7a4fd0; }
+  .vn-sport.aktiven  { background: #1fa25a; border-color: #1fa25a; }
+
+  .vn-locnica { width: 1px; height: 20px; background: #2a2e3d; margin: 0 3px; }
+  .vn-oznaka { font-size: 11px; color: #5f6474; white-space: nowrap; }
+
+  .vn-vrsta { font-size: 12px; padding: 5px 11px; border-radius: 16px;
+              border: 1px dashed #2e3148; color: #6f6a86; text-decoration: none;
+              white-space: nowrap; transition: all 0.15s; }
+  .vn-vrsta:hover { color: #ddd; border-color: #555; border-style: solid; }
+  .vn-vrsta.aktiven { color: #fff; border-style: solid; border-color: #e8702a;
+                      background: #e8702a22; }
+
+  /* Ura in "osveženo" gresta na desni rob glave. */
+  .glava-desno { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+
+  @media (max-width: 620px) {
+    /* Na telefonu se vrstica NE lomi v tri vrste — drsi vodoravno. Tako glava
+       vzame eno vrstico namesto štirih, kar je bila Andrejeva zahteva. */
+    #veje-nav { gap: 6px; flex-wrap: nowrap; overflow-x: auto; width: 100%;
+                scrollbar-width: none; padding-bottom: 2px; }
+    #veje-nav::-webkit-scrollbar { display: none; }
+    .vn { font-size: 12px; padding: 5px 12px; }
+    .vn-vrsta { font-size: 11px; padding: 4px 9px; }
+    /* Na telefonu ura in datum osvežitve ne smeta odriniti vej v tretjo vrsto. */
+    .glava-desno { margin-left: 0; width: 100%; justify-content: flex-start; }
+    .header h1 { font-size: 17px; }
+  }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>TV vodič: <span class="glava-tip" id="glava-tip">Film</span></h1>
-  <span class="posodobljeno" id="posodobljeno-txt"></span>
-  <button class="glava-tip-btn" id="glava-tip-btn" onclick="odpriTipPopup()">Izberi drugo TV vsebino</button>
-  <span class="now-badge" id="now-time">ZDAJ</span>
-</div>
-
-<div class="tip-overlay" id="tip-overlay" onclick="zapriTipPopup()"></div>
-<div class="tip-popup" id="tip-popup">
-  <div class="tip-popup-naslov">Izberi vrsto TV vsebine</div>
-  <div class="tip-popup-gumbi" id="tip-popup-gumbi"></div>
-  <button class="tip-popup-zapri" onclick="zapriTipPopup()">Zapri</button>
+  <h1>TV vodič:</h1>
+  <div id="veje-nav"></div>
+  <span class="glava-desno">
+    <span class="posodobljeno" id="posodobljeno-txt"></span>
+    <span class="now-badge" id="now-time">ZDAJ</span>
+  </span>
 </div>
 
 <!-- ===== Nalaganje (prekrije vsebino pod glavo, dokler se podatki ne naložijo) ===== -->
@@ -396,6 +442,125 @@
 </div>
 
 <script>
+/* =============================================================================
+   IZBORNIK VSEBIN — skupen del vseh strani portala
+   =============================================================================
+   Vrstica v glavi: barvni gumbi za veje, ki imajo SVOJO stran (FILMI, SERIJE,
+   ŠPORT), za njimi pa sivi napisi za vrste, ki svoje strani še nimajo in živijo
+   kot filter na filmski strani (Dokumentarci, Otroški/Mladinski, Informativni …).
+
+   Zakaj je to skupna datoteka in ne trikrat prepisana koda: seznam vej se bo
+   spreminjal (dokumentarci so naslednji na vrsti) in trije izvodi bi se
+   neizogibno razšli. `zgradi.py` jo vključi v vse tri strani.
+
+   Seznam pride iz `veje/vrste.json` — edinega vira resnice o tem, katere vrste
+   obstajajo in katera stran jih pokaže. Ko dokumentarci dobijo svojo vejo, se
+   njihov napis SAM premakne izmed sivih med barvne; tu ni česa popravljati.
+
+   NADOMESTIL JE GUMB "Izberi drugo TV vsebino" (22.8.2026). Dve poti do iste
+   stvari sta bili razlog, da je bila prejšnja vrstica zavihkov avgusta
+   odstranjena — zato je zdaj gumb odstranjen, ne vrstica.
+
+   Na filmski strani preklop med sivimi vrstami NE pomeni nalaganja strani:
+   filmska stran ima podatke že v pomnilniku (~11 MB), zato se kliče `izberTip`
+   in se filtrira na mestu. Z drugih strani je to navadna povezava z `?tip=`.
+   ========================================================================== */
+
+const VEJA_AKTIVNA = 'filmi';
+
+// Vrstni red barvnih gumbov. Kar ni na seznamu, se doda na konec — nova veja
+// se torej pokaže tudi, če tega seznama nihče ne posodobi.
+const VEJE_VRSTNI_RED = ['filmi', 'serije', 'sport'];
+
+const VEJE_IMENA = { filmi: 'FILMI' };   // vrste.json to vejo pozna kot "Film"
+
+// Uradna imena kategorij iz EPG so za gumb predolga ("Dokumentarni program").
+// Povezava in filter uporabljata še vedno pravo ime; skrajšano je samo, kar
+// uporabnik prebere.
+const KRATKA_IMENA = {
+  'Dokumentarni program': 'Dokumentarci',
+  'Informativni program': 'Informativni',
+  'Razvedrilni program':  'Razvedrilni',
+  'Otroški/Mladinski':    'Otroški',
+};
+
+// Vrstni red sivih napisov je vrstni red načrta (dokumentarci so naslednja veja
+// na vrsti), ne pogostost v sporedu. Kar ni na seznamu, gre na konec.
+const VRSTE_VRSTNI_RED = ['Dokumentarni program', 'Otroški/Mladinski',
+                          'Informativni program', 'Razvedrilni program'];
+
+function _vnUbegni(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+/* vrste        — vsebina veje/vrste.json (polje "vrste")
+   aktivniTip   — samo filmska stran: katera vrsta je trenutno izbrana
+   filmskiTipi  — samo filmska stran: vrste, ki v podatkih res obstajajo      */
+function izrisiVejeNav(vrste, aktivniTip, filmskiTipi) {
+  const cilj = document.getElementById('veje-nav');
+  if (!cilj) return;
+  vrste = vrste || [];
+
+  // --- barvni gumbi: veje s svojo stranjo ---
+  const veje = [];
+  const videne = new Set();
+  vrste.forEach(v => {
+    const kljuc = v.veja || 'filmi';
+    if (videne.has(kljuc)) return;
+    // Filmsko vejo zastopa privzeta vrsta (Film); ostale vrste filmske strani
+    // niso veje, ampak filtri, in gredo med sive napise.
+    if (kljuc === 'filmi' && !v.privzeta) return;
+    videne.add(kljuc);
+    veje.push({ kljuc, ime: VEJE_IMENA[kljuc] || v.ime.toUpperCase(), stran: v.stran });
+  });
+  veje.sort((a, b) => {
+    const ia = VEJE_VRSTNI_RED.indexOf(a.kljuc), ib = VEJE_VRSTNI_RED.indexOf(b.kljuc);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+
+  // --- sivi napisi: vrste filmske strani brez privzete ---
+  let sive = vrste.filter(v => (v.veja || 'filmi') === 'filmi' && !v.privzeta)
+                  .map(v => v.ime);
+  // Filmska stran ve bolje od štetja v vrste.json, katere vrste po združevanju
+  // ponovitev sploh ostanejo; kadar ta seznam pošlje, ima prednost.
+  if (filmskiTipi) sive = sive.filter(t => filmskiTipi.includes(t));
+  sive.sort((a, b) => {
+    const ia = VRSTE_VRSTNI_RED.indexOf(a), ib = VRSTE_VRSTNI_RED.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+
+  const naStrani = VEJA_AKTIVNA === 'filmi';
+  cilj.innerHTML =
+    veje.map(v => {
+      const aktiven = v.kljuc === VEJA_AKTIVNA &&
+        !(naStrani && aktivniTip && sive.includes(aktivniTip));
+      return `<a class="vn vn-${v.kljuc}${aktiven ? ' aktiven' : ''}" href="${_vnUbegni(v.stran)}">${_vnUbegni(v.ime)}</a>`;
+    }).join('') +
+    (sive.length
+      ? `<span class="vn-locnica"></span><span class="vn-oznaka">v pripravi:</span>` +
+        sive.map(t => {
+          const aktiven = naStrani && t === aktivniTip ? ' aktiven' : '';
+          // Na filmski strani je to preklop na mestu (podatki so že naloženi),
+          // drugod navadna povezava. href ostane v obeh primerih — deluje tudi,
+          // če JavaScript odpove ali če uporabnik odpre v novem zavihku.
+          return `<a class="vn-vrsta${aktiven}" data-tip="${_vnUbegni(t)}"
+                     href="index.html?tip=${encodeURIComponent(t)}"
+                     title="${_vnUbegni(t)}">${_vnUbegni(KRATKA_IMENA[t] || t)}</a>`;
+        }).join('')
+      : '');
+
+  if (naStrani && typeof izberTip === 'function') {
+    cilj.querySelectorAll('.vn-vrsta').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        izberTip(a.dataset.tip);
+      });
+    });
+  }
+}
+
 const PODATKI = '';   // predpona do podatkovnih datotek (nastavi zgradi.py)
 const PX_NA_MIN = 100 / 60;
 const MESECI = ['jan','feb','mar','apr','maj','jun','jul','avg','sep','okt','nov','dec'];
@@ -505,6 +670,7 @@ async function init() {
       const rv = await fetch(PODATKI + 'veje/vrste.json');
       if (rv.ok) VRSTE = (await rv.json()).vrste || [];
     } catch(e) { VRSTE = []; }
+    osveziVejeNav();
 
     await naloziVseSporede();
 
@@ -817,45 +983,24 @@ function posodobiGlavoTip() {
   if (ft) ft.textContent = t;
   const inp = document.getElementById('iskanje-input');
   if (inp) inp.placeholder = `Išči med: ${t.toUpperCase()} — na sporedu in prihajajoči…`;
+  osveziVejeNav();
 }
 
-// Popup za izbor vrste TV vsebine (odpre se iz gumba v glavi)
-function odpriTipPopup() {
-  // Kategorije, ki imajo svojo vejo (Šport), se tu NE ponudijo kot filter —
-  // zanje obstaja povezava na dnu popupa. Sicer bi bili dve poti do istega.
+// Vrste, ki jih filmska stran res zna pokazati. Šteje se iz PODATKOV, ne iz
+// vrste.json: po združevanju ponovitev lahko kaka vrsta ostane brez oddaj.
+// Kategorije, ki imajo svojo vejo (Šport, Serije), so tu izločene — zanje
+// obstaja barvni gumb v izborniku vsebin.
+function filmskiTipiZaNav() {
+  if (typeof deduplicirani === 'undefined' || !deduplicirani) return null;
   const tujeKategorije = new Set(
     (VRSTE || []).filter(v => v.veja !== 'filmi').flatMap(v => v.kategorije || [v.ime])
   );
-  const tipi = [...new Set(deduplicirani.map(o => o.kategorija || 'Drugo').filter(Boolean))]
+  return [...new Set(deduplicirani.map(o => o.kategorija || 'Drugo').filter(Boolean))]
     .filter(t => !tujeKategorije.has(t));
-  const tipiSorted = ['Film', ...tipi.filter(t => t !== 'Film')].filter(t => tipi.includes(t));
-  const wrap = document.getElementById('tip-popup-gumbi');
-
-  // Vrste, ki jih pokaže ta stran — preklop je filtriranje na mestu.
-  let html = tipiSorted.map(t =>
-    `<button class="tip-popup-gumb ${t === aktivniTip ? 'active' : ''}" onclick="izberTipIzPopupa('${t.replace(/'/g, "\\'")}')">${t}</button>`
-  ).join('');
-
-  // Vrste, ki imajo svojo stran (npr. Šport) — preklop je navigacija.
-  // Seznam pride iz veje/vrste.json, da ga ni treba vzdrževati na dveh mestih.
-  const druge = (VRSTE || []).filter(v => v.veja !== 'filmi');
-  if (druge.length) {
-    html += druge.map(v =>
-      `<a class="tip-popup-gumb tip-popup-veja" href="${v.stran}">${v.ime}</a>`
-    ).join('');
-  }
-
-  wrap.innerHTML = html;
-  document.getElementById('tip-overlay').classList.add('active');
-  document.getElementById('tip-popup').classList.add('active');
 }
-function zapriTipPopup() {
-  document.getElementById('tip-overlay').classList.remove('active');
-  document.getElementById('tip-popup').classList.remove('active');
-}
-function izberTipIzPopupa(tip) {
-  izberTip(tip);
-  zapriTipPopup();
+
+function osveziVejeNav() {
+  izrisiVejeNav(VRSTE, aktivniTip, filmskiTipiZaNav());
 }
 
 // ===== POENOTEN FILTER (ocena + žanr) za oba oddelka: 'ta' (ta teden) in 'prih' (prihajajoči) =====
