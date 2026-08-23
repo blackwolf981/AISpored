@@ -285,9 +285,15 @@
   .se-zacetek:hover { border-color: #7a4fd0; transform: translateY(-2px); }
   .se-zacetek-plakat { width: 46px; height: 69px; object-fit: cover; border-radius: 4px; background: #1e2130; flex: 0 0 auto; }
   .se-zacetek-telo { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+  /* Oznaka v pasu ima ŠTIRI različice: dve vrsti × dve stanji. Barva pove oboje
+     naenkrat — kaj je (začetek serije proti novi sezoni) in ali je to že bilo
+     (topli odtenki) ali šele pride (hladni). Andrejeva zahteva 23.8.2026. */
   .se-zacetek-oznaka { font-size: 9px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
-                       color: #12101c; background: #c9aef5; border-radius: 3px; padding: 1px 5px; align-self: flex-start; }
-  .se-zacetek-oznaka.prva { background: #f5c518; }
+                       color: #12101c; border-radius: 3px; padding: 1px 5px; align-self: flex-start; }
+  .se-zacetek-oznaka.prva.bilo   { background: #f5c518; }   /* začetek serije, v arhivu */
+  .se-zacetek-oznaka.sezona.bilo { background: #e8892a; }   /* nova sezona, v arhivu */
+  .se-zacetek-oznaka.prva.pride  { background: #c9ccd6; }   /* začetek serije, šele pride */
+  .se-zacetek-oznaka.sezona.pride{ background: #6aa9f0; }   /* nova sezona, šele pride */
   .se-zacetek-naslov { font-size: 12px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .se-zacetek-sl { font-size: 10px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .se-zacetek-meta { font-size: 10px; color: #8f8aa6; margin-top: auto; }
@@ -297,8 +303,6 @@
      pride. Stojijo spredaj, ker najstarejša prva pade iz arhiva. */
   .se-zacetek.arhiv { background: #1a1712; border-color: #3a3020; }
   .se-zacetek.arhiv:hover { border-color: #d09a6a; }
-  .se-zacetek.arhiv .se-zacetek-oznaka { background: #d09a6a; }
-  .se-zacetek.arhiv .se-zacetek-oznaka.prva { background: #f5c518; }
   .se-zacetek-arh { color: #d09a6a; }
 
   /* ---- Filtri ---- */
@@ -919,7 +923,8 @@ function izrisiZacetke() {
       ${plakat ? `<img class="se-zacetek-plakat" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
                : '<div class="se-zacetek-plakat"></div>'}
       <div class="se-zacetek-telo">
-        <span class="se-zacetek-oznaka ${prva ? 'prva' : ''}">${prva ? 'Začetek serije' : 'Sezona ' + e.s}</span>
+        <span class="se-zacetek-oznaka ${prva ? 'prva' : 'sezona'} ${arhiv ? 'bilo' : 'pride'}">${
+          prva ? 'Začetek serije' : 'Nova sezona ' + e.s}</span>
         <div class="se-zacetek-naslov">${ubegni(s.naslov || '')}</div>
         ${s.naslov_sl ? `<div class="se-zacetek-sl">${ubegni(s.naslov_sl)}</div>` : ''}
         <div class="se-zacetek-meta">
@@ -1146,15 +1151,23 @@ function stran(korak) {
    "Začetek serije" (S01E01) prevlada nad "novo sezono" — kdor lahko začne čisto
    od začetka, ga sredina serije ne zanima. */
 function zacetekVOknu(sid) {
-  let najboljsi = null;
+  const n = zdaj();
+  let serija = false, sezona = null, sezonaTeza = -Infinity;
   (EPIZODE_SER[sid] || []).forEach(eid => {
     const e = EPIZODE[eid];
     if (!e.zacetek) return;
-    if (!(TERMINI_EP[eid] || []).length) return;
-    if (e.zacetek === 'serija') najboljsi = 'serija';
-    else if (!najboljsi) najboljsi = 'sezona';
+    const termini = TERMINI_EP[eid] || [];
+    if (!termini.length) return;
+    if (e.zacetek === 'serija') { serija = true; return; }
+    // Če ima serija več začetkov sezon, obvelja tisti, ki je časovno najbližje
+    // zdaj: najprej najbližji prihodnji, sicer najsvežejši pretekli.
+    const t = termini.find(x => x.kon >= n) || termini[termini.length - 1];
+    const teza = t.kon >= n ? 1e12 - t.zac : t.zac;
+    if (teza > sezonaTeza) { sezonaTeza = teza; sezona = e.s; }
   });
-  return najboljsi;
+  if (serija) return { vrsta: 'serija' };
+  if (sezona != null) return { vrsta: 'sezona', s: sezona };
+  return null;
 }
 
 function karticaHtml(sid) {
@@ -1163,8 +1176,8 @@ function karticaHtml(sid) {
   const ocena = s.imdb_ocena ? `<span class="se-kartica-ocena">★ ${ubegni(s.imdb_ocena)}</span>` : '';
   const zac = zacetekVOknu(sid);
   const znak = zac
-    ? `<span class="se-kartica-znak ${zac === 'serija' ? 'prva' : ''}">${
-        zac === 'serija' ? 'ZAČETEK SERIJE' : 'NOVA SEZONA'}</span>` : '';
+    ? `<span class="se-kartica-znak ${zac.vrsta === 'serija' ? 'prva' : ''}">${
+        zac.vrsta === 'serija' ? 'ZAČETEK SERIJE' : 'NOVA SEZONA ' + zac.s}</span>` : '';
   const sezone = (s.sezone || []);
   const sezOpis = sezone.length === 0 ? ''
     : sezone.length === 1 ? 'sezona ' + sezone[0]
@@ -1282,7 +1295,8 @@ function epizodaHtml(eid) {
   const e = EPIZODE[eid];
   const oznake = [];
   if (e.zacetek === 'serija') oznake.push('<span class="se-oznaka se-o-prva">začetek serije</span>');
-  else if (e.zacetek === 'sezona') oznake.push('<span class="se-oznaka se-o-zacetek">začetek sezone</span>');
+  else if (e.zacetek === 'sezona') oznake.push(
+    `<span class="se-oznaka se-o-zacetek">nova sezona ${e.s}</span>`);
   // `sporno` pomeni, da si EPG pri tej epizodi sam nasprotuje (dva naslova za
   // isto številko). Skrivati tega ne kaže — gledalec naj ve, da je vir zmeden.
   if (e.sporno) oznake.push('<span class="se-oznaka se-o-sporno">vir ni enoten</span>');
