@@ -345,6 +345,8 @@
                       font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
   .se-kartica-znak { position: absolute; top: 6px; right: 6px; background: #7a4fd0; color: #fff;
                      font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 20px; letter-spacing: 0.3px; }
+  /* Začetek serije je zlat, ker je redkejši in vrednejši od nove sezone. */
+  .se-kartica-znak.prva { background: #f5c518; color: #1a1500; }
   .se-kartica-body { padding: 8px 9px 10px; }
   .se-kartica-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .se-kartica-sl { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -873,14 +875,20 @@ function zacetkiZaPas() {
     if (zadnji) arhiv.push({ eid, e, t: zadnji, vrsta: 'arhiv' });
   });
 
-  // Arhivske gredo naprej, NAJSVEŽEJŠA spredaj. Nasprotno od intuicije "najprej
-  // tisto, kar bo najprej izginilo": ker arhiv vsakega ponudnika traja drugače,
-  // je pri najstarejših najmanj verjetno, da so še na voljo — obljubljali bi
-  // nekaj, česar ni. Najsvežejša epizoda je tista, ki jo gledalec skoraj gotovo
-  // še ujame. Za njimi prihodnje, kronološko.
-  arhiv.sort((a, b) => b.t.zac - a.t.zac);
+  // Vrstni red in omejitve:
+  //   1. ZAČETKI SERIJ iz arhiva (S01E01) — VSI, brez omejitve. To je edina
+  //      stvar, ki gledalcu omogoči, da serijo začne od prve epizode; če pade
+  //      izven pasu, je pas zgrešil svoj namen. (Andrej, 23.8.2026: Taboo je
+  //      imel S01E01 pred petimi dnevi, a ga je omejitev odrezala.)
+  //   2. začetki sezon iz arhiva — omejeni, najsvežejši spredaj (pri najstarejših
+  //      je najmanj verjetno, da so še v arhivu ponudnika)
+  //   3. prihodnje, kronološko
+  const poCasu = (a, b) => b.t.zac - a.t.zac;
+  const arhivSerij = arhiv.filter(x => x.e.zacetek === 'serija').sort(poCasu);
+  const arhivSezon = arhiv.filter(x => x.e.zacetek !== 'serija').sort(poCasu)
+                          .slice(0, ZACETKOV_ARHIV);
   prihaja.sort((a, b) => a.t.zac - b.t.zac);
-  return arhiv.slice(0, ZACETKOV_ARHIV).concat(prihaja.slice(0, ZACETKOV));
+  return arhivSerij.concat(arhivSezon, prihaja.slice(0, ZACETKOV));
 }
 
 function izrisiZacetke() {
@@ -911,7 +919,7 @@ function izrisiZacetke() {
       ${plakat ? `<img class="se-zacetek-plakat" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
                : '<div class="se-zacetek-plakat"></div>'}
       <div class="se-zacetek-telo">
-        <span class="se-zacetek-oznaka ${prva ? 'prva' : ''}">${prva ? 'Prva epizoda' : 'Sezona ' + e.s}</span>
+        <span class="se-zacetek-oznaka ${prva ? 'prva' : ''}">${prva ? 'Začetek serije' : 'Sezona ' + e.s}</span>
         <div class="se-zacetek-naslov">${ubegni(s.naslov || '')}</div>
         ${s.naslov_sl ? `<div class="se-zacetek-sl">${ubegni(s.naslov_sl)}</div>` : ''}
         <div class="se-zacetek-meta">
@@ -1128,16 +1136,23 @@ function stran(korak) {
   window.scrollTo({ top: document.querySelector('.main').offsetTop - 10, behavior: 'smooth' });
 }
 
-/* Ali serija v prihodnje ponuja začetek sezone ali serije — to je edina oznaka
-   na kartici, ker je za gledalca najbolj uporabna informacija. */
-function zacetekVPrihodnje(sid) {
-  const n = zdaj();
+/* Ali serija v oknu ponuja začetek sezone ali serije — edina oznaka na kartici,
+   ker je za gledalca najbolj uporabna informacija.
+
+   Šteje CELO okno, ne le prihodnjih terminov: prva epizoda, ki je bila pred
+   petimi dnevi, je še vedno v arhivu in gledalec lahko z njo začne. Prej je
+   ta funkcija gledala samo naprej in serije kot Taboo so ostale brez oznake.
+
+   "Začetek serije" (S01E01) prevlada nad "novo sezono" — kdor lahko začne čisto
+   od začetka, ga sredina serije ne zanima. */
+function zacetekVOknu(sid) {
   let najboljsi = null;
   (EPIZODE_SER[sid] || []).forEach(eid => {
     const e = EPIZODE[eid];
     if (!e.zacetek) return;
-    if (!(TERMINI_EP[eid] || []).some(t => t.kon >= n)) return;
-    if (e.zacetek === 'serija' || !najboljsi) najboljsi = e.zacetek;
+    if (!(TERMINI_EP[eid] || []).length) return;
+    if (e.zacetek === 'serija') najboljsi = 'serija';
+    else if (!najboljsi) najboljsi = 'sezona';
   });
   return najboljsi;
 }
@@ -1146,9 +1161,10 @@ function karticaHtml(sid) {
   const s = SERIJE[sid];
   const plakat = s.poster_tmdb || s.slika || '';
   const ocena = s.imdb_ocena ? `<span class="se-kartica-ocena">★ ${ubegni(s.imdb_ocena)}</span>` : '';
-  const zac = zacetekVPrihodnje(sid);
+  const zac = zacetekVOknu(sid);
   const znak = zac
-    ? `<span class="se-kartica-znak">${zac === 'serija' ? 'OD ZAČETKA' : 'NOVA SEZONA'}</span>` : '';
+    ? `<span class="se-kartica-znak ${zac === 'serija' ? 'prva' : ''}">${
+        zac === 'serija' ? 'ZAČETEK SERIJE' : 'NOVA SEZONA'}</span>` : '';
   const sezone = (s.sezone || []);
   const sezOpis = sezone.length === 0 ? ''
     : sezone.length === 1 ? 'sezona ' + sezone[0]
