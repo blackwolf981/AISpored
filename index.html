@@ -102,14 +102,30 @@
   .rezultati-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
   .kartica { background: #13161f; border: 1px solid #1e2130; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.15s; }
   .kartica:hover { border-color: #3a4a6a; }
-  .kartica-slika { width: 100%; height: 110px; object-fit: cover; display: block; }
-  .kartica-placeholder { width: 100%; height: 60px; background: #1e2130; }
+  /* Plakat 2:3 v celoti, kot pri serijah (prenova 23.8.2026). Filmi brez TMDb
+     plakata padejo na lezeco NEO sliko — ta se v okvirju 2:3 obreze. */
+  /* Razmerje drzi OVOJ, ne slika — ce se plakat ne nalozi (onerror ga skrije),
+     kartica ohrani obliko in znacki z ocenama ne padeta cez besedilo. */
+  .kartica-slika-ovoj { position: relative; aspect-ratio: 2/3; background: #1e2130; }
+  .kartica-slika { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .kartica-placeholder { width: 100%; height: 100%; background: #1e2130; }
+  /* Oceni lezita na plakatu: IMDb levo zgoraj, RT desno zgoraj. */
+  .kartica-ocena-imdb { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.78); color: #f5c518; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; z-index: 2; }
+  .kartica-ocena-rt { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,0.78); color: #ff6347; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; z-index: 2; }
+  /* V iskalniku znacka PRIHAJA zasede desni zgornji kot — RT se umakne pod njo. */
+  .isk-prihaja-badge ~ .kartica-ocena-rt { top: 28px; }
   .kartica-body { padding: 10px; }
   .kartica-meta { font-size: 10px; color: #9a9dae; margin-bottom: 4px; text-transform: capitalize; }
   .kartica-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 2px; }
   .kartica-orig { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .kartica-info { font-size: 11px; color: #9a9dae; margin-top: 4px; }
-  .kartica-termini { font-size: 10px; color: #e8702a; margin-top: 4px; }
+  .kartica-oseba { font-size: 10px; color: #7d8092; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .kartica-termini { font-size: 10px; color: #e8702a; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  /* Plakat 2:3 naredi kartico visoko — na ozkih zaslonih vrnemo dva stolpca. */
+  @media (max-width: 620px) {
+    .rezultati-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+  }
 
   .timeline-container { overflow-x: auto; position: relative; }
   .timeline-header { display: flex; margin-left: 110px; margin-bottom: 6px; min-width: max-content; }
@@ -183,7 +199,16 @@
   .top9-kartica:hover { border-color: #e8702a; transform: translateY(-2px); }
   .top9-slika { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: #1e2130; }
   .top9-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); color: #f5c518; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
-  .top9-naslov-k { font-size: 11px; font-weight: 600; color: #fff; padding: 6px 7px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .top9-badge-rt { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,0.75); color: #ff6347; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
+  /* V pasu prihajajocih desni zgornji kot zaseda znacka PRIHAJA — RT gre pod njo. */
+  .prih-kartica .top9-badge-rt { top: 28px; }
+  .top9-body { padding: 6px 7px 8px; }
+  .top9-naslov-k { font-size: 11px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .top9-orig { font-size: 10px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .top9-leto { font-size: 10px; color: #9a9dae; margin-top: 2px; }
+  /* Rezijer + 2 igralca v ozkem pasu. Ce bo pretrpano: odstrani klic
+     ekipaPasHtml() v skripti, ta pravila lahko ostanejo. */
+  .top9-oseba { font-size: 9px; color: #6f7284; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
   /* ===== Gumb "Prikaži vse filme" + placeholder ===== */
   .prikazi-vse-btn { padding: 8px 20px; border-radius: 22px; border: 1px solid #e8702a; background: #e8702a; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
@@ -598,6 +623,84 @@ function formatDatum(d) {
 // Danasnji datum kot YYYY-MM-DD. Racuna se sproti -> ob polnoci se meja "ta teden"
 // vs "prihajajoci" samodejno premakne (ce stran ostane odprta cez polnoc).
 function DANES() { return formatDatum(new Date()); }
+
+// =====================
+// POMOZNE FUNKCIJE ZA KARTICE  (vizualna prenova 23.8.2026)
+// =====================
+
+function ubegniHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// Termin v obliki "Cinestar 2 sob 23.08. ob 20:30".
+// Kanal se izpise tako, kot je zapisan v podatkih (brez transformacije).
+function formatirajTermin(t) {
+  if (!t || !t.datum) return '';
+  const d = new Date(`${t.datum}T00:00:00`);
+  if (isNaN(d.getTime())) return '';
+  const dan = DNEVI_KRATKO[d.getDay()].toLowerCase();
+  const dat = `${String(d.getDate()).padStart(2, '0')}.${String(d.getMonth() + 1).padStart(2, '0')}.`;
+  const ura = t.cas ? ` ob ${t.cas}` : '';
+  return `${t.kanal || ''} ${dan} ${dat}${ura}`.trim();
+}
+
+// Najbolj svez ze odigran termin — zacetek <= zdaj. Null, ce ga ni.
+function zadnjiOdigranTermin(o) {
+  const zdaj = new Date();
+  let best = null, bestDt = null;
+  (o._termini || []).forEach(t => {
+    if (!t.datum) return;
+    const dt = new Date(`${t.datum}T${(t.cas || '00:00')}:00`);
+    if (isNaN(dt.getTime()) || dt > zdaj) return;
+    if (!bestDt || dt > bestDt) { bestDt = dt; best = t; }
+  });
+  return best;
+}
+
+// Prvi termin v prihodnjih dneh (datum > danes) — isto merilo kot
+// prvaPrihodnjaO(), da se besedilo termina in odstevanje vedno ujemata.
+function prviPrihodnjiTermin(o) {
+  const ds = DANES();
+  let best = null, bestDt = null;
+  (o._termini || []).forEach(t => {
+    if (!t.datum || t.datum <= ds) return;
+    const dt = new Date(`${t.datum}T${(t.cas || '00:00')}:00`);
+    if (isNaN(dt.getTime())) return;
+    if (!bestDt || dt < bestDt) { bestDt = dt; best = t; }
+  });
+  return best;
+}
+
+// Znacki z ocenama, ki lezita NA plakatu: IMDb levo zgoraj, RT desno zgoraj.
+function oceneNaSlikiHtml(b) {
+  if (!b) return '';
+  let h = '';
+  if (b.imdb_ocena) h += `<div class="kartica-ocena-imdb">&#9733; ${ubegniHtml(b.imdb_ocena)}</div>`;
+  if (b.rt_ocena) h += `<div class="kartica-ocena-rt">&#127813; ${ubegniHtml(b.rt_ocena)}</div>`;
+  return h;
+}
+
+// Rezijer + do 2 glavna igralca (TMDb ima prednost, OMDb je rezerva).
+// Vrne prazen niz, ce podatka ni — kartica se takrat samo skrajsa.
+function ekipaVrstice(b, razred) {
+  if (!b) return '';
+  const rez = b.reziser_tmdb || b.reziser || '';
+  const igrVsi = (b.igralci_tmdb && b.igralci_tmdb.length) ? b.igralci_tmdb : (b.igralci || []);
+  const igr = (igrVsi || []).slice(0, 2);
+  let h = '';
+  if (rez) h += `<div class="${razred}">r. ${ubegniHtml(rez)}</div>`;
+  if (igr.length) h += `<div class="${razred}">${igr.map(ubegniHtml).join(', ')}</div>`;
+  return h;
+}
+
+// Za velike kartice v mrezah.
+function ekipaHtml(b) { return ekipaVrstice(b, 'kartica-oseba'); }
+
+// Za ozke kartice v pasovih TOP 15. Ce se v praksi izkaze za pretrpano,
+// zadosca, da se v izberiTop9() in izrisiPrihBand() odstrani klic te funkcije.
+function ekipaPasHtml(b) { return ekipaVrstice(b, 'top9-oseba'); }
 
 function zanrClass(kategorija, zanri) {
   const kat = (kategorija || '').toLowerCase();
@@ -1152,19 +1255,22 @@ function ujemaIskalnik(o, query) {
 function karticeHtml(o, idx) {
   const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
   const zanrTxt = o.zanr && o.zanr.length > 0 ? o.zanr[0] : (o.kategorija || '');
-  const stTerminov = o._termini ? o._termini.length : 0;
-  const terminTxt = stTerminov === 1 ? '1 termin' : `${stTerminov} termini`;
   // Slika — prioriteta: TMDb poster, potem slika iz sporeda (NEO)
   const slikaKartica = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
+  // Prikazemo najbolj svez termin, ki je ze bil (od trenutka nazaj).
+  const termin = formatirajTermin(zadnjiOdigranTermin(o));
   return `<div class="kartica" onclick="odpriPopupDedup(${idx})">
-    ${slikaKartica ? `<img src="${slikaKartica}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    <div class="kartica-slika-ovoj">
+      ${slikaKartica ? `<img src="${slikaKartica}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+      ${oceneNaSlikiHtml(b)}
+    </div>
     <div class="kartica-body">
       <div class="kartica-meta">${zanrTxt}</div>
       <div class="kartica-naslov">${o.naslov_sl}</div>
       ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="kartica-orig">${o.naslov_orig}</div>` : ''}
       ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
-      ${(() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h ? `<div style="margin-top:2px;">${h}</div>` : ''; })()}
-      <div class="kartica-termini">${terminTxt} na sporedu</div>
+      ${ekipaHtml(b)}
+      ${termin ? `<div class="kartica-termini">${ubegniHtml(termin)}</div>` : ''}
     </div>
   </div>`;
 }
@@ -1177,20 +1283,22 @@ function iskanjeKarticaHtml(o, idx) {
   const prih = imaPrihodnjiTermin(o);
   const dt = prih ? prvaPrihodnjaO(o) : null;
   const ts = dt ? dt.getTime() : 0;
-  const stTerminov = o._termini ? o._termini.length : 0;
-  const oceneHtml = (() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h; })();
+  // Prihajajoci: prvi prihodnji termin + odstevanje. Sicer zadnji odigran termin.
+  const termin = formatirajTermin(prih ? prviPrihodnjiTermin(o) : zadnjiOdigranTermin(o));
   return `<div class="kartica" onclick="odpriPopupDedup(${idx})" style="position:relative">
-    ${prih ? `<span class="isk-prihaja-badge">PRIHAJA</span>` : ''}
-    ${slika ? `<img src="${slika}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    <div class="kartica-slika-ovoj">
+      ${prih ? `<span class="isk-prihaja-badge">PRIHAJA</span>` : ''}
+      ${slika ? `<img src="${slika}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+      ${oceneNaSlikiHtml(b)}
+    </div>
     <div class="kartica-body">
       <div class="kartica-meta">${zanrTxt}</div>
       <div class="kartica-naslov">${o.naslov_sl}</div>
       ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="kartica-orig">${o.naslov_orig}</div>` : ''}
       ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
-      ${oceneHtml ? `<div style="margin-top:2px;">${oceneHtml}</div>` : ''}
-      ${prih
-        ? `<div class="kartica-termini prih-countdown-inline js-countdown" data-ts="${ts}">—</div>`
-        : `<div class="kartica-termini">${stTerminov === 1 ? '1 termin' : stTerminov + ' termini'} na sporedu</div>`}
+      ${ekipaHtml(b)}
+      ${termin ? `<div class="kartica-termini">${ubegniHtml(termin)}</div>` : ''}
+      ${prih ? `<div class="kartica-termini prih-countdown-inline js-countdown" data-ts="${ts}">—</div>` : ''}
     </div>
   </div>`;
 }
@@ -1217,12 +1325,21 @@ function izberiTop9() {
 
   if (kandidati.length === 0) { grid.innerHTML = '<div style="grid-column:1/-1;color:#444;font-size:12px;">Ni ocenjenih filmov v izbranem obdobju.</div>'; return; }
 
-  grid.innerHTML = kandidati.map((x, i) => `
-    <div class="top9-kartica" onclick="odpriTop9(${i})">
-      ${x.poster ? `<img src="${x.poster}" class="top9-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="top9-slika"></div>`}
+  grid.innerHTML = kandidati.map((x, i) => {
+    const o = x.o;
+    const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
+    return `<div class="top9-kartica" onclick="odpriTop9(${i})">
+      ${x.poster ? `<img src="${x.poster}" class="top9-slika" loading="lazy" onerror="this.style.visibility='hidden'">` : `<div class="top9-slika"></div>`}
       <div class="top9-badge">&#9733; ${x.ocena.toFixed(1)}</div>
-      <div class="top9-naslov-k">${x.o.naslov_sl}</div>
-    </div>`).join('');
+      ${b && b.rt_ocena ? `<div class="top9-badge-rt">&#127813; ${ubegniHtml(b.rt_ocena)}</div>` : ''}
+      <div class="top9-body">
+        <div class="top9-naslov-k">${o.naslov_sl}</div>
+        ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="top9-orig">${o.naslov_orig}</div>` : ''}
+        ${o.leto ? `<div class="top9-leto">${o.leto}</div>` : ''}
+        ${ekipaPasHtml(b)}
+      </div>
+    </div>`;
+  }).join('');
 }
 
 function odpriTop9(i) {
@@ -1422,10 +1539,16 @@ function izrisiPrihBand() {
     const dt = prvaPrihodnjaO(o);
     const ts = dt ? dt.getTime() : 0;
     return `<div class="top9-kartica prih-kartica" onclick="odpriPrihBandPopup(${i})">
-      ${poster ? `<img src="${poster}" class="top9-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="top9-slika"></div>`}
+      ${poster ? `<img src="${poster}" class="top9-slika" loading="lazy" onerror="this.style.visibility='hidden'">` : `<div class="top9-slika"></div>`}
       <div class="top9-badge">&#9733; ${x.ocena.toFixed(1)}</div>
       <div class="prih-badge-prihaja">PRIHAJA</div>
-      <div class="top9-naslov-k">${o.naslov_sl}</div>
+      ${b && b.rt_ocena ? `<div class="top9-badge-rt">&#127813; ${ubegniHtml(b.rt_ocena)}</div>` : ''}
+      <div class="top9-body">
+        <div class="top9-naslov-k">${o.naslov_sl}</div>
+        ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="top9-orig">${o.naslov_orig}</div>` : ''}
+        ${o.leto ? `<div class="top9-leto">${o.leto}</div>` : ''}
+        ${ekipaPasHtml(b)}
+      </div>
       <div class="prih-countdown js-countdown" data-ts="${ts}">—</div>
     </div>`;
   }).join('');
@@ -1476,15 +1599,20 @@ function prihKarticaHtml(o, idx) {
   const slika = (b && b.poster_tmdb) ? b.poster_tmdb : o.slika;
   const dt = prvaPrihodnjaO(o);
   const ts = dt ? dt.getTime() : 0;
-  const oceneHtml = (() => { if (!b) return ''; let h = ''; if (b.imdb_ocena) h += `<span style="font-size:10px;color:#f5c518;">&#9733; ${b.imdb_ocena}</span>`; if (b.rt_ocena) h += `<span style="font-size:10px;color:#fa320a;margin-left:6px;">🍅 ${b.rt_ocena}</span>`; return h; })();
+  // Tu preteklih terminov ni — pokazemo prvi prihodnji termin in pod njim odstevanje.
+  const termin = formatirajTermin(prviPrihodnjiTermin(o));
   return `<div class="kartica" onclick="odpriPrihGridPopup(${idx})">
-    ${slika ? `<img src="${slika}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+    <div class="kartica-slika-ovoj">
+      ${slika ? `<img src="${slika}" class="kartica-slika" loading="lazy" onerror="this.style.display='none'">` : `<div class="kartica-placeholder"></div>`}
+      ${oceneNaSlikiHtml(b)}
+    </div>
     <div class="kartica-body">
       <div class="kartica-meta">${zanrTxt}</div>
       <div class="kartica-naslov">${o.naslov_sl}</div>
       ${o.naslov_orig && o.naslov_orig !== o.naslov_sl ? `<div class="kartica-orig">${o.naslov_orig}</div>` : ''}
       ${o.leto ? `<div class="kartica-info">${o.leto}${o.starostna_omejitev ? ' · ' + o.starostna_omejitev : ''}</div>` : ''}
-      ${oceneHtml ? `<div style="margin-top:2px;">${oceneHtml}</div>` : ''}
+      ${ekipaHtml(b)}
+      ${termin ? `<div class="kartica-termini">${ubegniHtml(termin)}</div>` : ''}
       <div class="kartica-termini prih-countdown-inline js-countdown" data-ts="${ts}">—</div>
     </div>
   </div>`;
