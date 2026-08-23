@@ -199,7 +199,9 @@
   .pas-vrsta { display: flex; gap: 12px; overflow-x: auto; overflow-y: hidden;
                padding-bottom: 8px; scroll-snap-type: x proximity;
                scrollbar-color: #3a4a6a #13161f; }
-  .pas-vrsta .kartica { flex: 0 0 200px; scroll-snap-align: start; }
+  /* `> *` in ne `.kartica`, ker isto ogrodje uporablja tudi serijski pas
+     "Začni gledati" s svojo kartico `.se-kartica`. */
+  .pas-vrsta > * { flex: 0 0 200px; scroll-snap-align: start; }
   .pas-vrsta::-webkit-scrollbar { height: 8px; }
   .pas-vrsta::-webkit-scrollbar-track { background: #0f121c; border-radius: 4px; }
   .pas-vrsta::-webkit-scrollbar-thumb { background: #2a3450; border-radius: 4px; }
@@ -207,7 +209,7 @@
   /* Na telefonu dve celi kartici v pogledu, tretja pokuka izza roba in s tem
      pove, da se pas drsi (pri 44vw sta se dve iztekli natanko na rob in namiga
      ni bilo). */
-  @media (max-width: 620px) { .pas-vrsta .kartica { flex: 0 0 38vw; } }
+  @media (max-width: 620px) { .pas-vrsta > * { flex: 0 0 38vw; } }
 
   /* Puscici ob pasu — na namizju, kjer drsenje s prstom ne obstaja. Skrijeta se,
      ce ni kaj drsati, in posamicno, ko si na koncu pasu. */
@@ -328,24 +330,26 @@
   .se-sekcija-naslov { font-size: 15px; font-weight: 700; color: #c9aef5; margin-bottom: 10px; }
   .se-sekcija-podnaslov { font-size: 11px; font-weight: 400; color: #6f6a86; margin-left: 8px; }
 
-  .se-zacetki-vrsta { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; }
-  .se-zacetek { flex: 0 0 210px; display: flex; gap: 9px; background: #171425; border: 1px solid #2a2340;
-                border-radius: 8px; padding: 8px; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
-  .se-zacetek:hover { border-color: #7a4fd0; transform: translateY(-2px); }
-  .se-zacetek-plakat { width: 46px; height: 69px; object-fit: cover; border-radius: 4px; background: #1e2130; flex: 0 0 auto; }
-  .se-zacetek-telo { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+  /* 23.8.2026: pas uporablja ISTO kartico kot mreža (`.se-kartica`) in skupno
+     ogrodje `.pas-vrsta` / `.pas-ovoj` iz `deli/_stil.css` (širina kartice,
+     drsenje, puščici). Tu ostanejo samo razlike, ki jih ima pas in mreža ne. */
+  .se-zacetek-telo { padding: 8px 9px 10px; min-width: 0; }
   /* Oznaka v pasu ima ŠTIRI različice: dve vrsti × dve stanji. Barva pove oboje
      naenkrat — kaj je (začetek serije proti novi sezoni) in ali je to že bilo
-     (topli odtenki) ali šele pride (hladni). Andrejeva zahteva 23.8.2026. */
-  .se-zacetek-oznaka { font-size: 9px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
-                       color: #12101c; border-radius: 3px; padding: 1px 5px; align-self: flex-start; }
+     (topli odtenki) ali šele pride (hladni). Andrejeva zahteva 23.8.2026.
+     Leži na plakatu desno zgoraj, IMDb ocena pa levo — kot pri filmih. */
+  .se-zacetek-oznaka { position: absolute; top: 6px; right: 6px; z-index: 2;
+                       max-width: calc(100% - 62px); overflow: hidden;
+                       text-overflow: ellipsis; white-space: nowrap;
+                       font-size: 9px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
+                       color: #12101c; border-radius: 20px; padding: 2px 6px; }
   .se-zacetek-oznaka.prva.bilo   { background: #f5c518; }   /* začetek serije, v arhivu */
   .se-zacetek-oznaka.sezona.bilo { background: #e8892a; }   /* nova sezona, v arhivu */
   .se-zacetek-oznaka.prva.pride  { background: #c9ccd6; }   /* začetek serije, šele pride */
   .se-zacetek-oznaka.sezona.pride{ background: #6aa9f0; }   /* nova sezona, šele pride */
-  .se-zacetek-naslov { font-size: 12px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .se-zacetek-sl { font-size: 10px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .se-zacetek-meta { font-size: 10px; color: #8f8aa6; margin-top: auto; }
+  .se-zacetek-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .se-zacetek-sl { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .se-zacetek-meta { font-size: 10px; color: #8f8aa6; margin-top: 4px; }
   .se-zacetek-cd { color: #c9aef5; }
 
   /* Arhivske kartice: jantarno, da se na prvi pogled ločijo od tega, kar šele
@@ -353,6 +357,8 @@
   .se-zacetek.arhiv { background: #1a1712; border-color: #3a3020; }
   .se-zacetek.arhiv:hover { border-color: #d09a6a; }
   .se-zacetek-arh { color: #d09a6a; }
+  /* Puščici prevzameta vijolično barvo veje. */
+  .se-sekcija-zacetki .pas-pusc:hover { border-color: #7a4fd0; }
 
   /* ---- Filtri ---- */
   .se-filtri { padding: 12px 1.5rem; border-bottom: 1px solid #1e2130; display: flex; flex-direction: column; gap: 8px; }
@@ -453,7 +459,11 @@
   @media (max-width: 620px) {
     #se-mreza { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
     .se-filtri, .se-sekcija { padding-left: 1rem; padding-right: 1rem; }
-    .se-zacetek { flex: 0 0 190px; }
+    /* Širino kartice v pasu nastavlja skupno pravilo `.pas-vrsta > *` v
+       deli/_stil.css (38vw) — tu je ni več treba.
+       Ob IMDb znački zmanjka prostora za "ZAČETEK SERIJE" in se odreže, zato
+       gre oznaka v drugo vrsto na plakatu, poravnana levo. */
+    .se-zacetek-oznaka { top: 30px; left: 6px; right: auto; max-width: calc(100% - 12px); }
     .se-popup { width: 96vw; padding: 1rem; }
     .se-popup-plakat { width: 78px; }
     .se-epizoda { padding-left: 12px; }
@@ -486,7 +496,11 @@
   <div class="se-sekcija-naslov">▶ Začni gledati
     <span class="se-sekcija-podnaslov">prve epizode sezon in serij — kaj je bilo v zadnjih dneh in kaj šele pride</span>
   </div>
-  <div class="se-zacetki-vrsta" id="zacetki-vrsta"></div>
+  <div class="pas-ovoj">
+    <button class="pas-pusc pas-pusc-l" type="button" aria-label="Prejšnje serije" onclick="pasDrsi('zacetki-vrsta', -1)">&lsaquo;</button>
+    <div class="se-zacetki-vrsta pas-vrsta" id="zacetki-vrsta"></div>
+    <button class="pas-pusc pas-pusc-d" type="button" aria-label="Naslednje serije" onclick="pasDrsi('zacetki-vrsta', 1)">&rsaquo;</button>
+  </div>
 </div>
 
 <!-- ===== Iskanje in filtri ===== -->
@@ -673,6 +687,53 @@ function izrisiVejeNav(vrste, aktivniTip, filmskiTipi) {
   }
 }
 
+
+/* =============================================================================
+   VODORAVNI PASOVI KARTIC — skupen del (23.8.2026)
+   =============================================================================
+   Filmska in serijska stran imata pas kartic, ki drsi vstran (TOP 15, Zacni
+   gledati). Puscici sta ista v obeh, zato zivita tu in ne dvakrat v vejah —
+   iz istega razloga kot izbornik vsebin zgoraj.
+
+   Pas mora biti element z razredom `pas-vrsta`, ovit v `.pas-ovoj` skupaj s
+   `.pas-pusc-l` in `.pas-pusc-d`. CSS je v `deli/_stil.css`.
+   ========================================================================== */
+
+// Klik na puscico podrsa za priblizno en pogled kartic.
+function pasDrsi(idPasu, smer) {
+  const el = document.getElementById(idPasu);
+  if (!el) return;
+  const korak = Math.max(212, Math.round(el.clientWidth * 0.8));
+  el.scrollBy({ left: smer * korak, behavior: 'smooth' });
+}
+
+// Puscici se skrijeta, ce ni kaj drsati, in posamicno na koncih pasu.
+function osveziPuscice(idPasu) {
+  const el = document.getElementById(idPasu);
+  if (!el) return;
+  const ovoj = el.parentElement;
+  if (!ovoj || !ovoj.classList.contains('pas-ovoj')) return;
+  const levo = ovoj.querySelector('.pas-pusc-l');
+  const desno = ovoj.querySelector('.pas-pusc-d');
+  const lahkoDrsi = el.scrollWidth > el.clientWidth + 4;
+  ovoj.classList.toggle('brez-puscic', !lahkoDrsi);
+  if (levo) levo.disabled = el.scrollLeft <= 2;
+  if (desno) desno.disabled = el.scrollLeft >= el.scrollWidth - el.clientWidth - 2;
+}
+
+// Poslusalca se pripneta samo enkrat na pas (dataset zastavica), izris pasu pa
+// se lahko ponovi ob vsakem filtru.
+function pripraviPas(idPasu) {
+  const el = document.getElementById(idPasu);
+  if (!el) return;
+  if (!el.dataset.pasPripravljen) {
+    el.dataset.pasPripravljen = '1';
+    el.addEventListener('scroll', () => osveziPuscice(idPasu), { passive: true });
+    window.addEventListener('resize', () => osveziPuscice(idPasu));
+  }
+  osveziPuscice(idPasu);
+}
+
 /* =============================================================================
    SERIJSKA VEJA — serije.html
    =============================================================================
@@ -771,12 +832,13 @@ function odstevanje(sekund) {
 }
 
 /* Plakat s TMDb lahko izgine (serija se preimenuje, slika umakne). Prazen
-   okvir v mreži je videti kot okvara strani, zato ga zamenja nadomestek. */
+   okvir v mreži je videti kot okvara strani, zato ga zamenja nadomestek.
+   Od 23.8.2026 imata mreža in pas isto kartico, zato je nadomestek en sam. */
 function slikaNiUspela(img) {
   img.onerror = null;
   const nadomestek = document.createElement('div');
-  nadomestek.className = img.classList.contains('se-kartica-slika') ? 'se-kartica-brez' : 'se-zacetek-plakat';
-  if (nadomestek.className === 'se-kartica-brez') nadomestek.textContent = '📺';
+  nadomestek.className = 'se-kartica-brez';
+  nadomestek.textContent = '📺';
   img.replaceWith(nadomestek);
 }
 
@@ -968,12 +1030,17 @@ function izrisiZacetke() {
       ? (starost === 'danes' || starost === 'včeraj' ? ''
          : `<span class="se-zacetek-arh">${starost}</span>`)
       : `<span class="se-zacetek-cd">${odstevanje(Math.max(0, t.zac - n))}</span>`;
-    return `<div class="se-zacetek${arhiv ? ' arhiv' : ''}" onclick="odpriPopup('${e.serija}', ${e.s})">
-      ${plakat ? `<img class="se-zacetek-plakat" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
-               : '<div class="se-zacetek-plakat"></div>'}
+    // 23.8.2026: pas ima ISTO kartico kot mreža (`se-kartica`) — velik plakat 2:3,
+    // IMDb levo zgoraj, oznaka desno zgoraj. Razred `se-zacetek` ostane kot oprijem
+    // za arhivsko barvanje in za teste; postavitev pride iz `.se-kartica`.
+    const ocena = s.imdb_ocena ? `<span class="se-kartica-ocena">★ ${ubegni(s.imdb_ocena)}</span>` : '';
+    return `<div class="se-kartica se-zacetek${arhiv ? ' arhiv' : ''}" onclick="odpriPopup('${e.serija}', ${e.s})">
+      ${plakat ? `<img class="se-kartica-slika" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
+               : '<div class="se-kartica-brez">📺</div>'}
+      ${ocena}
+      <span class="se-zacetek-oznaka ${prva ? 'prva' : 'sezona'} ${arhiv ? 'bilo' : 'pride'}">${
+        prva ? 'Začetek serije' : 'Nova sezona ' + e.s}</span>
       <div class="se-zacetek-telo">
-        <span class="se-zacetek-oznaka ${prva ? 'prva' : 'sezona'} ${arhiv ? 'bilo' : 'pride'}">${
-          prva ? 'Začetek serije' : 'Nova sezona ' + e.s}</span>
         <div class="se-zacetek-naslov">${ubegni(s.naslov || '')}</div>
         ${s.naslov_sl ? `<div class="se-zacetek-sl">${ubegni(s.naslov_sl)}</div>` : ''}
         <div class="se-zacetek-meta">
@@ -983,6 +1050,8 @@ function izrisiZacetke() {
       </div>
     </div>`;
   }).join('');
+
+  pripraviPas('zacetki-vrsta');
 }
 
 // -----------------------------------------------------------------------------

@@ -199,7 +199,9 @@
   .pas-vrsta { display: flex; gap: 12px; overflow-x: auto; overflow-y: hidden;
                padding-bottom: 8px; scroll-snap-type: x proximity;
                scrollbar-color: #3a4a6a #13161f; }
-  .pas-vrsta .kartica { flex: 0 0 200px; scroll-snap-align: start; }
+  /* `> *` in ne `.kartica`, ker isto ogrodje uporablja tudi serijski pas
+     "Začni gledati" s svojo kartico `.se-kartica`. */
+  .pas-vrsta > * { flex: 0 0 200px; scroll-snap-align: start; }
   .pas-vrsta::-webkit-scrollbar { height: 8px; }
   .pas-vrsta::-webkit-scrollbar-track { background: #0f121c; border-radius: 4px; }
   .pas-vrsta::-webkit-scrollbar-thumb { background: #2a3450; border-radius: 4px; }
@@ -207,7 +209,7 @@
   /* Na telefonu dve celi kartici v pogledu, tretja pokuka izza roba in s tem
      pove, da se pas drsi (pri 44vw sta se dve iztekli natanko na rob in namiga
      ni bilo). */
-  @media (max-width: 620px) { .pas-vrsta .kartica { flex: 0 0 38vw; } }
+  @media (max-width: 620px) { .pas-vrsta > * { flex: 0 0 38vw; } }
 
   /* Puscici ob pasu — na namizju, kjer drsenje s prstom ne obstaja. Skrijeta se,
      ce ni kaj drsati, in posamicno, ko si na koncu pasu. */
@@ -598,6 +600,53 @@ function izrisiVejeNav(vrste, aktivniTip, filmskiTipi) {
       });
     });
   }
+}
+
+
+/* =============================================================================
+   VODORAVNI PASOVI KARTIC — skupen del (23.8.2026)
+   =============================================================================
+   Filmska in serijska stran imata pas kartic, ki drsi vstran (TOP 15, Zacni
+   gledati). Puscici sta ista v obeh, zato zivita tu in ne dvakrat v vejah —
+   iz istega razloga kot izbornik vsebin zgoraj.
+
+   Pas mora biti element z razredom `pas-vrsta`, ovit v `.pas-ovoj` skupaj s
+   `.pas-pusc-l` in `.pas-pusc-d`. CSS je v `deli/_stil.css`.
+   ========================================================================== */
+
+// Klik na puscico podrsa za priblizno en pogled kartic.
+function pasDrsi(idPasu, smer) {
+  const el = document.getElementById(idPasu);
+  if (!el) return;
+  const korak = Math.max(212, Math.round(el.clientWidth * 0.8));
+  el.scrollBy({ left: smer * korak, behavior: 'smooth' });
+}
+
+// Puscici se skrijeta, ce ni kaj drsati, in posamicno na koncih pasu.
+function osveziPuscice(idPasu) {
+  const el = document.getElementById(idPasu);
+  if (!el) return;
+  const ovoj = el.parentElement;
+  if (!ovoj || !ovoj.classList.contains('pas-ovoj')) return;
+  const levo = ovoj.querySelector('.pas-pusc-l');
+  const desno = ovoj.querySelector('.pas-pusc-d');
+  const lahkoDrsi = el.scrollWidth > el.clientWidth + 4;
+  ovoj.classList.toggle('brez-puscic', !lahkoDrsi);
+  if (levo) levo.disabled = el.scrollLeft <= 2;
+  if (desno) desno.disabled = el.scrollLeft >= el.scrollWidth - el.clientWidth - 2;
+}
+
+// Poslusalca se pripneta samo enkrat na pas (dataset zastavica), izris pasu pa
+// se lahko ponovi ob vsakem filtru.
+function pripraviPas(idPasu) {
+  const el = document.getElementById(idPasu);
+  if (!el) return;
+  if (!el.dataset.pasPripravljen) {
+    el.dataset.pasPripravljen = '1';
+    el.addEventListener('scroll', () => osveziPuscice(idPasu), { passive: true });
+    window.addEventListener('resize', () => osveziPuscice(idPasu));
+  }
+  osveziPuscice(idPasu);
 }
 
 /* =============================================================================
