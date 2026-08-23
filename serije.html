@@ -190,25 +190,49 @@
   .top9-caret { font-size: 10px; color: #e8702a; transition: transform 0.15s; }
   .top9-sekcija.zvito .top9-caret { transform: rotate(-90deg); }
   .top9-sekcija.zvito .top9-grid { display: none; }
+  /* Ob zvitem oddelku mora izginiti tudi ovoj s puscicama, ne le sam pas. */
+  .top9-sekcija.zvito .pas-ovoj { display: none; }
   .top9-podnaslov { font-size: 11px; color: #555; font-weight: 400; margin-left: 4px; }
-  .top9-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-  @media (min-width: 760px) { .top9-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); } }
+  /* Pasova TOP 15 (23.8.2026): ista kartica kot v veliki mrezi, a v ENI
+     vodoravni vrsti. Mreza s 15 velikimi karticami bi na telefonu zrasla na
+     ~2600 px in gumb "Prikazi vse filme" bi padel predalec dol. */
+  .pas-vrsta { display: flex; gap: 12px; overflow-x: auto; overflow-y: hidden;
+               padding-bottom: 8px; scroll-snap-type: x proximity;
+               scrollbar-color: #3a4a6a #13161f; }
+  .pas-vrsta .kartica { flex: 0 0 200px; scroll-snap-align: start; }
+  .pas-vrsta::-webkit-scrollbar { height: 8px; }
+  .pas-vrsta::-webkit-scrollbar-track { background: #0f121c; border-radius: 4px; }
+  .pas-vrsta::-webkit-scrollbar-thumb { background: #2a3450; border-radius: 4px; }
+  .pas-vrsta::-webkit-scrollbar-thumb:hover { background: #3a4a6a; }
+  /* Na telefonu dve celi kartici v pogledu, tretja pokuka izza roba in s tem
+     pove, da se pas drsi (pri 44vw sta se dve iztekli natanko na rob in namiga
+     ni bilo). */
+  @media (max-width: 620px) { .pas-vrsta .kartica { flex: 0 0 38vw; } }
+
+  /* Puscici ob pasu — na namizju, kjer drsenje s prstom ne obstaja. Skrijeta se,
+     ce ni kaj drsati, in posamicno, ko si na koncu pasu. */
+  .pas-ovoj { position: relative; }
+  .pas-pusc { position: absolute; top: 38%; transform: translateY(-50%); z-index: 5;
+              width: 34px; height: 34px; border-radius: 50%;
+              border: 1px solid #2a3450; background: rgba(10,12,20,0.88);
+              color: #e6e8f0; font-size: 20px; line-height: 1; cursor: pointer;
+              display: flex; align-items: center; justify-content: center;
+              transition: opacity 0.15s, background 0.15s, border-color 0.15s; }
+  .pas-pusc:hover { background: #1b2133; border-color: #3a4a6a; }
+  .pas-pusc:disabled { opacity: 0; pointer-events: none; }
+  .pas-pusc-l { left: -8px; }
+  .pas-pusc-d { right: -8px; }
+  .pas-ovoj.brez-puscic .pas-pusc { display: none; }
+  .prih-top .pas-pusc:hover { border-color: #7c83ff; }
+  /* Na dotik puscic ni — tam se drsi s prstom. */
+  @media (max-width: 620px) { .pas-pusc { display: none; } }
   .top9-akcija { text-align: center; margin-top: 14px; }
   .top9-sekcija.zvito .top9-akcija { display: none; }
-  .top9-kartica { position: relative; background: #13161f; border: 1px solid #1e2130; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
-  .top9-kartica:hover { border-color: #e8702a; transform: translateY(-2px); }
-  .top9-slika { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: #1e2130; }
-  .top9-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); color: #f5c518; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
-  .top9-badge-rt { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,0.75); color: #ff6347; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
-  /* V pasu prihajajocih desni zgornji kot zaseda znacka PRIHAJA — RT gre pod njo. */
-  .prih-kartica .top9-badge-rt { top: 28px; }
-  .top9-body { padding: 6px 7px 8px; }
-  .top9-naslov-k { font-size: 11px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .top9-orig { font-size: 10px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .top9-leto { font-size: 10px; color: #9a9dae; margin-top: 2px; }
-  /* Rezijer + 2 igralca v ozkem pasu. Ce bo pretrpano: odstrani klic
-     ekipaPasHtml() v skripti, ta pravila lahko ostanejo. */
-  .top9-oseba { font-size: 9px; color: #6f7284; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  /* Pasova sta 23.8.2026 prevzela `.kartica` iz mreze — lastna kartica
+     (.top9-kartica, .top9-slika, .top9-badge*, .top9-body …) je zato
+     odstranjena. Ostane samo ogrodje oddelka zgoraj. */
+  .pas-vrsta .kartica:hover { border-color: #e8702a; }
+  .prih-top .pas-vrsta .kartica:hover { border-color: #7c83ff; }
 
   /* ===== Gumb "Prikaži vse filme" + placeholder ===== */
   .prikazi-vse-btn { padding: 8px 20px; border-radius: 22px; border: 1px solid #e8702a; background: #e8702a; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
