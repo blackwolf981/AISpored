@@ -42,9 +42,13 @@
   .oddelek-ta-teden .glavni-oddelek-naslov { color: #e8702a; }
   .oddelek-prihajajoci .glavni-oddelek-naslov { color: #a9adff; }
   .poddelek-naslov { font-size: 12px; font-weight: 700; color: #b9bdca; letter-spacing: 0.6px; text-transform: uppercase; margin-bottom: 10px; }
+  /* --pas-ozadje mora biti ENAKA barva kot ozadje oddelka — zabris na desnem
+     robu pasu se zliva prav v to. --pas-poudarek je barva veje. */
   #top9-sekcija { background: #17120a; }
+  #top9-sekcija .pas-ovoj { --pas-ozadje: #17120a; --pas-poudarek: #e8702a; }
   #view-iskanje { background: #120d07; }
   #prih-top-sekcija { background: #12152a; }
+  #prih-top-sekcija .pas-ovoj { --pas-ozadje: #12152a; --pas-poudarek: #7c83ff; }
   #prih-mreza-wrap { background: #0c0e1a; padding: 1.25rem 1.5rem; }
 
   .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
@@ -211,23 +215,75 @@
      ni bilo). */
   @media (max-width: 620px) { .pas-vrsta > * { flex: 0 0 38vw; } }
 
-  /* Puscici ob pasu — na namizju, kjer drsenje s prstom ne obstaja. Skrijeta se,
-     ce ni kaj drsati, in posamicno, ko si na koncu pasu. */
-  .pas-ovoj { position: relative; }
-  .pas-pusc { position: absolute; top: 38%; transform: translateY(-50%); z-index: 5;
+  /* -------------------------------------------------------------------------
+     NAMIGI, DA SE PAS DRSI (23.8.2026)
+     -------------------------------------------------------------------------
+     Sam pokuk tretje kartice in pol prosojni puscici sta bila prevec diskretna
+     — namig je bilo videti sele takrat, ko si ze gledal naravnost vanj. Zato
+     trije razlicni namigi, ker vsak resuje svojo tezavo:
+       zabris  — STATICEN: "vsebina je odrezana, ne koncana"
+       sunek/pulz — GIBANJE: edino, kar razume tudi nepozoren uporabnik
+       crtica  — KOLIKO je se ostalo (tega ne pove ne zabris ne sunek)
+     `--pas-ozadje` mora ustrezati ozadju oddelka, sicer se zabris vidi kot pas
+     druge barve; `--pas-poudarek` je barva veje.
+     ---------------------------------------------------------------------- */
+  .pas-ovoj { position: relative; --pas-ozadje: #0b0d16; --pas-poudarek: #e8702a; }
+
+  /* Zabris na desnem robu. Izgine, ko si na koncu pasu — to samo po sebi pove,
+     da naprej ni nicesar vec. */
+  .pas-zabris { position: absolute; top: 0; bottom: 0; right: 0; width: 56px;
+                pointer-events: none; z-index: 4; opacity: 1;
+                transition: opacity 0.25s;
+                background: linear-gradient(to right, rgba(0,0,0,0), var(--pas-ozadje)); }
+  .pas-ovoj.na-koncu .pas-zabris { opacity: 0; }
+  .pas-ovoj.brez-puscic .pas-zabris { display: none; }
+
+  .pas-pusc { position: absolute; top: 38%; transform: translateY(-50%); z-index: 6;
               width: 34px; height: 34px; border-radius: 50%;
-              border: 1px solid #2a3450; background: rgba(10,12,20,0.88);
-              color: #e6e8f0; font-size: 20px; line-height: 1; cursor: pointer;
+              border: 1px solid #3a4a6a; background: #151a28;
+              box-shadow: 0 2px 10px rgba(0,0,0,0.55);
+              color: #fff; font-size: 20px; line-height: 1; cursor: pointer;
               display: flex; align-items: center; justify-content: center;
               transition: opacity 0.15s, background 0.15s, border-color 0.15s; }
-  .pas-pusc:hover { background: #1b2133; border-color: #3a4a6a; }
+  .pas-pusc:hover { background: #232b40; border-color: var(--pas-poudarek); }
   .pas-pusc:disabled { opacity: 0; pointer-events: none; }
   .pas-pusc-l { left: -8px; }
   .pas-pusc-d { right: -8px; }
   .pas-ovoj.brez-puscic .pas-pusc { display: none; }
-  .prih-top .pas-pusc:hover { border-color: #7c83ff; }
-  /* Na dotik puscic ni — tam se drsi s prstom. */
-  @media (max-width: 620px) { .pas-pusc { display: none; } }
+
+  /* Pulz ob prvem prikazu pasu — trikrat, nato nikoli vec. Razred doda skripta.
+     `translateY(-50%)` mora ostati v vsakem koraku, sicer puscica odskoci. */
+  @keyframes pas-pulz {
+    0%, 100% { transform: translateY(-50%) scale(1); }
+    50%      { transform: translateY(-50%) scale(1.18);
+               box-shadow: 0 0 0 7px rgba(255,255,255,0.10), 0 2px 10px rgba(0,0,0,0.55); }
+  }
+  .pas-pusc.pulz { animation: pas-pulz 0.85s ease-in-out 3; }
+
+  /* Drsna crtica pod pasom — samo na telefonu, kjer sistemskega drsnika ni
+     videti. Palec kaze, kje si in koliko je se ostalo. */
+  .pas-crta { display: none; position: absolute; left: 0; right: 0; bottom: 0;
+              height: 3px; border-radius: 3px; background: #23283a; z-index: 6; }
+  .pas-crta-palec { display: block; height: 100%; border-radius: 3px;
+                    background: var(--pas-poudarek); opacity: 0.85;
+                    transform: translateX(0); }
+  .pas-ovoj.brez-puscic .pas-crta { display: none !important; }
+
+  @media (max-width: 620px) {
+    /* Puscici sta manjsi in tesneje ob robu, da manj pokrivata kartici. */
+    .pas-pusc { width: 28px; height: 28px; font-size: 17px; }
+    .pas-pusc-l { left: -4px; }
+    .pas-pusc-d { right: -4px; }
+    .pas-zabris { width: 40px; }
+    .pas-crta { display: block; }
+    .pas-vrsta { padding-bottom: 10px; }
+  }
+
+  /* Kdor ima izklopljene animacije, dobi samo staticne namige. */
+  @media (prefers-reduced-motion: reduce) {
+    .pas-pusc.pulz { animation: none; }
+    .pas-vrsta { scroll-behavior: auto; }
+  }
   .top9-akcija { text-align: center; margin-top: 14px; }
   .top9-sekcija.zvito .top9-akcija { display: none; }
   /* Pasova sta 23.8.2026 prevzela `.kartica` iz mreze — lastna kartica
@@ -623,28 +679,105 @@ function pasDrsi(idPasu, smer) {
 }
 
 // Puscici se skrijeta, ce ni kaj drsati, in posamicno na koncih pasu.
+// Hkrati se osvezita zabris na desnem robu in drsna crtica.
 function osveziPuscice(idPasu) {
   const el = document.getElementById(idPasu);
   if (!el) return;
-  const ovoj = el.parentElement;
-  if (!ovoj || !ovoj.classList.contains('pas-ovoj')) return;
+  const ovoj = el.closest('.pas-ovoj');
+  if (!ovoj) return;
   const levo = ovoj.querySelector('.pas-pusc-l');
   const desno = ovoj.querySelector('.pas-pusc-d');
   const lahkoDrsi = el.scrollWidth > el.clientWidth + 4;
+  const doKonca = el.scrollWidth - el.clientWidth;
+
   ovoj.classList.toggle('brez-puscic', !lahkoDrsi);
+  ovoj.classList.toggle('na-koncu', el.scrollLeft >= doKonca - 2);
   if (levo) levo.disabled = el.scrollLeft <= 2;
-  if (desno) desno.disabled = el.scrollLeft >= el.scrollWidth - el.clientWidth - 2;
+  if (desno) desno.disabled = el.scrollLeft >= doKonca - 2;
+
+  const palec = ovoj.querySelector('.pas-crta-palec');
+  if (palec && lahkoDrsi) {
+    const delez = el.clientWidth / el.scrollWidth;
+    palec.style.width = (delez * 100) + '%';
+    palec.style.transform = `translateX(${(el.scrollLeft / el.scrollWidth) * (1 / delez) * 100}%)`;
+  }
 }
 
-// Poslusalca se pripneta samo enkrat na pas (dataset zastavica), izris pasu pa
+// Zabris in crtico vstavi skripta, da jih ni treba pisati v vsak telo.html
+// posebej — pas je s tem opisan na enem mestu.
+function _pasDodajOkras(ovoj) {
+  if (!ovoj.querySelector('.pas-zabris')) {
+    const z = document.createElement('div');
+    z.className = 'pas-zabris';
+    ovoj.appendChild(z);
+  }
+  if (!ovoj.querySelector('.pas-crta')) {
+    const c = document.createElement('div');
+    c.className = 'pas-crta';
+    c.innerHTML = '<span class="pas-crta-palec"></span>';
+    ovoj.appendChild(c);
+  }
+}
+
+/* Enkraten namig ob PRVEM prikazu pasu — ne ob nalaganju strani, ker pas
+   pogosto sploh ni na zaslonu in bi se namig zgodil neopazno.
+
+   Na telefonu se premakne cel pas (gibanje vsebine je najmocnejsi namig, da se
+   da drsati), na namizju utripne desna puscica (premikanje celega pasu je na
+   velikem zaslonu prevec vsiljivo — Andrejeva izbira 23.8.2026).
+
+   Kdor ima izklopljene animacije, ne dobi nicesar — ostaneta zabris in crtica. */
+function _pasNamig(idPasu) {
+  const el = document.getElementById(idPasu);
+  if (!el) return;
+  const ovoj = el.closest('.pas-ovoj');
+  if (!ovoj) return;
+  if (el.scrollWidth <= el.clientWidth + 4) return;          // ni kaj drsati
+  if (el.scrollLeft > 2) return;                              // uporabnik je ze drsal
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  if (window.matchMedia('(max-width: 620px)').matches) {
+    // scroll-snap sunek TAKOJ potegne nazaj na kartico in namig je neviden —
+    // izmerjeno 23.8.2026. Zato ga za cas namiga izklopimo in nato vrnemo.
+    const prejsnjiSnap = el.style.scrollSnapType;
+    el.style.scrollSnapType = 'none';
+    el.scrollTo({ left: 30, behavior: 'smooth' });
+    setTimeout(() => {
+      el.scrollTo({ left: 0, behavior: 'smooth' });
+      setTimeout(() => { el.style.scrollSnapType = prejsnjiSnap; }, 450);
+    }, 450);
+  } else {
+    const desno = ovoj.querySelector('.pas-pusc-d');
+    if (!desno) return;
+    desno.classList.add('pulz');
+    setTimeout(() => desno.classList.remove('pulz'), 2800);
+  }
+}
+
+// Poslusalci se pripnejo samo enkrat na pas (dataset zastavica), izris pasu pa
 // se lahko ponovi ob vsakem filtru.
 function pripraviPas(idPasu) {
   const el = document.getElementById(idPasu);
   if (!el) return;
+  const ovoj = el.closest('.pas-ovoj');
+  if (ovoj) _pasDodajOkras(ovoj);
+
   if (!el.dataset.pasPripravljen) {
     el.dataset.pasPripravljen = '1';
     el.addEventListener('scroll', () => osveziPuscice(idPasu), { passive: true });
     window.addEventListener('resize', () => osveziPuscice(idPasu));
+
+    // Namig sprozi sele prihod pasu v vidno polje; potem se opazovalec odjavi.
+    if (typeof IntersectionObserver === 'function') {
+      const opazovalec = new IntersectionObserver(vnosi => {
+        vnosi.forEach(v => {
+          if (!v.isIntersecting) return;
+          opazovalec.disconnect();
+          setTimeout(() => _pasNamig(idPasu), 500);
+        });
+      }, { threshold: 0.35 });
+      opazovalec.observe(el);
+    }
   }
   osveziPuscice(idPasu);
 }
