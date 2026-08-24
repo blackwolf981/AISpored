@@ -374,6 +374,12 @@
   /* Napis "Razvrsti"/"Ocena" v tej vrstici ne rabi fiksne sirine kot v starem filtru. */
   .f-filter-vrsta .filter-label, .f-ocena-wrap .filter-label { width: auto; flex-shrink: 0; }
 
+  /* Casovnici sta od 24.8.2026 v svojem oddelku, ne v glavi strani — zato brez
+     lastnega ozadja in spodnje crte, ki sta imela smisel samo kot trak pod glavo. */
+  .glavni-oddelek .dnevni-trak-bar { background: transparent; border-bottom: none; padding: 0 1.5rem 12px; }
+  .trak-prih .dan-btn:hover { border-color: #7c83ff; }
+  .trak-prih .dan-btn.active { background: #5a61d6; border-color: #5a61d6; color: #fff; }
+
   /* ===========================================================================
      IZBORNIK VSEBIN v glavi — skupen za vse strani
      ===========================================================================
