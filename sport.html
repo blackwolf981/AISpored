@@ -51,8 +51,17 @@
   #prih-top-sekcija .pas-ovoj { --pas-ozadje: #12152a; --pas-poudarek: #7c83ff; }
   #prih-mreza-wrap { background: #0c0e1a; padding: 1.25rem 1.5rem; }
 
-  .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  /* 24.8.2026 (faza C): vrstica kanalov ima naslov + en gumb, ki pove stanje;
+     seznam kanalov se odpre pod njim. Enaka oblika gre kasneje na serije in sport. */
+  .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .kanali-naslov { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #6a6f80; }
+  .kanali-cta { padding: 6px 16px; border-radius: 20px; border: 1px solid var(--veja); background: var(--veja); color: #fff;
+                font-size: 12.5px; font-weight: 700; letter-spacing: 0.3px; cursor: pointer; transition: all 0.15s;
+                display: inline-flex; align-items: center; gap: 7px; }
+  .kanali-cta:hover { filter: brightness(1.12); }
+  .kanali-cta-pusc { font-size: 9px; opacity: 0.85; }
   .kanali-panel { background: #0f1220; padding: 0.75rem 1.5rem; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .kanali-panel .f-btn-stevec { opacity: 0.55; }
   .kanal-btn { padding: 6px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #888; font-size: 13px; cursor: pointer; transition: all 0.15s; }
   .kanal-btn.active { background: #e8702a; border-color: #e8702a; color: #fff; }
   .kanal-btn:not(.active):hover { background: #1e2130; color: #ccc; }
@@ -379,6 +388,11 @@
   .glavni-oddelek .dnevni-trak-bar { background: transparent; border-bottom: none; padding: 0 1.5rem 12px; }
   .trak-prih .dan-btn:hover { border-color: #7c83ff; }
   .trak-prih .dan-btn.active { background: #5a61d6; border-color: #5a61d6; color: #fff; }
+
+  /* Zadnji izbrani dan / kanal se ne da odkliniti — brez tega bi uporabnik
+     lahko pristal na praznem izboru in 0 zadetkih (Andrej, 24.8.2026). */
+  .dan-btn.zaklenjen, .f-btn.zaklenjen { cursor: default; }
+  .f-btn.zaklenjen:disabled { opacity: 1; }
 
   /* ===========================================================================
      IZBORNIK VSEBIN v glavi — skupen za vse strani

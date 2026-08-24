@@ -51,8 +51,17 @@
   #prih-top-sekcija .pas-ovoj { --pas-ozadje: #12152a; --pas-poudarek: #7c83ff; }
   #prih-mreza-wrap { background: #0c0e1a; padding: 1.25rem 1.5rem; }
 
-  .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  /* 24.8.2026 (faza C): vrstica kanalov ima naslov + en gumb, ki pove stanje;
+     seznam kanalov se odpre pod njim. Enaka oblika gre kasneje na serije in sport. */
+  .kanali-bar { background: #13161f; padding: 0.75rem 1.5rem; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .kanali-naslov { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #6a6f80; }
+  .kanali-cta { padding: 6px 16px; border-radius: 20px; border: 1px solid var(--veja); background: var(--veja); color: #fff;
+                font-size: 12.5px; font-weight: 700; letter-spacing: 0.3px; cursor: pointer; transition: all 0.15s;
+                display: inline-flex; align-items: center; gap: 7px; }
+  .kanali-cta:hover { filter: brightness(1.12); }
+  .kanali-cta-pusc { font-size: 9px; opacity: 0.85; }
   .kanali-panel { background: #0f1220; padding: 0.75rem 1.5rem; gap: 8px; border-bottom: 1px solid #1e2130; flex-wrap: wrap; }
+  .kanali-panel .f-btn-stevec { opacity: 0.55; }
   .kanal-btn { padding: 6px 16px; border-radius: 20px; border: 1px solid #2e3148; background: transparent; color: #888; font-size: 13px; cursor: pointer; transition: all 0.15s; }
   .kanal-btn.active { background: #e8702a; border-color: #e8702a; color: #fff; }
   .kanal-btn:not(.active):hover { background: #1e2130; color: #ccc; }
@@ -380,6 +389,11 @@
   .trak-prih .dan-btn:hover { border-color: #7c83ff; }
   .trak-prih .dan-btn.active { background: #5a61d6; border-color: #5a61d6; color: #fff; }
 
+  /* Zadnji izbrani dan / kanal se ne da odkliniti — brez tega bi uporabnik
+     lahko pristal na praznem izboru in 0 zadetkih (Andrej, 24.8.2026). */
+  .dan-btn.zaklenjen, .f-btn.zaklenjen { cursor: default; }
+  .f-btn.zaklenjen:disabled { opacity: 1; }
+
   /* ===========================================================================
      IZBORNIK VSEBIN v glavi — skupen za vse strani
      ===========================================================================
@@ -452,12 +466,13 @@
   </div>
 </div>
 
+<!-- Kanali: en filter za oba oddelka. Gumb pove stanje, box se odpre na klik. -->
 <div class="kanali-bar" id="kanali-bar">
-  <button class="kanal-btn active" id="btn-vsi-kanali">Vsi kanali</button>
-  <button class="kanal-btn" id="btn-izberi-kanale">Izberi kanale</button>
+  <div class="kanali-naslov">IZBERI TV KANALE</div>
+  <button class="kanali-cta" id="kanali-cta" onclick="preklopiKanalPanel()"></button>
 </div>
 <div class="kanali-panel" id="kanali-panel" style="display:none">
-  <!-- Kanali se dodajo samodejno iz kanali.json -->
+  <!-- Gumbi kanalov se izrisujejo iz naloženih sporedov, ne iz kanali.json -->
 </div>
 
 <!-- ===== Globalni iskalnik (čez vse: na sporedu + prihajajoči, znotraj izbrane vrste) ===== -->
@@ -1026,21 +1041,8 @@ async function init() {
       konfig = [];
     }
 
-    // Zgradi gumbe posameznih kanalov v skritem panelu ("Izberi kanale")
-    const panel = document.getElementById('kanali-panel');
-    konfig.forEach(k => {
-      const btn = document.createElement('button');
-      btn.className = 'kanal-btn active';
-      btn.dataset.kanal = k.ime;
-      btn.textContent = k.ime;
-      btn.addEventListener('click', async function() {
-        await preklopiKanal(k.ime);
-      });
-      panel.appendChild(btn);
-    });
-
-    document.getElementById('btn-vsi-kanali').addEventListener('click', izberiVsiKanali);
-    document.getElementById('btn-izberi-kanale').addEventListener('click', preklopiKanalPanel);
+    // Gumbi kanalov se NE gradijo vec tu iz kanali.json — izrisejo se sele iz
+    // nalozenih sporedov, ko vemo, kateri kanal v izbrani vrsti res kaj ima.
 
     // Vrste TV vsebine (za popup). Če ni na voljo, popup dela kot prej —
     // samo brez preklopa na druge veje.
@@ -1093,18 +1095,73 @@ function resetFiltrovObMenjaviKanala() {
   razsiriTop9();
 }
 
-function posodobiKanaliBar() {
-  document.getElementById('btn-vsi-kanali').classList.toggle('active', izbraniKanali === null);
-  document.getElementById('btn-izberi-kanale').classList.toggle('active', kanalPanelOdprt || izbraniKanali !== null);
-  document.getElementById('kanali-panel').style.display = kanalPanelOdprt ? 'flex' : 'none';
-  document.querySelectorAll('#kanali-panel .kanal-btn').forEach(b => {
-    b.classList.toggle('active', jeKanalIzbran(b.dataset.kanal));
+/* Kanali (24.8.2026, faza C)
+   -------------------------------------------------------------------------
+   En filter za oba oddelka, zato se seznam NE sme racunati iz izbranih dni:
+   ce bi se, bi gumbi poskakovali ob vsakem kliku na dan in izbrani kanal bi
+   izginil izpod prsta. Steje se cez VSE nalozene dneve.
+
+   Steje se iz `nalozeniSporedi`, ne iz `vsaOddaja` — slednji je ze filtriran
+   po izbranih kanalih, zato bi odklikan kanal izginil s seznama in ga ne bi
+   bilo vec mogoce vrniti.
+
+   Seznam SLEDI AKTIVNI VRSTI: pri Filmih so to samo kanali s filmi (15 od 23),
+   pri Dokumentarcih samo kanali z dokumentarci. Sportni kanali se pri filmih
+   sploh ne pokazejo. */
+function kanaliZVsebino() {
+  const naslovi = {};
+  Object.values(naloženiSporedi).forEach(sp => {
+    const ime = sp.kanal;
+    (sp.oddaje || []).forEach(o => {
+      if ((o.kategorija || 'Drugo') !== aktivniTip) return;
+      (naslovi[ime] || (naslovi[ime] = new Set())).add((o.naslov_sl || '').toLowerCase().trim());
+    });
   });
+  return konfig.filter(k => naslovi[k.ime] && naslovi[k.ime].size)
+               .map(k => ({ ime: k.ime, n: naslovi[k.ime].size }));
+}
+
+/* Izbire, ki jih v novi vrsti ni, tiho odstrani — isto, kar `izrisiTrak()`
+   pocne z dnevi, ko se spored pomakne. Ce po ciscenju ostanejo vsi, se stanje
+   vrne na null ("vsi kanali"). */
+function ocistiIzbraneKanale(seznam) {
+  if (izbraniKanali === null) return;
+  const imena = seznam.map(k => k.ime);
+  const ocisceno = new Set([...izbraniKanali].filter(i => imena.includes(i)));
+  izbraniKanali = (ocisceno.size === imena.length || ocisceno.size === 0) ? null : ocisceno;
+}
+
+function posodobiKanaliBar() {
+  const seznam = kanaliZVsebino();
+  ocistiIzbraneKanale(seznam);
+
+  const vsi = izbraniKanali === null;
+  const koliko = vsi ? seznam.length : izbraniKanali.size;
+  const cta = document.getElementById('kanali-cta');
+  if (cta) {
+    cta.innerHTML = `IZBRANI KANALI: ${koliko}${vsi ? ' (VSI)' : ''}` +
+                    `<span class="kanali-cta-pusc">${kanalPanelOdprt ? '&#9652;' : '&#9662;'}</span>`;
+  }
+
+  const panel = document.getElementById('kanali-panel');
+  if (panel) {
+    panel.style.display = kanalPanelOdprt ? 'flex' : 'none';
+    panel.innerHTML =
+      `<button class="f-btn ${vsi ? 'active' : ''}" onclick="izberiVsiKanali()">Vsi kanali</button>` +
+      seznam.map(k => {
+        const izb = jeKanalIzbran(k.ime);
+        // Zadnjega izbranega kanala ni mogoce odkliniti — sicer bi ostal prazen
+        // izbor in stran bi pokazala nic, brez ocitne poti nazaj.
+        const zadnji = izbraniKanali !== null && izbraniKanali.size === 1 && izb;
+        return `<button class="f-btn ${izb ? 'active' : ''}${zadnji ? ' zaklenjen' : ''}"
+                        ${zadnji ? 'disabled title="Vsaj en kanal mora ostati izbran"' : ''}
+                        onclick="preklopiKanal('${String(k.ime).replace(/'/g, "\\'")}')">${ubegniHtml(k.ime)}<span class="f-btn-stevec">${k.n}</span></button>`;
+      }).join('');
+  }
 }
 
 async function izberiVsiKanali() {
   izbraniKanali = null;
-  kanalPanelOdprt = false;
   resetFiltrovObMenjaviKanala();
   posodobiKanaliBar();
   await naloziVseSporede();
@@ -1116,9 +1173,15 @@ function preklopiKanalPanel() {
 }
 
 async function preklopiKanal(ime) {
-  if (izbraniKanali === null) izbraniKanali = new Set(konfig.map(k => k.ime));
-  if (izbraniKanali.has(ime)) izbraniKanali.delete(ime);
-  else izbraniKanali.add(ime);
+  const imena = kanaliZVsebino().map(k => k.ime);
+  if (izbraniKanali === null) izbraniKanali = new Set(imena);
+  if (izbraniKanali.has(ime)) {
+    if (izbraniKanali.size === 1) return;   // zadnji izbrani ostane
+    izbraniKanali.delete(ime);
+  } else {
+    izbraniKanali.add(ime);
+  }
+  if (izbraniKanali.size === imena.length) izbraniKanali = null;
   resetFiltrovObMenjaviKanala();
   posodobiKanaliBar();
   await naloziVseSporede();
@@ -1232,8 +1295,11 @@ function izrisiTrak(kje) {
     const d = new Date(datStr + 'T00:00:00');
     const danTxt = (datStr === danes) ? 'Danes' : DNEVI_KRATKO[d.getDay()];
     const datTxt = `${d.getDate()}.${d.getMonth() + 1}.`;
-    const aktiven = jeDnevIzbranV(kje, datStr) ? 'active' : '';
-    return `<button class="dan-btn ${aktiven}" onclick="onKlikDan('${kje}','${datStr}')" ondblclick="onDvoklikDan('${kje}','${datStr}')">
+    const jeIzbran = jeDnevIzbranV(kje, datStr);
+    const izb = izbraniZa(kje);
+    const zadnji = izb !== null && izb.size === 1 && jeIzbran;
+    const aktiven = (jeIzbran ? 'active' : '') + (zadnji ? ' zaklenjen' : '');
+    return `<button class="dan-btn ${aktiven}" ${zadnji ? 'title="Vsaj en dan mora ostati izbran"' : ''} onclick="onKlikDan('${kje}','${datStr}')" ondblclick="onDvoklikDan('${kje}','${datStr}')">
       <span class="dan-ime">${danTxt}</span><span class="dan-datum">${datTxt}</span>
     </button>`;
   }).join('');
@@ -1268,7 +1334,14 @@ function preklopiDan(kje, datStr) {
   const vsi = dneviZa(kje);
   let izb = izbraniZa(kje);
   if (izb === null) izb = new Set(vsi);
-  izb.has(datStr) ? izb.delete(datStr) : izb.add(datStr);
+  if (izb.has(datStr)) {
+    // Zadnjega izbranega dne ni mogoce odkliniti — sicer bi ostal prazen izbor
+    // in oddelek bi pokazal 0 zadetkov brez ocitne poti nazaj (Andrej, 24.8.2026).
+    if (izb.size === 1) return;
+    izb.delete(datStr);
+  } else {
+    izb.add(datStr);
+  }
   nastaviIzbrane(kje, izb.size === vsi.length ? null : izb);
   osveziOddelek(kje);
 }
@@ -1399,6 +1472,8 @@ function posodobiGlavoTip() {
   if (ft) ft.textContent = t;
   const inp = document.getElementById('iskanje-input');
   if (inp) inp.placeholder = `Išči med: ${t.toUpperCase()} — na sporedu in prihajajoči…`;
+  // Vsaka vrsta ima drug nabor kanalov, zato gre vrstica kanalov skozi tu.
+  posodobiKanaliBar();
   osveziVejeNav();
 }
 
