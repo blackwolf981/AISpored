@@ -441,6 +441,37 @@
   .sp-z-posnetek { background: #1a1d28; color: #666b7a; }
   .sp-z-panoga { background: #16202c; color: #6a9ac0; text-transform: capitalize; font-weight: 700; }
 
+  /* --- emoji panog (M1 seznam, M3 filtri, M4 pasova) ---------------------
+     Emoji NE deduje barve besedila — ostane barven tudi v rdečem pasu "v živo"
+     in v sivi ponovitvi. To je sprejeto: barvo statusa nosita rob vrstice in
+     značka, emoji nosi samo panogo.
+
+     Pisavo naštevamo eksplicitno, ker bi sicer del emojijev padel na
+     črno-bel glif (npr. ❓ v nekaterih pisavah).                         */
+  .sp-emoji, .sp-e, .sp-btn-emoji, .sp-kartica-emoji {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji",
+                 "Twemoji Mozilla", "EmojiOne Color", sans-serif;
+    font-variant-emoji: emoji;
+  }
+
+  /* stolpec v vrstici sporeda — širina drži navpično poravnavo naslovov */
+  .sp-emoji { flex: 0 0 44px; text-align: center; font-size: 19px; line-height: 20px;
+              padding-top: 1px; user-select: none; }
+  /* nadomestek "📺❓" sta dva znaka — pomanjšan, da ni širši in glasnejši od panog */
+  .sp-emoji .sp-e-dvo { font-size: 12px; letter-spacing: -1px; opacity: 0.75; }
+
+  .sp-btn-emoji { font-size: 14px; line-height: 1; margin-right: 5px;
+                  display: inline-block; vertical-align: -2px; }
+  .sp-kartica-emoji { font-size: 20px; line-height: 1; flex: 0 0 auto; }
+  .sp-kartica-emoji .sp-e-dvo { font-size: 13px; letter-spacing: -1px; opacity: 0.75; }
+  .sp-kartica-emoji-m { font-size: 15px; }
+  .sp-kartica-emoji-m .sp-e-dvo { font-size: 10px; }
+
+  .sp-zivo-glava { display: flex; align-items: flex-start; gap: 9px; }
+  .sp-kmalu-glava { display: flex; align-items: center; gap: 7px; }
+  /* v pasu napovedanih je razmik zdaj stvar flexa, ne robu */
+  .sp-kmalu-glava .sp-kmalu-odstevanje { margin-left: 0; }
+
   .sp-prazno { text-align: center; color: #5a5f70; padding: 3rem 1rem; font-size: 14px; }
 
   /* --- popup --- */
@@ -454,6 +485,9 @@
     .sp-sekcija, .sp-filtri { padding-left: 1rem; padding-right: 1rem; }
     .filter-label { width: 52px; }
     .sp-cas { flex-basis: 42px; }
+    .sp-vrstica { gap: 8px; }
+    .sp-emoji { flex-basis: 34px; font-size: 17px; }
+    .sp-emoji .sp-e-dvo { font-size: 10px; }
   }
 </style>
 </head>
@@ -811,6 +845,59 @@ const MESECI = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'avg', 'sep', '
 const NI_PANOGA = new Set(['informativna oddaja', 'šport', 'pogovorna oddaja',
   'intervju', 'dokumentarec', 'posebni dogodek', '']);
 
+// -----------------------------------------------------------------------------
+// EMOJI PANOG
+// -----------------------------------------------------------------------------
+// Emoji namesto risanih ikon je Andrejeva izbira (24.8.2026). Prednost: nič
+// dodatnih bajtov in nič vzdrževanja risb. Cena: izris je odvisen od naprave
+// (Windows Segoe UI Emoji ≠ Apple Color Emoji ≠ Noto), zato barv in debeline
+// črt ne moremo uskladiti s stranjo — to je sprejeto.
+//
+// Ključi so natanko vrednosti polja `sport` iz veje/sport.json. Kar tam ni
+// prava panoga (podkasti, magazini, pregledi — glej NI_PANOGA), dobi NEZNANO.
+const EMOJI_PANOGE = {
+  'nogomet': '⚽',
+  'košarka': '🏀',
+  'odbojka': '🏐',
+  'tenis': '🎾',
+  'bejzbol': '⚾',
+  'ameriški nogomet': '🏈',
+  'rokomet': '🤾',
+  'kolesarstvo': '🚴',
+  'avto-moto šport': '🏁',
+  'atletika': '🏃',
+  'biljard': '🎱',
+  'hokej': '🏒',
+  'plavanje': '🏊',
+  'veslanje': '🚣',
+  'konjeništvo': '🏇',
+  'ekstremni šport': '🧗',
+};
+
+// Nadomestek za ~33 % vsebin brez panoge (prazen `sport`, »informativna
+// oddaja«, »šport«). Dva emojija sta namenoma — TV pove, da je oddaja,
+// vprašaj, da panoge ne poznamo. Zato je stolpec širši, glej --sp-emoji-sirina.
+const EMOJI_NEZNANO = '📺❓';
+
+// Emoji panoge za vsebino; prazen niz, kadar ga nočemo (nikoli — vedno vrne znak).
+function emojiPanoge(v) {
+  if (!v) return EMOJI_NEZNANO;
+  const s = v.sport;
+  if (!s || NI_PANOGA.has(s)) return EMOJI_NEZNANO;
+  return EMOJI_PANOGE[s] || EMOJI_NEZNANO;
+}
+
+// Emoji za gumb filtra (tam so samo prave panoge, a nabor se lahko razširi).
+function emojiKljuca(s) { return EMOJI_PANOGE[s] || EMOJI_NEZNANO; }
+
+// Zavit v <span>, da lahko CSS nadomestek (dva znaka) pomanjša — sicer bi bil
+// dvakrat širši od pravih panog in bi tretjina strani vlekla pogled nase.
+function emojiHtml(v) {
+  const e = emojiPanoge(v);
+  const dvo = e === EMOJI_NEZNANO ? ' sp-e-dvo' : '';
+  return `<span class="sp-e${dvo}" aria-hidden="true">${e}</span>`;
+}
+
 let VSEBINE = {};
 let TERMINI = [];
 let META = {};
@@ -983,7 +1070,10 @@ function izrisiZivo() {
     const delez = Math.min(100, Math.max(0, 100 * (n - t.zac) / skupaj));
     const minute = Math.floor((n - t.zac) / 60);
     return `<div class="sp-zivo-kartica" onclick="odpriPopup('${t.v}')">
-      <div class="sp-zivo-naslov">${ubegni(v.naslov)}</div>
+      <div class="sp-zivo-glava">
+        <span class="sp-kartica-emoji">${emojiHtml(v)}</span>
+        <div class="sp-zivo-naslov">${ubegni(v.naslov)}</div>
+      </div>
       <div class="sp-zivo-meta">
         <span>${ubegni(v.kanal)}</span>
         <span>${uraIz(t.zac)}–${uraIz(t.kon)}</span>
@@ -1013,7 +1103,8 @@ function izrisiKmalu() {
     const v = VSEBINE[t.v];
     const danes = t.datum === danesStr();
     return `<div class="sp-kmalu-kartica" onclick="odpriPopup('${t.v}')">
-      <div>
+      <div class="sp-kmalu-glava">
+        <span class="sp-kartica-emoji sp-kartica-emoji-m">${emojiHtml(v)}</span>
         <span class="sp-kmalu-cas">${danes ? '' : datumKratko(t.datum) + ' '}${uraIz(t.zac)}</span>
         <span class="sp-kmalu-odstevanje">${odstevanje(t.zac - n)}</span>
       </div>
@@ -1076,7 +1167,7 @@ function izrisiFiltre() {
     `<button class="sp-btn ${izbranePanoge.size === 0 ? 'active' : ''}" onclick="pocistiPanoge()">Vse panoge</button>` +
     panoge.map(p =>
       `<button class="sp-btn ${izbranePanoge.has(p) ? 'active' : ''}" onclick="preklopiPanogo('${ubegni(p)}')">
-        ${ubegni(p)}<span class="sp-btn-stevec">${stev[p]}</span></button>`
+        <span class="sp-btn-emoji" aria-hidden="true">${emojiKljuca(p)}</span>${ubegni(p)}<span class="sp-btn-stevec">${stev[p]}</span></button>`
     ).join('');
 
   // kanali — primarni prvi
@@ -1173,6 +1264,7 @@ function vrsticaHtml(t) {
 
   return `<div class="sp-vrstica ${razred}" onclick="odpriPopup('${t.v}')">
     <div class="sp-cas">${uraIz(t.zac)}</div>
+    <div class="sp-emoji">${emojiHtml(v)}</div>
     <div class="sp-telo">
       <div class="sp-naslov">${ubegni(v.naslov)}</div>
       <div class="sp-meta">
