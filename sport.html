@@ -440,6 +440,9 @@
   .sp-z-ponovitev { background: #1e2130; color: #7a7f90; }
   .sp-z-posnetek { background: #1a1d28; color: #666b7a; }
   .sp-z-panoga { background: #16202c; color: #6a9ac0; text-transform: capitalize; font-weight: 700; }
+  /* samo v popupu: pove, da panoge ni povedal EPG, ampak jo je sklepal izvoz */
+  .sp-z-sklepana { background: #241f14; color: #b09250; border: 1px dashed #6a5a30;
+                   font-weight: 600; letter-spacing: 0.3px; cursor: help; }
 
   /* --- emoji panog (M1 seznam, M3 filtri, M4 pasova) ---------------------
      Emoji NE deduje barve besedila — ostane barven tudi v rdečem pasu "v živo"
@@ -872,6 +875,10 @@ const EMOJI_PANOGE = {
   'veslanje': '🚣',
   'konjeništvo': '🏇',
   'ekstremni šport': '🧗',
+  // panoge, ki jih EPG ne pozna — uvede jih sklepalnik v izvozi_veje.py
+  'golf': '⛳',
+  'borilni športi': '🥊',
+  'zimski športi': '⛷️',
 };
 
 // Nadomestek za ~33 % vsebin brez panoge (prazen `sport`, »informativna
@@ -879,12 +886,34 @@ const EMOJI_PANOGE = {
 // vprašaj, da panoge ne poznamo. Zato je stolpec širši, glej --sp-emoji-sirina.
 const EMOJI_NEZNANO = '📺❓';
 
-// Emoji panoge za vsebino; prazen niz, kadar ga nočemo (nikoli — vedno vrne znak).
-function emojiPanoge(v) {
-  if (!v) return EMOJI_NEZNANO;
+// -----------------------------------------------------------------------------
+// UČINKOVITA PANOGA
+// -----------------------------------------------------------------------------
+// EPG panoge pri tretjini vsebin ne pove. `izvozi_veje.py` zato pri delu teh
+// vsebin panogo SKLEPA (iz naslova ali opisa) in jo zapiše v `sport_sklepan`,
+// nikoli v `sport` — surovi podatek ostane nedotaknjen.
+//
+// Stran ju od tu naprej obravnava enako: emoji, filter, značka in iskanje
+// delajo s `panogaVsebine(v)`. Edino mesto, kjer se razlika pokaže, je popup,
+// kjer pod značko piše, da je panoga sklepana. Tako nikjer ne trdimo več,
+// kot vemo — a uporabnik vseeno najde teh 148 vsebin prek filtra.
+function panogaVsebine(v) {
+  if (!v) return '';
   const s = v.sport;
-  if (!s || NI_PANOGA.has(s)) return EMOJI_NEZNANO;
-  return EMOJI_PANOGE[s] || EMOJI_NEZNANO;
+  if (s && !NI_PANOGA.has(s)) return s;
+  return v.sport_sklepan || '';
+}
+
+function jeSklepana(v) {
+  return !!(v && v.sport_sklepan && (!v.sport || NI_PANOGA.has(v.sport)));
+}
+
+// Emoji za vsebino; kadar panoge ne poznamo (tudi sklepati je nismo mogli),
+// vrne nadomestek 📺❓.
+function emojiPanoge(v) {
+  const p = panogaVsebine(v);
+  if (!p) return EMOJI_NEZNANO;
+  return EMOJI_PANOGE[p] || EMOJI_NEZNANO;
 }
 
 // Emoji za gumb filtra (tam so samo prave panoge, a nabor se lahko razširi).
@@ -1159,8 +1188,8 @@ function izrisiFiltre() {
   // panoge — iz vsebin, brez ne-panog
   const stev = {};
   TERMINI.forEach(t => {
-    const s = VSEBINE[t.v].sport;
-    if (s && !NI_PANOGA.has(s)) stev[s] = (stev[s] || 0) + 1;
+    const s = panogaVsebine(VSEBINE[t.v]);
+    if (s) stev[s] = (stev[s] || 0) + 1;
   });
   const panoge = Object.keys(stev).sort((a, b) => stev[b] - stev[a]);
   document.getElementById('f-panoga').innerHTML =
@@ -1213,14 +1242,14 @@ function ustreza(t) {
   const v = VSEBINE[t.v];
   if (izbraniDan && t.datum !== izbraniDan) return false;
   if (izbraniKanali.size && !izbraniKanali.has(v.kanal)) return false;
-  if (izbranePanoge.size && !izbranePanoge.has(v.sport)) return false;
+  if (izbranePanoge.size && !izbranePanoge.has(panogaVsebine(v))) return false;
 
   const st = statusTermina(t);
   if (statusFilter === 'zivo' && st !== 'zdaj' && st !== 'napovedan') return false;
   if (statusFilter === 'brez-ponovitev' && st === 'ponovitev') return false;
 
   if (query) {
-    const besedilo = (v.naslov + ' ' + (v.naslov_orig || '') + ' ' + v.sport + ' ' +
+    const besedilo = (v.naslov + ' ' + (v.naslov_orig || '') + ' ' + panogaVsebine(v) + ' ' +
       v.kanal + ' ' + (v.opis || '')).toLowerCase();
     if (!besedilo.includes(query)) return false;
   }
@@ -1257,8 +1286,9 @@ function vrsticaHtml(t) {
   const o = OZNAKE[st];
   const razred = st === 'zdaj' ? 'je-zivo' : st === 'napovedan' ? 'je-napovedan'
     : st === 'ponovitev' ? 'je-ponovitev' : '';
-  const panoga = (v.sport && !NI_PANOGA.has(v.sport))
-    ? `<span class="sp-znacka sp-z-panoga">${ubegni(v.sport)}</span>` : '';
+  const pan = panogaVsebine(v);
+  const panoga = pan
+    ? `<span class="sp-znacka sp-z-panoga">${ubegni(pan)}</span>` : '';
   const cd = st === 'napovedan' && t.datum === danesStr()
     ? `<span>${odstevanje(t.zac - zdaj())}</span>` : '';
 
@@ -1292,7 +1322,10 @@ function odpriPopup(vid) {
   else { slikaWrap.style.display = 'none'; }
 
   const znacke = [];
-  if (v.sport && !NI_PANOGA.has(v.sport)) znacke.push(`<span class="sp-znacka sp-z-panoga">${ubegni(v.sport)}</span>`);
+  const pan = panogaVsebine(v);
+  if (pan) znacke.push(`<span class="sp-znacka sp-z-panoga">${ubegni(pan)}</span>`);
+  if (jeSklepana(v)) znacke.push('<span class="sp-znacka sp-z-sklepana" ' +
+    'title="EPG panoge ni navedel; sklepana je iz naslova oziroma opisa">sklepana panoga</span>');
   if (v.kategorija && v.kategorija !== 'Šport') znacke.push(`<span class="sp-znacka sp-z-posnetek">${ubegni(v.kategorija)}</span>`);
   document.getElementById('p-znacke').innerHTML = znacke.join(' ');
 
