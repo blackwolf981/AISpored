@@ -449,6 +449,16 @@
      Filmi so oranžni (#e8702a), šport je zelen (#1fa25a). Namerno, da je
      ob preklopu veje takoj vidno, kje si. */
 
+  /* Barva veje za skupne dele (vrstica kanalov, filtrski gumbi) — glej
+     razdelek "FILTRSKA VRSTICA" v deli/_stil.css. */
+  :root {
+    --veja:           #1fa25a;
+    --veja-blaga:     #1fa25a18;
+    --veja-svetla:    #4fd18a;
+    --veja-panel:     #0f1a14;
+    --veja-panel-rob: #1f3b2c;
+  }
+
   .sp-tip { color: #1fa25a !important; }
   .sp-now { background: #1fa25a !important; }
   .header .glava-tip-btn { border-color: #2a5c40; color: #4fd18a; }
@@ -588,6 +598,13 @@
   </div>
 </div>
 
+<!-- ===== Kanali: en filter za vso stran (faza D, 24.8.2026) ===== -->
+<div class="kanali-bar" id="kanali-bar">
+  <div class="kanali-naslov">IZBERI TV KANALE</div>
+  <button class="kanali-cta" id="kanali-cta" onclick="preklopiKanalPanel()"></button>
+</div>
+<div class="kanali-panel" id="kanali-panel" style="display:none"></div>
+
 <!-- ===== ZDAJ V ŽIVO (skrito, kadar nič ne teče) ===== -->
 <div class="sp-sekcija sp-sekcija-zivo" id="zivo-sekcija" style="display:none">
   <div class="sp-sekcija-naslov sp-naslov-zivo"><span class="sp-pika"></span> Zdaj v živo</div>
@@ -620,11 +637,6 @@
   <div class="filter-row">
     <span class="filter-label">Panoga</span>
     <div class="sp-btn-skupina" id="f-panoga"></div>
-  </div>
-
-  <div class="filter-row">
-    <span class="filter-label">Kanal</span>
-    <div class="sp-btn-skupina" id="f-kanal"></div>
   </div>
 </div>
 
@@ -1009,6 +1021,7 @@ let VRSTE = [];   // vrste TV vsebine iz veje/vrste.json — za popup "Izberi dr
 let izbraniDan = null;          // 'YYYY-MM-DD'; null = vsi dnevi
 let izbranePanoge = new Set();  // prazno = vse
 let izbraniKanali = new Set();  // prazno = vsi
+let kanalPanelOdprt = false;    // vrstica kanalov na vrhu strani
 let statusFilter = 'vse';
 let query = '';
 let tikTimer = null;
@@ -1273,14 +1286,44 @@ function izrisiFiltre() {
         <span class="sp-btn-emoji" aria-hidden="true">${emojiKljuca(p)}</span>${ubegni(p)}<span class="sp-btn-stevec">${stev[p]}</span></button>`
     ).join('');
 
-  // kanali — primarni prvi
-  const kan = (META.kanali || []);
-  document.getElementById('f-kanal').innerHTML =
-    `<button class="sp-btn ${izbraniKanali.size === 0 ? 'active' : ''}" onclick="pocistiKanale()">Vsi kanali</button>` +
-    kan.map(k =>
-      `<button class="sp-btn ${izbraniKanali.has(k.ime) ? 'active' : ''}" onclick="preklopiKanal('${ubegni(k.ime)}')">
-        ${ubegni(k.ime)}</button>`
-    ).join('');
+  posodobiKanaliBar();
+}
+
+/* Kanali imajo od 24.8.2026 svojo vrstico na vrhu strani — enako obliko kot
+   filmi in serije. Stanje ostane loceno po vejah; skupna je samo oblika.
+   META.kanali je ze razvrscen (primarni kanali prvi) in vsebuje samo kanale,
+   ki v tej veji kaj imajo. Stevec so vsebine, ne termini — ista tekma je na
+   sporedu tudi 20-krat in bi stevilka lagala. */
+function posodobiKanaliBar() {
+  const stev = {};
+  Object.values(VSEBINE).forEach(v => { stev[v.kanal] = (stev[v.kanal] || 0) + 1; });
+  const kan = (META.kanali || []).filter(k => stev[k.ime]);
+  const vsi = izbraniKanali.size === 0;
+
+  const cta = document.getElementById('kanali-cta');
+  if (cta) {
+    cta.innerHTML = `IZBRANI KANALI: ${vsi ? kan.length : izbraniKanali.size}${vsi ? ' (VSI)' : ''}` +
+                    `<span class="kanali-cta-pusc">${kanalPanelOdprt ? '&#9652;' : '&#9662;'}</span>`;
+  }
+
+  const panel = document.getElementById('kanali-panel');
+  if (!panel) return;
+  panel.style.display = kanalPanelOdprt ? 'flex' : 'none';
+  panel.innerHTML =
+    `<button class="f-btn ${vsi ? 'active' : ''}" onclick="pocistiKanale()">Vsi kanali</button>` +
+    kan.map(k => {
+      const izb = izbraniKanali.has(k.ime);
+      // Zadnjega izbranega kanala ni mogoce odkliniti — sicer bi ostal prazen izbor.
+      const zadnji = izbraniKanali.size === 1 && izb;
+      return `<button class="f-btn ${izb ? 'active' : ''}${zadnji ? ' zaklenjen' : ''}"
+              ${zadnji ? 'disabled title="Vsaj en kanal mora ostati izbran"' : ''}
+              onclick="preklopiKanal('${ubegni(k.ime)}')">${ubegni(k.ime)}<span class="f-btn-stevec">${stev[k.ime]}</span></button>`;
+    }).join('');
+}
+
+function preklopiKanalPanel() {
+  kanalPanelOdprt = !kanalPanelOdprt;
+  posodobiKanaliBar();
 }
 
 function nastaviStatus(k) { statusFilter = k; izrisiFiltre(); izrisiSpored(); }
@@ -1291,7 +1334,12 @@ function preklopiPanogo(p) {
 }
 function pocistiKanale() { izbraniKanali.clear(); izrisiFiltre(); izrisiSpored(); }
 function preklopiKanal(k) {
-  izbraniKanali.has(k) ? izbraniKanali.delete(k) : izbraniKanali.add(k);
+  if (izbraniKanali.has(k)) {
+    if (izbraniKanali.size === 1) return;   // zadnji izbrani ostane
+    izbraniKanali.delete(k);
+  } else {
+    izbraniKanali.add(k);
+  }
   izrisiFiltre(); izrisiSpored();
 }
 

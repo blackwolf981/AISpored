@@ -601,6 +601,13 @@
   </div>
 </div>
 
+<!-- ===== Kanali: en filter za vso stran (faza D, 24.8.2026) ===== -->
+<div class="kanali-bar" id="kanali-bar">
+  <div class="kanali-naslov">IZBERI TV KANALE</div>
+  <button class="kanali-cta" id="kanali-cta" onclick="preklopiKanalPanel()"></button>
+</div>
+<div class="kanali-panel" id="kanali-panel" style="display:none"></div>
+
 <!-- ===== ZAČNI GLEDATI — prve epizode sezon in serij ===== -->
 <div class="se-sekcija se-sekcija-zacetki" id="zacetki-sekcija" style="display:none">
   <div class="se-sekcija-naslov">▶ Začni gledati
@@ -628,18 +635,15 @@
     <div class="se-btn-skupina" id="f-razvrsti"></div>
   </div>
 
-  <!-- Kanali in žanri sta ZAPRTA: seznama sta dolga in bi na telefonu pojedla
-       pol zaslona, čeprav ju večina ne odpre. Gumb pove, ali filter deluje. -->
+  <!-- Žanri so ZAPRTI: seznam je dolg in bi na telefonu pojedel pol zaslona,
+       čeprav ga večina ne odpre. Gumb pove, ali filter deluje. Kanali so od
+       24.8.2026 v svoji vrstici na vrhu strani — enako kot pri filmih. -->
   <div class="filter-row se-filter-vrsta">
-    <button class="se-cta" id="cta-kanali" onclick="preklopiPanel('kanali')"></button>
     <button class="se-cta" id="cta-zanri" onclick="preklopiPanel('zanri')"></button>
     <span class="se-locnica"></span>
     <div class="se-ocena-wrap" id="se-ocena"></div>
   </div>
 
-  <div class="se-panel" id="panel-kanali" style="display:none">
-    <div class="se-btn-skupina" id="f-kanal"></div>
-  </div>
   <div class="se-panel" id="panel-zanri" style="display:none">
     <div class="se-btn-skupina" id="f-zanr"></div>
   </div>
@@ -971,7 +975,8 @@ let izbraniKanali = new Set();
 let izbraniZanri = new Set();
 let imdbMin = 0;             // drsnik: najnižja IMDb ocena
 let brezOcene = false;       // izključi drsnik in pokaže samo serije brez ocene
-let odprtPanel = null;       // 'kanali' | 'zanri' | null
+let odprtPanel = null;       // 'zanri' | null
+let kanalPanelOdprt = false; // vrstica kanalov na vrhu strani
 let razvrstitev = 'ocena';
 let query = '';
 let stranIdx = 0;
@@ -1259,13 +1264,7 @@ function izrisiFiltre() {
 
   izrisiCta();
   izrisiOceno();
-
-  const kan = META.kanali || [];
-  document.getElementById('f-kanal').innerHTML =
-    `<button class="se-btn ${izbraniKanali.size === 0 ? 'active' : ''}" onclick="pocistiKanale()">Vsi kanali</button>` +
-    kan.map(k => `<button class="se-btn ${izbraniKanali.has(k.ime) ? 'active' : ''}"
-        onclick="preklopiKanal('${ubegni(k.ime)}')">${ubegni(k.ime)}<span class="se-btn-stevec">${k.serij}</span></button>`
-    ).join('');
+  posodobiKanaliBar();
 
   const zanri = (META.zanri || []).filter(z => z.ime);
   document.getElementById('f-zanr').innerHTML =
@@ -1290,8 +1289,41 @@ function izrisiCta() {
     el.innerHTML = `${ime} <span class="se-cta-stanje">${ubegni(opis(mnozica, prazno))}</span>
                     <span class="se-cta-pusc">${odprtPanel === id.replace('cta-', '') ? '▴' : '▾'}</span>`;
   };
-  gumb('cta-kanali', 'Kanali', izbraniKanali, 'vsi');
   gumb('cta-zanri', 'Žanri', izbraniZanri, 'vsi');
+}
+
+/* Kanali imajo od 24.8.2026 svojo vrstico na vrhu strani — enako obliko kot
+   filmi in sport. Stanje ostane loceno po vejah; skupna je samo oblika.
+   META.kanali ze vsebuje SAMO kanale, ki v tej veji kaj imajo, zato tu ni
+   cesa filtrirati. */
+function posodobiKanaliBar() {
+  const kan = (META.kanali || []).filter(k => k.serij);
+  const vsi = izbraniKanali.size === 0;
+
+  const cta = document.getElementById('kanali-cta');
+  if (cta) {
+    cta.innerHTML = `IZBRANI KANALI: ${vsi ? kan.length : izbraniKanali.size}${vsi ? ' (VSI)' : ''}` +
+                    `<span class="kanali-cta-pusc">${kanalPanelOdprt ? '&#9652;' : '&#9662;'}</span>`;
+  }
+
+  const panel = document.getElementById('kanali-panel');
+  if (!panel) return;
+  panel.style.display = kanalPanelOdprt ? 'flex' : 'none';
+  panel.innerHTML =
+    `<button class="f-btn ${vsi ? 'active' : ''}" onclick="pocistiKanale()">Vsi kanali</button>` +
+    kan.map(k => {
+      const izb = izbraniKanali.has(k.ime);
+      // Zadnjega izbranega kanala ni mogoce odkliniti — sicer bi ostal prazen izbor.
+      const zadnji = izbraniKanali.size === 1 && izb;
+      return `<button class="f-btn ${izb ? 'active' : ''}${zadnji ? ' zaklenjen' : ''}"
+              ${zadnji ? 'disabled title="Vsaj en kanal mora ostati izbran"' : ''}
+              onclick="preklopiKanal('${ubegni(k.ime)}')">${ubegni(k.ime)}<span class="f-btn-stevec">${k.serij}</span></button>`;
+    }).join('');
+}
+
+function preklopiKanalPanel() {
+  kanalPanelOdprt = !kanalPanelOdprt;
+  posodobiKanaliBar();
 }
 
 /* Ocena: drsnik kot na filmski strani, na koncu gumb "Brez ocene".
@@ -1313,7 +1345,7 @@ function izrisiOceno() {
 
 function preklopiPanel(kaj) {
   odprtPanel = (odprtPanel === kaj) ? null : kaj;
-  ['kanali', 'zanri'].forEach(k => {
+  ['zanri'].forEach(k => {
     const p = document.getElementById('panel-' + k);
     if (p) p.style.display = (odprtPanel === k) ? '' : 'none';
   });
@@ -1343,7 +1375,12 @@ function preklopiBrezOcene() {
 
 function pocistiKanale() { izbraniKanali.clear(); stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
 function preklopiKanal(k) {
-  izbraniKanali.has(k) ? izbraniKanali.delete(k) : izbraniKanali.add(k);
+  if (izbraniKanali.has(k)) {
+    if (izbraniKanali.size === 1) return;   // zadnji izbrani ostane
+    izbraniKanali.delete(k);
+  } else {
+    izbraniKanali.add(k);
+  }
   stranIdx = 0; izrisiFiltre(); izrisiMrezo();
 }
 function pocistiZanre() { izbraniZanri.clear(); stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
