@@ -35,10 +35,13 @@
   .global-iskanje-bar .iskanje-nacin { margin-bottom: 8px; }
   .isk-prihaja-badge { position: absolute; top: 6px; right: 6px; background: #7c83ff; color: #fff; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.5px; z-index: 2; }
 
-  .glavni-oddelek { border-top: 3px solid; margin-top: 6px; padding-bottom: 12px; }
+  .glavni-oddelek { border-top: 3px solid; margin-top: 18px; padding-bottom: 16px; }
   .oddelek-ta-teden { border-color: #e8702a; }
   .oddelek-prihajajoci { border-color: #7c83ff; }
-  .glavni-oddelek-naslov { font-size: 16px; font-weight: 700; letter-spacing: 0.4px; padding: 14px 1.5rem 8px; }
+  /* 24.8.2026 (faza E): naslova oddelkov v tiskanih crkah in z vecjim razmikom —
+     Andrej je hotel, da se na prvi pogled vidi, kje se en oddelek konca. */
+  .glavni-oddelek-naslov { font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
+                           text-transform: uppercase; padding: 18px 1.5rem 10px; }
   .oddelek-ta-teden .glavni-oddelek-naslov { color: #e8702a; }
   .oddelek-prihajajoci .glavni-oddelek-naslov { color: #a9adff; }
   .poddelek-naslov { font-size: 12px; font-weight: 700; color: #b9bdca; letter-spacing: 0.6px; text-transform: uppercase; margin-bottom: 10px; }
@@ -620,16 +623,21 @@
   </div>
 </div>
 
-<!-- ===== Iskanje in filtri ===== -->
-<div class="se-filtri">
-  <div class="iskanje-bar se-isk">
-    <div class="iskanje-input-wrap">
-      <input type="text" class="iskanje-input" id="se-iskanje"
-             placeholder="Išči serijo, epizodo, igralca v opisu…" oninput="onIskanje()">
-      <button class="iskanje-clear" id="se-iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
-    </div>
+<!-- ===== Iskalnik: enaka oblika in mesto kot pri filmih (faza E, 24.8.2026) ===== -->
+<div class="global-iskanje-bar">
+  <div class="iskanje-nacin">
+    <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
+    <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
   </div>
+  <div class="iskanje-input-wrap">
+    <input type="text" class="iskanje-input" id="se-iskanje"
+           placeholder="Išči serijo po naslovu…" oninput="onIskanje()">
+    <button class="iskanje-clear" id="se-iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
+  </div>
+</div>
 
+<!-- ===== Filtri ===== -->
+<div class="se-filtri">
   <div class="filter-row">
     <span class="filter-label">Razvrsti</span>
     <div class="se-btn-skupina" id="f-razvrsti"></div>
@@ -979,6 +987,7 @@ let odprtPanel = null;       // 'zanri' | null
 let kanalPanelOdprt = false; // vrstica kanalov na vrhu strani
 let razvrstitev = 'ocena';
 let query = '';
+let iskanjeNacin = 'naziv';  // 'naziv' | 'vse' — enako kot pri filmih
 let stranIdx = 0;
 let odprtaSerija = null;
 let odprteSezone = new Set();
@@ -1389,6 +1398,18 @@ function preklopiZanr(z) {
   stranIdx = 0; izrisiFiltre(); izrisiMrezo();
 }
 
+/* Nacin iskanja — enaka dva gumba kot pri filmih. Privzeto "Samo naziv":
+   iskanje po opisih vrne prevec sirok rezultat, kdor ga hoce, ga vklopi. */
+function izberIskanjeNacin(nacin) {
+  iskanjeNacin = nacin;
+  document.getElementById('iskanje-btn-naziv').classList.toggle('active', nacin === 'naziv');
+  document.getElementById('iskanje-btn-vse').classList.toggle('active', nacin === 'vse');
+  document.getElementById('se-iskanje').placeholder =
+    nacin === 'naziv' ? 'Išči serijo po naslovu…' : 'Išči serijo, epizodo, igralca v opisu…';
+  stranIdx = 0;
+  izrisiMrezo();
+}
+
 function onIskanje() {
   query = document.getElementById('se-iskanje').value.trim().toLowerCase();
   document.getElementById('se-iskanje-clear').style.display = query ? '' : 'none';
@@ -1412,13 +1433,19 @@ function pocistiIskanje() {
    epizod — kdor se spomni samo epizode ("Striptizeta"), mora najti serijo. */
 function besediloSerije(sid) {
   const s = SERIJE[sid];
-  const deli = [s.naslov, s.naslov_sl, s.naslov_tmdb, (s.zanr || []).join(' '),
-                (s.kanali || []).join(' '), s.opis || ''];
+  // "Samo naziv" isce po imenih serije — treh, ker je isto ime lahko izvirno,
+  // slovensko ali s TMDb. Naslovi EPIZOD sodijo sem, ker se gledalec pogosto
+  // spomni samo epizode ("Striptizeta") in mora tako najti serijo.
+  const imena = [s.naslov, s.naslov_sl, s.naslov_tmdb];
   (EPIZODE_SER[sid] || []).forEach(eid => {
     const e = EPIZODE[eid];
-    deli.push(e.naslov, e.naslov_sl);
+    imena.push(e.naslov, e.naslov_sl);
   });
-  return deli.join(' ').toLowerCase();
+  if (iskanjeNacin === 'naziv') return imena.join(' ').toLowerCase();
+
+  return imena.concat([(s.zanr || []).join(' '),
+                       (s.kanali || []).join(' '),
+                       s.opis || '']).join(' ').toLowerCase();
 }
 
 function ustreza(sid) {

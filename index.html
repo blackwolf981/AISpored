@@ -35,10 +35,13 @@
   .global-iskanje-bar .iskanje-nacin { margin-bottom: 8px; }
   .isk-prihaja-badge { position: absolute; top: 6px; right: 6px; background: #7c83ff; color: #fff; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.5px; z-index: 2; }
 
-  .glavni-oddelek { border-top: 3px solid; margin-top: 6px; padding-bottom: 12px; }
+  .glavni-oddelek { border-top: 3px solid; margin-top: 18px; padding-bottom: 16px; }
   .oddelek-ta-teden { border-color: #e8702a; }
   .oddelek-prihajajoci { border-color: #7c83ff; }
-  .glavni-oddelek-naslov { font-size: 16px; font-weight: 700; letter-spacing: 0.4px; padding: 14px 1.5rem 8px; }
+  /* 24.8.2026 (faza E): naslova oddelkov v tiskanih crkah in z vecjim razmikom —
+     Andrej je hotel, da se na prvi pogled vidi, kje se en oddelek konca. */
+  .glavni-oddelek-naslov { font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
+                           text-transform: uppercase; padding: 18px 1.5rem 10px; }
   .oddelek-ta-teden .glavni-oddelek-naslov { color: #e8702a; }
   .oddelek-prihajajoci .glavni-oddelek-naslov { color: #a9adff; }
   .poddelek-naslov { font-size: 12px; font-weight: 700; color: #b9bdca; letter-spacing: 0.6px; text-transform: uppercase; margin-bottom: 10px; }
@@ -495,7 +498,7 @@
 
 <!-- ===== GLAVNI ODDELEK 1: NA SPOREDU TA TEDEN ===== -->
 <div class="glavni-oddelek oddelek-ta-teden" id="oddelek-ta-teden">
-  <div class="glavni-oddelek-naslov">📺 Na sporedu ta teden</div>
+  <div class="glavni-oddelek-naslov">📺 NA SPOREDU TA TEDEN</div>
 
   <!-- Časovnica oddelka: teden nazaj + danes. Velja za TOP 15 in za mrežo. -->
   <div class="dnevni-trak-bar trak-ta" id="dnevni-trak">
@@ -541,7 +544,7 @@
 
 <!-- ===== GLAVNI ODDELEK 2: PRIHAJAJOČI — DRUG TEDEN ===== -->
 <div class="glavni-oddelek oddelek-prihajajoci" id="prihajajoci-sekcija">
-  <div class="glavni-oddelek-naslov">🔜 Prihajajoči — drug teden</div>
+  <div class="glavni-oddelek-naslov">🔜 PRIHAJAJOČI — DRUG TEDEN</div>
 
   <!-- Časovnica oddelka: teden naprej. Modra, da se ne zamenja z zgornjo. -->
   <div class="dnevni-trak-bar trak-prih" id="dnevni-trak-prih">
