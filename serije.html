@@ -320,6 +320,60 @@
   .tip-popup-veja:hover { background: #10281c; color: #6fe0a0; }
   .tip-popup-veja::after { content: '↗'; float: right; opacity: 0.6; }
 
+  /* =============================================================================
+     FILTRSKA VRSTICA — skupna filmski in serijski veji   (faza A, 24.8.2026)
+     =============================================================================
+     Ta slog je prej zivel samo v `veje/serije/stil.css` s trdo vpisano vijolicno.
+     Zdaj je tu enkrat, barvo veje pa nosi spremenljivka: privzete vrednosti so
+     filmske (oranzna), serijska datoteka jih povozi z vijolicnimi.
+
+     Dvojni selektor `.f-*, .se-*` je namenoma: serijska imena razredov ostanejo
+     nedotaknjena, zato 57 testov serijske veje ne ve, da se je kaj premaknilo.
+     ========================================================================== */
+  :root {
+    --veja:           #e8702a;   /* poudarek veje */
+    --veja-blaga:     #e8702a18; /* isti poudarek, komaj viden — ozadje odprtega gumba */
+    --veja-svetla:    #e8702a;   /* barva stevilke ob drsniku */
+    --veja-panel:     #13161f;   /* ozadje odprtega panela */
+    --veja-panel-rob: #1e2130;
+  }
+
+  .f-filtri { display: flex; flex-direction: column; gap: 8px; }
+
+  .f-btn-skupina, .se-btn-skupina { display: flex; flex-wrap: wrap; gap: 6px; }
+  .f-btn, .se-btn { padding: 5px 11px; border-radius: 16px; border: 1px solid #2e3148; background: transparent;
+            color: #aaa; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .f-btn:hover, .se-btn:hover { border-color: var(--veja); color: #fff; }
+  .f-btn.active, .se-btn.active { background: var(--veja); border-color: var(--veja); color: #fff; font-weight: 600; }
+  .f-btn-stevec, .se-btn-stevec { font-size: 10px; color: inherit; opacity: 0.65; margin-left: 5px; }
+
+  /* Zaprt filter: gumb pove ime, stanje in smer puscice — sicer bi uporabnik
+     gledal skrajsan seznam in ne bi vedel, zakaj. */
+  .f-filter-vrsta, .se-filter-vrsta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .f-cta, .se-cta { display: inline-flex; align-items: center; gap: 6px; padding: 6px 13px;
+            border-radius: 18px; border: 1px solid #2e3148; background: transparent;
+            color: #cfd3e0; font-size: 12.5px; font-weight: 600; cursor: pointer;
+            transition: all 0.15s; }
+  .f-cta:hover, .se-cta:hover { border-color: var(--veja); color: #fff; }
+  .f-cta.odprt, .se-cta.odprt { border-color: var(--veja); background: var(--veja-blaga); color: #fff; }
+  .f-cta.active, .se-cta.active { border-color: var(--veja); background: var(--veja); color: #fff; }
+  .f-cta-stanje, .se-cta-stanje { font-size: 11px; font-weight: 400; opacity: 0.75; }
+  .f-cta-pusc, .se-cta-pusc { font-size: 9px; opacity: 0.7; }
+  .f-locnica, .se-locnica { width: 1px; height: 20px; background: #2a2e3d; }
+
+  .f-panel, .se-panel { border: 1px solid var(--veja-panel-rob); border-radius: 8px; background: var(--veja-panel);
+              padding: 10px; max-height: 190px; overflow-y: auto; }
+
+  /* Ocena: cipa za lestvico, drsnik, na koncu samostojen gumb "Brez ocene". */
+  .f-ocena-wrap, .se-ocena-wrap { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .f-ocena-wrap .slider-wrap, .se-ocena-wrap .slider-wrap { display: flex; align-items: center; gap: 8px; }
+  .f-ocena-wrap .slider-wrap.onemogocen, .se-ocena-wrap .slider-wrap.onemogocen { opacity: 0.4; }
+  .f-slider-ime, .se-slider-ime { font-size: 11px; color: #6f6a86; }
+  .f-ocena-wrap input[type=range], .se-ocena-wrap input[type=range] { width: 130px; flex: 0 0 auto; accent-color: var(--veja); }
+  .f-ocena-wrap .slider-val, .se-ocena-wrap .slider-val { font-size: 12px; font-weight: 700; color: var(--veja-svetla); min-width: 34px; }
+  /* Napis "Razvrsti"/"Ocena" v tej vrstici ne rabi fiksne sirine kot v starem filtru. */
+  .f-filter-vrsta .filter-label, .f-ocena-wrap .filter-label { width: auto; flex-shrink: 0; }
+
   /* ===========================================================================
      IZBORNIK VSEBIN v glavi — skupen za vse strani
      ===========================================================================
@@ -417,37 +471,17 @@
   .se-sekcija-zacetki .pas-ovoj { --pas-ozadje: #12101c; --pas-poudarek: #7a4fd0; }
 
   /* ---- Filtri ---- */
+  /* 24.8.2026 (faza A): slog gumbov, zaprtih panelov in ocene je preseljen v
+     `deli/_stil.css` pod dvojni selektor `.f-*, .se-*`, ker isto vrstico dobi
+     tudi filmska veja. Tu ostaneta samo postavitev vrstice in barva veje. */
+  :root {
+    --veja:           #7a4fd0;
+    --veja-blaga:     #7a4fd018;
+    --veja-svetla:    #c9aef5;
+    --veja-panel:     #12101c;
+    --veja-panel-rob: #2a2340;
+  }
   .se-filtri { padding: 12px 1.5rem; border-bottom: 1px solid #1e2130; display: flex; flex-direction: column; gap: 8px; }
-  .se-btn-skupina { display: flex; flex-wrap: wrap; gap: 6px; }
-  .se-btn { padding: 5px 11px; border-radius: 16px; border: 1px solid #2e3148; background: transparent;
-            color: #aaa; font-size: 12px; cursor: pointer; transition: all 0.15s; }
-  .se-btn:hover { border-color: #7a4fd0; color: #fff; }
-  .se-btn.active { background: #7a4fd0; border-color: #7a4fd0; color: #fff; font-weight: 600; }
-  .se-btn-stevec { font-size: 10px; color: inherit; opacity: 0.65; margin-left: 5px; }
-
-  /* Zaprta filtra: gumb pove ime, stanje in smer puščice. */
-  .se-filter-vrsta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .se-cta { display: inline-flex; align-items: center; gap: 6px; padding: 6px 13px;
-            border-radius: 18px; border: 1px solid #2e3148; background: transparent;
-            color: #cfd3e0; font-size: 12.5px; font-weight: 600; cursor: pointer;
-            transition: all 0.15s; }
-  .se-cta:hover { border-color: #7a4fd0; color: #fff; }
-  .se-cta.odprt { border-color: #7a4fd0; background: #7a4fd018; color: #fff; }
-  .se-cta.active { border-color: #7a4fd0; background: #7a4fd0; color: #fff; }
-  .se-cta-stanje { font-size: 11px; font-weight: 400; opacity: 0.75; }
-  .se-cta-pusc { font-size: 9px; opacity: 0.7; }
-  .se-locnica { width: 1px; height: 20px; background: #2a2e3d; }
-
-  .se-panel { border: 1px solid #2a2340; border-radius: 8px; background: #12101c;
-              padding: 10px; max-height: 190px; overflow-y: auto; }
-
-  /* Ocena: drsnik kot na filmski strani + gumb "Brez ocene" na koncu. */
-  .se-ocena-wrap { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .se-ocena-wrap .slider-wrap { display: flex; align-items: center; gap: 8px; }
-  .se-ocena-wrap .slider-wrap.onemogocen { opacity: 0.4; }
-  .se-slider-ime { font-size: 11px; color: #6f6a86; }
-  .se-ocena-wrap input[type=range] { width: 130px; accent-color: #7a4fd0; }
-  .se-ocena-wrap .slider-val { font-size: 12px; font-weight: 700; color: #c9aef5; min-width: 34px; }
 
   /* ---- Kartica serije ---- */
   .se-kartica { position: relative; background: #13161f; border: 1px solid #1e2130; border-radius: 8px;

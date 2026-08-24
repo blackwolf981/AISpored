@@ -320,6 +320,60 @@
   .tip-popup-veja:hover { background: #10281c; color: #6fe0a0; }
   .tip-popup-veja::after { content: '↗'; float: right; opacity: 0.6; }
 
+  /* =============================================================================
+     FILTRSKA VRSTICA — skupna filmski in serijski veji   (faza A, 24.8.2026)
+     =============================================================================
+     Ta slog je prej zivel samo v `veje/serije/stil.css` s trdo vpisano vijolicno.
+     Zdaj je tu enkrat, barvo veje pa nosi spremenljivka: privzete vrednosti so
+     filmske (oranzna), serijska datoteka jih povozi z vijolicnimi.
+
+     Dvojni selektor `.f-*, .se-*` je namenoma: serijska imena razredov ostanejo
+     nedotaknjena, zato 57 testov serijske veje ne ve, da se je kaj premaknilo.
+     ========================================================================== */
+  :root {
+    --veja:           #e8702a;   /* poudarek veje */
+    --veja-blaga:     #e8702a18; /* isti poudarek, komaj viden — ozadje odprtega gumba */
+    --veja-svetla:    #e8702a;   /* barva stevilke ob drsniku */
+    --veja-panel:     #13161f;   /* ozadje odprtega panela */
+    --veja-panel-rob: #1e2130;
+  }
+
+  .f-filtri { display: flex; flex-direction: column; gap: 8px; }
+
+  .f-btn-skupina, .se-btn-skupina { display: flex; flex-wrap: wrap; gap: 6px; }
+  .f-btn, .se-btn { padding: 5px 11px; border-radius: 16px; border: 1px solid #2e3148; background: transparent;
+            color: #aaa; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .f-btn:hover, .se-btn:hover { border-color: var(--veja); color: #fff; }
+  .f-btn.active, .se-btn.active { background: var(--veja); border-color: var(--veja); color: #fff; font-weight: 600; }
+  .f-btn-stevec, .se-btn-stevec { font-size: 10px; color: inherit; opacity: 0.65; margin-left: 5px; }
+
+  /* Zaprt filter: gumb pove ime, stanje in smer puscice — sicer bi uporabnik
+     gledal skrajsan seznam in ne bi vedel, zakaj. */
+  .f-filter-vrsta, .se-filter-vrsta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .f-cta, .se-cta { display: inline-flex; align-items: center; gap: 6px; padding: 6px 13px;
+            border-radius: 18px; border: 1px solid #2e3148; background: transparent;
+            color: #cfd3e0; font-size: 12.5px; font-weight: 600; cursor: pointer;
+            transition: all 0.15s; }
+  .f-cta:hover, .se-cta:hover { border-color: var(--veja); color: #fff; }
+  .f-cta.odprt, .se-cta.odprt { border-color: var(--veja); background: var(--veja-blaga); color: #fff; }
+  .f-cta.active, .se-cta.active { border-color: var(--veja); background: var(--veja); color: #fff; }
+  .f-cta-stanje, .se-cta-stanje { font-size: 11px; font-weight: 400; opacity: 0.75; }
+  .f-cta-pusc, .se-cta-pusc { font-size: 9px; opacity: 0.7; }
+  .f-locnica, .se-locnica { width: 1px; height: 20px; background: #2a2e3d; }
+
+  .f-panel, .se-panel { border: 1px solid var(--veja-panel-rob); border-radius: 8px; background: var(--veja-panel);
+              padding: 10px; max-height: 190px; overflow-y: auto; }
+
+  /* Ocena: cipa za lestvico, drsnik, na koncu samostojen gumb "Brez ocene". */
+  .f-ocena-wrap, .se-ocena-wrap { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .f-ocena-wrap .slider-wrap, .se-ocena-wrap .slider-wrap { display: flex; align-items: center; gap: 8px; }
+  .f-ocena-wrap .slider-wrap.onemogocen, .se-ocena-wrap .slider-wrap.onemogocen { opacity: 0.4; }
+  .f-slider-ime, .se-slider-ime { font-size: 11px; color: #6f6a86; }
+  .f-ocena-wrap input[type=range], .se-ocena-wrap input[type=range] { width: 130px; flex: 0 0 auto; accent-color: var(--veja); }
+  .f-ocena-wrap .slider-val, .se-ocena-wrap .slider-val { font-size: 12px; font-weight: 700; color: var(--veja-svetla); min-width: 34px; }
+  /* Napis "Razvrsti"/"Ocena" v tej vrstici ne rabi fiksne sirine kot v starem filtru. */
+  .f-filter-vrsta .filter-label, .f-ocena-wrap .filter-label { width: auto; flex-shrink: 0; }
+
   /* ===========================================================================
      IZBORNIK VSEBIN v glavi — skupen za vse strani
      ===========================================================================
@@ -484,7 +538,7 @@
     <div class="poddelek-naslov">Vsi prihajajoči filmi</div>
     <div id="prih-placeholder"><button class="prikazi-vse-btn prih-btn" id="prih-prikazi-btn" onclick="odpriPrihMrezo()">Prikaži vse prihajajoče filme</button></div>
     <div id="prih-vsebina" style="display:none">
-      <div class="filter-bar" id="prih-filter"></div>
+      <div class="filter-bar"><div class="filter-nivo2-wrap active" id="prih-filter"></div></div>
       <div class="rezultati-info" id="prih-rezultati-info"></div>
       <div id="prih-rezultati"></div>
     </div>
@@ -1313,87 +1367,229 @@ function osveziVejeNav() {
   izrisiVejeNav(VRSTE, aktivniTip, filmskiTipiZaNav());
 }
 
-// ===== POENOTEN FILTER (ocena + žanr) za oba oddelka: 'ta' (ta teden) in 'prih' (prihajajoči) =====
+// ===== POENOTEN FILTER (razvrsti + zanr + ocena) za oba oddelka =====
+// 24.8.2026, faza A: vrstica je dobila obliko serijske strani — cipi za
+// razvrstitev, zanri v zaprtem panelu, ocena kot IMDb/RT cipa + drsnik +
+// samostojen gumb "Brez ocene".
+//
+// PAST: oba oddelka sta na ISTI strani, zato vsi ID-ji nosijo pripono kljuca
+// ('panel-zanri-ta' / 'panel-zanri-prih'). Serijska koda ima fiksne ID-je, ker
+// ima samo en filter; dobesedna kopija bi tu pisala oba filtra v isti element.
 const FILTRI = {
   ta: {
     containerId: 'ta-filter',
-    ocenaTip: 'imdb', imdbMin: 0, rtMin: 0, zanri: new Set(),
+    ocenaTip: 'imdb', imdbMin: 0, rtMin: 0, brezOcene: false,
+    zanri: new Set(), razvrsti: 'ocena', odprtPanel: null,
+    casKljuc: 'iztek',
     filmi: () => deduplicirani.filter(o => (o.kategorija || 'Drugo') === aktivniTip && jeVIzbranihDnevih(o)),
     izris: () => prikaziRezultate(),
   },
   prih: {
     containerId: 'prih-filter',
-    ocenaTip: 'imdb', imdbMin: 0, rtMin: 0, zanri: new Set(),
+    ocenaTip: 'imdb', imdbMin: 0, rtMin: 0, brezOcene: false,
+    zanri: new Set(), razvrsti: 'ocena', odprtPanel: null,
+    casKljuc: 'kmalu',
     filmi: () => prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === aktivniTip),
     izris: () => prikaziPrihRezultate(),
   },
 };
 
-// Ali film ustreza ocenskemu filtru (isti za oba oddelka)
-function ocenaUstreza(o, st) {
+// Casovna razvrstitev meri v vsakem oddelku nekaj drugega. "Ta teden" gleda,
+// kdaj filmu potece ZADNJA priloznost; v prihajajocem oddelku je vse sele v
+// prihodnosti, zato tam isti gumb meri PRVI termin — sicer bi gumb lagal.
+const CAS_NAPIS = { iztek: 'Zadnja priložnost', kmalu: 'Kmalu na sporedu' };
+
+function razvrstitveZa(st) {
+  const oc = st.ocenaTip === 'rt' ? 'Najboljše ocenjene (RT)' : 'Najboljše ocenjene';
+  return [['ocena', oc], ['abeceda', 'Po abecedi'], [st.casKljuc, CAS_NAPIS[st.casKljuc]]];
+}
+
+// Ocena filma kot stevilo; null, ce je nima.
+function ocenaStevilo(o, tip) {
   const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
-  if (st.ocenaTip === 'rt') {
-    if (st.rtMin <= 0) return true;
-    if (!b || !b.rt_ocena) return false;
-    const rt = parseInt(String(b.rt_ocena).replace('%', ''));
-    return !isNaN(rt) && rt >= st.rtMin;
+  if (!b) return null;
+  if (tip === 'rt') {
+    const rt = parseInt(String(b.rt_ocena || '').replace('%', ''));
+    return isNaN(rt) ? null : rt;
   }
-  if (st.ocenaTip === 'brez_ocene') {
+  const im = parseFloat(b.imdb_ocena);
+  return isNaN(im) ? null : im;
+}
+
+// Prvi oz. zadnji termin, ki je se v prihodnosti. Infinity, ce ga ni.
+function casPrihodnjegaTermina(o, kateri) {
+  const zdaj = Date.now();
+  let best = null;
+  (o._termini || []).forEach(t => {
+    if (!t.datum) return;
+    const dt = new Date(`${t.datum}T${(t.cas || '00:00')}:00`).getTime();
+    if (isNaN(dt) || dt < zdaj) return;
+    if (best === null) best = dt;
+    else best = (kateri === 'zadnji') ? Math.max(best, dt) : Math.min(best, dt);
+  });
+  return best === null ? Infinity : best;
+}
+
+// Ali film ustreza ocenskemu filtru (isti za oba oddelka).
+// "Brez ocene" pomeni brez IMDb IN brez RT — ne "brez tiste, ki je kliknjena".
+// Andrejeva izrecna izbira 24.8.2026; takih filmov je 31 od 2502.
+function ocenaUstreza(o, st) {
+  if (st.brezOcene) {
+    const b = poisciVBazi(o.naslov_sl, o.naslov_orig, o.leto);
     return !b || (!b.imdb_ocena && !b.rt_ocena);
   }
-  // privzeto IMDB: 0 = vse (tudi brez ocene), >0 = filtriraj po IMDB
-  if (st.imdbMin <= 0) return true;
-  return b && b.imdb_ocena && parseFloat(b.imdb_ocena) >= st.imdbMin;
+  if (st.ocenaTip === 'rt') {
+    if (st.rtMin <= 0) return true;
+    const rt = ocenaStevilo(o, 'rt');
+    return rt !== null && rt >= st.rtMin;
+  }
+  if (st.imdbMin <= 0) return true;      // 0 = vse, tudi brez ocene
+  const im = ocenaStevilo(o, 'imdb');
+  return im !== null && im >= st.imdbMin;
 }
 
 function zanrUstreza(o, st) {
   return st.zanri.size === 0 || (o.zanr || []).some(z => st.zanri.has(z));
 }
 
-// Izriši filter meni (ocena + žanr) za dani oddelek ('ta' ali 'prih')
+/* Razvrstitev mreze. Po oceni je DVOSTOPENJSKA: najprej izbrana ocena, za njo
+   IMDb, sele na koncu abeceda. Izmerjeno 24.8.2026 na 2502 filmih: IMDb ima
+   98 % filmov, RT 52 %, brez obeh jih je 31. Enostopenjska razvrstitev bi pri
+   RT cipu vrgla pol seznama v abecedni rep, vkljucno s filmi z IMDb 8,7. */
+function urejeniFilmi(seznam, st) {
+  const arr = seznam.slice();
+  const abc = (a, b) => (a.naslov_sl || '').localeCompare(b.naslov_sl || '', 'sl');
+
+  if (st.razvrsti === 'abeceda') return arr.sort(abc);
+
+  if (st.razvrsti === 'ocena') {
+    const kljuc = new Map();
+    arr.forEach(o => {
+      const prim = ocenaStevilo(o, st.ocenaTip);
+      const imdb = ocenaStevilo(o, 'imdb');
+      kljuc.set(o, [prim === null ? 1 : 0, prim === null ? 0 : -prim,
+                    imdb === null ? 1 : 0, imdb === null ? 0 : -imdb]);
+    });
+    return arr.sort((a, b) => {
+      const ka = kljuc.get(a), kb = kljuc.get(b);
+      for (let i = 0; i < ka.length; i++) if (ka[i] !== kb[i]) return ka[i] - kb[i];
+      return abc(a, b);
+    });
+  }
+
+  // 'iztek' (ta teden) oz. 'kmalu' (prihajajoci)
+  const kateri = st.razvrsti === 'iztek' ? 'zadnji' : 'prvi';
+  const cas = new Map();
+  arr.forEach(o => cas.set(o, casPrihodnjegaTermina(o, kateri)));
+  return arr.sort((a, b) => {
+    const ca = cas.get(a), cb = cas.get(b);
+    if (ca !== cb) return ca < cb ? -1 : 1;   // Infinity - Infinity = NaN, zato primerjava
+    return abc(a, b);
+  });
+}
+
+// Izrisi filter meni za dani oddelek ('ta' ali 'prih')
 function izrisiFilterMenu(key) {
   const st = FILTRI[key];
   const cont = document.getElementById(st.containerId);
   if (!cont) return;
-  const zanri = [...new Set(st.filmi().flatMap(o => o.zanr || []).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'sl'));
+
+  const stevci = {};
+  st.filmi().forEach(o => (o.zanr || []).forEach(z => { if (z) stevci[z] = (stevci[z] || 0) + 1; }));
+  const zanri = Object.keys(stevci).sort((a, b) => a.localeCompare(b, 'sl'));
   [...st.zanri].forEach(z => { if (!zanri.includes(z)) st.zanri.delete(z); });
+
   const esc = s => String(s).replace(/'/g, "\\'");
+  const odprt = st.odprtPanel === 'zanri';
+  const stanjeZanrov = st.zanri.size === 0 ? 'vsi'
+    : (st.zanri.size === 1 ? [...st.zanri][0] : st.zanri.size + ' izbranih');
+
+  const drsnik = st.ocenaTip === 'rt'
+    ? { min: 0, max: 100, step: 5, val: st.rtMin, napis: st.rtMin > 0 ? st.rtMin + '%+' : 'vse' }
+    : { min: 0, max: 10, step: 0.5, val: st.imdbMin, napis: st.imdbMin > 0 ? st.imdbMin + '+' : 'vse' };
+
   cont.innerHTML = `
-    <div class="filtriraj-naslov"><span class="ft-tip">${aktivniTip || 'Film'}</span> · FILTRIRAJ: ocena in žanr</div>
-    <div class="filter-sekcija">
-      <div class="filter-sekcija-label">Ocena</div>
-      <div class="ocena-toggle">
-        <button class="ocena-toggle-btn ${st.ocenaTip === 'imdb' ? 'active' : ''}" onclick="filterOcena('${key}','imdb')">IMDB</button>
-        <button class="ocena-toggle-btn ${st.ocenaTip === 'rt' ? 'active' : ''}" onclick="filterOcena('${key}','rt')">Rotten Tomatoes</button>
-        <button class="ocena-toggle-btn ${st.ocenaTip === 'brez_ocene' ? 'active' : ''}" onclick="filterOcena('${key}','brez_ocene')">Brez ocene</button>
+    <div class="f-filtri">
+      <div class="f-filter-vrsta">
+        <span class="filter-label">Razvrsti</span>
+        <div class="f-btn-skupina">
+          ${razvrstitveZa(st).map(([k, t]) =>
+            `<button class="f-btn ${st.razvrsti === k ? 'active' : ''}" onclick="filterRazvrsti('${key}','${k}')">${t}</button>`).join('')}
+        </div>
       </div>
-      ${st.ocenaTip === 'imdb' ? `<div class="slider-wrap active"><span style="font-size:12px;color:#666;width:40px">IMDB</span><input type="range" min="0" max="10" step="0.5" value="${st.imdbMin}" oninput="filterSlider('${key}','imdb',this.value)"><span class="slider-val">${st.imdbMin}+</span></div>` : ''}
-      ${st.ocenaTip === 'rt' ? `<div class="slider-wrap active"><span style="font-size:12px;color:#666;width:40px">RT</span><input type="range" min="0" max="100" step="5" value="${st.rtMin}" oninput="filterSlider('${key}','rt',this.value)"><span class="slider-val">${st.rtMin}%+</span></div>` : ''}
-      ${st.ocenaTip === 'brez_ocene' ? `<div style="font-size:11px;color:#666">Prikazani samo filmi brez IMDB in brez Rotten Tomatoes ocene.</div>` : ''}
-    </div>
-    <div class="filter-sekcija">
-      <div class="filter-sekcija-label">Žanr</div>
-      <div class="filter-row" style="margin-bottom:0">
-        <button class="filter-btn reset ${st.zanri.size === 0 ? 'active' : ''}" onclick="filterResetZanr('${key}')">Vsi žanri</button>
-        ${zanri.map(z => `<button class="filter-btn ${st.zanri.has(z) ? 'active' : ''}" onclick="filterToggleZanr('${key}','${esc(z)}')">${z}</button>`).join('')}
+
+      <div class="f-filter-vrsta">
+        <button class="f-cta ${st.zanri.size ? 'active' : ''}${odprt ? ' odprt' : ''}"
+                onclick="preklopiPanel('${key}','zanri')">Žanri
+          <span class="f-cta-stanje">${ubegniHtml(stanjeZanrov)}</span>
+          <span class="f-cta-pusc">${odprt ? '&#9652;' : '&#9662;'}</span></button>
+        <span class="f-locnica"></span>
+        <div class="f-ocena-wrap">
+          <span class="filter-label">Ocena</span>
+          <button class="f-btn ${st.ocenaTip === 'imdb' ? 'active' : ''}" onclick="filterOcena('${key}','imdb')">IMDb</button>
+          <button class="f-btn ${st.ocenaTip === 'rt' ? 'active' : ''}" onclick="filterOcena('${key}','rt')">RT</button>
+          <div class="slider-wrap active${st.brezOcene ? ' onemogocen' : ''}">
+            <input type="range" min="${drsnik.min}" max="${drsnik.max}" step="${drsnik.step}" value="${drsnik.val}"
+                   ${st.brezOcene ? 'disabled' : ''} oninput="filterSlider('${key}', this.value)">
+            <span class="slider-val">${drsnik.napis}</span>
+          </div>
+          <button class="f-btn ${st.brezOcene ? 'active' : ''}" onclick="filterBrezOcene('${key}')">Brez ocene</button>
+        </div>
+      </div>
+
+      <div class="f-panel" id="panel-zanri-${key}" style="display:${odprt ? '' : 'none'}">
+        <div class="f-btn-skupina">
+          <button class="f-btn ${st.zanri.size === 0 ? 'active' : ''}" onclick="filterResetZanr('${key}')">Vsi žanri</button>
+          ${zanri.map(z => `<button class="f-btn ${st.zanri.has(z) ? 'active' : ''}" onclick="filterToggleZanr('${key}','${esc(z)}')">${ubegniHtml(z)}<span class="f-btn-stevec">${stevci[z]}</span></button>`).join('')}
+        </div>
       </div>
     </div>`;
 }
 
-function filterOcena(key, tip) { FILTRI[key].ocenaTip = tip; izrisiFilterMenu(key); FILTRI[key].izris(); }
-function filterSlider(key, tip, v) {
+// Vsaka sprememba filtra vrne oddelek na prvo stran — sicer bi ostal na strani 7
+// seznama, ki ima po novem tri zadetke.
+function naPrvoStran(key) { if (key === 'ta') trenutnaStran = 1; else p_stran = 1; }
+
+function filterRazvrsti(key, k) { FILTRI[key].razvrsti = k; naPrvoStran(key); izrisiFilterMenu(key); FILTRI[key].izris(); }
+function filterOcena(key, tip) { const st = FILTRI[key]; st.ocenaTip = tip; st.brezOcene = false; naPrvoStran(key); izrisiFilterMenu(key); st.izris(); }
+function filterBrezOcene(key) {
+  const st = FILTRI[key];
+  st.brezOcene = !st.brezOcene;
+  if (st.brezOcene) { st.imdbMin = 0; st.rtMin = 0; }
+  naPrvoStran(key); izrisiFilterMenu(key); st.izris();
+}
+// Med vlecenjem drsnika se filter NE prerisuje — osvezi se samo stevilka ob njem.
+// Sicer bi se element pod prstom sproti na novo ustvarjal in vlecenje bi se trgalo.
+function filterSlider(key, v) {
   const st = FILTRI[key];
   const cont = document.getElementById(st.containerId);
-  if (tip === 'imdb') { st.imdbMin = parseFloat(v); const el = cont.querySelector('.slider-val'); if (el) el.textContent = st.imdbMin + '+'; }
-  else { st.rtMin = parseInt(v); const el = cont.querySelector('.slider-val'); if (el) el.textContent = st.rtMin + '%+'; }
+  if (st.ocenaTip === 'rt') st.rtMin = parseInt(v); else st.imdbMin = parseFloat(v);
+  const el = cont && cont.querySelector('.slider-val');
+  if (el) el.textContent = st.ocenaTip === 'rt'
+    ? (st.rtMin > 0 ? st.rtMin + '%+' : 'vse')
+    : (st.imdbMin > 0 ? st.imdbMin + '+' : 'vse');
+  naPrvoStran(key);
   st.izris();
 }
-function filterResetZanr(key) { FILTRI[key].zanri.clear(); izrisiFilterMenu(key); FILTRI[key].izris(); }
-function filterToggleZanr(key, z) { const s = FILTRI[key].zanri; if (s.has(z)) s.delete(z); else s.add(z); izrisiFilterMenu(key); FILTRI[key].izris(); }
+function filterResetZanr(key) { FILTRI[key].zanri.clear(); naPrvoStran(key); izrisiFilterMenu(key); FILTRI[key].izris(); }
+function filterToggleZanr(key, z) {
+  const s = FILTRI[key].zanri;
+  s.has(z) ? s.delete(z) : s.add(z);
+  naPrvoStran(key); izrisiFilterMenu(key); FILTRI[key].izris();
+}
+function preklopiPanel(key, kaj) {
+  const st = FILTRI[key];
+  st.odprtPanel = (st.odprtPanel === kaj) ? null : kaj;
+  izrisiFilterMenu(key);
+}
 
-// Ponastavi filtre obeh oddelkov (privzeto IMDB 0 = vse, brez žanrov)
+// Ponastavi filtre obeh oddelkov (privzeto IMDb 0 = vse, brez zanrov, po oceni)
 function ponastaviFiltre() {
-  ['ta', 'prih'].forEach(k => { FILTRI[k].ocenaTip = 'imdb'; FILTRI[k].imdbMin = 0; FILTRI[k].rtMin = 0; FILTRI[k].zanri.clear(); });
+  ['ta', 'prih'].forEach(k => {
+    const st = FILTRI[k];
+    st.ocenaTip = 'imdb'; st.imdbMin = 0; st.rtMin = 0; st.brezOcene = false;
+    st.zanri.clear(); st.razvrsti = 'ocena'; st.odprtPanel = null;
+  });
 }
 
 function izberTip(tip) {
@@ -1616,9 +1812,9 @@ function prikaziRezultate() {
 
   // Filter mode — "Vsi filmi ta teden" (aktivniTip + dnevi ta teden + poenoten filter)
   const stTa = FILTRI.ta;
-  const filtrirane = deduplicirani.filter(o =>
+  const filtrirane = urejeniFilmi(deduplicirani.filter(o =>
     (o.kategorija || 'Drugo') === aktivniTip && jeVIzbranihDnevih(o) && zanrUstreza(o, stTa) && ocenaUstreza(o, stTa)
-  );
+  ), stTa);
   window._filtrirane = filtrirane;
 
   const ph = document.getElementById('tateden-placeholder');
@@ -1755,8 +1951,9 @@ function prikaziPrihRezultate() {
   if (!cont) return;
   const st = FILTRI.prih;
   let arr = prihVsiFilm.filter(o => (o.kategorija || 'Drugo') === aktivniTip && zanrUstreza(o, st) && ocenaUstreza(o, st));
-  // sortiraj po najbližji prihodnji projekciji
-  arr.sort((a, b) => { const da = prvaPrihodnjaO(a), db = prvaPrihodnjaO(b); return (da ? da.getTime() : Infinity) - (db ? db.getTime() : Infinity); });
+  // Razvrstitev je od 24.8.2026 v rokah uporabnika (privzeto po oceni);
+  // "Kmalu na sporedu" da isti vrstni red, kot ga je imel ta oddelek prej.
+  arr = urejeniFilmi(arr, st);
   window._prihFiltrirane = arr;
   if (info) info.textContent = `${arr.length} prihajajočih`;
   if (arr.length === 0) { cont.innerHTML = '<div style="text-align:center;padding:3rem;color:#444">Ni zadetkov.</div>'; return; }
