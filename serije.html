@@ -238,7 +238,7 @@
                padding-bottom: 8px; scroll-snap-type: x proximity;
                scrollbar-color: #3a4a6a #13161f; }
   /* `> *` in ne `.kartica`, ker isto ogrodje uporablja tudi serijski pas
-     "Začni gledati" s svojo kartico `.se-kartica`. */
+     oddelka "Ujemi začetek" s svojo kartico `.se-kartica`. */
   .pas-vrsta > * { flex: 0 0 200px; scroll-snap-align: start; }
   .pas-vrsta::-webkit-scrollbar { height: 8px; }
   .pas-vrsta::-webkit-scrollbar-track { background: #0f121c; border-radius: 4px; }
@@ -484,10 +484,28 @@
   .se-tip { background: #7a4fd0; color: #fff; }
   .now-badge.se-now { background: #2a2140; color: #c9aef5; border-color: #3d2f5c; }
 
-  /* ---- Pas "Začni gledati" ---- */
-  .se-sekcija { border-top: 3px solid #7a4fd0; background: #12101c; padding: 12px 1.5rem 14px; }
-  .se-sekcija-naslov { font-size: 15px; font-weight: 700; color: #c9aef5; margin-bottom: 10px; }
-  .se-sekcija-podnaslov { font-size: 11px; font-weight: 400; color: #6f6a86; margin-left: 8px; }
+  /* ---- Naslovi oddelkov (25.8.2026): filmski slog — VELIKE črke, teža 800,
+     barvna črta skozi --veja. Zgornji "Ujemi začetek" je pas-panel z ozadjem;
+     spodnji "Celotna ponudba" je kot filmski glavni-oddelek — le črta + naslov. ---- */
+  .se-sekcija { border-top: 3px solid var(--veja); background: #12101c; padding: 12px 1.5rem 14px; }
+  .se-sekcija-naslov { font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
+                       text-transform: uppercase; color: var(--veja-svetla); margin-bottom: 2px; }
+  .se-sekcija-podnaslov { display: block; font-size: 11.5px; font-weight: 400; letter-spacing: 0;
+                          text-transform: none; color: #8f8aa6; margin-left: 0; margin-bottom: 10px; }
+
+  /* Spodnji oddelek "Celotna ponudba" — svoja svetlejša vijolična (varianta A).
+     --veja override tu obarva tudi filtre in oceno pod naslovom. */
+  .se-oddelek-ponudba {
+    --veja:           #a06be0;
+    --veja-blaga:     #a06be018;
+    --veja-svetla:    #ddc6f7;
+    --veja-panel-rob: #3a2f52;
+  }
+  .se-oddelek-naslov { border-top: 3px solid var(--veja);
+                       font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
+                       text-transform: uppercase; color: var(--veja-svetla); padding: 18px 1.5rem 2px; }
+  .se-oddelek-podnaslov { display: block; font-size: 11.5px; font-weight: 400; letter-spacing: 0;
+                          text-transform: none; color: #8f8aa6; padding: 0 1.5rem 8px; }
 
   /* 23.8.2026: pas uporablja ISTO kartico kot mreža (`.se-kartica`) in skupno
      ogrodje `.pas-vrsta` / `.pas-ovoj` iz `deli/_stil.css` (širina kartice,
@@ -598,7 +616,7 @@
      in mreža postane stolp. Manjši minimum vrne dva stolpca. */
   @media (max-width: 620px) {
     #se-mreza { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
-    .se-filtri, .se-sekcija { padding-left: 1rem; padding-right: 1rem; }
+    .se-filtri, .se-sekcija, .se-oddelek-naslov, .se-oddelek-podnaslov { padding-left: 1rem; padding-right: 1rem; }
     /* Širino kartice v pasu nastavlja skupno pravilo `.pas-vrsta > *` v
        deli/_stil.css (38vw) — tu je ni več treba.
        Ob IMDb znački zmanjka prostora za "ZAČETEK SERIJE" in se odreže, zato
@@ -638,10 +656,10 @@
 </div>
 <div class="kanali-panel" id="kanali-panel" style="display:none"></div>
 
-<!-- ===== ZAČNI GLEDATI — prve epizode sezon in serij ===== -->
+<!-- ===== UJEMI ZAČETEK — prve epizode sezon in serij ===== -->
 <div class="se-sekcija se-sekcija-zacetki" id="zacetki-sekcija" style="display:none">
-  <div class="se-sekcija-naslov">▶ Začni gledati
-    <span class="se-sekcija-podnaslov">prve epizode sezon in serij — kaj je bilo v zadnjih dneh in kaj šele pride</span>
+  <div class="se-sekcija-naslov">▶ UJEMI ZAČETEK
+    <span class="se-sekcija-podnaslov">Priložnost, da serijo ujameš od prve epizode</span>
   </div>
   <div class="pas-ovoj">
     <button class="pas-pusc pas-pusc-l" type="button" aria-label="Prejšnje serije" onclick="pasDrsi('zacetki-vrsta', -1)">&lsaquo;</button>
@@ -649,6 +667,12 @@
     <button class="pas-pusc pas-pusc-d" type="button" aria-label="Naslednje serije" onclick="pasDrsi('zacetki-vrsta', 1)">&rsaquo;</button>
   </div>
 </div>
+
+<!-- ===== CELOTNA PONUDBA — vse serije na voljo ===== -->
+<div class="se-oddelek-ponudba">
+  <div class="se-oddelek-naslov">📺 CELOTNA PONUDBA
+    <span class="se-oddelek-podnaslov">Vse serije na voljo — filtriraj po žanru in oceni</span>
+  </div>
 
 <!-- ===== Iskalnik: enaka oblika in mesto kot pri filmih (faza E, 24.8.2026) ===== -->
 <div class="global-iskanje-bar">
@@ -694,6 +718,8 @@
     <button class="pag-btn" id="pag-nasl" onclick="stran(1)">Naslednja ›</button>
   </div>
 </div>
+</div>
+<!-- /CELOTNA PONUDBA -->
 
 <!-- ===== Popup: serija → sezone → epizode → termini ===== -->
 <div class="overlay" id="overlay" onclick="zapriPopup()"></div>
@@ -997,7 +1023,7 @@ function pripraviPas(idPasu) {
 const PODATKI = '';
 const OSVEZI_MS = 30 * 1000;    // kako pogosto se preračunajo statusi
 const NA_STRAN = 15;            // serij na stran (enako kot filmska mreža)
-const ZACETKOV = 15;            // koliko prihodnjih kartic v pasu "Začni gledati"
+const ZACETKOV = 15;            // koliko prihodnjih kartic v pasu oddelka "Ujemi začetek"
 const ZACETKOV_ARHIV = 10;      // koliko preteklih (že predvajanih) kartic
 const SE_ZAMUDA = 30 * 60;      // sekund po začetku, ko epizoda še šteje za "zdaj"
 
