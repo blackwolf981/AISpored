@@ -35,20 +35,30 @@
   .global-iskanje-bar .iskanje-nacin { margin-bottom: 8px; }
   .isk-prihaja-badge { position: absolute; top: 6px; right: 6px; background: #7c83ff; color: #fff; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.5px; z-index: 2; }
 
-  .glavni-oddelek { border-top: 3px solid; margin-top: 18px; padding-bottom: 16px; }
-  .oddelek-ta-teden { border-color: #e8702a; }
-  .oddelek-prihajajoci { border-color: #7c83ff; }
+  /* BARVNA SHEMA ODDELKOV (24.8.2026)
+     Vsak oddelek nosi svojo barvo: ta teden ORANZNA, drug teden MODRA.
+     Skupni filtrski slog ze bere `--veja`, zato jo tu samo prepisemo —
+     filtri, drsnik, stevilka ob njem, gumbi in trak se obarvajo sami,
+     brez enega samega novega selektorja. */
+  .glavni-oddelek { border-top: 3px solid var(--veja); margin-top: 18px; padding-bottom: 16px; }
+  .oddelek-ta-teden {
+    --veja: #e8702a; --veja-blaga: #e8702a18; --veja-svetla: #e8702a;
+    --veja-panel: #17120a; --veja-panel-rob: #3a2a18;
+  }
+  .oddelek-prihajajoci {
+    --veja: #5a61d6; --veja-blaga: #5a61d618; --veja-svetla: #a9adff;
+    --veja-panel: #12131f; --veja-panel-rob: #242a45;
+  }
   /* 24.8.2026 (faza E): naslova oddelkov v tiskanih crkah in z vecjim razmikom —
      Andrej je hotel, da se na prvi pogled vidi, kje se en oddelek konca. */
   .glavni-oddelek-naslov { font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
                            text-transform: uppercase; padding: 18px 1.5rem 10px; }
-  .oddelek-ta-teden .glavni-oddelek-naslov { color: #e8702a; }
-  .oddelek-prihajajoci .glavni-oddelek-naslov { color: #a9adff; }
+  .glavni-oddelek-naslov { color: var(--veja-svetla); }
   .poddelek-naslov { font-size: 12px; font-weight: 700; color: #b9bdca; letter-spacing: 0.6px; text-transform: uppercase; margin-bottom: 10px; }
   /* --pas-ozadje mora biti ENAKA barva kot ozadje oddelka — zabris na desnem
      robu pasu se zliva prav v to. --pas-poudarek je barva veje. */
   #top9-sekcija { background: #17120a; }
-  #top9-sekcija .pas-ovoj { --pas-ozadje: #17120a; --pas-poudarek: #e8702a; }
+  #top9-sekcija .pas-ovoj { --pas-ozadje: #17120a; --pas-poudarek: var(--veja); }
   #view-iskanje { background: #120d07; }
   #prih-top-sekcija { background: #12152a; }
   #prih-top-sekcija .pas-ovoj { --pas-ozadje: #12152a; --pas-poudarek: #7c83ff; }
@@ -136,7 +146,9 @@
   .kartica-orig { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .kartica-info { font-size: 11px; color: #9a9dae; margin-top: 4px; }
   .kartica-oseba { font-size: 10px; color: #7d8092; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .kartica-termini { font-size: 10px; color: #e8702a; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  /* Termin na kartici sledi barvi oddelka: oranzen v "ta teden", moder v
+     "drug teden". Zunaj oddelkov (iskalnik) pade nazaj na privzeto oranzno. */
+  .kartica-termini { font-size: 10px; color: var(--veja); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
   /* Plakat 2:3 naredi kartico visoko — na ozkih zaslonih vrnemo dva stolpca. */
   @media (max-width: 620px) {
@@ -203,7 +215,7 @@
   .top9-sekcija { padding: 1.25rem 1.5rem 0.25rem; }
   .top9-glava { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
   .top9-naslov { font-size: 14px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
-  .top9-caret { font-size: 10px; color: #e8702a; transition: transform 0.15s; }
+  .top9-caret { font-size: 10px; color: var(--veja); transition: transform 0.15s; }
   .top9-sekcija.zvito .top9-caret { transform: rotate(-90deg); }
   .top9-sekcija.zvito .top9-grid { display: none; }
   /* Ob zvitem oddelku mora izginiti tudi ovoj s puscicama, ne le sam pas. */
@@ -305,10 +317,14 @@
   .prih-top .pas-vrsta .kartica:hover { border-color: #7c83ff; }
 
   /* ===== Gumb "Prikaži vse filme" + placeholder ===== */
-  .prikazi-vse-btn { padding: 8px 20px; border-radius: 22px; border: 1px solid #e8702a; background: #e8702a; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
-  .prikazi-vse-btn:hover { background: #d5641f; border-color: #d5641f; }
+  /* Oba gumba "Prikazi vse ..." sta ENAKA — ista velikost, isti font, ista
+     oblika; loci ju samo barva oddelka (Andrej, 24.8.2026). Prej je imel
+     zgornji poseben razred `velik`, spodnji pa svojo sivo-modro barvo. */
+  .prikazi-vse-btn { padding: 12px 28px; border-radius: 22px; border: 1px solid var(--veja);
+                     background: var(--veja); color: #fff; font-size: 14px; font-weight: 600;
+                     letter-spacing: 0.2px; cursor: pointer; transition: all 0.15s; }
+  .prikazi-vse-btn:hover { filter: brightness(1.12); }
   .mreza-placeholder { text-align: center; padding: 2.5rem 1rem; }
-  .prikazi-vse-btn.velik { padding: 12px 28px; font-size: 14px; }
 
   /* ===== Paginacija ===== */
   .paginacija { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 1.5rem; flex-wrap: wrap; }
@@ -389,8 +405,8 @@
   /* Casovnici sta od 24.8.2026 v svojem oddelku, ne v glavi strani — zato brez
      lastnega ozadja in spodnje crte, ki sta imela smisel samo kot trak pod glavo. */
   .glavni-oddelek .dnevni-trak-bar { background: transparent; border-bottom: none; padding: 0 1.5rem 12px; }
-  .trak-prih .dan-btn:hover { border-color: #7c83ff; }
-  .trak-prih .dan-btn.active { background: #5a61d6; border-color: #5a61d6; color: #fff; }
+  .glavni-oddelek .dan-btn:hover { border-color: var(--veja); }
+  .glavni-oddelek .dan-btn.active { background: var(--veja); border-color: var(--veja); color: #fff; }
 
   /* Zadnji izbrani dan / kanal se ne da odkliniti — brez tega bi uporabnik
      lahko pristal na praznem izboru in 0 zadetkih (Andrej, 24.8.2026). */
