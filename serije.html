@@ -490,6 +490,9 @@
   .se-sekcija { border-top: 3px solid var(--veja); background: #12101c; padding: 12px 1.5rem 14px; }
   .se-sekcija-naslov { font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
                        text-transform: uppercase; color: var(--veja-svetla); margin-bottom: 2px; }
+  /* Zvezdica je ISTA zlata kot pri IMDb oceni na karticah — bralec jo prebere
+     kot "ocena", ne kot okras. Ostali del naslova ostane v barvi veje. */
+  .se-naslov-zvezda { color: #f5c518; }
   .se-sekcija-podnaslov { display: block; font-size: 11.5px; font-weight: 400; letter-spacing: 0;
                           text-transform: none; color: #8f8aa6; margin-left: 0; margin-bottom: 10px; }
 
@@ -657,8 +660,8 @@
 
 <!-- ===== UJEMI ZAČETEK — prve epizode sezon in serij ===== -->
 <div class="se-sekcija se-sekcija-zacetki" id="zacetki-sekcija" style="display:none">
-  <div class="se-sekcija-naslov">▶ UJEMI ZAČETEK
-    <span class="se-sekcija-podnaslov">Priložnost, da serijo ujameš od prve epizode</span>
+  <div class="se-sekcija-naslov">▶ UJEMI ZAČETEK · TOP <span class="se-naslov-zvezda">★</span> IZBOR
+    <span class="se-sekcija-podnaslov">Priložnost, da serijo gledaš od prve epizode</span>
   </div>
   <div class="pas-ovoj">
     <button class="pas-pusc pas-pusc-l" type="button" aria-label="Prejšnje serije" onclick="pasDrsi('zacetki-vrsta', -1)">&lsaquo;</button>
