@@ -511,19 +511,18 @@
      ogrodje `.pas-vrsta` / `.pas-ovoj` iz `deli/_stil.css` (širina kartice,
      drsenje, puščici). Tu ostanejo samo razlike, ki jih ima pas in mreža ne. */
   .se-zacetek-telo { padding: 8px 9px 10px; min-width: 0; }
-  /* Oznaka v pasu ima ŠTIRI različice: dve vrsti × dve stanji. Barva pove oboje
-     naenkrat — kaj je (začetek serije proti novi sezoni) in ali je to že bilo
-     (topli odtenki) ali šele pride (hladni). Andrejeva zahteva 23.8.2026.
-     Leži na plakatu desno zgoraj, IMDb ocena pa levo — kot pri filmih. */
+  /* 25.8.2026: v oddelku so SAMO začetki serij, zato oznaka ne pove več vrste
+     (vse so isto), ampak samo DOSTOPNOST — in barvi sta prevzeti od filmov:
+     oranžna "to lahko gledaš že zdaj", modra "šele pride". Besedilo je pri obeh
+     enako; pove barva. Različici .prva/.sezona sta odstranjeni, ker sta ostali
+     brez uporabnika. Leži na plakatu desno zgoraj, IMDb ocena pa levo. */
   .se-zacetek-oznaka { position: absolute; top: 6px; right: 6px; z-index: 2;
                        max-width: calc(100% - 62px); overflow: hidden;
                        text-overflow: ellipsis; white-space: nowrap;
                        font-size: 9px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
                        color: #12101c; border-radius: 20px; padding: 2px 6px; }
-  .se-zacetek-oznaka.prva.bilo   { background: #f5c518; }   /* začetek serije, v arhivu */
-  .se-zacetek-oznaka.sezona.bilo { background: #e8892a; }   /* nova sezona, v arhivu */
-  .se-zacetek-oznaka.prva.pride  { background: #c9ccd6; }   /* začetek serije, šele pride */
-  .se-zacetek-oznaka.sezona.pride{ background: #6aa9f0; }   /* nova sezona, šele pride */
+  .se-zacetek-oznaka.bilo  { background: #e8892a; }   /* gledaš lahko že zdaj */
+  .se-zacetek-oznaka.pride { background: #6aa9f0; }   /* šele pride */
   .se-zacetek-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .se-zacetek-sl { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .se-zacetek-meta { font-size: 10px; color: #8f8aa6; margin-top: 4px; }
@@ -1023,8 +1022,9 @@ function pripraviPas(idPasu) {
 const PODATKI = '';
 const OSVEZI_MS = 30 * 1000;    // kako pogosto se preračunajo statusi
 const NA_STRAN = 15;            // serij na stran (enako kot filmska mreža)
-const ZACETKOV = 15;            // koliko prihodnjih kartic v pasu oddelka "Ujemi začetek"
-const ZACETKOV_ARHIV = 10;      // koliko preteklih (že predvajanih) kartic
+const ZACETKOV = 7;             // koliko PRIHODNJIH kartic v oddelku "Ujemi začetek"
+const ZACETKOV_ARHIV = 7;       // koliko kartic, ki jih je mogoče gledati ŽE ZDAJ
+const ZACETKI_OKNO = 7 * 24 * 3600;  // kako daleč nazaj in naprej sega oddelek (strogo 7x24h)
 const SE_ZAMUDA = 30 * 60;      // sekund po začetku, ko epizoda še šteje za "zdaj"
 
 const DNEVI_SL = ['Nedelja', 'Ponedeljek', 'Torek', 'Sreda', 'Četrtek', 'Petek', 'Sobota'];
@@ -1229,44 +1229,51 @@ function posodobiUro() {
 }
 
 // -----------------------------------------------------------------------------
-// Pas: ZAČNI GLEDATI
+// Oddelek: UJEMI ZAČETEK
 // -----------------------------------------------------------------------------
-/* Prve epizode (S01E01 = začetek serije, E01 = začetek sezone) so za gledalca
-   edina mesta, kjer se je smiselno vključiti. Oznaka `zacetek` je v podatkih;
-   tukaj se odloči le, katere so še pred nami. */
+/* SAMO S01E01 — pravi začetek serije (Andrej, 25.8.2026). Začetkov sezon
+   (S02E01, S04E01 ...) tu NI VEČ; ostanejo v mreži s svojo oznako. Razlog:
+   oddelek obljublja "od prve epizode", nova sezona 4 pa te vrže na sredino
+   zgodbe — obljuba in vsebina se nista ujemali.
+
+   Dve polovici, obe razvrščeni PO OCENI (ne po času):
+     1. kar lahko gledaš ŽE ZDAJ — zadnji termin je bil v zadnjih 7x24 h
+     2. kar ŠELE PRIDE — prvi termin je v naslednjih 7x24 h
+   Vsaka polovica največ 7 kartic, torej največ 14 skupaj; manj, če jih ni.
+
+   OBRAT proti 23.8.2026: takrat je veljalo "VSI arhivski začetki serij, brez
+   omejitve", ker jih je omejitev po svežini tiho jedla. Zdaj jih omejitev spet
+   reže, a po OCENI in zavestno — izpadejo najslabše ocenjeni, ne naključni.
+   Meja je stroga (7x24 h od trenutka osvežitve), zato začetek izpred 7,99 dni
+   izpade tudi, če je dobro ocenjen. Andrej je to izrecno izbral. */
+
+function ocenaSerije(sid) {
+  return parseFloat((SERIJE[sid] || {}).imdb_ocena) || 0;
+}
 
 function zacetkiZaPas() {
   const n = zdaj();
-  const prihaja = [], arhiv = [];
+  const naVoljo = [], prihaja = [];
   Object.keys(EPIZODE).forEach(eid => {
     const e = EPIZODE[eid];
-    if (!e.zacetek) return;
-    const t = (TERMINI_EP[eid] || []).find(x => x.kon >= n);
+    if (e.zacetek !== 'serija') return;
+    const ts = TERMINI_EP[eid] || [];
+    if (!ts.length) return;
+    const t = ts.find(x => x.kon >= n);
     if (t) {
-      prihaja.push({ eid, e, t, vrsta: 'prihaja' });
+      if (t.zac - n <= ZACETKI_OKNO) prihaja.push({ eid, e, t, vrsta: 'prihaja' });
       return;
     }
-    // Že predvajano. Vzame se ZADNJI termin — ta je v arhivu najsvežji in bo
-    // iz njega tudi zadnji izpadel.
-    const zadnji = (TERMINI_EP[eid] || []).reduce(
-      (naj, x) => (!naj || x.zac > naj.zac) ? x : naj, null);
-    if (zadnji) arhiv.push({ eid, e, t: zadnji, vrsta: 'arhiv' });
+    // Že predvajano. Vzame se ZADNJI termin — ta je najsvežji in najverjetneje
+    // še dosegljiv v arhivu ponudnika.
+    const zadnji = ts.reduce((naj, x) => (!naj || x.zac > naj.zac) ? x : naj, null);
+    if (n - zadnji.zac <= ZACETKI_OKNO) naVoljo.push({ eid, e, t: zadnji, vrsta: 'arhiv' });
   });
 
-  // Vrstni red in omejitve:
-  //   1. ZAČETKI SERIJ iz arhiva (S01E01) — VSI, brez omejitve. To je edina
-  //      stvar, ki gledalcu omogoči, da serijo začne od prve epizode; če pade
-  //      izven pasu, je pas zgrešil svoj namen. (Andrej, 23.8.2026: Taboo je
-  //      imel S01E01 pred petimi dnevi, a ga je omejitev odrezala.)
-  //   2. začetki sezon iz arhiva — omejeni, najsvežejši spredaj (pri najstarejših
-  //      je najmanj verjetno, da so še v arhivu ponudnika)
-  //   3. prihodnje, kronološko
-  const poCasu = (a, b) => b.t.zac - a.t.zac;
-  const arhivSerij = arhiv.filter(x => x.e.zacetek === 'serija').sort(poCasu);
-  const arhivSezon = arhiv.filter(x => x.e.zacetek !== 'serija').sort(poCasu)
-                          .slice(0, ZACETKOV_ARHIV);
-  prihaja.sort((a, b) => a.t.zac - b.t.zac);
-  return arhivSerij.concat(arhivSezon, prihaja.slice(0, ZACETKOV));
+  const poOceni = (a, b) => ocenaSerije(b.e.serija) - ocenaSerije(a.e.serija);
+  naVoljo.sort(poOceni);
+  prihaja.sort(poOceni);
+  return naVoljo.slice(0, ZACETKOV_ARHIV).concat(prihaja.slice(0, ZACETKOV));
 }
 
 function izrisiZacetke() {
@@ -1280,7 +1287,6 @@ function izrisiZacetke() {
   const n = zdaj();
   vrsta.innerHTML = seznam.map(({ e, t, vrsta: kaj }) => {
     const s = SERIJE[e.serija] || {};
-    const prva = e.zacetek === 'serija';
     const plakat = s.poster_tmdb || s.slika || '';
     const arhiv = kaj === 'arhiv';
     // Pri arhivskih piše SAMO, kdaj je bilo. Ne koliko časa je še na voljo
@@ -1301,8 +1307,7 @@ function izrisiZacetke() {
       ${plakat ? `<img class="se-kartica-slika" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
                : '<div class="se-kartica-brez">📺</div>'}
       ${ocena}
-      <span class="se-zacetek-oznaka ${prva ? 'prva' : 'sezona'} ${arhiv ? 'bilo' : 'pride'}">${
-        prva ? 'Začetek serije' : 'Nova sezona ' + e.s}</span>
+      <span class="se-zacetek-oznaka ${arhiv ? 'bilo' : 'pride'}">Začetek serije</span>
       <div class="se-zacetek-telo">
         <div class="se-zacetek-naslov">${ubegni(s.naslov || '')}</div>
         ${s.naslov_sl ? `<div class="se-zacetek-sl">${ubegni(s.naslov_sl)}</div>` : ''}
