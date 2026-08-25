@@ -187,13 +187,23 @@
 
   .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 50; }
   .overlay.active { display: block; }
-  .popup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #13161f; border: 1px solid #2e3148; border-radius: 12px; padding: 1.5rem; width: 500px; max-width: 95vw; max-height: 85vh; overflow-y: auto; z-index: 51; }
+  .popup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: #13161f; border: 1px solid #2e3148; border-radius: 12px; padding: 1.5rem; width: 620px; max-width: 95vw; max-height: 85vh; overflow-y: auto; z-index: 51; }
   .popup.active { display: block; }
   .popup-close { position: absolute; top: 10px; right: 10px; z-index: 5; background: rgba(0,0,0,0.6); border: 2px solid rgba(255,255,255,0.25); color: #fff; font-size: 20px; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; line-height: 1; cursor: pointer; }
   .popup-close:hover { background: rgba(0,0,0,0.85); color: #fff; }
-  .popup-slika { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; cursor: zoom-in; position: relative; display: block; }
-  .popup-slika-wrap { position: relative; }
-  .popup-slika-zoom-hint { position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.55); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; pointer-events: none; }
+  /* Popup glava (24.8.2026): levo plakat, desno podatki — enako pri filmih in
+     serijah. Prej je bila filmska slika sirok pas z `object-fit: cover`, ki je
+     plakat vedno odrezal. `contain` je namenoma: pravi plakat 2:3 zapolni okvir
+     do roba, redka 16:9 slicica iz NEO pa se vklopi cela, s prazno obrobo.
+     Raje prazen rob kot odrezan obraz. */
+  .popup-glava { display: flex; gap: 14px; margin-bottom: 12px; }
+  .popup-glava-tekst { min-width: 0; flex: 1; }
+  .popup-plakat-ovoj { position: relative; flex: 0 0 auto; width: 120px; cursor: zoom-in; }
+  .popup-plakat { width: 100%; aspect-ratio: 2/3; object-fit: contain; background: #0f1220; border-radius: 6px; display: block; }
+  .popup-slika-zoom-hint { position: absolute; bottom: 6px; right: 6px; background: rgba(0,0,0,0.6); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; pointer-events: none; }
+  .popup-plakat-ovoj:hover .popup-slika-zoom-hint { background: rgba(0,0,0,0.85); }
+  /* Gumb za zapiranje lezi v desnem zgornjem kotu; dolg naslov bi zlezel podenj. */
+  .popup-glava-tekst h2, .se-popup-glava-tekst h2 { padding-right: 34px; }
   .slika-lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 100; align-items: center; justify-content: center; cursor: zoom-out; }
   .slika-lightbox.active { display: flex; }
   .slika-lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; border-radius: 8px; }
@@ -546,7 +556,8 @@
   /* ---- Popup ---- */
   .se-popup { width: 620px; }
   .se-popup-glava { display: flex; gap: 14px; margin-bottom: 12px; }
-  .se-popup-plakat { width: 110px; border-radius: 6px; background: #1e2130; flex: 0 0 auto; }
+  .se-popup-plakat-ovoj { width: 110px; }
+  .se-popup-plakat { width: 100%; border-radius: 6px; background: #1e2130; display: block; }
   .se-popup-glava-tekst { min-width: 0; }
   .se-popup-naslov { font-size: 19px; font-weight: 700; color: #fff; margin-bottom: 2px; }
   .se-popup-podnaslov { font-size: 13px; color: #9a9dae; font-style: italic; margin-bottom: 8px; }
@@ -594,7 +605,7 @@
        gre oznaka v drugo vrsto na plakatu, poravnana levo. */
     .se-zacetek-oznaka { top: 30px; left: 6px; right: auto; max-width: calc(100% - 12px); }
     .se-popup { width: 96vw; padding: 1rem; }
-    .se-popup-plakat { width: 78px; }
+    .se-popup-plakat-ovoj { width: 78px; }
     .se-epizoda { padding-left: 12px; }
     .se-epizoda-termini { margin-left: 0; }
   }
@@ -690,7 +701,10 @@
   <button class="popup-close" onclick="zapriPopup()">×</button>
 
   <div class="se-popup-glava">
-    <img id="p-plakat" class="se-popup-plakat" src="" alt="" style="display:none">
+    <div id="p-plakat-ovoj" class="popup-plakat-ovoj se-popup-plakat-ovoj" style="display:none" onclick="odpriSlikoLightbox()">
+      <img id="p-plakat" class="se-popup-plakat" src="" alt="">
+      <div class="popup-slika-zoom-hint">⛶</div>
+    </div>
     <div class="se-popup-glava-tekst">
       <h2 class="se-popup-naslov" id="p-naslov"></h2>
       <div class="se-popup-podnaslov" id="p-podnaslov"></div>
@@ -703,6 +717,12 @@
 
   <div class="popup-termini-naslov">Na sporedu</div>
   <div id="p-sezone"></div>
+</div>
+
+<!-- Povecava plakata (24.8.2026) — isto kot pri filmih. -->
+<div class="slika-lightbox" id="slika-lightbox" onclick="zapriSlikoLightbox()">
+  <button class="slika-lightbox-close" onclick="zapriSlikoLightbox()">×</button>
+  <img id="slika-lightbox-img" src="" alt="">
 </div>
 
 <script>
@@ -1595,9 +1615,11 @@ function odpriPopup(sid, odpriSezono) {
   odprtaSerija = sid;
 
   const plakat = document.getElementById('p-plakat');
+  const ovoj = document.getElementById('p-plakat-ovoj');
   const vir = s.poster_tmdb || s.slika || '';
-  plakat.onerror = () => { plakat.style.display = 'none'; };
-  if (vir) { plakat.src = vir; plakat.style.display = ''; } else { plakat.style.display = 'none'; }
+  // Skrije se OVOJ, ne slika — sicer bi na mestu plakata ostal namig za povecavo.
+  plakat.onerror = () => { ovoj.style.display = 'none'; };
+  if (vir) { plakat.src = vir; ovoj.style.display = ''; } else { ovoj.style.display = 'none'; }
 
   document.getElementById('p-naslov').textContent = s.naslov;
   const pod = document.getElementById('p-podnaslov');
@@ -1706,6 +1728,17 @@ function epizodaHtml(eid) {
     </div>
     <div class="se-epizoda-termini">${termini}</div>
   </div>`;
+}
+
+/* Povecava plakata (24.8.2026) — enako kot pri filmih. */
+function odpriSlikoLightbox() {
+  const src = document.getElementById('p-plakat').src;
+  if (!src) return;
+  document.getElementById('slika-lightbox-img').src = src;
+  document.getElementById('slika-lightbox').classList.add('active');
+}
+function zapriSlikoLightbox() {
+  document.getElementById('slika-lightbox').classList.remove('active');
 }
 
 function zapriPopup() {
