@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TV Vodič — Serije</title>
+<title>TV Vodič — Dokumentarci</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #0d0f18; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
@@ -483,159 +483,115 @@
 .vn-vrsta.vn-predogled:hover { color: #b6ecf1; border-color: #0e9aa7; }
 
 /* =============================================================================
-   SERIJSKA VEJA — dodatek k deli/_stil.css
+   DOKUMENTARNA VEJA — dodatek k deli/_stil.css
    =============================================================================
-   Barva veje je vijolična (filmi oranžna #e8702a, šport zelen). Vse razredе
-   te veje nosijo predpono `se-`, da se ne mešajo s filmskimi in športnimi.
+   Barva veje je TEAL (filmi oranžna #e8702a, serije vijolična #7a4fd0,
+   šport zelen #1fa25a). Vsi razredi te veje nosijo predpono `dk-`.
+
+   ZAKAJ SO KARTICE LEŽEČE IN NE POKONČNE:
+   RTV slike so IZMERJENO 1920x1080 (16:9) — ne plakati 2:3 kot pri filmih in
+   serijah, ki jih daje TMDb. Pokončna kartica bi široko sliko odrezala ali
+   pustila pol kartice prazne. Razmerje drži OVOJ, ne slika — ob padli sliki
+   se kartica ne sme sesuti (ista past kot pri filmskih plakatih).
+
+   OCEN TU NI. RTV spored jih ne da, TMDb pa dokumentarcev zanesljivo ne ujame.
+   Zato ni drsnika ocene, ne razvrstitve "najbolje ocenjeni" in ne značk IMDb.
    ========================================================================== */
 
-  .se-tip { background: #7a4fd0; color: #fff; }
-  .now-badge.se-now { background: #2a2140; color: #c9aef5; border-color: #3d2f5c; }
-
-  /* ---- Naslovi oddelkov (25.8.2026): filmski slog — VELIKE črke, teža 800,
-     barvna črta skozi --veja. Zgornji "Ujemi začetek" je pas-panel z ozadjem;
-     spodnji "Celotna ponudba" je kot filmski glavni-oddelek — le črta + naslov. ---- */
-  .se-sekcija { border-top: 3px solid var(--veja); background: #12101c; padding: 12px 1.5rem 14px; }
-  .se-sekcija-naslov { font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
-                       text-transform: uppercase; color: var(--veja-svetla); margin-bottom: 2px; }
-  /* Zvezdica je ISTA zlata kot pri IMDb oceni na karticah — bralec jo prebere
-     kot "ocena", ne kot okras. Ostali del naslova ostane v barvi veje. */
-  .se-naslov-zvezda { color: #f5c518; }
-  .se-sekcija-podnaslov { display: block; font-size: 11.5px; font-weight: 400; letter-spacing: 0;
-                          text-transform: none; color: #8f8aa6; margin-left: 0; margin-bottom: 10px; }
-
-  /* Spodnji oddelek "Celotna ponudba" — svoja svetlejša vijolična (varianta A).
-     --veja override tu obarva tudi filtre in oceno pod naslovom. */
-  .se-oddelek-ponudba {
-    --veja:           #a06be0;
-    --veja-blaga:     #a06be018;
-    --veja-svetla:    #ddc6f7;
-    --veja-panel-rob: #3a2f52;
+  :root {
+    --veja:           #0e9aa7;
+    --veja-blaga:     #0e9aa718;
+    --veja-svetla:    #7fd8e0;
+    --veja-panel:     #101f22;
+    --veja-panel-rob: #1d3d42;
   }
-  .se-oddelek-naslov { border-top: 3px solid var(--veja);
+
+  .dk-tip { background: #0e9aa7; color: #fff; }
+  .now-badge.dk-now { background: #10262a; color: #7fd8e0; border-color: #1d3d42; }
+
+  /* ---- Naslov oddelka: filmski slog (VELIKE črke, teža 800, črta v barvi veje).
+     Stran ima EN oddelek — pri 27 vsebinah bi "top izbor" izbiral med skoraj
+     vsemi in ne bi ničesar povedal. ---- */
+  .dk-oddelek-naslov { border-top: 3px solid var(--veja);
                        font-size: 17px; font-weight: 800; letter-spacing: 1.2px;
-                       text-transform: uppercase; color: var(--veja-svetla); padding: 18px 1.5rem 2px; }
-  .se-oddelek-podnaslov { display: block; font-size: 11.5px; font-weight: 400; letter-spacing: 0;
+                       text-transform: uppercase; color: var(--veja-svetla);
+                       padding: 18px 1.5rem 2px; }
+  .dk-oddelek-podnaslov { display: block; font-size: 11.5px; font-weight: 400; letter-spacing: 0;
                           text-transform: none; color: #8f8aa6; padding: 0 1.5rem 8px; }
 
-  /* 23.8.2026: pas uporablja ISTO kartico kot mreža (`.se-kartica`) in skupno
-     ogrodje `.pas-vrsta` / `.pas-ovoj` iz `deli/_stil.css` (širina kartice,
-     drsenje, puščici). Tu ostanejo samo razlike, ki jih ima pas in mreža ne. */
-  .se-zacetek-telo { padding: 8px 9px 10px; min-width: 0; }
-  /* 25.8.2026: v oddelku so SAMO začetki serij, zato oznaka ne pove več vrste
-     (vse so isto), ampak samo DOSTOPNOST — in barvi sta prevzeti od filmov:
-     oranžna "to lahko gledaš že zdaj", modra "šele pride". Besedilo je pri obeh
-     enako; pove barva. Različici .prva/.sezona sta odstranjeni, ker sta ostali
-     brez uporabnika. Leži na plakatu desno zgoraj, IMDb ocena pa levo. */
-  .se-zacetek-oznaka { position: absolute; top: 6px; right: 6px; z-index: 2;
-                       max-width: calc(100% - 62px); overflow: hidden;
-                       text-overflow: ellipsis; white-space: nowrap;
-                       font-size: 9px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
-                       color: #12101c; border-radius: 20px; padding: 2px 6px; }
-  .se-zacetek-oznaka.bilo  { background: #e8892a; }   /* gledaš lahko že zdaj */
-  .se-zacetek-oznaka.pride { background: #6aa9f0; }   /* šele pride */
-  .se-zacetek-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .se-zacetek-sl { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .se-zacetek-meta { font-size: 10px; color: #8f8aa6; margin-top: 4px; }
-  .se-zacetek-cd { color: #c9aef5; }
+  /* ---- Vir: RTV je edini vir te veje, zato je pošteno, da je to vidno. ---- */
+  .dk-vir-vrstica { font-size: 11px; color: #6b7080; padding: 0 1.5rem 10px; }
+  .dk-vir-vrstica strong { color: #8f96a8; font-weight: 600; }
 
-  /* Arhivske kartice: jantarno, da se na prvi pogled ločijo od tega, kar šele
-     pride. Stojijo spredaj, ker najstarejša prva pade iz arhiva. */
-  .se-zacetek.arhiv { background: #1a1712; border-color: #3a3020; }
-  .se-zacetek.arhiv:hover { border-color: #d09a6a; }
-  .se-zacetek-arh { color: #d09a6a; }
-  /* Barva veje in ozadje oddelka za namige ob pasu (zabris, pulz, črtica). */
-  .se-sekcija-zacetki .pas-ovoj { --pas-ozadje: #12101c; --pas-poudarek: #7a4fd0; }
+  /* ---- Kartica ---- */
+  .dk-kartica { background: #161922; border: 1px solid #232735; border-radius: 10px;
+                overflow: hidden; cursor: pointer; display: flex; flex-direction: column;
+                transition: border-color 0.15s, transform 0.15s; }
+  .dk-kartica:hover { border-color: var(--veja); transform: translateY(-2px); }
 
-  /* ---- Filtri ---- */
-  /* 24.8.2026 (faza A): slog gumbov, zaprtih panelov in ocene je preseljen v
-     `deli/_stil.css` pod dvojni selektor `.f-*, .se-*`, ker isto vrstico dobi
-     tudi filmska veja. Tu ostaneta samo postavitev vrstice in barva veje. */
-  :root {
-    --veja:           #7a4fd0;
-    --veja-blaga:     #7a4fd018;
-    --veja-svetla:    #c9aef5;
-    --veja-panel:     #12101c;
-    --veja-panel-rob: #2a2340;
-  }
-  .se-filtri { padding: 12px 1.5rem; border-bottom: 1px solid #1e2130; display: flex; flex-direction: column; gap: 8px; }
+  /* Razmerje drži OVOJ. Ob padli sliki `onerror` skrije SLIKO, ovoj ostane —
+     sicer bi se kartica sesedla in znački bi padli čez besedilo. */
+  .dk-slika-ovoj { position: relative; width: 100%; aspect-ratio: 16 / 9;
+                   background: #0d1017; flex-shrink: 0; }
+  .dk-slika { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-  /* ---- Kartica serije ---- */
-  .se-kartica { position: relative; background: #13161f; border: 1px solid #1e2130; border-radius: 8px;
-                overflow: hidden; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
-  .se-kartica:hover { border-color: #7a4fd0; transform: translateY(-2px); }
-  .se-kartica-slika { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: #1e2130; }
-  .se-kartica-brez { width: 100%; aspect-ratio: 2/3; background: linear-gradient(160deg,#1e1b2e,#13161f);
-                     display: flex; align-items: center; justify-content: center; color: #4a4560; font-size: 26px; }
-  .se-kartica-ocena { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.78); color: #f5c518;
-                      font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
-  .se-kartica-znak { position: absolute; top: 6px; right: 6px; background: #7a4fd0; color: #fff;
-                     font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 20px; letter-spacing: 0.3px; }
-  /* Začetek serije je zlat, ker je redkejši in vrednejši od nove sezone. */
-  .se-kartica-znak.prva { background: #f5c518; color: #1a1500; }
-  .se-kartica-body { padding: 8px 9px 10px; }
-  .se-kartica-naslov { font-size: 13px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .se-kartica-sl { font-size: 11px; color: #9a9dae; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .se-kartica-meta { font-size: 10px; color: #6f6a86; margin-top: 4px; }
-  .se-kartica-nasl-termin { font-size: 10px; color: #c9aef5; margin-top: 3px; }
+  .dk-znak { position: absolute; top: 6px; right: 6px; z-index: 2;
+             font-size: 9px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
+             border-radius: 20px; padding: 2px 7px; }
+  .dk-znak.serija { background: var(--veja); color: #04191b; }
+  .dk-znak.film   { background: #c9ccd6; color: #12101c; }
 
-  .se-prazno { text-align: center; padding: 2.5rem 1rem; color: #777; font-size: 14px; }
+  .dk-znak-otroci { position: absolute; top: 6px; left: 6px; z-index: 2;
+                    font-size: 9px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
+                    background: #3a4150; color: #ccd2e0; border-radius: 20px; padding: 2px 7px; }
+
+  .dk-telo { padding: 9px 10px 11px; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+  .dk-naslov { font-size: 13.5px; font-weight: 600; color: #fff; line-height: 1.25; }
+  .dk-meta { font-size: 10.5px; color: #8f8aa6; }
+  .dk-epizod { font-size: 10.5px; color: var(--veja-svetla); }
+
+  /* Opis serije je v resnici opis PRVE EPIZODE — RTV opisa serije ne da.
+     Zato je označen, da kartica ne laže. */
+  .dk-opis { font-size: 11px; color: #9a9dae; line-height: 1.4; margin-top: 3px;
+             display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .dk-opis-oznaka { color: var(--veja-svetla); font-weight: 600; }
+
+  .dk-termin { font-size: 10.5px; color: var(--veja); margin-top: 5px; font-weight: 600; }
+  .dk-termin-pretekli { color: #7d8290; font-weight: 500; }
+
+  /* Ležeče kartice so širše od pokončnih — mreža mora dati več prostora,
+     sicer se slika 16:9 stisne v trak. */
+  .dk-mreza { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
 
   /* ---- Popup ---- */
-  .se-popup { width: 620px; }
-  .se-popup-glava { display: flex; gap: 14px; margin-bottom: 12px; }
-  .se-popup-plakat-ovoj { width: 110px; }
-  .se-popup-plakat { width: 100%; border-radius: 6px; background: #1e2130; display: block; }
-  .se-popup-glava-tekst { min-width: 0; }
-  .se-popup-naslov { font-size: 19px; font-weight: 700; color: #fff; margin-bottom: 2px; }
-  .se-popup-podnaslov { font-size: 13px; color: #9a9dae; font-style: italic; margin-bottom: 8px; }
-  .se-popup-znacke { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
-  .se-znacka { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 12px;
-               background: #241f38; color: #b9a8e0; border: 1px solid #352c52; }
-  .se-znacka-imdb { background: #2a2510; color: #f5c518; border-color: #4a3f14; }
-  .se-popup-kanali { font-size: 12px; color: #8f8aa6; }
+  .dk-popup-glava { display: flex; gap: 14px; margin-bottom: 12px; }
+  .dk-popup-slika-ovoj { position: relative; flex: 0 0 300px; max-width: 45%;
+                         aspect-ratio: 16 / 9; background: #0d1017; border-radius: 8px;
+                         overflow: hidden; cursor: zoom-in; }
+  .dk-popup-slika { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .dk-popup-glava-tekst { min-width: 0; flex: 1; }
+  .dk-popup-naslov { font-size: 20px; font-weight: 700; color: #fff; margin: 0 0 4px; }
+  .dk-popup-podnaslov { font-size: 13px; color: #9a9dae; font-style: italic; margin-bottom: 8px; }
+  .dk-popup-znacke { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .dk-znacka { font-size: 10.5px; background: #1e2130; color: #b8bccc;
+               border-radius: 12px; padding: 3px 9px; }
+  .dk-znacka.tip { background: var(--veja); color: #04191b; font-weight: 700; }
 
-  /* ---- Sezone in epizode v popupu ---- */
-  .se-sezona { border: 1px solid #1e2130; border-radius: 8px; margin-bottom: 8px; overflow: hidden; }
-  .se-sezona-glava { display: flex; align-items: center; gap: 8px; padding: 9px 11px; background: #171425;
-                     cursor: pointer; user-select: none; }
-  .se-sezona-glava:hover { background: #1d1930; }
-  .se-sezona-caret { color: #7a4fd0; font-size: 11px; width: 10px; }
-  .se-sezona-ime { font-size: 13px; font-weight: 700; color: #fff; }
-  .se-sezona-stev { font-size: 11px; color: #6f6a86; }
-  .se-sezona-telo { display: none; padding: 4px 0 6px; }
-  .se-sezona.odprta .se-sezona-telo { display: block; }
+  .dk-epizoda { border-top: 1px solid #232735; padding: 10px 0; }
+  .dk-epizoda-glava { display: flex; gap: 8px; align-items: baseline; }
+  .dk-epizoda-st { font-size: 11px; font-weight: 700; color: var(--veja-svetla); flex-shrink: 0; }
+  .dk-epizoda-naslov { font-size: 13.5px; font-weight: 600; color: #fff; }
+  .dk-epizoda-opis { font-size: 11.5px; color: #9a9dae; line-height: 1.45; margin: 5px 0 6px; }
+  .dk-termin-vrstica { font-size: 11.5px; color: #b8bccc; padding: 2px 0; }
+  .dk-termin-vrstica .dk-t-kanal { color: #6b7080; }
+  .dk-termin-vrstica.bo { color: var(--veja-svetla); font-weight: 600; }
 
-  .se-epizoda { padding: 7px 11px 7px 30px; border-top: 1px solid #16192260; }
-  .se-epizoda-vrh { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
-  .se-epizoda-st { font-size: 11px; font-weight: 700; color: #7a4fd0; min-width: 34px; }
-  .se-epizoda-naslov { font-size: 12.5px; color: #e0e0e0; }
-  .se-epizoda-sl { font-size: 11px; color: #8f8aa6; font-style: italic; }
-  .se-epizoda-termini { margin: 4px 0 0 42px; display: flex; flex-direction: column; gap: 2px; }
-  .se-termin { font-size: 11px; color: #9a9dae; display: flex; gap: 8px; align-items: baseline; }
-  .se-termin.bilo { color: #5c5870; }
-  .se-termin-kanal { color: #b9a8e0; }
-  .se-oznaka { font-size: 9px; font-weight: 700; padding: 1px 6px; border-radius: 10px; letter-spacing: 0.3px; }
-  .se-o-zdaj { background: #7a4fd0; color: #fff; }
-  .se-o-ponovitev { background: #22202e; color: #7d7896; }
-  .se-o-zacetek { background: #c9aef5; color: #12101c; }
-  .se-o-prva { background: #f5c518; color: #1a1500; }
-  .se-o-sporno { background: #3a2418; color: #d09a6a; }
-
-  /* Na ozkih zaslonih plakat 2:3 čez celo širino naredi kartico ~600 px visoko
-     in mreža postane stolp. Manjši minimum vrne dva stolpca. */
   @media (max-width: 620px) {
-    #se-mreza { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
-    .se-filtri, .se-sekcija, .se-oddelek-naslov, .se-oddelek-podnaslov { padding-left: 1rem; padding-right: 1rem; }
-    /* Širino kartice v pasu nastavlja skupno pravilo `.pas-vrsta > *` v
-       deli/_stil.css (38vw) — tu je ni več treba.
-       Ob IMDb znački zmanjka prostora za "ZAČETEK SERIJE" in se odreže, zato
-       gre oznaka v drugo vrsto na plakatu, poravnana levo. */
-    .se-zacetek-oznaka { top: 30px; left: 6px; right: auto; max-width: calc(100% - 12px); }
-    .se-popup { width: 96vw; padding: 1rem; }
-    .se-popup-plakat-ovoj { width: 78px; }
-    .se-epizoda { padding-left: 12px; }
-    .se-epizoda-termini { margin-left: 0; }
+    .dk-mreza { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+    .dk-naslov { font-size: 12px; }
+    .dk-opis { -webkit-line-clamp: 2; }
+    .dk-popup-glava { flex-direction: column; }
+    .dk-popup-slika-ovoj { flex: none; max-width: 100%; width: 100%; }
   }
 </style>
 </head>
@@ -646,122 +602,90 @@
   <div id="veje-nav"></div>
   <span class="glava-desno">
     <span class="posodobljeno" id="posodobljeno-txt"></span>
-    <span class="now-badge se-now" id="now-time">ZDAJ</span>
+    <span class="now-badge dk-now" id="now-time">ZDAJ</span>
   </span>
 </div>
 
-<!-- ===== Nalaganje (prekrije vsebino pod glavo, dokler se podatki ne naložijo) ===== -->
+<!-- ===== Nalaganje ===== -->
 <div id="nalaganje" class="nalaganje">
   <div class="nalaganje-box">
     <div class="nalaganje-spinner"></div>
-    <div class="nalaganje-tekst">Nalagam serije…</div>
+    <div class="nalaganje-tekst">Nalagam dokumentarce…</div>
     <div class="nalaganje-podtekst">Trenutek</div>
   </div>
 </div>
 
-<!-- ===== Kanali: en filter za vso stran (faza D, 24.8.2026) ===== -->
-<div class="kanali-bar" id="kanali-bar">
-  <div class="kanali-naslov">IZBERI TV KANALE</div>
-  <button class="kanali-cta" id="kanali-cta" onclick="preklopiKanalPanel()"></button>
-</div>
-<div class="kanali-panel" id="kanali-panel" style="display:none"></div>
-
-<!-- ===== UJEMI ZAČETEK — prve epizode sezon in serij ===== -->
-<div class="se-sekcija se-sekcija-zacetki" id="zacetki-sekcija" style="display:none">
-  <div class="se-sekcija-naslov">▶ UJEMI ZAČETEK · TOP <span class="se-naslov-zvezda">★</span> IZBOR
-    <span class="se-sekcija-podnaslov">Priložnost, da serijo gledaš od prve epizode</span>
+<!-- ===== CELOTNA PONUDBA — vsi dokumentarci ===== -->
+<div class="dk-oddelek-ponudba">
+  <div class="dk-oddelek-naslov">🎞 CELOTNA PONUDBA
+    <span class="dk-oddelek-podnaslov">Dokumentarni filmi in serije — filtriraj po vrsti in občinstvu</span>
   </div>
-  <div class="pas-ovoj">
-    <button class="pas-pusc pas-pusc-l" type="button" aria-label="Prejšnje serije" onclick="pasDrsi('zacetki-vrsta', -1)">&lsaquo;</button>
-    <div class="se-zacetki-vrsta pas-vrsta" id="zacetki-vrsta"></div>
-    <button class="pas-pusc pas-pusc-d" type="button" aria-label="Naslednje serije" onclick="pasDrsi('zacetki-vrsta', 1)">&rsaquo;</button>
-  </div>
-</div>
+  <div class="dk-vir-vrstica" id="dk-vir"></div>
 
-<!-- ===== CELOTNA PONUDBA — vse serije na voljo ===== -->
-<div class="se-oddelek-ponudba">
-  <div class="se-oddelek-naslov">📺 CELOTNA PONUDBA
-    <span class="se-oddelek-podnaslov">Vse serije na voljo — filtriraj po žanru in oceni</span>
-  </div>
-
-<!-- ===== Iskalnik: enaka oblika in mesto kot pri filmih (faza E, 24.8.2026) ===== -->
+<!-- ===== Iskalnik: enaka oblika in mesto kot pri filmih in serijah ===== -->
 <div class="global-iskanje-bar">
   <div class="iskanje-nacin">
     <button class="iskanje-nacin-btn active" id="iskanje-btn-naziv" onclick="izberIskanjeNacin('naziv')">Samo naziv</button>
     <button class="iskanje-nacin-btn" id="iskanje-btn-vse" onclick="izberIskanjeNacin('vse')">Naziv + opis</button>
   </div>
   <div class="iskanje-input-wrap">
-    <input type="text" class="iskanje-input" id="se-iskanje"
-           placeholder="Išči serijo po naslovu…" oninput="onIskanje()">
-    <button class="iskanje-clear" id="se-iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
+    <input type="text" class="iskanje-input" id="dk-iskanje"
+           placeholder="Išči dokumentarec po naslovu…" oninput="onIskanje()">
+    <button class="iskanje-clear" id="dk-iskanje-clear" onclick="pocistiIskanje()" style="display:none">×</button>
   </div>
 </div>
 
-<!-- ===== Filtri ===== -->
-<div class="se-filtri">
+<!-- ===== Filtri =====
+     Ocene ni: RTV je ne da. Zato sta tu samo vrsta in občinstvo, oboje
+     iz podatkov vira, ne sklepano. Vsaka pilula nosi števec — filter mora
+     povedati stanje. -->
+<div class="dk-filtri se-filtri">
+  <div class="filter-row">
+    <span class="filter-label">Vrsta</span>
+    <div class="se-btn-skupina" id="f-tip"></div>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">Občinstvo</span>
+    <div class="se-btn-skupina" id="f-obcinstvo"></div>
+  </div>
   <div class="filter-row">
     <span class="filter-label">Razvrsti</span>
     <div class="se-btn-skupina" id="f-razvrsti"></div>
   </div>
-
-  <!-- Piluli za začetke (25.8.2026). Neoznačeni = brez filtra, obe označeni = OR. -->
-  <div class="filter-row">
-    <span class="filter-label">Pokaži</span>
-    <div class="se-btn-skupina" id="f-zacetki"></div>
-  </div>
-
-  <!-- Žanri so ZAPRTI: seznam je dolg in bi na telefonu pojedel pol zaslona,
-       čeprav ga večina ne odpre. Gumb pove, ali filter deluje. Kanali so od
-       24.8.2026 v svoji vrstici na vrhu strani — enako kot pri filmih. -->
-  <div class="filter-row se-filter-vrsta">
-    <button class="se-cta" id="cta-zanri" onclick="preklopiPanel('zanri')"></button>
-    <span class="se-locnica"></span>
-    <div class="se-ocena-wrap" id="se-ocena"></div>
-  </div>
-
-  <div class="se-panel" id="panel-zanri" style="display:none">
-    <div class="se-btn-skupina" id="f-zanr"></div>
-  </div>
 </div>
 
-<!-- ===== Mreža serij ===== -->
+<!-- ===== Mreža ===== -->
 <div class="main">
-  <div class="rezultati-info" id="se-info"></div>
-  <div class="rezultati-grid" id="se-mreza"></div>
-  <div class="paginacija" id="se-paginacija" style="display:none">
-    <button class="pag-btn" id="pag-prej" onclick="stran(-1)">‹ Prejšnja</button>
-    <span class="pag-info" id="pag-info"></span>
-    <button class="pag-btn" id="pag-nasl" onclick="stran(1)">Naslednja ›</button>
-  </div>
+  <div class="rezultati-info" id="dk-info"></div>
+  <div class="dk-mreza" id="dk-mreza"></div>
 </div>
 </div>
 <!-- /CELOTNA PONUDBA -->
 
-<!-- ===== Popup: serija → sezone → epizode → termini ===== -->
+<!-- ===== Popup: film → termini · serija → epizode → termini ===== -->
 <div class="overlay" id="overlay" onclick="zapriPopup()"></div>
-<div class="popup se-popup" id="popup">
+<div class="popup dk-popup" id="popup">
   <button class="popup-close" onclick="zapriPopup()">×</button>
 
-  <div class="se-popup-glava">
-    <div id="p-plakat-ovoj" class="popup-plakat-ovoj se-popup-plakat-ovoj" style="display:none" onclick="odpriSlikoLightbox()">
-      <img id="p-plakat" class="se-popup-plakat" src="" alt="">
+  <div class="dk-popup-glava">
+    <div id="p-slika-ovoj" class="dk-popup-slika-ovoj" style="display:none" onclick="odpriSlikoLightbox()">
+      <img id="p-slika" class="dk-popup-slika" src="" alt="">
       <div class="popup-slika-zoom-hint">⛶</div>
     </div>
-    <div class="se-popup-glava-tekst">
-      <h2 class="se-popup-naslov" id="p-naslov"></h2>
-      <div class="se-popup-podnaslov" id="p-podnaslov"></div>
-      <div class="se-popup-znacke" id="p-znacke"></div>
-      <div class="se-popup-kanali" id="p-kanali"></div>
+    <div class="dk-popup-glava-tekst">
+      <h2 class="dk-popup-naslov" id="p-naslov"></h2>
+      <div class="dk-popup-podnaslov" id="p-podnaslov"></div>
+      <div class="dk-popup-znacke" id="p-znacke"></div>
     </div>
   </div>
 
   <p class="popup-opis" id="p-opis"></p>
 
-  <div class="popup-termini-naslov">Na sporedu</div>
-  <div id="p-sezone"></div>
+  <div class="popup-termini-naslov" id="p-termini-naslov">Na sporedu</div>
+  <div id="p-vsebina"></div>
 </div>
 
-<!-- Povecava plakata (24.8.2026) — isto kot pri filmih. -->
+<!-- Povečava slike — isto kot pri filmih in serijah. -->
 <div class="slika-lightbox" id="slika-lightbox" onclick="zapriSlikoLightbox()">
   <button class="slika-lightbox-close" onclick="zapriSlikoLightbox()">×</button>
   <img id="slika-lightbox-img" src="" alt="">
@@ -792,7 +716,7 @@
    in se filtrira na mestu. Z drugih strani je to navadna povezava z `?tip=`.
    ========================================================================== */
 
-const VEJA_AKTIVNA = 'serije';
+const VEJA_AKTIVNA = 'dokumentarci';
 
 // Vrstni red barvnih gumbov. Kar ni na seznamu, se doda na konec — nova veja
 // se torej pokaže tudi, če tega seznama nihče ne posodobi.
@@ -1032,860 +956,418 @@ function pripraviPas(idPasu) {
 }
 
 /* =============================================================================
-   SERIJSKA VEJA — serije.html
+   DOKUMENTARNA VEJA — skripta
    =============================================================================
-   Bere veje/serije.json (serije + epizode + termini) in izriše mrežo serij.
+   Podatki: veje/dokumentarci.json (gradi ga izvozi_veje.py iz
+   veje/dokumentarci_raw.json, ki ga zajame viri_dokumentarci.py z rtvslo.si).
 
-   KLJUČNA RAZLIKA GLEDE NA DRUGI DVE VEJI:
-   Filmi so naslov-centrični (en film, več terminov), šport dogodek-centričen
-   (kronološki seznam). Serije so HIERARHIČNE: serija -> sezona -> epizoda ->
-   termini. Serija se na strani pojavi natanko enkrat, ne glede na to, kolikokrat
-   je čez teden na sporedu — vse ostalo je v popupu.
+   TREH STVARI TU NAMENOMA NI:
+   1. OCENE — RTV je ne da; TMDb dokumentarcev ne ujame zanesljivo (generični
+      naslovi, epizodni naslovi, slovenski enkratniki). Boljše nič kot napačna.
+   2. FILTRA PO KANALIH — veja pokriva en sam kanal (RTVSlo 2). Gumb "izberi
+      kanale" z enim kanalom bi bil prazna obljuba. Vrne se, ko bo kanalov več.
+   3. ZASTAVICE "ponovitev" — poleti je označenih vseh 47 terminov (reprize),
+      zato oznaka nič ne loči. Podatek se zajema in bo uporaben jeseni.
 
-   SEZONE NISO V PODATKIH:
-   veje/serije.json ima samo serije, epizode in termine. Sezona je izpeljana iz
-   številke epizode ob izrisu; tako je nemogoče, da bi se seznam sezon razšel s
-   tem, kar je dejansko na sporedu.
-
-   STATUS SE RAČUNA TUKAJ, NE V PODATKIH:
-   "je bilo / je zdaj / bo" je lastnost trenutka. V datoteki so samo dejstva
-   (zac, kon, prvi, zacetek); oznake nastanejo ob izrisu in se osvežijo vsakih
-   30 s. Datoteka, stara tri ure, je zato še vedno pravilna.
-
-   IZVIRNI NASLOV JE GLAVNI (Andrejevo pravilo 22.8.2026): slovenski je podnaslov
-   in dodatna beseda za iskalnik, nikoli nadomestek.
+   FILM ali SERIJA se NE bere iz RTV oznake — izračuna ga izvozi_veje.py
+   (`_dok_tip`), ker "dokumentarna oddaja" pokriva oboje. Tu samo prikazujemo.
    ========================================================================== */
 
 const PODATKI = '';
-const OSVEZI_MS = 30 * 1000;    // kako pogosto se preračunajo statusi
-const NA_STRAN = 15;            // serij na stran (enako kot filmska mreža)
-const ZACETKOV = 7;             // koliko PRIHODNJIH kartic v oddelku "Ujemi začetek"
-const ZACETKOV_ARHIV = 7;       // koliko kartic, ki jih je mogoče gledati ŽE ZDAJ
-const ZACETKI_OKNO = 7 * 24 * 3600;  // kako daleč nazaj in naprej sega oddelek (strogo 7x24h)
-const SE_ZAMUDA = 30 * 60;      // sekund po začetku, ko epizoda še šteje za "zdaj"
 
-const DNEVI_SL = ['Nedelja', 'Ponedeljek', 'Torek', 'Sreda', 'Četrtek', 'Petek', 'Sobota'];
-const MESECI = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'avg', 'sep', 'okt', 'nov', 'dec'];
+let DOK = null;                  // cel paket iz dokumentarci.json
+let VSEBINE = [];                // seznam vsebin (iz slovarja)
+let TERMINI_PO_VSEBINI = {};     // vid -> [termin]
+let TERMINI_PO_EPIZODI = {};     // eid -> [termin]
+let EPIZODE_PO_VSEBINI = {};     // vid -> [epizoda]
 
-let SERIJE = {};
-let EPIZODE = {};
-let TERMINI = [];
-let META = {};
-let VRSTE = [];
+const STANJE = {
+  nacin: 'naziv',      // 'naziv' | 'vse'
+  iskanje: '',
+  tip: 'vse',          // 'vse' | 'film' | 'serija'
+  otroski: 'vse',      // 'vse' | 'otroci' | 'odrasli'
+  razvrsti: 'cas',     // 'cas' | 'abc'
+};
 
-// Izpeljani indeksi (zgrajeni enkrat ob nalaganju)
-let TERMINI_EP = {};     // eid  -> [termini], kronološko
-let EPIZODE_SER = {};    // sid  -> [eid]
-let TERMINI_SER = {};    // sid  -> [termini], kronološko
+const DNEVI = ['ned', 'pon', 'tor', 'sre', 'čet', 'pet', 'sob'];
 
-let izbraniKanali = new Set();
-let izbraniZanri = new Set();
-let izbraniZacetki = new Set();  // 'serija' | 'sezona' — piluli v oddelku Celotna ponudba
-let imdbMin = 0;             // drsnik: najnižja IMDb ocena
-let brezOcene = false;       // izključi drsnik in pokaže samo serije brez ocene
-let odprtPanel = null;       // 'zanri' | null
-let kanalPanelOdprt = false; // vrstica kanalov na vrhu strani
-let razvrstitev = 'ocena';
-let query = '';
-let iskanjeNacin = 'naziv';  // 'naziv' | 'vse' — enako kot pri filmih
-let stranIdx = 0;
-let odprtaSerija = null;
-let odprteSezone = new Set();
-let tikTimer = null;
-
-// -----------------------------------------------------------------------------
-// Pomožne
-// -----------------------------------------------------------------------------
-
-function zdaj() { return Math.floor(Date.now() / 1000); }
-function dvomestno(n) { return n < 10 ? '0' + n : '' + n; }
-
-function uraIz(ts) {
-  const d = new Date(ts * 1000);
-  return dvomestno(d.getHours()) + ':' + dvomestno(d.getMinutes());
-}
-
-function danesStr() {
-  const d = new Date();
-  return d.getFullYear() + '-' + dvomestno(d.getMonth() + 1) + '-' + dvomestno(d.getDate());
-}
-
-function imeDneva(datum) {
-  const danes = danesStr();
-  if (datum === danes) return 'Danes';
-  const j = new Date(); j.setDate(j.getDate() + 1);
-  const jutri = j.getFullYear() + '-' + dvomestno(j.getMonth() + 1) + '-' + dvomestno(j.getDate());
-  if (datum === jutri) return 'Jutri';
-  return DNEVI_SL[new Date(datum + 'T12:00:00').getDay()];
-}
-
-function datumKratko(datum) {
-  const d = new Date(datum + 'T12:00:00');
-  return d.getDate() + '. ' + MESECI[d.getMonth()];
-}
-
-function odstevanje(sekund) {
-  if (sekund < 60) return 'vsak hip';
-  const m = Math.floor(sekund / 60), h = Math.floor(m / 60), dni = Math.floor(h / 24);
-  if (dni > 0) return 'čez ' + dni + ' d ' + (h % 24) + ' h';
-  if (h > 0) return 'čez ' + h + ' h ' + (m % 60) + ' min';
-  return 'čez ' + m + ' min';
-}
-
-/* Plakat s TMDb lahko izgine (serija se preimenuje, slika umakne). Prazen
-   okvir v mreži je videti kot okvara strani, zato ga zamenja nadomestek.
-   Od 23.8.2026 imata mreža in pas isto kartico, zato je nadomestek en sam. */
-function slikaNiUspela(img) {
-  img.onerror = null;
-  const nadomestek = document.createElement('div');
-  nadomestek.className = 'se-kartica-brez';
-  nadomestek.textContent = '📺';
-  img.replaceWith(nadomestek);
-}
-
-/* Koliko časa nazaj je bilo. Namenoma brez ur — pri arhivu je natančnost na
-   minuto nepomembna, dan pa je tisto, kar si gledalec zapomni. */
-function predDnevi(sekund) {
-  const dni = Math.floor(sekund / 86400);
-  if (dni <= 0) return 'danes';
-  if (dni === 1) return 'včeraj';
-  return 'pred ' + dni + ' dnevi';
-}
+/* ---------------------------------------------------------------- pomozne */
 
 function ubegni(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
-/* Oznaka epizode: S8E12. Epizode brez oznake v EPG (redke) je nimajo. */
-function oznakaEpizode(e) {
-  if (e.s == null || e.e == null) return '';
-  return 'S' + e.s + 'E' + e.e;
+function zdaj() { return Math.floor(Date.now() / 1000); }
+
+function formatTermin(t) {
+  const d = new Date(t.zac * 1000);
+  const dd = String(d.getDate()).padStart(2, '0');
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  return `${DNEVI[d.getDay()]} ${dd}.${mm}. ob ${t.cas}`;
 }
 
-// -----------------------------------------------------------------------------
-// STATUS — edino mesto, kjer se odloča, kaj je kaj
-// -----------------------------------------------------------------------------
-
-function statusTermina(t) {
-  const n = zdaj();
-  if (n < t.zac) return 'bo';
-  if (n <= Math.max(t.kon, t.zac + SE_ZAMUDA)) return 'zdaj';
-  return 'bilo';
-}
-
-/* Prvi termin serije, ki še ni mimo. Vrne null, če je vse za nami. */
-function naslednjiTermin(sid) {
-  const n = zdaj();
-  return (TERMINI_SER[sid] || []).find(t => t.kon >= n) || null;
-}
-
-function terminOpis(t) {
-  return imeDneva(t.datum) + ' ' + uraIz(t.zac) + ' · ' + t.k;
-}
-
-// -----------------------------------------------------------------------------
-// Nalaganje
-// -----------------------------------------------------------------------------
-
-async function init() {
-  try {
-    const glava = document.querySelector('.header');
-    const ov = document.getElementById('nalaganje');
-    if (glava && ov) ov.style.top = glava.offsetHeight + 'px';
-
-    try {
-      const rv = await fetch(PODATKI + 'veje/vrste.json');
-      if (rv.ok) {
-        const _vj = await rv.json();
-        VRSTE = _vj.vrste || [];
-        nastaviPredoglede(_vj.predogledi);   // veje s stranjo, a delno pokritostjo
-      }
-    } catch (e) { VRSTE = []; }
-    izrisiVejeNav(VRSTE);
-
-    const resp = await fetch(PODATKI + 'veje/serije.json');
-    if (!resp.ok) throw new Error('serije.json ni dosegljiv (' + resp.status + ')');
-    const d = await resp.json();
-    SERIJE = d.serije || {};
-    EPIZODE = d.epizode || {};
-    TERMINI = d.termini || [];
-    META = d;
-
-    zgradiIndekse();
-
-    const p = document.getElementById('posodobljeno-txt');
-    if (p) p.textContent = 'osveženo ' + (d.posodobljeno || '');
-
-    izrisiFiltre();
-    osveziVse();
-    tikTimer = setInterval(tik, OSVEZI_MS);
-  } catch (e) {
-    console.error('Napaka pri nalaganju serij:', e);
-    document.getElementById('se-mreza').innerHTML =
-      '<div class="se-prazno">Serij ni bilo mogoče naložiti.<br>' + ubegni(e.message) + '</div>';
-  } finally {
-    skrijNalaganje();
+/* Relativni opis. Pretekle termine povemo samo kot "kdaj je bilo" — nobenih
+   obljub o arhivu in nobenih navodil uporabniku (velja za vse veje). */
+function relativno(t) {
+  const razlika = t.zac - zdaj();
+  const ure = Math.round(Math.abs(razlika) / 3600);
+  const dni = Math.round(Math.abs(razlika) / 86400);
+  if (razlika > 0) {
+    if (ure < 1) return 'čez nekaj minut';
+    if (ure < 24) return `čez ${ure} h`;
+    return dni === 1 ? 'jutri' : `čez ${dni} dni`;
   }
+  if (ure < 1) return 'pravkar';
+  if (ure < 24) return `pred ${ure} h`;
+  return dni === 1 ? 'včeraj' : `pred ${dni} dnevi`;
 }
 
-/* Termini so v datoteki že kronološki; indeksi to lastnost ohranijo, zato
-   nikjer kasneje ni treba sortirati. */
-function zgradiIndekse() {
-  TERMINI_EP = {}; EPIZODE_SER = {}; TERMINI_SER = {};
-  Object.keys(EPIZODE).forEach(eid => {
-    const sid = EPIZODE[eid].serija;
-    (EPIZODE_SER[sid] = EPIZODE_SER[sid] || []).push(eid);
-  });
-  TERMINI.forEach(t => {
-    (TERMINI_EP[t.ep] = TERMINI_EP[t.ep] || []).push(t);
-    const e = EPIZODE[t.ep];
-    if (e) (TERMINI_SER[e.serija] = TERMINI_SER[e.serija] || []).push(t);
-  });
-}
-
-function skrijNalaganje() {
-  const n = document.getElementById('nalaganje');
-  if (n) n.classList.add('skrito');
-}
-
-function tik() {
-  izrisiZacetke();
-  izrisiMrezo();
-  posodobiUro();
-}
-
-function osveziVse() {
-  izrisiZacetke();
-  izrisiMrezo();
-  posodobiUro();
-}
-
-function posodobiUro() {
-  const el = document.getElementById('now-time');
-  if (el) {
-    const d = new Date();
-    el.textContent = dvomestno(d.getHours()) + ':' + dvomestno(d.getMinutes());
-  }
-}
-
-// -----------------------------------------------------------------------------
-// Oddelek: UJEMI ZAČETEK
-// -----------------------------------------------------------------------------
-/* SAMO S01E01 — pravi začetek serije (Andrej, 25.8.2026). Začetkov sezon
-   (S02E01, S04E01 ...) tu NI VEČ; ostanejo v mreži s svojo oznako. Razlog:
-   oddelek obljublja "od prve epizode", nova sezona 4 pa te vrže na sredino
-   zgodbe — obljuba in vsebina se nista ujemali.
-
-   Dve polovici, obe razvrščeni PO OCENI (ne po času):
-     1. kar lahko gledaš ŽE ZDAJ — zadnji termin je bil v zadnjih 7x24 h
-     2. kar ŠELE PRIDE — prvi termin je v naslednjih 7x24 h
-   Vsaka polovica največ 7 kartic, torej največ 14 skupaj; manj, če jih ni.
-
-   OBRAT proti 23.8.2026: takrat je veljalo "VSI arhivski začetki serij, brez
-   omejitve", ker jih je omejitev po svežini tiho jedla. Zdaj jih omejitev spet
-   reže, a po OCENI in zavestno — izpadejo najslabše ocenjeni, ne naključni.
-   Meja je stroga (7x24 h od trenutka osvežitve), zato začetek izpred 7,99 dni
-   izpade tudi, če je dobro ocenjen. Andrej je to izrecno izbral. */
-
-function ocenaSerije(sid) {
-  return parseFloat((SERIJE[sid] || {}).imdb_ocena) || 0;
-}
-
-function zacetkiZaPas() {
+/* Kateri termin pokaže kartica: prvi PRIHODNJI, sicer zadnji odigrani.
+   Isto merilo kot pri filmih — gledalca zanima, kdaj bo, in šele če tega ni,
+   kdaj je bilo. */
+function karticniTermin(vid) {
+  const ts = TERMINI_PO_VSEBINI[vid] || [];
   const n = zdaj();
-  const naVoljo = [], prihaja = [];
-  Object.keys(EPIZODE).forEach(eid => {
-    const e = EPIZODE[eid];
-    if (e.zacetek !== 'serija') return;
-    const ts = TERMINI_EP[eid] || [];
-    if (!ts.length) return;
-    const t = ts.find(x => x.kon >= n);
-    if (t) {
-      if (t.zac - n <= ZACETKI_OKNO) prihaja.push({ eid, e, t, vrsta: 'prihaja' });
-      return;
-    }
-    // (isto pravilo kot zacetekVCasovnici — tu potrebujemo še sam termin)
-    // Že predvajano. Vzame se ZADNJI termin — ta je najsvežji in najverjetneje
-    // še dosegljiv v arhivu ponudnika.
-    const zadnji = ts.reduce((naj, x) => (!naj || x.zac > naj.zac) ? x : naj, null);
-    if (n - zadnji.zac <= ZACETKI_OKNO) naVoljo.push({ eid, e, t: zadnji, vrsta: 'arhiv' });
-  });
-
-  const poOceni = (a, b) => ocenaSerije(b.e.serija) - ocenaSerije(a.e.serija);
-  naVoljo.sort(poOceni);
-  prihaja.sort(poOceni);
-  return naVoljo.slice(0, ZACETKOV_ARHIV).concat(prihaja.slice(0, ZACETKOV));
-}
-
-function izrisiZacetke() {
-  const sek = document.getElementById('zacetki-sekcija');
-  const vrsta = document.getElementById('zacetki-vrsta');
-  const seznam = zacetkiZaPas();
-
-  if (!seznam.length) { sek.style.display = 'none'; return; }
-  sek.style.display = '';
-
-  const n = zdaj();
-  vrsta.innerHTML = seznam.map(({ e, t, vrsta: kaj }) => {
-    const s = SERIJE[e.serija] || {};
-    const plakat = s.poster_tmdb || s.slika || '';
-    const arhiv = kaj === 'arhiv';
-    // Pri arhivskih piše SAMO, kdaj je bilo. Ne koliko časa je še na voljo
-    // (naši podatki so iz enega ponudnika, gledalec je lahko pri drugem) in
-    // brez napotkov, kje naj išče — to uporabnik ve sam. (Andrej, 22.8.2026.)
-    // "Danes 06:25 ... danes" je odveč — vrstica z dnevom to že pove. Starost
-    // se izpiše samo takrat, ko pove kaj novega (dva dni ali več).
-    const starost = predDnevi(n - t.zac);
-    const spodaj = arhiv
-      ? (starost === 'danes' || starost === 'včeraj' ? ''
-         : `<span class="se-zacetek-arh">${starost}</span>`)
-      : `<span class="se-zacetek-cd">${odstevanje(Math.max(0, t.zac - n))}</span>`;
-    // 23.8.2026: pas ima ISTO kartico kot mreža (`se-kartica`) — velik plakat 2:3,
-    // IMDb levo zgoraj, oznaka desno zgoraj. Razred `se-zacetek` ostane kot oprijem
-    // za arhivsko barvanje in za teste; postavitev pride iz `.se-kartica`.
-    const ocena = s.imdb_ocena ? `<span class="se-kartica-ocena">★ ${ubegni(s.imdb_ocena)}</span>` : '';
-    return `<div class="se-kartica se-zacetek${arhiv ? ' arhiv' : ''}" onclick="odpriPopup('${e.serija}', ${e.s})">
-      ${plakat ? `<img class="se-kartica-slika" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
-               : '<div class="se-kartica-brez">📺</div>'}
-      ${ocena}
-      <span class="se-zacetek-oznaka ${arhiv ? 'bilo' : 'pride'}">Začetek serije</span>
-      <div class="se-zacetek-telo">
-        <div class="se-zacetek-naslov">${ubegni(s.naslov || '')}</div>
-        ${s.naslov_sl ? `<div class="se-zacetek-sl">${ubegni(s.naslov_sl)}</div>` : ''}
-        <div class="se-zacetek-meta">
-          ${imeDneva(t.datum)} ${uraIz(t.zac)} · ${ubegni(t.k)}<br>
-          ${spodaj}
-        </div>
-      </div>
-    </div>`;
-  }).join('');
-
-  pripraviPas('zacetki-vrsta');
-}
-
-// -----------------------------------------------------------------------------
-// Filtri
-// -----------------------------------------------------------------------------
-
-const RAZVRSTITVE = [
-  ['ocena', 'Najbolje ocenjene'],
-  ['kmalu', 'Kmalu na sporedu'],
-  ['abeceda', 'Po abecedi'],
-  ['epizod', 'Največ epizod'],
-];
-
-function izrisiFiltre() {
-  document.getElementById('f-razvrsti').innerHTML = RAZVRSTITVE.map(([k, t]) =>
-    `<button class="se-btn ${razvrstitev === k ? 'active' : ''}" onclick="nastaviRazvrstitev('${k}')">${t}</button>`
-  ).join('');
-
-  izrisiCta();
-  izrisiOceno();
-  izrisiZacetkiFilter();
-  posodobiKanaliBar();
-
-  const zanri = (META.zanri || []).filter(z => z.ime);
-  document.getElementById('f-zanr').innerHTML =
-    `<button class="se-btn ${izbraniZanri.size === 0 ? 'active' : ''}" onclick="pocistiZanre()">Vsi žanri</button>` +
-    zanri.map(z => `<button class="se-btn ${izbraniZanri.has(z.ime) ? 'active' : ''}"
-        onclick="preklopiZanr('${ubegni(z.ime)}')">${ubegni(z.ime)}<span class="se-btn-stevec">${z.serij}</span></button>`
-    ).join('');
-}
-
-/* Gumba za kanale in žanre. Ker je seznam zaprt, mora gumb sam povedati, ali
-   filter deluje — sicer bi uporabnik gledal skrajšan seznam serij in ne bi
-   vedel, zakaj. */
-function izrisiCta() {
-  const opis = (mnozica, praznoBesedilo) =>
-    mnozica.size === 0 ? praznoBesedilo
-      : (mnozica.size === 1 ? [...mnozica][0] : mnozica.size + ' izbranih');
-  const gumb = (id, ime, mnozica, prazno) => {
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.classList.toggle('active', mnozica.size > 0);
-    el.classList.toggle('odprt', odprtPanel === id.replace('cta-', ''));
-    el.innerHTML = `${ime} <span class="se-cta-stanje">${ubegni(opis(mnozica, prazno))}</span>
-                    <span class="se-cta-pusc">${odprtPanel === id.replace('cta-', '') ? '▴' : '▾'}</span>`;
-  };
-  gumb('cta-zanri', 'Žanri', izbraniZanri, 'vsi');
-}
-
-/* Kanali imajo od 24.8.2026 svojo vrstico na vrhu strani — enako obliko kot
-   filmi in sport. Stanje ostane loceno po vejah; skupna je samo oblika.
-   META.kanali ze vsebuje SAMO kanale, ki v tej veji kaj imajo, zato tu ni
-   cesa filtrirati. */
-function posodobiKanaliBar() {
-  const kan = (META.kanali || []).filter(k => k.serij);
-  const vsi = izbraniKanali.size === 0;
-
-  const cta = document.getElementById('kanali-cta');
-  if (cta) {
-    cta.innerHTML = `IZBRANI KANALI: ${vsi ? kan.length : izbraniKanali.size}${vsi ? ' (VSI)' : ''}` +
-                    `<span class="kanali-cta-pusc">${kanalPanelOdprt ? '&#9652;' : '&#9662;'}</span>`;
-  }
-
-  const panel = document.getElementById('kanali-panel');
-  if (!panel) return;
-  panel.style.display = kanalPanelOdprt ? 'flex' : 'none';
-  panel.innerHTML =
-    `<button class="f-btn ${vsi ? 'active' : ''}" onclick="pocistiKanale()">Vsi kanali</button>` +
-    kan.map(k => {
-      const izb = izbraniKanali.has(k.ime);
-      // Zadnjega izbranega kanala ni mogoce odkliniti — sicer bi ostal prazen izbor.
-      const zadnji = izbraniKanali.size === 1 && izb;
-      return `<button class="f-btn ${izb ? 'active' : ''}${zadnji ? ' zaklenjen' : ''}"
-              ${zadnji ? 'disabled title="Vsaj en kanal mora ostati izbran"' : ''}
-              onclick="preklopiKanal('${ubegni(k.ime)}')">${ubegni(k.ime)}<span class="f-btn-stevec">${k.serij}</span></button>`;
-    }).join('');
-}
-
-function preklopiKanalPanel() {
-  kanalPanelOdprt = !kanalPanelOdprt;
-  posodobiKanaliBar();
-}
-
-/* Piluli "Začetek serije" / "Začetek sezone" (25.8.2026). Slog je isti `.se-btn`
-   kot žanri in razvrstitve — stran nikjer nima pravih kljukic in Andrej je hotel
-   enotnost. Števec pove, koliko serij pilula prinese; brez njega bi uporabnik
-   klikal na slepo. Šteje se po ISTI časovnici kot oznake v mreži. */
-const ZACETKI_FILTER = [
-  ['serija', 'Začetek serije'],
-  ['sezona', 'Začetek sezone'],
-];
-
-function izrisiZacetkiFilter() {
-  const el = document.getElementById('f-zacetki');
-  if (!el) return;
-  el.innerHTML = ZACETKI_FILTER.map(([k, t]) => {
-    const n = Object.keys(SERIJE).filter(sid => imaZacetek(sid, k)).length;
-    return `<button class="se-btn ${izbraniZacetki.has(k) ? 'active' : ''}"
-            onclick="preklopiZacetek('${k}')">${t}<span class="se-btn-stevec">${n}</span></button>`;
-  }).join('');
-}
-
-function preklopiZacetek(k) {
-  izbraniZacetki.has(k) ? izbraniZacetki.delete(k) : izbraniZacetki.add(k);
-  stranIdx = 0; izrisiFiltre(); izrisiMrezo();
-}
-
-/* Ocena: drsnik kot na filmski strani, na koncu gumb "Brez ocene".
-   Serije brez IMDb ocene pri drsniku nad 0 izpadejo — to je namen; kdor jih
-   išče, ima za to svoj gumb. */
-function izrisiOceno() {
-  const el = document.getElementById('se-ocena');
-  if (!el) return;
-  el.innerHTML = `
-    <span class="filter-label">Ocena</span>
-    <div class="slider-wrap active${brezOcene ? ' onemogocen' : ''}">
-      <span class="se-slider-ime">IMDb</span>
-      <input type="range" min="0" max="9" step="0.5" value="${imdbMin}"
-             ${brezOcene ? 'disabled' : ''} oninput="nastaviImdbMin(this.value)">
-      <span class="slider-val">${imdbMin > 0 ? imdbMin + '+' : 'vse'}</span>
-    </div>
-    <button class="se-btn ${brezOcene ? 'active' : ''}" onclick="preklopiBrezOcene()">Brez ocene</button>`;
-}
-
-function preklopiPanel(kaj) {
-  odprtPanel = (odprtPanel === kaj) ? null : kaj;
-  ['zanri'].forEach(k => {
-    const p = document.getElementById('panel-' + k);
-    if (p) p.style.display = (odprtPanel === k) ? '' : 'none';
-  });
-  izrisiCta();
-}
-
-function nastaviRazvrstitev(k) { razvrstitev = k; stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
-
-function nastaviImdbMin(v) {
-  imdbMin = parseFloat(v);
-  brezOcene = false;
-  stranIdx = 0;
-  // Med vlečenjem drsnika se ne izrisuje cel filter — samo številka poleg njega,
-  // sicer bi se element pod prstom sproti na novo ustvarjal.
-  const el = document.querySelector('#se-ocena .slider-val');
-  if (el) el.textContent = imdbMin > 0 ? imdbMin + '+' : 'vse';
-  izrisiMrezo();
-}
-
-function preklopiBrezOcene() {
-  brezOcene = !brezOcene;
-  if (brezOcene) imdbMin = 0;
-  stranIdx = 0;
-  izrisiOceno();
-  izrisiMrezo();
-}
-
-function pocistiKanale() { izbraniKanali.clear(); stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
-function preklopiKanal(k) {
-  if (izbraniKanali.has(k)) {
-    if (izbraniKanali.size === 1) return;   // zadnji izbrani ostane
-    izbraniKanali.delete(k);
-  } else {
-    izbraniKanali.add(k);
-  }
-  stranIdx = 0; izrisiFiltre(); izrisiMrezo();
-}
-function pocistiZanre() { izbraniZanri.clear(); stranIdx = 0; izrisiFiltre(); izrisiMrezo(); }
-function preklopiZanr(z) {
-  izbraniZanri.has(z) ? izbraniZanri.delete(z) : izbraniZanri.add(z);
-  stranIdx = 0; izrisiFiltre(); izrisiMrezo();
-}
-
-/* Nacin iskanja — enaka dva gumba kot pri filmih. Privzeto "Samo naziv":
-   iskanje po opisih vrne prevec sirok rezultat, kdor ga hoce, ga vklopi. */
-function izberIskanjeNacin(nacin) {
-  iskanjeNacin = nacin;
-  document.getElementById('iskanje-btn-naziv').classList.toggle('active', nacin === 'naziv');
-  document.getElementById('iskanje-btn-vse').classList.toggle('active', nacin === 'vse');
-  document.getElementById('se-iskanje').placeholder =
-    nacin === 'naziv' ? 'Išči serijo po naslovu…' : 'Išči serijo, epizodo, igralca v opisu…';
-  stranIdx = 0;
-  izrisiMrezo();
-}
-
-function onIskanje() {
-  query = document.getElementById('se-iskanje').value.trim().toLowerCase();
-  document.getElementById('se-iskanje-clear').style.display = query ? '' : 'none';
-  stranIdx = 0;
-  izrisiMrezo();
-}
-
-function pocistiIskanje() {
-  document.getElementById('se-iskanje').value = '';
-  query = '';
-  document.getElementById('se-iskanje-clear').style.display = 'none';
-  stranIdx = 0;
-  izrisiMrezo();
-}
-
-// -----------------------------------------------------------------------------
-// Mreža serij
-// -----------------------------------------------------------------------------
-
-/* Iskanje gre čez izvirni naslov, slovenskega, naslov s TMDb in čez naslove
-   epizod — kdor se spomni samo epizode ("Striptizeta"), mora najti serijo. */
-function besediloSerije(sid) {
-  const s = SERIJE[sid];
-  // "Samo naziv" isce po imenih serije — treh, ker je isto ime lahko izvirno,
-  // slovensko ali s TMDb. Naslovi EPIZOD sodijo sem, ker se gledalec pogosto
-  // spomni samo epizode ("Striptizeta") in mora tako najti serijo.
-  const imena = [s.naslov, s.naslov_sl, s.naslov_tmdb];
-  (EPIZODE_SER[sid] || []).forEach(eid => {
-    const e = EPIZODE[eid];
-    imena.push(e.naslov, e.naslov_sl);
-  });
-  if (iskanjeNacin === 'naziv') return imena.join(' ').toLowerCase();
-
-  return imena.concat([(s.zanr || []).join(' '),
-                       (s.kanali || []).join(' '),
-                       s.opis || '']).join(' ').toLowerCase();
-}
-
-function ustreza(sid) {
-  const s = SERIJE[sid];
-  if (izbraniKanali.size && !(s.kanali || []).some(k => izbraniKanali.has(k))) return false;
-  if (izbraniZanri.size && !(s.zanr || []).some(z => izbraniZanri.has(z))) return false;
-  // Piluli sta OR: neoznačeni pomenita "brez filtra", obe označeni pa serije,
-  // ki imajo katerikoli začetek. Prazen izbor NIKOLI ne pomeni praznega seznama.
-  if (izbraniZacetki.size && ![...izbraniZacetki].some(v => imaZacetek(sid, v))) return false;
-
-  const ocena = parseFloat(s.imdb_ocena);
-  if (brezOcene) { if (!isNaN(ocena)) return false; }
-  else if (imdbMin > 0 && !(ocena >= imdbMin)) return false;
-
-  if (query && !besediloSerije(sid).includes(query)) return false;
-  return true;
-}
-
-function urejeneSerije() {
-  const seznam = Object.keys(SERIJE).filter(ustreza);
-  const kljuc = {
-    ocena: sid => -(parseFloat(SERIJE[sid].imdb_ocena) || 0),
-    epizod: sid => -(SERIJE[sid].epizod || 0),
-    abeceda: sid => SERIJE[sid].naslov.toLowerCase(),
-    kmalu: sid => { const t = naslednjiTermin(sid); return t ? t.zac : Infinity; },
-  }[razvrstitev];
-
-  return seznam.sort((a, b) => {
-    const ka = kljuc(a), kb = kljuc(b);
-    if (ka < kb) return -1;
-    if (ka > kb) return 1;
-    return SERIJE[a].naslov.localeCompare(SERIJE[b].naslov, 'sl');
-  });
-}
-
-function izrisiMrezo() {
-  const seznam = urejeneSerije();
-  const info = document.getElementById('se-info');
-  const cilj = document.getElementById('se-mreza');
-  const strani = Math.max(1, Math.ceil(seznam.length / NA_STRAN));
-  if (stranIdx >= strani) stranIdx = strani - 1;
-
-  info.textContent = seznam.length + (seznam.length === 1 ? ' serija' : ' serij') +
-    ' · ' + TERMINI.length + ' terminov v oknu';
-
-  if (!seznam.length) {
-    cilj.innerHTML = '<div class="se-prazno">Za izbrane filtre ni serij.</div>';
-    document.getElementById('se-paginacija').style.display = 'none';
-    return;
-  }
-
-  const odsek = seznam.slice(stranIdx * NA_STRAN, (stranIdx + 1) * NA_STRAN);
-  cilj.innerHTML = odsek.map(karticaHtml).join('');
-
-  const pag = document.getElementById('se-paginacija');
-  pag.style.display = strani > 1 ? '' : 'none';
-  document.getElementById('pag-info').textContent = `${stranIdx + 1} / ${strani}`;
-  document.getElementById('pag-prej').disabled = stranIdx === 0;
-  document.getElementById('pag-nasl').disabled = stranIdx >= strani - 1;
-}
-
-function stran(korak) {
-  stranIdx += korak;
-  izrisiMrezo();
-  window.scrollTo({ top: document.querySelector('.main').offsetTop - 10, behavior: 'smooth' });
-}
-
-/* Ali serija v oknu ponuja začetek sezone ali serije — edina oznaka na kartici,
-   ker je za gledalca najbolj uporabna informacija.
-
-   Šteje CELO okno, ne le prihodnjih terminov: prva epizoda, ki je bila pred
-   petimi dnevi, je še vedno v arhivu in gledalec lahko z njo začne. Prej je
-   ta funkcija gledala samo naprej in serije kot Taboo so ostale brez oznake.
-
-   "Začetek serije" (S01E01) prevlada nad "novo sezono" — kdor lahko začne čisto
-   od začetka, ga sredina serije ne zanima. */
-/* Ali je ta začetek znotraj ene same časovnice, ki velja za VSO stran:
-   najbližji prihodnji termin je največ ZACETKI_OKNO pred nami, ali pa je zadnji
-   pretekli največ ZACETKI_OKNO za nami. Tu je edino mesto, kjer je to pravilo
-   zapisano — oddelek, oznake v mreži in piluli ga vsi berejo od tod. */
-function zacetekVCasovnici(termini, n) {
-  const t = termini.find(x => x.kon >= n);
-  if (t) return t.zac - n <= ZACETKI_OKNO;
-  const zadnji = termini[termini.length - 1];
-  return !!zadnji && n - zadnji.zac <= ZACETKI_OKNO;
-}
-
-/* Ali ima serija v časovnici začetek dane vrste ('serija' | 'sezona').
-   Bere PODATKE, ne oznake: serija, ki ima oboje, nosi zlato oznako, a se pri
-   piluli "Začetek sezone" vseeno pokaže — Andrejeva odločitev 25.8.2026
-   (resnica pred videzom, takih je 5). */
-function imaZacetek(sid, vrsta) {
-  const n = zdaj();
-  return (EPIZODE_SER[sid] || []).some(eid => {
-    const e = EPIZODE[eid];
-    if (e.zacetek !== vrsta) return false;
-    const termini = TERMINI_EP[eid] || [];
-    return termini.length > 0 && zacetekVCasovnici(termini, n);
-  });
-}
-
-/* 25.8.2026: oznaka v mreži uporablja ISTO ČASOVNICO kot oddelek "Ujemi
-   začetek" — strogih ZACETKI_OKNO (7x24 h) nazaj in naprej. Prej je štelo celo
-   podatkovno okno (~14 dni) in je nastal par, ki si je nasprotoval: Taboo je
-   imel v mreži zlato oznako, v oddelku pa ga ni bilo. Andrejeva zahteva:
-   ena časovnica povsod. Učinek je majhen (3 serije izgubijo oznako, nobena je
-   ne zamenja), ker je podatkovno okno tako ali tako približno ±7 dni. */
-function zacetekVOknu(sid) {
-  const n = zdaj();
-  let serija = false, sezona = null, sezonaTeza = -Infinity;
-  (EPIZODE_SER[sid] || []).forEach(eid => {
-    const e = EPIZODE[eid];
-    if (!e.zacetek) return;
-    const termini = TERMINI_EP[eid] || [];
-    if (!termini.length) return;
-    if (!zacetekVCasovnici(termini, n)) return;
-    if (e.zacetek === 'serija') { serija = true; return; }
-    // Če ima serija več začetkov sezon, obvelja tisti, ki je časovno najbližje
-    // zdaj: najprej najbližji prihodnji, sicer najsvežejši pretekli.
-    const t = termini.find(x => x.kon >= n) || termini[termini.length - 1];
-    const teza = t.kon >= n ? 1e12 - t.zac : t.zac;
-    if (teza > sezonaTeza) { sezonaTeza = teza; sezona = e.s; }
-  });
-  if (serija) return { vrsta: 'serija' };
-  if (sezona != null) return { vrsta: 'sezona', s: sezona };
+  const prih = ts.filter(t => t.zac > n);
+  if (prih.length) return { t: prih[0], prihodnji: true };
+  if (ts.length) return { t: ts[ts.length - 1], prihodnji: false };
   return null;
 }
 
-function karticaHtml(sid) {
-  const s = SERIJE[sid];
-  const plakat = s.poster_tmdb || s.slika || '';
-  const ocena = s.imdb_ocena ? `<span class="se-kartica-ocena">★ ${ubegni(s.imdb_ocena)}</span>` : '';
-  const zac = zacetekVOknu(sid);
-  const znak = zac
-    ? `<span class="se-kartica-znak ${zac.vrsta === 'serija' ? 'prva' : ''}">${
-        zac.vrsta === 'serija' ? 'ZAČETEK SERIJE' : 'NOVA SEZONA ' + zac.s}</span>` : '';
-  const sezone = (s.sezone || []);
-  const sezOpis = sezone.length === 0 ? ''
-    : sezone.length === 1 ? 'sezona ' + sezone[0]
-      : 'sezone ' + sezone[0] + '–' + sezone[sezone.length - 1];
-  const t = naslednjiTermin(sid);
-  const naslednji = t
-    ? `<div class="se-kartica-nasl-termin">${imeDneva(t.datum)} ${uraIz(t.zac)} · ${ubegni(t.k)}</div>`
-    : '<div class="se-kartica-nasl-termin" style="color:#5c5870">ni več na sporedu</div>';
+function prvaEpizoda(vid) {
+  const e = EPIZODE_PO_VSEBINI[vid] || [];
+  return e.length ? e[0] : null;
+}
 
-  return `<div class="se-kartica" onclick="odpriPopup('${sid}')">
-    ${plakat ? `<img class="se-kartica-slika" src="${ubegni(plakat)}" alt="" loading="lazy" onerror="slikaNiUspela(this)">`
-             : '<div class="se-kartica-brez">📺</div>'}
-    ${ocena}${znak}
-    <div class="se-kartica-body">
-      <div class="se-kartica-naslov">${ubegni(s.naslov)}</div>
-      ${s.naslov_sl ? `<div class="se-kartica-sl">${ubegni(s.naslov_sl)}</div>` : ''}
-      <div class="se-kartica-meta">${sezOpis}${sezOpis ? ' · ' : ''}${s.epizod} ${s.epizod === 1 ? 'epizoda' : 'epizod'}</div>
-      ${naslednji}
+/* ---------------------------------------------------------------- filtri */
+
+function besediloVsebine(v) {
+  const deli = [v.naslov];
+  (v.naslovi_orig || []).forEach(n => deli.push(n));
+  (EPIZODE_PO_VSEBINI[v.id] || []).forEach(e => { if (e.naslov) deli.push(e.naslov); });
+  if (STANJE.nacin === 'vse') {
+    deli.push(v.opis || '');
+    deli.push(v.reziser || '', v.drzava || '', v.leto || '');
+    (EPIZODE_PO_VSEBINI[v.id] || []).forEach(e => deli.push(e.opis || ''));
+  }
+  return deli.join(' ').toLowerCase();
+}
+
+function jeOtroski(v) { return !!(v.obcinstvo || '').trim(); }
+
+function filtrirane() {
+  let s = VSEBINE.slice();
+  if (STANJE.tip !== 'vse') s = s.filter(v => v.tip === STANJE.tip);
+  if (STANJE.otroski === 'otroci') s = s.filter(jeOtroski);
+  else if (STANJE.otroski === 'odrasli') s = s.filter(v => !jeOtroski(v));
+  const q = STANJE.iskanje.trim().toLowerCase();
+  if (q) s = s.filter(v => besediloVsebine(v).indexOf(q) >= 0);
+
+  if (STANJE.razvrsti === 'abc') {
+    s.sort((a, b) => a.naslov.localeCompare(b.naslov, 'sl'));
+  } else {
+    /* "Kmalu na sporedu": najprej vse, kar še pride (najbližje spredaj),
+       nato preteklo (najsvežejše spredaj). Vsebina brez termina ne obstaja —
+       samopreverjanje izvoza to jamči — a varovalo naj vseeno bo. */
+    const n = zdaj();
+    const kljuc = v => {
+      const ts = TERMINI_PO_VSEBINI[v.id] || [];
+      const prih = ts.filter(t => t.zac > n);
+      if (prih.length) return [0, prih[0].zac];
+      if (ts.length) return [1, -ts[ts.length - 1].zac];
+      return [2, 0];
+    };
+    s.sort((a, b) => {
+      const ka = kljuc(a), kb = kljuc(b);
+      if (ka[0] !== kb[0]) return ka[0] - kb[0];
+      if (ka[1] !== kb[1]) return ka[1] - kb[1];
+      return a.naslov.localeCompare(b.naslov, 'sl');
+    });
+  }
+  return s;
+}
+
+/* ---------------------------------------------------------------- izris */
+
+function karticaHtml(v) {
+  const znak = v.tip === 'serija'
+    ? '<span class="dk-znak serija">Serija</span>'
+    : '<span class="dk-znak film">Film</span>';
+  const otroci = jeOtroski(v) ? '<span class="dk-znak-otroci">Za otroke</span>' : '';
+
+  const slika = v.slika
+    ? `<img class="dk-slika" src="${ubegni(v.slika)}" alt="" loading="lazy"
+            onerror="this.style.display='none'">`
+    : '';
+
+  const meta = [v.leto, v.drzava, v.reziser ? 'r. ' + v.reziser : '']
+    .filter(Boolean).join(' · ');
+
+  let epizod = '';
+  if (v.tip === 'serija') {
+    const skupaj = v.epizod_skupaj ? ` od ${v.epizod_skupaj}` : '';
+    epizod = `<div class="dk-epizod">${v.epizod_v_oknu} ${
+      v.epizod_v_oknu === 1 ? 'epizoda' : (v.epizod_v_oknu === 2 ? 'epizodi' : 'epizod')
+    }${skupaj} na sporedu</div>`;
+  }
+
+  /* Opis serije je opis PRVE EPIZODE — RTV opisa serije ne da. Označimo ga,
+     da kartica ne trdi nečesa, kar ni res. (Andrejeva izbira, 26.8.2026.) */
+  let opis = '';
+  if (v.tip === 'serija') {
+    const e = prvaEpizoda(v.id);
+    if (e && e.opis) {
+      const oznaka = e.naslov
+        ? `${e.st ? e.st + '. del: ' : ''}${e.naslov}`
+        : (e.st ? e.st + '. del' : '1. del');
+      opis = `<div class="dk-opis"><span class="dk-opis-oznaka">${ubegni(oznaka)}</span> — ${ubegni(e.opis)}</div>`;
+    }
+  } else if (v.opis) {
+    opis = `<div class="dk-opis">${ubegni(v.opis)}</div>`;
+  }
+
+  const kt = karticniTermin(v.id);
+  let termin = '';
+  if (kt) {
+    const razred = kt.prihodnji ? 'dk-termin' : 'dk-termin dk-termin-pretekli';
+    termin = `<div class="${razred}">${ubegni(formatTermin(kt.t))} · ${ubegni(relativno(kt.t))}</div>`;
+  }
+
+  return `<div class="dk-kartica" onclick="odpriPopup('${ubegni(v.id)}')">
+    <div class="dk-slika-ovoj">${slika}${znak}${otroci}</div>
+    <div class="dk-telo">
+      <div class="dk-naslov">${ubegni(v.naslov)}</div>
+      ${meta ? `<div class="dk-meta">${ubegni(meta)}</div>` : ''}
+      ${epizod}
+      ${opis}
+      ${termin}
     </div>
   </div>`;
 }
 
-// -----------------------------------------------------------------------------
-// Popup: serija -> sezone -> epizode -> termini
-// -----------------------------------------------------------------------------
+function izrisiFiltre() {
+  const st = { vse: VSEBINE.length, film: 0, serija: 0, otroci: 0 };
+  VSEBINE.forEach(v => { st[v.tip]++; if (jeOtroski(v)) st.otroci++; });
 
-function odpriPopup(sid, odpriSezono) {
-  const s = SERIJE[sid];
-  if (!s) return;
-  odprtaSerija = sid;
+  const pilula = (aktivno, kljuc, vrednost, napis, stevec) =>
+    `<button class="se-btn${aktivno ? ' active' : ''}" onclick="nastavi('${kljuc}','${vrednost}')">` +
+    `${napis}<span class="se-btn-stevec">${stevec}</span></button>`;
 
-  const plakat = document.getElementById('p-plakat');
-  const ovoj = document.getElementById('p-plakat-ovoj');
-  const vir = s.poster_tmdb || s.slika || '';
-  // Skrije se OVOJ, ne slika — sicer bi na mestu plakata ostal namig za povecavo.
-  plakat.onerror = () => { ovoj.style.display = 'none'; };
-  if (vir) { plakat.src = vir; ovoj.style.display = ''; } else { ovoj.style.display = 'none'; }
+  document.getElementById('f-tip').innerHTML =
+    pilula(STANJE.tip === 'vse', 'tip', 'vse', 'Vse', st.vse) +
+    pilula(STANJE.tip === 'film', 'tip', 'film', 'Filmi', st.film) +
+    pilula(STANJE.tip === 'serija', 'tip', 'serija', 'Serije', st.serija);
 
-  document.getElementById('p-naslov').textContent = s.naslov;
-  const pod = document.getElementById('p-podnaslov');
-  pod.textContent = s.naslov_sl || '';
-  pod.style.display = s.naslov_sl ? '' : 'none';
+  document.getElementById('f-obcinstvo').innerHTML =
+    pilula(STANJE.otroski === 'vse', 'otroski', 'vse', 'Vsi', st.vse) +
+    pilula(STANJE.otroski === 'otroci', 'otroski', 'otroci', 'Za otroke', st.otroci) +
+    pilula(STANJE.otroski === 'odrasli', 'otroski', 'odrasli', 'Brez otroških', st.vse - st.otroci);
+
+  document.getElementById('f-razvrsti').innerHTML =
+    `<button class="se-btn${STANJE.razvrsti === 'cas' ? ' active' : ''}" onclick="nastavi('razvrsti','cas')">Kmalu na sporedu</button>` +
+    `<button class="se-btn${STANJE.razvrsti === 'abc' ? ' active' : ''}" onclick="nastavi('razvrsti','abc')">Po abecedi</button>`;
+}
+
+function izrisi() {
+  izrisiFiltre();
+  const s = filtrirane();
+  const info = document.getElementById('dk-info');
+  info.textContent = s.length === VSEBINE.length
+    ? `${s.length} dokumentarcev`
+    : `${s.length} od ${VSEBINE.length} dokumentarcev`;
+  document.getElementById('dk-mreza').innerHTML =
+    s.length ? s.map(karticaHtml).join('') : '<div class="rezultati-info">Ni zadetkov.</div>';
+}
+
+function nastavi(kljuc, vrednost) { STANJE[kljuc] = vrednost; izrisi(); }
+
+function onIskanje() {
+  const el = document.getElementById('dk-iskanje');
+  STANJE.iskanje = el.value;
+  document.getElementById('dk-iskanje-clear').style.display = el.value ? '' : 'none';
+  izrisi();
+}
+
+function pocistiIskanje() {
+  document.getElementById('dk-iskanje').value = '';
+  STANJE.iskanje = '';
+  document.getElementById('dk-iskanje-clear').style.display = 'none';
+  izrisi();
+}
+
+function izberIskanjeNacin(nacin) {
+  STANJE.nacin = nacin;
+  document.getElementById('iskanje-btn-naziv').classList.toggle('active', nacin === 'naziv');
+  document.getElementById('iskanje-btn-vse').classList.toggle('active', nacin === 'vse');
+  document.getElementById('dk-iskanje').placeholder = nacin === 'naziv'
+    ? 'Išči dokumentarec po naslovu…'
+    : 'Išči po naslovu, opisu, režiserju…';
+  izrisi();
+}
+
+/* ---------------------------------------------------------------- popup */
+
+function terminHtml(t) {
+  const bo = t.zac > zdaj();
+  return `<div class="dk-termin-vrstica${bo ? ' bo' : ''}">${ubegni(formatTermin(t))}` +
+         ` <span class="dk-t-kanal">· ${ubegni(t.kanal)}</span>` +
+         ` <span class="dk-t-kanal">· ${ubegni(relativno(t))}</span></div>`;
+}
+
+function odpriPopup(vid) {
+  const v = DOK.vsebine[vid];
+  if (!v) return;
+
+  const ovoj = document.getElementById('p-slika-ovoj');
+  const img = document.getElementById('p-slika');
+  if (v.slika) {
+    img.src = v.slika;
+    img.style.display = '';
+    ovoj.style.display = '';
+    /* Ob padli sliki skrij OVOJ, ne slike — sicer ostane viseti namig ⛶
+       nad praznim prostorom. (Ista past kot pri filmskem in serijskem popupu.) */
+    img.onerror = () => { ovoj.style.display = 'none'; };
+  } else {
+    ovoj.style.display = 'none';
+  }
+
+  document.getElementById('p-naslov').textContent = v.naslov;
+
+  const orig = (v.naslovi_orig || []).join(' · ');
+  document.getElementById('p-podnaslov').textContent = orig;
+  document.getElementById('p-podnaslov').style.display = orig ? '' : 'none';
 
   const znacke = [];
-  if (s.imdb_ocena) {
-    znacke.push(`<span class="se-znacka se-znacka-imdb">IMDb ★ ${ubegni(s.imdb_ocena)}${
-      s.imdb_glasovi ? ' · ' + Number(s.imdb_glasovi).toLocaleString('sl') + ' glasov' : ''}</span>`);
-  }
-  if (s.leto) znacke.push(`<span class="se-znacka">${ubegni(s.leto)}</span>`);
-  if (s.sezon_vseh) znacke.push(`<span class="se-znacka">${s.sezon_vseh} sezon skupaj</span>`);
-  (s.zanr || []).forEach(z => znacke.push(`<span class="se-znacka">${ubegni(z)}</span>`));
+  znacke.push(`<span class="dk-znacka tip">${v.tip === 'serija' ? 'Dokumentarna serija' : 'Dokumentarni film'}</span>`);
+  if (v.tip_rtv && v.tip_rtv !== v.tip) znacke.push(`<span class="dk-znacka">RTV: ${ubegni(v.tip_rtv)}</span>`);
+  if (v.drzava) znacke.push(`<span class="dk-znacka">${ubegni(v.drzava)}</span>`);
+  if (v.leto) znacke.push(`<span class="dk-znacka">${ubegni(v.leto)}</span>`);
+  if (v.reziser) znacke.push(`<span class="dk-znacka">r. ${ubegni(v.reziser)}</span>`);
+  if (v.obcinstvo) znacke.push(`<span class="dk-znacka">${ubegni(v.obcinstvo)}</span>`);
+  if (v.kanal) znacke.push(`<span class="dk-znacka">${ubegni(v.kanal)}</span>`);
   document.getElementById('p-znacke').innerHTML = znacke.join('');
 
-  document.getElementById('p-kanali').textContent =
-    (s.kanali || []).join(', ') + ' · ' + s.terminov +
-    (s.terminov === 1 ? ' termin' : ' terminov') + ' v oknu';
+  const epizode = EPIZODE_PO_VSEBINI[vid] || [];
+  const opisEl = document.getElementById('p-opis');
+  const naslovEl = document.getElementById('p-termini-naslov');
+  const vsebinaEl = document.getElementById('p-vsebina');
 
-  const opis = document.getElementById('p-opis');
-  opis.textContent = s.opis || '';
-  opis.style.display = s.opis ? '' : 'none';
-
-  // Privzeto odprta je sezona, v kateri je naslednja epizoda na sporedu.
-  odprteSezone = new Set();
-  if (odpriSezono != null) {
-    odprteSezone.add(String(odpriSezono));
+  if (v.tip === 'serija') {
+    /* Pri seriji opisa na ravni serije NI (RTV ga ne da) — vsak opis pripada
+       svoji epizodi in tam tudi stoji. */
+    opisEl.style.display = 'none';
+    naslovEl.textContent = `Epizode na sporedu (${epizode.length})`;
+    vsebinaEl.innerHTML = epizode.map(e => {
+      const ts = (TERMINI_PO_EPIZODI[e.id] || []).map(terminHtml).join('');
+      const st = e.st ? `${e.st}.` : '';
+      return `<div class="dk-epizoda">
+        <div class="dk-epizoda-glava">
+          <span class="dk-epizoda-st">${ubegni(st)}</span>
+          <span class="dk-epizoda-naslov">${ubegni(e.naslov || 'Brez naslova')}</span>
+        </div>
+        ${e.opis ? `<div class="dk-epizoda-opis">${ubegni(e.opis)}</div>` : ''}
+        ${ts}
+      </div>`;
+    }).join('');
   } else {
-    const t = naslednjiTermin(sid);
-    const e = t ? EPIZODE[t.ep] : null;
-    if (e) odprteSezone.add(String(e.s));
+    const e = epizode[0];
+    const opis = (e && e.opis) || v.opis || '';
+    opisEl.textContent = opis;
+    opisEl.style.display = opis ? '' : 'none';
+    naslovEl.textContent = 'Na sporedu';
+    vsebinaEl.innerHTML = (TERMINI_PO_VSEBINI[vid] || []).map(terminHtml).join('');
   }
 
-  izrisiSezone();
   document.getElementById('overlay').classList.add('active');
   document.getElementById('popup').classList.add('active');
 }
 
-function izrisiSezone() {
-  const sid = odprtaSerija;
-  if (!sid) return;
-  const eids = (EPIZODE_SER[sid] || []).slice();
-
-  const poSezoni = {};
-  eids.forEach(eid => {
-    const e = EPIZODE[eid];
-    const kljuc = String(e.s == null ? 'x' : e.s);
-    (poSezoni[kljuc] = poSezoni[kljuc] || []).push(eid);
-  });
-
-  const kljuci = Object.keys(poSezoni).sort((a, b) => {
-    if (a === 'x') return 1;
-    if (b === 'x') return -1;
-    return Number(a) - Number(b);
-  });
-
-  document.getElementById('p-sezone').innerHTML = kljuci.map(k => {
-    const seznam = poSezoni[k].sort((a, b) => (EPIZODE[a].e || 0) - (EPIZODE[b].e || 0));
-    const odprta = odprteSezone.has(k);
-    const ime = k === 'x' ? 'Brez oznake sezone'
-      : (k === '0' ? 'Posebne oddaje (sezona 0)' : 'Sezona ' + k);
-    return `<div class="se-sezona ${odprta ? 'odprta' : ''}">
-      <div class="se-sezona-glava" onclick="preklopiSezono('${k}')">
-        <span class="se-sezona-caret">${odprta ? '▾' : '▸'}</span>
-        <span class="se-sezona-ime">${ime}</span>
-        <span class="se-sezona-stev">${seznam.length} ${seznam.length === 1 ? 'epizoda' : 'epizod'} na sporedu</span>
-      </div>
-      <div class="se-sezona-telo">${seznam.map(epizodaHtml).join('')}</div>
-    </div>`;
-  }).join('');
-}
-
-function preklopiSezono(k) {
-  odprteSezone.has(k) ? odprteSezone.delete(k) : odprteSezone.add(k);
-  izrisiSezone();
-}
-
-function epizodaHtml(eid) {
-  const e = EPIZODE[eid];
-  const oznake = [];
-  if (e.zacetek === 'serija') oznake.push('<span class="se-oznaka se-o-prva">začetek serije</span>');
-  else if (e.zacetek === 'sezona') oznake.push(
-    `<span class="se-oznaka se-o-zacetek">nova sezona ${e.s}</span>`);
-  // `sporno` pomeni, da si EPG pri tej epizodi sam nasprotuje (dva naslova za
-  // isto številko). Skrivati tega ne kaže — gledalec naj ve, da je vir zmeden.
-  if (e.sporno) oznake.push('<span class="se-oznaka se-o-sporno">vir ni enoten</span>');
-
-  const termini = (TERMINI_EP[eid] || []).map(t => {
-    const st = statusTermina(t);
-    const oz = st === 'zdaj' ? '<span class="se-oznaka se-o-zdaj">zdaj</span>'
-      : (!t.prvi ? '<span class="se-oznaka se-o-ponovitev">ponovitev</span>' : '');
-    return `<div class="se-termin ${st === 'bilo' ? 'bilo' : ''}">
-      <span>${imeDneva(t.datum)} ${datumKratko(t.datum)}, ${uraIz(t.zac)}</span>
-      <span class="se-termin-kanal">${ubegni(t.k)}</span>${oz}
-    </div>`;
-  }).join('');
-
-  const naslov = e.naslov || e.naslov_sl || '(brez naslova)';
-  return `<div class="se-epizoda">
-    <div class="se-epizoda-vrh">
-      <span class="se-epizoda-st">${oznakaEpizode(e) || '—'}</span>
-      <span class="se-epizoda-naslov">${ubegni(naslov)}</span>
-      ${e.naslov_sl && e.naslov ? `<span class="se-epizoda-sl">${ubegni(e.naslov_sl)}</span>` : ''}
-      ${oznake.join('')}
-    </div>
-    <div class="se-epizoda-termini">${termini}</div>
-  </div>`;
-}
-
-/* Povecava plakata (24.8.2026) — enako kot pri filmih. */
-function odpriSlikoLightbox() {
-  const src = document.getElementById('p-plakat').src;
-  if (!src) return;
-  document.getElementById('slika-lightbox-img').src = src;
-  document.getElementById('slika-lightbox').classList.add('active');
-}
-function zapriSlikoLightbox() {
-  document.getElementById('slika-lightbox').classList.remove('active');
-}
-
 function zapriPopup() {
-  odprtaSerija = null;
   document.getElementById('overlay').classList.remove('active');
   document.getElementById('popup').classList.remove('active');
 }
 
+function odpriSlikoLightbox() {
+  const src = document.getElementById('p-slika').src;
+  if (!src) return;
+  document.getElementById('slika-lightbox-img').src = src;
+  document.getElementById('slika-lightbox').classList.add('active');
+}
+
+function zapriSlikoLightbox() {
+  document.getElementById('slika-lightbox').classList.remove('active');
+}
+
+/* ---------------------------------------------------------------- ura */
+
+function osveziUro() {
+  const d = new Date();
+  const el = document.getElementById('now-time');
+  if (el) el.textContent = 'ZDAJ ' + String(d.getHours()).padStart(2, '0') + ':' +
+                           String(d.getMinutes()).padStart(2, '0');
+}
+
+/* ---------------------------------------------------------------- init */
+
+async function init() {
+  try {
+    if (typeof izrisiVejeNav === 'function') {
+      try {
+        const rv = await fetch(PODATKI + 'veje/vrste.json');
+        /* Cel objekt: izrisiVejeNav() zna prebrati polje ALI objekt s predogledi. */
+        if (rv.ok) izrisiVejeNav(await rv.json());
+      } catch (e) { /* izbornik ni ključen za delovanje strani */ }
+    }
+
+    const resp = await fetch(PODATKI + 'veje/dokumentarci.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    DOK = await resp.json();
+
+    VSEBINE = Object.values(DOK.vsebine || {});
+    (DOK.termini || []).forEach(t => {
+      (TERMINI_PO_VSEBINI[t.v] = TERMINI_PO_VSEBINI[t.v] || []).push(t);
+      if (t.e) (TERMINI_PO_EPIZODI[t.e] = TERMINI_PO_EPIZODI[t.e] || []).push(t);
+    });
+    Object.values(DOK.epizode || {}).forEach(e => {
+      (EPIZODE_PO_VSEBINI[e.v] = EPIZODE_PO_VSEBINI[e.v] || []).push(e);
+    });
+    Object.values(EPIZODE_PO_VSEBINI).forEach(a =>
+      a.sort((x, y) => (x.st || 999) - (y.st || 999) || String(x.id).localeCompare(String(y.id))));
+    Object.values(TERMINI_PO_VSEBINI).forEach(a => a.sort((x, y) => x.zac - y.zac));
+    Object.values(TERMINI_PO_EPIZODI).forEach(a => a.sort((x, y) => x.zac - y.zac));
+
+    const posod = document.getElementById('posodobljeno-txt');
+    if (posod && DOK.posodobljeno) posod.textContent = 'osveženo ' + DOK.posodobljeno;
+
+    /* Vir je viden: ta veja zaenkrat pokriva EN kanal. Bolje povedati, kot
+       pustiti gledalca misliti, da so to vsi dokumentarci na TV. */
+    const kanali = (DOK.kanali || []).map(k => k.ime).join(', ');
+    const vir = document.getElementById('dk-vir');
+    if (vir) vir.innerHTML = `Vir sporeda: <strong>${ubegni(DOK.vir || 'rtvslo.si')}</strong>` +
+                             (kanali ? ` · kanal: <strong>${ubegni(kanali)}</strong>` : '');
+
+    izberIskanjeNacin('naziv');
+    izrisi();
+    osveziUro();
+    setInterval(osveziUro, 30000);
+  } catch (e) {
+    const m = document.getElementById('dk-mreza');
+    if (m) m.innerHTML = `<div class="rezultati-info">Podatkov ni bilo mogoče naložiti (${ubegni(e.message)}).</div>`;
+  } finally {
+    const n = document.getElementById('nalaganje');
+    if (n) n.style.display = 'none';
+  }
+}
+
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { zapriPopup(); }
+  if (e.key !== 'Escape') return;
+  if (document.getElementById('slika-lightbox').classList.contains('active')) zapriSlikoLightbox();
+  else zapriPopup();
 });
 
-init();
+document.addEventListener('DOMContentLoaded', init);
 </script>
 
 </body>

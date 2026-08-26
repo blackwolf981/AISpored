@@ -473,6 +473,14 @@
     .glava-desno { margin-left: 0; width: 100%; justify-content: flex-start; }
     .header h1 { font-size: 17px; }
   }
+
+/* Predogled (26.8.2026): veja, ki ima stran, a pokriva le del kategorije.
+   Ostane med sivimi napisi — ni barvni gumb, ker ni polna veja — a ima
+   piko v barvi, da se vidi, da za njo JE stran. */
+.vn-vrsta.vn-predogled { border-style: solid; color: #7fd8e0; border-color: #1d3d42; }
+.vn-vrsta.vn-predogled::before { content: "\25CF"; font-size: 8px; margin-right: 4px;
+                                 vertical-align: middle; color: #0e9aa7; }
+.vn-vrsta.vn-predogled:hover { color: #b6ecf1; border-color: #0e9aa7; }
 </style>
 </head>
 <body>
@@ -714,6 +722,12 @@ const KRATKA_IMENA = {
 const VRSTE_VRSTNI_RED = ['Dokumentarni program', 'Otroški/Mladinski',
                           'Informativni program', 'Razvedrilni program'];
 
+// Predogledi (26.8.2026) — veje, ki imajo stran, a pokrivajo le del kategorije.
+// Veja jih poda ob branju vrste.json; hranimo jih tu, da ni treba spreminjati
+// podpisa izrisiVejeNav() in vseh njegovih klicateljev.
+let _vnPredogledi = [];
+function nastaviPredoglede(seznam) { _vnPredogledi = seznam || []; }
+
 function _vnUbegni(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -726,6 +740,14 @@ function _vnUbegni(s) {
 function izrisiVejeNav(vrste, aktivniTip, filmskiTipi) {
   const cilj = document.getElementById('veje-nav');
   if (!cilj) return;
+  // Sprejmemo POLJE vrst (kar posiljajo obstojece veje) ali CEL objekt iz
+  // vrste.json — tako predogledi pridejo zraven, ne da bi bilo treba
+  // spreminjati vse klicatelje.
+  let predogledi = _vnPredogledi;
+  if (vrste && !Array.isArray(vrste)) {
+    predogledi = vrste.predogledi || [];
+    vrste = vrste.vrste || [];
+  }
   vrste = vrste || [];
 
   // --- barvni gumbi: veje s svojo stranjo ---
@@ -763,7 +785,7 @@ function izrisiVejeNav(vrste, aktivniTip, filmskiTipi) {
         !(naStrani && aktivniTip && sive.includes(aktivniTip));
       return `<a class="vn vn-${v.kljuc}${aktiven ? ' aktiven' : ''}" href="${_vnUbegni(v.stran)}">${_vnUbegni(v.ime)}</a>`;
     }).join('') +
-    (sive.length
+    (sive.length || predogledi.length
       ? `<span class="vn-locnica"></span><span class="vn-oznaka">v pripravi:</span>` +
         sive.map(t => {
           const aktiven = naStrani && t === aktivniTip ? ' aktiven' : '';
@@ -773,11 +795,17 @@ function izrisiVejeNav(vrste, aktivniTip, filmskiTipi) {
           return `<a class="vn-vrsta${aktiven}" data-tip="${_vnUbegni(t)}"
                      href="index.html?tip=${encodeURIComponent(t)}"
                      title="${_vnUbegni(t)}">${_vnUbegni(KRATKA_IMENA[t] || t)}</a>`;
-        }).join('')
+        }).join('') +
+        // Predogledi: veja ima stran, a pokriva le del kategorije, zato ostane
+        // med sivimi. Navadna povezava — na filmski strani NI preklop na mestu.
+        predogledi.map(p =>
+          `<a class="vn-vrsta vn-predogled" href="${_vnUbegni(p.stran)}"
+              title="${_vnUbegni(p.naslov || p.ime)}">${_vnUbegni(p.ime)}</a>`
+        ).join('')
       : '');
 
   if (naStrani && typeof izberTip === 'function') {
-    cilj.querySelectorAll('.vn-vrsta').forEach(a => {
+    cilj.querySelectorAll('.vn-vrsta[data-tip]').forEach(a => {
       a.addEventListener('click', e => {
         e.preventDefault();
         izberTip(a.dataset.tip);
@@ -1080,7 +1108,11 @@ async function init() {
     // samo brez preklopa na druge veje.
     try {
       const rv = await fetch(PODATKI + 'veje/vrste.json');
-      if (rv.ok) VRSTE = (await rv.json()).vrste || [];
+      if (rv.ok) {
+        const _vj = await rv.json();
+        VRSTE = _vj.vrste || [];
+        nastaviPredoglede(_vj.predogledi);   // veje s stranjo, a delno pokritostjo
+      }
     } catch(e) { VRSTE = []; }
     osveziVejeNav();
 
