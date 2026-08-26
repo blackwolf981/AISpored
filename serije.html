@@ -696,6 +696,12 @@
     <div class="se-btn-skupina" id="f-razvrsti"></div>
   </div>
 
+  <!-- Piluli za začetke (25.8.2026). Neoznačeni = brez filtra, obe označeni = OR. -->
+  <div class="filter-row">
+    <span class="filter-label">Pokaži</span>
+    <div class="se-btn-skupina" id="f-zacetki"></div>
+  </div>
+
   <!-- Žanri so ZAPRTI: seznam je dolg in bi na telefonu pojedel pol zaslona,
        čeprav ga večina ne odpre. Gumb pove, ali filter deluje. Kanali so od
        24.8.2026 v svoji vrstici na vrhu strani — enako kot pri filmih. -->
@@ -1046,6 +1052,7 @@ let TERMINI_SER = {};    // sid  -> [termini], kronološko
 
 let izbraniKanali = new Set();
 let izbraniZanri = new Set();
+let izbraniZacetki = new Set();  // 'serija' | 'sezona' — piluli v oddelku Celotna ponudba
 let imdbMin = 0;             // drsnik: najnižja IMDb ocena
 let brezOcene = false;       // izključi drsnik in pokaže samo serije brez ocene
 let odprtPanel = null;       // 'zanri' | null
@@ -1267,6 +1274,7 @@ function zacetkiZaPas() {
       if (t.zac - n <= ZACETKI_OKNO) prihaja.push({ eid, e, t, vrsta: 'prihaja' });
       return;
     }
+    // (isto pravilo kot zacetekVCasovnici — tu potrebujemo še sam termin)
     // Že predvajano. Vzame se ZADNJI termin — ta je najsvežji in najverjetneje
     // še dosegljiv v arhivu ponudnika.
     const zadnji = ts.reduce((naj, x) => (!naj || x.zac > naj.zac) ? x : naj, null);
@@ -1343,6 +1351,7 @@ function izrisiFiltre() {
 
   izrisiCta();
   izrisiOceno();
+  izrisiZacetkiFilter();
   posodobiKanaliBar();
 
   const zanri = (META.zanri || []).filter(z => z.ime);
@@ -1403,6 +1412,30 @@ function posodobiKanaliBar() {
 function preklopiKanalPanel() {
   kanalPanelOdprt = !kanalPanelOdprt;
   posodobiKanaliBar();
+}
+
+/* Piluli "Začetek serije" / "Začetek sezone" (25.8.2026). Slog je isti `.se-btn`
+   kot žanri in razvrstitve — stran nikjer nima pravih kljukic in Andrej je hotel
+   enotnost. Števec pove, koliko serij pilula prinese; brez njega bi uporabnik
+   klikal na slepo. Šteje se po ISTI časovnici kot oznake v mreži. */
+const ZACETKI_FILTER = [
+  ['serija', 'Začetek serije'],
+  ['sezona', 'Začetek sezone'],
+];
+
+function izrisiZacetkiFilter() {
+  const el = document.getElementById('f-zacetki');
+  if (!el) return;
+  el.innerHTML = ZACETKI_FILTER.map(([k, t]) => {
+    const n = Object.keys(SERIJE).filter(sid => imaZacetek(sid, k)).length;
+    return `<button class="se-btn ${izbraniZacetki.has(k) ? 'active' : ''}"
+            onclick="preklopiZacetek('${k}')">${t}<span class="se-btn-stevec">${n}</span></button>`;
+  }).join('');
+}
+
+function preklopiZacetek(k) {
+  izbraniZacetki.has(k) ? izbraniZacetki.delete(k) : izbraniZacetki.add(k);
+  stranIdx = 0; izrisiFiltre(); izrisiMrezo();
 }
 
 /* Ocena: drsnik kot na filmski strani, na koncu gumb "Brez ocene".
@@ -1522,6 +1555,9 @@ function ustreza(sid) {
   const s = SERIJE[sid];
   if (izbraniKanali.size && !(s.kanali || []).some(k => izbraniKanali.has(k))) return false;
   if (izbraniZanri.size && !(s.zanr || []).some(z => izbraniZanri.has(z))) return false;
+  // Piluli sta OR: neoznačeni pomenita "brez filtra", obe označeni pa serije,
+  // ki imajo katerikoli začetek. Prazen izbor NIKOLI ne pomeni praznega seznama.
+  if (izbraniZacetki.size && ![...izbraniZacetki].some(v => imaZacetek(sid, v))) return false;
 
   const ocena = parseFloat(s.imdb_ocena);
   if (brezOcene) { if (!isNaN(ocena)) return false; }
@@ -1589,6 +1625,37 @@ function stran(korak) {
 
    "Začetek serije" (S01E01) prevlada nad "novo sezono" — kdor lahko začne čisto
    od začetka, ga sredina serije ne zanima. */
+/* Ali je ta začetek znotraj ene same časovnice, ki velja za VSO stran:
+   najbližji prihodnji termin je največ ZACETKI_OKNO pred nami, ali pa je zadnji
+   pretekli največ ZACETKI_OKNO za nami. Tu je edino mesto, kjer je to pravilo
+   zapisano — oddelek, oznake v mreži in piluli ga vsi berejo od tod. */
+function zacetekVCasovnici(termini, n) {
+  const t = termini.find(x => x.kon >= n);
+  if (t) return t.zac - n <= ZACETKI_OKNO;
+  const zadnji = termini[termini.length - 1];
+  return !!zadnji && n - zadnji.zac <= ZACETKI_OKNO;
+}
+
+/* Ali ima serija v časovnici začetek dane vrste ('serija' | 'sezona').
+   Bere PODATKE, ne oznake: serija, ki ima oboje, nosi zlato oznako, a se pri
+   piluli "Začetek sezone" vseeno pokaže — Andrejeva odločitev 25.8.2026
+   (resnica pred videzom, takih je 5). */
+function imaZacetek(sid, vrsta) {
+  const n = zdaj();
+  return (EPIZODE_SER[sid] || []).some(eid => {
+    const e = EPIZODE[eid];
+    if (e.zacetek !== vrsta) return false;
+    const termini = TERMINI_EP[eid] || [];
+    return termini.length > 0 && zacetekVCasovnici(termini, n);
+  });
+}
+
+/* 25.8.2026: oznaka v mreži uporablja ISTO ČASOVNICO kot oddelek "Ujemi
+   začetek" — strogih ZACETKI_OKNO (7x24 h) nazaj in naprej. Prej je štelo celo
+   podatkovno okno (~14 dni) in je nastal par, ki si je nasprotoval: Taboo je
+   imel v mreži zlato oznako, v oddelku pa ga ni bilo. Andrejeva zahteva:
+   ena časovnica povsod. Učinek je majhen (3 serije izgubijo oznako, nobena je
+   ne zamenja), ker je podatkovno okno tako ali tako približno ±7 dni. */
 function zacetekVOknu(sid) {
   const n = zdaj();
   let serija = false, sezona = null, sezonaTeza = -Infinity;
@@ -1597,6 +1664,7 @@ function zacetekVOknu(sid) {
     if (!e.zacetek) return;
     const termini = TERMINI_EP[eid] || [];
     if (!termini.length) return;
+    if (!zacetekVCasovnici(termini, n)) return;
     if (e.zacetek === 'serija') { serija = true; return; }
     // Če ima serija več začetkov sezon, obvelja tisti, ki je časovno najbližje
     // zdaj: najprej najbližji prihodnji, sicer najsvežejši pretekli.
