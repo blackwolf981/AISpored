@@ -1,7 +1,7 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-08-27 10:04",
+  "posodobljeno": "2026-08-27 11:34",
   "od": "2026-08-20",
   "do": "2026-09-03",
   "oddaje": [
@@ -4169,8 +4169,8 @@
       "datum": "2026-08-27",
       "dan": "Četrtek",
       "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
+      "cas_konec": "02:38",
+      "trajanje": "98 min",
       "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mixed Doubles, Semi-Final",
       "naslov_orig": "Tennis: US Open: Mixed Doubles, Semi-Final",
       "kategorija": "Šport",
@@ -4188,29 +4188,9 @@
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "02:00",
-      "cas_konec": "03:01",
-      "trajanje": "61 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mixed Doubles, Semi-Final",
-      "naslov_orig": "Tennis: US Open: Mixed Doubles, Semi-Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/0/7/fc074d06-c9e6-4136-bdc5-bcf6d190fc36.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1149614517",
-      "zivo": true,
-      "friendly_id": "tenis_odprto_prvenstvo_zda_mixed_doubles_semifinal_51ff3314"
-    },
-    {
-      "datum": "2026-08-27",
-      "dan": "Četrtek",
-      "cas": "03:01",
-      "cas_konec": "03:30",
-      "trajanje": "29 min",
+      "cas": "02:38",
+      "cas_konec": "04:21",
+      "trajanje": "103 min",
       "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mixed Doubles, Semi-Final",
       "naslov_orig": "Tennis: US Open: Mixed Doubles, Semi-Final",
       "kategorija": "Šport",
@@ -4222,14 +4202,15 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/0/7/fc074d06-c9e6-4136-bdc5-bcf6d190fc36.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1149614516",
-      "friendly_id": "tenis_odprto_prvenstvo_zda_mixed_doubles_semifinal_7d162deb"
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mixed_doubles_semifinal_83691985"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "03:30",
-      "cas_konec": "05:30",
-      "trajanje": "120 min",
+      "cas": "04:21",
+      "cas_konec": "05:55",
+      "trajanje": "94 min",
       "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mixed Doubles, Final",
       "naslov_orig": "Tennis: US Open: Mixed Doubles, Final",
       "kategorija": "Šport",
@@ -4240,16 +4221,35 @@
       "starostna_omejitev": "",
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dd/c/4/ddc4b805-2fc5-419b-939b-2f0cb207c12a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1149614518",
+      "show_id": "CUP_IECOM_EUROSPORT_1150237575",
       "zivo": true,
-      "friendly_id": "tenis_odprto_prvenstvo_zda_mixed_doubles_final_4be7a6d4"
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mixed_doubles_final_8af88efe"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "05:30",
-      "cas_konec": "07:00",
-      "trajanje": "90 min",
+      "cas": "05:55",
+      "cas_konec": "06:14",
+      "trajanje": "19 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Mešane dvojice, polfinale",
+      "naslov_orig": "Tennis: US Open: Mixed | Doubles | Semi-Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1150237576",
+      "friendly_id": "tenis_odprto_prvenstvo_zda_mesane_dvojice_polfinale_fe1c12cd"
+    },
+    {
+      "datum": "2026-08-27",
+      "dan": "Četrtek",
+      "cas": "06:14",
+      "cas_konec": "07:40",
+      "trajanje": "86 min",
       "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 5. etapa: Falset. Costa Daurada - Roquetes. Terres de l'Ebre (171,1 km)",
       "naslov_orig": "Vuelta a Espana: Stage 5: Falset - Roquetes (173.4km)",
       "kategorija": "Šport",
@@ -4261,14 +4261,14 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145148590",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_5_etapa_falset_costa_daurada__roquetes_terres_de_lebre_1711_km_c396ca6f"
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_5_etapa_falset_costa_daurada__roquetes_terres_de_lebre_1711_km_bb8f605b"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
+      "cas": "07:40",
+      "cas_konec": "08:09",
+      "trajanje": "29 min",
       "naslov_sl": "Snooker: Wuhan Open: 4. krog",
       "naslov_orig": "Snooker: Wuhan Open: Round 4",
       "kategorija": "Šport",
@@ -4280,13 +4280,13 @@
       "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1149743398",
-      "friendly_id": "snooker_wuhan_open_4_krog_2d732373"
+      "friendly_id": "snooker_wuhan_open_4_krog_b2b5b6fe"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "08:00",
-      "cas_konec": "11:00",
+      "cas": "08:09",
+      "cas_konec": "11:09",
       "trajanje": "180 min",
       "naslov_sl": "Snooker: Wuhan Open: Četrtfinale",
       "naslov_orig": "Snooker: Wuhan Open: Quarter-Final",
@@ -4300,13 +4300,13 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145335560",
       "zivo": true,
-      "friendly_id": "snooker_wuhan_open_cetrtfinale_945712b6"
+      "friendly_id": "snooker_wuhan_open_cetrtfinale_b8e5ad15"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "11:00",
-      "cas_konec": "11:30",
+      "cas": "11:09",
+      "cas_konec": "11:39",
       "trajanje": "30 min",
       "naslov_sl": "S0E28 - Odkrij golf",
       "naslov_orig": "S0E28 - Golf: Discovery Golf",
@@ -4317,16 +4317,16 @@
       "leto": "0",
       "starostna_omejitev": "",
       "opis": "Prikazane so aktualne novice iz sveta golfa, pa tudi ozadja, zadnji pomembni dogodki ali prihajajoči turnirji. Poleg tega so predstavljeni portreti legend golfa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/c/2/e3c2c6e1-bfed-444c-bbb6-202f06b09f9b.jpg",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8e/0/d/8e0d0cfb-41dd-479a-b723-0d7d1f71dce7.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145335561",
-      "friendly_id": "odkrij_golf_651f7a4e"
+      "friendly_id": "odkrij_golf_f09a9045"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "11:30",
-      "cas_konec": "12:30",
-      "trajanje": "60 min",
+      "cas": "11:39",
+      "cas_konec": "12:43",
+      "trajanje": "64 min",
       "naslov_sl": "Jadranje: Sail GP vrhunci: Rockwool Germany Grand Prix",
       "naslov_orig": "Highlights SailGP",
       "kategorija": "Šport",
@@ -4338,14 +4338,14 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/4/e/1f4ef275-2b25-437a-8e74-99039d1bdc8d.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145335562",
-      "friendly_id": "jadranje_sail_gp_vrhunci_rockwool_germany_grand_prix_4728891f"
+      "friendly_id": "jadranje_sail_gp_vrhunci_rockwool_germany_grand_prix_0839cc5c"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "12:30",
-      "cas_konec": "13:30",
-      "trajanje": "60 min",
+      "cas": "12:43",
+      "cas_konec": "13:46",
+      "trajanje": "63 min",
       "naslov_sl": "S0E3 - Močni udarci",
       "naslov_orig": "S0E3 - Hard Knocks",
       "kategorija": "Dokumentarni program",
@@ -4355,15 +4355,15 @@
       "leto": "2025",
       "starostna_omejitev": "",
       "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fe/9/4/fe9416e8-f3ca-4fee-89f0-86a2fe4429e4.jpg",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1e/a/3/1ea391b8-08bd-4d33-a554-bd348e0ace43.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145335564"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "13:30",
-      "cas_konec": "14:45",
-      "trajanje": "75 min",
+      "cas": "13:46",
+      "cas_konec": "14:56",
+      "trajanje": "70 min",
       "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 5. etapa: Falset. Costa Daurada - Roquetes. Terres de l'Ebre (171,1 km)",
       "naslov_orig": "Vuelta a Espana: Stage 5: Falset - Roquetes (173.4km)",
       "kategorija": "Šport",
@@ -4375,14 +4375,14 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145335568",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_5_etapa_falset_costa_daurada__roquetes_terres_de_lebre_1711_km_0fddc78c"
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_5_etapa_falset_costa_daurada__roquetes_terres_de_lebre_1711_km_920befb0"
     },
     {
       "datum": "2026-08-27",
       "dan": "Četrtek",
-      "cas": "14:45",
+      "cas": "14:56",
       "cas_konec": "17:45",
-      "trajanje": "180 min",
+      "trajanje": "169 min",
       "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 6. etapa: Alcossebre - Castelló (176,8 km)",
       "naslov_orig": "Vuelta a Espana: Stage 6: Alcossebre - Castelló (177.4km)",
       "kategorija": "Šport",
@@ -4395,7 +4395,7 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1145335570",
       "zivo": true,
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_6_etapa_alcossebre__castelló_1768_km_1c43cccc"
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_6_etapa_alcossebre__castelló_1768_km_1da7311a"
     },
     {
       "datum": "2026-08-27",
@@ -4490,7 +4490,7 @@
       "leto": "0",
       "starostna_omejitev": "",
       "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/6/0/2560a476-fb68-46ca-9baf-f1b43ff3ed25.jpg",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/d/5/86d53d69-1314-4656-a77d-b341b4131773.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1146821166",
       "friendly_id": "esports_show_b01b0a38"
     },

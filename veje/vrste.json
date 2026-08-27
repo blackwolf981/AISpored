@@ -1,19 +1,26 @@
 {
- "posodobljeno": "2026-08-27 10:05",
+ "posodobljeno": "2026-08-27 11:35",
  "vrste": [
   {
    "ime": "Film",
    "veja": "filmi",
    "stran": "index.html",
    "privzeta": true,
-   "oddaj": 1346
+   "oddaj": 1347
+  },
+  {
+   "ime": "Dokumentarni program",
+   "veja": "filmi",
+   "stran": "index.html",
+   "privzeta": false,
+   "oddaj": 2280
   },
   {
    "ime": "Razvedrilni program",
    "veja": "filmi",
    "stran": "index.html",
    "privzeta": false,
-   "oddaj": 763
+   "oddaj": 1520
   },
   {
    "ime": "Ostalo",
@@ -30,13 +37,6 @@
    "oddaj": 337
   },
   {
-   "ime": "Dokumentarni program",
-   "veja": "filmi",
-   "stran": "index.html",
-   "privzeta": false,
-   "oddaj": 269
-  },
-  {
    "ime": "Otroški/Mladinski",
    "veja": "filmi",
    "stran": "index.html",
@@ -50,7 +50,7 @@
    "kategorije": [
     "Šport"
    ],
-   "oddaj": 2309
+   "oddaj": 2306
   },
   {
    "ime": "Serije",
@@ -59,7 +59,7 @@
    "kategorije": [
     "Nadaljevanka/Nanizanka"
    ],
-   "oddaj": 2608
+   "oddaj": 3058
   }
  ],
  "predogledi": [

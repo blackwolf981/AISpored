@@ -615,6 +615,16 @@
   </div>
 </div>
 
+<!-- ===== Kanali: en filter za vso stran =====
+     Vrnjena 27.8.2026, ko je veja z enega kanala zrasla na devet. Do takrat
+     je bila namenoma izpuscena — gumb "izberi kanale" z enim kanalom je
+     prazna obljuba. -->
+<div class="kanali-bar" id="kanali-bar">
+  <div class="kanali-naslov">IZBERI TV KANALE</div>
+  <button class="kanali-cta" id="kanali-cta" onclick="preklopiKanalPanel()"></button>
+</div>
+<div class="kanali-panel" id="kanali-panel" style="display:none"></div>
+
 <!-- ===== CELOTNA PONUDBA — vsi dokumentarci ===== -->
 <div class="dk-oddelek-ponudba">
   <div class="dk-oddelek-naslov">🎞 CELOTNA PONUDBA
@@ -658,6 +668,11 @@
 <div class="main">
   <div class="rezultati-info" id="dk-info"></div>
   <div class="dk-mreza" id="dk-mreza"></div>
+  <div class="paginacija" id="dk-paginacija" style="display:none">
+    <button class="pag-btn" id="pag-prej" onclick="stran(-1)">&lsaquo; Prejšnja</button>
+    <span class="pag-info" id="pag-info"></span>
+    <button class="pag-btn" id="pag-nasl" onclick="stran(1)">Naslednja &rsaquo;</button>
+  </div>
 </div>
 </div>
 <!-- /CELOTNA PONUDBA -->
@@ -975,6 +990,14 @@ function pripraviPas(idPasu) {
 
 const PODATKI = '';
 
+/* 27.8.2026: veja je z enega kanala (27 vsebin) zrasla na devet (~380).
+   Zato sta se vrnila FILTER KANALOV in PAGINACIJA — oboje je bilo prej
+   namenoma izpusceno, ker pri 27 vsebinah ni imelo kaj poceti. */
+const NA_STRAN = 15;
+let stranIdx = 0;
+let izbraniKanali = new Set();   // prazno = vsi
+let kanalPanelOdprt = false;
+
 let DOK = null;                  // cel paket iz dokumentarci.json
 let VSEBINE = [];                // seznam vsebin (iz slovarja)
 let TERMINI_PO_VSEBINI = {};     // vid -> [termin]
@@ -1059,6 +1082,8 @@ function jeOtroski(v) { return !!(v.obcinstvo || '').trim(); }
 
 function filtrirane() {
   let s = VSEBINE.slice();
+  // Vsebina ima SEZNAM kanalov — dovolj je, da je na enem od izbranih.
+  if (izbraniKanali.size) s = s.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k)));
   if (STANJE.tip !== 'vse') s = s.filter(v => v.tip === STANJE.tip);
   if (STANJE.otroski === 'otroci') s = s.filter(jeOtroski);
   else if (STANJE.otroski === 'odrasli') s = s.filter(v => !jeOtroski(v));
@@ -1148,8 +1173,12 @@ function karticaHtml(v) {
 }
 
 function izrisiFiltre() {
-  const st = { vse: VSEBINE.length, film: 0, serija: 0, otroci: 0 };
-  VSEBINE.forEach(v => { st[v.tip]++; if (jeOtroski(v)) st.otroci++; });
+  /* Stevci se stejejo ZNOTRAJ izbranih kanalov — sicer bi pilula obljubljala
+     vsebine, ki jih trenutni izbor kanalov sploh ne pokaze. */
+  const osnova = izbraniKanali.size
+    ? VSEBINE.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k))) : VSEBINE;
+  const st = { vse: osnova.length, film: 0, serija: 0, otroci: 0 };
+  osnova.forEach(v => { st[v.tip]++; if (jeOtroski(v)) st.otroci++; });
 
   const pilula = (aktivno, kljuc, vrednost, napis, stevec) =>
     `<button class="se-btn${aktivno ? ' active' : ''}" onclick="nastavi('${kljuc}','${vrednost}')">` +
@@ -1172,21 +1201,88 @@ function izrisiFiltre() {
 
 function izrisi() {
   izrisiFiltre();
+  posodobiKanaliBar();
   const s = filtrirane();
+
+  const strani = Math.max(1, Math.ceil(s.length / NA_STRAN));
+  if (stranIdx >= strani) stranIdx = strani - 1;
+  if (stranIdx < 0) stranIdx = 0;
+  const odsek = s.slice(stranIdx * NA_STRAN, (stranIdx + 1) * NA_STRAN);
+
   const info = document.getElementById('dk-info');
   info.textContent = s.length === VSEBINE.length
     ? `${s.length} dokumentarcev`
     : `${s.length} od ${VSEBINE.length} dokumentarcev`;
+
   document.getElementById('dk-mreza').innerHTML =
-    s.length ? s.map(karticaHtml).join('') : '<div class="rezultati-info">Ni zadetkov.</div>';
+    odsek.length ? odsek.map(karticaHtml).join('') : '<div class="rezultati-info">Ni zadetkov.</div>';
+
+  const pag = document.getElementById('dk-paginacija');
+  if (pag) {
+    pag.style.display = strani > 1 ? '' : 'none';
+    document.getElementById('pag-info').textContent = `${stranIdx + 1} / ${strani}`;
+    document.getElementById('pag-prej').disabled = stranIdx === 0;
+    document.getElementById('pag-nasl').disabled = stranIdx >= strani - 1;
+  }
 }
 
-function nastavi(kljuc, vrednost) { STANJE[kljuc] = vrednost; izrisi(); }
+function stran(korak) {
+  stranIdx += korak;
+  izrisi();
+  const m = document.querySelector('.main');
+  if (m) window.scrollTo({ top: m.offsetTop - 10, behavior: 'smooth' });
+}
+
+/* Vsaka sprememba filtra vrne na PRVO stran — sicer uporabnik ostane na
+   strani 7 filtra, ki ima tri zadetke, in vidi prazno. */
+function nastavi(kljuc, vrednost) { STANJE[kljuc] = vrednost; stranIdx = 0; izrisi(); }
+
+/* ------------------------------------------------------------ kanali */
+
+function preklopiKanalPanel() { kanalPanelOdprt = !kanalPanelOdprt; posodobiKanaliBar(); }
+
+function pocistiKanale() { izbraniKanali.clear(); stranIdx = 0; izrisi(); }
+
+function preklopiKanal(k) {
+  if (izbraniKanali.has(k)) {
+    if (izbraniKanali.size === 1) return;   // zadnji izbrani ostane
+    izbraniKanali.delete(k);
+  } else {
+    izbraniKanali.add(k);
+  }
+  stranIdx = 0;
+  izrisi();
+}
+
+function posodobiKanaliBar() {
+  const kan = (DOK && DOK.kanali ? DOK.kanali : []).filter(k => k.vsebin);
+  const vsi = izbraniKanali.size === 0;
+
+  const cta = document.getElementById('kanali-cta');
+  if (cta) {
+    cta.innerHTML = `IZBRANI KANALI: ${vsi ? kan.length : izbraniKanali.size}${vsi ? ' (VSI)' : ''}` +
+                    `<span class="kanali-cta-pusc">${kanalPanelOdprt ? '&#9652;' : '&#9662;'}</span>`;
+  }
+  const panel = document.getElementById('kanali-panel');
+  if (!panel) return;
+  panel.style.display = kanalPanelOdprt ? 'flex' : 'none';
+  panel.innerHTML =
+    `<button class="f-btn ${vsi ? 'active' : ''}" onclick="pocistiKanale()">Vsi kanali</button>` +
+    kan.map(k => {
+      const izb = izbraniKanali.has(k.ime);
+      // Zadnjega izbranega kanala ni mogoce odkliniti — sicer bi ostal prazen izbor.
+      const zadnji = izbraniKanali.size === 1 && izb;
+      return `<button class="f-btn ${izb ? 'active' : ''}${zadnji ? ' zaklenjen' : ''}"
+              ${zadnji ? 'disabled title="Vsaj en kanal mora ostati izbran"' : ''}
+              onclick="preklopiKanal('${ubegni(k.ime)}')">${ubegni(k.ime)}<span class="f-btn-stevec">${k.vsebin}</span></button>`;
+    }).join('');
+}
 
 function onIskanje() {
   const el = document.getElementById('dk-iskanje');
   STANJE.iskanje = el.value;
   document.getElementById('dk-iskanje-clear').style.display = el.value ? '' : 'none';
+  stranIdx = 0;
   izrisi();
 }
 
@@ -1194,6 +1290,7 @@ function pocistiIskanje() {
   document.getElementById('dk-iskanje').value = '';
   STANJE.iskanje = '';
   document.getElementById('dk-iskanje-clear').style.display = 'none';
+  stranIdx = 0;
   izrisi();
 }
 
@@ -1246,7 +1343,7 @@ function odpriPopup(vid) {
   if (v.leto) znacke.push(`<span class="dk-znacka">${ubegni(v.leto)}</span>`);
   if (v.reziser) znacke.push(`<span class="dk-znacka">r. ${ubegni(v.reziser)}</span>`);
   if (v.obcinstvo) znacke.push(`<span class="dk-znacka">${ubegni(v.obcinstvo)}</span>`);
-  if (v.kanal) znacke.push(`<span class="dk-znacka">${ubegni(v.kanal)}</span>`);
+  (v.kanali || []).forEach(k => znacke.push(`<span class="dk-znacka">${ubegni(k)}</span>`));
   document.getElementById('p-znacke').innerHTML = znacke.join('');
 
   const epizode = EPIZODE_PO_VSEBINI[vid] || [];
@@ -1341,12 +1438,15 @@ async function init() {
     const posod = document.getElementById('posodobljeno-txt');
     if (posod && DOK.posodobljeno) posod.textContent = 'osveženo ' + DOK.posodobljeno;
 
-    /* Vir je viden: ta veja zaenkrat pokriva EN kanal. Bolje povedati, kot
-       pustiti gledalca misliti, da so to vsi dokumentarci na TV. */
-    const kanali = (DOK.kanali || []).map(k => k.ime).join(', ');
+    /* Vir in obseg sta vidna: veja NE pokriva vseh kanalov z dokumentarci
+       (Kino, AMC, Planet jih imajo tudi, a jih zajemamo drugje). Bolje
+       povedati, kot pustiti gledalca misliti, da so to vsi dokumentarci na TV. */
+    const kan = (DOK.kanali || []);
+    const viri = (DOK.viri || []).join(' + ');
     const vir = document.getElementById('dk-vir');
-    if (vir) vir.innerHTML = `Vir sporeda: <strong>${ubegni(DOK.vir || 'rtvslo.si')}</strong>` +
-                             (kanali ? ` · kanal: <strong>${ubegni(kanali)}</strong>` : '');
+    if (vir) vir.innerHTML =
+      `Vir sporeda: <strong>${ubegni(viri || 'rtvslo.si')}</strong>` +
+      (kan.length ? ` · <strong>${kan.length}</strong> ${kan.length === 1 ? 'kanal' : 'kanalov'}` : '');
 
     izberIskanjeNacin('naziv');
     izrisi();
