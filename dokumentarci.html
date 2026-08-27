@@ -1191,25 +1191,27 @@ function filtrirane() {
   if (STANJE.razvrsti === 'abc') {
     s.sort((a, b) => a.naslov.localeCompare(b.naslov, 'sl'));
   } else if (STANJE.razvrsti === 'zadnja') {
-    /* "Zadnja priloznost": razvrsti po ZADNJEM prihodnjem terminu, narascajoce
-       — najprej tisto, kar bo prvo poslo. To NI isto kot "Kmalu na sporedu":
-       izmerjeno 27.8.2026 se med prvimi 12 seznama prekrivata samo v 2.
-       Kljuc se NE racuna znotraj izbranih dni — zadnja priloznost je lastnost
-       vsebine, ne pogleda; sicer bi izbor enega dne trdil, da se vse konca
-       tisti dan. Ze v celoti odigrane vsebine gredo na konec (najsvezejse
-       spredaj), sicer bi 93 od 342 zasedlo vrh seznama "priloznosti". */
-    const n = zdaj();
-    const kljuc = v => {
-      const ts = TERMINI_PO_VSEBINI[v.id] || [];
-      const prih = ts.filter(t => t.zac > n);
-      if (prih.length) return [0, prih[prih.length - 1].zac];
-      if (ts.length) return [1, -ts[ts.length - 1].zac];
-      return [2, 0];
-    };
+    /* "Zadnja priloznost" = ROK, do kdaj je vsebino se mogoce ujeti, in ta rok
+       tece od ZADNJEGA termina nasploh — tudi ce je ta ze mimo.
+
+       Andrejev popravek 27.8.2026: prva razlicica je razvrscala po zadnjem
+       PRIHODNJEM terminu in ze odigrano potisnila na konec. To je bilo obrnjeno
+       narobe. Gledalec ima casovni zamik nazaj, zato je najbolj pereca tista
+       vsebina, ki je bila nazadnje NAJDLJE nazaj: okno se vsak dan premakne za
+       en dan, in kar je bilo pred 7 dnevi, jutri iz njega pade. Kar sele pride,
+       ima rok najdlje in sodi na konec seznama.
+
+       Kljuc je zato preprosto ZADNJI termin, narascajoce — brez locevanja na
+       preteklo in prihodnje; prav to locevanje je bilo napaka.
+
+       Kljuc se NE racuna znotraj izbranih dni: rok je lastnost vsebine, ne
+       pogleda; sicer bi izbor enega dne trdil, da se vse konca tisti dan. */
     s.sort((a, b) => {
-      const ka = kljuc(a), kb = kljuc(b);
-      if (ka[0] !== kb[0]) return ka[0] - kb[0];
-      if (ka[1] !== kb[1]) return ka[1] - kb[1];
+      const ta = TERMINI_PO_VSEBINI[a.id] || [];
+      const tb = TERMINI_PO_VSEBINI[b.id] || [];
+      const za = ta.length ? ta[ta.length - 1].zac : Infinity;
+      const zb = tb.length ? tb[tb.length - 1].zac : Infinity;
+      if (za !== zb) return za - zb;
       return a.naslov.localeCompare(b.naslov, 'sl');
     });
   } else {
@@ -1381,9 +1383,11 @@ function izrisiFiltre() {
 
   const razvrsti = (v, napis) =>
     `<button class="se-btn${STANJE.razvrsti === v ? ' active' : ''}" onclick="nastavi('razvrsti','${v}')">${napis}</button>`;
+  /* "Zadnja priloznost" je PRVA (Andrej, 27.8.2026) — je najbolj pereca
+     razvrstitev, ceprav privzeta ostaja "Kmalu na sporedu". */
   document.getElementById('f-razvrsti').innerHTML =
-    razvrsti('cas', 'Kmalu na sporedu') +
     razvrsti('zadnja', 'Zadnja priložnost') +
+    razvrsti('cas', 'Kmalu na sporedu') +
     razvrsti('abc', 'Po abecedi');
 }
 
