@@ -602,6 +602,24 @@
     .dk-popup-glava { flex-direction: column; }
     .dk-popup-slika-ovoj { flex: none; max-width: 100%; width: 100%; }
   }
+
+/* --- Dnevni trak (27.8.2026) ---------------------------------------------
+   Gumbi so skupni (.dnevni-trak-bar / .dan-btn v deli\_stil.css); ovoj nosi
+   razred .glavni-oddelek SAMO zato, da .dan-btn.active dobi barvo veje.
+   Zato tu odpravimo tisto, kar .glavni-oddelek sicer prinese s sabo —
+   teal crto na vrhu in razmike oddelka —, ker trak ni oddelek, ampak
+   nadaljevanje vrstice kanalov nad njim. */
+.dk-trak-ovoj { border-top: none; margin-top: 0; padding-bottom: 0;
+                background: #13161f; border-bottom: 1px solid #1e2130;
+                padding-top: 0.7rem; }
+.dk-trak-naslov { font-size: 10px; font-weight: 700; letter-spacing: 0.8px;
+                  text-transform: uppercase; color: #6a6f80; padding: 0 1.5rem 6px; }
+.dk-trak-ovoj .dnevni-trak-bar { padding: 0 1.5rem 10px; }
+
+@media (max-width: 620px) {
+  .dk-trak-naslov { padding: 0 1rem 6px; }
+  .dk-trak-ovoj .dnevni-trak-bar { padding: 0 1rem 10px; }
+}
 </style>
 </head>
 <body>
@@ -634,10 +652,22 @@
 </div>
 <div class="kanali-panel" id="kanali-panel" style="display:none"></div>
 
+<!-- ===== Dnevni trak =====
+     Oblika je ista kot pri filmih in sportu (.dnevni-trak-bar / .dan-btn v
+     skupnem deli\_stil.css); barvo dobi iz --veja, ker je znotraj
+     .glavni-oddelek. Semantika je FILMSKA, ne sportna: sport ima enojni
+     izbor, tu je veckratni — privzeto so izbrani VSI dnevi (izbraniDnevi
+     === null), klik dan odklopi, zadnjega izbranega ni mogoce odkliniti,
+     dvoklik pomeni "samo ta dan". -->
+<div class="glavni-oddelek dk-trak-ovoj">
+  <div class="dk-trak-naslov">IZBERI DNEVE</div>
+  <div class="dnevni-trak-bar" id="dnevni-trak"></div>
+</div>
+
 <!-- ===== CELOTNA PONUDBA — vsi dokumentarci ===== -->
 <div class="dk-oddelek-ponudba">
   <div class="dk-oddelek-naslov">🎞 CELOTNA PONUDBA
-    <span class="dk-oddelek-podnaslov">Dokumentarni filmi in serije — filtriraj po vrsti in občinstvu</span>
+    <span class="dk-oddelek-podnaslov">Dokumentarni filmi in serije — filtriraj po dnevu, kanalu in vrsti</span>
   </div>
   <div class="dk-vir-vrstica" id="dk-vir"></div>
 
@@ -655,17 +685,16 @@
 </div>
 
 <!-- ===== Filtri =====
-     Ocene ni: RTV je ne da. Zato sta tu samo vrsta in občinstvo, oboje
-     iz podatkov vira, ne sklepano. Vsaka pilula nosi števec — filter mora
-     povedati stanje. -->
+     Ocene ni: RTV je ne da.
+     OBCINSTVA NI VEC (27.8.2026): polje je imelo 2 vsebini od 342, torej je
+     gumb "Za otroke" obljubljal filter, ki skoraj nic ne filtrira, gumb
+     "Brez otroskih" pa je vracal 340 od 342. Znacka na kartici ostane —
+     resnicna je in stane nic. Vsaka pilula nosi stevec: filter mora povedati
+     stanje. -->
 <div class="dk-filtri se-filtri">
   <div class="filter-row">
     <span class="filter-label">Vrsta</span>
     <div class="se-btn-skupina" id="f-tip"></div>
-  </div>
-  <div class="filter-row">
-    <span class="filter-label">Občinstvo</span>
-    <div class="se-btn-skupina" id="f-obcinstvo"></div>
   </div>
   <div class="filter-row">
     <span class="filter-label">Razvrsti</span>
@@ -1059,9 +1088,16 @@ const STANJE = {
   nacin: 'naziv',      // 'naziv' | 'vse'
   iskanje: '',
   tip: 'vse',          // 'vse' | 'film' | 'serija'
-  otroski: 'vse',      // 'vse' | 'otroci' | 'odrasli'
-  razvrsti: 'cas',     // 'cas' | 'abc'
+  razvrsti: 'cas',     // 'cas' | 'zadnja' | 'abc'
 };
+
+/* DNEVI — veckratni izbor, ista semantika kot pri filmih:
+   null pomeni VSI dnevi (privzeto), sicer Set datumov 'YYYY-MM-DD'.
+   Zadnjega izbranega dne ni mogoce odkliniti, sicer bi uporabnik pristal
+   na praznem izboru brez ocitne poti nazaj. */
+let vsiDnevi = [];
+let izbraniDnevi = null;
+let danKlikTimer = null;
 
 const DNEVI = ['ned', 'pon', 'tor', 'sre', 'čet', 'pet', 'sob'];
 
@@ -1107,7 +1143,14 @@ function relativno(t) {
    Isto merilo kot pri filmih — gledalca zanima, kdaj bo, in šele če tega ni,
    kdaj je bilo. */
 function karticniTermin(vid) {
-  const ts = TERMINI_PO_VSEBINI[vid] || [];
+  /* Ko so dnevi filtrirani, kartica pokaze termin IZ IZBRANIH DNI — sicer bi
+     ob izboru enega dne pisala uro z nekega drugega dne, ki ga izbor sploh
+     ne pokaze. */
+  let ts = TERMINI_PO_VSEBINI[vid] || [];
+  if (izbraniDnevi) {
+    const f = ts.filter(t => izbraniDnevi.has(t.datum));
+    if (f.length) ts = f;
+  }
   const n = zdaj();
   const prih = ts.filter(t => t.zac > n);
   if (prih.length) return { t: prih[0], prihodnji: true };
@@ -1141,13 +1184,34 @@ function filtrirane() {
   // Vsebina ima SEZNAM kanalov — dovolj je, da je na enem od izbranih.
   if (izbraniKanali.size) s = s.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k)));
   if (STANJE.tip !== 'vse') s = s.filter(v => v.tip === STANJE.tip);
-  if (STANJE.otroski === 'otroci') s = s.filter(jeOtroski);
-  else if (STANJE.otroski === 'odrasli') s = s.filter(v => !jeOtroski(v));
+  if (izbraniDnevi) s = s.filter(jeVIzbranihDnevih);
   const q = STANJE.iskanje.trim().toLowerCase();
   if (q) s = s.filter(v => besediloVsebine(v).indexOf(q) >= 0);
 
   if (STANJE.razvrsti === 'abc') {
     s.sort((a, b) => a.naslov.localeCompare(b.naslov, 'sl'));
+  } else if (STANJE.razvrsti === 'zadnja') {
+    /* "Zadnja priloznost": razvrsti po ZADNJEM prihodnjem terminu, narascajoce
+       — najprej tisto, kar bo prvo poslo. To NI isto kot "Kmalu na sporedu":
+       izmerjeno 27.8.2026 se med prvimi 12 seznama prekrivata samo v 2.
+       Kljuc se NE racuna znotraj izbranih dni — zadnja priloznost je lastnost
+       vsebine, ne pogleda; sicer bi izbor enega dne trdil, da se vse konca
+       tisti dan. Ze v celoti odigrane vsebine gredo na konec (najsvezejse
+       spredaj), sicer bi 93 od 342 zasedlo vrh seznama "priloznosti". */
+    const n = zdaj();
+    const kljuc = v => {
+      const ts = TERMINI_PO_VSEBINI[v.id] || [];
+      const prih = ts.filter(t => t.zac > n);
+      if (prih.length) return [0, prih[prih.length - 1].zac];
+      if (ts.length) return [1, -ts[ts.length - 1].zac];
+      return [2, 0];
+    };
+    s.sort((a, b) => {
+      const ka = kljuc(a), kb = kljuc(b);
+      if (ka[0] !== kb[0]) return ka[0] - kb[0];
+      if (ka[1] !== kb[1]) return ka[1] - kb[1];
+      return a.naslov.localeCompare(b.naslov, 'sl');
+    });
   } else {
     /* "Kmalu na sporedu": najprej vse, kar še pride (najbližje spredaj),
        nato preteklo (najsvežejše spredaj). Vsebina brez termina ne obstaja —
@@ -1168,6 +1232,70 @@ function filtrirane() {
     });
   }
   return s;
+}
+
+/* ------------------------------------------------------------ dnevni trak */
+
+function jeVIzbranihDnevih(v) {
+  if (!izbraniDnevi) return true;
+  return (TERMINI_PO_VSEBINI[v.id] || []).some(t => izbraniDnevi.has(t.datum));
+}
+
+function izrisiDnevniTrak() {
+  const wrap = document.getElementById('dnevni-trak');
+  if (!wrap) return;
+  if (!vsiDnevi.length) { wrap.innerHTML = ''; return; }
+
+  /* Ce se je okno sporeda premaknilo in izbrani dan ne obstaja vec, ga
+     pocisti — sicer bi filter tiho vracal 0 zadetkov za dan, ki ga v traku
+     sploh ni. */
+  if (izbraniDnevi) {
+    const ocisceno = new Set([...izbraniDnevi].filter(d => vsiDnevi.includes(d)));
+    izbraniDnevi = (ocisceno.size === 0 || ocisceno.size === vsiDnevi.length) ? null : ocisceno;
+  }
+
+  const danes = new Date();
+  const ds = `${danes.getFullYear()}-${String(danes.getMonth() + 1).padStart(2, '0')}-${String(danes.getDate()).padStart(2, '0')}`;
+  const DNEVI_KRATKO = ['Ned', 'Pon', 'Tor', 'Sre', 'Čet', 'Pet', 'Sob'];
+
+  wrap.innerHTML = vsiDnevi.map(datStr => {
+    const d = new Date(datStr + 'T00:00:00');
+    const danTxt = datStr === ds ? 'Danes' : DNEVI_KRATKO[d.getDay()];
+    const datTxt = `${d.getDate()}.${d.getMonth() + 1}.`;
+    const izbran = !izbraniDnevi || izbraniDnevi.has(datStr);
+    const zadnji = !!izbraniDnevi && izbraniDnevi.size === 1 && izbran;
+    return `<button class="dan-btn ${izbran ? 'active' : ''}${zadnji ? ' zaklenjen' : ''}"` +
+           `${zadnji ? ' title="Vsaj en dan mora ostati izbran"' : ''}` +
+           ` onclick="onKlikDan('${datStr}')" ondblclick="onDvoklikDan('${datStr}')">` +
+           `<span class="dan-ime">${danTxt}</span><span class="dan-datum">${datTxt}</span></button>`;
+  }).join('');
+}
+
+function preklopiDan(datStr) {
+  let izb = izbraniDnevi ? new Set(izbraniDnevi) : new Set(vsiDnevi);
+  if (izb.has(datStr)) {
+    if (izb.size === 1) return;     // zadnji izbrani dan ostane
+    izb.delete(datStr);
+  } else {
+    izb.add(datStr);
+  }
+  izbraniDnevi = izb.size === vsiDnevi.length ? null : izb;
+  stranIdx = 0;
+  izrisi();
+}
+
+/* Enojni klik pocaka 220 ms, ali sledi dvoklik — sicer bi "samo ta dan"
+   vedno najprej odklopil kliknjeni dan. Enak vzorec kot na filmski strani. */
+function onKlikDan(datStr) {
+  if (danKlikTimer) clearTimeout(danKlikTimer);
+  danKlikTimer = setTimeout(() => { preklopiDan(datStr); danKlikTimer = null; }, 220);
+}
+
+function onDvoklikDan(datStr) {
+  if (danKlikTimer) { clearTimeout(danKlikTimer); danKlikTimer = null; }
+  izbraniDnevi = vsiDnevi.length === 1 ? null : new Set([datStr]);
+  stranIdx = 0;
+  izrisi();
 }
 
 /* ---------------------------------------------------------------- izris */
@@ -1233,11 +1361,14 @@ function karticaHtml(v) {
 
 function izrisiFiltre() {
   /* Stevci se stejejo ZNOTRAJ izbranih kanalov — sicer bi pilula obljubljala
-     vsebine, ki jih trenutni izbor kanalov sploh ne pokaze. */
+     vsebine, ki jih trenutni izbor kanalov sploh ne pokaze.
+     Po DNEVIH se NE stejejo, namenoma in enako kot pri filmih (24.8.2026):
+     dan je okno, ki ga gledalec pomika, in stevilke bi ob vsakem kliku
+     poskakovale. Kanal je trajna izbira, dan ne. */
   const osnova = izbraniKanali.size
     ? VSEBINE.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k))) : VSEBINE;
-  const st = { vse: osnova.length, film: 0, serija: 0, otroci: 0 };
-  osnova.forEach(v => { st[v.tip]++; if (jeOtroski(v)) st.otroci++; });
+  const st = { vse: osnova.length, film: 0, serija: 0 };
+  osnova.forEach(v => { st[v.tip]++; });
 
   const pilula = (aktivno, kljuc, vrednost, napis, stevec) =>
     `<button class="se-btn${aktivno ? ' active' : ''}" onclick="nastavi('${kljuc}','${vrednost}')">` +
@@ -1248,18 +1379,17 @@ function izrisiFiltre() {
     pilula(STANJE.tip === 'film', 'tip', 'film', 'Filmi', st.film) +
     pilula(STANJE.tip === 'serija', 'tip', 'serija', 'Serije', st.serija);
 
-  document.getElementById('f-obcinstvo').innerHTML =
-    pilula(STANJE.otroski === 'vse', 'otroski', 'vse', 'Vsi', st.vse) +
-    pilula(STANJE.otroski === 'otroci', 'otroski', 'otroci', 'Za otroke', st.otroci) +
-    pilula(STANJE.otroski === 'odrasli', 'otroski', 'odrasli', 'Brez otroških', st.vse - st.otroci);
-
+  const razvrsti = (v, napis) =>
+    `<button class="se-btn${STANJE.razvrsti === v ? ' active' : ''}" onclick="nastavi('razvrsti','${v}')">${napis}</button>`;
   document.getElementById('f-razvrsti').innerHTML =
-    `<button class="se-btn${STANJE.razvrsti === 'cas' ? ' active' : ''}" onclick="nastavi('razvrsti','cas')">Kmalu na sporedu</button>` +
-    `<button class="se-btn${STANJE.razvrsti === 'abc' ? ' active' : ''}" onclick="nastavi('razvrsti','abc')">Po abecedi</button>`;
+    razvrsti('cas', 'Kmalu na sporedu') +
+    razvrsti('zadnja', 'Zadnja priložnost') +
+    razvrsti('abc', 'Po abecedi');
 }
 
 function izrisi() {
   izrisiFiltre();
+  izrisiDnevniTrak();
   posodobiKanaliBar();
   const s = filtrirane();
 
@@ -1493,6 +1623,7 @@ async function init() {
     Object.values(EPIZODE_PO_VSEBINI).forEach(a =>
       a.sort((x, y) => (x.st || 999) - (y.st || 999) || String(x.id).localeCompare(String(y.id))));
     Object.values(TERMINI_PO_VSEBINI).forEach(a => a.sort((x, y) => x.zac - y.zac));
+    vsiDnevi = [...new Set((DOK.termini || []).map(t => t.datum).filter(Boolean))].sort();
     Object.values(TERMINI_PO_EPIZODI).forEach(a => a.sort((x, y) => x.zac - y.zac));
 
     const posod = document.getElementById('posodobljeno-txt');
