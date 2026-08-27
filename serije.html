@@ -821,6 +821,48 @@ const VRSTE_VRSTNI_RED = ['Dokumentarni program', 'Otroški/Mladinski',
 let _vnPredogledi = [];
 function nastaviPredoglede(seznam) { _vnPredogledi = seznam || []; }
 
+
+// -----------------------------------------------------------------------------
+// VERZIJA PODATKOV — obhod predpomnilnika brez izgube predpomnilnika
+// -----------------------------------------------------------------------------
+// Tezava (izmerjena 27.8.2026): GitHub Pages postrezi z `Cache-Control:
+// max-age=600`. Kdor je bil na strani v zadnjih 10 minutah pred nocno
+// osvezitvijo, vidi STARE podatke, dokler predpomnilnik ne potece. HTML in
+// JSON se predpomnita LOCENO, zato je mogoca celo mesanica: nova stran, stari
+// podatki.
+//
+// Naivna resitev (`?v=` + trenutni cas ob vsakem zahtevku) bi predpomnilnik
+// popolnoma izklopila — filmska stran bi ob vsakem odprtju znova prenesla
+// ~11 MB. Zato dvostopenjsko:
+//
+//   1. `veje/vrste.json` je majhen (~1 KB) in se prebere z `cache: 'no-store'`,
+//      torej VEDNO svez. Vsak nocni zagon mu osvezi polje `posodobljeno`.
+//   2. Ta niz se pripne vsem VELIKIM datotekam kot `?v=...`. Dokler se podatki
+//      ne spremenijo, je URL enak in predpomnilnik dela normalno; ob osvezitvi
+//      se URL spremeni in brskalnik potegne novo.
+//
+// Ce branje verzije odpove, ostane prazna in URL-ji so nespremenjeni —
+// vedenje je natanko tako kot prej, nikoli slabse.
+let PODATKI_VERZIJA = '';
+
+async function ugotoviVerzijo(predpona) {
+  try {
+    const r = await fetch((predpona || '') + 'veje/vrste.json', { cache: 'no-store' });
+    if (!r.ok) return null;
+    const j = await r.json();
+    PODATKI_VERZIJA = j.posodobljeno || '';
+    return j;
+  } catch (e) {
+    return null;
+  }
+}
+
+/* Pot z oznako verzije. Uporabi jo za VSE podatkovne datoteke razen vrste.json. */
+function vURL(pot) {
+  if (!PODATKI_VERZIJA) return pot;
+  return pot + (pot.indexOf('?') >= 0 ? '&' : '?') + 'v=' + encodeURIComponent(PODATKI_VERZIJA);
+}
+
 function _vnUbegni(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -1196,16 +1238,13 @@ async function init() {
     if (glava && ov) ov.style.top = glava.offsetHeight + 'px';
 
     try {
-      const rv = await fetch(PODATKI + 'veje/vrste.json');
-      if (rv.ok) {
-        const _vj = await rv.json();
-        VRSTE = _vj.vrste || [];
-        nastaviPredoglede(_vj.predogledi);   // veje s stranjo, a delno pokritostjo
-      }
+      // Verzija podatkov (obhod predpomnilnika) — glej deli/_veje_nav.js.
+      const _vj = await ugotoviVerzijo(PODATKI);
+      if (_vj) { VRSTE = _vj.vrste || []; nastaviPredoglede(_vj.predogledi); }
     } catch (e) { VRSTE = []; }
     izrisiVejeNav(VRSTE);
 
-    const resp = await fetch(PODATKI + 'veje/serije.json');
+    const resp = await fetch(vURL(PODATKI + 'veje/serije.json'));
     if (!resp.ok) throw new Error('serije.json ni dosegljiv (' + resp.status + ')');
     const d = await resp.json();
     SERIJE = d.serije || {};

@@ -556,8 +556,17 @@
              display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .dk-opis-oznaka { color: var(--veja-svetla); font-weight: 600; }
 
-  .dk-termin { font-size: 10.5px; color: var(--veja); margin-top: 5px; font-weight: 600; }
+  /* Vrstica termina zdaj nosi tudi KANAL, zato se sme lomiti v dve vrsti —
+     "National Geographic čet 27.08. ob 12:00 · čez 1 h" v eno ne gre. */
+  .dk-termin { font-size: 10.5px; color: var(--veja); margin-top: 5px; font-weight: 600;
+               line-height: 1.35; }
   .dk-termin-pretekli { color: #7d8290; font-weight: 500; }
+  /* Ura je poudarjena (barva veje), KANAL je pridusen — gledalec isce, KDAJ bo,
+     kanal pa je kontekst. Za izbiro po kanalu obstaja filter zgoraj.
+     Filmske kartice imajo vso vrstico v eni barvi; tu je kanal dodan pozneje in
+     bi v isti barvi vrstico preobremenil. */
+  .dk-termin-kanal { color: #8f96a8; font-weight: 500; }
+  .dk-termin-pretekli .dk-termin-kanal { color: #6b7080; }
 
   /* Ležeče kartice so širše od pokončnih — mreža mora dati več prostora,
      sicer se slika 16:9 stisne v trak. */
@@ -759,6 +768,48 @@ const VRSTE_VRSTNI_RED = ['Dokumentarni program', 'Otroški/Mladinski',
 // podpisa izrisiVejeNav() in vseh njegovih klicateljev.
 let _vnPredogledi = [];
 function nastaviPredoglede(seznam) { _vnPredogledi = seznam || []; }
+
+
+// -----------------------------------------------------------------------------
+// VERZIJA PODATKOV — obhod predpomnilnika brez izgube predpomnilnika
+// -----------------------------------------------------------------------------
+// Tezava (izmerjena 27.8.2026): GitHub Pages postrezi z `Cache-Control:
+// max-age=600`. Kdor je bil na strani v zadnjih 10 minutah pred nocno
+// osvezitvijo, vidi STARE podatke, dokler predpomnilnik ne potece. HTML in
+// JSON se predpomnita LOCENO, zato je mogoca celo mesanica: nova stran, stari
+// podatki.
+//
+// Naivna resitev (`?v=` + trenutni cas ob vsakem zahtevku) bi predpomnilnik
+// popolnoma izklopila — filmska stran bi ob vsakem odprtju znova prenesla
+// ~11 MB. Zato dvostopenjsko:
+//
+//   1. `veje/vrste.json` je majhen (~1 KB) in se prebere z `cache: 'no-store'`,
+//      torej VEDNO svez. Vsak nocni zagon mu osvezi polje `posodobljeno`.
+//   2. Ta niz se pripne vsem VELIKIM datotekam kot `?v=...`. Dokler se podatki
+//      ne spremenijo, je URL enak in predpomnilnik dela normalno; ob osvezitvi
+//      se URL spremeni in brskalnik potegne novo.
+//
+// Ce branje verzije odpove, ostane prazna in URL-ji so nespremenjeni —
+// vedenje je natanko tako kot prej, nikoli slabse.
+let PODATKI_VERZIJA = '';
+
+async function ugotoviVerzijo(predpona) {
+  try {
+    const r = await fetch((predpona || '') + 'veje/vrste.json', { cache: 'no-store' });
+    if (!r.ok) return null;
+    const j = await r.json();
+    PODATKI_VERZIJA = j.posodobljeno || '';
+    return j;
+  } catch (e) {
+    return null;
+  }
+}
+
+/* Pot z oznako verzije. Uporabi jo za VSE podatkovne datoteke razen vrste.json. */
+function vURL(pot) {
+  if (!PODATKI_VERZIJA) return pot;
+  return pot + (pot.indexOf('?') >= 0 ? '&' : '?') + 'v=' + encodeURIComponent(PODATKI_VERZIJA);
+}
 
 function _vnUbegni(s) {
   return String(s == null ? '' : s)
@@ -1024,11 +1075,16 @@ function ubegni(s) {
 
 function zdaj() { return Math.floor(Date.now() / 1000); }
 
-function formatTermin(t) {
+/* Oblika je ista kot pri filmskih karticah: `Kanal dan dd.mm. ob HH:MM`.
+   Kanal je spredaj in se izpise TAK, KOT JE V PODATKIH (brez velikih crk).
+   Pri devetih kanalih je to nujen podatek — brez njega kartica pove, KDAJ
+   bo, ne pa KJE. */
+function formatTermin(t, sKanalom) {
   const d = new Date(t.zac * 1000);
   const dd = String(d.getDate()).padStart(2, '0');
   const mm = String(d.getMonth() + 1).padStart(2, '0');
-  return `${DNEVI[d.getDay()]} ${dd}.${mm}. ob ${t.cas}`;
+  const cas = `${DNEVI[d.getDay()]} ${dd}.${mm}. ob ${t.cas}`;
+  return sKanalom && t.kanal ? `${t.kanal} ${cas}` : cas;
 }
 
 /* Relativni opis. Pretekle termine povemo samo kot "kdaj je bilo" — nobenih
@@ -1157,7 +1213,10 @@ function karticaHtml(v) {
   let termin = '';
   if (kt) {
     const razred = kt.prihodnji ? 'dk-termin' : 'dk-termin dk-termin-pretekli';
-    termin = `<div class="${razred}">${ubegni(formatTermin(kt.t))} · ${ubegni(relativno(kt.t))}</div>`;
+    const kanal = kt.t.kanal
+      ? `<span class="dk-termin-kanal">${ubegni(kt.t.kanal)}</span> ` : '';
+    termin = `<div class="${razred}">${kanal}${ubegni(formatTermin(kt.t))}` +
+             ` · ${ubegni(relativno(kt.t))}</div>`;
   }
 
   return `<div class="dk-kartica" onclick="odpriPopup('${ubegni(v.id)}')">
@@ -1308,7 +1367,7 @@ function izberIskanjeNacin(nacin) {
 
 function terminHtml(t) {
   const bo = t.zac > zdaj();
-  return `<div class="dk-termin-vrstica${bo ? ' bo' : ''}">${ubegni(formatTermin(t))}` +
+  return `<div class="dk-termin-vrstica${bo ? ' bo' : ''}">${ubegni(formatTermin(t, false))}` +
          ` <span class="dk-t-kanal">· ${ubegni(t.kanal)}</span>` +
          ` <span class="dk-t-kanal">· ${ubegni(relativno(t))}</span></div>`;
 }
@@ -1412,13 +1471,14 @@ async function init() {
   try {
     if (typeof izrisiVejeNav === 'function') {
       try {
-        const rv = await fetch(PODATKI + 'veje/vrste.json');
-        /* Cel objekt: izrisiVejeNav() zna prebrati polje ALI objekt s predogledi. */
-        if (rv.ok) izrisiVejeNav(await rv.json());
+        /* Verzija podatkov (obhod predpomnilnika) — glej deli/_veje_nav.js.
+           izrisiVejeNav() zna prebrati polje ALI cel objekt s predogledi. */
+        const _vj = await ugotoviVerzijo(PODATKI);
+        if (_vj) izrisiVejeNav(_vj);
       } catch (e) { /* izbornik ni ključen za delovanje strani */ }
     }
 
-    const resp = await fetch(PODATKI + 'veje/dokumentarci.json');
+    const resp = await fetch(vURL(PODATKI + 'veje/dokumentarci.json'));
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     DOK = await resp.json();
 
