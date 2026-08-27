@@ -1356,10 +1356,19 @@ async function init() {
     const m = document.getElementById('dk-mreza');
     if (m) m.innerHTML = `<div class="rezultati-info">Podatkov ni bilo mogoče naložiti (${ubegni(e.message)}).</div>`;
   } finally {
-    const n = document.getElementById('nalaganje');
-    if (n) n.style.display = 'none';
+    skrijNalaganje();
   }
 }
+
+/* Skrivamo z razredom `.skrito`, ne z inline stilom — enako kot ostale veje.
+   Testi cakajo prav na ta razred; inline `display:none` bi jih pustil viseti. */
+function skrijNalaganje() {
+  const n = document.getElementById('nalaganje');
+  if (n) n.classList.add('skrito');
+}
+
+// Varnostni izhod — ce se kaj zatakne, overlay vseeno izgine.
+setTimeout(skrijNalaganje, 20000);
 
 document.addEventListener('keydown', e => {
   if (e.key !== 'Escape') return;
