@@ -440,13 +440,17 @@
   .vn-filmi  { color: #e8702a; border-color: #e8702a55; background: #e8702a12; }
   .vn-serije { color: #c9aef5; border-color: #7a4fd055; background: #7a4fd018; }
   .vn-sport  { color: #4fd18a; border-color: #1fa25a55; background: #1fa25a15; }
+  /* Doc veja (28.8.2026) — teal #0e9aa7, ista barva kot dokumentarci.html. */
+  .vn-dokumentarci { color: #4fd6e0; border-color: #0e9aa755; background: #0e9aa715; }
   .vn-filmi:hover  { border-color: #e8702a; background: #e8702a25; }
   .vn-serije:hover { border-color: #7a4fd0; background: #7a4fd030; }
   .vn-sport:hover  { border-color: #1fa25a; background: #1fa25a28; }
+  .vn-dokumentarci:hover { border-color: #0e9aa7; background: #0e9aa728; }
   .vn.aktiven { color: #fff; }
   .vn-filmi.aktiven  { background: #e8702a; border-color: #e8702a; }
   .vn-serije.aktiven { background: #7a4fd0; border-color: #7a4fd0; }
   .vn-sport.aktiven  { background: #1fa25a; border-color: #1fa25a; }
+  .vn-dokumentarci.aktiven { background: #0e9aa7; border-color: #0e9aa7; }
 
   .vn-locnica { width: 1px; height: 20px; background: #2a2e3d; margin: 0 3px; }
   .vn-oznaka { font-size: 11px; color: #5f6474; white-space: nowrap; }
@@ -796,7 +800,7 @@ const VEJA_AKTIVNA = 'serije';
 
 // Vrstni red barvnih gumbov. Kar ni na seznamu, se doda na konec — nova veja
 // se torej pokaže tudi, če tega seznama nihče ne posodobi.
-const VEJE_VRSTNI_RED = ['filmi', 'serije', 'sport'];
+const VEJE_VRSTNI_RED = ['filmi', 'serije', 'dokumentarci', 'sport'];
 
 const VEJE_IMENA = { filmi: 'FILMI' };   // vrste.json to vejo pozna kot "Film"
 

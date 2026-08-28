@@ -440,13 +440,17 @@
   .vn-filmi  { color: #e8702a; border-color: #e8702a55; background: #e8702a12; }
   .vn-serije { color: #c9aef5; border-color: #7a4fd055; background: #7a4fd018; }
   .vn-sport  { color: #4fd18a; border-color: #1fa25a55; background: #1fa25a15; }
+  /* Doc veja (28.8.2026) — teal #0e9aa7, ista barva kot dokumentarci.html. */
+  .vn-dokumentarci { color: #4fd6e0; border-color: #0e9aa755; background: #0e9aa715; }
   .vn-filmi:hover  { border-color: #e8702a; background: #e8702a25; }
   .vn-serije:hover { border-color: #7a4fd0; background: #7a4fd030; }
   .vn-sport:hover  { border-color: #1fa25a; background: #1fa25a28; }
+  .vn-dokumentarci:hover { border-color: #0e9aa7; background: #0e9aa728; }
   .vn.aktiven { color: #fff; }
   .vn-filmi.aktiven  { background: #e8702a; border-color: #e8702a; }
   .vn-serije.aktiven { background: #7a4fd0; border-color: #7a4fd0; }
   .vn-sport.aktiven  { background: #1fa25a; border-color: #1fa25a; }
+  .vn-dokumentarci.aktiven { background: #0e9aa7; border-color: #0e9aa7; }
 
   .vn-locnica { width: 1px; height: 20px; background: #2a2e3d; margin: 0 3px; }
   .vn-oznaka { font-size: 11px; color: #5f6474; white-space: nowrap; }
@@ -773,7 +777,7 @@ const VEJA_AKTIVNA = 'dokumentarci';
 
 // Vrstni red barvnih gumbov. Kar ni na seznamu, se doda na konec — nova veja
 // se torej pokaže tudi, če tega seznama nihče ne posodobi.
-const VEJE_VRSTNI_RED = ['filmi', 'serije', 'sport'];
+const VEJE_VRSTNI_RED = ['filmi', 'serije', 'dokumentarci', 'sport'];
 
 const VEJE_IMENA = { filmi: 'FILMI' };   // vrste.json to vejo pozna kot "Film"
 
@@ -1056,13 +1060,16 @@ function pripraviPas(idPasu) {
    Podatki: veje/dokumentarci.json (gradi ga izvozi_veje.py iz
    veje/dokumentarci_raw.json, ki ga zajame viri_dokumentarci.py z rtvslo.si).
 
-   TREH STVARI TU NAMENOMA NI:
+   DVEH STVARI TU NAMENOMA NI:
    1. OCENE — RTV je ne da; TMDb dokumentarcev ne ujame zanesljivo (generični
       naslovi, epizodni naslovi, slovenski enkratniki). Boljše nič kot napačna.
-   2. FILTRA PO KANALIH — veja pokriva en sam kanal (RTVSlo 2). Gumb "izberi
-      kanale" z enim kanalom bi bil prazna obljuba. Vrne se, ko bo kanalov več.
-   3. ZASTAVICE "ponovitev" — poleti je označenih vseh 47 terminov (reprize),
-      zato oznaka nič ne loči. Podatek se zajema in bo uporaben jeseni.
+      Potrjeno 27.8.2026 na serijah, kjer TMDb tudi pri ZNANIH naslovih zgreši
+      (Criminal Minds → korejski remake) — glej memory tvguide-imdb-vezave.
+   2. ZASTAVICE "ponovitev" — poleti je označenih velika večina terminov
+      (reprize), zato oznaka nič ne loči. Podatek se zajema in bo uporaben jeseni.
+
+   FILTER PO KANALIH JE OD 27.8.2026 TU (prej ga ni bilo, ker je veja pokrivala
+   en sam kanal); od 28.8.2026 jih je 22 in veja pokriva kategorijo v celoti.
 
    FILM ali SERIJA se NE bere iz RTV oznake — izračuna ga izvozi_veje.py
    (`_dok_tip`), ker "dokumentarna oddaja" pokriva oboje. Tu samo prikazujemo.

@@ -1,47 +1,40 @@
 {
- "posodobljeno": "2026-08-27 12:26",
+ "posodobljeno": "2026-08-28 11:20",
  "vrste": [
   {
    "ime": "Film",
    "veja": "filmi",
    "stran": "index.html",
    "privzeta": true,
-   "oddaj": 1347
-  },
-  {
-   "ime": "Dokumentarni program",
-   "veja": "filmi",
-   "stran": "index.html",
-   "privzeta": false,
-   "oddaj": 2280
+   "oddaj": 1341
   },
   {
    "ime": "Razvedrilni program",
    "veja": "filmi",
    "stran": "index.html",
    "privzeta": false,
-   "oddaj": 1520
+   "oddaj": 1516
   },
   {
    "ime": "Ostalo",
    "veja": "filmi",
    "stran": "index.html",
    "privzeta": false,
-   "oddaj": 392
+   "oddaj": 391
   },
   {
    "ime": "Informativni program",
    "veja": "filmi",
    "stran": "index.html",
    "privzeta": false,
-   "oddaj": 337
+   "oddaj": 336
   },
   {
    "ime": "Otroški/Mladinski",
    "veja": "filmi",
    "stran": "index.html",
    "privzeta": false,
-   "oddaj": 87
+   "oddaj": 85
   },
   {
    "ime": "Šport",
@@ -50,7 +43,7 @@
    "kategorije": [
     "Šport"
    ],
-   "oddaj": 2306
+   "oddaj": 2287
   },
   {
    "ime": "Serije",
@@ -59,14 +52,17 @@
    "kategorije": [
     "Nadaljevanka/Nanizanka"
    ],
-   "oddaj": 3058
+   "oddaj": 3037
+  },
+  {
+   "ime": "Dokumentarci",
+   "veja": "dokumentarci",
+   "stran": "dokumentarci.html",
+   "kategorije": [
+    "Dokumentarni program"
+   ],
+   "oddaj": 2272
   }
  ],
- "predogledi": [
-  {
-   "ime": "Doc RTV",
-   "stran": "dokumentarci.html",
-   "naslov": "Dokumentarci RTVSlo 2 — veja v gradnji"
-  }
- ]
+ "predogledi": []
 }
