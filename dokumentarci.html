@@ -624,6 +624,17 @@
   .dk-trak-naslov { padding: 0 1rem 6px; }
   .dk-trak-ovoj .dnevni-trak-bar { padding: 0 1rem 10px; }
 }
+
+/* --- Znacka sklepanega zanra (28.8.2026) -------------------------------
+   Pridusena in majhna: zanr je SKLEPAN, ne iz vira, zato ne sme tekmovati
+   z naslovom. Ista logika kot pri kanalu v vrstici termina. */
+.dk-zanr { display: inline-block; align-self: flex-start; margin-top: 3px; font-size: 9.5px;
+           font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
+           color: var(--veja); background: var(--veja-blaga);
+           border: 1px solid var(--veja-panel-rob);
+           border-radius: 9px; padding: 1px 7px; }
+/* align-self je nujen: .dk-telo je flex stolpec, zato bi se inline-block
+   raztegnil cez vso sirino kartice in znacka bi izgledala kot pas. */
 </style>
 </head>
 <body>
@@ -671,7 +682,7 @@
 <!-- ===== CELOTNA PONUDBA — vsi dokumentarci ===== -->
 <div class="dk-oddelek-ponudba">
   <div class="dk-oddelek-naslov">🎞 CELOTNA PONUDBA
-    <span class="dk-oddelek-podnaslov">Dokumentarni filmi in serije — filtriraj po dnevu, kanalu in vrsti</span>
+    <span class="dk-oddelek-podnaslov">Dokumentarni filmi in serije — filtriraj po dnevu, kanalu, vrsti in žanru</span>
   </div>
   <div class="dk-vir-vrstica" id="dk-vir"></div>
 
@@ -699,6 +710,10 @@
   <div class="filter-row">
     <span class="filter-label">Vrsta</span>
     <div class="se-btn-skupina" id="f-tip"></div>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">Žanr</span>
+    <div class="se-btn-skupina" id="f-zanr"></div>
   </div>
   <div class="filter-row">
     <span class="filter-label">Razvrsti</span>
@@ -1095,8 +1110,17 @@ const STANJE = {
   nacin: 'naziv',      // 'naziv' | 'vse'
   iskanje: '',
   tip: 'vse',          // 'vse' | 'film' | 'serija'
+  zanr: 'vse',         // 'vse' | ime zanra iz podatkov
   razvrsti: 'cas',     // 'cas' | 'zadnja' | 'abc'
 };
+
+/* ZANRI so SKLEPANI (izvozi_veje.py: sklepi_zanr_dok) — vir jih ne da: NEO ima
+   uporaben podzanr le pri 17 % vsebin, RTV oznaka je narodnost. Ena vrednost na
+   vsebino (Andrejeva odlocitev 28.8.2026), avtomobilizem locen od tehnike.
+   Vrstni red je FIKSEN, ne po stevilu — sicer bi pilule poskakovale iz dneva v
+   dan. Vsebina brez sklepanega zanra ostane dosegljiva prek "Vse". */
+const ZANRI_VRSTNI_RED = ['zgodovina', 'narava', 'znanost', 'tehnika',
+  'avtomobilizem', 'potovanja', 'kriminal', 'nadnaravno', 'kultura', 'šport'];
 
 /* DNEVI — veckratni izbor, ista semantika kot pri filmih:
    null pomeni VSI dnevi (privzeto), sicer Set datumov 'YYYY-MM-DD'.
@@ -1191,6 +1215,7 @@ function filtrirane() {
   // Vsebina ima SEZNAM kanalov — dovolj je, da je na enem od izbranih.
   if (izbraniKanali.size) s = s.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k)));
   if (STANJE.tip !== 'vse') s = s.filter(v => v.tip === STANJE.tip);
+  if (STANJE.zanr !== 'vse') s = s.filter(v => (v.zanr || '') === STANJE.zanr);
   if (izbraniDnevi) s = s.filter(jeVIzbranihDnevih);
   const q = STANJE.iskanje.trim().toLowerCase();
   if (q) s = s.filter(v => besediloVsebine(v).indexOf(q) >= 0);
@@ -1314,6 +1339,9 @@ function karticaHtml(v) {
     ? '<span class="dk-znak serija">Serija</span>'
     : '<span class="dk-znak film">Film</span>';
   const otroci = jeOtroski(v) ? '<span class="dk-znak-otroci">Za otroke</span>' : '';
+  const zanr = v.zanr
+    ? `<span class="dk-zanr">${ubegni(v.zanr.charAt(0).toUpperCase() + v.zanr.slice(1))}</span>`
+    : '';
 
   const slika = v.slika
     ? `<img class="dk-slika" src="${ubegni(v.slika)}" alt="" loading="lazy"
@@ -1360,6 +1388,7 @@ function karticaHtml(v) {
     <div class="dk-slika-ovoj">${slika}${znak}${otroci}</div>
     <div class="dk-telo">
       <div class="dk-naslov">${ubegni(v.naslov)}</div>
+      ${zanr}
       ${meta ? `<div class="dk-meta">${ubegni(meta)}</div>` : ''}
       ${epizod}
       ${opis}
@@ -1377,7 +1406,11 @@ function izrisiFiltre() {
   const osnova = izbraniKanali.size
     ? VSEBINE.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k))) : VSEBINE;
   const st = { vse: osnova.length, film: 0, serija: 0 };
-  osnova.forEach(v => { st[v.tip]++; });
+  const stZanr = {};
+  osnova.forEach(v => {
+    st[v.tip]++;
+    if (v.zanr) stZanr[v.zanr] = (stZanr[v.zanr] || 0) + 1;
+  });
 
   const pilula = (aktivno, kljuc, vrednost, napis, stevec) =>
     `<button class="se-btn${aktivno ? ' active' : ''}" onclick="nastavi('${kljuc}','${vrednost}')">` +
@@ -1387,6 +1420,14 @@ function izrisiFiltre() {
     pilula(STANJE.tip === 'vse', 'tip', 'vse', 'Vse', st.vse) +
     pilula(STANJE.tip === 'film', 'tip', 'film', 'Filmi', st.film) +
     pilula(STANJE.tip === 'serija', 'tip', 'serija', 'Serije', st.serija);
+
+  /* Pokazemo SAMO zanre, ki jih izbrani kanali res imajo — gumb s praznim
+     rezultatom je prazna obljuba (isto pravilo kot pri kanalih). */
+  document.getElementById('f-zanr').innerHTML =
+    pilula(STANJE.zanr === 'vse', 'zanr', 'vse', 'Vsi', st.vse) +
+    ZANRI_VRSTNI_RED.filter(z => stZanr[z])
+      .map(z => pilula(STANJE.zanr === z, 'zanr', z,
+                       z.charAt(0).toUpperCase() + z.slice(1), stZanr[z])).join('');
 
   const razvrsti = (v, napis) =>
     `<button class="se-btn${STANJE.razvrsti === v ? ' active' : ''}" onclick="nastavi('razvrsti','${v}')">${napis}</button>`;
