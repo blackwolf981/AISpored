@@ -1,478 +1,10 @@
 {
   "kanal": "Discovery Channel",
   "ch_ext_id": "discovery-channel",
-  "posodobljeno": "2026-08-29 13:52",
-  "od": "2026-08-22",
-  "do": "2026-09-05",
+  "posodobljeno": "2026-08-30 20:42",
+  "od": "2026-08-23",
+  "do": "2026-09-06",
   "oddaje": [
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E5 - Smrt v družini",
-      "naslov_orig": "S1E5 - High Speed Chase: Human Shield",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Ko nepridipravi z ukradenim vozilom zbijejo policijskega veterana, to sproži obsežno iskalno akcijo. Kasneje se policist spopade s tremi bančnimi roparji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ec/f/a/ecfa8a72-5f50-4cbe-8bb6-e26216623299.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817608"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E1 - Motor za NHL/motor - bombnik",
-      "naslov_orig": "S6E1 - American Chopper: NHL Bike/B-2 Bomber Bike",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2009",
-      "starostna_omejitev": "",
-      "opis": "V prvi epizodi šeste sezone se morajo sodelavci v delavnici OCC spoprijeti z dvema novima projektoma: motorjem bombnikom za podjetje Northrop Grumman in motorjem za ligo NHL.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/f/a/f8fa67a9-98d9-4a54-ad3a-2c657a2f214c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817609"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "02:00",
-      "cas_konec": "03:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E12 - Mejna kontrola: Švedska",
-      "naslov_orig": "S3E12 - Border Control: Sweden: Vapenfynd och bombtillslag",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Varnostne in carinske službe na meji s Švedsko nenehno bdijo, da preprečijo vstop nezakonitih predmetov v državo. Njihova naloga je odkriti kriminal.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/c/d/56cd3fa0-1f31-4de4-9d7c-17a252ea8a69.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817610"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S11E6 - Avstralski tovornjakarji",
-      "naslov_orig": "S11E6 - Outback Truckers",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spoznajte voznike, ki se z enimi od najtežjih in najmanj okretnih vozil na svetu podajajo na maratonske vožnje po najzahtevnejših avstralskih cestah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/4/a/c24a387d-9487-4335-82d4-bde67110c39a.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817611"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E19 - Cestni odpadniki: Čas",
-      "naslov_orig": "S5E19 - Street Outlaws: Time",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Monza po nesreči končno dobi priložnost ponovno dirkati, Shawn snuje povratek med najboljšo peterico, Farmtruck in AZN pa odkrijeta zabaven način uporabe rabljenih zračnih blazin.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/37/4/e/374e184b-edf3-4ef4-b1f8-5472641309e2.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817612"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E2 - Zlata miza",
-      "naslov_orig": "S3E2 - Salvage Hunters: The Restorers: The Golden Table",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Kipar Nick in mojstrica zlatenja Ruth obnovita dragoceno starinsko mizo. Tapetnik Craig ima težave pri obnovi retro pohištva v klasičnem stilu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0f/0/8/0f086d96-c4f4-4410-929a-eb274f872d8f.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817613"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "06:00",
-      "cas_konec": "06:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S16E1 - Kako je narejeno",
-      "naslov_orig": "S16E1 - How It's Made: Millefiori Glass Paperweights/Road Salt/Nutcrackers/Car Doors",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ste se kdaj spraševali, kako nastanejo stvari, kot so uteži za papir, sol za posip cest, lomilniki orehov in avtomobilska vrata? Pod drobnogled postavljamo vsakodnevne predmete.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2a/0/a/2a0a38a7-20a9-475d-b9b2-eb1147bfc8f0.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817614"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "06:30",
-      "cas_konec": "07:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S16E2 - Kako je narejeno",
-      "naslov_orig": "S16E2 - How It's Made: Straight Razors, Black Pudding, Steering Wheels, Inorganic Pigments",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ste se kdaj spraševali, kako nastanejo stvari, kot so krvavice, volani in anorganska barvila? Pod drobnogled postavljamo vsakodnevne predmete.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/e/3/12e3072d-0d83-4c02-867b-5615c3bacc1b.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817615"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "07:00",
-      "cas_konec": "07:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S16E3 - Kako je narejeno",
-      "naslov_orig": "S16E3 - How It's Made: Cast Iron Cookware, Biodiesel, Clothes Hangers, Stone Wool Insulation",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ste se kdaj spraševali, kako nastanejo stvari, kot so posoda iz litega železa, biodizel in obešalniki za oblačila? Pod drobnogled postavljamo vsakodnevne predmete.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/2/4/71244f42-2c8e-4909-9fb7-f9f0f577e0c5.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817616"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "07:30",
-      "cas_konec": "08:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S16E4 - Kako je narejeno",
-      "naslov_orig": "S16E4 - How It's Made: Pins and Needles, Moldings, Locomotives, Clothespins",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ste se kdaj spraševali, kako nastanejo stvari, kot so šivanke in bucike, zidni ornamenti ter lokomotive? Pod drobnogled postavljamo vsakodnevne predmete.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/b/7/26b79106-05da-4bf7-9a33-f0ebdef8313c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817617"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "08:00",
-      "cas_konec": "09:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E8 - 8. epizoda",
-      "naslov_orig": "S4E8 - Mighty Truckers",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Življenje tovornjakarjev ni lahko. Dolgi delovniki, ogromni tovori in prometne ceste so le nekateri njihovi izzivi. Pridružite se šoferjem iz Nemčije, Italije in Nizozemske.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fa/a/a/faaadcaa-194f-4e6d-9e3e-4071954d6bb1.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817618"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E4 - Podaljšani Dually",
-      "naslov_orig": "S2E4 - Roadworthy Rescues: Overtime Dually",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Derek in Dave Chappelle najdeta star poltovornjak z dvojnimi zadnjimi kolesi na podeželju v Kentuckyju. Odločita se, da ga bosta spremenila v pošast za vleko avtomobilov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cb/0/0/cb00feeb-8656-493b-b73a-1a06b0b57e5e.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817619"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Razpadajoči Coronet",
-      "naslov_orig": "S2E5 - Roadworthy Rescues: Hatchet Coronet",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Derek prosi Steva Dulcicha za pomoč pri obnovi zapuščenega vozila Dodge Coronet. Toda fanta bosta moral zamenjati vse na avtomobilu, če se želita varno vrniti v Nashville.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/03/7/9/0379dce3-9258-4c12-b87b-99eef6fdc76e.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817620"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E24 - Ogromni dizelski motor",
-      "naslov_orig": "S6E24 - American Chopper: Monster Diesel Bike",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Fantje izdelujejo prvi čoper na dizelski pogon na svetu, Paul mlajši se udeleži otvoritve pasjega parka, ki ga je načrtoval, Mikey pa s svojo točko zabava nabito poln lokal.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3e/7/2/3e729ad1-dbd2-4f8b-a8a5-e028f4997c53.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817621"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E25 - Tekmovalni motor za ekipo Stewar-Haas",
-      "naslov_orig": "S6E25 - American Chopper: Stewart-Haas Racing Bike",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ekipa je za dirkaško ekipo Stewart-Hass zasnovala čoper po navdihu dirkalnika NASCAR, Paul mlajši pa predstavlja novo linijo igrač za pse podjetju iz Los Angelesa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/a/f/99afec9d-2eb1-41bc-9e19-4d55ee41a4a5.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817622"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E5 - Goli Bel Air",
-      "naslov_orig": "S1E5 - Roadworthy Rescues: Bare Metal Bel Air",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "8+",
-      "opis": "Derek mora vozilo Chevrolet Bel Air iz leta 1964 iz travnika v Kentuckyju spraviti v svojo delavnico v Tennesseeju. Naloga je vse prej kot enostavna.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/9/a/ff9a2dc1-8a5a-4da1-8dfd-e194caf62896.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817623"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - Blazer z Black Hillsa",
-      "naslov_orig": "S1E6 - Roadworthy Rescues: Black Hills Blazer",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "8+",
-      "opis": "Derek obišče delavnico, kjer je delal kot vajenec v najstniških letih. Namen njegovega obiska je Chevrolet K5 Blazer iz leta 1979, ki tam stoji že več kot 20 let.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/d/b/d3dba9d1-d311-4fc3-9837-53ffcdbf0c3a.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817624"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E0 - Dvojno preživetje",
-      "naslov_orig": "S6E0 - Dual Survival: Tracking Lions",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Dave in Cody predstavita tehnike preživetja in ustvarjalnega razmišljanja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e7/a/e/e7aef294-183b-4fee-922e-284070138f4b.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817625"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E0 - Dvojno preživetje: Napad slonov",
-      "naslov_orig": "S6E0 - Dual Survival: Attack of the Elephants",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Dave in Cody predstavita tehnike preživetja in ustvarjalnega razmišljanja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8e/d/a/8eda9dd0-08e4-4d61-921b-e41b42636286.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817626"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S15E12 - Kevinov prvi zagon",
-      "naslov_orig": "S15E12 - Gold Rush: Kevin Fires Up",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Kevin prvič zažene svoj izpiralnik. Tony zadolži svojega sina Mika za upravljanje trommela na Paradise Hillu. Rick išče zlato na novi lokaciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/4/b/0d4ba1d5-f3b2-4f5b-8385-fdb3ed785e2c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817627"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S15E13 - Kraljeva napaka",
-      "naslov_orig": "S15E13 - Gold Rush: The King's Mistake",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Tony naleti na nepričakovano oviro na svoji zemlji. Rick išče novo lokacijo za rudarjenje. Parkerjeva ekipa naredi velik korak v Long Cutu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/76/e/6/76e6a3a1-044d-4d74-827c-48ae7cfae7b1.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817628"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S15E14 - Parkerjeva bomba",
-      "naslov_orig": "S15E14 - Gold Rush: Parker's Bombshell",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Parker šokira ekipo s posebnim nakupom. Tony omeji rudarsko operacijo svojega sina Mika. Kevin začne svoj prvi teden izpiranja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ba/f/2/baf21157-aed6-4db8-9886-5105c60467e8.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817629"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S15E15 - Vegas, punči!",
-      "naslov_orig": "S15E15 - Gold Rush: Vegas, Baby!",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Rick tvega ves svoj dobiček na tveganem ozemlju. Parkerjeva ekipa stavi na novo zemljo v Sulphur Creeku. Monica ponudi rešitev za Tonyjeve težave.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/5/5/bb55574a-4fa1-4f5a-bda3-f710f88d3c58.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817630"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S10E10 - Na lovu za zakladom Evergladesa",
-      "naslov_orig": "S10E10 - Expedition Unknown: Vanderbilt's Lost Steamship",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "10+",
-      "opis": "Josh se poda v močvirje, da bi našel izgubljeno bogastvo zloglasnih tihotapcev.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0a/e/8/0ae82c32-0aaa-4a69-a152-9f8fae4eed99.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817631"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Zarota o Bermudskem trikotniku",
-      "naslov_orig": "S1E1 - Mysteries of the Deep: The Loch Ness Conspiracy",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "nadnaravno"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Jeremy Wade preiskuje, ali so razvpita izginotja v Bermudskem trikotniku del zarote tajnega agenta, ki je bil vojno z ZDA.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/94/8/6/94860691-cd80-4ba4-880f-75e85f453670.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817632"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "23:00",
-      "cas_konec": "01:00",
-      "trajanje": "120 min",
-      "naslov_sl": "S6E17 - Goli in prestrašeni: Spopad z Afriko",
-      "naslov_orig": "S6E17 - Naked And Afraid: Biting Back at Africa",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "10+",
-      "opis": "Štirje mojstri preživetja se soočajo z edinstvenim izzivom v nevarni divjini Južne Afrike. Nanje prežijo plenilci z vrha prehranske verige.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/0/c/ef0cc159-6e9a-48d8-b66f-d9f46d34c48e.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1143817633"
-    },
     {
       "datum": "2026-08-23",
       "dan": "Nedelja",
@@ -2470,546 +2002,6 @@
       "opis": "V Ohiu več agencij zasleduje ukradeni kombi, ko voznik pokliče 911 in razkrije, da v vozilu ni sam.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/b/1/5fb1c553-a870-40be-bf12-78afc20a9832.jpg",
       "show_id": "CUP_IECOM_DISCOVERY_1144545706"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S7E3 - Lakota in jeza",
-      "naslov_orig": "S7E3 - Naked And Afraid: Stars Against the Storm",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "potovanje"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Kamnosekinja Shannon se z gasilcem Timom poda v peklensko vročino trinidadskega tropskega deževnega gozda, kjer ju čakajo hudi nalivi in brbotajoče vrelo blato.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/9/c/a29c8cac-c022-49f2-8a96-fe33c7c564a4.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066054"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "01:00",
-      "cas_konec": "01:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E9 - Konjušnica v Hot Springsu",
-      "naslov_orig": "S1E9 - Salvage Dawgs: Homestead Stables",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Mike Whiteside, Robert Kulp and the Black Dog crew tackle the Homestead Stables and carriage house in Hot Springs, Virginia. A hand-operated carriage elevator is discovered.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/a/1/4fa1eaee-0eed-4140-bfab-acb8047de250.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066020"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "01:30",
-      "cas_konec": "02:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E10 - Cerkev v Salisburyju",
-      "naslov_orig": "S1E10 - Salvage Dawgs: Foursquare Church",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Mike, Robert in ekipa Black Dog Salvage imajo tokrat opravka z odstranjevanjem velikih in občutljivih vitrajev iz cerkve s Salisburyju v Severni Karolini.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/b/8/40b882b2-97bc-495a-8b4c-f4c36ab3b03a.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066055"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "02:00",
-      "cas_konec": "03:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S10E11 - Skrivnosti Mojzesa",
-      "naslov_orig": "S10E11 - Expedition Unknown: The Real Goonies Treasure",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "10+",
-      "opis": "Josh išče odgovore na vprašanja o obstoju Mojzesa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c1/6/b/c16b1216-4239-4e0a-836b-7c07c3562631.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066038"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Nacistična podmornica iz pekla",
-      "naslov_orig": "S1E2 - Mysteries of the Deep: Mummy on the Ghost Ship",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "nadnaravno"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Jeremy na dnu Velikih jezer raziskuje dobro ohranjene 140-letne potopljene razbitine. Kakšne temačne skrivnosti pa se skrivajo v nacistični podmornici?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/a/0/19a05ec3-3e57-4bcc-ac6f-9e716b8f971e.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066026"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E2 - Lovci na staro železo",
-      "naslov_orig": "S5E2 - Scrappers",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Stopite v zakulisje poljske predelave odpadnega železa, spoznajte zanimive ljudi, povezane z njo, in si oglejte, od kod pridejo te surovine in kje končajo, ko zapustijo odpad.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cf/2/7/cf271963-2a4b-4f1e-9332-778ab3f251e6.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066049"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E3 - Lovci na staro železo",
-      "naslov_orig": "S5E3 - Scrappers",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Stopite v zakulisje poljske predelave odpadnega železa, spoznajte zanimive ljudi, povezane z njo, in si oglejte, od kod pridejo te surovine in kje končajo, ko zapustijo odpad.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/e/d/77ed3749-ff38-49fe-9b9e-b32a47f44403.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066042"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "06:00",
-      "cas_konec": "06:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S16E13 - Kako je narejeno: Composite Propane Cylinders/Salsa/Water-Pumping Windmills/Dragsters",
-      "naslov_orig": "S16E13 - How It's Made: Composite Propane Cylinders / Salsa / Water-Pumping Windmills/Dragsters",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "12+",
-      "opis": "Ste se kdaj spraševali, kako nastanejo stvari, kot so tekila, vodne postelje in natikači? Pod drobnogled postavljamo vsakodnevne predmete.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cd/8/8/cd88506f-ee03-4080-b0c8-586a5145d00e.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066176"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "06:30",
-      "cas_konec": "07:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S17E1 - Kako je narejeno",
-      "naslov_orig": "S17E1 - How It's Made: Decorative Sombreros / Salad Dressing",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2011",
-      "starostna_omejitev": "",
-      "opis": "Ste se kdaj spraševali, kako naredijo vsakdanje predmete, kot npr. solatne prelive, plastične pištole in regenerativna zdravila? Pod drobnogled postavljamo vsakdanje predmete.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3a/6/e/3a6e31cb-2e61-416f-a4c4-23dff0c99ad5.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066177"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "07:00",
-      "cas_konec": "07:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S17E2 - Kako je narejeno: Strgalniki za sir/pekoča omaka",
-      "naslov_orig": "S17E2 - How It's Made: Cheese Graters/Hot Sauce",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2011",
-      "starostna_omejitev": "12+",
-      "opis": "Ste se kdaj spraševali, kako so izdelani vsakdanji predmeti? V tej neverjetni epizodi pod drobnogled postavljamo več vsakdanjih predmetov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/a/6/1ca6c253-f175-4a2e-94d7-6d2d43946647.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066182"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "07:30",
-      "cas_konec": "08:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S17E3 - Kako je narejeno: Lovske piščalke/majoneza",
-      "naslov_orig": "S17E3 - How It's Made: Game Calls/Mayonnaise",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2011",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si, kako proizvajalci naredijo vsakdanje predmete, ki se znajdejo v naših domovih, in spoznajte, kakšne metode, materiali in edinstveni proizvodni postopki so potrebni za njihovo izdelavo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0f/b/4/0fb422eb-a5d9-4133-aa10-c555604add2f.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066178"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "08:00",
-      "cas_konec": "08:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E5 - Enoroki razbojnik",
-      "naslov_orig": "S1E5 - Ant Anstead Master Mechanic: The One-Armed Bandit",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Gradnja vozila Alfa je nekje na polovici, ko nenadna poškodba bicepsa ogrozi projekt. Antova soproga presenečena spozna, da je 158 enosed.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/8/7/b7876c0c-a466-45ee-bcb9-1eeb133725cb.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066163"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "08:30",
-      "cas_konec": "09:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E6 - Je moje podvozje videti preveliko?",
-      "naslov_orig": "S1E6 - Ant Anstead Master Mechanic: Does My Chassis Look Big In This?",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Antov 158 napreduje in poškodovana roka se celi, a brez pomoči ne more. Karoserija je še vedno v tranzitu in se morda ne bo ujemala s podvozjem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/a/1/54a1069c-762c-4cc4-b3aa-caf362b58862.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066164"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "09:00",
-      "cas_konec": "09:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E7 - Prava stvar",
-      "naslov_orig": "S1E7 - Ant Anstead Master Mechanic: The Real Deal",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Mineva sedmi teden projekta in Ant popelje ekipo na ogled originalnega vozila Alfa 158. Ant je nad avtom očaran in celo sede za volan, da bi se fotografiral.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/5/72e50bb8-224a-40cf-b629-c25a30c3ec62.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066183"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "09:30",
-      "cas_konec": "10:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E8 - Kje si, motor moj?",
-      "naslov_orig": "S1E8 - Ant Anstead Master Mechanic: O Motor Where At Thou?",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Ant še naprej pogreša motor za vozilo Alfa 158 in počasi izgublja potrpljenje. Na projektu je namreč garal zgodaj zjutraj, pozno zvečer in čez vikend.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/8/3/c3838dc2-9575-4d51-af9d-127d19c95a92.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066159"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - Ameriški drvarji: Nizke temperature, velike težave",
-      "naslov_orig": "S1E6 - American Loggers: Big Freeze, Big Trouble",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2009",
-      "starostna_omejitev": "",
-      "opis": "Trideset centimetrov snega in temperature pod lediščem za gozdarje še zdaleč ne pomenijo idealnih vremenskih pogojev, saj zaradi mrazu zamrznejo njihovi stroji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/b/c/57bcfd12-9a09-4210-a830-a17a1d453755.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066184"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E7 - Ameriški drvarji: Delovna vnema",
-      "naslov_orig": "S1E7 - American Loggers: The Big Push",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2009",
-      "starostna_omejitev": "",
-      "opis": "Zima je visoka sezona za Pelletierje. Ekipe se na moč trudijo, a trije vozniki doživijo nesreče, Allen pa meni, da si zasluži povišico. Jeff se ne strinja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/08/0/5/0805bce7-b6bd-48d1-bee9-1d671cec5060.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066185"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S20E5 - Lovci na zaklade",
-      "naslov_orig": "S20E5 - Salvage Hunters: Lifelong Collectors",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Drew Pritchard in Viki Knott potujeta po državi in obiščeta izjemne zbiratelje, ki hranijo zbirke nenavadnih, redkih in zgodovinskih zakladov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/94/6/0/946015fe-16b0-4c57-b5a0-fdf12f291f8a.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066165"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S20E6 - Lovci na zaklade",
-      "naslov_orig": "S20E6 - Salvage Hunters: Trusted Hunting Grounds",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Drew popelje Ala na preverjene lokacije. V skladišču v Kentu najdeta klasične železniške znake, v Sussexu pa mizo v afriškem kolonialnem stilu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/94/6/0/946015fe-16b0-4c57-b5a0-fdf12f291f8a.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066160"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E5 - Ekstremno inženirstvo",
-      "naslov_orig": "S6E5 - Extreme Engineering: South African Gold Mine",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "reportaža"
-      ],
-      "leto": "2007",
-      "starostna_omejitev": "",
-      "opis": "Danny obišče najgloblji kraj na Zemlji, rudnik zlata Mponeng v Južni Afriki, kjer vsak dan postavijo nov globinski rekord. Rudnik velja za najnevarnejše gradbišče na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/2/b/e92bc42b-3a95-4f5f-b9e6-262bdfc2e79c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066169"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E6 - Ekstremno inženirstvo",
-      "naslov_orig": "S6E6 - Extreme Engineering: Melbourne Stadium",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "reportaža"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Danny je v avstralskem Melbournu priča gradnji enega najbolj inovativnih stadionov na svetu. Navijačem bo nudil enkratno izkušnjo, hkrati pa bo postal nov simbol mesta.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/5/1/4251b428-c96c-4bcd-87f4-2517a61372b0.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066179"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E13 - Avtocesta Autobahn A2",
-      "naslov_orig": "S1E13 - A2: Abenteuer Autobahn",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "",
-      "opis": "Dobrodošli na eni najbolj prometnih, nevarnih in pomembnih avtocest v Evropi. Številnim predstavlja delovno mesto, še več pa jo uporablja za svoja potovanja po Evropi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/53/a/f/53af44f9-59cd-4a6f-9ea3-3a99cfd9f060.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066170"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E3 - Zgradi ali propadi",
-      "naslov_orig": "S2E3 - Building Alaska: Chicken or Bust",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "pustolovščina"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Vsak od treh gradbincev se sooča s svojimi težavami, od slabega vremena do vpliva ribiške sezone na razpoložljivost delovne sile. Čaka jih tudi epska 800-kilometrska pot po zaloge.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/1/5/c915a5a7-a411-4920-9c17-45c091e8c821.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066188"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E4 - Ryanova pesem",
-      "naslov_orig": "S2E4 - Building Alaska: Ryan's Song",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "potovanje"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Enega od gradbincev doleti tragedija, zaradi katere zastane delo, zdaj pa se bo treba odločiti, ali nadaljevati ali ne. Jim in njegova družina pa skušajo rešiti kočo v Chicknu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/d/d/f2dddbba-9ccc-4cd5-a01e-d151fe6eda60.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066173"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Dolgo garanje",
-      "naslov_orig": "S2E5 - Building Alaska: A Long Hard Slog",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "pustolovščina"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Po tragični izgubi svoje desne roke, Ryana Beachyja, je Chuck Gerwig spet v sedlu in pripravljen končati projekt, ki sta ga z Ryanom začela pred nekaj meseci.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/9/3/8093f5cf-8cb5-4028-867e-268fcfb23451.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066161"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E6 - Razvnete strasti",
-      "naslov_orig": "S2E6 - Building Alaska: Tempers Flare",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "pustolovščina"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Zima je tik pred vrati. Ker so vsi trije gradbinci doživeli osip pomožne delovne sile pri zaključevanju zahtevnih projektov, pride v enem od taborov do hude krvi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/9/b/c39b9b67-8a8b-46e7-912a-33c91196bfe6.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066186"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - V srcu nevihte: Lovci",
-      "naslov_orig": "S1E6 - In the Eye of the Storm: Chasers: Tornado Of the Year",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/4/2/f842542b-676c-46c1-967d-9c8c4a27c6f8.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066166"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "22:00",
-      "cas_konec": "22:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E11 - Noro ribištvo: Ekstremni ulovi: Več mehkužcev, več težav",
-      "naslov_orig": "S1E11 - Off the Hook: Extreme Catches: Mo Mollusks, Mo Problems",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Showtime Eric se bori s tokom in se izogiba morskim psom med lovom na morske polže v Kaliforniji. Pa bo našel morsko uho? Poleg tega pa izvrta tudi nekaj grdih lukenj za jeguljo Cebidichthys violaceus.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/2/6/b626eff1-6ba0-4166-b618-b9b723a60623.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066187"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "22:30",
-      "cas_konec": "23:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E12 - Noro ribištvo: Ekstremni ulovi: Zlobni tuni",
-      "naslov_orig": "S1E12 - Off the Hook: Extreme Catches: Wickeder Tuna",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "\" Showtime Eric je na teritoriju velikega belega morskega psa. blizu obale Cape Coda, kjer s kajakom lovi modroplavutega tune. Le kaj bi lahko šlo narobe? Poleg tega se bo s ščegetalno palico potapljal za jastogi.\"",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/2/c/512cd192-cbe5-410f-9f52-51a693d5c4bd.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066174"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Skrivnostni pojavi",
-      "naslov_orig": "S2E5 - Expedition Files: Lost Treasures",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "potovanje"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "15+",
-      "opis": "Josh Gates si pobliže ogleda hišo groze iz Amityvilla, skrivnostno usodo podmornice iz ameriške državljanske vojne in spontani človeški samovžig.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/48/0/1/48013e89-cb20-4ba1-bae2-a1b9e9ad2bc4.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1145066175"
     },
     {
       "datum": "2026-08-31",
@@ -7528,6 +6520,1104 @@
       "opis": "Christina in Steve se bosta 21 dni spopadala z džunglo v mehiški zvezni državi Quintana Roo. Z vsako neprespano nočjo, polno žuželk, bodo živci bolj napeti. Jima bo uspelo?",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7c/7/2/7c726cb6-5b10-40a7-8e29-c6de37b2994b.jpg",
       "show_id": "CUP_IECOM_DISCOVERY_1147418781"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S7E3 - Lakota in jeza",
+      "naslov_orig": "S7E3 - Naked And Afraid: Stars Against the Storm",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "potovanje"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Kamnosekinja Shannon se z gasilcem Timom poda v peklensko vročino trinidadskega tropskega deževnega gozda, kjer ju čakajo hudi nalivi in brbotajoče vrelo blato.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/9/c/a29c8cac-c022-49f2-8a96-fe33c7c564a4.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066054"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "01:00",
+      "cas_konec": "01:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E9 - Konjušnica v Hot Springsu",
+      "naslov_orig": "S1E9 - Salvage Dawgs: Homestead Stables",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Mike Whiteside, Robert Kulp and the Black Dog crew tackle the Homestead Stables and carriage house in Hot Springs, Virginia. A hand-operated carriage elevator is discovered.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/a/1/4fa1eaee-0eed-4140-bfab-acb8047de250.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066020"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "01:30",
+      "cas_konec": "02:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E10 - Cerkev v Salisburyju",
+      "naslov_orig": "S1E10 - Salvage Dawgs: Foursquare Church",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Mike, Robert in ekipa Black Dog Salvage imajo tokrat opravka z odstranjevanjem velikih in občutljivih vitrajev iz cerkve s Salisburyju v Severni Karolini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/b/8/40b882b2-97bc-495a-8b4c-f4c36ab3b03a.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066055"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S10E11 - Skrivnosti Mojzesa",
+      "naslov_orig": "S10E11 - Expedition Unknown: The Real Goonies Treasure",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "10+",
+      "opis": "Josh išče odgovore na vprašanja o obstoju Mojzesa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c1/6/b/c16b1216-4239-4e0a-836b-7c07c3562631.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066038"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "03:00",
+      "cas_konec": "04:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Nacistična podmornica iz pekla",
+      "naslov_orig": "S1E2 - Mysteries of the Deep: Mummy on the Ghost Ship",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "nadnaravno"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Jeremy na dnu Velikih jezer raziskuje dobro ohranjene 140-letne potopljene razbitine. Kakšne temačne skrivnosti pa se skrivajo v nacistični podmornici?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/a/0/19a05ec3-3e57-4bcc-ac6f-9e716b8f971e.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066026"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "04:00",
+      "cas_konec": "05:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E2 - Lovci na staro železo",
+      "naslov_orig": "S5E2 - Scrappers",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Stopite v zakulisje poljske predelave odpadnega železa, spoznajte zanimive ljudi, povezane z njo, in si oglejte, od kod pridejo te surovine in kje končajo, ko zapustijo odpad.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cf/2/7/cf271963-2a4b-4f1e-9332-778ab3f251e6.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066049"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E3 - Lovci na staro železo",
+      "naslov_orig": "S5E3 - Scrappers",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Stopite v zakulisje poljske predelave odpadnega železa, spoznajte zanimive ljudi, povezane z njo, in si oglejte, od kod pridejo te surovine in kje končajo, ko zapustijo odpad.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/e/d/77ed3749-ff38-49fe-9b9e-b32a47f44403.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066042"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "06:00",
+      "cas_konec": "06:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S16E13 - Kako je narejeno: Composite Propane Cylinders/Salsa/Water-Pumping Windmills/Dragsters",
+      "naslov_orig": "S16E13 - How It's Made: Composite Propane Cylinders / Salsa / Water-Pumping Windmills/Dragsters",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "12+",
+      "opis": "Ste se kdaj spraševali, kako nastanejo stvari, kot so tekila, vodne postelje in natikači? Pod drobnogled postavljamo vsakodnevne predmete.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cd/8/8/cd88506f-ee03-4080-b0c8-586a5145d00e.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066176"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "06:30",
+      "cas_konec": "07:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S17E1 - Kako je narejeno",
+      "naslov_orig": "S17E1 - How It's Made: Decorative Sombreros / Salad Dressing",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "",
+      "opis": "Ste se kdaj spraševali, kako naredijo vsakdanje predmete, kot npr. solatne prelive, plastične pištole in regenerativna zdravila? Pod drobnogled postavljamo vsakdanje predmete.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3a/6/e/3a6e31cb-2e61-416f-a4c4-23dff0c99ad5.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066177"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "07:00",
+      "cas_konec": "07:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S17E2 - Kako je narejeno: Strgalniki za sir/pekoča omaka",
+      "naslov_orig": "S17E2 - How It's Made: Cheese Graters/Hot Sauce",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "12+",
+      "opis": "Ste se kdaj spraševali, kako so izdelani vsakdanji predmeti? V tej neverjetni epizodi pod drobnogled postavljamo več vsakdanjih predmetov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/a/6/1ca6c253-f175-4a2e-94d7-6d2d43946647.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066182"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "07:30",
+      "cas_konec": "08:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S17E3 - Kako je narejeno: Lovske piščalke/majoneza",
+      "naslov_orig": "S17E3 - How It's Made: Game Calls/Mayonnaise",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si, kako proizvajalci naredijo vsakdanje predmete, ki se znajdejo v naših domovih, in spoznajte, kakšne metode, materiali in edinstveni proizvodni postopki so potrebni za njihovo izdelavo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0f/b/4/0fb422eb-a5d9-4133-aa10-c555604add2f.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066178"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "08:00",
+      "cas_konec": "08:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E5 - Enoroki razbojnik",
+      "naslov_orig": "S1E5 - Ant Anstead Master Mechanic: The One-Armed Bandit",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Gradnja vozila Alfa je nekje na polovici, ko nenadna poškodba bicepsa ogrozi projekt. Antova soproga presenečena spozna, da je 158 enosed.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/8/7/b7876c0c-a466-45ee-bcb9-1eeb133725cb.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066163"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "08:30",
+      "cas_konec": "09:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E6 - Je moje podvozje videti preveliko?",
+      "naslov_orig": "S1E6 - Ant Anstead Master Mechanic: Does My Chassis Look Big In This?",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Antov 158 napreduje in poškodovana roka se celi, a brez pomoči ne more. Karoserija je še vedno v tranzitu in se morda ne bo ujemala s podvozjem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/a/1/54a1069c-762c-4cc4-b3aa-caf362b58862.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066164"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "09:00",
+      "cas_konec": "09:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E7 - Prava stvar",
+      "naslov_orig": "S1E7 - Ant Anstead Master Mechanic: The Real Deal",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Mineva sedmi teden projekta in Ant popelje ekipo na ogled originalnega vozila Alfa 158. Ant je nad avtom očaran in celo sede za volan, da bi se fotografiral.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/e/5/72e50bb8-224a-40cf-b629-c25a30c3ec62.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066183"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "09:30",
+      "cas_konec": "10:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E8 - Kje si, motor moj?",
+      "naslov_orig": "S1E8 - Ant Anstead Master Mechanic: O Motor Where At Thou?",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ant še naprej pogreša motor za vozilo Alfa 158 in počasi izgublja potrpljenje. Na projektu je namreč garal zgodaj zjutraj, pozno zvečer in čez vikend.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/8/3/c3838dc2-9575-4d51-af9d-127d19c95a92.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066159"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E6 - Ameriški drvarji: Nizke temperature, velike težave",
+      "naslov_orig": "S1E6 - American Loggers: Big Freeze, Big Trouble",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2009",
+      "starostna_omejitev": "",
+      "opis": "Trideset centimetrov snega in temperature pod lediščem za gozdarje še zdaleč ne pomenijo idealnih vremenskih pogojev, saj zaradi mrazu zamrznejo njihovi stroji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/b/c/57bcfd12-9a09-4210-a830-a17a1d453755.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066184"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E7 - Ameriški drvarji: Delovna vnema",
+      "naslov_orig": "S1E7 - American Loggers: The Big Push",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2009",
+      "starostna_omejitev": "",
+      "opis": "Zima je visoka sezona za Pelletierje. Ekipe se na moč trudijo, a trije vozniki doživijo nesreče, Allen pa meni, da si zasluži povišico. Jeff se ne strinja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/08/0/5/0805bce7-b6bd-48d1-bee9-1d671cec5060.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066185"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S20E5 - Lovci na zaklade",
+      "naslov_orig": "S20E5 - Salvage Hunters: Lifelong Collectors",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Drew Pritchard in Viki Knott potujeta po državi in obiščeta izjemne zbiratelje, ki hranijo zbirke nenavadnih, redkih in zgodovinskih zakladov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/94/6/0/946015fe-16b0-4c57-b5a0-fdf12f291f8a.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066165"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S20E6 - Lovci na zaklade",
+      "naslov_orig": "S20E6 - Salvage Hunters: Trusted Hunting Grounds",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Drew popelje Ala na preverjene lokacije. V skladišču v Kentu najdeta klasične železniške znake, v Sussexu pa mizo v afriškem kolonialnem stilu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/94/6/0/946015fe-16b0-4c57-b5a0-fdf12f291f8a.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066160"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E5 - Ekstremno inženirstvo",
+      "naslov_orig": "S6E5 - Extreme Engineering: South African Gold Mine",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "reportaža"
+      ],
+      "leto": "2007",
+      "starostna_omejitev": "",
+      "opis": "Danny obišče najgloblji kraj na Zemlji, rudnik zlata Mponeng v Južni Afriki, kjer vsak dan postavijo nov globinski rekord. Rudnik velja za najnevarnejše gradbišče na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/2/b/e92bc42b-3a95-4f5f-b9e6-262bdfc2e79c.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066169"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E6 - Ekstremno inženirstvo",
+      "naslov_orig": "S6E6 - Extreme Engineering: Melbourne Stadium",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "reportaža"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "",
+      "opis": "Danny je v avstralskem Melbournu priča gradnji enega najbolj inovativnih stadionov na svetu. Navijačem bo nudil enkratno izkušnjo, hkrati pa bo postal nov simbol mesta.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/5/1/4251b428-c96c-4bcd-87f4-2517a61372b0.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066179"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E13 - Avtocesta Autobahn A2",
+      "naslov_orig": "S1E13 - A2: Abenteuer Autobahn",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "",
+      "opis": "Dobrodošli na eni najbolj prometnih, nevarnih in pomembnih avtocest v Evropi. Številnim predstavlja delovno mesto, še več pa jo uporablja za svoja potovanja po Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/53/a/f/53af44f9-59cd-4a6f-9ea3-3a99cfd9f060.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066170"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E3 - Zgradi ali propadi",
+      "naslov_orig": "S2E3 - Building Alaska: Chicken or Bust",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Vsak od treh gradbincev se sooča s svojimi težavami, od slabega vremena do vpliva ribiške sezone na razpoložljivost delovne sile. Čaka jih tudi epska 800-kilometrska pot po zaloge.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/1/5/c915a5a7-a411-4920-9c17-45c091e8c821.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066188"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E4 - Ryanova pesem",
+      "naslov_orig": "S2E4 - Building Alaska: Ryan's Song",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "potovanje"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Enega od gradbincev doleti tragedija, zaradi katere zastane delo, zdaj pa se bo treba odločiti, ali nadaljevati ali ne. Jim in njegova družina pa skušajo rešiti kočo v Chicknu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/d/d/f2dddbba-9ccc-4cd5-a01e-d151fe6eda60.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066173"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E5 - Dolgo garanje",
+      "naslov_orig": "S2E5 - Building Alaska: A Long Hard Slog",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Po tragični izgubi svoje desne roke, Ryana Beachyja, je Chuck Gerwig spet v sedlu in pripravljen končati projekt, ki sta ga z Ryanom začela pred nekaj meseci.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/9/3/8093f5cf-8cb5-4028-867e-268fcfb23451.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066161"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E6 - Razvnete strasti",
+      "naslov_orig": "S2E6 - Building Alaska: Tempers Flare",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Zima je tik pred vrati. Ker so vsi trije gradbinci doživeli osip pomožne delovne sile pri zaključevanju zahtevnih projektov, pride v enem od taborov do hude krvi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/9/b/c39b9b67-8a8b-46e7-912a-33c91196bfe6.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066186"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E6 - V srcu nevihte: Lovci",
+      "naslov_orig": "S1E6 - In the Eye of the Storm: Chasers: Tornado Of the Year",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/4/2/f842542b-676c-46c1-967d-9c8c4a27c6f8.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066166"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "22:00",
+      "cas_konec": "22:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E11 - Noro ribištvo: Ekstremni ulovi: Več mehkužcev, več težav",
+      "naslov_orig": "S1E11 - Off the Hook: Extreme Catches: Mo Mollusks, Mo Problems",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Showtime Eric se bori s tokom in se izogiba morskim psom med lovom na morske polže v Kaliforniji. Pa bo našel morsko uho? Poleg tega pa izvrta tudi nekaj grdih lukenj za jeguljo Cebidichthys violaceus.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/2/6/b626eff1-6ba0-4166-b618-b9b723a60623.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066187"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "22:30",
+      "cas_konec": "23:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E12 - Noro ribištvo: Ekstremni ulovi: Zlobni tuni",
+      "naslov_orig": "S1E12 - Off the Hook: Extreme Catches: Wickeder Tuna",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "\" Showtime Eric je na teritoriju velikega belega morskega psa. blizu obale Cape Coda, kjer s kajakom lovi modroplavutega tune. Le kaj bi lahko šlo narobe? Poleg tega se bo s ščegetalno palico potapljal za jastogi.\"",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/2/c/512cd192-cbe5-410f-9f52-51a693d5c4bd.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066174"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E5 - Skrivnostni pojavi",
+      "naslov_orig": "S2E5 - Expedition Files: Lost Treasures",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "potovanje"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "15+",
+      "opis": "Josh Gates si pobliže ogleda hišo groze iz Amityvilla, skrivnostno usodo podmornice iz ameriške državljanske vojne in spontani človeški samovžig.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/48/0/1/48013e89-cb20-4ba1-bae2-a1b9e9ad2bc4.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1145066175"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S7E4 - Brez sramu: Gole noči",
+      "naslov_orig": "S7E4 - Naked And Afraid: Bite Me",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "potovanje"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Strokovnjaki preživetja razpravljajo o novem nizu groženj, s katerimi so se soočali med izzivi po tem, ko se je znočilo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/8/7/72870a85-8c67-4cfb-86d7-35947f76861e.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418770"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "01:00",
+      "cas_konec": "01:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E11 - V kolonialnem slogu",
+      "naslov_orig": "S1E11 - Salvage Dawgs: Post-War Colonial Revival Home",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Mike Whiteside, Robert Kulp and the Black Dog crew salvage a house from the 1940s in Washington, DC. Mike also builds a bar and cabinet from an old piano.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/3/5/ca35875c-b85b-4416-8b69-dbfdebadcced.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418774"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "01:30",
+      "cas_konec": "02:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E12 - Amerika na prelomu stoletja",
+      "naslov_orig": "S1E12 - Salvage Dawgs: American Foursquare House",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Mike Whiteside, Robert Kulp and the Black Dog crew tackle an American Foursquare house from 1910 in Fairmont, West Virginia, which features mahogany wainscoting.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/8/f/bb8fb10c-8522-434c-af4e-c1b04fadd31c.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418775"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S10E12 - Na lovu za skrivnostmi Mojzesa",
+      "naslov_orig": "S10E12 - Expedition Unknown: The Nazi's Lost Super Sub",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "10+",
+      "opis": "Josh se poda v Galilejsko jezero in raziskuje morebitno Mojzesovo grobnico.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/b/4/25b4dd1e-fa69-4f7c-b85d-e285489a12d2.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418766"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "03:00",
+      "cas_konec": "04:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E3 - Krakenovo prekletstvo",
+      "naslov_orig": "S1E3 - Mysteries of the Deep: Curse of the Kraken",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "nadnaravno"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Jeremy Wade predstavi nova globokomorska odkritja, ki bi lahko dokazala obstoj zloglasnega orjaškega lignja. Je ta podvodna pošast v resnici legendarni kraken?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9d/b/f/9dbfc2c6-4a6c-4ad3-b208-d98aec249614.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418769"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "04:00",
+      "cas_konec": "05:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E6 - Lovci na staro železo",
+      "naslov_orig": "S5E6 - Scrappers",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ti poljski podjetniki so sposobni iz kupov odpadnega železa iztisniti lep dobiček, pa naj gre za podiranje zidov, razstavljanje bomb ali prevoz letal na razrez.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cf/0/9/cf09c73d-d88f-4d3a-a43d-9bb6d07a5f2a.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418771"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E7 - Lovci na staro železo",
+      "naslov_orig": "S5E7 - Scrappers",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ti poljski podjetniki so sposobni iz kupov odpadnega železa iztisniti lep dobiček, pa naj gre za podiranje zidov, razstavljanje bomb ali prevoz letal na razrez.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/6/0/72605667-cae4-436f-8d1a-f962486eeb96.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418757"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "06:00",
+      "cas_konec": "06:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S17E8 - Kako je narejeno: Krmila/cevi za gorivo",
+      "naslov_orig": "S17E8 - How It's Made: Custom Steering Wheels/Aerospace Fuel Lines/Apple Pies/Household Radiators",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "12+",
+      "opis": "Oglejte si, kako proizvajalci naredijo vsakdanje predmete, ki se znajdejo v naših domovih, in spoznajte, kakšne metode, materiali in edinstveni proizvodni postopki so potrebni za njihovo izdelavo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/65/a/b/65abea8f-d00b-40fa-866f-ec85c7700576.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418791"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "06:30",
+      "cas_konec": "07:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S17E9 - Kako je narejeno: Biči/pečice za pico",
+      "naslov_orig": "S17E9 - How It's Made: Whips/Automated Pizza Makers/Incense Cones/Scale Turbine Engines",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si, kako proizvajalci naredijo vsakdanje predmete, ki se znajdejo v naših domovih, in spoznajte, kakšne metode, materiali in edinstveni proizvodni postopki so potrebni za njihovo izdelavo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8d/d/e/8ddef8ed-aee7-43df-b299-c526d530613d.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418797"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "07:00",
+      "cas_konec": "07:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S17E10 - Kako je narejeno: Dragulji iz vrese/polaroidni film",
+      "naslov_orig": "S17E10 - How It's Made: Heather Gems/Instant Film/Beet Sugar/Electric Roadsters",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "12+",
+      "opis": "Oglejte si, kako proizvajalci naredijo vsakdanje predmete, ki se znajdejo v naših domovih, in spoznajte, kakšne metode, materiali in edinstveni proizvodni postopki so potrebni za njihovo izdelavo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/f/e/36fec08f-de1c-4638-80b9-b94b19cd9ee9.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418807"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "07:30",
+      "cas_konec": "08:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S17E11 - Kako je narejeno: Podvodni roboti/lazanja",
+      "naslov_orig": "S17E11 - How It's Made: Underwater Robots/Lasagne/Band Saws/Ski Trekking Poles",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "12+",
+      "opis": "Oglejte si, kako proizvajalci naredijo vsakdanje predmete, ki se znajdejo v naših domovih, in spoznajte, kakšne metode, materiali in edinstveni proizvodni postopki so potrebni za njihovo izdelavo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/33/6/9/33690211-3fad-439b-a82b-33674da339ea.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418808"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "08:00",
+      "cas_konec": "08:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E9 - Vzpon in zmaga",
+      "naslov_orig": "S1E9 - Ant Anstead Master Mechanic: Rise And Wine",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ant poskuša z dobrikanjem doseči, da bi bil dirkalnik Alfa 158 dokončan do velikega tekmovanja v Austinu. A vozilo še ni nared in ekipo čaka kar precej dela.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/b/4/18b4c614-1739-4dda-bfa0-c3c65014af8b.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418784"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "08:30",
+      "cas_konec": "09:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E10 - Le še malo",
+      "naslov_orig": "S1E10 - Ant Anstead Master Mechanic: License To Grille",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Antov ambiciozni projekt Alfa je v zaključni fazi. Vsak čas pričakuje tudi rojstvo otroka. Končno dobi novico, da bo avto morda le lahko pokazal na tekmovanju v Austinu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/c/a/90ca2f57-3adf-4cf3-8b8e-cf63112916b2.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418799"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "09:00",
+      "cas_konec": "09:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E11 - In dela!",
+      "naslov_orig": "S1E11 - Ant Anstead Master Mechanic: It's Alive!",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Antu se izteka rok pri njegovem projektu Alfa, a vozilo ni v voznem stanju in potrebno je dodelati dizajn. Zato Ant zaprosi za nasvet legendarnega oblikovalca Chipa Foosa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/f/5/54f543f0-6317-4e67-87a6-dd042b8d20ec.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418792"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "09:30",
+      "cas_konec": "10:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E12 - Zmenek z Alfo 158",
+      "naslov_orig": "S1E12 - Ant Anstead Master Mechanic: Date With A 158",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ant mora v celoti razstaviti Alfo 158, prebarvati vse posamične dele ter znova sestaviti vozilo. Bo na dirkalni stezi izpolnil velika pričakovanja?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/d/e/56def857-7179-42ca-88c0-07d5182f8166.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418785"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E8 - Ameriški drvarji: Težek udarec",
+      "naslov_orig": "S1E8 - American Loggers: Hammer Down",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2009",
+      "starostna_omejitev": "",
+      "opis": "\" Spremljajte ponosne in delovne brate Pelletier, ki nadaljujejo z družinsko tradicijo spravljanja lesa po širnem severu.\"",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/b/c/57bcfd12-9a09-4210-a830-a17a1d453755.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418783"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E9 - Ameriški drvarji: Nočna izmena",
+      "naslov_orig": "S1E9 - American Loggers: Graveyard Shift",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2009",
+      "starostna_omejitev": "",
+      "opis": "\" Spremljajte ponosne in delovne brate Pelletier, ki nadaljujejo z družinsko tradicijo spravljanja lesa po širnem severu.\"",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/7/e/067e3f9a-8175-492e-a33c-2b1357dc4d82.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418793"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S20E7 - Lovci na zaklade",
+      "naslov_orig": "S20E7 - Salvage Hunters: Eclectic Finds",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "V Suffolku Viki in Drew odkrijeta izjemen ročno izdelan model. Kasneje se Drew v Kentu polasti osupljive vrtne skulpture Gospoda Puncha.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/6/d/e16d956e-eb2f-4a7f-bcf2-17392dbe62d0.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418802"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S20E8 - Lovci na zaklade",
+      "naslov_orig": "S20E8 - Salvage Hunters: Trade Tip Offs",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Drew Pritchard in Alister Dryburgh obiščeta tri obetavne nove trgovske stike s starinskimi predmeti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/6/d/e16d956e-eb2f-4a7f-bcf2-17392dbe62d0.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418803"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E7 - Ekstremno inženirstvo",
+      "naslov_orig": "S6E7 - Extreme Engineering: Hurricane-Proof Homes",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "reportaža"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "",
+      "opis": "Danny Forster obišče največji projekt javnih del v Kaliforniji. Ekipe hitijo, da bi most Bay Bridge med Oaklandom in San Franciscom utrdile tako, da bi lahko prestal potrese.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/04/e/2/04e299af-96a7-4094-97a2-734bc467e285.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418809"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E8 - Ekstremno inženirstvo",
+      "naslov_orig": "S6E8 - Extreme Engineering: Gotthard Base Tunnel",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "reportaža"
+      ],
+      "leto": "2007",
+      "starostna_omejitev": "",
+      "opis": "Danny je odpotoval v Švico, kjer bodo za izgradnjo predora Gotthard, porabili 18 milijard dolarjev. Pot skozi Alpe bo tako do trikrat hitrejša.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/0/2/a802c565-b6b6-4b56-ba81-b966773ef0b0.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418786"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E14 - Avtocesta Autobahn A2",
+      "naslov_orig": "S1E14 - A2: Abenteuer Autobahn",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "",
+      "opis": "Dobrodošli na eni najbolj prometnih, nevarnih in pomembnih avtocest v Evropi. Številnim predstavlja delovno mesto, še več pa jo uporablja za svoja potovanja po Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/5/9/e1594f27-5182-49f2-a76a-d1cbfd8cde2a.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418804"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E5 - Dolgo garanje",
+      "naslov_orig": "S2E5 - Building Alaska: A Long Hard Slog",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Po tragični izgubi svoje desne roke, Ryana Beachyja, je Chuck Gerwig spet v sedlu in pripravljen končati projekt, ki sta ga z Ryanom začela pred nekaj meseci.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/9/3/8093f5cf-8cb5-4028-867e-268fcfb23451.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418798"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E6 - Razvnete strasti",
+      "naslov_orig": "S2E6 - Building Alaska: Tempers Flare",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Zima je tik pred vrati. Ker so vsi trije gradbinci doživeli osip pomožne delovne sile pri zaključevanju zahtevnih projektov, pride v enem od taborov do hude krvi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/9/b/c39b9b67-8a8b-46e7-912a-33c91196bfe6.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418800"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "19:00",
+      "cas_konec": "19:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E1 - Bungalov v škatlici",
+      "naslov_orig": "S1E1 - Tiny House Hunters: Jersey City Newlyweds Search For Tiny House On Large Rural Lot",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Mladoporočenca Adam in Karen sta sita mestnega življenja, zato bosta svoje stanovanje v New Jerseyju zamenjala za hiško na velikem in odročnem posestvu na podeželju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dd/e/1/dde18748-d186-482e-8432-155d90444efb.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418805"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "19:30",
+      "cas_konec": "20:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E2 - Domek s potencialom",
+      "naslov_orig": "S1E2 - Tiny House Hunters: Family Of Six Downsizes From 2500 Sq. Ft. To Tiny Home",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Zvočna zdraviteljica Melanie obožuje majhne prostore: trenutno živi v lopi na prijateljevem posestvu. Zdaj si želi kupiti lasten domek, a ne kar vsakega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/4/2/4b427085-3a7f-483c-b344-eea0a1dd2d88.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418812"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "20:00",
+      "cas_konec": "20:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E3 - Živeti brez dolgov",
+      "naslov_orig": "S1E3 - Tiny House Hunters: Oregon Pear Farmers Build Tiny Home With a View in Their Orchard",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Dan, Cindy in njuni štirje otroci zapuščajo natrpan Los Angeles in se selijo na podeželje na severu zvezne države New York. Živeli bodo v domu, manjšem od 55 kvadratnih metrov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/b/f/25bfee56-6ae9-4822-bccf-b52db9809128.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418806"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "20:30",
+      "cas_konec": "21:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E4 - Življenje v sadovnjaku",
+      "naslov_orig": "S1E4 - Tiny House Hunters: Tiny With Lofty Potential",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Ben in Erin, ki v Oregonu pridelujeta hruške, si v svojem sadovnjaku postavljata majhen dom, ki ga še dodatno omejuje dejstvo, da zanj ne sme pasti nobeno drevo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/5/6/c2566ab0-1445-471e-aead-b2ff3565acf0.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418813"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E2 - Kategorija 5: boj za preživetje",
+      "naslov_orig": "S3E2 - In The Eye Of The Storm: Nightmare In May",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "V najhujšem orkanu na Floridi v skoraj 100 letih hiše izginejo pod vodo, ljudje so ujeti na strehah, reševalci pa se borijo z naraščajočimi vodami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/9/b/909b7699-61e8-450b-854c-dacf2b3eb043.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418787"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E1 - Uničujoči teksaški derecho",
+      "naslov_orig": "S2E1 - In The Eye Of The Storm: Nebraska Super Outbreak",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Spomladi 2024 obsežen vremenski sistem v Teksasu povzroči uničujoče tornade in nevihto derecho. Rezultat so prevrnjeni avtomobili in porušene stavbe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/7/f/887f5d11-da42-496e-a07c-28c6cc08e18f.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418801"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E6 - Izgubljeno in najdeno",
+      "naslov_orig": "S2E6 - Expedition Files: History Got It Wrong",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "potovanje"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Razkrita je morebitna identiteta D. B. Cooperja. Kako je umrl Michael Rockefeller? Na dan pridejo nove podrobnosti o usodni nesreči Jamesa Deana.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/9/9/5299a5b6-2c0f-448a-99b2-6528a4f76794.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1147418810"
     }
   ]
 }

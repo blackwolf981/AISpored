@@ -1,588 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-08-29 13:52",
-  "od": "2026-08-22",
-  "do": "2026-09-05",
+  "posodobljeno": "2026-08-30 20:42",
+  "od": "2026-08-23",
+  "do": "2026-09-06",
   "oddaje": [
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "00:00",
-      "cas_konec": "01:34",
-      "trajanje": "94 min",
-      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
-      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143239516",
-      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_0222768d"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "01:34",
-      "cas_konec": "02:59",
-      "trajanje": "85 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 3. etapa: Celles vs Geraardsbergen",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 3: Celles - Geraardsbergen (184.6km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143239506",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_3_etapa_celles_vs_geraardsbergen_631f8b42"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "02:59",
-      "cas_konec": "05:17",
-      "trajanje": "138 min",
-      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
-      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143239517",
-      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_5e9c8944"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "05:17",
-      "cas_konec": "05:47",
-      "trajanje": "30 min",
-      "naslov_sl": "Gorsko kolesartvo _Svetovni pokal, Haute Savoie (Ž): Olimpijski kros, kratke proge",
-      "naslov_orig": "Mountainbike: World Cup, Haute Savoie (W): Cross-country Short Track",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabimo vas k ogledu etape Svetovnega pokala UCI za ženske, ki se odvija v Haute Savoie v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5d/b/2/5db29aeb-2374-475c-a292-916b2097a459.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143239510",
-      "friendly_id": "gorsko_kolesartvo__svetovni_pokal_haute_savoie_z_olimpijski_kros_kratke_proge_231c29a5"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "05:47",
-      "cas_konec": "06:28",
-      "trajanje": "41 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal, Haute Savoie (M): Olimpijski kros, kratke proge",
-      "naslov_orig": "Mountainbike UCI World Cup: Haute Savoie (Men): Cross-country Short Track",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabimo vas k ogledu etape Svetovnega pokala UCI za moške, ki se odvija v Haute Savoie v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e7/7/e/e77e28e5-046c-49c0-a3a4-d149bc87b3f1.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143239513",
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_haute_savoie_m_olimpijski_kros_kratke_proge_fb455f30"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "06:28",
-      "cas_konec": "06:58",
-      "trajanje": "30 min",
-      "naslov_sl": "Gorsko kolesarstvo: World series: Pregled: Haute Savoie",
-      "naslov_orig": "Mountain Bike World Series Review",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/5/7/3657b6ae-0042-467a-aa8c-5cdbc7d1d3eb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143239503",
-      "friendly_id": "gorsko_kolesarstvo_world_series_pregled_haute_savoie_363b86e5"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "06:58",
-      "cas_konec": "08:34",
-      "trajanje": "96 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 3. etapa: Celles vs Geraardsbergen",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 3: Celles - Geraardsbergen (184.6km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143239507",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_3_etapa_celles_vs_geraardsbergen_e13ecdbc"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "08:34",
-      "cas_konec": "10:28",
-      "trajanje": "114 min",
-      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
-      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664157",
-      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_031a820e"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "10:28",
-      "cas_konec": "11:14",
-      "trajanje": "46 min",
-      "naslov_sl": "Triatlon (Ž): Svetovna turneja T100, Vancouver",
-      "naslov_orig": "Triathlon: T100 World Tour, Vancouver: Women",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/5/7/81577153-137a-4cfc-8fe6-bef59ca0d267.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664158",
-      "friendly_id": "triatlon_z_svetovna_turneja_t100_vancouver_2f6fce21"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "11:14",
-      "cas_konec": "11:46",
-      "trajanje": "32 min",
-      "naslov_sl": "Gorsko kolesarstvo: World series: Pregled: Haute Savoie",
-      "naslov_orig": "Mountain Bike World Series Review",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/36/5/7/3657b6ae-0042-467a-aa8c-5cdbc7d1d3eb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664159",
-      "friendly_id": "gorsko_kolesarstvo_world_series_pregled_haute_savoie_e5d02617"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "11:46",
-      "cas_konec": "12:14",
-      "trajanje": "28 min",
-      "naslov_sl": "Gorsko kolesartvo _Svetovni pokal, Haute Savoie (Ž): Olimpijski kros, kratke proge",
-      "naslov_orig": "Mountainbike: World Cup, Haute Savoie (W): Cross-country Short Track",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabimo vas k ogledu etape Svetovnega pokala UCI za ženske, ki se odvija v Haute Savoie v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5d/b/2/5db29aeb-2374-475c-a292-916b2097a459.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664160",
-      "friendly_id": "gorsko_kolesartvo__svetovni_pokal_haute_savoie_z_olimpijski_kros_kratke_proge_eae108e6"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "12:14",
-      "cas_konec": "12:45",
-      "trajanje": "31 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal, Haute Savoie (M): Olimpijski kros, kratke proge",
-      "naslov_orig": "Mountainbike UCI World Cup: Haute Savoie (Men): Cross-country Short Track",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabimo vas k ogledu etape Svetovnega pokala UCI za moške, ki se odvija v Haute Savoie v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e7/7/e/e77e28e5-046c-49c0-a3a4-d149bc87b3f1.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664161",
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_haute_savoie_m_olimpijski_kros_kratke_proge_73e4d343"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "12:45",
-      "cas_konec": "14:00",
-      "trajanje": "75 min",
-      "naslov_sl": "Gorsko kolesartvo _Svetovni pokal, Haute Savoie (Ž): Spust",
-      "naslov_orig": "Mountainbike: World Cup, Haute Savoie (W): Downhill",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vabimo vas k ogledu etape Svetovnega pokala UCI za ženske, ki se odvija v Haute Savoie v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/20/8/a/208a9940-3c55-474b-af61-82c98eb915ba.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664162",
-      "zivo": true,
-      "friendly_id": "gorsko_kolesartvo__svetovni_pokal_haute_savoie_z_spust_d0363f9e"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "14:00",
-      "cas_konec": "16:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal, Haute Savoie (M): Spust",
-      "naslov_orig": "Mountainbike UCI World Cup: Haute Savoie (Men): Downhill",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabimo vas k ogledu etape Svetovnega pokala UCI za moške, ki se odvija v Haute Savoie v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e6/0/4/e6049861-5915-4eeb-9aba-1a28a03d6548.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664163",
-      "zivo": true,
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_haute_savoie_m_spust_17c41bef"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "16:00",
-      "cas_konec": "20:00",
-      "trajanje": "240 min",
-      "naslov_sl": "Kolesarstvo: Dirka po Španiji: 1. etapa: Monaco (ITT, 9.4km)",
-      "naslov_orig": "Vuelta a Espana: Stage 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/e/7/afe77372-7272-4c31-9e69-8164ed5209b6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664165",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_dirka_po_spaniji_1_etapa_monaco_itt_94km_64b93d72"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Turneja Beneluksa, 4. etapa: Riemst vs Bilzen-Hoeselt",
-      "naslov_orig": "Cycling: Benelux Tour: Stage 4: Riemst - Bilzen-Hoeselt (187.3km), Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "BinckBank Tour je enotedenska WorldTour dirka, ki vključuje etape na Nizozemskem in v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/0/7/4107350e-dfc0-4a05-a7a9-7a7d34c30dfa.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664166",
-      "friendly_id": "kolesarstvo_m_turneja_beneluksa_4_etapa_riemst_vs_bilzenhoeselt_283e9c6b"
-    },
-    {
-      "datum": "2026-08-22",
-      "dan": "Sobota",
-      "cas": "21:00",
-      "cas_konec": "00:00",
-      "trajanje": "180 min",
-      "naslov_sl": "Konjeništvo: Svetovno prvenstvo, Aachen: Preskakovanje ovir, ekipna tekma, vrhunci",
-      "naslov_orig": "FEI World Championships: Jumping, Team, Highlights, Aachen",
-      "kategorija": "Šport",
-      "zanr": [
-        "konjeništvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/b/d/89bddaf1-704e-4512-9350-71ba58bdfac0.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1143664168",
-      "friendly_id": "konjenistvo_svetovno_prvenstvo_aachen_preskakovanje_ovir_ekipna_tekma_vrhunci_82a9a022"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "01:00",
-      "cas_konec": "01:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Snooker: Wuhan Open: Finale",
-      "naslov_orig": "Snooker: Wuhan Open: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146319947",
-      "friendly_id": "snooker_wuhan_open_finale_bd556cc0"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "01:30",
-      "cas_konec": "03:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 8. etapa: Puçol - Xeraco (171 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 8: Puçol - Xeraco (171km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146319948",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_8_etapa_puçol__xeraco_171_km_aa97c7ab"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Touring Car Racing (M/Ž): 6 ur São Paula, Dirka, 2026",
-      "naslov_orig": "Endurance Car Racing: FIA World Endurance Championship: 6 Hours of Sao Paulo: Race, Round 4",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si etapo Svetovnega prvenstva WEC, ki se odvija na dirkališču José Carlos Pace v Sao Paulu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/3/b/1c3b0431-ac1c-40ee-9f78-f0ea153f15e2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146319949",
-      "friendly_id": "touring_car_racing_m_z_6_ur_são_paula_dirka_2026_768e578e"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 8. etapa: Puçol - Xeraco (171 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 8: Puçol - Xeraco (171km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146319950",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_8_etapa_puçol__xeraco_171_km_b86989da"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "07:00",
-      "cas_konec": "07:45",
-      "trajanje": "45 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Spust, ženske",
-      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Downhill, Women Elite",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/0/5520f9e8-e1b9-4a9b-a8fe-4d4847806726.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146319941",
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_spust_zenske_b96f3cdc"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "07:45",
-      "cas_konec": "08:30",
-      "trajanje": "45 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Spust, moški",
-      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Downhill, Men Elite",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/0/5520f9e8-e1b9-4a9b-a8fe-4d4847806726.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146319951",
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_spust_moski_9e1b69cf"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "08:30",
-      "cas_konec": "10:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Maraton v Sydneyju",
-      "naslov_orig": "Athletics: Sydney Marathon",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/2/9/c229fd15-cfbe-4588-a4f0-22d63f522450.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146771732",
-      "friendly_id": "maraton_v_sydneyju_c2e453ea"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "10:30",
-      "cas_konec": "12:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 8. etapa: Puçol - Xeraco (171 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 8: Puçol - Xeraco (171km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146771733",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_8_etapa_puçol__xeraco_171_km_6acaaa46"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "12:00",
-      "cas_konec": "16:00",
-      "trajanje": "240 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 9. etapa: La Vila Joiosa vs Villajoyosa - Alto de Aitana. Costa Blanca (187,4 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 9: La Vila Joisosa - Alto de Aitana (187.4km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146771734",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_9_etapa_la_vila_joiosa_vs_villajoyosa__alto_de_aitana_costa_blanca_1874_km_7e235f6d"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "16:00",
-      "cas_konec": "18:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 9. etapa: La Vila Joiosa vs Villajoyosa - Alto de Aitana. Costa Blanca (187,4 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 9: La Vila Joisosa - Alto de Aitana (187.4km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/6/0/066045d3-d341-45b8-8eac-ec3350e08ab9.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146783487",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_9_etapa_la_vila_joiosa_vs_villajoyosa__alto_de_aitana_costa_blanca_1874_km_147f321f"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "18:00",
-      "cas_konec": "20:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 1. krog, 1. dan",
-      "naslov_orig": "Tennis: US Open: Round 1 | Day 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146771735",
-      "zivo": true,
-      "friendly_id": "tenis_odprto_prvenstvo_zda_1_krog_1_dan_5de8859e"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "20:00",
-      "cas_konec": "23:00",
-      "trajanje": "180 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 1. krog, 1. dan",
-      "naslov_orig": "Tennis: US Open: Round 1 | Day 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146771736",
-      "zivo": true,
-      "friendly_id": "tenis_odprto_prvenstvo_zda_1_krog_1_dan_429ff2d1"
-    },
-    {
-      "datum": "2026-08-30",
-      "dan": "Nedelja",
-      "cas": "23:00",
-      "cas_konec": "00:45",
-      "trajanje": "105 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 1. krog, 1. dan",
-      "naslov_orig": "Tennis: US Open: Round 1 | Day 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1146771737",
-      "zivo": true,
-      "friendly_id": "tenis_odprto_prvenstvo_zda_1_krog_1_dan_63180de6"
-    },
     {
       "datum": "2026-08-23",
       "dan": "Nedelja",
@@ -4311,6 +3733,454 @@
       "show_id": "CUP_IECOM_EUROSPORT_1149024298",
       "zivo": true,
       "friendly_id": "tenis_odprto_prvenstvo_zda_3_krog_7_dan_2658b2a2"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "01:08",
+      "cas_konec": "01:35",
+      "trajanje": "27 min",
+      "naslov_sl": "Snooker: Wuhan Open",
+      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1151652251",
+      "friendly_id": "snooker_wuhan_open_9090fb6b"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "01:35",
+      "cas_konec": "03:01",
+      "trajanje": "86 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 8. etapa: Puçol - Xeraco (171 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 8: Puçol - Xeraco (171km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146319948",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_8_etapa_puçol__xeraco_171_km_ca3790bf"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "03:01",
+      "cas_konec": "05:00",
+      "trajanje": "119 min",
+      "naslov_sl": "Touring Car Racing (M/Ž): 6 ur São Paula, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: FIA World Endurance Championship: 6 Hours of Sao Paulo: Race, Round 4",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si etapo Svetovnega prvenstva WEC, ki se odvija na dirkališču José Carlos Pace v Sao Paulu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/3/b/1c3b0431-ac1c-40ee-9f78-f0ea153f15e2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146319949",
+      "friendly_id": "touring_car_racing_m_z_6_ur_são_paula_dirka_2026_e070e1db"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "05:00",
+      "cas_konec": "06:59",
+      "trajanje": "119 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 8. etapa: Puçol - Xeraco (171 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 8: Puçol - Xeraco (171km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146319950",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_8_etapa_puçol__xeraco_171_km_b86989da"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "06:59",
+      "cas_konec": "07:44",
+      "trajanje": "45 min",
+      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Spust, ženske",
+      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Downhill, Women Elite",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/e/4/b3e46890-44e7-4881-90ee-f8fd88b7de56.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146319941",
+      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_spust_zenske_5ea84389"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "07:44",
+      "cas_konec": "08:35",
+      "trajanje": "51 min",
+      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal UCI: Val di Sole: Spust, moški",
+      "naslov_orig": "UCI Mountain Bike: World Championship: Val di Sole: Downhill, Men Elite",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/0/5520f9e8-e1b9-4a9b-a8fe-4d4847806726.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146319951",
+      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_uci_val_di_sole_spust_moski_7e07ab01"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "08:35",
+      "cas_konec": "10:30",
+      "trajanje": "115 min",
+      "naslov_sl": "Maraton v Sydneyju",
+      "naslov_orig": "Athletics: Sydney Marathon",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/2/9/c229fd15-cfbe-4588-a4f0-22d63f522450.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146771732",
+      "friendly_id": "maraton_v_sydneyju_edd95ee3"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "10:30",
+      "cas_konec": "12:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 8. etapa: Puçol - Xeraco (171 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 8: Puçol - Xeraco (171km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146771733",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_8_etapa_puçol__xeraco_171_km_6acaaa46"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "12:00",
+      "cas_konec": "16:00",
+      "trajanje": "240 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 9. etapa: La Vila Joiosa/Villajoyosa - Alto de Aitana. Costa Blanca (187,4 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 9: La Vila Joisosa - Alto de Aitana (187.4km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146771734",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_9_etapa_la_vila_joiosa_villajoyosa__alto_de_aitana_costa_blanca_1874_km_424914d0"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "16:00",
+      "cas_konec": "18:10",
+      "trajanje": "130 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 9. etapa: La Vila Joiosa/Villajoyosa - Alto de Aitana. Costa Blanca (187,4 km)",
+      "naslov_orig": "Vuelta a Espana: Stage 9: La Vila Joisosa - Alto de Aitana (187.4km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/9/1/4f917ed9-4b51-4ecd-9b42-3b3f8219a79f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146783487",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_9_etapa_la_vila_joiosa_villajoyosa__alto_de_aitana_costa_blanca_1874_km_98610e77"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "18:10",
+      "cas_konec": "20:10",
+      "trajanje": "120 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 1, Jessica Pegula - Elena-Gabriela Ruse. krog",
+      "naslov_orig": "Tennis: US Open: Round 1, Jessica Pegula - Elena-Gabriela Ruse",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1151652156",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_1_jessica_pegula__elenagabriela_ruse_krog_bd81e62d"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "20:10",
+      "cas_konec": "23:10",
+      "trajanje": "180 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 1. krog, 1. dan",
+      "naslov_orig": "Tennis: US Open: Round 1 | Day 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146771736",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_1_krog_1_dan_812c805b"
+    },
+    {
+      "datum": "2026-08-30",
+      "dan": "Nedelja",
+      "cas": "23:10",
+      "cas_konec": "00:55",
+      "trajanje": "105 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 1. krog, 1. dan",
+      "naslov_orig": "Tennis: US Open: Round 1 | Day 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/f/a/f2fa030b-7ca2-4c2b-9df5-11ad130a255a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1146771737",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_1_krog_1_dan_7940369b"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "00:45",
+      "cas_konec": "04:00",
+      "trajanje": "195 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 3. krog, 7. dan",
+      "naslov_orig": "Tennis: US Open: Round 3 | Day 7",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6a/d/3/6ad374cc-eeba-4ec2-808e-58d4f29933e6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149024299",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_3_krog_7_dan_35613edb"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "04:00",
+      "cas_konec": "06:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 3. krog, 7. dan",
+      "naslov_orig": "Tennis: US Open: Round 3 | Day 7",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6a/d/3/6ad374cc-eeba-4ec2-808e-58d4f29933e6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149024300",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_3_krog_7_dan_bc5d9e38"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "06:00",
+      "cas_konec": "08:30",
+      "trajanje": "150 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 14. etapa: Jaén - Sierra de la Pandera",
+      "naslov_orig": "Vuelta a Espana: Stage 14: Jaén - Sierra de la Pandera (154.5km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149024301",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_14_etapa_jaén__sierra_de_la_pandera_3748b44a"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "08:30",
+      "cas_konec": "10:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Športno plezanje: Svetovni pokal v Kopru: Finale, vrhunci",
+      "naslov_orig": "Climbing: World Cup in Koper: Men's and Women's Lead, Final, Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/4/1/25416d41-78e4-441d-b78a-c9a7b6fdf3a8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149396030",
+      "friendly_id": "sportno_plezanje_svetovni_pokal_v_kopru_finale_vrhunci_7bb5c789"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "10:30",
+      "cas_konec": "13:00",
+      "trajanje": "150 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 3. krog, 7. dan",
+      "naslov_orig": "Tennis: US Open: Round 3 | Day 7",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6a/d/3/6ad374cc-eeba-4ec2-808e-58d4f29933e6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149396031",
+      "friendly_id": "tenis_odprto_prvenstvo_zda_3_krog_7_dan_afe85f2c"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "13:00",
+      "cas_konec": "14:45",
+      "trajanje": "105 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 14. etapa: Jaén - Sierra de la Pandera",
+      "naslov_orig": "Vuelta a Espana: Stage 14: Jaén - Sierra de la Pandera (154.5km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149396032",
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_14_etapa_jaén__sierra_de_la_pandera_b0fc7357"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "14:45",
+      "cas_konec": "17:45",
+      "trajanje": "180 min",
+      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 15. etapa: Palma del Río - Córdoba",
+      "naslov_orig": "Vuelta a Espana: Stage 15: Palma del Río - Córdoba (189.7km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/c/d/51cdd7bb-5303-434b-9dc7-36a1ddd1724f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149396033",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_15_etapa_palma_del_río__córdoba_ade6fd2c"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "17:45",
+      "cas_konec": "19:30",
+      "trajanje": "105 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 3. krog, 8. dan",
+      "naslov_orig": "Tennis: US Open: Round 3 | Day 8",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/8/0/1180381c-f1e1-48d7-920b-4c0c543d92ec.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149396034",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_3_krog_8_dan_1657128c"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "19:30",
+      "cas_konec": "22:30",
+      "trajanje": "180 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 3. krog, 8. dan",
+      "naslov_orig": "Tennis: US Open: Round 3 | Day 8",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/8/0/1180381c-f1e1-48d7-920b-4c0c543d92ec.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149396035",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_3_krog_8_dan_361f4e0f"
+    },
+    {
+      "datum": "2026-09-06",
+      "dan": "Nedelja",
+      "cas": "22:30",
+      "cas_konec": "00:45",
+      "trajanje": "135 min",
+      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: 3. krog, 8. dan",
+      "naslov_orig": "Tennis: US Open: Round 3 | Day 8",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/8/0/1180381c-f1e1-48d7-920b-4c0c543d92ec.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1149396036",
+      "zivo": true,
+      "friendly_id": "tenis_odprto_prvenstvo_zda_3_krog_8_dan_fd1db7d5"
     }
   ]
 }
