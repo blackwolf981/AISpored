@@ -1397,20 +1397,34 @@ function karticaHtml(v) {
   </div>`;
 }
 
+/* Osnova za STEVCE ene vrstice pilul: upostevaj VSE druge filtre, svojega pa
+   ne. Vrstica "Zanr" se torej steje znotraj izbrane vrste in obratno.
+
+   ANDREJ JE 30.8.2026 UJEL, DA TO PREJ NI VELJALO: ob izbrani vrsti "Filmi"
+   (115) je pilula "Zgodovina" pisala 84, prikazanih pa je bilo 32 — stevec je
+   stel cez filme IN serije. Pilula je torej obljubljala vec, kot je izbor dal.
+
+   DNEVI SO IZVZETI, namenoma in enako kot pri filmih (24.8.2026): dan je okno,
+   ki ga gledalec pomika, in stevilke bi ob vsakem kliku poskakovale. Kanal,
+   vrsta, zanr in iskanje so trajne izbire, dan ne. */
+function osnovaZaStevce(izkljuci) {
+  let s = VSEBINE;
+  if (izbraniKanali.size) s = s.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k)));
+  if (izkljuci !== 'tip' && STANJE.tip !== 'vse') s = s.filter(v => v.tip === STANJE.tip);
+  if (izkljuci !== 'zanr' && STANJE.zanr !== 'vse') s = s.filter(v => (v.zanr || '') === STANJE.zanr);
+  const q = STANJE.iskanje.trim().toLowerCase();
+  if (q) s = s.filter(v => besediloVsebine(v).indexOf(q) >= 0);
+  return s;
+}
+
 function izrisiFiltre() {
-  /* Stevci se stejejo ZNOTRAJ izbranih kanalov — sicer bi pilula obljubljala
-     vsebine, ki jih trenutni izbor kanalov sploh ne pokaze.
-     Po DNEVIH se NE stejejo, namenoma in enako kot pri filmih (24.8.2026):
-     dan je okno, ki ga gledalec pomika, in stevilke bi ob vsakem kliku
-     poskakovale. Kanal je trajna izbira, dan ne. */
-  const osnova = izbraniKanali.size
-    ? VSEBINE.filter(v => (v.kanali || []).some(k => izbraniKanali.has(k))) : VSEBINE;
-  const st = { vse: osnova.length, film: 0, serija: 0 };
+  const zaTip = osnovaZaStevce('tip');
+  const st = { vse: zaTip.length, film: 0, serija: 0 };
+  zaTip.forEach(v => { st[v.tip]++; });
+
+  const zaZanr = osnovaZaStevce('zanr');
   const stZanr = {};
-  osnova.forEach(v => {
-    st[v.tip]++;
-    if (v.zanr) stZanr[v.zanr] = (stZanr[v.zanr] || 0) + 1;
-  });
+  zaZanr.forEach(v => { if (v.zanr) stZanr[v.zanr] = (stZanr[v.zanr] || 0) + 1; });
 
   const pilula = (aktivno, kljuc, vrednost, napis, stevec) =>
     `<button class="se-btn${aktivno ? ' active' : ''}" onclick="nastavi('${kljuc}','${vrednost}')">` +
@@ -1421,10 +1435,10 @@ function izrisiFiltre() {
     pilula(STANJE.tip === 'film', 'tip', 'film', 'Filmi', st.film) +
     pilula(STANJE.tip === 'serija', 'tip', 'serija', 'Serije', st.serija);
 
-  /* Pokazemo SAMO zanre, ki jih izbrani kanali res imajo — gumb s praznim
+  /* Pokazemo SAMO zanre, ki v trenutnem izboru res kaj imajo — gumb s praznim
      rezultatom je prazna obljuba (isto pravilo kot pri kanalih). */
   document.getElementById('f-zanr').innerHTML =
-    pilula(STANJE.zanr === 'vse', 'zanr', 'vse', 'Vsi', st.vse) +
+    pilula(STANJE.zanr === 'vse', 'zanr', 'vse', 'Vsi', zaZanr.length) +
     ZANRI_VRSTNI_RED.filter(z => stZanr[z])
       .map(z => pilula(STANJE.zanr === z, 'zanr', z,
                        z.charAt(0).toUpperCase() + z.slice(1), stZanr[z])).join('');
