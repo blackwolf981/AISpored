@@ -1,568 +1,10 @@
 {
   "kanal": "Planet",
   "ch_ext_id": "planet",
-  "posodobljeno": "2026-09-07 12:25",
-  "od": "2026-08-31",
-  "do": "2026-09-14",
+  "posodobljeno": "2026-09-08 12:25",
+  "od": "2026-09-01",
+  "do": "2026-09-15",
   "oddaje": [
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "01:19",
-      "cas_konec": "01:33",
-      "trajanje": "14 min",
-      "naslov_sl": "S6E27 - Ura moči",
-      "naslov_orig": "S6E27 - Ura moči",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "V pogovorno-analitični oddaji Ura moči z voditeljem Luko Svetino bomo prisluhnili argumentirani debati o aktualnem političnem dogajanju. Voditelju se bodo v studiu pridružili tudi komentatorji. Lotevali se bodo, kot že do zdaj, najbolj zanimivih družbeno-političnih tem, ki v aktualnem tednu odmevajo v slovenskem prostoru. Odpirali in komentirali bodo teme, o katerih se krešejo mnenja, ter interpretirali poteze in dejanja vladajočih, ki imajo posledice za ljudi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6b/6/e/6b6e7ddd-20e2-4529-bfb7-d06c62e80b2a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148013581"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "01:33",
-      "cas_konec": "01:56",
-      "trajanje": "23 min",
-      "naslov_sl": "S0E25 - Kilometri z Laro",
-      "naslov_orig": "S0E25 - Kilometri Z Laro",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "\"Kilometri z Laro\" je iskren in sproščen pogovor med vožnjo z znanimi. Lara se z znanimi ne pogovarja o uspehih in dosežkih, ampak se dotakne vsakdanjega življenja. Znani tako povedo o sebi veliko zanimivih stvari, za katere še nismo slišali.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/c/8/aac8ffc1-40c5-4fe0-b0ea-edee6f9234ce.png",
-      "show_id": "CUP_IECOM_PLANETTV_1151200888"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "01:56",
-      "cas_konec": "02:28",
-      "trajanje": "32 min",
-      "naslov_sl": "Nočni program",
-      "naslov_orig": "Nočni program",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "posebni dogodek"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nočni program.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/1/9/4219c525-427a-4c3f-8410-36d6e496957b.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151200889"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "02:28",
-      "cas_konec": "04:10",
-      "trajanje": "102 min",
-      "naslov_sl": "S8E4 - Skrivnosti Brokenwooda: Trije kovanci v vodnjaku",
-      "naslov_orig": "S8E4 - The Brokenwood Mysteries: Three Coins in a Fountain",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Ko v vodnjaku mestnega parka najdejo mrtvega svetovnega prvaka v nenavadnem športu \"spoofing\", morajo detektivi ugotoviti, kdo bi bil pripravljen ubijati zaradi naslova prvaka. Medtem Gina sodeluje pri dobrodelni akciji zbiranja sredstev.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/23/b/8/23b8d208-feab-4ae3-9b44-45ed4ab4f31f.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148013582"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "04:10",
-      "cas_konec": "04:23",
-      "trajanje": "13 min",
-      "naslov_sl": "S0E13 - Žiga zažiga",
-      "naslov_orig": "S0E13 - Žiga Zažiga",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "kulinarika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Kulinarična oddaja, v kateri nas Žiga Deršek navdušuje z vedno novimi kuharskimi idejami in triki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/8/7/19870b85-f299-40ff-a377-52cc0dc1d4ef.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151200890"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "04:23",
-      "cas_konec": "05:35",
-      "trajanje": "72 min",
-      "naslov_sl": "S1E33 - Kolo sreče",
-      "naslov_orig": "S1E33 - Kolo sreče",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Klemen Bučan in Nataša Naneva bosta v vsaki oddaji Kolesa sreče gostila tri tekmovalce, med katerimi bo vedno tudi en znan obraz. Gre pravzaprav za igranje vislic, kjer ti pravilna črka prinese denar, pravilno uganjeno geslo pa nagrado. Vse skupaj se začne z uganko, s katero bo določeno, kdo bo prvi zavrtel kolo sreče. Tekmovalci in tekmovalke v prvih štirih krogih zbirajo denar, ki si ga lahko nato najboljši med njimi pribori v zadnji igri, igri za bonus ...",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9b/c/6/9bc6b901-91c0-4c67-b2d6-c75dd65693c4.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148013583"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "05:35",
-      "cas_konec": "06:00",
-      "trajanje": "25 min",
-      "naslov_sl": "Planet 18",
-      "naslov_orig": "Planet 18",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148013584"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "06:00",
-      "cas_konec": "06:38",
-      "trajanje": "38 min",
-      "naslov_sl": "S6E27 - Ura moči",
-      "naslov_orig": "S6E27 - Ura moči",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "V pogovorno-analitični oddaji Ura moči z voditeljem Luko Svetino bomo prisluhnili argumentirani debati o aktualnem političnem dogajanju. Voditelju se bodo v studiu pridružili tudi komentatorji. Lotevali se bodo, kot že do zdaj, najbolj zanimivih družbeno-političnih tem, ki v aktualnem tednu odmevajo v slovenskem prostoru. Odpirali in komentirali bodo teme, o katerih se krešejo mnenja, ter interpretirali poteze in dejanja vladajočih, ki imajo posledice za ljudi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6b/6/e/6b6e7ddd-20e2-4529-bfb7-d06c62e80b2a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030775"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "06:38",
-      "cas_konec": "07:37",
-      "trajanje": "59 min",
-      "naslov_sl": "S19E1 - Specialna enota Dunaj: Kaj, če?",
-      "naslov_orig": "S19E1 - SOKO Wien: Was wäre wenn...?",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Lukasa Brandta najdejo ustreljenega v skladišču. Skupaj z bratom Janom in materjo je bil del družinske kriminalne združbe, ki se je ukvarjala z vlomi. Preiskava vodi do preprodajalcev ukradenega blaga, lokalne kriminalne združbe in trgovine z mamili. Primer se dodatno zaplete, ko zaradi zaužitja droge v bolnišnici pristane Lukasova šestletna nečakinja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/2/9/3c29b92d-a41e-4ae2-a630-570b461272a4.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030776"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "07:37",
-      "cas_konec": "08:09",
-      "trajanje": "32 min",
-      "naslov_sl": "Planet 18 večerna izdaja",
-      "naslov_orig": "Planet 18 večerna izdaja",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030777"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "08:09",
-      "cas_konec": "08:25",
-      "trajanje": "16 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030778"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "08:25",
-      "cas_konec": "09:27",
-      "trajanje": "62 min",
-      "naslov_sl": "S5E7 - Komisar Rex: Lov",
-      "naslov_orig": "S5E7 - Kommissar Rex: Hetzjagd",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "1999",
-      "starostna_omejitev": "12+",
-      "opis": "Maria Stein, zaposlena v supermarketu, je brutalno umorjena po ropu, ki pretresa lokalno skupnost. Med preiskavo Alex in Rex odkrijeta, da ta zločin ni osamljen - v zadnjih mesecih se je zgodila vrsta podobnih ropov, vsi z enakim vzorcem. Ključno vprašanje je: kdo stoji za to organizirano serijo napadov in zakaj je morala Maria umreti? Z vsakim novim namigom postaja jasno, da ekipa lovi hladnokrvnega storilca, ki ne namerava nehati.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/e/7/24e7a153-6c0e-421c-b589-6a1d7675dd64.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030779"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "09:27",
-      "cas_konec": "09:42",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030780"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "09:42",
-      "cas_konec": "10:14",
-      "trajanje": "32 min",
-      "naslov_sl": "S6E53 - Prevare",
-      "naslov_orig": "S6E53 - Betrugsfälle: Die ewige Suche",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2011",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030781"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "10:14",
-      "cas_konec": "10:29",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030783"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "10:29",
-      "cas_konec": "11:49",
-      "trajanje": "80 min",
-      "naslov_sl": "S13E39 - Poroka na prvi pogled: Avstralija",
-      "naslov_orig": "S13E39 - Married at First Sight Australia",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Po treh življenjskih sprememb polnih mesecih se največji avstralski družbeni eksperiment bliža koncu, vendar ne preden strokovnjaki še zadnjič razjasnijo najbolj pereča vprašanja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c5/0/4/c5045619-a4d3-4ba3-91a2-ad5b98ad6272.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030784"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "11:49",
-      "cas_konec": "12:30",
-      "trajanje": "41 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030785"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "12:30",
-      "cas_konec": "12:46",
-      "trajanje": "16 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030786"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "12:46",
-      "cas_konec": "14:07",
-      "trajanje": "81 min",
-      "naslov_sl": "S5E1 - Življenje na tehtnici",
-      "naslov_orig": "S5E1 - The Biggest Loser Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vseh 12 tekmovalcev se bo prvič srečalo z voditeljem Klemnom Bučanom ter trenerjema Valerijo Slapnik in Andrejem Pavličevićem. Opraviti bodo morali tudi prvo nalogo na poligonu …",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030787"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "14:07",
-      "cas_konec": "14:37",
-      "trajanje": "30 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030788"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "14:37",
-      "cas_konec": "15:09",
-      "trajanje": "32 min",
-      "naslov_sl": "S2E4 - Iz ljubezni do psov",
-      "naslov_orig": "S2E4 - For the Love of Dogs",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "",
-      "opis": "V zavetišče pripeljejo mlado in povsem shirano psičko po imenu Twinkle, ki so jo lastniki zapustili. Paul potrpežljivo čaka, da bo Twinkle dosegla normalno težo in bo lahko odšla v svoj novi dom.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/f/0/1ff092d8-bd64-48c8-848e-679eea033dc4.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030789"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "15:09",
-      "cas_konec": "16:13",
-      "trajanje": "64 min",
-      "naslov_sl": "S0E44 - Zora upanja",
-      "naslov_orig": "S0E44 - Amanecer",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "telenovela"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Dolgo pričakovana poroka med Atocho in Sebastianom je končno tu. Poleg tega se Alba in Leonel pripravljata na praznovanje božiča z Gusom. Prudencia se odloči, da bo Joviti pomagala, da hitreje okreva. Inigo prosi Amapolo, naj mu pomaga ugotoviti, ali je Chavita res njegov sin.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/e/f/62efcb08-6a53-47c7-ae92-5166a12cdd47.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030790"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "16:13",
-      "cas_konec": "16:57",
-      "trajanje": "44 min",
-      "naslov_sl": "S3E71 - Podeželska zdravnica: Vedno težave s Klaro",
-      "naslov_orig": "S3E71 - Die Landarztpraxis: Immer Ärger mit Klara",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Ella Georgu in Isi za zdaj še ni povedala resnice o svoji identiteti, ko jo že potegne v novo družinsko dramo. Chris mora nujno v München in Ello prosi, naj pazi na Klaro. Ella z veseljem pristane, vendar se s Klaro spre, ko ji prepove nakupovanje s prijateljicami. Klara vseeno skrivaj odide. Ker je Ella ne more priklicati, jo začne skrbeti, da se ji je kaj zgodilo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/d/5/bcd5ae10-a790-492b-8cf6-8cc06d3a98f0.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030791"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "16:57",
-      "cas_konec": "17:57",
-      "trajanje": "60 min",
-      "naslov_sl": "S19E2 - Specialna enota Dunaj: Grofica po imenu Cindy",
-      "naslov_orig": "S19E2 - SOKO Wien: Eine Gräfin namens Cindy",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "V vinogradu odkrijejo umorjeno Elinor von Waldenau, ki se izkaže za izjemno spretno prevarantko z več lažnimi identitetami. Za seboj je pustila številne opeharjene ljudi, zato osumljencev ne manjka. Preiskava razkriva mrežo prevar, uničenih življenj in dolgo zamolčanih skrivnosti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6b/0/b/6b0b0f38-e87f-4eb6-8103-28aae26a774d.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030794"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "17:57",
-      "cas_konec": "18:47",
-      "trajanje": "50 min",
-      "naslov_sl": "Planet 18",
-      "naslov_orig": "Planet 18",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030796"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "18:47",
-      "cas_konec": "20:00",
-      "trajanje": "73 min",
-      "naslov_sl": "S4E1 - Riba, raca, rak",
-      "naslov_orig": "S4E1 - Fish on the Cake",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Marcos Tavares je brazilsko-slovenski nogometaš in pastor. Odraščal je v faveli, danes pa bo prvi gostil in kuhal v novi sezoni oddaj. Ostal bo zvest brazilskim koreninam. Pri sladici mu bosta pomagali hčerki dvojčici, a pri vsem mu je najbolj pomagal žar. Gostje končno prispejo. Vsi težko čakajo. Najprej jim postreže aperitiv. Potem sledi glavna jed. Vsi so navdušeni nad Marcosovimi kuharskimi sposobnostmi in njegovo simpatično osebnostjo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030797"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "20:00",
-      "cas_konec": "20:40",
-      "trajanje": "40 min",
-      "naslov_sl": "S1E11 - 7 minut do zmenka",
-      "naslov_orig": "S1E11 - 7 Minut Do Zmenka",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nova zabavna oddaja, kjer lahko ena sama odločitev v sedmih sekundah spremeni vse! Dva neznanca se bosta prvič srečala v studiu, kjer si bosta pogledala v oči in začela pogovor, poln zabavnih, provokativnih in osebnih vprašanj. V kratkem času bosta poskušala ugotoviti, ali med njima obstaja prava kemija. Nato sledi najpomembnejši trenutek - 7 odločilnih sekund, v katerih se morata odločiti, ali bosta pritisnila na gumb. Če ga pritisne eden od njiju, je zmenka konec. Če se zanj ne odloči nihče, se njuna zgodba nadaljuje tudi zunaj studia.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/e/1/15e1b6cd-3a44-483b-9156-287a7d919828.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030799"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "20:40",
-      "cas_konec": "22:11",
-      "trajanje": "91 min",
-      "naslov_sl": "S5E2 - Življenje na tehtnici",
-      "naslov_orig": "S5E2 - The Biggest Loser Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja Življenje na tehtnici je ena izmed najbolj priljubljenih resničnostnih oddaj na svetu, ki se osredotoča na izgubo telesne teže in preobrazbo udeležencev. Voditelj šova bo Klemen Bučan. Trenerja pa bosta Nives Orešnik in Andrej Milutinovič. Gregor P. Kirsc pa bo nastopal v vlogi svetovalca za življenjski slog.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030800"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "22:11",
-      "cas_konec": "22:40",
-      "trajanje": "29 min",
-      "naslov_sl": "Planet 18 večerna izdaja",
-      "naslov_orig": "Planet 18 večerna izdaja",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030801"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "22:40",
-      "cas_konec": "23:56",
-      "trajanje": "76 min",
-      "naslov_sl": "S2E4 - Shetlandske skrivnosti: Mrtva voda, 2. del",
-      "naslov_orig": "S2E4 - Shetland: Dead Water: Part 2",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "12+",
-      "opis": "Ko odkrijejo še drugo žrtev brutalnega umora, se Perez sprašuje, ali sta umora povezana s pohlepom in korupcijo na otoku ali pa se vse vrti okoli ene same ženske - Evie Watt.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a5/e/f/a5efc706-b666-44ee-97bf-2d6bde8a3542.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030802"
-    },
-    {
-      "datum": "2026-08-31",
-      "dan": "Ponedeljek",
-      "cas": "23:56",
-      "cas_konec": "00:38",
-      "trajanje": "42 min",
-      "naslov_sl": "S3E70 - Podeželska zdravnica: Sreča drugih",
-      "naslov_orig": "S3E70 - Die Landarztpraxis: Das Glück der anderen",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Ella je odločena, da bo Georgu povedala, da je najverjetneje njegova hči. Toda ravno danes mineva obletnica smrti njegove žene Elisabeth. Ko Isa Elli pove, kako srečna je zaradi dobrega odnosa z očetom, Ella spozna, da bi njena skrivnost lahko uničila njun odnos. Je pripravljena ogroziti srečo svoje polsestre, da bi končno izvedela resnico?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/a/5/12a564ab-474d-46a5-94bd-cde160561e5a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1148030803"
-    },
     {
       "datum": "2026-09-01",
       "dan": "Torek",
@@ -1138,582 +580,6 @@
       "opis": "Ella Georgu in Isi za zdaj še ni povedala resnice o svoji identiteti, ko jo že potegne v novo družinsko dramo. Chris mora nujno v München in Ello prosi, naj pazi na Klaro. Ella z veseljem pristane, vendar se s Klaro spre, ko ji prepove nakupovanje s prijateljicami. Klara vseeno skrivaj odide. Ker je Ella ne more priklicati, jo začne skrbeti, da se ji je kaj zgodilo.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/d/5/bcd5ae10-a790-492b-8cf6-8cc06d3a98f0.jpg",
       "show_id": "CUP_IECOM_PLANETTV_1148039371"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "00:20",
-      "cas_konec": "00:50",
-      "trajanje": "30 min",
-      "naslov_sl": "S3E1 - Iz ljubezni do psov",
-      "naslov_orig": "S3E1 - For the Love of Dogs",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "Paul pomaga pretežkemu jack russllu priti v boljšo formo in skrbi za štiri novorojene mladičke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/5/7/bb574171-e035-4bee-9283-be3543191d1b.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179622"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "00:50",
-      "cas_konec": "01:30",
-      "trajanje": "40 min",
-      "naslov_sl": "Planet 18 večerna izdaja",
-      "naslov_orig": "Planet 18 večerna izdaja",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179634"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "01:30",
-      "cas_konec": "02:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S7E2 - Prevare",
-      "naslov_orig": "S7E2 - Betrugsfälle: Das Waldmädchen",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179635"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "02:00",
-      "cas_konec": "02:45",
-      "trajanje": "45 min",
-      "naslov_sl": "Nočni program",
-      "naslov_orig": "Nočni program",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "posebni dogodek"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nočni program.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/1/9/4219c525-427a-4c3f-8410-36d6e496957b.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179636"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "02:45",
-      "cas_konec": "03:55",
-      "trajanje": "70 min",
-      "naslov_sl": "S3E2 - Shetlandske skrivnosti",
-      "naslov_orig": "S3E2 - Shetland",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Inšpektor Perez je vse bolj prepričan, da je Maguire vpleten v kruto smrt mladeniča, čigar truplo odkrijejo v ladijskem zabojniku.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/a/d/dfad771a-1f14-4638-9d1e-474839f201e6.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179637"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "03:55",
-      "cas_konec": "05:05",
-      "trajanje": "70 min",
-      "naslov_sl": "S4E6 - Riba, raca, rak",
-      "naslov_orig": "S4E6 - Fish on the Cake",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Eva Ostrouška je stara znanka Planet TV-ja, saj smo jo lahko spremljali v oddaji Poroka na prvi pogled. Je edina od gostov tega tedna, ki se ne ukvarja z glasbo. Je živahna in igriva. To se vidi že v trgovini, kjer se težko osredotoči na nakupovanje.\n\nEva se je odločila za vegetarijanski meni. Za predjed je spekla zelenjavne mafine. Za glavno jed lečni ragu s polento, za sladico pa tiramisu brez jajc. Evin hobi med drugim je tudi improvizacija, zato med večerjo prepriča goste, da se lotijo še tega.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179628"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "05:05",
-      "cas_konec": "05:40",
-      "trajanje": "35 min",
-      "naslov_sl": "S7E3 - Prevare",
-      "naslov_orig": "S7E3 - Betrugsfälle: Oma Gerdas Freudenhaus",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179613"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "05:40",
-      "cas_konec": "06:30",
-      "trajanje": "50 min",
-      "naslov_sl": "Planet 18",
-      "naslov_orig": "Planet 18",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151179638"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "06:30",
-      "cas_konec": "07:30",
-      "trajanje": "60 min",
-      "naslov_sl": "S19E7 - Specialna enota Dunaj: Tujec",
-      "naslov_orig": "S19E7 - SOKO Wien: Der Fremde",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Marie Kämmerer trdi, da je njenega moža zamenjal dvojnik. Sprva vsi menijo, da gre za posledico njene duševne bolezni, a kmalu v njeni kuhinji odkrijejo truplo neznanca. Med preiskavo se pojavi vprašanje, ali Marie resnično trpi za redko motnjo ali pa z navideznimi blodnjami prikriva zločin.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/70/9/9/7099e2a7-9dff-4006-b51c-cc184759fff4.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187457"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "07:30",
-      "cas_konec": "08:10",
-      "trajanje": "40 min",
-      "naslov_sl": "Planet 18 večerna izdaja",
-      "naslov_orig": "Planet 18 večerna izdaja",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187458"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "08:10",
-      "cas_konec": "08:25",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187459"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "08:25",
-      "cas_konec": "09:25",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E13 - Komisar Rex: Ledeno mrzel",
-      "naslov_orig": "S5E13 - Kommissar Rex: Eiskalt",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2000",
-      "starostna_omejitev": "12+",
-      "opis": "Med napeto hokejsko tekmo eden od igralcev nenadoma omedli in umre na ledu. V njegovem žepu Alex odkrije injekcijo z insulinom - podrobnost, ki obrne primer v povsem novo smer. Gre za nesrečo, samomor … ali hladnokrvni umor, zamaskiran kot zdravstveni zaplet? Alex in Rex se podata v svet športnih ambicij, tekmovalnosti in skrivnosti, kjer vsakdo nekaj skriva - a samo eden je morilec.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1b/e/c/1becd094-8fb2-4dee-9a01-b597d532556b.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187460"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "09:25",
-      "cas_konec": "09:40",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187461"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "09:40",
-      "cas_konec": "10:15",
-      "trajanje": "35 min",
-      "naslov_sl": "S7E4 - Prevare",
-      "naslov_orig": "S7E4 - Betrugsfälle: Boris braucht Hilfe",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187462"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "10:15",
-      "cas_konec": "10:30",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187464"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "10:30",
-      "cas_konec": "11:10",
-      "trajanje": "40 min",
-      "naslov_sl": "S3E76 - Podeželska zdravnica: Veliki prihod",
-      "naslov_orig": "S3E76 - Die Landarztpraxis: Der große Auftritt",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Potem ko sta se Chris in Ella nepričakovano poljubila, Ella lebdi v sedmih nebesih. Ker pa Klaro čaka njen zadnji dan v Wiesenkirchnu, se dogovorita, da se bosta o vsem pogovorila šele naslednji večer. Medtem ko Ella z razbijajočim srcem pričakuje večer, Klara Chrisu da svoj blagoslov, da se lahko prepusti čustvom do Elle. Toda ravno ko želi Chris oditi k Elli, se na vratih nenadoma pojavi njegova bivša žena Linda.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/a/5/12a564ab-474d-46a5-94bd-cde160561e5a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187465"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "11:10",
-      "cas_konec": "11:25",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187466"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "11:25",
-      "cas_konec": "12:35",
-      "trajanje": "70 min",
-      "naslov_sl": "S4E6 - Riba, raca, rak",
-      "naslov_orig": "S4E6 - Fish on the Cake",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Eva Ostrouška je stara znanka Planet TV-ja, saj smo jo lahko spremljali v oddaji Poroka na prvi pogled. Je edina od gostov tega tedna, ki se ne ukvarja z glasbo. Je živahna in igriva. To se vidi že v trgovini, kjer se težko osredotoči na nakupovanje.\n\nEva se je odločila za vegetarijanski meni. Za predjed je spekla zelenjavne mafine. Za glavno jed lečni ragu s polento, za sladico pa tiramisu brez jajc. Evin hobi med drugim je tudi improvizacija, zato med večerjo prepriča goste, da se lotijo še tega.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187467"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "12:35",
-      "cas_konec": "12:50",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187468"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "12:50",
-      "cas_konec": "14:10",
-      "trajanje": "80 min",
-      "naslov_sl": "S5E5 - Življenje na tehtnici",
-      "naslov_orig": "S5E5 - The Biggest Loser Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja Življenje na tehtnici je ena izmed najbolj priljubljenih resničnostnih oddaj na svetu, ki se osredotoča na izgubo telesne teže in preobrazbo udeležencev. Voditelj šova bo Klemen Bučan. Trenerja pa bosta Nives Orešnik in Andrej Milutinovič. Gregor P. Kirsc pa bo nastopal v vlogi svetovalca za življenjski slog.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187469"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "14:10",
-      "cas_konec": "14:40",
-      "trajanje": "30 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187470"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "14:40",
-      "cas_konec": "15:10",
-      "trajanje": "30 min",
-      "naslov_sl": "S3E2 - Iz ljubezni do psov",
-      "naslov_orig": "S3E2 - For the Love of Dogs",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "Paul spozna buldoga Lolo s težavami z očmi, shih tzuja, ki potrebuje fizioterapijo, in zanemarjeno lurcherko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/5/7/bb574171-e035-4bee-9283-be3543191d1b.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187471"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "15:10",
-      "cas_konec": "16:15",
-      "trajanje": "65 min",
-      "naslov_sl": "S0E50 - Zora upanja",
-      "naslov_orig": "S0E50 - Amanecer",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "telenovela"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Alba in Leonel preživita strastno noč skupaj, toda Sebastian in Covadonga sta odločena, da ju ločita. Inigo prosi Amapolo, naj mu da priložnost, vendar ga ta zavrne, saj še vedno ljubi Leonela. Malu je navdušena, ko vidi, koliko je Tona napredoval s terapijami. Prudencia načrtuje, da bi Leonelu razkrila resnico o njegovem izvoru.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/e/f/62efcb08-6a53-47c7-ae92-5166a12cdd47.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187473"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "16:15",
-      "cas_konec": "16:55",
-      "trajanje": "40 min",
-      "naslov_sl": "S3E77 - Podeželska zdravnica: Bivša žena",
-      "naslov_orig": "S3E77 - Die Landarztpraxis: Die Exfrau",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Ella je zaskrbljena, ker se ji Chris po odpovedanem zmenku ni več oglasil. Ko ga zato obišče doma, jo popolnoma šokira prizor njegove bivše žene v pižami, ki očitno prenočuje pri njem. Chris Elli sicer zagotavlja, da Lindin prihod ni spremenil njegovih čustev do nje, toda ob pogledu na ponovno združeno družino Lehmann se Ella začne spraševati, ali mu lahko sploh kdaj ponudi isto.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/1/7/7317d8a5-05cb-406f-8a6f-276a07bc7970.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187474"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "16:55",
-      "cas_konec": "18:00",
-      "trajanje": "65 min",
-      "naslov_sl": "S19E8 - Specialna enota Dunaj: Molk vrtnih palčkov",
-      "naslov_orig": "S19E8 - SOKO Wien: Das Schweigen der Gartenzwerge",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "V vrtičkarskem naselju najdejo Harryja Baermeistra mrtvega ob vrtni mizi. Sprva kaže, da je bil zaboden, obdukcija pa razkrije, da je umrl zaradi zastrupitve z ogljikovim monoksidom. Ker je bil med sosedi zelo nepriljubljen, imajo detektivi več možnih osumljencev.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0f/c/a/0fca61e5-98ed-4724-9983-4b97bb8561f2.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187475"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "18:00",
-      "cas_konec": "18:50",
-      "trajanje": "50 min",
-      "naslov_sl": "Planet 18",
-      "naslov_orig": "Planet 18",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187476"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "18:50",
-      "cas_konec": "20:00",
-      "trajanje": "70 min",
-      "naslov_sl": "S4E7 - Riba, raca, rak",
-      "naslov_orig": "S4E7 - Fish on the Cake",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Rudolf Gas je diplomiral iz trobente. Poleg tega je glasbeni producent, avtor ter organizator koncertov. Zase pravi, da je perfekcionist in ljubitelj italijanske hrane. Doma ima glasbeni studio, saj tako najlažje ustvarja. Pri kuhanju mu pomaga žena. Kot smo že prej omenili, je ljubitelj italijanske kuhinje, zato se je odločil za meni v tem stilu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187477"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "20:00",
-      "cas_konec": "20:40",
-      "trajanje": "40 min",
-      "naslov_sl": "S1E16 - 7 minut do zmenka",
-      "naslov_orig": "S1E16 - 7 Minut Do Zmenka",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nova zabavna oddaja, kjer lahko ena sama odločitev v sedmih sekundah spremeni vse! Dva neznanca se bosta prvič srečala v studiu, kjer si bosta pogledala v oči in začela pogovor, poln zabavnih, provokativnih in osebnih vprašanj. V kratkem času bosta poskušala ugotoviti, ali med njima obstaja prava kemija. Nato sledi najpomembnejši trenutek - 7 odločilnih sekund, v katerih se morata odločiti, ali bosta pritisnila na gumb. Če ga pritisne eden od njiju, je zmenka konec. Če se zanj ne odloči nihče, se njuna zgodba nadaljuje tudi zunaj studia.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/e/1/15e1b6cd-3a44-483b-9156-287a7d919828.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187479"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "20:40",
-      "cas_konec": "21:50",
-      "trajanje": "70 min",
-      "naslov_sl": "S5E6 - Življenje na tehtnici",
-      "naslov_orig": "S5E6 - The Biggest Loser Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja Življenje na tehtnici je ena izmed najbolj priljubljenih resničnostnih oddaj na svetu, ki se osredotoča na izgubo telesne teže in preobrazbo udeležencev. Voditelj šova bo Klemen Bučan. Trenerja pa bosta Nives Orešnik in Andrej Milutinovič. Gregor P. Kirsc pa bo nastopal v vlogi svetovalca za življenjski slog.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187480"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "21:50",
-      "cas_konec": "22:30",
-      "trajanje": "40 min",
-      "naslov_sl": "Planet 18 večerna izdaja",
-      "naslov_orig": "Planet 18 večerna izdaja",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187481"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "22:30",
-      "cas_konec": "23:40",
-      "trajanje": "70 min",
-      "naslov_sl": "S3E4 - Shetlandske skrivnosti",
-      "naslov_orig": "S3E4 - Shetland",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Ko preiskava napreduje, se Perez, Sandy in predvsem Tosh znajdejo pod vse večjimi grožnjami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/d/6/dbd67137-60fc-4563-9e5c-950703b403bc.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187482"
-    },
-    {
-      "datum": "2026-09-08",
-      "dan": "Torek",
-      "cas": "23:40",
-      "cas_konec": "00:20",
-      "trajanje": "40 min",
-      "naslov_sl": "S3E76 - Podeželska zdravnica: Veliki prihod",
-      "naslov_orig": "S3E76 - Die Landarztpraxis: Der große Auftritt",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Potem ko sta se Chris in Ella nepričakovano poljubila, Ella lebdi v sedmih nebesih. Ker pa Klaro čaka njen zadnji dan v Wiesenkirchnu, se dogovorita, da se bosta o vsem pogovorila šele naslednji večer. Medtem ko Ella z razbijajočim srcem pričakuje večer, Klara Chrisu da svoj blagoslov, da se lahko prepusti čustvom do Elle. Toda ravno ko želi Chris oditi k Elli, se na vratih nenadoma pojavi njegova bivša žena Linda.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/a/5/12a564ab-474d-46a5-94bd-cde160561e5a.jpg",
-      "show_id": "CUP_IECOM_PLANETTV_1151187483"
     },
     {
       "datum": "2026-09-02",
@@ -7802,6 +6668,1158 @@
       "opis": "Potem ko je Ella Georgu v afektu povedala resnico, se boji, da je prestrašila svojega domnevnega očeta. Georg pa pristane na test očetovstva. Ker se boji, da bi to razkritje uničilo njegov odnos z Iso, Ello prosi, naj molči, dokler ne dobita rezultatov. Ella privoli, vendar bo to težje, kot si je mislila: Isa se vrne v ambulanto in odslej z Ello vsak dan dela z ramo ob rami.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/c/a/40cac4a3-5a80-44bf-8973-9eef1fa5bdd7.jpg",
       "show_id": "CUP_IECOM_PLANETTV_1153819758"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "00:43",
+      "cas_konec": "01:13",
+      "trajanje": "30 min",
+      "naslov_sl": "S3E1 - Iz ljubezni do psov",
+      "naslov_orig": "S3E1 - For the Love of Dogs",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Paul pomaga pretežkemu jack russllu priti v boljšo formo in skrbi za štiri novorojene mladičke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/5/7/bb574171-e035-4bee-9283-be3543191d1b.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179622"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "01:13",
+      "cas_konec": "01:55",
+      "trajanje": "42 min",
+      "naslov_sl": "Planet 18 večerna izdaja",
+      "naslov_orig": "Planet 18 večerna izdaja",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179634"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "01:55",
+      "cas_konec": "02:27",
+      "trajanje": "32 min",
+      "naslov_sl": "S7E2 - Prevare",
+      "naslov_orig": "S7E2 - Betrugsfälle: Das Waldmädchen",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179635"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "02:27",
+      "cas_konec": "02:43",
+      "trajanje": "16 min",
+      "naslov_sl": "Nočni program",
+      "naslov_orig": "Nočni program",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "posebni dogodek"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nočni program.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/1/9/4219c525-427a-4c3f-8410-36d6e496957b.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179636"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "02:43",
+      "cas_konec": "03:56",
+      "trajanje": "73 min",
+      "naslov_sl": "S3E2 - Shetlandske skrivnosti",
+      "naslov_orig": "S3E2 - Shetland",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Inšpektor Perez je vse bolj prepričan, da je Maguire vpleten v kruto smrt mladeniča, čigar truplo odkrijejo v ladijskem zabojniku.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/a/d/dfad771a-1f14-4638-9d1e-474839f201e6.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179637"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "03:56",
+      "cas_konec": "05:07",
+      "trajanje": "71 min",
+      "naslov_sl": "S4E6 - Riba, raca, rak",
+      "naslov_orig": "S4E6 - Fish on the Cake",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Eva Ostrouška je stara znanka Planet TV-ja, saj smo jo lahko spremljali v oddaji Poroka na prvi pogled. Je edina od gostov tega tedna, ki se ne ukvarja z glasbo. Je živahna in igriva. To se vidi že v trgovini, kjer se težko osredotoči na nakupovanje.\n\nEva se je odločila za vegetarijanski meni. Za predjed je spekla zelenjavne mafine. Za glavno jed lečni ragu s polento, za sladico pa tiramisu brez jajc. Evin hobi med drugim je tudi improvizacija, zato med večerjo prepriča goste, da se lotijo še tega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179628"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "05:07",
+      "cas_konec": "05:39",
+      "trajanje": "32 min",
+      "naslov_sl": "S7E3 - Prevare",
+      "naslov_orig": "S7E3 - Betrugsfälle: Oma Gerdas Freudenhaus",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179613"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "05:39",
+      "cas_konec": "06:30",
+      "trajanje": "51 min",
+      "naslov_sl": "Planet 18",
+      "naslov_orig": "Planet 18",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151179638"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "06:30",
+      "cas_konec": "07:27",
+      "trajanje": "57 min",
+      "naslov_sl": "S19E7 - Specialna enota Dunaj: Tujec",
+      "naslov_orig": "S19E7 - SOKO Wien: Der Fremde",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Marie Kämmerer trdi, da je njenega moža zamenjal dvojnik. Sprva vsi menijo, da gre za posledico njene duševne bolezni, a kmalu v njeni kuhinji odkrijejo truplo neznanca. Med preiskavo se pojavi vprašanje, ali Marie resnično trpi za redko motnjo ali pa z navideznimi blodnjami prikriva zločin.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/70/9/9/7099e2a7-9dff-4006-b51c-cc184759fff4.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187457"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "07:27",
+      "cas_konec": "08:09",
+      "trajanje": "42 min",
+      "naslov_sl": "Planet 18 večerna izdaja",
+      "naslov_orig": "Planet 18 večerna izdaja",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187458"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "08:09",
+      "cas_konec": "08:25",
+      "trajanje": "16 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187459"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "08:25",
+      "cas_konec": "09:25",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E13 - Komisar Rex: Ledeno mrzel",
+      "naslov_orig": "S5E13 - Kommissar Rex: Eiskalt",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2000",
+      "starostna_omejitev": "12+",
+      "opis": "Med napeto hokejsko tekmo eden od igralcev nenadoma omedli in umre na ledu. V njegovem žepu Alex odkrije injekcijo z insulinom - podrobnost, ki obrne primer v povsem novo smer. Gre za nesrečo, samomor … ali hladnokrvni umor, zamaskiran kot zdravstveni zaplet? Alex in Rex se podata v svet športnih ambicij, tekmovalnosti in skrivnosti, kjer vsakdo nekaj skriva - a samo eden je morilec.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1b/e/c/1becd094-8fb2-4dee-9a01-b597d532556b.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187460"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "09:25",
+      "cas_konec": "09:41",
+      "trajanje": "16 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187461"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "09:41",
+      "cas_konec": "10:13",
+      "trajanje": "32 min",
+      "naslov_sl": "S7E4 - Prevare",
+      "naslov_orig": "S7E4 - Betrugsfälle: Boris braucht Hilfe",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187462"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "10:13",
+      "cas_konec": "10:28",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187464"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "10:28",
+      "cas_konec": "11:09",
+      "trajanje": "41 min",
+      "naslov_sl": "S3E76 - Podeželska zdravnica: Veliki prihod",
+      "naslov_orig": "S3E76 - Die Landarztpraxis: Der große Auftritt",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Potem ko sta se Chris in Ella nepričakovano poljubila, Ella lebdi v sedmih nebesih. Ker pa Klaro čaka njen zadnji dan v Wiesenkirchnu, se dogovorita, da se bosta o vsem pogovorila šele naslednji večer. Medtem ko Ella z razbijajočim srcem pričakuje večer, Klara Chrisu da svoj blagoslov, da se lahko prepusti čustvom do Elle. Toda ravno ko želi Chris oditi k Elli, se na vratih nenadoma pojavi njegova bivša žena Linda.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/a/5/12a564ab-474d-46a5-94bd-cde160561e5a.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187465"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "11:09",
+      "cas_konec": "11:25",
+      "trajanje": "16 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187466"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "11:25",
+      "cas_konec": "12:32",
+      "trajanje": "67 min",
+      "naslov_sl": "S4E6 - Riba, raca, rak",
+      "naslov_orig": "S4E6 - Fish on the Cake",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Eva Ostrouška je stara znanka Planet TV-ja, saj smo jo lahko spremljali v oddaji Poroka na prvi pogled. Je edina od gostov tega tedna, ki se ne ukvarja z glasbo. Je živahna in igriva. To se vidi že v trgovini, kjer se težko osredotoči na nakupovanje.\n\nEva se je odločila za vegetarijanski meni. Za predjed je spekla zelenjavne mafine. Za glavno jed lečni ragu s polento, za sladico pa tiramisu brez jajc. Evin hobi med drugim je tudi improvizacija, zato med večerjo prepriča goste, da se lotijo še tega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187467"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "12:32",
+      "cas_konec": "12:50",
+      "trajanje": "18 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187468"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "12:50",
+      "cas_konec": "14:11",
+      "trajanje": "81 min",
+      "naslov_sl": "S5E5 - Življenje na tehtnici",
+      "naslov_orig": "S5E5 - The Biggest Loser Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dvanajst tekmovalcev, en velik cilj – spremeniti svoje življenje. V novi sezoni resničnostne oddaje Življenje na tehtnici se bodo podali na zahtevno pot izgube odvečnih kilogramov in spreminjanja življenjskih navad. Pri tem jim bosta pomagala nova trenerja Valerija Slapnik in Andrej Pavličevič, skozi njihove vzpone in padce pa nas bo vodil Klemen Bučan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187469"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "14:11",
+      "cas_konec": "14:41",
+      "trajanje": "30 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187470"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "14:41",
+      "cas_konec": "15:11",
+      "trajanje": "30 min",
+      "naslov_sl": "S3E2 - Iz ljubezni do psov",
+      "naslov_orig": "S3E2 - For the Love of Dogs",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Paul spozna buldoga Lolo s težavami z očmi, shih tzuja, ki potrebuje fizioterapijo, in zanemarjeno lurcherko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/5/7/bb574171-e035-4bee-9283-be3543191d1b.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187471"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "15:11",
+      "cas_konec": "16:14",
+      "trajanje": "63 min",
+      "naslov_sl": "S0E50 - Zora upanja",
+      "naslov_orig": "S0E50 - Amanecer",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "telenovela"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Alba in Leonel preživita strastno noč skupaj, toda Sebastian in Covadonga sta odločena, da ju ločita. Inigo prosi Amapolo, naj mu da priložnost, vendar ga ta zavrne, saj še vedno ljubi Leonela. Malu je navdušena, ko vidi, koliko je Tona napredoval s terapijami. Prudencia načrtuje, da bi Leonelu razkrila resnico o njegovem izvoru.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/a/0/9ca03018-42de-4089-8382-844fceaeed3d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187473"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "16:14",
+      "cas_konec": "16:57",
+      "trajanje": "43 min",
+      "naslov_sl": "S3E77 - Podeželska zdravnica: Bivša žena",
+      "naslov_orig": "S3E77 - Die Landarztpraxis: Die Exfrau",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Ella je zaskrbljena, ker se ji Chris po odpovedanem zmenku ni več oglasil. Ko ga zato obišče doma, jo popolnoma šokira prizor njegove bivše žene v pižami, ki očitno prenočuje pri njem. Chris Elli sicer zagotavlja, da Lindin prihod ni spremenil njegovih čustev do nje, toda ob pogledu na ponovno združeno družino Lehmann se Ella začne spraševati, ali mu lahko sploh kdaj ponudi isto.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/1/7/7317d8a5-05cb-406f-8a6f-276a07bc7970.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187474"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "16:57",
+      "cas_konec": "17:57",
+      "trajanje": "60 min",
+      "naslov_sl": "S19E8 - Specialna enota Dunaj: Molk vrtnih palčkov",
+      "naslov_orig": "S19E8 - SOKO Wien: Das Schweigen der Gartenzwerge",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "V vrtičkarskem naselju najdejo Harryja Baermeistra mrtvega ob vrtni mizi. Sprva kaže, da je bil zaboden, obdukcija pa razkrije, da je umrl zaradi zastrupitve z ogljikovim monoksidom. Ker je bil med sosedi zelo nepriljubljen, imajo detektivi več možnih osumljencev.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0f/c/a/0fca61e5-98ed-4724-9983-4b97bb8561f2.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187475"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "17:57",
+      "cas_konec": "18:49",
+      "trajanje": "52 min",
+      "naslov_sl": "Planet 18",
+      "naslov_orig": "Planet 18",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187476"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "18:49",
+      "cas_konec": "19:59",
+      "trajanje": "70 min",
+      "naslov_sl": "S4E7 - Riba, raca, rak",
+      "naslov_orig": "S4E7 - Fish on the Cake",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Rudolf Gas je diplomiral iz trobente. Poleg tega je glasbeni producent, avtor ter organizator koncertov. Zase pravi, da je perfekcionist in ljubitelj italijanske hrane. Doma ima glasbeni studio, saj tako najlažje ustvarja. Pri kuhanju mu pomaga žena. Kot smo že prej omenili, je ljubitelj italijanske kuhinje, zato se je odločil za meni v tem stilu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187477"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "19:59",
+      "cas_konec": "20:37",
+      "trajanje": "38 min",
+      "naslov_sl": "S1E16 - 7 minut do zmenka",
+      "naslov_orig": "S1E16 - 7 Minut Do Zmenka",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nova zabavna oddaja, kjer lahko ena sama odločitev v sedmih sekundah spremeni vse! Dva neznanca se bosta prvič srečala v studiu, kjer si bosta pogledala v oči in začela pogovor, poln zabavnih, provokativnih in osebnih vprašanj. V kratkem času bosta poskušala ugotoviti, ali med njima obstaja prava kemija. Nato sledi najpomembnejši trenutek - 7 odločilnih sekund, v katerih se morata odločiti, ali bosta pritisnila na gumb. Če ga pritisne eden od njiju, je zmenka konec. Če se zanj ne odloči nihče, se njuna zgodba nadaljuje tudi zunaj studia.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/e/1/15e1b6cd-3a44-483b-9156-287a7d919828.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187479"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "20:37",
+      "cas_konec": "21:58",
+      "trajanje": "81 min",
+      "naslov_sl": "S5E6 - Življenje na tehtnici",
+      "naslov_orig": "S5E6 - The Biggest Loser Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dvanajst tekmovalcev, en velik cilj – spremeniti svoje življenje. V novi sezoni resničnostne oddaje Življenje na tehtnici se bodo podali na zahtevno pot izgube odvečnih kilogramov in spreminjanja življenjskih navad. Pri tem jim bosta pomagala nova trenerja Valerija Slapnik in Andrej Pavličevič, skozi njihove vzpone in padce pa nas bo vodil Klemen Bučan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187480"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "21:58",
+      "cas_konec": "22:41",
+      "trajanje": "43 min",
+      "naslov_sl": "Planet 18 večerna izdaja",
+      "naslov_orig": "Planet 18 večerna izdaja",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187481"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "22:41",
+      "cas_konec": "23:52",
+      "trajanje": "71 min",
+      "naslov_sl": "S3E4 - Shetlandske skrivnosti",
+      "naslov_orig": "S3E4 - Shetland",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Ko preiskava napreduje, se Perez, Sandy in predvsem Tosh znajdejo pod vse večjimi grožnjami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/d/6/dbd67137-60fc-4563-9e5c-950703b403bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187482"
+    },
+    {
+      "datum": "2026-09-08",
+      "dan": "Torek",
+      "cas": "23:52",
+      "cas_konec": "00:34",
+      "trajanje": "42 min",
+      "naslov_sl": "S3E76 - Podeželska zdravnica: Veliki prihod",
+      "naslov_orig": "S3E76 - Die Landarztpraxis: Der große Auftritt",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Potem ko sta se Chris in Ella nepričakovano poljubila, Ella lebdi v sedmih nebesih. Ker pa Klaro čaka njen zadnji dan v Wiesenkirchnu, se dogovorita, da se bosta o vsem pogovorila šele naslednji večer. Medtem ko Ella z razbijajočim srcem pričakuje večer, Klara Chrisu da svoj blagoslov, da se lahko prepusti čustvom do Elle. Toda ravno ko želi Chris oditi k Elli, se na vratih nenadoma pojavi njegova bivša žena Linda.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/a/5/12a564ab-474d-46a5-94bd-cde160561e5a.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1151187483"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "00:30",
+      "cas_konec": "01:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S3E6 - Iz ljubezni do psov",
+      "naslov_orig": "S3E6 - For the Love of Dogs",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Paul pomaga pri kotitvi psičke Jolie, ki pričakuje kar sedem mladičkov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/8/0/bb808e33-2db4-4b01-8955-5d3a52cefdf7.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819747"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "01:00",
+      "cas_konec": "01:40",
+      "trajanje": "40 min",
+      "naslov_sl": "Planet 18 večerna izdaja",
+      "naslov_orig": "Planet 18 večerna izdaja",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819759"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "01:40",
+      "cas_konec": "02:15",
+      "trajanje": "35 min",
+      "naslov_sl": "S7E7 - Prevare",
+      "naslov_orig": "S7E7 - Betrugsfälle: Blitzkarriere",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819760"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "02:15",
+      "cas_konec": "02:40",
+      "trajanje": "25 min",
+      "naslov_sl": "Nočni program",
+      "naslov_orig": "Nočni program",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "posebni dogodek"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nočni program.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/1/9/4219c525-427a-4c3f-8410-36d6e496957b.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819761"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "02:40",
+      "cas_konec": "03:55",
+      "trajanje": "75 min",
+      "naslov_sl": "S4E1 - Shetlandske skrivnosti",
+      "naslov_orig": "S4E1 - Shetland",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Perez in njegova ekipa morata ponovno odpreti stari primer umora, ko novi dokazi pokažejo, da so Thomasa Malona po krivici obsodili.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/48/b/6/48b66296-f97f-4d08-acc0-92415d6d611b.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819762"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "03:55",
+      "cas_konec": "05:10",
+      "trajanje": "75 min",
+      "naslov_sl": "S4E11 - Riba, raca, rak",
+      "naslov_orig": "S4E11 - Fish on the Cake",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Ta teden mineva v znamenju resničnostnega šova Poroka na prvi pogled. Vsi gostje tega tedna so bili kandidati v tem eksperimentu. Prvi na vrsti je Peter Wolf, ki zelo rad plava in pleše. Pri kuhanju mu pomaga Tanja, ki je bila tudi ena izmed kandidatk. Njegov meni je preprost, a učinkovit. Peter med kuhanjem veliko govori, zato tudi kaj spregleda. Gostje pridejo in se ob jedilniku zabavajo, Peter pa pojasni, da predstavlja njegove skromne začetke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819753"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "05:10",
+      "cas_konec": "05:40",
+      "trajanje": "30 min",
+      "naslov_sl": "S7E8 - Prevare",
+      "naslov_orig": "S7E8 - Betrugsfälle: Kleine Erinnerung an Mallorca",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819738"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "05:40",
+      "cas_konec": "06:30",
+      "trajanje": "50 min",
+      "naslov_sl": "Planet 18",
+      "naslov_orig": "Planet 18",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153819763"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "06:30",
+      "cas_konec": "07:30",
+      "trajanje": "60 min",
+      "naslov_sl": "S19E12 - Specialna enota Dunaj: Pijan skozi življenje",
+      "naslov_orig": "S19E12 - SOKO Wien: Blunznfett durchs Leben",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Max zaradi okvare avtomobila obtiči v štajerskem Pöllauu, kjer ravno preiskujejo umor tamkajšnjega mehanika. Med osumljenci se znajde tudi priljubljeni pevec zabavne glasbe, ki se je vrnil v domači kraj z velikimi načrti. Primer razkriva preplet osebnih zamer, poslovnih interesov in družinskih skrivnosti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/d/a/b7da5bbb-09fc-4ab3-a124-32f6ad5dc578.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825758"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "07:30",
+      "cas_konec": "08:10",
+      "trajanje": "40 min",
+      "naslov_sl": "Planet 18 večerna izdaja",
+      "naslov_orig": "Planet 18 večerna izdaja",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825759"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "08:10",
+      "cas_konec": "08:25",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825760"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "08:25",
+      "cas_konec": "09:25",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E3 - Komisar Rex: Smrt po internetu",
+      "naslov_orig": "S6E3 - Kommissar Rex: Tod per Internet",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2000",
+      "starostna_omejitev": "12+",
+      "opis": "Moški objavi oglas za iskanje partnerice na spletu - tri mesece kasneje ga najdejo mrtvega. Zelo malo je informacij, na podlagi katerih bi lahko začeli preiskavo. Da bi ujel morilca, Alex objavi lasten oglas in se poda pod krinko v svet spletnih zmenkov. A vsak stik je lahko past, in le Rexovo ostro zaznavanje ločuje prevaro od resnice.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/c/f/a8cf94ae-a87d-4b87-83f6-3af9ed060c2d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825761"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "09:25",
+      "cas_konec": "09:40",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825762"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "09:40",
+      "cas_konec": "10:10",
+      "trajanje": "30 min",
+      "naslov_sl": "S7E9 - Prevare",
+      "naslov_orig": "S7E9 - Betrugsfälle: Spurlos verschwunden",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si primere prevar, kot je na primer zgodba ženske, ki ugotovi, da ima njen mož v drugem mestu še eno družino. \n\nAli pa upokojenca, ki prejme lažne račune, in moškega, ki na internetu spozna svojo sanjsko žensko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/d/6/ffd6a18c-e8c5-47d9-b2e5-3a366e2406d3.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825763"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "10:10",
+      "cas_konec": "10:25",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825764"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "10:25",
+      "cas_konec": "11:05",
+      "trajanje": "40 min",
+      "naslov_sl": "S3E81 - Podeželska zdravnica: On je moj",
+      "naslov_orig": "S3E81 - Die Landarztpraxis: Er gehört zu mir",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Ella z nelagodjem pričakuje prvi delovni dan z Iso, saj ji ne sme povedati za njuno morebitno sorodstvo. Čeprav Ella in Isa prvi zdravstveni primer rešita odlično, ima Ella še vedno slabo vest. Chris jo potolaži in povabi na večerjo. Toda ker Chris tudi pred Lindo odkrito stoji za svojimi čustvi do Elle, se njegova prizadeta bivša žena pojavi, da bi sabotirala njun zmenek.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/1/7/7317d8a5-05cb-406f-8a6f-276a07bc7970.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825765"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "11:05",
+      "cas_konec": "11:20",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825766"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "11:20",
+      "cas_konec": "12:35",
+      "trajanje": "75 min",
+      "naslov_sl": "S4E11 - Riba, raca, rak",
+      "naslov_orig": "S4E11 - Fish on the Cake",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Ta teden mineva v znamenju resničnostnega šova Poroka na prvi pogled. Vsi gostje tega tedna so bili kandidati v tem eksperimentu. Prvi na vrsti je Peter Wolf, ki zelo rad plava in pleše. Pri kuhanju mu pomaga Tanja, ki je bila tudi ena izmed kandidatk. Njegov meni je preprost, a učinkovit. Peter med kuhanjem veliko govori, zato tudi kaj spregleda. Gostje pridejo in se ob jedilniku zabavajo, Peter pa pojasni, da predstavlja njegove skromne začetke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825767"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "12:35",
+      "cas_konec": "12:50",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825768"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "12:50",
+      "cas_konec": "14:05",
+      "trajanje": "75 min",
+      "naslov_sl": "S5E8 - Življenje na tehtnici",
+      "naslov_orig": "S5E8 - The Biggest Loser Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dvanajst tekmovalcev, en velik cilj – spremeniti svoje življenje. V novi sezoni resničnostne oddaje Življenje na tehtnici se bodo podali na zahtevno pot izgube odvečnih kilogramov in spreminjanja življenjskih navad. Pri tem jim bosta pomagala nova trenerja Valerija Slapnik in Andrej Pavličevič, skozi njihove vzpone in padce pa nas bo vodil Klemen Bučan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825769"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "14:05",
+      "cas_konec": "14:35",
+      "trajanje": "30 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/f/0/e2f09b12-8caa-4064-bfe4-5e44e97736bc.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825770"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "14:35",
+      "cas_konec": "15:05",
+      "trajanje": "30 min",
+      "naslov_sl": "S3E7 - Iz ljubezni do psov",
+      "naslov_orig": "S3E7 - For the Love of Dogs",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Paul pomaga najti dom Freddieju na Danskem in se loti odstranjevanja močno sprijete dlake zanemarjenega nemškega ovčarja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/5/7/bb574171-e035-4bee-9283-be3543191d1b.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825771"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "15:05",
+      "cas_konec": "16:15",
+      "trajanje": "70 min",
+      "naslov_sl": "S0E55 - Zora upanja",
+      "naslov_orig": "S0E55 - Amanecer",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "telenovela"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Fatima in Camilo postaneta par. Jovita Leonardu noče še povedati, da je njegova mama, ker se boji, da je ne bo sprejel, zatem pa jo napadejo in skoraj pokončajo. Albo še vedno teži poljub s Sebastianom, a se odloči, da bo to zadržala zase, in vsem prepove, da bi povedali Leonelu. Na njun poročni dan pa sledi vrsta nepričakovanih stvari.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/e/f/62efcb08-6a53-47c7-ae92-5166a12cdd47.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825772"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "16:15",
+      "cas_konec": "16:55",
+      "trajanje": "40 min",
+      "naslov_sl": "S3E82 - Podeželska zdravnica: Družinska zadeva",
+      "naslov_orig": "S3E82 - Die Landarztpraxis: Eine Familienangelegenheit",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Ella je pretresena po Lindini čustveni prošnji, naj se drži stran od njene družine. Tolažbo najde pri Isi, ki jo opomni, da je Chris jasno pokazal, koliko mu pomeni. Linda pa medtem Klari prizna, kako močno si želi srečnega konca s Chrisom. Zato Klara poišče očeta in mu čustveno pove, da si najbolj na svetu želi, da bi bila njena starša spet skupaj.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/a/5/12a564ab-474d-46a5-94bd-cde160561e5a.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825773"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "16:55",
+      "cas_konec": "18:00",
+      "trajanje": "65 min",
+      "naslov_sl": "S19E13 - Specialna enota Dunaj: Babuška",
+      "naslov_orig": "S19E13 - SOKO Wien: Matrjoschka",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "12+",
+      "opis": "Strokovnjakinjo za kibernetsko varnost Leandro Bogner najdejo mrtvo za zabojnikom za smeti. Skrivnostni zapis na njenem telesu in nenavadni dokazi vodijo detektive do stare preiskave državne varnosti ter razvoja strogo zaupnega nadzornega programa. Kmalu postane jasno, da je primer veliko bolj nevaren, kot se je sprva zdelo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/8/a/b98aab0e-2943-44b6-ba49-900926b3fa43.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825774"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "18:00",
+      "cas_konec": "18:50",
+      "trajanje": "50 min",
+      "naslov_sl": "Planet 18",
+      "naslov_orig": "Planet 18",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Osrednja informativna oddaja Planet 18 prinaša aktualno dnevno dogajanje pri nas in po svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/7/cce7fc70-e535-4944-a5dd-57495de30f6a.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825775"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "18:50",
+      "cas_konec": "20:05",
+      "trajanje": "75 min",
+      "naslov_sl": "S4E12 - Riba, raca, rak",
+      "naslov_orig": "S4E12 - Fish on the Cake",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Viktorija Santini je bila tudi del šova Poroka na prvi pogled. Pri kuhanju ji pomaga novopečeni fant Samuel. Imata lepo dinamiko. Med kuhanjem je Viki tako osredotočena, da ne more odgovarjati niti na Juretova vprašanja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/3/6/ef36ce53-287a-46e4-a6b4-2e5c3266208d.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825776"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "20:05",
+      "cas_konec": "20:45",
+      "trajanje": "40 min",
+      "naslov_sl": "S1E20 - 7 minut do zmenka",
+      "naslov_orig": "S1E20 - 7 Minut Do Zmenka",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nova zabavna oddaja, kjer lahko ena sama odločitev v sedmih sekundah spremeni vse! Dva neznanca se bosta prvič srečala v studiu, kjer si bosta pogledala v oči in začela pogovor, poln zabavnih, provokativnih in osebnih vprašanj. V kratkem času bosta poskušala ugotoviti, ali med njima obstaja prava kemija. Nato sledi najpomembnejši trenutek - 7 odločilnih sekund, v katerih se morata odločiti, ali bosta pritisnila na gumb. Če ga pritisne eden od njiju, je zmenka konec. Če se zanj ne odloči nihče, se njuna zgodba nadaljuje tudi zunaj studia.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/e/1/15e1b6cd-3a44-483b-9156-287a7d919828.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825777"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "20:45",
+      "cas_konec": "21:55",
+      "trajanje": "70 min",
+      "naslov_sl": "S5E9 - Življenje na tehtnici",
+      "naslov_orig": "S5E9 - The Biggest Loser Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dvanajst tekmovalcev, en velik cilj – spremeniti svoje življenje. V novi sezoni resničnostne oddaje Življenje na tehtnici se bodo podali na zahtevno pot izgube odvečnih kilogramov in spreminjanja življenjskih navad. Pri tem jim bosta pomagala nova trenerja Valerija Slapnik in Andrej Pavličevič, skozi njihove vzpone in padce pa nas bo vodil Klemen Bučan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2d/0/4/2d043493-3aa3-4162-baec-4250c067f720.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825778"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "21:55",
+      "cas_konec": "22:35",
+      "trajanje": "40 min",
+      "naslov_sl": "Planet 18 večerna izdaja",
+      "naslov_orig": "Planet 18 večerna izdaja",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Večerna informativna oddaja prinaša celovit pregled in analizo dnevnega dogajanja, novice iz sveta športa ter vremensko napoved.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/9/9/a499c15e-f2c0-485a-a718-e574ffdb6a31.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825779"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "22:35",
+      "cas_konec": "23:50",
+      "trajanje": "75 min",
+      "naslov_sl": "S4E3 - Shetlandske skrivnosti",
+      "naslov_orig": "S4E3 - Shetland",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Perez zaslišuje Donno o testu DNK, Tosh prispe na Norveško. Nepričakovan zaplet vpelje Pereza in Tosh v sumljiv svet norveških ekstremistov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6a/4/3/6a43d92a-3ce2-4592-b65b-6d2bc4b65e76.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825780"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "23:50",
+      "cas_konec": "00:30",
+      "trajanje": "40 min",
+      "naslov_sl": "S3E81 - Podeželska zdravnica: On je moj",
+      "naslov_orig": "S3E81 - Die Landarztpraxis: Er gehört zu mir",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Ella z nelagodjem pričakuje prvi delovni dan z Iso, saj ji ne sme povedati za njuno morebitno sorodstvo. Čeprav Ella in Isa prvi zdravstveni primer rešita odlično, ima Ella še vedno slabo vest. Chris jo potolaži in povabi na večerjo. Toda ker Chris tudi pred Lindo odkrito stoji za svojimi čustvi do Elle, se njegova prizadeta bivša žena pojavi, da bi sabotirala njun zmenek.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/1/7/7317d8a5-05cb-406f-8a6f-276a07bc7970.jpg",
+      "show_id": "CUP_IECOM_PLANETTV_1153825781"
     }
   ]
 }
