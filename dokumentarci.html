@@ -635,6 +635,25 @@
            border-radius: 9px; padding: 1px 7px; }
 /* align-self je nujen: .dk-telo je flex stolpec, zato bi se inline-block
    raztegnil cez vso sirino kartice in znacka bi izgledala kot pas. */
+
+/* --- Odmik filtrskega bloka (13.9.2026) -------------------------------
+   telo.html uporablja razred .se-filtri, njegovo pravilo pa zivi SAMO v
+   veje/serije/stil.css — ta se na dokumentarni strani ne nalozi (zgradi.py
+   zlepi le _stil.css + _veje_nav.css + dokumentarci/stil.css). Blok je zato
+   ostal brez notranjega odmika in napisi Vrsta/Zanr/Razvrsti so lezali na
+   levem robu strani. Odmik je isti kot pri iskalniku in mrezi (1.5rem /
+   1rem na ozkem), da se stolpec poravna z ostalo stranjo.
+   NE zanasaj se na .se-filtri: ce se kdaj serijski CSS tu ne nalozi, mora
+   veja stati sama. */
+.dk-filtri { padding: 12px 1.5rem; display: flex; flex-direction: column; gap: 8px; }
+
+/* Napisi filtrov: privzeti #555 iz _stil.css je na temnem ozadju komaj
+   berljiv. Ista barva kot podnaslov oddelka — vidno, a se vedno tiho. */
+.dk-filtri .filter-label { color: #8f8aa6; }
+
+@media (max-width: 620px) {
+  .dk-filtri { padding-left: 1rem; padding-right: 1rem; }
+}
 </style>
 </head>
 <body>
