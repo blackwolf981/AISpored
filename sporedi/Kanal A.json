@@ -1,587 +1,10 @@
 {
   "kanal": "Kanal A",
   "ch_ext_id": "kanal-a",
-  "posodobljeno": "2026-09-14 12:25",
-  "od": "2026-09-07",
-  "do": "2026-09-21",
+  "posodobljeno": "2026-09-15 12:25",
+  "od": "2026-09-08",
+  "do": "2026-09-22",
   "oddaje": [
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "00:20",
-      "cas_konec": "00:40",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E14 - Dva moža in pol",
-      "naslov_orig": "S1E14 - Two and a Half Men: I Can't Afford Hyenas",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "12+",
-      "opis": "Charlie odkrije, da je njegov računovodja popolnoma nesposoben.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b0/f/d/b0fdd404-7897-44bb-a24a-f69f7da5e0b9.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149881584"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "00:40",
-      "cas_konec": "01:00",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E15 - Dva moža in pol",
-      "naslov_orig": "S1E15 - Two and a Half Men: Round One to the Hot Crazy Chick",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "12+",
-      "opis": "Charlie in Alan opazita žensko, ki po avtu tolče z bejzbolskim kijem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/c/2/9fc28ac4-94a9-46f8-b32d-1d6f77d8ddb7.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149881573"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "01:00",
-      "cas_konec": "05:00",
-      "trajanje": "240 min",
-      "naslov_sl": "Glasbeni mikser",
-      "naslov_orig": "Glasbeni mikser",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "V Kanalovi družbi nisi nikoli sam, še manj zaspan!\r\n\r\nNa nočnem programu lahko prisluhnete popularnim glasbenim spotom, si označite tv program prihajajočega dne in izbirate med opisi filmov vseh dni v tednu! Zabavno je tudi Potapljanje ladjic!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/1/f/571faee2-6573-4673-837d-12bdbba708a3.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149881586"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Glasbeni mikser",
-      "naslov_orig": "Glasbeni mikser",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "V Kanalovi družbi nisi nikoli sam, še manj zaspan!\r\n\r\nNa nočnem programu lahko prisluhnete popularnim glasbenim spotom, si označite tv program prihajajočega dne in izbirate med opisi filmov vseh dni v tednu! Zabavno je tudi Potapljanje ladjic!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/1/f/571faee2-6573-4673-837d-12bdbba708a3.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1154038981"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "06:00",
-      "cas_konec": "06:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E61 - Pavza!",
-      "naslov_orig": "S1E61 - Pavza!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152081942"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "06:30",
-      "cas_konec": "07:10",
-      "trajanje": "40 min",
-      "naslov_sl": "Svet",
-      "naslov_orig": "Svet",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902698"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "07:10",
-      "cas_konec": "08:00",
-      "trajanje": "50 min",
-      "naslov_sl": "S25E9 - Alarm za Kobro 11",
-      "naslov_orig": "S25E9 - Alarm für Cobra 11: Die Autobahnpolizei: Vermächtnis (1)",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "12+",
-      "opis": "Semir in Krugerjeva sta še vedno na bojni nogi, ko pride do nepričakovanega dogodka. Krugerjeva se nenadoma znajde v smrtni nevarnosti, ko postane talka neusmiljenih gangsterjev, ki se trudijo dokopati do hotelskega sefa. \n\nMedtem ko policisti skušajo rešiti nevarno situacijo, se izkaže, da sef ni glavna tarča nepridipravov, ampak nekdo drug.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/2/c/542cffbd-25dd-4407-a078-7c8e0a5ee2d5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902687"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "08:00",
-      "cas_konec": "08:55",
-      "trajanje": "55 min",
-      "naslov_sl": "S25E10 - Alarm za Kobro 11",
-      "naslov_orig": "S25E10 - Alarm für Cobra 11: Die Autobahnpolizei: Vermächtnis (2)",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Policisti se še vedno trudijo zaustaviti neusmiljene gangsterje, ki so ugrabili hotelirjevega sina Larsa. Toda pregon se konča s tragedijo, saj fant umre pred očetovimi očmi.\n\nSkrhani oče je odločen, da se bo maščeval za sinovo smrt, za katero krivi Semirja. Toda preden Semir dojame, kaj se dogaja, se znajde v brezizhodni situaciji in se mora boriti za svoje preživetje. \n\nTudi tokrat mu na pomoč priskoči Paul, ki za tem sprejme pomembno odločitev in se poslovi od Semirja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/2/c/542cffbd-25dd-4407-a078-7c8e0a5ee2d5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902681"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "08:55",
-      "cas_konec": "09:10",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902673"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "09:10",
-      "cas_konec": "10:00",
-      "trajanje": "50 min",
-      "naslov_sl": "S3E4 - Naša mala klinika: Rogonosec",
-      "naslov_orig": "S3E4 - Nasa mala klinika: Rogonosec",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2005",
-      "starostna_omejitev": "",
-      "opis": "Dr. Jarc stavi z Mucom, da ne more dobiti nobene ženske. Tisti, ki izgubi stavo, bo en teden hodil po NMK z rogovi, ki jih je primarij Krota obesil na steno. \n\nNa NMK se z dojenčkom vrne tudi Velepičeva in kmalu vsi ugotovijo, da mali grize kot volk. V bolnišnici je še vedno tudi bolnik Cvetko, ki pa na zanimiv način dobi službo fizioterapevta. In kdo bo nosil rogove?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/6/7/75672c74-a011-4f1f-8c35-703f91eef4b6.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902669"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "10:00",
-      "cas_konec": "10:15",
-      "trajanje": "15 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "Telestar",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902682"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "10:15",
-      "cas_konec": "11:05",
-      "trajanje": "50 min",
-      "naslov_sl": "S3E5 - Naša mala klinika: Torta",
-      "naslov_orig": "S3E5 - Nasa mala klinika: Torta",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2005",
-      "starostna_omejitev": "",
-      "opis": "Na NMK dobijo novega pacienta. Gospod Nosonja ima zares ogromen nos, ki je tako zelo izpostavljen, da se ob vsaki priliki zlomi. Tako se je nesrečni nos zlomil tudi na njegovi fantovščini. Njegovi prijatelji mu zato ogromno torto pripeljejo kar na NMK. Ravno ta dan pa ima gospod Debevec rojstni dan, zato so vsi prepričani, da je torta zanj. Ko mu pojejo za rojstni dan, iz torte plane presenečenje, sicer namenjeno fantovščini.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/6/7/75672c74-a011-4f1f-8c35-703f91eef4b6.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902674"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "11:05",
-      "cas_konec": "11:40",
-      "trajanje": "35 min",
-      "naslov_sl": "S30E3 - Top Gear",
-      "naslov_orig": "S30E3 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Voditelji se odločijo, da bodo preizkusili avtomobile Jamesa Bonda, ki je za volanom nekaterih najbolj ikoničnih avtov reševal svet. Sleherni je neprecenljiv muzejski primerek. Med drugim bodo predstavili tudi aston martin DB5. \n\nLegendarni štirikolesnik, ki se je v filmih Jamesa Bonda prvič pojavil leta 1964 v Goldfingerju in pozneje še v številnih drugih. Izvedeli bomo, katere avtomobile iz Bondovih filmov si lahko privoščimo tudi navadni smrtniki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902690"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "11:40",
-      "cas_konec": "12:20",
-      "trajanje": "40 min",
-      "naslov_sl": "S30E4 - Top Gear",
-      "naslov_orig": "S30E4 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Freddie bo preizkusil električni SUV-i dirkalnik, terenec Odyssey 21, ki je znanilec nove dobe dirkanja po ledenikih in puščavah ter nastopa na avtomobilističnem prvenstvu električno gnanih dirkalnikov Extreme E. \n\nNato pa se bo z njim podal na dirko z moškim, ki bo letel z reaktivnim nahrbtnikom. Chris in Paddy bosta medtem skušala ugotoviti, ali se bolj splača kupiti ferrari romo ali alfaholics GTA-R.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902691"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "12:20",
-      "cas_konec": "12:35",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902670"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "12:35",
-      "cas_konec": "13:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E20 - Dva moža in pol",
-      "naslov_orig": "S1E20 - Two and a Half Men: Hey, I Can Pee Outside in the Dark",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "12+",
-      "opis": "Da bi razveselil Jaka, Alan poskusi s pogovorom na štiri oči.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cd/3/b/cd3bd35b-57f5-4b3c-9007-bbc5548c28be.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902697"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "13:00",
-      "cas_konec": "13:15",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1154021615"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "13:15",
-      "cas_konec": "13:45",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E21 - Dva moža in pol",
-      "naslov_orig": "S1E21 - Two and a Half Men: No Sniffing, No Wowing",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "12+",
-      "opis": "Judith skrbi, da Charlie slabo vpliva na Jaka.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/c/e/24ce0530-a2c8-431d-8eac-997f8e8d8b4a.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902677"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "13:45",
-      "cas_konec": "14:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E22 - Dva moža in pol",
-      "naslov_orig": "S1E22 - Two and a Half Men: My Doctor Has a Cow Puppet",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "12+",
-      "opis": "Alan podleže Judithinim zahtevam in Jaka pelje k psihiatru.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/b/e/63be3914-52ad-4d4c-8317-271f2f031c37.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902683"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "14:10",
-      "cas_konec": "14:35",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E23 - Dva moža in pol",
-      "naslov_orig": "S1E23 - Two and a Half Men: Just Like Buffalo",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "12+",
-      "opis": "Jake oponaša eno Charliejevih seksističnih opazk.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/2/7/5527113e-488a-4651-962a-8c1e626a734a.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902676"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "14:35",
-      "cas_konec": "15:30",
-      "trajanje": "55 min",
-      "naslov_sl": "S13E9 - Gasilci v Chicagu: Ena usluga",
-      "naslov_orig": "S13E9 - Chicago Fire: A Favor",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "10+",
-      "opis": "Ko se v Chicago vrne nevaren človek iz preteklosti Cruzovega brata, se Cruz znajde pod hudim pritiskom. Severide začne poučevati preiskovanje požigov na akademiji, Mouch pa se odloči poiskati svojce moškega, ki je umrl povsem sam. Medtem ekipa proslavlja pomembni napredovanji, a mir ne traja dolgo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4d/a/6/4da60685-9417-476d-adb4-ed3e0aa7f3d0.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902688"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "15:30",
-      "cas_konec": "16:15",
-      "trajanje": "45 min",
-      "naslov_sl": "S4E9 - Nepraktični šaljivci",
-      "naslov_orig": "S4E9 - Impractical Jokers: Impractical Jokers Live Punishment Special",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Sal, Joe, Q in Murr praznujejo 100. epizodo Nepraktičnih šaljivcev z oddajo v živo sredi New Yorka. V posebni epizodi bodo šaljivci odkljukali nekatere želje s svoje \"bucket liste\", hlinili poškodbe v trgovini, se zabavali z dvostranskim ogledalom ter hodili po vrvi pet nadstropij nad tlemi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a0/6/c/a06c5ea5-61bc-4474-a85e-10caecff1b41.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902678"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "16:15",
-      "cas_konec": "16:45",
-      "trajanje": "30 min",
-      "naslov_sl": "S4E10 - Nepraktični šaljivci",
-      "naslov_orig": "S4E10 - Impractical Jokers: The Big Uneasy",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Fantje tokrat zavzamejo New Orleans, kjer bodo kradli požirke iz pijač neznancev v slavnem baru ter brez sramu vskočili na vožnje s kočijami. Poraženec pa bo doživel nepozabno preobrazbo v legendarno pošast iz močvirja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a0/6/c/a06c5ea5-61bc-4474-a85e-10caecff1b41.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902684"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "16:45",
-      "cas_konec": "17:20",
-      "trajanje": "35 min",
-      "naslov_sl": "S30E5 - Top Gear",
-      "naslov_orig": "S30E5 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Ali je novi land rover defender najboljši terenec, ki je danes v prodaji? Paddy, Chris in Freddie se bodo z novim defenderjem ter dvema njegovima tekmecema - mercedes g-wagonom in arial nomadom - odpravili na ekspedicijo po divjem Škotskem višavju, da bi enkrat za vselej razrešili to dilemo.\r\n\r\nPotem, ko se bodo voditelji pomerili na zahtevnem poligonu, se bodo njihovi jekleni konjički znašli sredi mrzlega jezera.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902679"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "17:20",
-      "cas_konec": "17:50",
-      "trajanje": "30 min",
-      "naslov_sl": "S30E6 - Top Gear",
-      "naslov_orig": "S30E6 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Trije voditelji nadaljujejo z izzivi, da bi ugotovili, katero izmed izbranih vozil je najboljši terenec. \r\n\r\nTokrat bodo morali pokazati predvsem svoj pogum v nenavadnem testu, v katerem jih bodo avtomobili vlekli za seboj, nato pa se bodo podali na zahteven in strm teren, kjer bodo morali najti ključ ter dostaviti ogromno žarnico na svetilnik na najzahodnejši točki Britanije.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902685"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "17:50",
-      "cas_konec": "18:45",
-      "trajanje": "55 min",
-      "naslov_sl": "Svet",
-      "naslov_orig": "Svet",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902680",
-      "zivo": true
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "18:45",
-      "cas_konec": "19:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E24 - Dva moža in pol",
-      "naslov_orig": "S1E24 - Two and a Half Men: Can You Feel My Finger?",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "12+",
-      "opis": "Ko se Charlie ustraši, da je ena njegovih punc zanosila, mu Alan predlaga vazektomijo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/5/4/805499a5-361a-45c3-ac4d-a06e6290172e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902692"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "19:10",
-      "cas_konec": "19:35",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E1 - Dva moža in pol",
-      "naslov_orig": "S2E1 - Two and a Half Men: Back Off Mary Poppins",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Alan se počuti osamljenega, ko njegovih starih prijateljev ni nikjer.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/c/d/e3cde41b-c04c-48f2-973d-9e5ee3d6dd75.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902693"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "19:35",
-      "cas_konec": "20:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E2 - Dva moža in pol",
-      "naslov_orig": "S2E2 - Two and a Half Men: Enjoy Those Garlic Balls",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Alan vrne keramično žirafo, ki jo je vzel ob ločitvi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/d/e/00ded565-c89b-4e36-bfb4-d55078feeb80.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902694"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "20:00",
-      "cas_konec": "22:35",
-      "trajanje": "155 min",
-      "naslov_sl": "Pogajalec",
-      "naslov_orig": "The Negotiator",
-      "kategorija": "Film",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "1998",
-      "starostna_omejitev": "12+",
-      "opis": "Danny je policist, ki obvlada pogajanja z ugrabitelji. Ko umorijo njegovega partnerja, ki je imel dokaze o korupciji, postane glavni osumljenec.\r\n\r\nKo nekega dne nekdo umori njegovega partnerja, ki je imel dokaze o policijski korupciji, Danny postane glavni osumljenec. Ker mu nihče ne verjame, da je nedolžen, se Danny odloči za drastično akcijo. \n\nVdre v prostore čikaške tajne službe, ugrabi nekaj tamkajšnjih zaposlenih in zahteva odgovore od inšpektorja Terencea Niebauma. Obenem pokliče pogajalca Chrisa Sabiana, edinega človeka, ki mu Terence zaupa, in ga prosi za pomoč.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/c/4/ffc46239-82cc-4e79-bc0a-d25be00dd8ef.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902689"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "22:35",
-      "cas_konec": "23:10",
-      "trajanje": "35 min",
-      "naslov_sl": "Svet: pregled dneva",
-      "naslov_orig": "Svet: pregled dneva",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.\r\n\r\nSvet: pregled dneva je na Kanalu A vsak delovni dan zvečer. Voditelja Nuša Lesar in Adi Omerović v informativni oddaji gledalce popeljeta skozi najbolj odmevne dogodke in v pregledu ponudita ključne informacije o dogajanju doma in po svetu. Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902695"
-    },
-    {
-      "datum": "2026-09-07",
-      "dan": "Ponedeljek",
-      "cas": "23:10",
-      "cas_konec": "01:15",
-      "trajanje": "125 min",
-      "naslov_sl": "Jason Bourne",
-      "naslov_orig": "Jason Bourne",
-      "kategorija": "Film",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Nova doza akcijske zgodbe o skrivnostnem super agentu Bournu.\r\n\r\nNekdanji agent CIE, Jason Bourne, ki se skriva že več kot desetletje, ponovno stopi iz senc, ko ga začne iskati njegova stara zaveznica Nicky Parsons. Čeprav se Bourne sedaj končno spominja svoje resnične identitete, je pred njim skritih še veliko tajnih podatkov, ki se jih z Nicky odločita raziskati, a jima pot prekrižata CIA agenta Dewey in Heather.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/5/d/b75d906a-cf62-4927-99eb-c998048d5e1f.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1149902699"
-    },
     {
       "datum": "2026-09-08",
       "dan": "Torek",
@@ -1197,601 +620,6 @@
       "opis": "Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.\r\n\r\nSvet: pregled dneva je na Kanalu A vsak delovni dan zvečer. Voditelja Nuša Lesar in Adi Omerović v informativni oddaji gledalce popeljeta skozi najbolj odmevne dogodke in v pregledu ponudita ključne informacije o dogajanju doma in po svetu. Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
       "show_id": "CUP_IECOM_AKANAL_1149920737"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "00:40",
-      "cas_konec": "01:05",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E12 - Dva moža in pol",
-      "naslov_orig": "S2E12 - Two and a Half Men: A Lung Full of Alan",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Jamie, Alanov prijatelj iz srednje šole, pride na obisk.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/e/d/81edaeb1-9065-46ee-9fe9-08035e748f57.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1154955950"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "01:05",
-      "cas_konec": "01:30",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E13 - Dva moža in pol",
-      "naslov_orig": "S2E13 - Two and a Half Men: Zejdz z Zmoich Wlosów",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Alan pusti Judith, da se začasno vseli v hišo na plaži.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fe/0/c/fe0ca18e-1e70-4e7d-abfa-899b7648b810.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1154955951"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "01:30",
-      "cas_konec": "01:55",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E14 - Dva moža in pol",
-      "naslov_orig": "S2E14 - Two and a Half Men: Those Big Pink Things with Coconut",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Evelyn omalovažuje Jakovo oceno na testu, za katero se je veliko učil.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/0/9/f709dc40-07ad-43ef-a00c-7648dd3fac00.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1154955952"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "01:55",
-      "cas_konec": "02:45",
-      "trajanje": "50 min",
-      "naslov_sl": "S1E3 - Besa",
-      "naslov_orig": "S1E3 - Besa: Pukotine",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "Uroš se vrne v Beograd, kjer se mora soočiti z velikimi finančnimi težavami, v katere je zašlo njegovo podjetje. Dardana razjezi časopisni članek o Besijaninem pogrebu, ki ga je napisal Anđelo Dini. \n\nOdloči se, da se bo z Urošem spet srečal v Beogradu in mu predlagal ponudbo, ki je ne bo mogel zavrniti. Uroš bo kmalu spet naletel na človeka, za katerega ni verjel, da ga bo še kdaj srečal. Potem ko na ulcinjski plaži odkrijejo novo truplo, inšpektor Petrit Koci izda nalog za Hašimovo aretacijo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/8/2ba89c7c-22f5-436e-911b-03a31a6aa4cc.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152588733"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "02:45",
-      "cas_konec": "06:00",
-      "trajanje": "195 min",
-      "naslov_sl": "Glasbeni mikser",
-      "naslov_orig": "Glasbeni mikser",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "V Kanalovi družbi nisi nikoli sam, še manj zaspan!\r\n\r\nNa nočnem programu lahko prisluhnete popularnim glasbenim spotom, si označite tv program prihajajočega dne in izbirate med opisi filmov vseh dni v tednu! Zabavno je tudi Potapljanje ladjic!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/1/f/571faee2-6573-4673-837d-12bdbba708a3.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152588754"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "06:00",
-      "cas_konec": "06:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E31 - Pavza!",
-      "naslov_orig": "S1E31 - Pavza!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590687"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "06:30",
-      "cas_konec": "07:20",
-      "trajanje": "50 min",
-      "naslov_sl": "Svet",
-      "naslov_orig": "Svet",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590695"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "07:20",
-      "cas_konec": "08:15",
-      "trajanje": "55 min",
-      "naslov_sl": "S26E5 - Alarm za Kobro 11",
-      "naslov_orig": "S26E5 - Alarm für Cobra 11: Die Autobahnpolizei: Völlig schmerzfrei",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Potem ko drzna tatova ukradeta neprecenljiv dragulj, ju med begom napadejo nasilni gangsterji, a jim uspeta pobegniti. Roman Kramer je prepričan, da je v zločin vpleten njegov sin Nino, zato se za pomoč obrne na Semirja in Vicky, da bi mu pomagala preprečiti najhujše. \n\nToda mladi Nino in njegov prijatelj Leonard se znajdeta na muhi nevarnega trgovca z orožjem, ki je odločen, da bo pravico vzel v svoje roke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/1/4/ce144966-195d-4685-adb0-4620d93cc6f0.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590670"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "08:15",
-      "cas_konec": "09:15",
-      "trajanje": "60 min",
-      "naslov_sl": "S26E6 - Alarm za Kobro 11",
-      "naslov_orig": "S26E6 - Alarm für Cobra 11: Die Autobahnpolizei: Innerer Feind",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Potem ko je doživela hudo prometno nesrečo, se Vicky znajde v bolnišnici, kjer počasi okreva. Toda njena zdravnica jo šokira z nepričakovano novico. Ker so ji zdravila proti bolečinam poškodovala ledvice, mora na dializo. \n\nV bolnišnični sobi se Vicky spoprijatelji z mlado pacientko, ki nenadoma umre zaradi srčnega infarkta. Policistka kmalu naleti na več bolnikov, ki so umrli na podoben način, zato se odloči, da bo raziskala zadevo. Vicky se znajde v smrtni nevarnosti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/96/7/0/9670b6f2-4682-41e8-98d3-2c96b64ffe75.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590681"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "09:15",
-      "cas_konec": "09:30",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590682"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "09:30",
-      "cas_konec": "10:25",
-      "trajanje": "55 min",
-      "naslov_sl": "S3E10 - Naša mala klinika: Zamenjava",
-      "naslov_orig": "S3E10 - Nasa mala klinika: Zamenjava",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2005",
-      "starostna_omejitev": "",
-      "opis": "Veso neki punci natvezi, da je kirurg. Ko ga dekle obišče na kliniki, k sreči ni Velepičeve, zato z Jarcem zamenjata uniformi. Na NMK pride tudi skupina nadpovprečno inteligentnih otrok. \n\nPametni malčki med vizito ugotovijo, da ima gospod Debevec težave s slepičem, s čemer spravijo Vesa v zagato. Medtem Jarc brezskrbno poležava na recepciji, ko pride Velepičeva.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/6/7/75672c74-a011-4f1f-8c35-703f91eef4b6.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590688"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "10:25",
-      "cas_konec": "10:40",
-      "trajanje": "15 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "Telestar",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590678"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "10:40",
-      "cas_konec": "11:35",
-      "trajanje": "55 min",
-      "naslov_sl": "S3E11 - Naša mala klinika: Dimnikar",
-      "naslov_orig": "S3E11 - Nasa mala klinika: Dimnikar",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2005",
-      "starostna_omejitev": "",
-      "opis": "Primariju Kroti je potekel rok za strokovnega direktorja klinike, zato so naenkrat vsi v igri za to delovno mesto. Predvsem dr. Jarc in dr. Vrabec si skačeta v lase, kdo bo postal novi nosilec strokovnosti. \n\nCveto si je na zabavi z rokometašicami v mednožju pridelal pekoči izcedek in mu je preveč nerodno, da bi poiskal pomoč. Velepičeva naroči čiščenje dimnikov v bolnišnici in nekaj denarja hoče pri tem zaslužit tudi Veso.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/6/7/75672c74-a011-4f1f-8c35-703f91eef4b6.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590696"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "11:35",
-      "cas_konec": "12:10",
-      "trajanje": "35 min",
-      "naslov_sl": "S31E5 - Top Gear",
-      "naslov_orig": "S31E5 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Tokrat se voditelji odpravijo na veliko mednarodno ekspedicijo na Islandijo. Potem ko so določili destinacijo, si Freddie, Chris in Paddy izberejo rabljen, neprimeren britanski avtomobil, s katerim se bodo odpravili osvajat divjo notranjost Islandije. \n\nPoleg tega se bodo udeležili nekaj tradicionalnih islandskih dejavnosti, od dirkanja na pesku do jadranja z avtomobilom, ter dirke s Stigom in pošastnim tovornjakom do roba vulkana.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590689"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "12:10",
-      "cas_konec": "12:45",
-      "trajanje": "35 min",
-      "naslov_sl": "S31E6 - Top Gear",
-      "naslov_orig": "S31E6 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Tokratna tema so ameriški športni avtomobili. Na legandarni cesti Route 66 so zelo zabavni, vendar v Veliki Britaniji nimajo smisla. Preveliki, preveč robati, volan pa imajo vedno na napačni strani. \n\nZdaj pa je tu novi chevrolet corvette z veliko nove pametne tehnologije in z volanom na pravem mestu. Je to končno ameriški športni avtomobil, ki ima smisel v Združenem kraljestvu? Freddie, ki je navdušenec nad ameriškimi avtomobili, se odpravi na dirkališče, da bi to ugotovil ...",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590664"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "12:45",
-      "cas_konec": "13:00",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590690"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "13:00",
-      "cas_konec": "13:25",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E19 - Dva moža in pol",
-      "naslov_orig": "S2E19 - Two and a Half Men: A Low, Guttural Tongue-Flapping Noise",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Alan in Charlie v kavarni srečata Sherri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/23/c/8/23c89540-ad4a-475f-bc13-2dbf7dba6ef8.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590669"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "13:25",
-      "cas_konec": "13:50",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E20 - Dva moža in pol",
-      "naslov_orig": "S2E20 - Two and a Half Men: I Always Wanted a Shaved Monkey",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "10+",
-      "opis": "Judith pošlje Alanu račun za drage čevlje, ki jih je kupila Jaku.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/c/2/90c2168d-d363-453e-924b-f5b605653d72.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590676"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "13:50",
-      "cas_konec": "14:05",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590672"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "14:05",
-      "cas_konec": "14:35",
-      "trajanje": "30 min",
-      "naslov_sl": "S2E21 - Dva moža in pol",
-      "naslov_orig": "S2E21 - Two and a Half Men: A Sympathetic Crotch to Cry On",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Evelyn izve, da je njen drugi mož, Harry, umrl.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/5/9215ee21-87dd-49ef-94c6-6caa5bf6b45e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590694"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "14:35",
-      "cas_konec": "15:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E22 - Dva moža in pol",
-      "naslov_orig": "S2E22 - Two and a Half Men: That Old Hose Bag Is My Mother",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Evelyn da Alanu posojilo, da si lahko kupi novega porscheja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/32/1/6/32163f0b-01fc-4c45-a7a1-afd74f75df34.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1154956442"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "15:00",
-      "cas_konec": "15:55",
-      "trajanje": "55 min",
-      "naslov_sl": "S13E15 - Gasilci v Chicagu: Preblizu",
-      "naslov_orig": "S13E15 - Chicago Fire: Too Close",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "10+",
-      "opis": "Severide in Kiddova nestrpno čakata pomembno novico glede posvojitve, medtem ko Damon pri Severidu poišče nasvet zaradi težav v novem gasilskem domu. \n\nPascal išče popolno darilo za obletnico, rutinska intervencija pa ekipo pripelje do tragičnega odkritja, ki bo pretreslo vse v gasilskem domu 51.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/a/e/89ae3969-3161-4179-8014-bab91f2e2f52.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590683"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "15:55",
-      "cas_konec": "16:25",
-      "trajanje": "30 min",
-      "naslov_sl": "S5E7 - Nepraktični šaljivci: Dajanje P-ja v Pool",
-      "naslov_orig": "S5E7 - Impractical Jokers: Putting the P in Pool",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Fantje poskrbijo za zmedo kot zanič blagajniki v trgovini, nato pa se v nakupovalnem središču zapletejo v smešen izziv z laserskimi kazalniki, ki spravi mimoidoče v smeh. Poraženec pa je povsem osramočen, ko skuša plavalcem ob bazenu pokazati, da je \"številka ena\"...",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/6/3/6e630abc-ae24-45e2-b3b6-29d5c3b4e667.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590673"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "16:25",
-      "cas_konec": "16:50",
-      "trajanje": "25 min",
-      "naslov_sl": "S5E8 - Nepraktični šaljivci: Zastaralni rok",
-      "naslov_orig": "S5E8 - Impractical Jokers: Statue of Limitations",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Joe, Sal, Murr in Q goste v restavraciji \"postrežejo\" z neprijaznostjo in kaosom kot najbolj neprijetni gostitelji, kar jih je videl svet. Nato gredo še korak dlje, ko na ulici prosijo mimoidoče, naj čuvajo njihove domnevne dedke. Veliki poraženec pa brez vednosti postane del najdaljše kazni v zgodovini oddaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/6/3/6e630abc-ae24-45e2-b3b6-29d5c3b4e667.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590674"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "16:50",
-      "cas_konec": "17:25",
-      "trajanje": "35 min",
-      "naslov_sl": "S31E7 - Top Gear",
-      "naslov_orig": "S31E7 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Ker je tokrat Stig zaseden, bo Paddy sedel za volan zelo dragega in edinstvenega modela Victorja, Aston Martinovo mojstrovino po zgledu Vulcana, zaradi česar bo njegov lastnik moral poseči po močni pijači. \n\nUnikaten superavtomobil se ponaša s kar 800 konjskimi močmi. Freddieja Flintoffa pa čaka izziv, saj bo skušal postati pravi dirkač. Ali bo Freddie uspel pridobiti dirkaško licenco, da se bo lahko s Harrisom udeležil vrhunske vzdržljivostne dirke?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590666"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "17:25",
-      "cas_konec": "17:55",
-      "trajanje": "30 min",
-      "naslov_sl": "S31E8 - Top Gear",
-      "naslov_orig": "S31E8 - Top Gear UK",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "DMC DeLorean, morda eden najbolj posebnih avtomobilov vseh časov, je praznoval 40 let. Kultni avtomobil iz nerjavečega jekla z dvižnimi vrati, ki je ovekovečen v filmu Nazaj v prihodnost, se ponaša tudi z najbolj nenavadno življenjsko zgodbo med vsemi avtomobili.\n\nChris se v tokratnem prispevku poglobi v divji svet FBI-ja, supermodelov, preprodajanja mamil in potovanja skozi čas ...",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590675"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "17:55",
-      "cas_konec": "18:45",
-      "trajanje": "50 min",
-      "naslov_sl": "Svet",
-      "naslov_orig": "Svet",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590692",
-      "zivo": true
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "18:45",
-      "cas_konec": "19:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E23 - Dva moža in pol",
-      "naslov_orig": "S2E23 - Two and a Half Men: Squab, Squab, Squab, Squab, Squab",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Evelyn prisili Alana, da pusti Jaka, da prespi pri njej.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/95/f/5/95f54168-9047-4bb7-8261-7e193d37b4b1.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590679"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "19:10",
-      "cas_konec": "19:35",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E24 - Dva moža in pol",
-      "naslov_orig": "S2E24 - Two and a Half Men: Does This Smell Funny to You ?",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Jake mora razredu povedati, kako je preživel vikend.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4d/c/3/4dc34fcc-8396-4f9c-bc16-6cc2e6482a37.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590671"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "19:35",
-      "cas_konec": "20:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S3E1 - Dva moža in pol",
-      "naslov_orig": "S3E1 - Two and a Half Men: Weekend in Bangkok with Two Olympic Gymnasts",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "Charlie se javi, da bo čez vikend skrbel za Jaka.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4a/8/0/4a809104-13e3-4a21-b4de-46446eece82e.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590665"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "20:00",
-      "cas_konec": "21:45",
-      "trajanje": "105 min",
-      "naslov_sl": "Pobesneli Max 2",
-      "naslov_orig": "Mad Max 2",
-      "kategorija": "Film",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "1981",
-      "starostna_omejitev": "15+",
-      "opis": "Zgodba je postavljena v prihodnost, ljudje so vedno bolj necivilizirani, svetu vladata kaos in anarhija, bencin pa je več vreden kot zlato.\r\n\r\nMax naleti na skupino ljudi, ki poskušajo svoje zaloge dragocene tekočine zaščititi pred nevarnimi cestnimi bojevniki. Odloči se, da jim bo pomagal, tu pa se razburljiva akcijska pustolovščina šele začne.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/67/b/d/67bdb0bc-76e0-4dd7-9c73-0d2c7afee964.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590680"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "21:45",
-      "cas_konec": "22:20",
-      "trajanje": "35 min",
-      "naslov_sl": "Svet: pregled dneva",
-      "naslov_orig": "Svet: pregled dneva",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.\r\n\r\nSvet: pregled dneva je na Kanalu A vsak delovni dan zvečer. Voditelja Nuša Lesar in Adi Omerović v informativni oddaji gledalce popeljeta skozi najbolj odmevne dogodke in v pregledu ponudita ključne informacije o dogajanju doma in po svetu. Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590668"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "22:20",
-      "cas_konec": "00:25",
-      "trajanje": "125 min",
-      "naslov_sl": "Kako se znebiti fanta v 10 dneh",
-      "naslov_orig": "How to Lose a Guy in 10 Days",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "12+",
-      "opis": "Andie mora za žensko revijo napisati članek o tem, kako se znebiti fanta v desetih dneh.\r\n\r\nAndie mora dokazati, da se lahko znebi fanta v 10 dneh. Ben mora dokazati, da lahko osvoji dekle v 10 dneh. Čas teče — v tej pripovedi o seksu, lažeh in nezaslišanih romantičnih ognjemetih pa se skriva najbolj divja, zabavna komedija leta!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/4/7/72470050-3fbc-4fc2-8f5b-80a0cfc97672.jpg",
-      "show_id": "CUP_IECOM_AKANAL_1152590685"
     },
     {
       "datum": "2026-09-09",
@@ -8193,6 +7021,1196 @@
       "opis": "Zgodba je postavljena v prihodnost, ljudje so vedno bolj necivilizirani, svetu vladata kaos in anarhija, bencin pa je več vreden kot zlato.\r\n\r\nMax naleti na skupino ljudi, ki poskušajo svoje zaloge dragocene tekočine zaščititi pred nevarnimi cestnimi bojevniki. Odloči se, da jim bo pomagal, tu pa se razburljiva akcijska pustolovščina šele začne.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/67/b/d/67bdb0bc-76e0-4dd7-9c73-0d2c7afee964.jpg",
       "show_id": "CUP_IECOM_AKANAL_1155550755"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "00:55",
+      "cas_konec": "01:20",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E12 - Dva moža in pol",
+      "naslov_orig": "S2E12 - Two and a Half Men: A Lung Full of Alan",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Jamie, Alanov prijatelj iz srednje šole, pride na obisk.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/e/d/81edaeb1-9065-46ee-9fe9-08035e748f57.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1154955950"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "01:20",
+      "cas_konec": "01:40",
+      "trajanje": "20 min",
+      "naslov_sl": "S2E13 - Dva moža in pol",
+      "naslov_orig": "S2E13 - Two and a Half Men: Zejdz z Zmoich Wlosów",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Alan pusti Judith, da se začasno vseli v hišo na plaži.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fe/0/c/fe0ca18e-1e70-4e7d-abfa-899b7648b810.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1154955951"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "01:40",
+      "cas_konec": "02:05",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E14 - Dva moža in pol",
+      "naslov_orig": "S2E14 - Two and a Half Men: Those Big Pink Things with Coconut",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Evelyn omalovažuje Jakovo oceno na testu, za katero se je veliko učil.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/0/9/f709dc40-07ad-43ef-a00c-7648dd3fac00.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1154955952"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "02:05",
+      "cas_konec": "03:00",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E3 - Budva na morski peni",
+      "naslov_orig": "S1E3 - Budva na pjenu od mora",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Joku ne uspe razstreliti Savinega gradbišča, saj delovodja odkrije eksploziv. Policija ga pridrži v zaporu, dokler ponj ne pride sin. Olga da očetu jasno vedeti, da mu ne bo pomagala na nikakršen nezakonit način. \r\n\r\nMedtem Lina odkrije, kakšne namere ima Lunja Dokmanović, vendar Savi ne prizna, da je bila nekoč z njim. \r\n\r\nPri Radmilovićevih razprava teče okoli Lukine veze z Bojano, enako pa je tudi v hiši Save Bačića, zato se Bojana odloči pobegniti od doma. Martin z Alekovo pomočjo s Savinega dvorišča ukrade amforo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3a/1/1/3a11ffa1-fe70-4c40-a7f7-20b8c7df7ad8.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155373760"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "03:00",
+      "cas_konec": "06:00",
+      "trajanje": "180 min",
+      "naslov_sl": "Glasbeni mikser",
+      "naslov_orig": "Glasbeni mikser",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "V Kanalovi družbi nisi nikoli sam, še manj zaspan!\r\n\r\nNa nočnem programu lahko prisluhnete popularnim glasbenim spotom, si označite tv program prihajajočega dne in izbirate med opisi filmov vseh dni v tednu! Zabavno je tudi Potapljanje ladjic!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/1/f/571faee2-6573-4673-837d-12bdbba708a3.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152588754"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "06:00",
+      "cas_konec": "06:25",
+      "trajanje": "25 min",
+      "naslov_sl": "S1E31 - Pavza!",
+      "naslov_orig": "S1E31 - Pavza!",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590687"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "06:25",
+      "cas_konec": "07:05",
+      "trajanje": "40 min",
+      "naslov_sl": "Svet",
+      "naslov_orig": "Svet",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590695"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "07:05",
+      "cas_konec": "07:55",
+      "trajanje": "50 min",
+      "naslov_sl": "S26E5 - Alarm za Kobro 11",
+      "naslov_orig": "S26E5 - Alarm für Cobra 11: Die Autobahnpolizei: Völlig schmerzfrei",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Potem ko drzna tatova ukradeta neprecenljiv dragulj, ju med begom napadejo nasilni gangsterji, a jim uspeta pobegniti. Roman Kramer je prepričan, da je v zločin vpleten njegov sin Nino, zato se za pomoč obrne na Semirja in Vicky, da bi mu pomagala preprečiti najhujše. \n\nToda mladi Nino in njegov prijatelj Leonard se znajdeta na muhi nevarnega trgovca z orožjem, ki je odločen, da bo pravico vzel v svoje roke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/1/4/ce144966-195d-4685-adb0-4620d93cc6f0.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590670"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "07:55",
+      "cas_konec": "08:50",
+      "trajanje": "55 min",
+      "naslov_sl": "S26E6 - Alarm za Kobro 11",
+      "naslov_orig": "S26E6 - Alarm für Cobra 11: Die Autobahnpolizei: Innerer Feind",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Potem ko je doživela hudo prometno nesrečo, se Vicky znajde v bolnišnici, kjer počasi okreva. Toda njena zdravnica jo šokira z nepričakovano novico. Ker so ji zdravila proti bolečinam poškodovala ledvice, mora na dializo. \n\nV bolnišnični sobi se Vicky spoprijatelji z mlado pacientko, ki nenadoma umre zaradi srčnega infarkta. Policistka kmalu naleti na več bolnikov, ki so umrli na podoben način, zato se odloči, da bo raziskala zadevo. Vicky se znajde v smrtni nevarnosti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/96/7/0/9670b6f2-4682-41e8-98d3-2c96b64ffe75.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590681"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "08:50",
+      "cas_konec": "09:05",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590682"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "09:05",
+      "cas_konec": "10:05",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E10 - Naša mala klinika: Zamenjava",
+      "naslov_orig": "S3E10 - Nasa mala klinika: Zamenjava",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2005",
+      "starostna_omejitev": "",
+      "opis": "Veso neki punci natvezi, da je kirurg. Ko ga dekle obišče na kliniki, k sreči ni Velepičeve, zato z Jarcem zamenjata uniformi. Na NMK pride tudi skupina nadpovprečno inteligentnih otrok. \n\nPametni malčki med vizito ugotovijo, da ima gospod Debevec težave s slepičem, s čemer spravijo Vesa v zagato. Medtem Jarc brezskrbno poležava na recepciji, ko pride Velepičeva.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/6/7/75672c74-a011-4f1f-8c35-703f91eef4b6.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590688"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "10:05",
+      "cas_konec": "10:20",
+      "trajanje": "15 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "Telestar",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590678"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "10:20",
+      "cas_konec": "11:10",
+      "trajanje": "50 min",
+      "naslov_sl": "S3E11 - Naša mala klinika: Dimnikar",
+      "naslov_orig": "S3E11 - Nasa mala klinika: Dimnikar",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2005",
+      "starostna_omejitev": "",
+      "opis": "Primariju Kroti je potekel rok za strokovnega direktorja klinike, zato so naenkrat vsi v igri za to delovno mesto. Predvsem dr. Jarc in dr. Vrabec si skačeta v lase, kdo bo postal novi nosilec strokovnosti. \n\nCveto si je na zabavi z rokometašicami v mednožju pridelal pekoči izcedek in mu je preveč nerodno, da bi poiskal pomoč. Velepičeva naroči čiščenje dimnikov v bolnišnici in nekaj denarja hoče pri tem zaslužit tudi Veso.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/6/7/75672c74-a011-4f1f-8c35-703f91eef4b6.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590696"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "11:10",
+      "cas_konec": "11:45",
+      "trajanje": "35 min",
+      "naslov_sl": "S31E5 - Top Gear",
+      "naslov_orig": "S31E5 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Tokrat se voditelji odpravijo na veliko mednarodno ekspedicijo na Islandijo. Potem ko so določili destinacijo, si Freddie, Chris in Paddy izberejo rabljen, neprimeren britanski avtomobil, s katerim se bodo odpravili osvajat divjo notranjost Islandije. \n\nPoleg tega se bodo udeležili nekaj tradicionalnih islandskih dejavnosti, od dirkanja na pesku do jadranja z avtomobilom, ter dirke s Stigom in pošastnim tovornjakom do roba vulkana.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590689"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "11:45",
+      "cas_konec": "12:25",
+      "trajanje": "40 min",
+      "naslov_sl": "S31E6 - Top Gear",
+      "naslov_orig": "S31E6 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Tokratna tema so ameriški športni avtomobili. Na legandarni cesti Route 66 so zelo zabavni, vendar v Veliki Britaniji nimajo smisla. Preveliki, preveč robati, volan pa imajo vedno na napačni strani. \n\nZdaj pa je tu novi chevrolet corvette z veliko nove pametne tehnologije in z volanom na pravem mestu. Je to končno ameriški športni avtomobil, ki ima smisel v Združenem kraljestvu? Freddie, ki je navdušenec nad ameriškimi avtomobili, se odpravi na dirkališče, da bi to ugotovil ...",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590664"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "12:25",
+      "cas_konec": "12:40",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590690"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "12:40",
+      "cas_konec": "13:10",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E19 - Dva moža in pol",
+      "naslov_orig": "S2E19 - Two and a Half Men: A Low, Guttural Tongue-Flapping Noise",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Alan in Charlie v kavarni srečata Sherri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/23/c/8/23c89540-ad4a-475f-bc13-2dbf7dba6ef8.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590669"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "13:10",
+      "cas_konec": "13:35",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E20 - Dva moža in pol",
+      "naslov_orig": "S2E20 - Two and a Half Men: I Always Wanted a Shaved Monkey",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2003",
+      "starostna_omejitev": "10+",
+      "opis": "Judith pošlje Alanu račun za drage čevlje, ki jih je kupila Jaku.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/c/2/90c2168d-d363-453e-924b-f5b605653d72.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590676"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "13:35",
+      "cas_konec": "13:50",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590672"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "13:50",
+      "cas_konec": "14:20",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E21 - Dva moža in pol",
+      "naslov_orig": "S2E21 - Two and a Half Men: A Sympathetic Crotch to Cry On",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Evelyn izve, da je njen drugi mož, Harry, umrl.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/5/9215ee21-87dd-49ef-94c6-6caa5bf6b45e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590694"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "14:20",
+      "cas_konec": "14:50",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E22 - Dva moža in pol",
+      "naslov_orig": "S2E22 - Two and a Half Men: That Old Hose Bag Is My Mother",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Evelyn da Alanu posojilo, da si lahko kupi novega porscheja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/32/1/6/32163f0b-01fc-4c45-a7a1-afd74f75df34.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1154956442"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "14:50",
+      "cas_konec": "15:45",
+      "trajanje": "55 min",
+      "naslov_sl": "S13E15 - Gasilci v Chicagu: Preblizu",
+      "naslov_orig": "S13E15 - Chicago Fire: Too Close",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "10+",
+      "opis": "Severide in Kiddova nestrpno čakata pomembno novico glede posvojitve, medtem ko Damon pri Severidu poišče nasvet zaradi težav v novem gasilskem domu. \n\nPascal išče popolno darilo za obletnico, rutinska intervencija pa ekipo pripelje do tragičnega odkritja, ki bo pretreslo vse v gasilskem domu 51.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/a/e/89ae3969-3161-4179-8014-bab91f2e2f52.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590683"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "15:45",
+      "cas_konec": "16:15",
+      "trajanje": "30 min",
+      "naslov_sl": "S5E7 - Nepraktični šaljivci: Dajanje P-ja v Pool",
+      "naslov_orig": "S5E7 - Impractical Jokers: Putting the P in Pool",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Fantje poskrbijo za zmedo kot zanič blagajniki v trgovini, nato pa se v nakupovalnem središču zapletejo v smešen izziv z laserskimi kazalniki, ki spravi mimoidoče v smeh. Poraženec pa je povsem osramočen, ko skuša plavalcem ob bazenu pokazati, da je \"številka ena\"...",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/6/3/6e630abc-ae24-45e2-b3b6-29d5c3b4e667.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590673"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "16:15",
+      "cas_konec": "16:40",
+      "trajanje": "25 min",
+      "naslov_sl": "S5E8 - Nepraktični šaljivci: Zastaralni rok",
+      "naslov_orig": "S5E8 - Impractical Jokers: Statue of Limitations",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Joe, Sal, Murr in Q goste v restavraciji \"postrežejo\" z neprijaznostjo in kaosom kot najbolj neprijetni gostitelji, kar jih je videl svet. Nato gredo še korak dlje, ko na ulici prosijo mimoidoče, naj čuvajo njihove domnevne dedke. Veliki poraženec pa brez vednosti postane del najdaljše kazni v zgodovini oddaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/6/3/6e630abc-ae24-45e2-b3b6-29d5c3b4e667.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590674"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "16:40",
+      "cas_konec": "17:15",
+      "trajanje": "35 min",
+      "naslov_sl": "S31E7 - Top Gear",
+      "naslov_orig": "S31E7 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Ker je tokrat Stig zaseden, bo Paddy sedel za volan zelo dragega in edinstvenega modela Victorja, Aston Martinovo mojstrovino po zgledu Vulcana, zaradi česar bo njegov lastnik moral poseči po močni pijači. \r\n\r\nUnikaten superavtomobil se ponaša s kar 800 konjskimi močmi. Freddieja Flintoffa pa čaka izziv, saj bo skušal postati pravi dirkač. Ali bo Freddie uspel pridobiti dirkaško licenco, da se bo lahko s Harrisom udeležil vrhunske vzdržljivostne dirke?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590666"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "17:15",
+      "cas_konec": "17:50",
+      "trajanje": "35 min",
+      "naslov_sl": "S31E8 - Top Gear",
+      "naslov_orig": "S31E8 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "DMC DeLorean, morda eden najbolj posebnih avtomobilov vseh časov, je praznoval 40 let. Kultni avtomobil iz nerjavečega jekla z dvižnimi vrati, ki je ovekovečen v filmu Nazaj v prihodnost, se ponaša tudi z najbolj nenavadno življenjsko zgodbo med vsemi avtomobili.\r\n\r\nChris se v tokratnem prispevku poglobi v divji svet FBI-ja, supermodelov, preprodajanja mamil in potovanja skozi čas ...",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590675"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "17:50",
+      "cas_konec": "18:40",
+      "trajanje": "50 min",
+      "naslov_sl": "Svet",
+      "naslov_orig": "Svet",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590692",
+      "zivo": true
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "18:40",
+      "cas_konec": "19:10",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E23 - Dva moža in pol",
+      "naslov_orig": "S2E23 - Two and a Half Men: Squab, Squab, Squab, Squab, Squab",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Evelyn prisili Alana, da pusti Jaka, da prespi pri njej.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/95/f/5/95f54168-9047-4bb7-8261-7e193d37b4b1.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590679"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "19:10",
+      "cas_konec": "19:35",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E24 - Dva moža in pol",
+      "naslov_orig": "S2E24 - Two and a Half Men: Does This Smell Funny to You ?",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Jake mora razredu povedati, kako je preživel vikend.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4d/c/3/4dc34fcc-8396-4f9c-bc16-6cc2e6482a37.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590671"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "19:35",
+      "cas_konec": "20:00",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E1 - Dva moža in pol",
+      "naslov_orig": "S3E1 - Two and a Half Men: Weekend in Bangkok with Two Olympic Gymnasts",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Charlie se javi, da bo čez vikend skrbel za Jaka.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4a/8/0/4a809104-13e3-4a21-b4de-46446eece82e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590665"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "20:00",
+      "cas_konec": "21:50",
+      "trajanje": "110 min",
+      "naslov_sl": "Pobesneli Max 2",
+      "naslov_orig": "Mad Max 2",
+      "kategorija": "Film",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "1981",
+      "starostna_omejitev": "15+",
+      "opis": "Zgodba je postavljena v prihodnost, ljudje so vedno bolj necivilizirani, svetu vladata kaos in anarhija, bencin pa je več vreden kot zlato.\r\n\r\nMax naleti na skupino ljudi, ki poskušajo svoje zaloge dragocene tekočine zaščititi pred nevarnimi cestnimi bojevniki. Odloči se, da jim bo pomagal, tu pa se razburljiva akcijska pustolovščina šele začne.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/67/b/d/67bdb0bc-76e0-4dd7-9c73-0d2c7afee964.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590680"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "21:50",
+      "cas_konec": "22:25",
+      "trajanje": "35 min",
+      "naslov_sl": "Svet: pregled dneva",
+      "naslov_orig": "Svet: pregled dneva",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.\r\n\r\nSvet: pregled dneva je na Kanalu A vsak delovni dan zvečer. Voditelja Nuša Lesar in Adi Omerović v informativni oddaji gledalce popeljeta skozi najbolj odmevne dogodke in v pregledu ponudita ključne informacije o dogajanju doma in po svetu. Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590668"
+    },
+    {
+      "datum": "2026-09-15",
+      "dan": "Torek",
+      "cas": "22:25",
+      "cas_konec": "00:40",
+      "trajanje": "135 min",
+      "naslov_sl": "Kako se znebiti fanta v 10 dneh",
+      "naslov_orig": "How to Lose a Guy in 10 Days",
+      "kategorija": "Film",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2003",
+      "starostna_omejitev": "12+",
+      "opis": "Andie mora za žensko revijo napisati članek o tem, kako se znebiti fanta v desetih dneh.\r\n\r\nAndie mora dokazati, da se lahko znebi fanta v 10 dneh. Ben mora dokazati, da lahko osvoji dekle v 10 dneh. Čas teče — v tej pripovedi o seksu, lažeh in nezaslišanih romantičnih ognjemetih pa se skriva najbolj divja, zabavna komedija leta!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/4/7/72470050-3fbc-4fc2-8f5b-80a0cfc97672.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1152590685"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "00:55",
+      "cas_konec": "01:20",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E7 - Dva moža in pol",
+      "naslov_orig": "S3E7 - Two and a Half Men: Sleep Tight, Puddin' Pop",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Pijani Charlie preživi večer s svojo zalezovalko Rose.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c4/9/3/c4933dd5-55f2-46ad-9c18-3eff6a71f00b.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155550744"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "01:20",
+      "cas_konec": "01:45",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E8 - Dva moža in pol",
+      "naslov_orig": "S3E8 - Two and a Half Men: That Voodoo That I Do Do",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Charlie skuša dokazati, da lahko Mio pelje na zmenek.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/f/0/d7f062a9-6b6e-423f-b9d7-f4d989179662.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155550749"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "01:45",
+      "cas_konec": "02:35",
+      "trajanje": "50 min",
+      "naslov_sl": "S1E8 - Budva na morski peni",
+      "naslov_orig": "S1E8 - Budva na pjenu od mora",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Ko Sava dobi še eno grozilno sporočilo, se končno odloči poklicati policijo. Vandar pa ga premaga obup, ker ga detektiv ni sposoben zaščititi pred nevarnostjo. Bojana Luko vidi v kavarni z drugim dekletom, zato z Mirovićem odide v njegovo hotelsko sobo. \n\nMedtem se Alek odpravi v igralnico, da bi se na samem pogovoril z Natašo, čeprav mu je Martin svetoval, naj se ne zaplete z njo. Sava se ne more sprijazniti z Lininim odhodom, zato Lunji obljubi, da bo poplačal vse njegove dolgove, če mu jo uspe najti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3a/1/1/3a11ffa1-fe70-4c40-a7f7-20b8c7df7ad8.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155550738"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "02:35",
+      "cas_konec": "06:00",
+      "trajanje": "205 min",
+      "naslov_sl": "Glasbeni mikser",
+      "naslov_orig": "Glasbeni mikser",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "V Kanalovi družbi nisi nikoli sam, še manj zaspan!\r\n\r\nNa nočnem programu lahko prisluhnete popularnim glasbenim spotom, si označite tv program prihajajočega dne in izbirate med opisi filmov vseh dni v tednu! Zabavno je tudi Potapljanje ladjic!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/1/f/571faee2-6573-4673-837d-12bdbba708a3.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155550756"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "06:00",
+      "cas_konec": "06:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E22 - Pavza!",
+      "naslov_orig": "S1E22 - Pavza!",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556697"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "06:30",
+      "cas_konec": "07:20",
+      "trajanje": "50 min",
+      "naslov_sl": "Svet",
+      "naslov_orig": "Svet",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556708"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "07:20",
+      "cas_konec": "07:45",
+      "trajanje": "25 min",
+      "naslov_sl": "S5E15 - Nepraktični šaljivci",
+      "naslov_orig": "S5E15 - Impractical Jokers: Virtual Insanity",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Joe, Sal, Murr in Q se zabavajo v trgovini za hišne ljubljenčke, nato pa si v supermarketu podajajo živila in jezijo tako trgovce kot kupce. Nato na ulici poskušajo prepričati mimoidoče, naj prispevajo svoj podpis za najbolj absurdne \"družbene pobude\". \n\nA tokratna kazen je naravnost grozljiva! Sal, ki je znan po tem, da se hitro prestraši, mora igrati strašljivo igro. Ko se zdi, da je mučenja konec, pa ga prijatelji zaklenejo v sobo in poskrbijo za pravo grozljivko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/6/3/6e630abc-ae24-45e2-b3b6-29d5c3b4e667.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556712"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "07:45",
+      "cas_konec": "08:10",
+      "trajanje": "25 min",
+      "naslov_sl": "S5E16 - Nepraktični šaljivci: Dan za pranje",
+      "naslov_orig": "S5E16 - Impractical Jokers: Laundry Day",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Šaljivci so v supermarketu na lovu za nič hudega slutečimi nakupovalci in poskrbijo za pravo zmedo, nato pa se kot nepopravljivi romantiki podajo v park. A tokrat potegne kratko Joe, ki mora sam poskrbeti za navijaški spektakel na nogometni tekmi, kjer bo s topom navijačem delil majice.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/78/0/9/78092c86-8519-40b9-80e4-02ab76643621.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556693"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "08:10",
+      "cas_konec": "09:10",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E1 - Hudson in Rex: Zgodba o izvoru",
+      "naslov_orig": "S3E1 - Hudson & Rex: Origin Story",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "Detektiv Charlie Hudson in nemški ovčar Rex se vračata v 3. sezoni in sta ponovno na sledi zločincem v mestu St. John. Tokrat Charlie obudi spomine na njun prvi skupni primer. \n\nPred tremi leti, ko je bila na sledi ugrabitelju, je Rexova prvotna partnerka ubita med opravljanjem dolžnosti. Ko Charlie prevzame primer, ugotovi, da je Rexov nos ključ do izsleditve storilca.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/d/6/77d6b19d-a7fd-4061-b27d-cf5cde1fa8c0.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556709"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "09:10",
+      "cas_konec": "09:25",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556694"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "09:25",
+      "cas_konec": "10:25",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E1 - Naša mala klinika: Vesoljci",
+      "naslov_orig": "S4E1 - Nasa mala klinika: Vesoljci",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2006",
+      "starostna_omejitev": "",
+      "opis": "Mile je priča strmoglavljenju neznanega letečega predmeta in ker mu radovednost ne da miru, na NMK pripelje dva Tralfamadorca iz galaksije Tetramadore v osončju zvezde Kvantumadore. \n\nVesoljcema je ime XQ in ZX in eden od njih se bo delil. Ker postopek pri njima poteka drugače kot pri človeku, zdravniki nimajo pojma, kako bi jima pomagali. Kljub temu delitev uspe sama od sebe in na NMK se znajde še en mali marsovček oz. Tralfamadorček. \n\nPrisotnost zunajzemeljskih bitij med člani NMK splete neobičajno prijazne vezi, a kaj, ko jim Tralfamadori ob odhodu svojo prisotnost izbrišejo iz spomina…",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5c/5/8/5c58e118-6617-4395-9fab-b69814baff8c.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556703"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "10:25",
+      "cas_konec": "10:40",
+      "trajanje": "15 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "Telestar",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556698"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "10:40",
+      "cas_konec": "11:35",
+      "trajanje": "55 min",
+      "naslov_sl": "S4E2 - Naša mala klinika: Pust ali Ta veseli dan",
+      "naslov_orig": "S4E2 - Nasa mala klinika: Pust ali Ta veseli dan",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2006",
+      "starostna_omejitev": "",
+      "opis": "Jutro kot vsako drugo, ko se nenadoma pojavi sekundarij Muc našemljen. Kaj so vsi pozabili, da je danes pust? Nobene dobre volje več na tej kliniki, razglablja Muc, razočaran nad tem, da se mu nihče ne želi pridružiti v pustnih norčijah. \n\nVse se spremeni, ko na kliniko pride gospod z ministrstva, ki naj bi jim odobril novo dotacijo, in je navdušen nad Mucevim pozitivnim angažmajem. Kar ni čuda, saj je v resnici norec, ki je zjutraj ubežal iz norišnice. \n\nTako se morajo našemit še ostali. Čez čas, ko se pojavita Velepičeva in prava gospa z Ministrstva, odgovorna za dotacijo, je na kliniki že vse narobe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5c/5/8/5c58e118-6617-4395-9fab-b69814baff8c.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556723"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "11:35",
+      "cas_konec": "12:10",
+      "trajanje": "35 min",
+      "naslov_sl": "S32E3 - Top Gear",
+      "naslov_orig": "S32E3 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Chris in Freddie se poklonita legendarnemu britanskemu izumitelju Clivu Sinclairju in obudita eno njegovih najbolj nenavadnih stvaritev, električni Sinclair C5. Toda počasna vožnja zanju ni dovolj. \n\nFreddie se z majhnim trikolesnikom poda na olimpijsko stezo za bob in skuša z vozilom, ki nikoli ni slovelo po hitrosti, preseči britansko omejitev hitrosti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556713"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "12:10",
+      "cas_konec": "12:45",
+      "trajanje": "35 min",
+      "naslov_sl": "S32E4 - Top Gear",
+      "naslov_orig": "S32E4 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Tokrat se voditelji spomnijo časov, ko so bili televizijski policijski avtomobili skoraj tako slavni kot njihovi vozniki. Za volanom obudijo Ford Gran Torino iz Starskyja in Hutcha, Ferrarija iz Magnuma in Jaguarja inšpektorja Morsa. \n\nNato vsak izbere sodoben športni avtomobil in ga postavi na pravi akcijski preizkus. Kateri bi postal nova televizijska legenda?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556704"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "12:45",
+      "cas_konec": "13:00",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556719"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "13:00",
+      "cas_konec": "13:25",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E13 - Dva moža in pol",
+      "naslov_orig": "S3E13 - Two and a Half Men: Humiliation Is a Visual Medium",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Charlie pravi, da postaja njegovo razmerje z Mio resno.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7f/a/a/7faaffd5-9970-4fe3-9af4-00326034f5d0.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556705"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "13:25",
+      "cas_konec": "13:50",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E14 - Dva moža in pol",
+      "naslov_orig": "S3E14 - Two and a Half Men: Love Isn't Blind, It's Retarded",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Charlie si želi potrditi svoje razmerje z Mio.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/d/9/9ad90089-10b8-46f5-9a00-497e4de7bbf1.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556724"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "13:50",
+      "cas_konec": "14:05",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.\r\n\r\nHiter tempo življenja, slaba kvaliteta hrane, stres, genska zasnova... vse to vpliva na naše življenje bolj kot bi si mislili. Po starosti 40 let pa se začnejo počasi kazati posledice na našem telesu. Slabo počutje, težave s prebavo, težave s sklepi, bolezni srca in ožilja, težave s sečili - ledvice, prostata, slaba koncentracija in slabši spomin... vse to in še mnogo več težav, s katerimi se borimo. Mi vam lahko pomagamo in svetujemo, kako lahko izboljšate svoj jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556725"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "14:05",
+      "cas_konec": "14:35",
+      "trajanje": "30 min",
+      "naslov_sl": "S3E15 - Dva moža in pol",
+      "naslov_orig": "S3E15 - Two and a Half Men: My Tongue Is Meat",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Charliejev življenjski slog povzroča napetost z Mio.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/d/5/c3d58290-3d03-4197-b2b3-6b95fce10547.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556695"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "14:35",
+      "cas_konec": "15:00",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E16 - Dva moža in pol",
+      "naslov_orig": "S3E16 - Two and a Half Men: Ergo, the Booty Call",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Alan se skuša izogniti, da bi Kandi pripeljal na Jakovo rojstnodnevno zabavo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/8/1/40818781-8939-494a-9bb2-891c6ca80c22.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556714"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "15:00",
+      "cas_konec": "15:55",
+      "trajanje": "55 min",
+      "naslov_sl": "S13E20 - Gasilci v Chicagu: Peklenska izmena",
+      "naslov_orig": "S13E20 - Chicago Fire: Cut Me Open",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "10+",
+      "opis": "Ko v gasilskem domu zaradi pomanjkanja osebja uvedejo strog nadzor nad delom ekipe, se morajo gasilci dokazovati na vsakem koraku. \n\nKiddova in Severide medtem prejmeta težko pričakovani klic agencije za posvojitve, vendar se njuno upanje hitro znajde na preizkušnji, ko med porodom pride do zapleta. Bo njuna največja želja končno postala resničnost?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a3/e/6/a3e60843-8a09-489e-ac8a-6e75531b43ea.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556715"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "15:55",
+      "cas_konec": "16:25",
+      "trajanje": "30 min",
+      "naslov_sl": "S5E17 - Nepraktični šaljivci",
+      "naslov_orig": "S5E17 - Impractical Jokers: Water Torture",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Šaljivci se tokrat odpravijo v nakupovalno središče, kjer polivajo nakupovalce z vodo in spravljajo mimoidoče v zadrego. Sal pa kot poraženec doživi neprijetno in sramotno kazen.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6e/6/3/6e630abc-ae24-45e2-b3b6-29d5c3b4e667.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556716"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "16:25",
+      "cas_konec": "16:50",
+      "trajanje": "25 min",
+      "naslov_sl": "S5E18 - Nepraktični šaljivci",
+      "naslov_orig": "S5E18 - Impractical Jokers: Hitting the Wrong Note",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Fantje se tokrat odpravijo v park, kjer naključnim mimoidočim razlagajo o svojem \"groznem dnevu\". Nato zberejo fokusno skupino, ki ji predstavijo najbolj nenavadne ideje za videoigre. Poraženca pa čaka glasbena kazen, zaradi katere ga bodo bolela ušesa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/3/7/1537e4d7-f3ed-4a01-9a3e-590b7a1af674.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556720"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "16:50",
+      "cas_konec": "17:25",
+      "trajanje": "35 min",
+      "naslov_sl": "S32E5 - Top Gear",
+      "naslov_orig": "S32E5 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Chris, Freddie in Paddy se odločijo, da bodo pomagali pri pomanjkanju voznikov tovornjakov, zato opravijo izpit in sedejo za volane pravih cestnih velikanov. \n\nPaddy izbere Scanio 770 S, Freddie DAF XG+, Chris pa Mercedes-Benz Actros. Nato jih čakajo zahtevni izzivi, s katerimi bodo ugotovili, kdo se najbolje znajde za volanom večtonskega velikana.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556702"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "17:25",
+      "cas_konec": "17:55",
+      "trajanje": "30 min",
+      "naslov_sl": "S32E6 - Top Gear",
+      "naslov_orig": "S32E6 - Top Gear UK",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Tovornjakarski obračun se preseli na dirkališče, kjer Freddie, Chris in Paddy ugotovijo, da lahko tudi večtonske pošasti postanejo dirkalniki. \n\nChris nato tovornjak zamenja za precej bolj športen stroj - Lotus Emira. Zadnji Lotusov model z motorjem z notranjim zgorevanjem in 400 konjskimi močmi čaka pravi preizkus na stezi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/c/c/99cc2e31-f8eb-4371-afab-6d0418ef8ca5.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556706"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "17:55",
+      "cas_konec": "18:45",
+      "trajanje": "50 min",
+      "naslov_sl": "Svet",
+      "naslov_orig": "Svet",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja Svet obravnava aktualne dogodke doma in po svetu, z vseh področij življenja.\r\n\r\nOddaja Svet je na programu vsak delovnik od ponedeljka do petka ob 17.55 in obravnava aktualne dogodke doma in po svetu, z vseh področij življenja. Pogosto prisluhnejo težavam gledalcev in jim poskušajo priskočiti na pomoč, predvsem pa vztrajno zahtevajo odgovore. Novice dneva so prikazane na raziskovalen, svojevrsten, neposreden in vsebinsko pester način. Voditelja: Nuša Lesar, Adi Omerović",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556717",
+      "zivo": true
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "18:45",
+      "cas_konec": "19:10",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E17 - Dva moža in pol",
+      "naslov_orig": "S3E17 - Two and a Half Men: The Unfortunate Little Schnauzer",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Charlieja nominirajo za nagrado.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c7/b/7/c7b75645-ce46-4c5f-8df5-7d2e2732ae64.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556696"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "19:10",
+      "cas_konec": "19:35",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E18 - Dva moža in pol",
+      "naslov_orig": "S3E18 - Two and a Half Men: The Spit-Covered Cobbler",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Ko se Kandi pokvari avto, ji Alan najame novega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5d/a/5/5da58325-c605-41ed-8010-2b5aadded842.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556710"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "19:35",
+      "cas_konec": "20:00",
+      "trajanje": "25 min",
+      "naslov_sl": "S3E19 - Dva moža in pol",
+      "naslov_orig": "S3E19 - Two and a Half Men: Golly Moses, She's a Muffin",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "Kandi se vseli k Alanu in Charlieju, kar povzroči napetost.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ec/3/b/ec3bda03-db1f-4357-8645-43b9cfcfd2b0.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556718"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "20:00",
+      "cas_konec": "23:00",
+      "trajanje": "180 min",
+      "naslov_sl": "Podli fantje 2",
+      "naslov_orig": "Bad Boys II",
+      "kategorija": "Film",
+      "zanr": [
+        "triler"
+      ],
+      "leto": "2003",
+      "starostna_omejitev": "18+",
+      "opis": "Detektiva z oddelka za boj proti mamilom morata kot del elitne skupine preprečiti, da bi v Miami prispele pošiljke ecstasyja.\r\n\r\nMiamijska detektiva Bennett in Lowrey sta ponovno v boju proti trgovanju z mamili, ki kali ulice Miamija. Njuna preiskava vodi do nevarnega zlikovca, čigar načrt za obvladovanje trga mamil je zanetil podzemno vojno.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/94/5/9/945925ba-6d6b-4709-a84d-14c7ba87a93c.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556707"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "23:00",
+      "cas_konec": "23:35",
+      "trajanje": "35 min",
+      "naslov_sl": "Svet: pregled dneva",
+      "naslov_orig": "Svet: pregled dneva",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.\r\n\r\nSvet: pregled dneva je na Kanalu A vsak delovni dan zvečer. Voditelja Nuša Lesar in Adi Omerović v informativni oddaji gledalce popeljeta skozi najbolj odmevne dogodke in v pregledu ponudita ključne informacije o dogajanju doma in po svetu. Na enem mestu najdete strnjeno obliko informativnih poročil, s katerimi ste na tekočem z dogodki dneva.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/a/1/8fa16e09-9702-421d-ba16-cef182bd7792.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556711"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "23:35",
+      "cas_konec": "01:40",
+      "trajanje": "125 min",
+      "naslov_sl": "Pobesneli Maks 3",
+      "naslov_orig": "Mad Max beyond thunderdome",
+      "kategorija": "Film",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "1985",
+      "starostna_omejitev": "15+",
+      "opis": "Poleg Mela Gibsona in obilo dobre akcije bomo v tretjem delu Pobesnelega Maxa videli tudi pevsko legendo Tino Turner\r\n\r\nV post-apokaliptični Avstraliji se spori rešujejo z borbo do smrti, znotraj ogromne arene, imenovane Thunderdome. Ko Max Rockatansky prekrši glavno pravilo boja, se zaplete v bitko moči z neusmiljeno vladarko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cd/2/3/cd23ddcc-dd08-4783-af5a-b54e30286379.jpg",
+      "show_id": "CUP_IECOM_AKANAL_1155556699"
     }
   ]
 }
