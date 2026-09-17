@@ -1,496 +1,10 @@
 {
   "kanal": "National Geographic",
   "ch_ext_id": "national-geographic",
-  "posodobljeno": "2026-09-16 12:26",
-  "od": "2026-09-09",
-  "do": "2026-09-23",
+  "posodobljeno": "2026-09-17 12:44",
+  "od": "2026-09-10",
+  "do": "2026-09-24",
   "oddaje": [
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "00:00",
-      "cas_konec": "00:50",
-      "trajanje": "50 min",
-      "naslov_sl": "11. septemeber, moja zgodba",
-      "naslov_orig": "My 9/11",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2006",
-      "starostna_omejitev": "12+",
-      "opis": "Vrnili se bomo v 11. september skozi ganljive zgodbe ljudi, ki so bili povezani s to tragedijo oziroma je nanje močno vplivala.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/6/e/a46e6d1e-737b-44c9-87b2-4ba9c8f736e3.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349238"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "00:50",
-      "cas_konec": "01:35",
-      "trajanje": "45 min",
-      "naslov_sl": "S1E2 - Belgija in Nizozemska",
-      "naslov_orig": "S1E2 - Liberation: D-Day to Berlin: Belgium and the Netherlands",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "15+",
-      "opis": "Novi kolorirani posnetki in pričevanja razkrijejo resnično ceno, ki so jo plačali zavezniki in civilisti za osvoboditev Belgije in Nizozemske izpod nacistične okupacije.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8c/3/b/8c3b8c83-8f25-47e1-827a-779ec172da3e.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349224"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "01:35",
-      "cas_konec": "02:15",
-      "trajanje": "40 min",
-      "naslov_sl": "S1E9 - Letala, ki so spremenila zgodovino: Činuk",
-      "naslov_orig": "S1E9 - Planes That Changed History: Chinook",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Chinook je transportni helikopter, ki je na novo spisal pravila letalstva. Nastal je v 50. letih v Ameriki in služil v Vietnamu. Zaradi okrivljenega okvirja in dveh rotorjev je lahko dvignil težak tovor in preobrazil ameriško vojaško strategijo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/f/d/51fdc54d-ade3-49ff-9bce-88dc435ce7a4.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349237"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "02:15",
-      "cas_konec": "03:00",
-      "trajanje": "45 min",
-      "naslov_sl": "S1E6 - Druga Svetovna Vojna: Skrivnosti Iz Zraka 3",
-      "naslov_orig": "S1E6 - World War II: Secrets From Above: Road to Berlin",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "10+",
-      "opis": "Nacistična tankovska divizija se je julija 1943 spopadla s sovjetsko industrijsko močjo v eni največjih tankovskih bitk v zgodovini.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1b/7/f/1b7f6e30-a5d3-4485-b475-8b42c4084fcc.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349223"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "03:00",
-      "cas_konec": "04:10",
-      "trajanje": "70 min",
-      "naslov_sl": "S1E35 - Megagradnje: Izjemni nebotičnik",
-      "naslov_orig": "S1E35 - Megastructures: Power Tower",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "8+",
-      "opis": "Ogledali si bomo konstrukcijo stolpnice World Trade Center v Bahrajnu, ki kot prva na svetu vključuje vetrne turbine. Kako so se inženirji lotili tega drznega podviga?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/5/8/0b58531f-8b82-4905-b10b-1540b03c215f.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349225"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "04:10",
-      "cas_konec": "04:55",
-      "trajanje": "45 min",
-      "naslov_sl": "S7E1 - Varovanje letališča: Najboljše iz Latinske Amerike: Nori zasegi",
-      "naslov_orig": "S7E1 - To Catch a Smuggler: Latin America: Big Bust Bonanza",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Zaposleni na dveh najprometnejših južnoameriških letališčih zasežejo velike pošiljke kokaina. Videli bomo pošiljke v velikosti opeke, sumljive pakete hrane in dva tihotapca na istem letu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/1/3/f213e1e7-c75e-4b65-a0fd-d96accf4510d.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349227"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "04:55",
-      "cas_konec": "05:35",
-      "trajanje": "40 min",
-      "naslov_sl": "S9E6 - Prva pomoč za avtomobile: Rolls royce 1929 doctors coupe",
-      "naslov_orig": "S9E6 - Car S.O.S.: Rolls Royce 1929 Doctors Coupe",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "8+",
-      "opis": "Tim in Fuzz se odpravita v Lincolnshire. Tam ju čaka utelešenje nekdanjega razkošja, avtomobil Rolls Royce Doctor's Coupe iz leta 1929.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/8/f/268f494a-9cff-49c0-9dd8-f9ac1ff7d611.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349381"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "05:35",
-      "cas_konec": "06:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E5 - Izdelano v enem dnevu: Električni avti",
-      "naslov_orig": "S1E5 - Made in a Day: Electric Cars",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "8+",
-      "opis": "Podjetje Tesla razkrije, kako avtomatizacija z uporabo robotov in delo strokovnjakov pripeljeta do izdelave električnega avtomobila.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5d/7/e/5d7efc6a-bcfb-4bf1-974a-bc9689b97d1b.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149349379"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "06:00",
-      "cas_konec": "06:25",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E11 - Zapuščene stavbe: Hotel v Hot Springsu",
-      "naslov_orig": "S1E11 - Abandoned: Hot Springs Hotel",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "12+",
-      "opis": "Ekipa išče skrite zaklade v zapuščenem hotelu Hot Springs, ki je znan po tem, da je gostil tudi Babea Rutha in Ala Capona.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8e/8/a/8e8abe73-f0d7-42ae-b467-f28e0d1927cf.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355041"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "06:25",
-      "cas_konec": "07:10",
-      "trajanje": "45 min",
-      "naslov_sl": "S1E36 - Megagradnje: Električen ocean",
-      "naslov_orig": "S1E36 - Megastructures: Electric Ocean",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2007",
-      "starostna_omejitev": "8+",
-      "opis": "Tri ekipe inženirjev tekmujejo, ker hočejo pridobiti energijo iz ene najmogočnejših oblik zelene energije. Gre za morske tokove in valove, torej moč oceanov. Preizkušajo tri različne naprave, ki naj bi morsko energijo pretvorile v elektriko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/d/f/61df508c-9402-4301-928f-6835500d0d14.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355042"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "07:10",
-      "cas_konec": "08:10",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E6 - Orjaške inženirske napake",
-      "naslov_orig": "S2E6 - Massive Engineering Mistakes",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Inženirske napake lahko udarijo kadar koli in kjer koli. Od zrušenja velikanskega žerjava v Milwaukeeju in orkanskih vetrov, ki razkrijejo šibkost washingtonskega mosta, do zrušenja strehe stadiona v Connecticutu in katastrofe z jezom v ZK.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/2/c/c92c734a-bf47-4d9d-82e9-8138b59a3415.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355030"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "08:10",
-      "cas_konec": "09:05",
-      "trajanje": "55 min",
-      "naslov_sl": "S3E0 - Na sledi tihotapcem: Milijonska zaloga mamil",
-      "naslov_orig": "S3E0 - To Catch a Smuggler: Mega Millions Meth Stash",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Carinska uprava Laredo odkrije 560 kg tekočega metamfetamina, skritega v pločevinkah za barvo, preiskovalni urad za domovinsko varnost pa aretira prejemnike klimatske naprave, napolnjene z metamfetaminom.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/2/6/152693af-6680-47dc-8c0b-500b5f82ea2e.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355031"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "09:05",
-      "cas_konec": "10:05",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E1 - Opuščene gradnje: Pravi križ",
-      "naslov_orig": "S9E1 - Abandoned Engineering: The True Cross",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Od nekdanje priljubljene hollywoodske točke, spremenjene v središče za zasliševanje, in škotske gotske relikvije do starodavnega mesta, kjer naj bi bil del pravega križa, in baltskih vojnih ruševin. Raziščite zgodbe o zapuščenih krajih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a5/8/9/a589c45a-b428-4fa0-a9f8-c177c4a27b06.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355032"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "10:05",
-      "cas_konec": "11:05",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E2 - Opuščene gradnje: Kraljestvo gradov",
-      "naslov_orig": "S9E2 - Abandoned Engineering: Castle Kingdom",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Od spornega tematskega parka, zgrajenega med argentinsko diktaturo, in fantastične zbirke turških gradov do kompleksa v Severnem morju, kjer so bivale največje zvezde, in čarobnih zgradb v finskem gozdu. Raziščite zgodbe o zapuščenih krajih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/a/1/d3a1f6ba-37e4-4566-8740-e15e0edf3711.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355033"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "11:05",
-      "cas_konec": "12:00",
-      "trajanje": "55 min",
-      "naslov_sl": "S7E5 - Življenje pod ničlo: Naslednja generacija: To ji je v krvi",
-      "naslov_orig": "S7E5 - Life Below Zero: Next Generation: In Her Blood",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Arktična zima trka na vrata. Najbolj trdoživi aljaški prebivalci morajo dokončati gradbene projekte in naloviti veliko divjad, preden se temperatura spustijo pod ničlo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/7/1/c27105de-19c7-4ea2-be64-73b9e28ef639.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355058"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E8 - Stare fotografije in mlad študent",
-      "naslov_orig": "S1E8 - Inside Airport Lost & Found: Old Photos and a New Student",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "biografija"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Letališki delavci iščejo lastnika kovčka, polnega starih družinskih fotografij. Študent izgubi denarnico, ko prispe v New Orleans.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/4/c/634cc0f8-419a-4dcf-8632-b44880bd2f7a.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355037"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S12E3 - Katastrofa v zraku: Izgubljeno s prevodom",
-      "naslov_orig": "S12E3 - Air Crash Investigation: Lost in Translation",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "12+",
-      "opis": "Ko med pristankom letalo iz Züricha strmoglavi in umrejo vsi na krovu letala, odkritje mamil med razbitinami kaže na zastrašujoč razlog nesreče.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0e/1/1/0e112a32-97e6-455b-9856-eb17ed0825a5.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355038"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E0 - Na sledi tihotapcem: Padec mamilaškega laboratorija",
-      "naslov_orig": "S3E0 - To Catch a Smuggler: Meth Lab Takedown",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Preiskovalni urad za domovinsko varnost sledi tovornjaku, ki prevaža narkotike, do objekta za proizvodnjo metamfetamina v bližini Los Angelesa, carinska uprava pa odkrije fentanil in metamfetamin v avtih na pasu za zaupanja vredne potnike.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/0/2/a402be25-d217-4bf3-b5da-47ed0ca84436.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355053"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Pravi kralj Herod",
-      "naslov_orig": "S1E1 - Lost Treasures of the Bible: Life of Christ",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "0+",
-      "opis": "Kralj Herod je eden najhudobnejših likov v Svetem pismu. Zdaj pa nova arheološka odkritja in računalniško generirane podobe razkrijejo, zakaj so mu rekli Harold Veliki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/84/e/2/84e2b321-cc8b-4fba-9b40-a54c2a58d848.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355054"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E7 - Orjaške inženirske napake",
-      "naslov_orig": "S2E7 - Massive Engineering Mistakes",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Inženirske napake lahko udarijo kadar koli in kjer koli. Od katastrofalne poplave v Houstonu in nesreče, ki razkrije napako na mostovih v ZDA, do zrušenja daljnovoda v ZK, ki prekine TV-signal, in velike luknje, ki pogoltne kölnski arhiv.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/6/a/a66afada-341d-482e-bd43-723ef0a46c1e.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355056"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S7E2 - Varovanje letališča: Najboljše iz Latinske Amerike: Mamilarska vročica",
-      "naslov_orig": "S7E2 - To Catch a Smuggler: Latin America: Drug Method Mania",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Policisti v Limi in São Paulu skušajo odkriti najbolj zvite načine tihotapljenja. Videli bomo mladoporočenca v posebnih oblekah in kovček, delno narejen iz kokaina.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/1/3/f213e1e7-c75e-4b65-a0fd-d96accf4510d.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355045"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E7 - Prva pomoč za avtomobile: Peugeot 106 Rallye",
-      "naslov_orig": "S9E7 - Car S.O.S.: Peugeot 106 Rallye",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "8+",
-      "opis": "Tim in Fuzz se odpravita v Norfolk, kjer ju čaka star športen hatchback iz Francije. Lastnica avta je 21-letna študentka Senna, ki prihaja iz družine navdušencev nad avti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/7/a/b97aa225-ee03-4d38-9819-d8353c9c9889.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355036"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E1 - Druga svetovna vojna: Skrivnosti iz zraka: Bitka za Britanijo",
-      "naslov_orig": "S2E1 - World War II: Secrets From Above: Battle of Britain",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Poletje leta 1940: Nebo nad južno Anglijo napolnijo hudi zračni spopadi, medtem ko kraljeva letalska obramba brani otok pred srditimi nemškimi bombniki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/b/7/aab75dab-0d33-42e9-88ff-07c0d79c5bc4.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355052"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E1 - Katastrofa v zraku: Posebno poročilo: Vojno območje",
-      "naslov_orig": "S5E1 - Air Crash Investigation: Special Report: War Zone",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Zamenjana identiteta in sovražni ogenj na sovražnem ozemlju sta med mnogimi tveganji, s katerimi se soočajo piloti v vojnih območjih po svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/02/d/e/02deca0a-494e-459d-9d37-a4c192dc26ba.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355057"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Od 8.00 do 9.07",
-      "naslov_orig": "S1E1 - 9/11 Reunited: 8.00 AM - 09.07 AM",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Trije moški, ujeti v dvigalu med napadom 11. septembra, se ponovno srečajo in zahvalijo čistilcu oken, ki jim je pomagal preživeti. Hudo poškodovana ženska se poveže z neznancem, ki ji je rešil življenje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/03/d/f/03dfc938-424c-45e6-af9b-d0596bdc7173.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355047"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "22:00",
-      "cas_konec": "22:55",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E2 - Od 9.07 do 10.15",
-      "naslov_orig": "S1E2 - 9/11 Reunited: 9:07 am - 10:15 am",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Ko so prvi posredovalci 11. septembra prihiteli do WTC-ja, je ugrabljeno letalo zadelo Pentagon. Desetnica, ki je skočila skozi okno, da se ni zadušila, se sreča z marincem, ki jo je ujel. Poškodovani gasilec se sreča z reševalcem, ki ga je rešil.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/d/4/add457d4-bdb8-4c4d-835a-5c54dbd73fad.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355039"
-    },
-    {
-      "datum": "2026-09-09",
-      "dan": "Sreda",
-      "cas": "22:55",
-      "cas_konec": "00:00",
-      "trajanje": "65 min",
-      "naslov_sl": "S1E3 - Od 11. septembra ob 10.15 do 12. septembra ob 7.45",
-      "naslov_orig": "S1E3 - 9/11 Reunited: 10.15 AM September 11th - 07.45 AM September 12th",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Po zrušenju južne stolpnice je gasilec delal s policistom, ki je nato izgubil življenje. Gasilec se sreča z njegovimi bližnjimi in jim sporoči, da je na koncu mislil nanje. Po zrušenju severne stolpnice je bil policist ujet. Sreča se z rešitelji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/8/6/f286f8bf-e497-4163-99eb-a0c62c6b2315.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1149355060"
-    },
     {
       "datum": "2026-09-10",
       "dan": "Četrtek",
@@ -976,564 +490,6 @@
       "opis": "Spremljamo novinarja Petra Bergna, ki se vnovič poglobi v operacijo obveščevalne službe, namenjeno uboju Osame bin Ladna.\r\n\r\nSpremljamo novinarja Petra Bergna, ki se vnovič poglobi v operacijo obveščevalne službe, namenjeno uboju Osame bin Ladna, in v poročilo s pomembnimi informaciji, ki jih je ameriška specialna enota vojne mornarice ZDA zbrala na kraju dogodka.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/46/6/8/4668a7ca-5455-4bcd-9be5-c162cdc43e2d.jpg",
       "show_id": "CUP_IECOM_NATGEO_1149355536"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "00:00",
-      "cas_konec": "00:50",
-      "trajanje": "50 min",
-      "naslov_sl": "S1E3 - Zaporedje uničenja",
-      "naslov_orig": "S1E3 - Disaster Autopsy: Compilation: 3 Mile Island, Mont Blanc Tunnel, Sampoong Mall",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "znanost"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "10+",
-      "opis": "Tri resnične nesreče, forenzično secirane. Požar v madridski stolpnici Windsor. Katastrofa v tovarni oblačil v Bangladešu, v kateri je umrlo več kot tisoč ljudi. Eksplozija reaktorja v Černobilu in širjenje radioaktivnosti po Evropi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ea/2/d/ea2d9d7a-1f04-4294-a6a1-ac09483248a6.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769953"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "00:50",
-      "cas_konec": "01:35",
-      "trajanje": "45 min",
-      "naslov_sl": "S1E2 - Priče 2. svetovne vojne: Invazija Italije: Protinapad",
-      "naslov_orig": "S1E2 - Eyewitness WWII: Invasion Italy: The Breakout",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "15+",
-      "opis": "Zavezniki prodrejo s plaž Anzia, osvobodijo Rim in se borijo po gorovjih v zadnjem stadiju italijanske vojne operacije.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/2/5/1f25b2b1-4d1d-44fd-9f08-526c2ffc4daa.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769959"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "01:35",
-      "cas_konec": "02:15",
-      "trajanje": "40 min",
-      "naslov_sl": "Zapuščene ladje Velikih jezer: Izgubljeno pod valovi",
-      "naslov_orig": "Ghost Ships of the Great Lakes: Lost Beneath the Waves",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Desetletja so ladje izginevale v Velikih jezerih. Zahvaljujoč sodobni tehnologiji bodo njihove zgodbe končno priplavale na površje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9d/c/4/9dc47608-c7cf-41ee-a520-388dd6c7804c.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769965"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "02:15",
-      "cas_konec": "03:00",
-      "trajanje": "45 min",
-      "naslov_sl": "S2E6 - Druga svetovna vojna: Skrivnosti iz zraka: Bitka za Italijo",
-      "naslov_orig": "S2E6 - World War II: Secrets From Above: Road to Rome",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Od drznega izkrcanja na plaži v Salernu do spopada pri Monte Cassinu - zavezniki se borijo za osvoboditev Italije izpod nacistov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/1/0/8610286c-4bbe-43cb-9f42-143ab8a29d13.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769936"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "03:00",
-      "cas_konec": "03:45",
-      "trajanje": "45 min",
-      "naslov_sl": "S1E59 - Megagradnje: Megagradnje, Gradnja zelenega Pekinga",
-      "naslov_orig": "S1E59 - Megastructures: Building Green Beijing",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "8+",
-      "opis": "Onesnaženje Kitajske dobiva globalne razsežnosti. Sledili bomo ekipi okoljskih inženirjev, ki poskušajo zgraditi energetsko učinkovit Peking.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/5/8/0b58531f-8b82-4905-b10b-1540b03c215f.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769963"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "03:45",
-      "cas_konec": "04:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E1 - Vdor v sistem: Vlom v avto",
-      "naslov_orig": "S1E1 - Hacking the System: Hack Your Car",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "12+",
-      "opis": "Brian Bushwood bo razkril trike vohunov, sleparjev in prevarantov. V tej epizodi bo razložil, kako lahko preprečite, da bi vam ukradli avto.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/6/2/3c628a85-6592-41f0-96db-53ca965bb6c6.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769943"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "04:10",
-      "cas_konec": "04:55",
-      "trajanje": "45 min",
-      "naslov_sl": "S5E0 - Na sledi tihotapcem: Mrzlica belega zlata",
-      "naslov_orig": "S5E0 - To Catch a Smuggler: White Gold Rush",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "12+",
-      "opis": "Agentje mejne policije in zračnih ter pomorskih sil v pristaniščih in na kopenskih vstopnih točkah zasežejo velike količine kokaina, vrednega več milijonov dolarjev.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/3/e/d13e880c-111e-4bdc-a51f-4602aa56531b.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769948"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "04:55",
-      "cas_konec": "05:35",
-      "trajanje": "40 min",
-      "naslov_sl": "S10E1 - Prva pomoč za avtomobile: Fiat Uno Turbo",
-      "naslov_orig": "S10E1 - Car S.O.S.: Fiat Uno Turbo",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "8+",
-      "opis": "Tim in Fuzz prevzemata zanemarjeni fiat uno turbo iz leta 1988. Avto pripada nekdanjemu prodajalcu avtomobilov Gerryju, ki ima težave z zdravjem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/0/2/7202085f-e489-4af3-a493-6a7c1461e555.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769951"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "05:35",
-      "cas_konec": "06:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E11 - Izdelano v enem dnevu: Traktorji",
-      "naslov_orig": "S1E11 - Made in a Day: Tractors",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "8+",
-      "opis": "Svet mora nahraniti vedno več ljudi in agrokulturni velikan John Deere je odprl svoja vrata proizvodnje in razkril, kako izdelajo najmočnejše traktorje na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/5/9/5659d33f-e19d-4be9-a6cb-44676e3f9a04.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153769954"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "06:00",
-      "cas_konec": "06:20",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E2 - Vdor v sistem: Gostilniške ukane",
-      "naslov_orig": "S1E2 - Hacking the System: Restaurant Ruses",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "Pobliže si bomo ogledali gostinski posel in razkrili pretanjene psihološke trike, s katerimi gostinci izpraznijo vaše žepe.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/f/7e0fec70-f812-4bc6-9258-37c87131f894.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773086"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "06:20",
-      "cas_konec": "07:00",
-      "trajanje": "40 min",
-      "naslov_sl": "S1E57 - Megagradnje: Veliki kanjon",
-      "naslov_orig": "S1E57 - Megastructures: Grand Canyon Skywalk",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2009",
-      "starostna_omejitev": "8+",
-      "opis": "Raziskali bomo edinstveno razgledno ploščad Grand Canyon Skywalk, po kateri lahko obiskovalci hodijo nad kanjonom in reko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/c/7/f7c7bde8-2252-4231-81c8-5d0f760d578a.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773084"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E12 - Orjaške inženirske napake",
-      "naslov_orig": "S2E12 - Massive Engineering Mistakes",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "V Montrealu se brez opozorila zruši most na avtocesti. Kaj je v resnici povzročilo eksplozijo na misiji Apollo 13, zaradi česar ta misija velja za najbolj dramatično vesoljsko misijo v zgodovini?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/6/a/a66afada-341d-482e-bd43-723ef0a46c1e.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773106"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "08:00",
-      "cas_konec": "08:50",
-      "trajanje": "50 min",
-      "naslov_sl": "S3E3 - Na sledi tihotapcem: V prtljažniku",
-      "naslov_orig": "S3E3 - To Catch a Smuggler: Bunked in a Trunk",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "CBP se sooči s tihotapljenjem ljudi na mejnem prehodu San Ysidro, medtem ko HSI ujame avto, naložen s 6 kg tablet fentanila, ki je namenjen v Kalifornijo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/f/d/b6fd6463-00fc-4e60-9fb0-7fd78f8fdc01.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773096"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "08:50",
-      "cas_konec": "09:05",
-      "trajanje": "15 min",
-      "naslov_sl": "S2E14 - Znanost o neumnosti, kompilacija: Na počitnicah",
-      "naslov_orig": "S2E14 - Science of Stupid Compilations: Science of Stupid on Holiday",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "Počitnice in potovanja bi morala biti zabavna in sproščujoča, a če pustite znanost doma, se lahko znajdete na peklenskih počitnicah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/6/3/52636aa2-0daa-446a-94c2-6922b90b7278.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773317"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "09:05",
-      "cas_konec": "10:00",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E1 - Marija I. Škotska",
-      "naslov_orig": "S1E1 - How the Tudors Lost Their Heads: Mary Queen of Scots",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Zgodovinarja Suzannah Lipscomb in Dan Snow preiščeta življenje Marije I. Škotske. Novi dokazi jo opisujejo kot vzdržljivo vladarico, ki se je v nevarnem političnem svetu spopadala z nasiljem in mogočnimi sovražniki.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/9/7/b697096b-3e2b-4388-9f75-bfcded7cc41d.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773097"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "10:00",
-      "cas_konec": "10:45",
-      "trajanje": "45 min",
-      "naslov_sl": "S1E2 - Perkin Warbeck in princa v stolpu",
-      "naslov_orig": "S1E2 - How the Tudors Lost Their Heads: Perkin Warbeck & the Princes in the Tower",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Leta 1491 na irskem mladenič trdi, da je Rihard, vojvoda Yorški, in ogrozi vladavino Henrika VII. Zgodovinarja Suzannah Lipscomb in Dan Snow pregledata dokaze in se vprašata, ali je bil legitimni kralj.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/16/c/8/16c8313b-13f5-43c5-a7c8-789c5a0664e4.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773104"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "10:45",
-      "cas_konec": "11:05",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E12 - Izdelano v enem dnevu: Jeep",
-      "naslov_orig": "S1E12 - Made in a Day: SUVs",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "8+",
-      "opis": "Jeep je skoraj 80 let med vodilnimi proizvajalci terenskih avtomobilov. Tovarna v Ohiu bo razkrila, kako s pomočjo robotov izdelujejo 4x4 avte znamke jeep wrangler.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/08/c/6/08c64c07-e4e2-4ded-a6dc-d9981911c70f.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773088"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "11:05",
-      "cas_konec": "12:00",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E4 - Vdih, izdih",
-      "naslov_orig": "S1E4 - Life Below Zero: Next Generation: The Extra Mile",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "pustolovščina"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Trdoživi aljaški prebivalci se morajo zaradi neznanega teritorija zanašati na prijatelje in sorodnike. Pripravljajo se na še eno neizprosno zimo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/9/0/80906e3c-443b-4e66-892e-18f6882431ed.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773090"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E4 - Chinook",
-      "naslov_orig": "S1E4 - Planes That Changed History: Nighthawk",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Chinook je transportni helikopter, ki je na novo spisal pravila letalstva. Nastal je v 50. letih v Ameriki in služil v Vietnamu. Zaradi okrivljenega okvirja in dveh rotorjev je lahko dvignil težak tovor in preobrazil ameriško vojaško strategijo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f5/6/c/f56c7f93-3b92-41f9-8d6d-d62115150482.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773091"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S12E9 - Katastrofa v zraku: Groza v raju",
-      "naslov_orig": "S12E9 - Air Crash Investigation: Terror in Paradise",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "12+",
-      "opis": "Ko letalo na poti na Tahiti strmoglavi in umrejo vsi na krovu, preiskovalci odkrijejo nepričakovan razlog nesreče.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c4/a/f/c4afe782-9945-4df8-99b0-011b73fbc662.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773098"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E4 - Na sledi tihotapcem: Kup heroina",
-      "naslov_orig": "S3E4 - To Catch a Smuggler: Smorgasbord of Smack",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Sandiegovski HSI zaseže mešanico narkotikov, skrito v avtomobilu, CBP obdeluje potnike s trajektom v Portoriku, policisti JFK pa odkrijejo izropane artefakte.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c7/1/7/c717e5ce-0846-417f-a4cd-4fa3945e6509.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773318"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "15:00",
-      "cas_konec": "15:40",
-      "trajanje": "40 min",
-      "naslov_sl": "S1E1 - Skrivnostni svet Minotavra",
-      "naslov_orig": "S1E1 - Lost Treasures of Ancient Greece: Secret World of the Minotaur",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "zgodovina"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "10+",
-      "opis": "Arheologi razkrijejo podrobnosti o skrivnostnih Minojcih, civilizaciji, ki je ustvarila legendo o kralju Minosu in Minotavru.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4e/b/d/4ebdeed4-347a-4995-8296-67998ab284c5.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773319"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "15:40",
-      "cas_konec": "16:00",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E9 - Izdelano v enem dnevu: Gasilski avti",
-      "naslov_orig": "S1E9 - Made in a Day: Fire Trucks",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "8+",
-      "opis": "V središču vsake skupnosti je gasilski dom, v katerem so gasilci, ki 24 ur na dan tvegajo svoja življenja, da bi pomagali drugim. V boj se vsakič podajo z gasilskim avtom. Tokrat si bomo ogledali njihovo izdelavo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/f/0/fff03287-9b7c-4fda-b454-98a7df239caf.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773320"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E1 - Orjaške inženirske napake: Kaos v Minneapolisu",
-      "naslov_orig": "S3E1 - Massive Engineering Mistakes: Mayhem in Minneapolis",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "Od zrušitve avtocestnega mosta v Minneapolisu in šokantnega rušenja v Dallasu do železniške tragedije na Danskem in nesreče z jezom v Iowi. Raziščite gradbene katastrofe in skrite napake, krive za dramatične dogodke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8c/8/a/8c8a2468-bd15-4a25-822f-b6a1b9ffa92e.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773099"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E0 - Na sledi tihotapcem: Poljub metamfetamina",
-      "naslov_orig": "S5E0 - To Catch a Smuggler: The Kiss of Meth",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "12+",
-      "opis": "Agentje mejne policije zasežejo največjo količino metamfetamina v zgodovini letališča v Los Angelesu. Agentje domovinske varnosti okrožja Orange izvedejo tri racije pod krinko v enem dnevu in aretirajo več ljudi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/3/e/d13e880c-111e-4bdc-a51f-4602aa56531b.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773107"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S10E2 - Prva pomoč za avtomobile: VW Corrado",
-      "naslov_orig": "S10E2 - Car S.O.S.: VW Corrado",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "8+",
-      "opis": "Tim in Fuzz gresta v Huddersfield, da bi rešila volkswagna corrado, letnik 1992. Avto pripada 37-letni električarki Ashley, ki ji peša zdravje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3b/7/0/3b70113c-d2dd-496b-9c7b-55dec5f0c5c6.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773103"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E1 - Druga svetovna vojna: Skrivnosti iz zraka: Bitka za Norveško",
-      "naslov_orig": "S3E1 - World War II: Secrets From Above: Battle for Norway",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "12+",
-      "opis": "April 1940. Nemške bojne ladje napadejo ključna norveška pristanišča, toda britanska Kraljeva vojna mornarica jim je za petami v siloviti bitki za nadzor nad Norveško.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/b/c/5fbc469b-4ced-42d4-b063-a77e7def9f84.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773092"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E7 - Katastrofa v zraku: Posebno poročilo: Smrtonosni podatki",
-      "naslov_orig": "S5E7 - Air Crash Investigation: Special Report: Deadly Data",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "S skritimi napakami v navigacijskih sistemih tri letala utrpijo katastrofalne računalniške napake, zaradi katerih morajo preiskovalci globoko kopati.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/9/6/2c96a42b-0b52-4812-b3c3-043fc79a5315.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773100"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E3 - Mojster preživetja: Lovci",
-      "naslov_orig": "S5E3 - Primal Survivor: Cloud Forest Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Hazen Audel se poslužuje neverjetnih plemenskih tradicij, medtem ko se prebija skozi najnevarnejši in najbolj divji teren na Kitajskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/5/e/275e5ee0-aef2-4325-9337-6b72bf279f7b.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773094"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E4 - Mojster preživetja: Gospodarji ognja",
-      "naslov_orig": "S5E4 - Primal Survivor: Masters of Fire",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Hazen se odpravi v Surinam, da bi srečal pleme Saramacca in se poučil o njihovih tehnikah preživetja v deževnem gozdu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/5/e/275e5ee0-aef2-4325-9337-6b72bf279f7b.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773101"
-    },
-    {
-      "datum": "2026-09-17",
-      "dan": "Četrtek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S7E4 - Tabu: Zbiralci",
-      "naslov_orig": "S7E4 - Taboo: Hoarders",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2011",
-      "starostna_omejitev": "12+",
-      "opis": "Nekateri nimajo nikoli dovolj. Od obsedenca s kramo iz Londona do zbiralca pujsov na Floridi. Vstopili bomo v svet kompulzivnega kopičenja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e4/1/6/e416e492-1433-4763-a040-7761d290196a.jpg",
-      "show_id": "CUP_IECOM_NATGEO_1153773321"
     },
     {
       "datum": "2026-09-18",
@@ -7762,6 +6718,1032 @@
       "opis": "Spoznali bomo ljudi, ki bi jih mnogi imeli za čudake. Od ženske, ki se pretvarja, da je paraplegičarka, do milijonarja, ki živi na ulici.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/f/8/25f8dce1-8808-4523-9c1f-babbe1827b81.jpg",
       "show_id": "CUP_IECOM_NATGEO_1156306028"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E3 - Zaporedje uničenja",
+      "naslov_orig": "S1E3 - Disaster Autopsy: Compilation: 3 Mile Island, Mont Blanc Tunnel, Sampoong Mall",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "znanost"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "10+",
+      "opis": "Tri resnične nesreče, forenzično secirane. Požar v madridski stolpnici Windsor. Katastrofa v tovarni oblačil v Bangladešu, v kateri je umrlo več kot tisoč ljudi. Eksplozija reaktorja v Černobilu in širjenje radioaktivnosti po Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ea/2/d/ea2d9d7a-1f04-4294-a6a1-ac09483248a6.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769953"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "01:00",
+      "cas_konec": "01:55",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E2 - Priče 2. svetovne vojne: Invazija Italije: Protinapad",
+      "naslov_orig": "S1E2 - Eyewitness WWII: Invasion Italy: The Breakout",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "15+",
+      "opis": "Zavezniki prodrejo s plaž Anzia, osvobodijo Rim in se borijo po gorovjih v zadnjem stadiju italijanske vojne operacije.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/2/5/1f25b2b1-4d1d-44fd-9f08-526c2ffc4daa.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769959"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "01:55",
+      "cas_konec": "02:40",
+      "trajanje": "45 min",
+      "naslov_sl": "Zapuščene ladje Velikih jezer: Izgubljeno pod valovi",
+      "naslov_orig": "Ghost Ships of the Great Lakes: Lost Beneath the Waves",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "12+",
+      "opis": "Desetletja so ladje izginevale v Velikih jezerih. Zahvaljujoč sodobni tehnologiji bodo njihove zgodbe končno priplavale na površje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9d/c/4/9dc47608-c7cf-41ee-a520-388dd6c7804c.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769965"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "02:40",
+      "cas_konec": "03:25",
+      "trajanje": "45 min",
+      "naslov_sl": "S2E6 - Druga svetovna vojna: Skrivnosti iz zraka: Bitka za Italijo",
+      "naslov_orig": "S2E6 - World War II: Secrets From Above: Road to Rome",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "12+",
+      "opis": "Od drznega izkrcanja na plaži v Salernu do spopada pri Monte Cassinu - zavezniki se borijo za osvoboditev Italije izpod nacistov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/1/0/8610286c-4bbe-43cb-9f42-143ab8a29d13.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769936"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "03:25",
+      "cas_konec": "04:10",
+      "trajanje": "45 min",
+      "naslov_sl": "S1E59 - Megagradnje: Megagradnje, Gradnja zelenega Pekinga",
+      "naslov_orig": "S1E59 - Megastructures: Building Green Beijing",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "8+",
+      "opis": "Onesnaženje Kitajske dobiva globalne razsežnosti. Sledili bomo ekipi okoljskih inženirjev, ki poskušajo zgraditi energetsko učinkovit Peking.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/5/8/0b58531f-8b82-4905-b10b-1540b03c215f.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769963"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "04:10",
+      "cas_konec": "04:55",
+      "trajanje": "45 min",
+      "naslov_sl": "S5E0 - Na sledi tihotapcem: Mrzlica belega zlata",
+      "naslov_orig": "S5E0 - To Catch a Smuggler: White Gold Rush",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "12+",
+      "opis": "Agentje mejne policije in zračnih ter pomorskih sil v pristaniščih in na kopenskih vstopnih točkah zasežejo velike količine kokaina, vrednega več milijonov dolarjev.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/3/e/d13e880c-111e-4bdc-a51f-4602aa56531b.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769948"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "04:55",
+      "cas_konec": "05:40",
+      "trajanje": "45 min",
+      "naslov_sl": "S10E1 - Prva pomoč za avtomobile: Fiat Uno Turbo",
+      "naslov_orig": "S10E1 - Car S.O.S.: Fiat Uno Turbo",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "8+",
+      "opis": "Tim in Fuzz prevzemata zanemarjeni fiat uno turbo iz leta 1988. Avto pripada nekdanjemu prodajalcu avtomobilov Gerryju, ki ima težave z zdravjem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/0/2/7202085f-e489-4af3-a493-6a7c1461e555.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769951"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "05:40",
+      "cas_konec": "06:00",
+      "trajanje": "20 min",
+      "naslov_sl": "S1E11 - Izdelano v enem dnevu: Traktorji",
+      "naslov_orig": "S1E11 - Made in a Day: Tractors",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "8+",
+      "opis": "Svet mora nahraniti vedno več ljudi in agrokulturni velikan John Deere je odprl svoja vrata proizvodnje in razkril, kako izdelajo najmočnejše traktorje na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/5/9/5659d33f-e19d-4be9-a6cb-44676e3f9a04.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153769954"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "06:00",
+      "cas_konec": "06:25",
+      "trajanje": "25 min",
+      "naslov_sl": "S1E2 - Vdor v sistem: Gostilniške ukane",
+      "naslov_orig": "S1E2 - Hacking the System: Restaurant Ruses",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "12+",
+      "opis": "Pobliže si bomo ogledali gostinski posel in razkrili pretanjene psihološke trike, s katerimi gostinci izpraznijo vaše žepe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/5/e/5f5ed6be-c318-4f7b-9c92-2026a8d30e80.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773086"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "06:25",
+      "cas_konec": "07:10",
+      "trajanje": "45 min",
+      "naslov_sl": "S1E57 - Megagradnje: Veliki kanjon",
+      "naslov_orig": "S1E57 - Megastructures: Grand Canyon Skywalk",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2009",
+      "starostna_omejitev": "8+",
+      "opis": "Raziskali bomo edinstveno razgledno ploščad Grand Canyon Skywalk, po kateri lahko obiskovalci hodijo nad kanjonom in reko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/c/7/f7c7bde8-2252-4231-81c8-5d0f760d578a.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773084"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "07:10",
+      "cas_konec": "08:10",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E12 - Orjaške inženirske napake",
+      "naslov_orig": "S2E12 - Massive Engineering Mistakes",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "V Montrealu se brez opozorila zruši most na avtocesti. Kaj je v resnici povzročilo eksplozijo na misiji Apollo 13, zaradi česar ta misija velja za najbolj dramatično vesoljsko misijo v zgodovini?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/6/a/a66afada-341d-482e-bd43-723ef0a46c1e.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773106"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "08:10",
+      "cas_konec": "09:05",
+      "trajanje": "55 min",
+      "naslov_sl": "S3E3 - Na sledi tihotapcem: V prtljažniku",
+      "naslov_orig": "S3E3 - To Catch a Smuggler: Bunked in a Trunk",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "CBP se sooči s tihotapljenjem ljudi na mejnem prehodu San Ysidro, medtem ko HSI ujame avto, naložen s 6 kg tablet fentanila, ki je namenjen v Kalifornijo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/f/d/b6fd6463-00fc-4e60-9fb0-7fd78f8fdc01.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773096"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "09:05",
+      "cas_konec": "10:00",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E1 - Marija I. Škotska",
+      "naslov_orig": "S1E1 - How the Tudors Lost Their Heads: Mary Queen of Scots",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "zgodovina"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "12+",
+      "opis": "Zgodovinarja Suzannah Lipscomb in Dan Snow preiščeta življenje Marije I. Škotske. Novi dokazi jo opisujejo kot vzdržljivo vladarico, ki se je v nevarnem političnem svetu spopadala z nasiljem in mogočnimi sovražniki.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/9/7/b697096b-3e2b-4388-9f75-bfcded7cc41d.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773097"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Perkin Warbeck in princa v stolpu",
+      "naslov_orig": "S1E2 - How the Tudors Lost Their Heads: Perkin Warbeck & the Princes in the Tower",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "zgodovina"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "12+",
+      "opis": "Leta 1491 na irskem mladenič trdi, da je Rihard, vojvoda Yorški, in ogrozi vladavino Henrika VII. Zgodovinarja Suzannah Lipscomb in Dan Snow pregledata dokaze in se vprašata, ali je bil legitimni kralj.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/16/c/8/16c8313b-13f5-43c5-a7c8-789c5a0664e4.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773104"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E4 - Vdih, izdih",
+      "naslov_orig": "S1E4 - Life Below Zero: Next Generation: The Extra Mile",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "Trdoživi aljaški prebivalci se morajo zaradi neznanega teritorija zanašati na prijatelje in sorodnike. Pripravljajo se na še eno neizprosno zimo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/9/0/80906e3c-443b-4e66-892e-18f6882431ed.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773090"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E4 - Chinook",
+      "naslov_orig": "S1E4 - Planes That Changed History: Nighthawk",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "zgodovina"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "12+",
+      "opis": "Chinook je transportni helikopter, ki je na novo spisal pravila letalstva. Nastal je v 50. letih v Ameriki in služil v Vietnamu. Zaradi okrivljenega okvirja in dveh rotorjev je lahko dvignil težak tovor in preobrazil ameriško vojaško strategijo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f5/6/c/f56c7f93-3b92-41f9-8d6d-d62115150482.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773091"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S12E9 - Katastrofa v zraku: Groza v raju",
+      "naslov_orig": "S12E9 - Air Crash Investigation: Terror in Paradise",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "12+",
+      "opis": "Ko letalo na poti na Tahiti strmoglavi in umrejo vsi na krovu, preiskovalci odkrijejo nepričakovan razlog nesreče.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c4/a/f/c4afe782-9945-4df8-99b0-011b73fbc662.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773098"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E4 - Na sledi tihotapcem: Kup heroina",
+      "naslov_orig": "S3E4 - To Catch a Smuggler: Smorgasbord of Smack",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "Sandiegovski HSI zaseže mešanico narkotikov, skrito v avtomobilu, CBP obdeluje potnike s trajektom v Portoriku, policisti JFK pa odkrijejo izropane artefakte.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c7/1/7/c717e5ce-0846-417f-a4cd-4fa3945e6509.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773318"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E1 - Skrivnostni svet Minotavra",
+      "naslov_orig": "S1E1 - Lost Treasures of Ancient Greece: Secret World of the Minotaur",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "zgodovina"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "10+",
+      "opis": "Arheologi razkrijejo podrobnosti o skrivnostnih Minojcih, civilizaciji, ki je ustvarila legendo o kralju Minosu in Minotavru.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4e/b/d/4ebdeed4-347a-4995-8296-67998ab284c5.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773319"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E1 - Orjaške inženirske napake: Kaos v Minneapolisu",
+      "naslov_orig": "S3E1 - Massive Engineering Mistakes: Mayhem in Minneapolis",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Od zrušitve avtocestnega mosta v Minneapolisu in šokantnega rušenja v Dallasu do železniške tragedije na Danskem in nesreče z jezom v Iowi. Raziščite gradbene katastrofe in skrite napake, krive za dramatične dogodke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8c/8/a/8c8a2468-bd15-4a25-822f-b6a1b9ffa92e.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773099"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E0 - Na sledi tihotapcem: Poljub metamfetamina",
+      "naslov_orig": "S5E0 - To Catch a Smuggler: The Kiss of Meth",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "12+",
+      "opis": "Agentje mejne policije zasežejo največjo količino metamfetamina v zgodovini letališča v Los Angelesu. Agentje domovinske varnosti okrožja Orange izvedejo tri racije pod krinko v enem dnevu in aretirajo več ljudi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/3/e/d13e880c-111e-4bdc-a51f-4602aa56531b.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773107"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S10E2 - Prva pomoč za avtomobile: VW Corrado",
+      "naslov_orig": "S10E2 - Car S.O.S.: VW Corrado",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "8+",
+      "opis": "Tim in Fuzz gresta v Huddersfield, da bi rešila volkswagna corrado, letnik 1992. Avto pripada 37-letni električarki Ashley, ki ji peša zdravje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3b/7/0/3b70113c-d2dd-496b-9c7b-55dec5f0c5c6.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773103"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E1 - Druga svetovna vojna: Skrivnosti iz zraka: Bitka za Norveško",
+      "naslov_orig": "S3E1 - World War II: Secrets From Above: Battle for Norway",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "12+",
+      "opis": "April 1940. Nemške bojne ladje napadejo ključna norveška pristanišča, toda britanska Kraljeva vojna mornarica jim je za petami v siloviti bitki za nadzor nad Norveško.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/b/c/5fbc469b-4ced-42d4-b063-a77e7def9f84.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773092"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E7 - Katastrofa v zraku: Posebno poročilo: Smrtonosni podatki",
+      "naslov_orig": "S5E7 - Air Crash Investigation: Special Report: Deadly Data",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "S skritimi napakami v navigacijskih sistemih tri letala utrpijo katastrofalne računalniške napake, zaradi katerih morajo preiskovalci globoko kopati.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/9/6/2c96a42b-0b52-4812-b3c3-043fc79a5315.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773100"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E3 - Mojster preživetja: Lovci",
+      "naslov_orig": "S5E3 - Primal Survivor: Cloud Forest Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Hazen Audel se poslužuje neverjetnih plemenskih tradicij, medtem ko se prebija skozi najnevarnejši in najbolj divji teren na Kitajskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/5/e/275e5ee0-aef2-4325-9337-6b72bf279f7b.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773094"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E4 - Mojster preživetja: Gospodarji ognja",
+      "naslov_orig": "S5E4 - Primal Survivor: Masters of Fire",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Hazen se odpravi v Surinam, da bi srečal pleme Saramacca in se poučil o njihovih tehnikah preživetja v deževnem gozdu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/5/e/275e5ee0-aef2-4325-9337-6b72bf279f7b.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773101"
+    },
+    {
+      "datum": "2026-09-17",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S7E4 - Tabu: Zbiralci",
+      "naslov_orig": "S7E4 - Taboo: Hoarders",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "12+",
+      "opis": "Nekateri nimajo nikoli dovolj. Od obsedenca s kramo iz Londona do zbiralca pujsov na Floridi. Vstopili bomo v svet kompulzivnega kopičenja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e4/1/6/e416e492-1433-4763-a040-7761d290196a.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1153773321"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "00:00",
+      "cas_konec": "00:50",
+      "trajanje": "50 min",
+      "naslov_sl": "S1E8 - Deepwater Horizon, concorde, vzpenjača v Kaprunu",
+      "naslov_orig": "S1E8 - Disaster Autopsy: Compilation: Deepwater Horizon, Concorde, Kaprun Funicular",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "znanost"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "12+",
+      "opis": "Analiza treh resničnih katastrof. Eksplozija na ploščadi Deepwater Horizon, strmoglavljenje concorda in požar v vzpenjači v Kaprunu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/6/b/e26bd567-738c-46f7-89de-d78815d4d2b1.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306032"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "00:50",
+      "cas_konec": "01:35",
+      "trajanje": "45 min",
+      "naslov_sl": "S1E1 - Apokalipsa: Hitler napade vzhod: Osvajanje življenjskega prostora",
+      "naslov_orig": "S1E1 - Apocalypse Hitler attaque à l'Est: Conquérir l'espace vital",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "15+",
+      "opis": "Junija 1941 Hitler napade Sovjetsko zvezo, največjo državo na svetu, ki bi jo rad osvojil za svoj Rajh.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/2/b/bc2b60c3-393f-468f-b4c4-49a2ff67ab74.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306031"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "01:35",
+      "cas_konec": "03:00",
+      "trajanje": "85 min",
+      "naslov_sl": "Pred potopom",
+      "naslov_orig": "Before the Flood",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "10+",
+      "opis": "Kaj lahko naredimo kot družba, da preprečimo izumrtje ogroženih vrst, ekosistemov in avtohtonih skupnosti po vsem svetu?\r\n\r\nLeonardo DiCaprio potuje po svetu in s strokovnjaki proučuje podnebne spremembe ter njihov vpliv na Zemljo. Pogovarja se z aktivisti, znanstveniki in svetovnimi voditelji, da bi ocenil obsežnost problematike in našel možne rešitve, preden bo prepozno. Ob globalnem podnebnem sporazumu, ki začne veljati 4. novembra, poziva posameznike, naj preučijo svoje navade in pametno pristopijo k problemu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/3/72a330e0-c3ba-4eac-a428-53a3f8f96f2d.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306029"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "03:00",
+      "cas_konec": "03:45",
+      "trajanje": "45 min",
+      "naslov_sl": "S1E75 - Megagradnje: EcoARK",
+      "naslov_orig": "S1E75 - Megastructures: Eco-Ark",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "8+",
+      "opis": "Tajvanski devetnadstropni paviljon EcoARK, večinoma zgrajen iz recikliranih plastičnih steklenic, je postavil nov mejnik v zeleni gradnji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/d/f/99df6056-0db2-4793-a94b-b78aece70bdd.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306033"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "03:45",
+      "cas_konec": "04:10",
+      "trajanje": "25 min",
+      "naslov_sl": "S1E6 - Vdor v sistem: Triki za zmago",
+      "naslov_orig": "S1E6 - Hacking the System: Hacking to Win",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "12+",
+      "opis": "Brian bo pokazal, kako si lahko s pomočjo predelav pribori premoč tako pri pridobivanju sanjske službe kot zmage na tekmah. Mu bo uspelo vse?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cb/6/4/cb64a4f1-63fb-40c6-a30d-a5cd46e3017e.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306010"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "04:10",
+      "cas_konec": "04:55",
+      "trajanje": "45 min",
+      "naslov_sl": "S1E1 - Čoln robe",
+      "naslov_orig": "S1E1 - Contraband Capture: A Boat of Dope",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "10+",
+      "opis": "Pomorski agenti v Miamiju prestrežejo barko z več kot 500 kg kokaina. Mejna policija v Misisipiju pa izvedejo operacijo na avtocesti, kjer karteli tihotapijo mamila, denar in ljudi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/b/3/bfb3262d-4996-41e2-885c-edfcd7f125f1.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306019"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "04:55",
+      "cas_konec": "05:35",
+      "trajanje": "40 min",
+      "naslov_sl": "S10E6 - Prva pomoč za avtomobile: Toyota supra 4",
+      "naslov_orig": "S10E6 - Car S.O.S.: Toyota Supra Mk4",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "8+",
+      "opis": "Tim in Fuzz obnovita Toyoto Supra Mark 4, letnik 1993, lastnice nekdanje motoristične dirkačice Lise. Njena družina upa, da ji bo prenovljen avto vliv novega upanja po grozni nesreči.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/f/d/9ffdba03-48be-4ef2-b8c5-2659f528b366.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306012"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "05:35",
+      "cas_konec": "06:00",
+      "trajanje": "25 min",
+      "naslov_sl": "S1E4 - Taljenje denarja: Vlomi v trezor",
+      "naslov_orig": "S1E4 - Money Meltdown: Break the Bank",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "12+",
+      "opis": "Dave se dokoplje do stare rudarske opreme in upa, da se v ostankih zemlje in skal nahaja še kaj zlata. Rich odkrije ogromen zaklenjen trezor.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/0/1/9101cb4f-b677-488f-bfe3-1282218bb5ac.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306020"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "06:00",
+      "cas_konec": "06:20",
+      "trajanje": "20 min",
+      "naslov_sl": "S1E7 - Vdor v sistem: Razkritje sleparjev",
+      "naslov_orig": "S1E7 - Hacking the System: Scam Artist Hacks",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "12+",
+      "opis": "Naj gre za preplačilo popravila avtomobila, lažno vedeževanje ali preprosto laž, Brian nam bo pomagal, kako lažje zaznati sleparje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c0/2/8/c02856d3-f5e3-4a91-b4c9-ebe7d64a22e3.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306411"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "06:20",
+      "cas_konec": "07:00",
+      "trajanje": "40 min",
+      "naslov_sl": "S1E76 - Megagradnje: Luksuzno dirkališče v Dubaju",
+      "naslov_orig": "S1E76 - Megastructures: Dubai Racecourse",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "8+",
+      "opis": "Novo dirkališče Meydan, zgrajeno sredi puščave, je definicija luksuza. Vendar, ali bo dokončano do svetovnega prvenstva v Dubaju?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7a/1/d/7a1d7e83-f999-44a4-af5a-0acf82c6e9a5.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306432"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E5 - Orjaške inženirske napake: Teror v Teksasu",
+      "naslov_orig": "S3E5 - Massive Engineering Mistakes: Terror in Texas",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "V Teksasu eksplodira rafinerija nafte. Poplava v Iowi uniči ključni prehod čez železniško progo. Zaradi napake v zasnovi morajo ponovno zgraditi melbournsko turistično znamenitost. Danski gradbeni projekt skoraj povzroči tragedijo na avtocesti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/6/a/a66afada-341d-482e-bd43-723ef0a46c1e.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306437"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "08:00",
+      "cas_konec": "08:50",
+      "trajanje": "50 min",
+      "naslov_sl": "S3E8 - Na sledi tihotapcem: Pobeljena platišča",
+      "naslov_orig": "S3E8 - To Catch a Smuggler: Powdered Rims",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "HSI zaseže platišča, napolnjena s kokainom, v Portoriku in tovor meta in fentanila v San Diegu. CBP Miami prestreže 400.000 dolarjev gotovine, namenjene na Kubo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/f/6/fcf6d59f-f5a9-40ca-8ac7-0793036dcf27.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306433"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "08:50",
+      "cas_konec": "09:05",
+      "trajanje": "15 min",
+      "naslov_sl": "S2E19 - Znanost o neumnosti, kompilacija: Vreme",
+      "naslov_orig": "S2E19 - Science of Stupid Compilations: Science of Stupid Weather",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Meteorologija je zapletena znanost in ljudje poskušajo napovedovati vreme že več kot 2.500 let. V tej epizodi nas bo mati narava preizkusila.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7d/7/5/7d75dd7d-78fc-43b6-83ba-adf075ff6146.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306427"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "09:05",
+      "cas_konec": "10:00",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E3 - Anne Boleyn",
+      "naslov_orig": "S1E3 - How the Tudors Lost Their Heads: Anne Boleyn",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "zgodovina"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "12+",
+      "opis": "Usmrčena zaradi prešuštva in izdaje. Anne Boleyn velja za žensko, ki je zapeljala Henrika VIII. Suzannah Lipscomb in Dan Snow pregledata dokaze in odkrijeta lik, čigar zamisli so pomagale preobraziti Anglijo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dd/1/4/dd149d85-3f13-4118-8677-18826a797fc3.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306421"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "10:00",
+      "cas_konec": "10:45",
+      "trajanje": "45 min",
+      "naslov_sl": "S1E9 - Relitto del Pozzino, starodavni opij, Liang Tebo",
+      "naslov_orig": "S1E9 - Mysteries of Ancient Medicine: Relitto del Pozzino, Ancient Opium, Liang Tebo",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "zgodovina"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "10+",
+      "opis": "Med razbitinami rimske ladje so ohranjene najstarejše tablete, kar smo jih preučevali. V Levanti so uporabljali mak kot opij. 31.000-letni okostnjak z Bornea z zaceljeno amputacijo postavi na glavo znanje o prazgodovinskih operacijah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5b/7/0/5b708d2f-93dd-4034-8f31-3c0d571251f6.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306428"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "10:45",
+      "cas_konec": "11:05",
+      "trajanje": "20 min",
+      "naslov_sl": "S1E5 - Taljenje denarja: Na kupu zlata",
+      "naslov_orig": "S1E5 - Money Meltdown: Standing on a Gold Mine",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "12+",
+      "opis": "Davova ekipa meni, da je nor, potem ko se odloči razrušiti hišo, ki jo je kupil. Ampak Dave je prepričan, da se v njej skriva zlato.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/0/1/9101cb4f-b677-488f-bfe3-1282218bb5ac.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306416"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "11:05",
+      "cas_konec": "12:00",
+      "trajanje": "55 min",
+      "naslov_sl": "S3E1 - Življenje pod ničlo: Naslednja generacija: Lov in nabiralstvo",
+      "naslov_orig": "S3E1 - Life Below Zero: Next Generation: Hunting and Gathering",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "12+",
+      "opis": "Družini Roach in Miller na otroke prenašata znanje o lovu in nabiranju, da bi se povezali z domorodno kulturo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/44/5/4/4454caaa-656f-4a0e-991a-b4e467ede6a4.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306440"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E9 - Letala, ki so spremenila zgodovino: Činuk",
+      "naslov_orig": "S1E9 - Planes That Changed History: Chinook",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "12+",
+      "opis": "Chinook je transportni helikopter, ki je na novo spisal pravila letalstva. Nastal je v 50. letih v Ameriki in služil v Vietnamu. Zaradi okrivljenega okvirja in dveh rotorjev je lahko dvignil težak tovor in preobrazil ameriško vojaško strategijo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/f/d/51fdc54d-ade3-49ff-9bce-88dc435ce7a4.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306426"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S13E4 - Katastrofa v zraku: Udarec s strani",
+      "naslov_orig": "S13E4 - Air Crash Investigation: Sideswiped",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "12+",
+      "opis": "Let 201 čaka enouren let v Kolumbijo, vendar nad eno najbolj odročnih džungel na svetu izgine z radarja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a3/b/7/a3b75bc6-8d79-45aa-9d63-c71fa680b7f7.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306418"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E9 - Na sledi tihotapcem: Milijonska vožnja",
+      "naslov_orig": "S3E9 - To Catch a Smuggler: Million Dollar Ride",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "HSI in CBP zasežeta ponarejeno gotovino in ponarejene kartice, ki prispejo iz Peruja. CBP Calexico potegne 205 kilogramov meta iz težko naloženega avtomobila.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/0/7/4207e9ec-4608-420a-9586-869ea7f504ce.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306441"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "15:00",
+      "cas_konec": "15:40",
+      "trajanje": "40 min",
+      "naslov_sl": "S1E6 - Izgubljena mesta Aleksandra Velikega",
+      "naslov_orig": "S1E6 - Lost Treasures of Ancient Greece: Lost Cities of Alexander the Great",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "zgodovina"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "10+",
+      "opis": "Ekipe arheologov se podajo v novo sezono izkopavanj, da bi odkrile zapuščino enega največjih likov v zgodovini: Aleksandra Velikega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/4/c/a44cecee-399b-4513-bcca-c370ce16d2c4.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306419"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "15:40",
+      "cas_konec": "16:00",
+      "trajanje": "20 min",
+      "naslov_sl": "S1E4 - 14 dni sem trenirala kot tajski boksar",
+      "naslov_orig": "S1E4 - Superskilled with Eva zu Beck: I spend 5 days with the Hadza hunter-gatherers",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "biografija"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "10+",
+      "opis": "Eva zu Beck odpotuje na Tajsko, da bi se naučila tajskega boksa. Samo dva tedna trenira in se vrže v njihov narodni šport. Pred prvo borbo se spopada s poškodbami in dvomi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/c/a/c2ca4af0-cd76-4b38-a37a-de2f7ad05240.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306429"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E6 - Orjaške inženirske napake: Nočna mora v New Orleansu",
+      "naslov_orig": "S3E6 - Massive Engineering Mistakes: Nightmare in New Orleans",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "V New Orleansu se zruši hotel v gradnji. Katastrofalno zrušenje mosta v študentskem naselju v Severni Karolini. Na Danskem se vetrna turbina samouniči. Zakaj je gradnja mosta v Houstonu tako spodletela?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/6/a/a66afada-341d-482e-bd43-723ef0a46c1e.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306434"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Sledilci",
+      "naslov_orig": "S1E2 - Contraband Capture: Target Trackers",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "10+",
+      "opis": "Agenti v Fort Lauderdalu prestrežejo veliko pošiljko marihuane na poti iz ZDA. Mejna policija v Misisipiju nadzoruje zloglasno tihotapsko pot I-10.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/1/9/9819ab1d-55e3-42ed-9923-b847e4866100.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306425"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S10E7 - Prva pomoč za avtomobile: Gasilsko vozilo Denis",
+      "naslov_orig": "S10E7 - Car S.O.S.: Dennis Fire Engine",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "8+",
+      "opis": "Tim in Fuzz gresta v Kent in rešita gasilski avto letnik 1973. Je last gasilca Jamesa, ki je zaradi raka izgubil očeta.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7c/0/a/7c0a4ee6-fb65-4c5b-a922-156eb9e0215b.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306413"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E6 - Druga svetovna vojna: Skrivnosti iz zraka: Bitka pri Kursku",
+      "naslov_orig": "S3E6 - World War II: Secrets From Above: Battle of Kursk",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "12+",
+      "opis": "Nacistična tankovska divizija se je julija 1943 spopadla s sovjetsko industrijsko močjo v eni največjih tankovskih bitk v zgodovini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/16/b/d/16bd8fb5-80ac-4319-b862-4943672536d6.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306435"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E2 - Katastrofa v zraku: Posebno poročilo: Boj do konca",
+      "naslov_orig": "S6E2 - Air Crash Investigation: Special Report: Fight to the Finish",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "12+",
+      "opis": "Tri letalske posadke se znajdejo na robu. Premagajo vse možnosti in pristanejo na tleh.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/9/6/2c96a42b-0b52-4812-b3c3-043fc79a5315.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306438"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E1 - Mojster preživetja: Bitja Amazonije",
+      "naslov_orig": "S1E1 - Primal Survivor: Creatures of the Amazon",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Med 800 km dolgo potjo po odročni in skoraj neraziskani divjini Amazonije mojster preživetja Hazen Audel naleti na različne živali - na žuželke, kače, lenivce in orjaškega mravljinčarja. Ta bitja ga navdušijo, ogrožajo ali pa se z njimi hrani.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/2/5/f625cb52-1dca-4ac7-a091-3f86b75e1b60.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306420"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Mojster preživetja: Amazonske dogodivščine",
+      "naslov_orig": "S1E2 - Primal Survivor: Amazon Adventures",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Mojster preživetja Hazen Audel je na edinstvenem, 800 km dolgem popotovanju po raznoliki Amazoniji. Da bi preživel, mora uporabiti vse svoje znanje, s katerim izdela zavetje, zaneti ogenj in najde hrano na najnenavadnejših krajih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/2/5/f625cb52-1dca-4ac7-a091-3f86b75e1b60.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306422"
+    },
+    {
+      "datum": "2026-09-24",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E3 - Tabu: Srhljiva zdravila",
+      "naslov_orig": "S8E3 - Taboo: Freaky Remedies",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "12+",
+      "opis": "Poglobili se bomo v temnejšo stran medicine in odkrivali nenavadna zdravila - od ekstremnega razstrupljanja do šamanskega žrtvovanja živali.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2a/3/c/2a3c7f37-9c18-4dd7-82a8-8cb7a700086f.jpg",
+      "show_id": "CUP_IECOM_NATGEO_1156306430"
     }
   ]
 }
