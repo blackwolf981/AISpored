@@ -1,242 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-09-20 21:23",
-  "od": "2026-09-13",
-  "do": "2026-09-27",
+  "posodobljeno": "2026-09-21 12:26",
+  "od": "2026-09-14",
+  "do": "2026-09-28",
   "oddaje": [
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "01:20",
-      "cas_konec": "03:01",
-      "trajanje": "101 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: La Calahorra - Collado del Alguacil (186,8 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/8/5/5185fc9d-e9b5-4403-8829-0151072d3820.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152072647",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_la_calahorra__collado_del_alguacil_1868_km_73b81017"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "03:01",
-      "cas_konec": "04:32",
-      "trajanje": "91 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Semi-Final, Frances Tiafoe - Ben Shelton",
-      "naslov_orig": "Tennis: US Open: Semi-Final, Frances Tiafoe - Ben Shelton",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6a/d/3/6ad374cc-eeba-4ec2-808e-58d4f29933e6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152072649",
-      "friendly_id": "tenis_odprto_prvenstvo_zda_semifinal_frances_tiafoe__ben_shelton_0ea44894"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "04:32",
-      "cas_konec": "06:05",
-      "trajanje": "93 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Women | Singles | Final | US Open",
-      "naslov_orig": "Tennis: US Open: Women | Singles | Final | US Open",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/65/9/9/6599cb9a-5e60-48f7-be74-8474c1ed500d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152072651",
-      "friendly_id": "tenis_odprto_prvenstvo_zda_women_|_singles_|_final_|_us_open_9967fa84"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "06:05",
-      "cas_konec": "08:34",
-      "trajanje": "149 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: La Calahorra - Collado del Alguacil (186,8 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 20",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/8/5/5185fc9d-e9b5-4403-8829-0151072d3820.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152072653",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_la_calahorra__collado_del_alguacil_1868_km_ee449469"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "08:34",
-      "cas_konec": "11:00",
-      "trajanje": "146 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Semi-Final, Frances Tiafoe - Ben Shelton",
-      "naslov_orig": "Tennis: US Open: Semi-Final, Frances Tiafoe - Ben Shelton",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6a/d/3/6ad374cc-eeba-4ec2-808e-58d4f29933e6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152418278",
-      "friendly_id": "tenis_odprto_prvenstvo_zda_semifinal_frances_tiafoe__ben_shelton_c21d778e"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "11:00",
-      "cas_konec": "12:58",
-      "trajanje": "118 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Final, Aryna Sabalenka - Elena Rybakina",
-      "naslov_orig": "Tennis: US Open: Final, Aryna Sabalenka - Elena Rybakina",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/b/2/81b2ed81-bf59-451d-8636-d90dc9f77a2e.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152418280",
-      "friendly_id": "tenis_odprto_prvenstvo_zda_final_aryna_sabalenka__elena_rybakina_5497fab3"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "12:58",
-      "cas_konec": "14:15",
-      "trajanje": "77 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: La Calahorra - Collado del Alguacil (186,8 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/8/5/5185fc9d-e9b5-4403-8829-0151072d3820.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152418288",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_la_calahorra__collado_del_alguacil_1868_km_66dc21de"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "14:15",
-      "cas_konec": "16:00",
-      "trajanje": "105 min",
-      "naslov_sl": "Kolesarstvo (M): Grand Prix de Fourmies, Fourmies (200.1 km)",
-      "naslov_orig": "Cycling: Grand Prix Fourmies: 200.1 km",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Na severu Francije, v okolici mesta Fourmies, se kolesarji vsako leto pomerijo v cestni dirki, ki se je prvič odvila leta 1928.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/01/c/7/01c78512-3821-4a58-82d2-30f36f0b3ede.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152418290",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m_grand_prix_de_fourmies_fourmies_2001_km_24252ac8"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "16:00",
-      "cas_konec": "19:45",
-      "trajanje": "225 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 21. etapa: Carrefour Grenade - Grenade (112 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 21: Granada (99.3km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/8/5/5185fc9d-e9b5-4403-8829-0151072d3820.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152418292",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_21_etapa_carrefour_grenade__grenade_112_km_7b7292be"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "19:45",
-      "cas_konec": "23:45",
-      "trajanje": "240 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Final, Alexander Zverev - Ben Shelton",
-      "naslov_orig": "Tennis: US Open: Final, Alexander Zverev - Ben Shelton",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/8/0/1180381c-f1e1-48d7-920b-4c0c543d92ec.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152418294",
-      "zivo": true,
-      "friendly_id": "tenis_odprto_prvenstvo_zda_final_alexander_zverev__ben_shelton_b72991c8"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "23:45",
-      "cas_konec": "00:45",
-      "trajanje": "60 min",
-      "naslov_sl": "Plezanje: Svetovni pokal, Guiyang: Hitrostno plezanje, finale",
-      "naslov_orig": "Climbing: World Cup: China: Men's and Women's Speed | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/76/e/4/76e46ff2-0fde-4842-bbc2-ae27316f2043.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1152418295",
-      "friendly_id": "plezanje_svetovni_pokal_guiyang_hitrostno_plezanje_finale_f5e8b108"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "22:20",
-      "cas_konec": "00:40",
-      "trajanje": "140 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Finale, Alexander Zverev - Ben Shelton",
-      "naslov_orig": "Tennis: US Open: Final, Alexander Zverev - Ben Shelton",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/8/0/1180381c-f1e1-48d7-920b-4c0c543d92ec.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1157445811",
-      "zivo": true,
-      "friendly_id": "tenis_odprto_prvenstvo_zda_finale_alexander_zverev__ben_shelton_77ea6e0e"
-    },
     {
       "datum": "2026-09-14",
       "dan": "Ponedeljek",
@@ -597,293 +365,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/8/0/1180381c-f1e1-48d7-920b-4c0c543d92ec.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1152917740",
       "friendly_id": "tenis_odprto_prvenstvo_zda_finale_alexander_zverev__ben_shelton_fd8a2584"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "01:30",
-      "cas_konec": "02:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, ITT, Montreal (39.2km)",
-      "naslov_orig": "Cycling: UCI Road World Championships Women: ITT, Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155330268",
-      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_itt_montreal_392km_2231818c"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "02:30",
-      "cas_konec": "03:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Elite Men's time trial (39,2 km)",
-      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155330271",
-      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_elite_mens_time_trial_392_km_14707552"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "03:30",
-      "cas_konec": "05:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
-      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155330274",
-      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_3dc7a70d"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "05:00",
-      "cas_konec": "06:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, ITT, Montreal (39.2km)",
-      "naslov_orig": "Cycling: UCI Road World Championships Women: ITT, Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155330269",
-      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_itt_montreal_392km_70226393"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "06:30",
-      "cas_konec": "10:00",
-      "trajanje": "210 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155330275",
-      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_6a0095e8"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "10:00",
-      "cas_konec": "11:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Konjeništvo: Liga narodov, Gassin, St. Tropez: Preskakovanje ovir",
-      "naslov_orig": "Equestrian Sport: Longines League of Nations Gassin, St. Tropez: Jumping",
-      "kategorija": "Šport",
-      "zanr": [
-        "konjeništvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/39/8/d/398d78d9-00a0-4b6b-8d6b-06d852c9460d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804221",
-      "friendly_id": "konjenistvo_liga_narodov_gassin_st_tropez_preskakovanje_ovir_ed89e546"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "11:30",
-      "cas_konec": "12:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
-      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804222",
-      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_3425f794"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Gorsko kolesarstvo (Ž): Svetovna serija: Olimpijski kros, Soldier Hollow",
-      "naslov_orig": "UCI Mountain Bike Women World Series: Cross-country Olympic, Soldier Hollow",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/1/c/f21c54c5-6234-4e88-9dfe-3b401eea6820.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804223",
-      "friendly_id": "gorsko_kolesarstvo_z_svetovna_serija_olimpijski_kros_soldier_hollow_c93a55fa"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "13:00",
-      "cas_konec": "13:50",
-      "trajanje": "50 min",
-      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Elite Men's time trial (39,2 km)",
-      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804224",
-      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_elite_mens_time_trial_392_km_96b55c29"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "13:50",
-      "cas_konec": "14:50",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Luksemburgu, 5. etapa: Mersch vs Luxembourg",
-      "naslov_orig": "Cycling: Tour of Luxembourg: Stage 5: Mersch - Luxembourg (177.6km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dirka po Luksemburgu je profesionalna kolesarska dirka, ki vsako leto poteka v Luksemburgu in je del evropske turneje UCI in serije UCI Pro.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0c/9/f/0c9f552f-8397-4770-8ad3-2f67ba6740f5.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804225",
-      "friendly_id": "kolesarstvo_m_dirka_po_luksemburgu_5_etapa_mersch_vs_luxembourg_97db247d"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "14:50",
-      "cas_konec": "17:10",
-      "trajanje": "140 min",
-      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, U23 ITT (20,3 km)",
-      "naslov_orig": "Cycling: UCI Road World Championships Women: U23 ITT | Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804226",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_u23_itt_203_km_a0e4f1bf"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "17:10",
-      "cas_konec": "17:50",
-      "trajanje": "40 min",
-      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Olimpijski kros, Soldier Hollow",
-      "naslov_orig": "UCI Mountain Bike World Series: Cross-country Olympic World Cup | Men Elite | Soldier Hollow",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804227",
-      "friendly_id": "gorsko_kolesarstvo_uci_world_series_olimpijski_kros_soldier_hollow_9276ef1e"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "17:50",
-      "cas_konec": "20:55",
-      "trajanje": "185 min",
-      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, U23 ITT (31,3 km)",
-      "naslov_orig": "Cycling: UCI Road World Championships: Men U23 ITT | Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804228",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_u23_itt_313_km_3c9bf56c"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "20:55",
-      "cas_konec": "22:25",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarjenje po Afriki",
-      "naslov_orig": "Cycling Africa",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/78/7/d/787de57e-942b-4303-93da-87d2a90fc182.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804229",
-      "friendly_id": "kolesarjenje_po_afriki_7fd55fe8"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "22:25",
-      "cas_konec": "00:00",
-      "trajanje": "95 min",
-      "naslov_sl": "Konjeništvo: Liga narodov, Gassin, St. Tropez: Preskakovanje ovir",
-      "naslov_orig": "Equestrian Sport: Longines League of Nations Gassin, St. Tropez: Jumping",
-      "kategorija": "Šport",
-      "zanr": [
-        "konjeništvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/39/8/d/398d78d9-00a0-4b6b-8d6b-06d852c9460d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1155804230",
-      "friendly_id": "konjenistvo_liga_narodov_gassin_st_tropez_preskakovanje_ovir_3d7fdb37"
     },
     {
       "datum": "2026-09-15",
@@ -5108,6 +4589,618 @@
       "show_id": "CUP_IECOM_EUROSPORT_1158114233",
       "zivo": true,
       "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_03b2112c"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "01:29",
+      "cas_konec": "02:28",
+      "trajanje": "59 min",
+      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, ITT, Montreal (39.2km)",
+      "naslov_orig": "Cycling: UCI Road World Championships Women: ITT, Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155330268",
+      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_itt_montreal_392km_87e61919"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "02:28",
+      "cas_konec": "03:28",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, ITT (39,2 km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155330271",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_itt_392_km_fc729589"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "03:28",
+      "cas_konec": "04:58",
+      "trajanje": "90 min",
+      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
+      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155330274",
+      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_41e32f99"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "04:58",
+      "cas_konec": "06:29",
+      "trajanje": "91 min",
+      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, ITT, Montreal (39.2km)",
+      "naslov_orig": "Cycling: UCI Road World Championships Women: ITT, Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155330269",
+      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_itt_montreal_392km_9d9a715c"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "06:29",
+      "cas_konec": "08:34",
+      "trajanje": "125 min",
+      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
+      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155330275",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_c02d3c35"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "08:34",
+      "cas_konec": "09:59",
+      "trajanje": "85 min",
+      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
+      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159301768",
+      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_4019bace"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "09:59",
+      "cas_konec": "11:24",
+      "trajanje": "85 min",
+      "naslov_sl": "Konjeništvo: Liga narodov, Gassin, St. Tropez: Preskakovanje ovir",
+      "naslov_orig": "Equestrian Sport: Longines League of Nations Gassin, St. Tropez: Jumping",
+      "kategorija": "Šport",
+      "zanr": [
+        "konjeništvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/8/3/b48352d5-cf1a-4212-b923-f037a587e2b6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804221",
+      "friendly_id": "konjenistvo_liga_narodov_gassin_st_tropez_preskakovanje_ovir_364f99c3"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "11:24",
+      "cas_konec": "11:56",
+      "trajanje": "32 min",
+      "naslov_sl": "Snooker (M): Šanghajski Masters, 7. dan, Finale, 2026",
+      "naslov_orig": "Snooker: Shanghai Masters: Final, Kyren Wilson - Judd Trump",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/4/a1d4b0ac-726b-4117-9e30-e2802fd45ed3.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804222",
+      "friendly_id": "snooker_m_sanghajski_masters_7_dan_finale_2026_0bf04298"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "11:56",
+      "cas_konec": "12:54",
+      "trajanje": "58 min",
+      "naslov_sl": "Gorsko kolesarstvo (Ž): Svetovna serija: Olimpijski kros, Soldier Hollow",
+      "naslov_orig": "UCI Mountain Bike Women World Series: Cross-country Olympic, Soldier Hollow",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/1/c/f21c54c5-6234-4e88-9dfe-3b401eea6820.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804223",
+      "friendly_id": "gorsko_kolesarstvo_z_svetovna_serija_olimpijski_kros_soldier_hollow_7cd77de6"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "12:54",
+      "cas_konec": "13:50",
+      "trajanje": "56 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, ITT (39,2 km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804224",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_itt_392_km_f516dcf2"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "13:50",
+      "cas_konec": "14:50",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Luksemburgu, 5. etapa: Mersch vs Luxembourg",
+      "naslov_orig": "Cycling: Tour of Luxembourg: Stage 5: Mersch - Luxembourg (177.6km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Dirka po Luksemburgu je profesionalna kolesarska dirka, ki vsako leto poteka v Luksemburgu in je del evropske turneje UCI in serije UCI Pro.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/03/c/3/03c31575-9595-47dd-b7da-43bdd5e166fe.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804225",
+      "friendly_id": "kolesarstvo_m_dirka_po_luksemburgu_5_etapa_mersch_vs_luxembourg_97db247d"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "14:50",
+      "cas_konec": "17:10",
+      "trajanje": "140 min",
+      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, U23 ITT (20,3 km)",
+      "naslov_orig": "Cycling: UCI Road World Championships Women: U23 ITT | Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804226",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_u23_itt_203_km_a0e4f1bf"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "17:10",
+      "cas_konec": "17:50",
+      "trajanje": "40 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Olimpijski kros, Soldier Hollow",
+      "naslov_orig": "UCI Mountain Bike World Series: Cross-country Olympic World Cup | Men Elite | Soldier Hollow",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804227",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_olimpijski_kros_soldier_hollow_9276ef1e"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "17:50",
+      "cas_konec": "20:55",
+      "trajanje": "185 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, U23 ITT (31,3 km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: Men U23 ITT | Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804228",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_u23_itt_313_km_3c9bf56c"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "20:55",
+      "cas_konec": "22:25",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarjenje po Afriki",
+      "naslov_orig": "Cycling Africa",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/78/7/d/787de57e-942b-4303-93da-87d2a90fc182.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804229",
+      "friendly_id": "kolesarjenje_po_afriki_7fd55fe8"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "22:25",
+      "cas_konec": "00:00",
+      "trajanje": "95 min",
+      "naslov_sl": "Konjeništvo: Liga narodov, Gassin, St. Tropez: Preskakovanje ovir",
+      "naslov_orig": "Equestrian Sport: Longines League of Nations Gassin, St. Tropez: Jumping",
+      "kategorija": "Šport",
+      "zanr": [
+        "konjeništvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/8/3/b48352d5-cf1a-4212-b923-f037a587e2b6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1155804230",
+      "friendly_id": "konjenistvo_liga_narodov_gassin_st_tropez_preskakovanje_ovir_3d7fdb37"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "01:15",
+      "cas_konec": "01:30",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E10 - Kolesarska oddaja",
+      "naslov_orig": "S0E10 - The Cycling Show",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Kolesarska legenda Sir Bradley Wiggins, petkratni olimpijski prvak in zmagovalec Tour de Francea leta 2012, v svoji oddaji pregleduje prihajajoče vrhunske kolesarske dogodke in s svojimi uglednimi gosti razpravlja o novicah in aktualnem dogajanju ter s svojo strokovnostjo kolesarskim navdušencem ponuja povsem poseben vpogled. Ob njem stoji športni novinar Graham Willgoss.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/5/9/4959b897-d7ea-4e48-aefb-4080416ab22e.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158114234",
+      "friendly_id": "kolesarska_oddaja_881ae615"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "01:30",
+      "cas_konec": "03:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Endurance (M): 6 ur Fudžija, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Fuji: Round 6",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabimo vas k ogledu avtomobilske dirke, ki se odvija na dirkališču Fuji Speedway od leta 1967, uživajte v adrenalinu in hitrosti!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/9/4/1f942320-53e7-4f8d-ae90-7efe6abb0e42.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158114235",
+      "friendly_id": "endurance_m_6_ur_fudzija_dirka_2026_9b1d9b57"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Brossard - Montreal (273.7km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: Men's Elite Road Race | Brossard - Montreal (273.7km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158114236",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_brossard__montreal_2737km_d1b122e2"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "06:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
+      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158114237",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_054a320c"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "06:30",
+      "cas_konec": "08:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Velike Britanije, Finale, 2026",
+      "naslov_orig": "Snooker: British Open: Mark Selby - Jak Jones, Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Odprto prvenstvo Velike Britanije (\"British Open\") je profesionalni turnir v snookerju, ki poteka od leta 1985.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158114054",
+      "friendly_id": "snooker_m_odprto_prvenstvo_velike_britanije_finale_2026_14bca4f4"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "08:00",
+      "cas_konec": "11:00",
+      "trajanje": "180 min",
+      "naslov_sl": "Snooker: Shenzen Open: 1. krog",
+      "naslov_orig": "Snooker: Shenzhen Open: Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158562590",
+      "zivo": true,
+      "friendly_id": "snooker_shenzen_open_1_krog_738cd965"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "11:00",
+      "cas_konec": "12:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Tenis: Pokal Laver, 2. dvoboj, 3. dan",
+      "naslov_orig": "Tennis: Laver Cup | Match 2 | Day 3",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Tenis je šport z loparjem, ki ga igrata dva nasprotna igralca ali dve nasprotni ekipi s po dvema igralcema.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5c/1/4/5c14a565-e703-4ba6-a5f7-09cb417569df.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158562591",
+      "friendly_id": "tenis_pokal_laver_2_dvoboj_3_dan_395d428d"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "12:30",
+      "cas_konec": "13:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Snooker: Shenzen Open: 1. krog",
+      "naslov_orig": "Snooker: Shenzhen Open: Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158562592",
+      "friendly_id": "snooker_shenzen_open_1_krog_1ee70e15"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "13:30",
+      "cas_konec": "16:30",
+      "trajanje": "180 min",
+      "naslov_sl": "Snooker: Shenzen Open: 2. krog",
+      "naslov_orig": "Snooker: Shenzhen Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158562593",
+      "zivo": true,
+      "friendly_id": "snooker_shenzen_open_2_krog_16a118ff"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "16:30",
+      "cas_konec": "17:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
+      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158562594",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_f528eb93"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "17:30",
+      "cas_konec": "18:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Brossard - Montreal (273.7km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: Men's Elite Road Race | Brossard - Montreal (273.7km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158562595",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_brossard__montreal_2737km_5d2fa40c"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "18:00",
+      "cas_konec": "20:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Konjeništvo: Global Champions Tour, Dunaj: Preskakovanje ovir, vrhunci",
+      "naslov_orig": "Equestrian: Global Champions Tour Vienna: Jumping, Highlights, Event 13",
+      "kategorija": "Šport",
+      "zanr": [
+        "konjeništvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/14/6/7/14670607-7b04-4a42-a82e-539de5e4e346.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1158562596",
+      "friendly_id": "konjenistvo_global_champions_tour_dunaj_preskakovanje_ovir_vrhunci_d04fed3e"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Snooker: Shenzen Open: 2. krog",
+      "naslov_orig": "Snooker: Shenzhen Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159230878",
+      "friendly_id": "snooker_shenzen_open_2_krog_4c914e2c"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Gorski teki: Golden Trail World Series",
+      "naslov_orig": "Golden Trail World Series",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/13/6/7/1367844e-1189-43b4-b725-928d8dbf2ab8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159230879",
+      "friendly_id": "gorski_teki_golden_trail_world_series_a4dce374"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 6. etapa: Samobor - Zagreb (159,5 km)",
+      "naslov_orig": "Cycling: Tour of Croatia: Stage 6: Samobor - Zagreb (165.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159230880",
+      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_6_etapa_samobor__zagreb_1595_km_7fd61325"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
+      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159230881",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_ad4cc8a9"
     }
   ]
 }

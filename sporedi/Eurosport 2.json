@@ -1,319 +1,10 @@
 {
   "kanal": "Eurosport 2",
   "ch_ext_id": "eurosport-2",
-  "posodobljeno": "2026-09-20 21:23",
-  "od": "2026-09-13",
-  "do": "2026-09-27",
+  "posodobljeno": "2026-09-21 12:26",
+  "od": "2026-09-14",
+  "do": "2026-09-28",
   "oddaje": [
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "01:10",
-      "cas_konec": "02:14",
-      "trajanje": "64 min",
-      "naslov_sl": "S0E5 - Močni udarci: Seattle Seahawks",
-      "naslov_orig": "S0E5 - Hard Knocks",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1e/a/3/1ea391b8-08bd-4d33-a554-bd348e0ace43.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152075189"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "02:14",
-      "cas_konec": "04:03",
-      "trajanje": "109 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Anglije",
-      "naslov_orig": "Snooker: English Open: Semi-Final, Shaun Murphy - Mark Williams",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/4/a/624a9b0f-b505-432d-a968-07c84970f873.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152075190",
-      "friendly_id": "snooker_odprto_prvenstvo_anglije_906eae6a"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "04:03",
-      "cas_konec": "06:00",
-      "trajanje": "117 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: La Calahorra - Collado del Alguacil (186,8 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/5/f/8f5fdee8-f4ed-4d26-9256-8ded9dc7b9c3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152075191",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_la_calahorra__collado_del_alguacil_1868_km_a88cf7f4"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "06:00",
-      "cas_konec": "07:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): MX2, 1. dirka, VN Kitajske 2026",
-      "naslov_orig": "Motocross: World Championship in China: MX2, Race 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/8/8/8f889907-ffc2-4214-a2c5-14ada597507d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152075203",
-      "zivo": true,
-      "friendly_id": "motokros_m_mx2_1_dirka_vn_kitajske_2026_2b20d6ac"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): MXGP, 1. dirka, VN Kitajske 2026",
-      "naslov_orig": "Motocross: World Championship in China: MXGP, Race 1",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/32/f/9/32f97f09-a73e-4cca-a79d-e9600423e240.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152075204",
-      "zivo": true,
-      "friendly_id": "motokros_m_mxgp_1_dirka_vn_kitajske_2026_f010fa0d"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "08:00",
-      "cas_konec": "08:59",
-      "trajanje": "59 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Anglije",
-      "naslov_orig": "Snooker: English Open: Semi-Final, Shaun Murphy - Mark Williams",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/4/a/624a9b0f-b505-432d-a968-07c84970f873.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426390",
-      "friendly_id": "snooker_odprto_prvenstvo_anglije_a13b2e00"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "08:59",
-      "cas_konec": "09:59",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): MX2, 2. dirka, VN Kitajske 2026",
-      "naslov_orig": "Motocross: World Championship in China: MX2, Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/a/b/9aab4155-47e4-4b51-b78b-a03019e9b4a2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426392",
-      "zivo": true,
-      "friendly_id": "motokros_m_mx2_2_dirka_vn_kitajske_2026_d372bdca"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "09:59",
-      "cas_konec": "10:59",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): MXGP, 2. dirka, VN Kitajske 2026",
-      "naslov_orig": "Motocross: World Championship in China: MXGP, Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/a/b/9aab4155-47e4-4b51-b78b-a03019e9b4a2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426393",
-      "zivo": true,
-      "friendly_id": "motokros_m_mxgp_2_dirka_vn_kitajske_2026_9ad8f9dc"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "10:59",
-      "cas_konec": "12:55",
-      "trajanje": "116 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 20. etapa: La Calahorra - Collado del Alguacil (186,8 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 20: La Calahorra - Collado del Alguacil (187km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/5/f/8f5fdee8-f4ed-4d26-9256-8ded9dc7b9c3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426395",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_20_etapa_la_calahorra__collado_del_alguacil_1868_km_f66f8d08"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "12:55",
-      "cas_konec": "13:55",
-      "trajanje": "60 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Anglije",
-      "naslov_orig": "Snooker: English Open: Semi-Final, Frances Tiafoe - Ben Shelton",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/4/a/624a9b0f-b505-432d-a968-07c84970f873.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1157161596",
-      "friendly_id": "snooker_odprto_prvenstvo_anglije_b56c4e96"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "13:55",
-      "cas_konec": "17:00",
-      "trajanje": "185 min",
-      "naslov_sl": "Snooker (M):  Odprto prvenstvo Anglije, Day, 2026",
-      "naslov_orig": "Snooker: English Open: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/4/a/624a9b0f-b505-432d-a968-07c84970f873.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426399",
-      "zivo": true,
-      "friendly_id": "snooker_m__odprto_prvenstvo_anglije_day_2026_44b161f3"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Plezanje: Svetovni pokal, Guiyang: Speed Relays | Final | Guiyang",
-      "naslov_orig": "Climbing: World Cup: China: Speed Relays | Final | Guiyang",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/02/2/c/022c57e2-de91-4662-b578-7993f9c5ae4f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426400",
-      "friendly_id": "plezanje_svetovni_pokal_guiyang_speed_relays_|_final_|_guiyang_25d660f2"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Tenis: Odprto prvenstvo ZDA: Final, Aryna Sabalenka - Elena Rybakina",
-      "naslov_orig": "Tennis: US Open: Final, Aryna Sabalenka - Elena Rybakina",
-      "kategorija": "Šport",
-      "zanr": [
-        "tenis"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/b/2/81b2ed81-bf59-451d-8636-d90dc9f77a2e.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426402",
-      "friendly_id": "tenis_odprto_prvenstvo_zda_final_aryna_sabalenka__elena_rybakina_b012327f"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Snooker: Odprto prvenstvo Anglije: Finale",
-      "naslov_orig": "Snooker: English Open: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/4/a/624a9b0f-b505-432d-a968-07c84970f873.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426407",
-      "friendly_id": "snooker_odprto_prvenstvo_anglije_finale_265d6007"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "20:00",
-      "cas_konec": "23:00",
-      "trajanje": "180 min",
-      "naslov_sl": "Snooker (M):  Odprto prvenstvo Anglije, Day, 2026",
-      "naslov_orig": "Snooker: English Open: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/4/a/624a9b0f-b505-432d-a968-07c84970f873.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426409",
-      "zivo": true,
-      "friendly_id": "snooker_m__odprto_prvenstvo_anglije_day_2026_3ea11a0c"
-    },
-    {
-      "datum": "2026-09-13",
-      "dan": "Nedelja",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M):  Dirka po Španiji, 21. etapa: Carrefour Grenade - Grenade (112 km)",
-      "naslov_orig": "Vuelta a Espana: Stage 21: Granada (99.3km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/51/8/5/5185fc9d-e9b5-4403-8829-0151072d3820.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1152426410",
-      "friendly_id": "kolesarstvo_m__dirka_po_spaniji_21_etapa_carrefour_grenade__grenade_112_km_5e116b03"
-    },
     {
       "datum": "2026-09-14",
       "dan": "Ponedeljek",
@@ -712,329 +403,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b8/4/2/b84278a2-63fc-43e8-b621-18099b34c249.jpg",
       "show_id": "CUP_IECOM_EUROSPORT2_1152926693",
       "friendly_id": "kolesarstvo_m_velika_nagrada_montreala_race_grand_prix_cycliste_de_montréal_74b5b473"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "00:00",
-      "cas_konec": "00:45",
-      "trajanje": "45 min",
-      "naslov_sl": "Motokros (M): MX2, 2. dirka, Velika nagrada Avstralije 2026",
-      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MX2 | Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155391563",
-      "friendly_id": "motokros_m_mx2_2_dirka_velika_nagrada_avstralije_2026_a3e05629"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "00:45",
-      "cas_konec": "01:30",
-      "trajanje": "45 min",
-      "naslov_sl": "Motokros (M): MXGP, 2. dirka, Velika nagrada Avstralije 2026",
-      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MXGP | Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155391564",
-      "friendly_id": "motokros_m_mxgp_2_dirka_velika_nagrada_avstralije_2026_aceb33fb"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "01:30",
-      "cas_konec": "03:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Motociklizem: FIM Svetovno vzdržljivostno prvenstvo Bol d'Or: dirka",
-      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155391565",
-      "friendly_id": "motociklizem_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_7a6caee5"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "03:30",
-      "cas_konec": "05:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Elite Men's time trial (39,2 km)",
-      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155391566",
-      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_elite_mens_time_trial_392_km_c05695f0"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Motociklizem: FIM Svetovno vzdržljivostno prvenstvo Bol d'Or: dirka",
-      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155391567",
-      "friendly_id": "motociklizem_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_95c5ed21"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "07:00",
-      "cas_konec": "08:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Elite Men's time trial (39,2 km)",
-      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155391568",
-      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_elite_mens_time_trial_392_km_f9597fd0"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "08:30",
-      "cas_konec": "09:15",
-      "trajanje": "45 min",
-      "naslov_sl": "Motokros (M): MX2, 2. dirka, Velika nagrada Avstralije 2026",
-      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MX2 | Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806869",
-      "friendly_id": "motokros_m_mx2_2_dirka_velika_nagrada_avstralije_2026_7c6ac236"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "09:15",
-      "cas_konec": "10:00",
-      "trajanje": "45 min",
-      "naslov_sl": "Motokros (M): MXGP, 2. dirka, Velika nagrada Avstralije 2026",
-      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MXGP | Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806870",
-      "friendly_id": "motokros_m_mxgp_2_dirka_velika_nagrada_avstralije_2026_5f57c6d7"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, ITT, Montreal (39.2km)",
-      "naslov_orig": "Cycling: UCI Road World Championships Women: ITT, Montreal (39.2km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806871",
-      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_itt_montreal_392km_5c9d3341"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Gorsko kolesarstvo (Ž): Svetovna serija: Olimpijski kros, Soldier Hollow",
-      "naslov_orig": "UCI Mountain Bike Women World Series: Cross-country Olympic, Soldier Hollow",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/1/c/f21c54c5-6234-4e88-9dfe-3b401eea6820.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806875",
-      "friendly_id": "gorsko_kolesarstvo_z_svetovna_serija_olimpijski_kros_soldier_hollow_239d751f"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "12:00",
-      "cas_konec": "14:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Motociklizem: FIM Svetovno vzdržljivostno prvenstvo Bol d'Or: dirka",
-      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806876",
-      "friendly_id": "motociklizem_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_29d255d3"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "14:00",
-      "cas_konec": "15:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Motošport: Vzdržljivostno svetovno prvenstvo: 6h Spa-Francorchampsa: 2,. krog",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2,",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/8/5/ce85939e-4179-47a1-8d7a-375829549230.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806877",
-      "friendly_id": "motosport_vzdrzljivostno_svetovno_prvenstvo_6h_spafrancorchampsa_2_krog_6dac3a1f"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "15:30",
-      "cas_konec": "17:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker (M): Mark Selby - Noppon Saengkham, Odprto prvenstvo Kitajske, Finale, 2026",
-      "naslov_orig": "Snooker: China Open: Mark Selby - Noppon Saengkham, Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806878",
-      "friendly_id": "snooker_m_mark_selby__noppon_saengkham_odprto_prvenstvo_kitajske_finale_2026_56a24fab"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "17:00",
-      "cas_konec": "18:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Motociklizem: FIM Svetovno vzdržljivostno prvenstvo Bol d'Or: dirka",
-      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806879",
-      "friendly_id": "motociklizem_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_74b33504"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "18:30",
-      "cas_konec": "20:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806880",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_2b32c3be"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "20:00",
-      "cas_konec": "22:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Motociklizem: FIM Svetovno vzdržljivostno prvenstvo Bol d'Or: dirka",
-      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806882",
-      "friendly_id": "motociklizem_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_3e95bbf0"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "22:00",
-      "cas_konec": "00:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1155806881",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_dab0b4a3"
     },
     {
       "datum": "2026-09-14",
@@ -1491,25 +859,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3b/4/9/3b49fbe5-8ea4-445f-82a9-76ef88ab1a0a.jpg",
       "show_id": "CUP_IECOM_EUROSPORT2_1153406674",
       "friendly_id": "kolesarstvo_m_dirka_po_abruzzu_1_etapa_cupello__casalincontrada_156_km_510505a9"
-    },
-    {
-      "datum": "2026-09-21",
-      "dan": "Ponedeljek",
-      "cas": "22:30",
-      "cas_konec": "00:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo: Cestno svetovno prvenstvo",
-      "naslov_orig": "Cycling: UCI Road World Championships: Men",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT2_1157756970",
-      "friendly_id": "kolesarstvo_cestno_svetovno_prvenstvo_3c7cd386"
     },
     {
       "datum": "2026-09-22",
@@ -5171,6 +4520,633 @@
       "show_id": "CUP_IECOM_EUROSPORT2_1158119654",
       "zivo": true,
       "friendly_id": "golf_the_presidents_cup_4_dan_fcacbd8b"
+    },
+    {
+      "datum": "2026-09-20",
+      "dan": "Nedelja",
+      "cas": "23:59",
+      "cas_konec": "00:43",
+      "trajanje": "44 min",
+      "naslov_sl": "Motokros (M): MX2, 2. dirka, Velika nagrada Avstralije 2026",
+      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MX2 | Race 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155391563",
+      "friendly_id": "motokros_m_mx2_2_dirka_velika_nagrada_avstralije_2026_e5e02c52"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "00:43",
+      "cas_konec": "01:29",
+      "trajanje": "46 min",
+      "naslov_sl": "Motokros (M): MXGP, 2. dirka, Velika nagrada Avstralije 2026",
+      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MXGP | Race 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155391564",
+      "friendly_id": "motokros_m_mxgp_2_dirka_velika_nagrada_avstralije_2026_bcf94955"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "01:29",
+      "cas_konec": "03:34",
+      "trajanje": "125 min",
+      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
+      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155391565",
+      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_c3d27160"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "03:34",
+      "cas_konec": "05:09",
+      "trajanje": "95 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, ITT (39,2 km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155391566",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_itt_392_km_060314b8"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "05:09",
+      "cas_konec": "07:00",
+      "trajanje": "111 min",
+      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
+      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155391567",
+      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_63904e2b"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "07:00",
+      "cas_konec": "07:44",
+      "trajanje": "44 min",
+      "naslov_sl": "Motokros (M): MX2, 2. dirka, Velika nagrada Avstralije 2026",
+      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MX2 | Race 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_EUROSPORT2_1157756322",
+      "friendly_id": "motokros_m_mx2_2_dirka_velika_nagrada_avstralije_2026_aeff124e"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "07:44",
+      "cas_konec": "08:30",
+      "trajanje": "46 min",
+      "naslov_sl": "Motokros (M): MXGP, 2. dirka, Velika nagrada Avstralije 2026",
+      "naslov_orig": "Motocross: FIM Motocross World Championship Australia: MXGP | Race 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_EUROSPORT2_1157756323",
+      "friendly_id": "motokros_m_mxgp_2_dirka_velika_nagrada_avstralije_2026_409ae2fc"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "08:30",
+      "cas_konec": "10:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, ITT (39,2 km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: ITT | Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1157756969",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_itt_392_km_e93267ee"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo UCI, ITT, Montreal (39.2km)",
+      "naslov_orig": "Cycling: UCI Road World Championships Women: ITT, Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/3/2ba39936-d2bd-4c75-ad69-c96a09860485.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806871",
+      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_uci_itt_montreal_392km_5c9d3341"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "11:00",
+      "cas_konec": "11:59",
+      "trajanje": "59 min",
+      "naslov_sl": "Gorsko kolesarstvo (Ž): Svetovna serija: Olimpijski kros, Soldier Hollow",
+      "naslov_orig": "UCI Mountain Bike Women World Series: Cross-country Olympic, Soldier Hollow",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/1/c/f21c54c5-6234-4e88-9dfe-3b401eea6820.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806875",
+      "friendly_id": "gorsko_kolesarstvo_z_svetovna_serija_olimpijski_kros_soldier_hollow_239d751f"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "11:59",
+      "cas_konec": "13:59",
+      "trajanje": "120 min",
+      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
+      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806876",
+      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_8dafac83"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "13:59",
+      "cas_konec": "15:29",
+      "trajanje": "90 min",
+      "naslov_sl": "Motošport: Vzdržljivostno svetovno prvenstvo: 6h Spa-Francorchampsa: 2,. krog",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2,",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/8/5/ce85939e-4179-47a1-8d7a-375829549230.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806877",
+      "friendly_id": "motosport_vzdrzljivostno_svetovno_prvenstvo_6h_spafrancorchampsa_2_krog_0dbb7946"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "15:29",
+      "cas_konec": "17:00",
+      "trajanje": "91 min",
+      "naslov_sl": "Snooker (M): Mark Selby - Noppon Saengkham, Odprto prvenstvo Kitajske, Finale, 2026",
+      "naslov_orig": "Snooker: China Open: Mark Selby - Noppon Saengkham, Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/7/9/71791012-af49-4973-906c-181543620d04.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806878",
+      "friendly_id": "snooker_m_mark_selby__noppon_saengkham_odprto_prvenstvo_kitajske_finale_2026_40b9b35e"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "17:00",
+      "cas_konec": "18:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
+      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806879",
+      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_e8ed059d"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "18:30",
+      "cas_konec": "20:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
+      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806880",
+      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_2b32c3be"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "22:30",
+      "trajanje": "150 min",
+      "naslov_sl": "Enduro (M): FIM Svetovno vzdržljivostno prvenstvo Bol d'Or, dirka, 2026",
+      "naslov_orig": "Motorcycling FIM EWC: Bol d'Or: Race",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v vzdržljivosti FIM je tekmovanje v motociklizmu, sestavljeno iz vzdržljivostnih dirk, ki trajajo med 6 in 24 urami.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/8/1/1781568f-272e-4443-aee2-4c7595edb8e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1155806882",
+      "friendly_id": "enduro_m_fim_svetovno_vzdrzljivostno_prvenstvo_bol_dor_dirka_2026_65142b4a"
+    },
+    {
+      "datum": "2026-09-21",
+      "dan": "Ponedeljek",
+      "cas": "22:30",
+      "cas_konec": "00:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo: Cestno svetovno prvenstvo: ITT | Montreal (39.2km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: Men Elite ITT | Montreal (39.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1159303898",
+      "friendly_id": "kolesarstvo_cestno_svetovno_prvenstvo_itt_|_montreal_392km_3989555b"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "00:00",
+      "cas_konec": "01:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Endurance (M): 6 ur Fudžija, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Fuji: Round 6",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabimo vas k ogledu avtomobilske dirke, ki se odvija na dirkališču Fuji Speedway od leta 1967, uživajte v adrenalinu in hitrosti!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/9/4/1f942320-53e7-4f8d-ae90-7efe6abb0e42.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158119655",
+      "friendly_id": "endurance_m_6_ur_fudzija_dirka_2026_639178cf"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "01:30",
+      "cas_konec": "03:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Brossard - Montreal (273.7km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: Men's Elite Road Race | Brossard - Montreal (273.7km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158119657",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_brossard__montreal_2737km_e857e85d"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Velike Britanije, Finale, 2026",
+      "naslov_orig": "Snooker: British Open: Mark Selby - Jak Jones, Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Odprto prvenstvo Velike Britanije (\"British Open\") je profesionalni turnir v snookerju, ki poteka od leta 1985.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158119658",
+      "friendly_id": "snooker_m_odprto_prvenstvo_velike_britanije_finale_2026_19d3eb32"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Endurance (M): 6 ur Fudžija, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Fuji: Round 6",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabimo vas k ogledu avtomobilske dirke, ki se odvija na dirkališču Fuji Speedway od leta 1967, uživajte v adrenalinu in hitrosti!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/9/4/1f942320-53e7-4f8d-ae90-7efe6abb0e42.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158119656",
+      "friendly_id": "endurance_m_6_ur_fudzija_dirka_2026_f90f5043"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 6. etapa: Samobor - Zagreb (159,5 km)",
+      "naslov_orig": "Cycling: Tour of Croatia: Stage 6: Samobor - Zagreb (165.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158119659",
+      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_6_etapa_samobor__zagreb_1595_km_ec219b3f"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "08:00",
+      "cas_konec": "09:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
+      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568142",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_695a35a0"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "09:30",
+      "cas_konec": "11:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Brossard - Montreal (273.7km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: Men's Elite Road Race | Brossard - Montreal (273.7km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568144",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_brossard__montreal_2737km_b720f7da"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 6. etapa: Samobor - Zagreb (159,5 km)",
+      "naslov_orig": "Cycling: Tour of Croatia: Stage 6: Samobor - Zagreb (165.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568146",
+      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_6_etapa_samobor__zagreb_1595_km_273d8217"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "12:00",
+      "cas_konec": "13:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Endurance (M): 6 ur Fudžija, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Fuji: Round 6",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabimo vas k ogledu avtomobilske dirke, ki se odvija na dirkališču Fuji Speedway od leta 1967, uživajte v adrenalinu in hitrosti!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/9/4/1f942320-53e7-4f8d-ae90-7efe6abb0e42.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568147",
+      "friendly_id": "endurance_m_6_ur_fudzija_dirka_2026_f5f2b4e8"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "13:30",
+      "cas_konec": "14:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
+      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568143",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_89f4ec99"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "14:30",
+      "cas_konec": "16:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo UCI, Brossard - Montreal (273.7km)",
+      "naslov_orig": "Cycling: UCI Road World Championships: Men's Elite Road Race | Brossard - Montreal (273.7km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568145",
+      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_uci_brossard__montreal_2737km_af8c715b"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "16:30",
+      "cas_konec": "18:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Endurance (M): 6 ur Fudžija, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Fuji: Round 6",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabimo vas k ogledu avtomobilske dirke, ki se odvija na dirkališču Fuji Speedway od leta 1967, uživajte v adrenalinu in hitrosti!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/9/4/1f942320-53e7-4f8d-ae90-7efe6abb0e42.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568148",
+      "friendly_id": "endurance_m_6_ur_fudzija_dirka_2026_a84d4f49"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "18:30",
+      "cas_konec": "20:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Tenis: Pokal Laver, 2. dvoboj, 3. dan",
+      "naslov_orig": "Tennis: Laver Cup | Match 2 | Day 3",
+      "kategorija": "Šport",
+      "zanr": [
+        "tenis"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tenis je šport z loparjem, ki ga igrata dva nasprotna igralca ali dve nasprotni ekipi s po dvema igralcema.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5c/1/4/5c14a565-e703-4ba6-a5f7-09cb417569df.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568301",
+      "friendly_id": "tenis_pokal_laver_2_dvoboj_3_dan_489b8aa5"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
+      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/05/5/d/055d9c43-00d1-42eb-980e-0438061b44e8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1159714449",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_238088b9"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 6. etapa: Samobor - Zagreb (159,5 km)",
+      "naslov_orig": "Cycling: Tour of Croatia: Stage 6: Samobor - Zagreb (165.2km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1159714450",
+      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_6_etapa_samobor__zagreb_1595_km_9452258f"
+    },
+    {
+      "datum": "2026-09-28",
+      "dan": "Ponedeljek",
+      "cas": "22:00",
+      "cas_konec": "00:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Endurance (M): 6 ur Fudžija, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Fuji: Round 6",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabimo vas k ogledu avtomobilske dirke, ki se odvija na dirkališču Fuji Speedway od leta 1967, uživajte v adrenalinu in hitrosti!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/9/4/1f942320-53e7-4f8d-ae90-7efe6abb0e42.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT2_1158568300",
+      "friendly_id": "endurance_m_6_ur_fudzija_dirka_2026_2e96799e"
     }
   ]
 }
