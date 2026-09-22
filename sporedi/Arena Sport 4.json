@@ -1,201 +1,10 @@
 {
   "kanal": "Arena Sport 4",
   "ch_ext_id": "arena-sport-4",
-  "posodobljeno": "2026-09-21 12:26",
-  "od": "2026-09-14",
-  "do": "2026-09-28",
+  "posodobljeno": "2026-09-22 12:26",
+  "od": "2026-09-15",
+  "do": "2026-09-29",
   "oddaje": [
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "02:45",
-      "cas_konec": "04:40",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Fluminense - Platense, Copa Libertadores 2026, Četrtfinale",
-      "naslov_orig": "Nogomet: Copa Libertadores: Četrtfinale: Fluminense - Platense / 1. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte Pokal Libertadores, mednarodno nogometno tekmovanje, v katerem sodelujejo najboljši klubi Južne Amerike. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0e/8/5/0e85cb44-18bd-4a10-849b-afcfdd382a52.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155076998",
-      "friendly_id": "nogomet_m_fluminense__platense_copa_libertadores_2026_cetrtfinale_b96b6f1a"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "04:40",
-      "cas_konec": "07:30",
-      "trajanje": "170 min",
-      "naslov_sl": "Bejzbol (M): C. Cubs - P. Pirates, MLB 2026, Redna sezona",
-      "naslov_orig": "Baseball: MLB: Chicago Cubs - Pittsburgh Pirates",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c4/6/1/c4616f2a-40b5-4d7e-8dce-bad51e2cb198.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1153197624",
-      "friendly_id": "bejzbol_m_c_cubs__p_pirates_mlb_2026_redna_sezona_ce5f3f2a"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "07:30",
-      "cas_konec": "10:20",
-      "trajanje": "170 min",
-      "naslov_sl": "Bejzbol (M): P. Pirates - S. F. Giants, MLB 2026, Redna sezona",
-      "naslov_orig": "Baseball: MLB: Pittsburgh Pirates - San Francisco Giants",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155930922",
-      "friendly_id": "bejzbol_m_p_pirates__s_f_giants_mlb_2026_redna_sezona_a7e05a63"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "10:20",
-      "cas_konec": "13:20",
-      "trajanje": "180 min",
-      "naslov_sl": "Am. nogomet (M): H. Texans - B. Bills, NFL 2026/2027",
-      "naslov_orig": "Ameriški nogomet: NFL: Houston Texans - Buffalo Bills",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155251833",
-      "friendly_id": "am_nogomet_m_h_texans__b_bills_nfl_2026_2027_9235e4e6"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "13:20",
-      "cas_konec": "15:15",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Lecce - Monza, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Lecce - Monza",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/d/7/7bd77e2b-764d-4d27-a66b-e22ef6921a8b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1153197627",
-      "friendly_id": "nogomet_m_lecce__monza_serie_a_2026_2027_d79b8c77"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "15:15",
-      "cas_konec": "18:15",
-      "trajanje": "180 min",
-      "naslov_sl": "Am. nogomet (M): Vikings - Packers, NFL 2026/2027",
-      "naslov_orig": "Ameriški nogomet: NFL: Minnesota Vikings - Green Bay Packers",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155251834",
-      "friendly_id": "am_nogomet_m_vikings__packers_nfl_2026_2027_2cfe48a5"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "18:15",
-      "cas_konec": "18:50",
-      "trajanje": "35 min",
-      "naslov_sl": "S0E3 - Xtreme Collxtion",
-      "naslov_orig": "S0E3 - Xtreme Collxtion",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/0/9820629b-8c7f-4537-8636-edb6d5afed39.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155930923",
-      "friendly_id": "xtreme_collxtion_5b7e10df"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "18:50",
-      "cas_konec": "21:30",
-      "trajanje": "160 min",
-      "naslov_sl": "Odbojka (M): Estonija - Belgija, Evropsko prvenstvo 2026, Skupina C",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Estonija - Belgija",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1153197630",
-      "zivo": true,
-      "friendly_id": "odbojka_m_estonija__belgija_evropsko_prvenstvo_2026_skupina_c_abd3963c"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "21:30",
-      "cas_konec": "22:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E4 - Xtreme Collxtion",
-      "naslov_orig": "S0E4 - Xtreme Collxtion",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/2/0/9820629b-8c7f-4537-8636-edb6d5afed39.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155930924",
-      "friendly_id": "xtreme_collxtion_8f6c2743"
-    },
-    {
-      "datum": "2026-09-14",
-      "dan": "Ponedeljek",
-      "cas": "22:00",
-      "cas_konec": "01:00",
-      "trajanje": "180 min",
-      "naslov_sl": "Am. nogomet (M): NY Giants - Cowboys, NFL 2026/2027 , East Rutherford, NJ",
-      "naslov_orig": "Ameriški nogomet: NFL: New York Giants - Dallas Cowboys",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1153197632",
-      "friendly_id": "am_nogomet_m_ny_giants__cowboys_nfl_2026_2027__east_rutherford_nj_964e15d6"
-    },
     {
       "datum": "2026-09-15",
       "dan": "Torek",
@@ -405,215 +214,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
       "show_id": "CUP_IECOM_ARENASLO4_1155077582",
       "friendly_id": "odbojka_m_estonija__belgija_evropsko_prvenstvo_2026_skupina_c_bf7714e5"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "00:30",
-      "cas_konec": "02:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): LDU Quito - Palmeiras, Copa Libertadores 2026, Četrtfinale",
-      "naslov_orig": "Nogomet: Copa Libertadores: Četrtfinale: LDU Quito - Palmeiras, 2. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte Pokal Libertadores, mednarodno nogometno tekmovanje, v katerem sodelujejo najboljši klubi Južne Amerike. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0e/8/5/0e85cb44-18bd-4a10-849b-afcfdd382a52.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932012",
-      "friendly_id": "nogomet_m_ldu_quito__palmeiras_copa_libertadores_2026_cetrtfinale_0fcfd250"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "02:30",
-      "cas_konec": "03:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Ligue 1 2026/27: Pregled 5. kroga",
-      "naslov_orig": "French Ligue 1 Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932013",
-      "friendly_id": "ligue_1_2026_27_pregled_5_kroga_f69cc7b9"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "03:00",
-      "cas_konec": "05:50",
-      "trajanje": "170 min",
-      "naslov_sl": "Bejzbol (M): T. B. Rays - B. Red Sox, MLB 2026, Redna sezona",
-      "naslov_orig": "Baseball: MLB: Tampa Bay Rays - Boston Red Sox",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932014",
-      "friendly_id": "bejzbol_m_t_b_rays__b_red_sox_mlb_2026_redna_sezona_1e385668"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "05:50",
-      "cas_konec": "08:45",
-      "trajanje": "175 min",
-      "naslov_sl": "Am. nogomet (M): Cowboys - Commanders, NFL 2026/2027",
-      "naslov_orig": "Ameriški nogomet: NFL: Dallas Cowboys - Washington Commanders",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932015",
-      "friendly_id": "am_nogomet_m_cowboys__commanders_nfl_2026_2027_dbc4f49a"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "08:45",
-      "cas_konec": "11:40",
-      "trajanje": "175 min",
-      "naslov_sl": "Am. nogomet (M): LA Rams - NY Giants, NFL 2026/2027",
-      "naslov_orig": "Ameriški nogomet: NFL: Los Angeles Rams - New York Giants",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932005",
-      "friendly_id": "am_nogomet_m_la_rams__ny_giants_nfl_2026_2027_950c6d35"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "11:40",
-      "cas_konec": "13:35",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Reims - Montpellier, Ligue 2 2026/2027",
-      "naslov_orig": "Nogomet: Ligue 2: Reims - Montpellier",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ligue 2 je druga najmočnejša francoska nogometna liga. 20 moštev se vsako sezono bori za mesta, ki vodijo med elito.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/74/c/c/74ccfa9a-fdda-495c-abe1-10bc374a214d.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932006",
-      "friendly_id": "nogomet_m_reims__montpellier_ligue_2_2026_2027_eb7a0dac"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "13:35",
-      "cas_konec": "16:25",
-      "trajanje": "170 min",
-      "naslov_sl": "Bejzbol (M): P. Pirates - M. Brewers, MLB 2026, Redna sezona",
-      "naslov_orig": "Baseball: MLB: Pittsburgh Pirates - Milwaukee Brewers",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932007",
-      "friendly_id": "bejzbol_m_p_pirates__m_brewers_mlb_2026_redna_sezona_2e39f20a"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "16:25",
-      "cas_konec": "16:55",
-      "trajanje": "30 min",
-      "naslov_sl": "NFL 2026/27: Pregled 2. tedna",
-      "naslov_orig": "Američki fudbal: NFL: Pregled",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/3/1fe324fd-4c95-4333-9790-0e3a2f63349c.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932008",
-      "friendly_id": "nfl_2026_27_pregled_2_tedna_513b7cf5"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "16:55",
-      "cas_konec": "19:50",
-      "trajanje": "175 min",
-      "naslov_sl": "Am. nogomet (M): H. Texans - Bengals, NFL 2026/2027",
-      "naslov_orig": "Ameriški nogomet: NFL: Houston Texans - Cincinnati Bengals",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932009",
-      "friendly_id": "am_nogomet_m_h_texans__bengals_nfl_2026_2027_b72aab8e"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "19:50",
-      "cas_konec": "22:40",
-      "trajanje": "170 min",
-      "naslov_sl": "Bejzbol (M): P. Pirates - M. Brewers, MLB 2026, Redna sezona",
-      "naslov_orig": "Baseball: MLB: Pittsburgh Pirates - Milwaukee Brewers",
-      "kategorija": "Šport",
-      "zanr": [
-        "bejzbol"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932010",
-      "friendly_id": "bejzbol_m_p_pirates__m_brewers_mlb_2026_redna_sezona_3977e9b1"
-    },
-    {
-      "datum": "2026-09-22",
-      "dan": "Torek",
-      "cas": "22:40",
-      "cas_konec": "01:35",
-      "trajanje": "175 min",
-      "naslov_sl": "Am. nogomet (M): LA Rams - NY Giants, NFL 2026/2027",
-      "naslov_orig": "Ameriški nogomet: NFL: Los Angeles Rams - New York Giants",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO4_1155932011",
-      "friendly_id": "am_nogomet_m_la_rams__ny_giants_nfl_2026_2027_ed218a68"
     },
     {
       "datum": "2026-09-15",
@@ -3255,6 +2855,441 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
       "show_id": "CUP_IECOM_ARENASLO4_1160355800",
       "friendly_id": "am_nogomet_m_broncos__la_rams_nfl_2026_2027_04665c5d"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "00:30",
+      "cas_konec": "02:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): LDU Quito - Palmeiras, Copa Libertadores 2026, Četrtfinale",
+      "naslov_orig": "Nogomet: Copa Libertadores: Četrtfinale: LDU Quito - Palmeiras, 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte Pokal Libertadores, mednarodno nogometno tekmovanje, v katerem sodelujejo najboljši klubi Južne Amerike. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0e/8/5/0e85cb44-18bd-4a10-849b-afcfdd382a52.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932012",
+      "friendly_id": "nogomet_m_ldu_quito__palmeiras_copa_libertadores_2026_cetrtfinale_0fcfd250"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "02:30",
+      "cas_konec": "03:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Pregled 5. kroga",
+      "naslov_orig": "French Ligue 1 Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932013",
+      "friendly_id": "ligue_1_2026_27_pregled_5_kroga_f69cc7b9"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "03:00",
+      "cas_konec": "05:50",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): T. B. Rays - B. Red Sox, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Tampa Bay Rays - Boston Red Sox",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932014",
+      "friendly_id": "bejzbol_m_t_b_rays__b_red_sox_mlb_2026_redna_sezona_1e385668"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "05:50",
+      "cas_konec": "08:45",
+      "trajanje": "175 min",
+      "naslov_sl": "Am. nogomet (M): Cowboys - Commanders, NFL 2026/2027",
+      "naslov_orig": "Ameriški nogomet: NFL: Dallas Cowboys - Washington Commanders",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932015",
+      "friendly_id": "am_nogomet_m_cowboys__commanders_nfl_2026_2027_dbc4f49a"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "08:45",
+      "cas_konec": "11:40",
+      "trajanje": "175 min",
+      "naslov_sl": "Am. nogomet (M): LA Rams - NY Giants, NFL 2026/2027",
+      "naslov_orig": "Ameriški nogomet: NFL: Los Angeles Rams - New York Giants",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932005",
+      "friendly_id": "am_nogomet_m_la_rams__ny_giants_nfl_2026_2027_950c6d35"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "11:40",
+      "cas_konec": "13:35",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Reims - Montpellier, Ligue 2 2026/2027",
+      "naslov_orig": "Nogomet: Ligue 2: Reims - Montpellier",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ligue 2 je druga najmočnejša francoska nogometna liga. 20 moštev se vsako sezono bori za mesta, ki vodijo med elito.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/74/c/c/74ccfa9a-fdda-495c-abe1-10bc374a214d.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932006",
+      "friendly_id": "nogomet_m_reims__montpellier_ligue_2_2026_2027_eb7a0dac"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "13:35",
+      "cas_konec": "16:25",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): P. Pirates - M. Brewers, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Pittsburgh Pirates - Milwaukee Brewers",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932007",
+      "friendly_id": "bejzbol_m_p_pirates__m_brewers_mlb_2026_redna_sezona_2e39f20a"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "16:25",
+      "cas_konec": "16:55",
+      "trajanje": "30 min",
+      "naslov_sl": "NFL 2026/27: Pregled 2. tedna",
+      "naslov_orig": "Američki fudbal: NFL: Pregled",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/3/1fe324fd-4c95-4333-9790-0e3a2f63349c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932008",
+      "friendly_id": "nfl_2026_27_pregled_2_tedna_513b7cf5"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "16:55",
+      "cas_konec": "19:50",
+      "trajanje": "175 min",
+      "naslov_sl": "Am. nogomet (M): H. Texans - Bengals, NFL 2026/2027",
+      "naslov_orig": "Ameriški nogomet: NFL: Houston Texans - Cincinnati Bengals",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932009",
+      "friendly_id": "am_nogomet_m_h_texans__bengals_nfl_2026_2027_b72aab8e"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "19:50",
+      "cas_konec": "22:40",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): P. Pirates - M. Brewers, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Pittsburgh Pirates - Milwaukee Brewers",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932010",
+      "friendly_id": "bejzbol_m_p_pirates__m_brewers_mlb_2026_redna_sezona_3977e9b1"
+    },
+    {
+      "datum": "2026-09-22",
+      "dan": "Torek",
+      "cas": "22:40",
+      "cas_konec": "01:35",
+      "trajanje": "175 min",
+      "naslov_sl": "Am. nogomet (M): LA Rams - NY Giants, NFL 2026/2027",
+      "naslov_orig": "Ameriški nogomet: NFL: Los Angeles Rams - New York Giants",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1155932011",
+      "friendly_id": "am_nogomet_m_la_rams__ny_giants_nfl_2026_2027_ed218a68"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "01:25",
+      "cas_konec": "04:15",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): D. Tigers - W. Nationals, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Detroit Tigers - Washington Nationals",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355968",
+      "friendly_id": "bejzbol_m_d_tigers__w_nationals_mlb_2026_redna_sezona_d5d80d9b"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "04:15",
+      "cas_konec": "07:05",
+      "trajanje": "170 min",
+      "naslov_sl": "NFL 2026/27: TBA*5",
+      "naslov_orig": "Ameriški nogomet: NFL: TBA*5",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355969",
+      "friendly_id": "nfl_2026_27_tba5_fad54a21"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "07:05",
+      "cas_konec": "09:55",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): C. Cubs - M. Marlins, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Chicago Cubs - Miami Marlins",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355974",
+      "friendly_id": "bejzbol_m_c_cubs__m_marlins_mlb_2026_redna_sezona_1833e72d"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "09:55",
+      "cas_konec": "10:10",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E6 - Športne igre mladih 2026/27",
+      "naslov_orig": "S0E6 - Sportske igre mladih",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športne igre mladih so dogodek, ki zbere mlade iz vse Evrope. Organizirajo se od leta 1996, ko so se prvič odvile v Splitu, danes se odvijajo v Sloveniji, Bosni in Hercegovini, Srbiji in na Hrvaškem in so največji amaterski športni dogodek v tem delu Evrope. Osnovnošolci in srednješolci se pomerijo v desetih športnih disciplinah, najboljši pa napredujejo v mednarodni finale.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2e/e/d/2eed915c-dab3-4381-a615-2205e475ac97.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355970"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "10:10",
+      "cas_konec": "11:40",
+      "trajanje": "90 min",
+      "naslov_sl": "Gogis Garage / Podkast: Leandro Barbosa",
+      "naslov_orig": "Gogis Garage / Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355979"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "11:40",
+      "cas_konec": "14:30",
+      "trajanje": "170 min",
+      "naslov_sl": "Am. nogomet (M): C. Bears - Eagles, NFL 2026/2027",
+      "naslov_orig": "Ameriški nogomet: NFL: Chicago Bears - Philadelphia Eagles",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355978",
+      "friendly_id": "am_nogomet_m_c_bears__eagles_nfl_2026_2027_b32bf2b0"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "14:30",
+      "cas_konec": "15:00",
+      "trajanje": "30 min",
+      "naslov_sl": "NFL 2026/27: Pregled 3. tedna",
+      "naslov_orig": "Američki fudbal: NFL: Pregled",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/3/1fe324fd-4c95-4333-9790-0e3a2f63349c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355971",
+      "friendly_id": "nfl_2026_27_pregled_3_tedna_3e598ba7"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "15:00",
+      "cas_konec": "17:50",
+      "trajanje": "170 min",
+      "naslov_sl": "Bejzbol (M): M. Marlins - A. Braves, MLB 2026, Redna sezona",
+      "naslov_orig": "Baseball: MLB: Miami Marlins - Atlanta Braves",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355972",
+      "friendly_id": "bejzbol_m_m_marlins__a_braves_mlb_2026_redna_sezona_b6406f0c"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "17:50",
+      "cas_konec": "20:40",
+      "trajanje": "170 min",
+      "naslov_sl": "NFL 2026/27: TBA*6",
+      "naslov_orig": "Ameriški nogomet: NFL: TBA*6",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355975",
+      "friendly_id": "nfl_2026_27_tba6_f202cca6"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "20:40",
+      "cas_konec": "22:35",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Reims - Montpellier, Ligue 2 2026/2027",
+      "naslov_orig": "Nogomet: Ligue 2: Reims - Montpellier",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ligue 2 je druga najmočnejša francoska nogometna liga. 20 moštev se vsako sezono bori za mesta, ki vodijo med elito.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/74/c/c/74ccfa9a-fdda-495c-abe1-10bc374a214d.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355976",
+      "friendly_id": "nogomet_m_reims__montpellier_ligue_2_2026_2027_82774c6b"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "22:35",
+      "cas_konec": "23:05",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Pregled 5. kroga",
+      "naslov_orig": "French Ligue 1 Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355977",
+      "friendly_id": "ligue_1_2026_27_pregled_5_kroga_c5afa592"
+    },
+    {
+      "datum": "2026-09-29",
+      "dan": "Torek",
+      "cas": "23:05",
+      "cas_konec": "01:50",
+      "trajanje": "165 min",
+      "naslov_sl": "Am. nogomet (M): Broncos - LA Rams, NFL 2026/2027",
+      "naslov_orig": "Ameriški nogomet: NFL: Denver Broncos - Los Angeles Rams",
+      "kategorija": "Šport",
+      "zanr": [
+        "ameriški nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Tekma ameriškega nogometa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
+      "show_id": "CUP_IECOM_ARENASLO4_1160355973",
+      "friendly_id": "am_nogomet_m_broncos__la_rams_nfl_2026_2027_c028429c"
     }
   ]
 }
