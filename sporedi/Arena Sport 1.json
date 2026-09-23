@@ -1,298 +1,10 @@
 {
   "kanal": "Arena Sport 1",
   "ch_ext_id": "arena-sport-1",
-  "posodobljeno": "2026-09-22 12:26",
-  "od": "2026-09-15",
-  "do": "2026-09-29",
+  "posodobljeno": "2026-09-23 12:26",
+  "od": "2026-09-16",
+  "do": "2026-09-30",
   "oddaje": [
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "01:55",
-      "cas_konec": "02:15",
-      "trajanje": "20 min",
-      "naslov_sl": "S0E57 - AS Podkast",
-      "naslov_orig": "S0E57 - AS Podkast",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "pogovorna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726210"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "02:15",
-      "cas_konec": "05:15",
-      "trajanje": "180 min",
-      "naslov_sl": "Am. nogomet (M): Chiefs - Broncos, NFL 2026/2027",
-      "naslov_orig": "Ameriški nogomet: NFL: Kansas City Chiefs - Denver Broncos",
-      "kategorija": "Šport",
-      "zanr": [
-        "ameriški nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Tekma ameriškega nogometa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/1/7/1f17532e-a98b-4a61-be58-fe23dd911048.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726211",
-      "zivo": true,
-      "friendly_id": "am_nogomet_m_chiefs__broncos_nfl_2026_2027_99df21ad"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "05:15",
-      "cas_konec": "05:45",
-      "trajanje": "30 min",
-      "naslov_sl": "EHF Liga prvakinj 2026/27: Pregled 2. kroga",
-      "naslov_orig": "Women's EHF Champions League: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d0/d/b/d0dbc3c3-b0c6-481b-abbe-6d6b5ec0a5f7.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726212",
-      "friendly_id": "ehf_liga_prvakinj_2026_27_pregled_2_kroga_9eb61682"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "05:45",
-      "cas_konec": "07:25",
-      "trajanje": "100 min",
-      "naslov_sl": "Rokomet (Ž): Ferencvárosi - Krim, EHF Liga prvakinj 2026/2027, Skupina A",
-      "naslov_orig": "Rokomet: EHF Liga prvakinj: FTC - Krim OTP Group Mercator",
-      "kategorija": "Šport",
-      "zanr": [
-        "rokomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "EHF Liga prvakinj je najpomembnejše rokometno klubsko tekmovanje za ženske ekipe v Evropi in vključuje vodilne ekipe iz najboljših evropskih lig.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5c/8/8/5c88be07-6fef-40ba-8d50-caabc1bda3a8.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726213",
-      "friendly_id": "rokomet_z_ferencvárosi__krim_ehf_liga_prvakinj_2026_2027_skupina_a_93fc202c"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "07:25",
-      "cas_konec": "09:20",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Napoli - Bologna, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Napoli - Bologna",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/d/7/7bd77e2b-764d-4d27-a66b-e22ef6921a8b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726154",
-      "friendly_id": "nogomet_m_napoli__bologna_serie_a_2026_2027_b7897375"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "09:20",
-      "cas_konec": "11:35",
-      "trajanje": "135 min",
-      "naslov_sl": "Odbojka (M): Slovenija - Grčija, Evropsko prvenstvo 2026, Skupina A",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Slovenija - Grčija",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726155",
-      "friendly_id": "odbojka_m_slovenija__grcija_evropsko_prvenstvo_2026_skupina_a_a5dd1479"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "11:35",
-      "cas_konec": "12:05",
-      "trajanje": "30 min",
-      "naslov_sl": "Ligue 1 2026/27: Pregled 4. kroga",
-      "naslov_orig": "French Ligue 1 Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726156",
-      "friendly_id": "ligue_1_2026_27_pregled_4_kroga_ffd5c2e2"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "12:05",
-      "cas_konec": "14:00",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Inter - Udinese, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Inter - Udinese",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/d/7/7bd77e2b-764d-4d27-a66b-e22ef6921a8b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726157",
-      "friendly_id": "nogomet_m_inter__udinese_serie_a_2026_2027_a5b2f56a"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "14:00",
-      "cas_konec": "14:50",
-      "trajanje": "50 min",
-      "naslov_sl": "Serie A 2026/27: Pregled 4. kroga",
-      "naslov_orig": "Italian Serie A: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Prinašamo vam pregled tekem in najboljše trenutke iz lige Serie A, najvišje divizije v italijanskem nogometnem sistemu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/a/2/a2a2f9bb-3bfb-47e0-8778-b235c489e5dc.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726158",
-      "friendly_id": "serie_a_2026_27_pregled_4_kroga_a3307873"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "14:50",
-      "cas_konec": "17:10",
-      "trajanje": "140 min",
-      "naslov_sl": "Odbojka (M): S. Makedonija - Portugalska, Evropsko prvenstvo 2026, Skupina B",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Severna Makedonija - Portugalska",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726159",
-      "zivo": true,
-      "friendly_id": "odbojka_m_s_makedonija__portugalska_evropsko_prvenstvo_2026_skupina_b_edfdfd17"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "17:10",
-      "cas_konec": "17:50",
-      "trajanje": "40 min",
-      "naslov_sl": "EHF Liga prvakinj 2026/27: Pregled 2. kroga",
-      "naslov_orig": "Women's EHF Champions League: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d0/d/b/d0dbc3c3-b0c6-481b-abbe-6d6b5ec0a5f7.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726160",
-      "friendly_id": "ehf_liga_prvakinj_2026_27_pregled_2_kroga_bbb34661"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "17:50",
-      "cas_konec": "20:25",
-      "trajanje": "155 min",
-      "naslov_sl": "Odbojka (M): Poljska - Ukrajina, Evropsko prvenstvo 2026, Skupina B",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Poljska - Ukrajina",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726161",
-      "zivo": true,
-      "friendly_id": "odbojka_m_poljska__ukrajina_evropsko_prvenstvo_2026_skupina_b_7d9f925c"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "20:25",
-      "cas_konec": "21:00",
-      "trajanje": "35 min",
-      "naslov_sl": "Ligue 1 2026/27: Pregled 4. kroga",
-      "naslov_orig": "French Ligue 1 Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726162",
-      "friendly_id": "ligue_1_2026_27_pregled_4_kroga_78801501"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "21:00",
-      "cas_konec": "23:15",
-      "trajanje": "135 min",
-      "naslov_sl": "Nogomet (M): Ipswich - Arsenal, EFL Cup 2026/2027",
-      "naslov_orig": "Nogomet: EFL Cup: 3. krog: Ipswich Town - Arsenal",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Angleškega ligaškega pokala. Gre za nogometno tekmovanje, ki se ga udeležijo angleški klubi iz Premier lige in treh nižjih lig. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/6/d/0b6d9026-1c45-45dc-ab0d-74f56bdd0595.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726163",
-      "zivo": true,
-      "friendly_id": "nogomet_m_ipswich__arsenal_efl_cup_2026_2027_147c9a28"
-    },
-    {
-      "datum": "2026-09-15",
-      "dan": "Torek",
-      "cas": "23:15",
-      "cas_konec": "01:30",
-      "trajanje": "135 min",
-      "naslov_sl": "Odbojka (M): Slovenija - Grčija, Evropsko prvenstvo 2026, Skupina A",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Slovenija - Grčija",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1153726164",
-      "friendly_id": "odbojka_m_slovenija__grcija_evropsko_prvenstvo_2026_skupina_a_67376ad4"
-    },
     {
       "datum": "2026-09-16",
       "dan": "Sreda",
@@ -613,346 +325,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/d/7/7bd77e2b-764d-4d27-a66b-e22ef6921a8b.jpg",
       "show_id": "CUP_IECOM_ARENASLO1_1155075466",
       "friendly_id": "nogomet_m_napoli__bologna_serie_a_2026_2027_7e9d1fe0"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "00:40",
-      "cas_konec": "01:10",
-      "trajanje": "30 min",
-      "naslov_sl": "EHF Liga prvakinj 2026/27: Pregled 3. kroga",
-      "naslov_orig": "Women's EHF Champions League: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d0/d/b/d0dbc3c3-b0c6-481b-abbe-6d6b5ec0a5f7.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931435",
-      "friendly_id": "ehf_liga_prvakinj_2026_27_pregled_3_kroga_18927cb1"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "01:10",
-      "cas_konec": "03:30",
-      "trajanje": "140 min",
-      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Osmina finala: TBA*6",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Osmina finala: TBA*6",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931436",
-      "friendly_id": "cev_evropsko_prvenstvo_2026_m_osmina_finala_tba6_d2773c88"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "03:30",
-      "cas_konec": "04:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E10 - Shortlist",
-      "naslov_orig": "S0E10 - Shortlist",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931437",
-      "friendly_id": "shortlist_4709644b"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "04:00",
-      "cas_konec": "06:15",
-      "trajanje": "135 min",
-      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Osmina finala: TBA*4",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Osmina finala: TBA*4",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931438",
-      "friendly_id": "cev_evropsko_prvenstvo_2026_m_osmina_finala_tba4_963f051f"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "06:15",
-      "cas_konec": "06:45",
-      "trajanje": "30 min",
-      "naslov_sl": "Ligue 1 2026/27: Pregled 5. kroga",
-      "naslov_orig": "French Ligue 1 Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931469",
-      "friendly_id": "ligue_1_2026_27_pregled_5_kroga_85aeecd0"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "06:45",
-      "cas_konec": "08:40",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Marseille - PSG, Ligue 1 2026/2027",
-      "naslov_orig": "Nogomet: Ligue 1: Marseille - PSG",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/f/3/aaf35b9c-1b34-4f87-ae23-e07ac645c00e.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931470",
-      "friendly_id": "nogomet_m_marseille__psg_ligue_1_2026_2027_8d531b30"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "08:40",
-      "cas_konec": "10:55",
-      "trajanje": "135 min",
-      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Četrtfinale: TBA*9",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: TBA*9",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931471",
-      "friendly_id": "cev_evropsko_prvenstvo_2026_m_cetrtfinale_tba9_857c5093"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "10:55",
-      "cas_konec": "11:25",
-      "trajanje": "30 min",
-      "naslov_sl": "NFL 2026/27: Pregled 2. tedna",
-      "naslov_orig": "Američki fudbal: NFL: Pregled",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/3/1fe324fd-4c95-4333-9790-0e3a2f63349c.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931472",
-      "friendly_id": "nfl_2026_27_pregled_2_tedna_9ae3f042"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "11:25",
-      "cas_konec": "13:40",
-      "trajanje": "135 min",
-      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Četrtfinale: TBA*10",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: TBA*10",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931473",
-      "friendly_id": "cev_evropsko_prvenstvo_2026_m_cetrtfinale_tba10_d0046abe"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "13:40",
-      "cas_konec": "14:10",
-      "trajanje": "30 min",
-      "naslov_sl": "EHF Liga prvakinj 2026/27: Pregled 3. kroga",
-      "naslov_orig": "Women's EHF Champions League: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d0/d/b/d0dbc3c3-b0c6-481b-abbe-6d6b5ec0a5f7.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931474",
-      "friendly_id": "ehf_liga_prvakinj_2026_27_pregled_3_kroga_4fb8abb8"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "14:10",
-      "cas_konec": "16:05",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Milan - Lecce, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Milan - Lecce",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/d/7/7bd77e2b-764d-4d27-a66b-e22ef6921a8b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931475",
-      "friendly_id": "nogomet_m_milan__lecce_serie_a_2026_2027_d977a8a0"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "16:05",
-      "cas_konec": "16:55",
-      "trajanje": "50 min",
-      "naslov_sl": "Serie A 2026/27: Pregled 5. kroga",
-      "naslov_orig": "Italian Serie A: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Prinašamo vam pregled tekem in najboljše trenutke iz lige Serie A, najvišje divizije v italijanskem nogometnem sistemu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/a/2/a2a2f9bb-3bfb-47e0-8778-b235c489e5dc.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931476",
-      "friendly_id": "serie_a_2026_27_pregled_5_kroga_dfcbb65c"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "16:55",
-      "cas_konec": "17:10",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E58 - AS Podkast",
-      "naslov_orig": "S0E58 - AS Podkast",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "pogovorna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931477"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "17:10",
-      "cas_konec": "19:05",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Roma - Inter, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Roma - Inter",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/d/7/7bd77e2b-764d-4d27-a66b-e22ef6921a8b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931478",
-      "friendly_id": "nogomet_m_roma__inter_serie_a_2026_2027_60e0710c"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "19:05",
-      "cas_konec": "20:35",
-      "trajanje": "90 min",
-      "naslov_sl": "Gogis Garage / Podkast: Leandro Barbosa",
-      "naslov_orig": "Gogis Garage / Podkast",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "pogovorna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931479"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "20:35",
-      "cas_konec": "22:50",
-      "trajanje": "135 min",
-      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Četrtfinale: TBA*9",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: TBA*9",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931480",
-      "friendly_id": "cev_evropsko_prvenstvo_2026_m_cetrtfinale_tba9_e090c283"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "22:50",
-      "cas_konec": "23:20",
-      "trajanje": "30 min",
-      "naslov_sl": "Ligue 1 2026/27: Pregled 5. kroga",
-      "naslov_orig": "French Ligue 1 Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931481",
-      "friendly_id": "ligue_1_2026_27_pregled_5_kroga_ed8dc020"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "23:20",
-      "cas_konec": "01:35",
-      "trajanje": "135 min",
-      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Četrtfinale: TBA*10",
-      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: TBA*10",
-      "kategorija": "Šport",
-      "zanr": [
-        "odbojka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO1_1155931482",
-      "friendly_id": "cev_evropsko_prvenstvo_2026_m_cetrtfinale_tba10_2f81cac5"
     },
     {
       "datum": "2026-09-17",
@@ -4127,6 +3499,575 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/2/8/ae28d884-6e3a-4e0e-b260-c6c957d286a3.jpg",
       "show_id": "CUP_IECOM_ARENASLO1_1160546483",
       "friendly_id": "kosarka_m_partizan__ilirija_aba_liga_2026_2027_skupina_b_e06ab272"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "01:10",
+      "cas_konec": "03:30",
+      "trajanje": "140 min",
+      "naslov_sl": "Odbojka (M): Italija - Danska, Evropsko prvenstvo 2026, Osmina finala",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Osmina finala: Italija - Danska",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931436",
+      "friendly_id": "odbojka_m_italija__danska_evropsko_prvenstvo_2026_osmina_finala_8368264f"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "03:30",
+      "cas_konec": "04:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E10 - Shortlist",
+      "naslov_orig": "S0E10 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931437",
+      "friendly_id": "shortlist_4709644b"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "04:00",
+      "cas_konec": "06:15",
+      "trajanje": "135 min",
+      "naslov_sl": "Odbojka (M): Slovenija - Srbija, Evropsko prvenstvo 2026, Osmina finala",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Osmina finala: Slovenija - Srbija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931438",
+      "friendly_id": "odbojka_m_slovenija__srbija_evropsko_prvenstvo_2026_osmina_finala_7809a289"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "06:15",
+      "cas_konec": "06:45",
+      "trajanje": "30 min",
+      "naslov_sl": "Ligue 1 2026/27: Pregled 5. kroga",
+      "naslov_orig": "French Ligue 1 Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/c/f/d3cf2c43-e0b0-49d2-ba90-e24e93308e94.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931469",
+      "friendly_id": "ligue_1_2026_27_pregled_5_kroga_85aeecd0"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "06:45",
+      "cas_konec": "08:40",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Marseille - PSG, Ligue 1 2026/2027",
+      "naslov_orig": "Nogomet: Ligue 1: Marseille - PSG",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/f/3/aaf35b9c-1b34-4f87-ae23-e07ac645c00e.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931470",
+      "friendly_id": "nogomet_m_marseille__psg_ligue_1_2026_2027_8d531b30"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "08:40",
+      "cas_konec": "10:55",
+      "trajanje": "135 min",
+      "naslov_sl": "Odbojka (M): Francija - Romunija, Evropsko prvenstvo 2026, Četrtfinale",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: Francija - Romunija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931471",
+      "friendly_id": "odbojka_m_francija__romunija_evropsko_prvenstvo_2026_cetrtfinale_b318ee4c"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "10:55",
+      "cas_konec": "11:25",
+      "trajanje": "30 min",
+      "naslov_sl": "NFL 2026/27: Pregled 2. tedna",
+      "naslov_orig": "Američki fudbal: NFL: Pregled",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/3/1fe324fd-4c95-4333-9790-0e3a2f63349c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931472",
+      "friendly_id": "nfl_2026_27_pregled_2_tedna_9ae3f042"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "11:25",
+      "cas_konec": "13:40",
+      "trajanje": "135 min",
+      "naslov_sl": "Odbojka (M): Poljska - Nemčija, Evropsko prvenstvo 2026, Četrtfinale",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: Poljska - Nemčija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931473",
+      "friendly_id": "odbojka_m_poljska__nemcija_evropsko_prvenstvo_2026_cetrtfinale_80576b6a"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "13:40",
+      "cas_konec": "13:55",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E5 - Športne igre mladih 2026/27",
+      "naslov_orig": "S0E5 - Sportske igre mladih",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športne igre mladih so dogodek, ki zbere mlade iz vse Evrope. Organizirajo se od leta 1996, ko so se prvič odvile v Splitu, danes se odvijajo v Sloveniji, Bosni in Hercegovini, Srbiji in na Hrvaškem in so največji amaterski športni dogodek v tem delu Evrope. Osnovnošolci in srednješolci se pomerijo v desetih športnih disciplinah, najboljši pa napredujejo v mednarodni finale.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2e/e/d/2eed915c-dab3-4381-a615-2205e475ac97.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160973223"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "13:55",
+      "cas_konec": "15:50",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Milan - Lecce, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Milan - Lecce",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/7/4/f474ea67-639a-4821-af27-68e38249492b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1155931475",
+      "friendly_id": "nogomet_m_milan__lecce_serie_a_2026_2027_e43ffb5d"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "15:50",
+      "cas_konec": "18:30",
+      "trajanje": "160 min",
+      "naslov_sl": "Odbojka (M): Belgija - Slovenija, Evropsko prvenstvo 2026, Četrtfinale",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: Belgija - Slovenija",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160973224",
+      "zivo": true,
+      "friendly_id": "odbojka_m_belgija__slovenija_evropsko_prvenstvo_2026_cetrtfinale_128f3cb3"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "18:30",
+      "cas_konec": "18:45",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E57 - AS Podkast",
+      "naslov_orig": "S0E57 - AS Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1159225355"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "18:45",
+      "cas_konec": "20:55",
+      "trajanje": "130 min",
+      "naslov_sl": "Nogomet (M): Roma - Inter, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Roma - Inter",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/7/4/f474ea67-639a-4821-af27-68e38249492b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160973225",
+      "friendly_id": "nogomet_m_roma__inter_serie_a_2026_2027_605e2fc7"
+    },
+    {
+      "datum": "2026-09-23",
+      "dan": "Sreda",
+      "cas": "20:55",
+      "cas_konec": "23:30",
+      "trajanje": "155 min",
+      "naslov_sl": "Odbojka (M): Italija - Finska, Evropsko prvenstvo 2026, Četrtfinale",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Četrtfinale: Italija - Finska",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160973226",
+      "zivo": true,
+      "friendly_id": "odbojka_m_italija__finska_evropsko_prvenstvo_2026_cetrtfinale_ffb4cf1c"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "00:25",
+      "cas_konec": "03:00",
+      "trajanje": "155 min",
+      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Tekma za 3. mesto",
+      "naslov_orig": "CEV Evropsko prvenstvo 2026 (m): Tekma za 3. mesto",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547095",
+      "friendly_id": "cev_evropsko_prvenstvo_2026_m_tekma_za_3_mesto_782e4095"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "03:00",
+      "cas_konec": "03:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E15 - Shortlist",
+      "naslov_orig": "S0E15 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547090",
+      "friendly_id": "shortlist_1e4f9b84"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "03:30",
+      "cas_konec": "03:45",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E6 - Športne igre mladih 2026/27",
+      "naslov_orig": "S0E6 - Sportske igre mladih",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športne igre mladih so dogodek, ki zbere mlade iz vse Evrope. Organizirajo se od leta 1996, ko so se prvič odvile v Splitu, danes se odvijajo v Sloveniji, Bosni in Hercegovini, Srbiji in na Hrvaškem in so največji amaterski športni dogodek v tem delu Evrope. Osnovnošolci in srednješolci se pomerijo v desetih športnih disciplinah, najboljši pa napredujejo v mednarodni finale.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2e/e/d/2eed915c-dab3-4381-a615-2205e475ac97.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547092"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "03:45",
+      "cas_konec": "06:15",
+      "trajanje": "150 min",
+      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Finale",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Finale",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547083",
+      "friendly_id": "cev_evropsko_prvenstvo_2026_m_finale_f9c8dd4b"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "06:15",
+      "cas_konec": "06:45",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E16 - Shortlist",
+      "naslov_orig": "S0E16 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547084",
+      "friendly_id": "shortlist_ab0ea29f"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "06:45",
+      "cas_konec": "07:00",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E58 - AS Podkast",
+      "naslov_orig": "S0E58 - AS Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547085"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "07:00",
+      "cas_konec": "08:55",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): Partizan - Ilirija, ABA liga 2026/2027, Skupina B",
+      "naslov_orig": "Košarka: ABA liga: Partizan Mozzart Bet - Perspektiva Ilirija",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/2/8/ae28d884-6e3a-4e0e-b260-c6c957d286a3.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547086",
+      "friendly_id": "kosarka_m_partizan__ilirija_aba_liga_2026_2027_skupina_b_d1453f04"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "08:55",
+      "cas_konec": "10:40",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (M): Izvidac Ljubuski - Savoie, EHF Evropska liga 2026/2027, Skupina C",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Izviđač - Chambery",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547081",
+      "friendly_id": "rokomet_m_izvidac_ljubuski__savoie_ehf_evropska_liga_2026_2027_skupina_c_d6435edd"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "10:40",
+      "cas_konec": "12:25",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (M): IK Saevehof -  Sesvete, EHF Evropska liga 2026/2027, Skupina D",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Savehof - Sesvete",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547093",
+      "friendly_id": "rokomet_m_ik_saevehof___sesvete_ehf_evropska_liga_2026_2027_skupina_d_11b50f9b"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "12:25",
+      "cas_konec": "14:10",
+      "trajanje": "105 min",
+      "naslov_sl": "Košarka (M): Cedevita - Krka, ABA liga 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: ABA liga: Cedevita Olimpija - Krka",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/2/8/ae28d884-6e3a-4e0e-b260-c6c957d286a3.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547094",
+      "friendly_id": "kosarka_m_cedevita__krka_aba_liga_2026_2027_skupina_a_6d425ecf"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "14:10",
+      "cas_konec": "15:40",
+      "trajanje": "90 min",
+      "naslov_sl": "Gogis Garage / Podkast: Leandro Barbosa",
+      "naslov_orig": "Gogis Garage / Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547091"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "15:40",
+      "cas_konec": "18:10",
+      "trajanje": "150 min",
+      "naslov_sl": "CEV Evropsko prvenstvo 2026 (m): Finale",
+      "naslov_orig": "Odbojka: Evropsko prvenstvo za moške: Finale",
+      "kategorija": "Šport",
+      "zanr": [
+        "odbojka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Dolga tradicija evropskih odbojkarskih prvenstev sega v konec druge svetovne vojne. Prvo evropsko prvenstvo je potekalo leta 1948 v Italiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/c/b/0dcbd347-b0d8-42d6-a844-00d71ea10f9b.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547087",
+      "friendly_id": "cev_evropsko_prvenstvo_2026_m_finale_b844bb96"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "18:10",
+      "cas_konec": "18:45",
+      "trajanje": "35 min",
+      "naslov_sl": "S0E17 - Shortlist",
+      "naslov_orig": "S0E17 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/41/6/9/4169a67a-bbc8-4d5c-a3fd-20d5e4a0fde0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547088",
+      "friendly_id": "shortlist_4b5256dd"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "18:45",
+      "cas_konec": "20:45",
+      "trajanje": "120 min",
+      "naslov_sl": "Rokomet (M): Tatabanya - Slovan, EHF Evropska liga 2026/2027, Skupina H",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Tatabanya - Grosist Slovan",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547089",
+      "zivo": true,
+      "friendly_id": "rokomet_m_tatabanya__slovan_ehf_evropska_liga_2026_2027_skupina_h_9f6a3789"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "20:45",
+      "cas_konec": "22:30",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (M): Eurofarm P. - La Rioja, EHF Evropska liga 2026/2027, Skupina G",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Eurofarm Pelister - La Rioja",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547082",
+      "zivo": true,
+      "friendly_id": "rokomet_m_eurofarm_p__la_rioja_ehf_evropska_liga_2026_2027_skupina_g_16b8c8fe"
+    },
+    {
+      "datum": "2026-09-30",
+      "dan": "Sreda",
+      "cas": "22:30",
+      "cas_konec": "00:15",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (M): Izvidac Ljubuski - Savoie, EHF Evropska liga 2026/2027, Skupina C",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Izviđač - Chambery",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO1_1160547096",
+      "friendly_id": "rokomet_m_izvidac_ljubuski__savoie_ehf_evropska_liga_2026_2027_skupina_c_13d771fe"
     }
   ]
 }
