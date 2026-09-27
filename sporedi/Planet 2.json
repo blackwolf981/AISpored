@@ -1,7 +1,7 @@
 {
   "kanal": "Planet 2",
   "ch_ext_id": "planet-2",
-  "posodobljeno": "2026-09-27 17:44",
+  "posodobljeno": "2026-09-27 17:47",
   "od": "2026-09-20",
   "do": "2026-10-04",
   "oddaje": [
@@ -5928,6 +5928,24 @@
       "show_id": "CUP_FAKE_PLANET2_202610032100_202610032200"
     },
     {
+      "datum": "2026-10-04",
+      "dan": "Nedelja",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/2/9/1129f526-a1e6-4472-8699-247d2e8794f5.png",
+      "show_id": "CUP_FAKE_PLANET2_202610032200_202610032300"
+    },
+    {
       "datum": "2026-09-27",
       "dan": "Nedelja",
       "cas": "01:00",
@@ -6340,24 +6358,6 @@
       "opis": "Utrujeni detektiv Jack, ki ima zlomljeno nogo in težave z alkoholom, nekega jutra sprejme na videz lahko nalogo, ki pripelje do velikega zapleta.\r\n\r\nOstareli policist Jack, z ne preveč zgledno preteklostjo, mora prepeljati nadležnega tatiča Eddieja do bližnjega sodišča, kjer naj bi pričal v sodnem procesu. Rutinska vožnja se kmalu sprevrže v bitko na življenje in smrt, saj bi Eddie moral pričati proti podkupljenim policistom, ki tega ne nameravajo dopustiti. Toda tudi Jack je odločen, da tokrat ne bo pogledal v drugo smer, temveč se bo do konca boril za pravico.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/d/0/47d07d91-9cf7-4a09-a090-ff6d280d89b0.jpg",
       "show_id": "CUP_IECOM_PLANET2_1159706139"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/2/9/1129f526-a1e6-4472-8699-247d2e8794f5.png",
-      "show_id": "CUP_FAKE_PLANET2_202610032200_202610032300"
     }
   ]
 }

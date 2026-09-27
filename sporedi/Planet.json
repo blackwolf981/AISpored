@@ -1,7 +1,7 @@
 {
   "kanal": "Planet",
   "ch_ext_id": "planet",
-  "posodobljeno": "2026-09-27 17:44",
+  "posodobljeno": "2026-09-27 17:47",
   "od": "2026-09-20",
   "do": "2026-10-04",
   "oddaje": [
@@ -6956,6 +6956,24 @@
       "show_id": "CUP_FAKE_PLANETTV_202610032100_202610032200"
     },
     {
+      "datum": "2026-10-04",
+      "dan": "Nedelja",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/2/9/1129f526-a1e6-4472-8699-247d2e8794f5.png",
+      "show_id": "CUP_FAKE_PLANETTV_202610032200_202610032300"
+    },
+    {
       "datum": "2026-09-27",
       "dan": "Nedelja",
       "cas": "00:35",
@@ -7350,24 +7368,6 @@
       "opis": "Enojajčni dvojčici na počitnicah zamenjata identiteti in kmalu spoznata, da sta morda življenje doslej živeli narobe.\r\n\r\nKo identični dvojčici Alice in Lacey na počitnicah zamenjajo med seboj, se odločita, da bosta do konca počitnic vztrajali v zamenjanih vlogah. Tako kmalu spoznata, da sta se morda že od začetka motili o tem, koga in kaj potrebujeta v življenju.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/b/5/77b5ab41-6171-4ffa-91dd-df615cfd6736.jpg",
       "show_id": "CUP_IECOM_PLANETTV_1159554899"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/2/9/1129f526-a1e6-4472-8699-247d2e8794f5.png",
-      "show_id": "CUP_FAKE_PLANETTV_202610032200_202610032300"
     }
   ]
 }
