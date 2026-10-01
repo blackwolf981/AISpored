@@ -1,353 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-09-30 12:26",
-  "od": "2026-09-23",
-  "do": "2026-10-07",
+  "posodobljeno": "2026-10-01 12:26",
+  "od": "2026-09-24",
+  "do": "2026-10-08",
   "oddaje": [
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "00:03",
-      "cas_konec": "01:34",
-      "trajanje": "91 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156214266",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_571d3f23"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "01:34",
-      "cas_konec": "02:30",
-      "trajanje": "56 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 1. etapa: Split - Seget Donji (167 km)",
-      "naslov_orig": "Cycling: Tour of Croatia: Stage 1: Seget - Split (171.8km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156214256",
-      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_1_etapa_split__seget_donji_167_km_1dd2e135"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "02:30",
-      "cas_konec": "03:32",
-      "trajanje": "62 min",
-      "naslov_sl": "Kolesarstvo (M/Ž): Svetovno prvenstvo UCI, Mešana ekipna štafeta, ITT Montral (40.6km)",
-      "naslov_orig": "Cycling: UCI Road World Championships: Mixed TTT Relay | Montral (40.6km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156214260",
-      "friendly_id": "kolesarstvo_m_z_svetovno_prvenstvo_uci_mesana_ekipna_stafeta_itt_montral_406km_33195b2a"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "03:32",
-      "cas_konec": "05:00",
-      "trajanje": "88 min",
-      "naslov_sl": "Moto (M/Ž): 6h Spa-Francorchamps, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2,",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/d/c/afdc4d5f-ee98-4cfe-b17e-782e17115af8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156214268",
-      "friendly_id": "moto_m_z_6h_spafrancorchamps_2026_efb025dc"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "05:00",
-      "cas_konec": "06:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 1. etapa: Split - Seget Donji (167 km)",
-      "naslov_orig": "Cycling: Tour of Croatia: Stage 1: Seget - Split (171.8km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156214257",
-      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_1_etapa_split__seget_donji_167_km_ec6a470f"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "06:30",
-      "cas_konec": "08:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156214267",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_670b45f3"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "08:30",
-      "cas_konec": "10:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 1. etapa: Split - Seget Donji (167 km)",
-      "naslov_orig": "Cycling: Tour of Croatia: Stage 1: Seget - Split (171.8km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556137",
-      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_1_etapa_split__seget_donji_167_km_71c162ae"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "10:00",
-      "cas_konec": "12:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556139",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_43284980"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M/Ž): Svetovno prvenstvo UCI, Mešana ekipna štafeta, ITT Montral (40.6km)",
-      "naslov_orig": "Cycling: UCI Road World Championships: Mixed TTT Relay | Montreal (40.6km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556140",
-      "friendly_id": "kolesarstvo_m_z_svetovno_prvenstvo_uci_mesana_ekipna_stafeta_itt_montral_406km_ddfe920e"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 1. etapa: Split - Seget Donji (167 km)",
-      "naslov_orig": "Cycling: Tour of Croatia: Stage 1: Seget - Split (171.8km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556138",
-      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_1_etapa_split__seget_donji_167_km_96f1f737"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "14:00",
-      "cas_konec": "16:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Hrvaški, 2. etapa: Biograd na moru - Novalja (114,5 km)",
-      "naslov_orig": "Cycling: Tour of Croatia: Stage 2: Biograd Na Moru - Novalja (119.5km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Cro race je največji kolesarski dogodek, ki se odvija na Hrvaškem in v katerem se več dni odvijajo etape, ki povezujejo skoraj vse dele Hrvaške.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/f/e57fccb9-0de7-4d51-94d3-5153c320f1ce.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556141",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m_dirka_po_hrvaski_2_etapa_biograd_na_moru__novalja_1145_km_ae22f805"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "16:00",
-      "cas_konec": "17:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo, Kigali: Kigali (267.5km)",
-      "naslov_orig": "UCI Road World Championships Kigali: Elite Men's Road Race, Kigali (267.5km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/9/2/6692fd11-cc64-4081-978c-e789e117faa3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556144",
-      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_kigali_kigali_2675km_a5279dff"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "17:30",
-      "cas_konec": "18:00",
-      "trajanje": "30 min",
-      "naslov_sl": "T100 Triathlon World Tour: Vrhunci: Frejus-Saint Raphael",
-      "naslov_orig": "T100 Triathlon World Tour: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si najboljše trenutke svetovne turneje v triatlonu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/53/8/c/538cc860-ae94-4cfc-ae1d-f7fc0a4a0d1b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556146",
-      "friendly_id": "t100_triathlon_world_tour_vrhunci_frejussaint_raphael_b040b12c"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "18:00",
-      "cas_konec": "18:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Gorski teki: Golden Trail World Series: Myoko",
-      "naslov_orig": "Golden Trail World Series: Myoko",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/13/6/7/1367844e-1189-43b4-b725-928d8dbf2ab8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556148",
-      "friendly_id": "gorski_teki_golden_trail_world_series_myoko_b0d2a38f"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "18:30",
-      "cas_konec": "19:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Jadranje: Sail GP vrhunci: Rolex Switzerland Grand Prix",
-      "naslov_orig": "Highlights SailGP",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/4/e/1f4ef275-2b25-437a-8e74-99039d1bdc8d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556149",
-      "friendly_id": "jadranje_sail_gp_vrhunci_rolex_switzerland_grand_prix_5b0344d4"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "19:30",
-      "cas_konec": "20:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Konjeništvo: Svetovno prvenstvo za mlade konje v Lanaknu: Preskakovanje ovir",
-      "naslov_orig": "FEI WBFSH Jumping World Breeding Championship for Young Horses: Jumping",
-      "kategorija": "Šport",
-      "zanr": [
-        "konjeništvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Tekmovanje za mlade konje poteka v belgijskem mestu Lanaken, tekmovalci pa se pomerijo na konjih, starih pet, šest in sedem let.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/e/2/86e2d646-bd3c-41fb-a96f-95384d208ebd.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556150",
-      "friendly_id": "konjenistvo_svetovno_prvenstvo_za_mlade_konje_v_lanaknu_preskakovanje_ovir_546d8e66"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "20:30",
-      "cas_konec": "22:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (Ž): Svetovno prvenstvo, Kigali: Kigali (165km)",
-      "naslov_orig": "UCI Road World Championships Kigali (w): Road Race, Kigali (165km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/5/f2a5cc98-9c54-48e0-a4b3-006ff7eacbd2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556151",
-      "friendly_id": "kolesarstvo_z_svetovno_prvenstvo_kigali_kigali_165km_592f0c79"
-    },
-    {
-      "datum": "2026-09-23",
-      "dan": "Sreda",
-      "cas": "22:30",
-      "cas_konec": "00:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Svetovno prvenstvo, Kigali: Kigali (267.5km)",
-      "naslov_orig": "UCI Road World Championships Kigali: Elite Men's Road Race, Kigali (267.5km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/9/2/6692fd11-cc64-4081-978c-e789e117faa3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1156556145",
-      "friendly_id": "kolesarstvo_m_svetovno_prvenstvo_kigali_kigali_2675km_d57c92b2"
-    },
     {
       "datum": "2026-09-24",
       "dan": "Četrtek",
@@ -693,369 +350,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/28/b/c/28bcd84b-ea2f-4d52-81e3-457b258a81af.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1157160707",
       "friendly_id": "gorski_teki_golden_trail_world_series_myoko_216b2155"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "00:00",
-      "cas_konec": "00:45",
-      "trajanje": "45 min",
-      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
-      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1159526067",
-      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_6cdf98f6"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "00:45",
-      "cas_konec": "01:30",
-      "trajanje": "45 min",
-      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
-      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1159526068",
-      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_d726ba7b"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "01:30",
-      "cas_konec": "03:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker: Shenzen Open: 3. krog",
-      "naslov_orig": "Snooker: Shenzhen Open: Round 3",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1159526057",
-      "friendly_id": "snooker_shenzen_open_3_krog_08cccc04"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): VN Nizozemske, MXGP, 2. dirka, 2026",
-      "naslov_orig": "Motocross: World Championship Netherlands: MX2, Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte etapo Svetovnega prvenstva v motokrosu, ki se odvija na Nizozemskem, in si oglejte, kdo se bo ovenčal z zmago.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/79/2/5/792541b6-bb8e-4ba6-adf4-e7e8605188b0.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1159526069",
-      "friendly_id": "motokros_m_vn_nizozemske_mxgp_2_dirka_2026_753a324a"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): VN Nizozemske, MXGP, 2. dirka, 2026",
-      "naslov_orig": "Motocross: World Championship Netherlands: MXGP, Race 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte etapo Svetovnega prvenstva v motokrosu, ki se odvija na Nizozemskem, in si oglejte, kdo se bo ovenčal z zmago.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/79/2/5/792541b6-bb8e-4ba6-adf4-e7e8605188b0.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1159526070",
-      "friendly_id": "motokros_m_vn_nizozemske_mxgp_2_dirka_2026_1dea9b22"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Olimpijske igre: dvorana slavnih: Atene (2004)",
-      "naslov_orig": "Olympic Games: Hall of Fame",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/7/e/f77ee0da-dd88-4a04-bcdb-35521eb11463.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1159526071",
-      "friendly_id": "olimpijske_igre_dvorana_slavnih_atene_2004_98efb114"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "06:00",
-      "cas_konec": "08:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Shenzen Open: 3. krog",
-      "naslov_orig": "Snooker: Shenzhen Open: Round 3",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1159526058",
-      "friendly_id": "snooker_shenzen_open_3_krog_55eed3f8"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "08:00",
-      "cas_konec": "11:00",
-      "trajanje": "180 min",
-      "naslov_sl": "Snooker: Shenzen Open: 4. krog",
-      "naslov_orig": "Snooker: Shenzhen Open: Round 4",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294314",
-      "zivo": true,
-      "friendly_id": "snooker_shenzen_open_4_krog_4bfff249"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "11:00",
-      "cas_konec": "11:45",
-      "trajanje": "45 min",
-      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
-      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294320",
-      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_eb59c09c"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "11:45",
-      "cas_konec": "12:30",
-      "trajanje": "45 min",
-      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
-      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294321",
-      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_68a24867"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "12:30",
-      "cas_konec": "13:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Snooker: Shenzen Open: 4. krog",
-      "naslov_orig": "Snooker: Shenzhen Open: Round 4",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294315",
-      "friendly_id": "snooker_shenzen_open_4_krog_15293016"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "13:30",
-      "cas_konec": "16:30",
-      "trajanje": "180 min",
-      "naslov_sl": "Snooker: Shenzen Open: 4. krog",
-      "naslov_orig": "Snooker: Shenzhen Open: Round 4",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294316",
-      "zivo": true,
-      "friendly_id": "snooker_shenzen_open_4_krog_e11bf349"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "16:30",
-      "cas_konec": "17:15",
-      "trajanje": "45 min",
-      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
-      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294322",
-      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_f9a0bcda"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "17:15",
-      "cas_konec": "18:00",
-      "trajanje": "45 min",
-      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
-      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294323",
-      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_bc273328"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
-      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3e/9/a/3e9a979c-1517-4a3e-b11b-323ab788c59f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294324",
-      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_d36fa780"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motošport: 24 ur Le Mansa: Pregled",
-      "naslov_orig": "Car Racing: 24 Hours of Le Mans: Review",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "24 ur Le Mansa je najstarejše tekmovanje v vzdržljivosti dirkalnih avtomobilov na svetu. Poteka od leta 1923 v bližini mesta Le Mans v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/a/c/c9ac02c0-9178-4aba-9c78-715a3a164554.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294326",
-      "friendly_id": "motosport_24_ur_le_mansa_pregled_65779ff1"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "20:00",
-      "cas_konec": "22:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Shenzen Open: 4. krog",
-      "naslov_orig": "Snooker: Shenzhen Open: Round 4",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/92/1/b/921b193a-ae70-48e5-acbe-3cfacf213c97.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294317",
-      "friendly_id": "snooker_shenzen_open_4_krog_15d79046"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Olimpijske igre: dvorana slavnih: Atene (2004)",
-      "naslov_orig": "Olympic Games: Hall of Fame",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/7/e/f77ee0da-dd88-4a04-bcdb-35521eb11463.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294327",
-      "friendly_id": "olimpijske_igre_dvorana_slavnih_atene_2004_ee40f9e5"
-    },
-    {
-      "datum": "2026-10-01",
-      "dan": "Četrtek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motošport: 24 ur Le Mansa: Pregled",
-      "naslov_orig": "Car Racing: 24 Hours of Le Mans: Review",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "24 ur Le Mansa je najstarejše tekmovanje v vzdržljivosti dirkalnih avtomobilov na svetu. Poteka od leta 1923 v bližini mesta Le Mans v Franciji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/a/c/c9ac02c0-9178-4aba-9c78-715a3a164554.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1160294328",
-      "friendly_id": "motosport_24_ur_le_mansa_pregled_fe084c6c"
     },
     {
       "datum": "2026-09-24",
@@ -5051,6 +4345,788 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
       "show_id": "CUP_FAKE_EUROSPORT_202610072100_202610072200"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "00:06",
+      "cas_konec": "00:55",
+      "trajanje": "49 min",
+      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
+      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1163241546",
+      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_37a8ec89"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "00:55",
+      "cas_konec": "01:33",
+      "trajanje": "38 min",
+      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
+      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159526067",
+      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_917a5f39"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "01:33",
+      "cas_konec": "03:07",
+      "trajanje": "94 min",
+      "naslov_sl": "Snooker: Shenzen Open: Xu Si - Wu Yize, Round 3",
+      "naslov_orig": "Snooker: Shenzhen Open: Xu Si - Wu Yize, Round 3",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/b/d/dbbdbbfb-8fdb-4071-aed1-b41f1305fc6f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1164414054",
+      "friendly_id": "snooker_shenzen_open_xu_si__wu_yize_round_3_d4ed4d29"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "03:07",
+      "cas_konec": "03:56",
+      "trajanje": "49 min",
+      "naslov_sl": "Motokros (M): VN Nizozemske, MXGP, 2. dirka, 2026",
+      "naslov_orig": "Motocross: World Championship Netherlands: MX2, Race 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte etapo Svetovnega prvenstva v motokrosu, ki se odvija na Nizozemskem, in si oglejte, kdo se bo ovenčal z zmago.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/3/f/753fe2ce-233f-4a16-8ef0-0cfbd0677987.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159526069",
+      "friendly_id": "motokros_m_vn_nizozemske_mxgp_2_dirka_2026_b36f3f5e"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "03:56",
+      "cas_konec": "04:45",
+      "trajanje": "49 min",
+      "naslov_sl": "Motokros (M): VN Nizozemske, MXGP, 2. dirka, 2026",
+      "naslov_orig": "Motocross: World Championship Netherlands: MXGP, Race 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte etapo Svetovnega prvenstva v motokrosu, ki se odvija na Nizozemskem, in si oglejte, kdo se bo ovenčal z zmago.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/3/f/753fe2ce-233f-4a16-8ef0-0cfbd0677987.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159526070",
+      "friendly_id": "motokros_m_vn_nizozemske_mxgp_2_dirka_2026_5eb02268"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "04:45",
+      "cas_konec": "05:36",
+      "trajanje": "51 min",
+      "naslov_sl": "Olimpijske igre: dvorana slavnih: London (2012)",
+      "naslov_orig": "Olympic Games: Hall of Fame",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/d/8/40d856ff-0841-42b2-97a5-683ebbd59499.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1159526071",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_london_2012_3eb82c3f"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "05:36",
+      "cas_konec": "08:00",
+      "trajanje": "144 min",
+      "naslov_sl": "Snooker: Shenzen Open: Xu Si - Wu Yize, Round 3",
+      "naslov_orig": "Snooker: Shenzhen Open: Xu Si - Wu Yize, Round 3",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/b/d/dbbdbbfb-8fdb-4071-aed1-b41f1305fc6f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1164414055",
+      "friendly_id": "snooker_shenzen_open_xu_si__wu_yize_round_3_914681e3"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "08:00",
+      "cas_konec": "11:00",
+      "trajanje": "180 min",
+      "naslov_sl": "Snooker: Shenzen Open: Chris Wakelin - Neil Robertson",
+      "naslov_orig": "Snooker: Shenzhen Open: Chris Wakelin - Neil Robertson",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/b/d/dbbdbbfb-8fdb-4071-aed1-b41f1305fc6f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1164932952",
+      "zivo": true,
+      "friendly_id": "snooker_shenzen_open_chris_wakelin__neil_robertson_7c815793"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "11:47",
+      "trajanje": "47 min",
+      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
+      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1160294321",
+      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_eb59c09c"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "11:47",
+      "cas_konec": "12:29",
+      "trajanje": "42 min",
+      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
+      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1163241561",
+      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_27b0188a"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "12:29",
+      "cas_konec": "13:30",
+      "trajanje": "61 min",
+      "naslov_sl": "Snooker: Shenzen Open: Chris Wakelin - Neil Robertson",
+      "naslov_orig": "Snooker: Shenzhen Open: Chris Wakelin - Neil Robertson",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/b/d/dbbdbbfb-8fdb-4071-aed1-b41f1305fc6f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1164932953",
+      "friendly_id": "snooker_shenzen_open_chris_wakelin__neil_robertson_41ba58fb"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "13:30",
+      "cas_konec": "16:30",
+      "trajanje": "180 min",
+      "naslov_sl": "Snooker: Shenzen Open: Judd Trump - Si Jiahui",
+      "naslov_orig": "Snooker: Shenzhen Open: Judd Trump - Si Jiahui",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/b/d/dbbdbbfb-8fdb-4071-aed1-b41f1305fc6f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1164932954",
+      "zivo": true,
+      "friendly_id": "snooker_shenzen_open_judd_trump__si_jiahui_8a7352b3"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "16:30",
+      "cas_konec": "17:15",
+      "trajanje": "45 min",
+      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
+      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1160294323",
+      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_f9a0bcda"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "17:15",
+      "cas_konec": "18:00",
+      "trajanje": "45 min",
+      "naslov_sl": "Plezanje: Svetovna serija, Chongqing: Hitrostno plezanje, štafeta, finale",
+      "naslov_orig": "Climbing: World Series in Chongqing: Speed Relay | Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/e/5/55e5189e-c60e-4aee-bd5f-4d16b08f66f6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1163241562",
+      "friendly_id": "plezanje_svetovna_serija_chongqing_hitrostno_plezanje_stafeta_finale_bc273328"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Gorsko kolesarstvo: UCI World Series: Spust, Whistler",
+      "naslov_orig": "UCI Mountain Bike World Series: Downhill | Whistler",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3e/9/a/3e9a979c-1517-4a3e-b11b-323ab788c59f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1160294324",
+      "friendly_id": "gorsko_kolesarstvo_uci_world_series_spust_whistler_d36fa780"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "FIA WEC: Lone Star Le Mans: Pregled: Pregled",
+      "naslov_orig": "FIA WEC: Lone Star Le Mans: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si najboljše trenutke dirke Lone Star Le Mans, vztrajnostne dirke, ki poteka v prestolnici Teksasa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/d/d/18ddfb27-adfb-4f66-8b5b-f2ca18b10d9b.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1160294326",
+      "friendly_id": "fia_wec_lone_star_le_mans_pregled_pregled_de4e8821"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "20:00",
+      "cas_konec": "22:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker: Shenzen Open: Judd Trump - Si Jiahui",
+      "naslov_orig": "Snooker: Shenzhen Open: Judd Trump - Si Jiahui",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/db/b/d/dbbdbbfb-8fdb-4071-aed1-b41f1305fc6f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1164932955",
+      "friendly_id": "snooker_shenzen_open_judd_trump__si_jiahui_4ca4d05e"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Olimpijske igre: dvorana slavnih: London (2012)",
+      "naslov_orig": "Olympic Games: Hall of Fame",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/d/8/40d856ff-0841-42b2-97a5-683ebbd59499.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1160294327",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_london_2012_13b40c03"
+    },
+    {
+      "datum": "2026-10-01",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "FIA WEC: Lone Star Le Mans: Pregled: Pregled",
+      "naslov_orig": "FIA WEC: Lone Star Le Mans: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si najboljše trenutke dirke Lone Star Le Mans, vztrajnostne dirke, ki poteka v prestolnici Teksasa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/d/d/18ddfb27-adfb-4f66-8b5b-f2ca18b10d9b.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1160294328",
+      "friendly_id": "fia_wec_lone_star_le_mans_pregled_pregled_9910831b"
+    },
+    {
+      "datum": "2026-10-07",
+      "dan": "Sreda",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (M): Evropsko prvenstvo, Kronometer: Šenčur (22.1 km)",
+      "naslov_orig": "Cycling: European Road Championships: Men Elite | Šenčur (ITT, 22.1 km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1162041632",
+      "friendly_id": "kolesarstvo_m_evropsko_prvenstvo_kronometer_sencur_221_km_dae5b149"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "00:00",
+      "cas_konec": "01:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Velike Britanije, Finale, 2026",
+      "naslov_orig": "Snooker: British Open: Mark Selby - Jak Jones, Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Odprto prvenstvo Velike Britanije (\"British Open\") je profesionalni turnir v snookerju, ki poteka od leta 1985.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/1/3/a813954e-b078-4915-a4f5-4737b052eac7.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1162041622",
+      "friendly_id": "snooker_m_odprto_prvenstvo_velike_britanije_finale_2026_00970c77"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "01:30",
+      "cas_konec": "03:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (M): Evropsko prvenstvo, Kronometer: Šenčur (22.1 km)",
+      "naslov_orig": "Cycling: European Road Championships: Men Elite | Šenčur (ITT, 22.1 km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1162041633",
+      "friendly_id": "kolesarstvo_m_evropsko_prvenstvo_kronometer_sencur_221_km_c3cd172e"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Velike Britanije, Finale, 2026",
+      "naslov_orig": "Snooker: British Open: Mark Selby - Jak Jones, Final",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Odprto prvenstvo Velike Britanije (\"British Open\") je profesionalni turnir v snookerju, ki poteka od leta 1985.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/1/3/a813954e-b078-4915-a4f5-4737b052eac7.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1162041623",
+      "friendly_id": "snooker_m_odprto_prvenstvo_velike_britanije_finale_2026_a419d1eb"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "05:00",
+      "cas_konec": "06:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Kronometer (22,1 km)",
+      "naslov_orig": "Cycling: European Road Championships: Women Elite | Šenčur (ITT, 22.1 km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1162041629",
+      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_kronometer_221_km_7a04a2cb"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "06:30",
+      "cas_konec": "07:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610080430_202610080500"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610080500_202610080600"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "08:00",
+      "cas_konec": "09:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610080600_202610080700"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "09:00",
+      "cas_konec": "10:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610080700_202610080800"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610080800_202610080900"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610080900_202610081000"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081000_202610081100"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081100_202610081200"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081200_202610081300"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081300_202610081400"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081400_202610081500"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081500_202610081600"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081600_202610081700"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081700_202610081800"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081800_202610081900"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610081900_202610082000"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610082000_202610082100"
+    },
+    {
+      "datum": "2026-10-08",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_EUROSPORT_202610082100_202610082200"
     }
   ]
 }
