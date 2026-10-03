@@ -1,262 +1,10 @@
 {
   "kanal": "Kino",
   "ch_ext_id": "kino",
-  "posodobljeno": "2026-10-02 12:25",
-  "od": "2026-09-25",
-  "do": "2026-10-09",
+  "posodobljeno": "2026-10-03 12:25",
+  "od": "2026-09-26",
+  "do": "2026-10-10",
   "oddaje": [
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "00:45",
-      "cas_konec": "02:50",
-      "trajanje": "125 min",
-      "naslov_sl": "Iznenada",
-      "naslov_orig": "Out of the Blue",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "10+",
-      "opis": "Moški, čigar dolgočasno življenje se zaradi zapeljive Marilyn spremeni v vznemirljiv domišljijski svet.\r\n\r\nConnor Bates, ki je po obtožbi napada nekaj časa preživel v zaporu, zdaj dela v knjižnici, v prostem času pa teče, plava in poskuša znova sestaviti svoj svet. Ko spozna Marilyn Chambers, ženo premožnega poslovneža, se med njima začne intenzivno fizično in čustveno razmerje, ki se hitro sprevrže v prazne pogovore o moževem umoru.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/aa/3/1/aa310f39-ab1e-4c30-98fe-55e6c3f2ef99.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156207707"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "02:50",
-      "cas_konec": "05:45",
-      "trajanje": "175 min",
-      "naslov_sl": "Zloben",
-      "naslov_orig": "Malignant",
-      "kategorija": "Film",
-      "zanr": [
-        "grozljivka"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "15+",
-      "opis": "Madison mučijo prividi surovih umorov, ki so nekako povezani z njo. Še huje postane, ko odkrije, da so njene sanje srhljivo resnične.\r\n\r\nGrozljivka o ženski, ki jo začnejo preganjati vizije pretresljivih umorov, dokler ne spozna, da ne gre le za privide. Madison verjame, da izgublja razum, toda kmalu odkrije, da njene vizije niso le plod domišljije, temveč grozljiva resničnost in da vidi dejanske umore med tem, ko se dogajajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/4/2724ef62-5389-44fd-b142-489f614c02a6.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156207698"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "05:45",
-      "cas_konec": "06:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S8E8 - Pozor, snemamo",
-      "naslov_orig": "S8E8 - Making the Movies: E348 Special: What happens to canceled big shots?",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dihjemajočih akcijskih filmskih prizorov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626865"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "06:10",
-      "cas_konec": "08:30",
-      "trajanje": "140 min",
-      "naslov_sl": "Oče",
-      "naslov_orig": "Otac",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Oče je zgodba o moškem, ki mu zaradi revščine odvzamejo otroke.\r\n\r\nFestivalski film Liffe 2020. Presunljiv slavospev človeški vztrajnosti in starševski ljubezni. Po ženinem samomoru, Nikoli, ki živi v skromnih razmerah, po odločbi tamkajšnje socialne službe odvzamejo otroka. Da dokaže, kako krivična je bila ta birokratska odločitev in koliko mu pomenijo otroci, se odloči peš prepotovati tristo kilometrov dolgo pot do glavnega mesta in vložiti pritožbo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/d/8/e9d83446-4c70-4114-aae5-8b0e46441447.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626861"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "08:30",
-      "cas_konec": "09:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S2E2 - Planet akcija",
-      "naslov_orig": "S2E2 - Planet Action: E54 Top 3: Real Life Gangster Portrayals",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Zanimiva dokumentarna serija, ki vas pripelje v zakulisje najboljših akcijskih filmov. Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626869"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "09:00",
-      "cas_konec": "10:45",
-      "trajanje": "105 min",
-      "naslov_sl": "Jesen v vinogradu",
-      "naslov_orig": "Autumn in the Vineyard",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Ko Frankie in Nate odkrijeta, da sta solastnika vinograda, med njima sprva izbruhne spor, toda kmalu med njima preskoči iskrica.\r\n\r\nFrankie dela v vinogradu svojega očeta. Ko oče nekoga drugega izbere za partnerja, se razočarana odloči kupiti svoj vinograd. Toda zaradi zapletene sodne odločitve ga je Frankie primorana deliti z Natom, svojim bivšim fantom iz konkurenčne vinarske družine. Ker se bliža tekmovanje vinarn, se Frankie in Nate odločita, da bo zmagovalec dobil lastništvo nad celim vinogradom. Ko drug ob drugem delata v vinogradu, se tekmeca zaljubita.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/2/f/722f5089-bd41-40a1-8823-cf4f9f4bbb95.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626854"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "10:45",
-      "cas_konec": "11:15",
-      "trajanje": "30 min",
-      "naslov_sl": "S8E9 - Pozor, snemamo",
-      "naslov_orig": "S8E9 - Making the Movies: E349 Special: Icelandic Filmmaking",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dihjemajočih akcijskih filmskih prizorov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626863"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "11:15",
-      "cas_konec": "13:15",
-      "trajanje": "120 min",
-      "naslov_sl": "Vloga za Emo",
-      "naslov_orig": "Vloga za Emo",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "10+",
-      "opis": "Film govori o srednješolki Emi, ki se znajde pred kariernim izzivom, potem ko uspešno opravi avdicijo za novinarko šolske televizije.\r\n\r\nNa tej poti ji pomaga nova prijateljica, ki Emi odkrije svet najstniške svobode. A televizijski svet ima svoja pravila in za nekoga, ki je brez izkušenj, je lahko zelo neusmiljen. \n\nEmina vloga pri starših, novih prijateljih, v šoli ter v ljubezni pa se stalno spreminja in zdi se, kot da Ema ni kos vsem vlogam in delu...",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/5/e/fc5e157b-52a7-42df-a56a-c5ccd4cac04d.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626855"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "13:15",
-      "cas_konec": "13:45",
-      "trajanje": "30 min",
-      "naslov_sl": "S2E1 - Planet akcija",
-      "naslov_orig": "S2E1 - Planet Action: E48 Celebrity Shortlist: Top 3 TV Series That Got Turned Into Hit Movies",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626859"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "13:45",
-      "cas_konec": "16:00",
-      "trajanje": "135 min",
-      "naslov_sl": "Surovi posel",
-      "naslov_orig": "Raw Deal",
-      "kategorija": "Film",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "1986",
-      "starostna_omejitev": "12+",
-      "opis": "Nekdanji agent FBI, ki je postal šerif majhnega mesta, se strinja, da bo šefu FBI, ki so mu ubili sina, pomagal prodreti v čikaško mafijo.\r\n\r\nArnold Schwarzenegger igra bivšega FBI agenta Marka Kaminskyja, ki je izgubil službo, potem ko se je znesel nad osumljencem zlorabljenega dekleta. \n\nToda ko se šef FBI-ja odloči obračunati z mafijo, v strelskem obračunu izgubi sina, ki ga umori kruti mafijec Luigi Patrovita. Da bi se maščeval, Marku obljubi nekdanjo službo, če bo opravil z mafijci.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/04/f/a/04faff66-2602-481b-853e-2e9ded6e8cf0.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626856"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "16:00",
-      "cas_konec": "18:10",
-      "trajanje": "130 min",
-      "naslov_sl": "Bog obstaja, ime ji je Petrunija",
-      "naslov_orig": "Gospod postoi, imeto i' e Petrunija",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "12+",
-      "opis": "V Severni Makedoniji se Petrunija pridruži tradicionalno moški tradiciji in povzroči zmešnjavo, ko se postavi zase.\r\n\r\nV Štipu, malem makedonskem mestu, lokalni duhovnik vsako leto januarja vrže v reko leseni križ, za katerim se požene množica moških. Tistega, ki ga ujame, bosta vse leto spremljala sreča in uspeh. \n\nTokrat za križem skoči tudi Petrunija in se že naslednji trenutek dvigne iz vode s trofejo v roki. Moški so besni, vse mesto je na nogah. Petrunija pa se ne da: dobila je svoj križ in ne bo se mu odrekla!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/8/4/31840aae-2c44-4c7b-bb8e-6c75b59cb068.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626857"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "18:10",
-      "cas_konec": "20:00",
-      "trajanje": "110 min",
-      "naslov_sl": "Babice za Bradyja",
-      "naslov_orig": "80 For Brady",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Skupina prijateljic si je zadala življenjsko nalogo, da bo obiskala Super Bowl in spoznala zvezdnika lige NFL Toma Bradyja.\r\n\r\nOstarele prijateljice Lou, Trish, Maura in Betty so si od nekdaj želele na Super Bowl. Ko končno dobijo priložnost za ta epski izlet, pa se odločijo, da želijo spoznati enega in edinega Toma Bradyja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/8/f1b891db-e43f-44d3-8f69-ee5e30dd5753.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626868"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "20:00",
-      "cas_konec": "22:15",
-      "trajanje": "135 min",
-      "naslov_sl": "Umor na Orient Ekspresu",
-      "naslov_orig": "Murder on the Orient Express",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "12+",
-      "opis": "V najbolj brezčasni kriminalki vseh časov skuša sloviti zasebni detektiv Hercule Poirot razrešiti enega najzloglasnejših zločinov v zgodovini.\r\n\r\nV brezčasni kriminalni zgodbi slovite Agathe Christie, detektiv Hercule Poirot potuje z razkošnim vlakom Orient Express, ko se na njem zgodi pretresljiv umor bogatega poslovneža. Poleg Poirota je na vlaku še 13 ekscentričnih potnikov, ki na videz nimajo ničesar skupnega. Detektiv se znajde v napeti tekmi s časom, da odkrije kdo je moril, še preden ta ponovno udari.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/34/4/d/344d24df-45fa-4a5f-a867-cbaf9857709c.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626858"
-    },
-    {
-      "datum": "2026-09-25",
-      "dan": "Petek",
-      "cas": "22:15",
-      "cas_konec": "00:25",
-      "trajanje": "130 min",
-      "naslov_sl": "Divje strasti",
-      "naslov_orig": "Wild things",
-      "kategorija": "Film",
-      "zanr": [
-        "triler"
-      ],
-      "leto": "1998",
-      "starostna_omejitev": "12+",
-      "opis": "Na Floridi je priljubljeni srednješolski učitelj Sam Lombardo obtožen spolnega nadlegovanja in posilstva.\r\n\r\nObtoži ga zapeljiva in razvajena dijakinja Kelly Van Ryan, ki ne skriva, da ji je Sam všeč, saj ga je že večkrat brez sramu osvajala. Kelly je hčerka bogate in vplivne Sandre Van Ryan, bivše Samove ljubice.\n\nMnogi verjamejo v Samovo nedolžnost, potem pa neka druga učenka, revna upornica Suzie Toller, šokira z novico, da je Sam posilil tudi njo. V nenavaden primer se zakoplje detektiv Ray Duquette, ki mu je hitro jasno, da nič ni tako, kot se zdi na prvi pogled.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/2/3/3023c228-706b-437f-a0a4-1d95d56bc60d.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1156626866"
-    },
     {
       "datum": "2026-09-26",
       "dan": "Sobota",
@@ -490,276 +238,6 @@
       "opis": "Drugo leto boja proti kriminalu pripelje Batmana do razkritja velike korupcije v Gotham Cityju, ki ga pripelje do lastne družine.\r\n\r\nSadistični serijski morilec terorizira prebivalce Gotham Cityja. Ob svojih žrtvah pušča sled enigmatičnih namigov in Batman se mora podati na nevarno pot v gothamsko podzemlje, da bi rešil to uganko in našel morilca.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/6/b/f86bad58-b434-4a31-904b-e82704c6543c.jpg",
       "show_id": "CUP_IECOM_POPKINO_1158668075"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "00:50",
-      "cas_konec": "04:35",
-      "trajanje": "225 min",
-      "naslov_sl": "Veliki svetniki Newarka",
-      "naslov_orig": "The Many Saints of Newark: The Many Saints Of Newark",
-      "kategorija": "Film",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "15+",
-      "opis": "Predzgodba serije \"Sopranovi\" v času nemirov v Newarku, ko so gangsterji z nasprotnih strani izzvali vsemogočno zločinsko družino DiMeo.\r\n\r\nZgodba o Sopranovih, ki v središče postavlja zloglasnega gangsterja Tonya Soprana. Spremlja mladost Tonyja Soprana v času nasilnih obračunov med rivalskimi mafijskimi združbami v Newarku v državi New Jersey. \n\nKljučno vlogo v njegovem odraščanju odigra stric Dickie Moltisanti, katerega vpliv mladega Tonyja postopoma oblikuje v razvpitega mafijskega šefa.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ea/0/f/ea0f01a1-3ff7-455c-adaf-0bd2cc97f9f4.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1159696301"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "04:35",
-      "cas_konec": "05:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E3 - Pozor, snemamo",
-      "naslov_orig": "S2E3 - Making the Movies: E265 Special: Actors Hating their iconic roles",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dih jemajočih akcijskih filmskih prizorov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1160634209"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "05:00",
-      "cas_konec": "06:45",
-      "trajanje": "105 min",
-      "naslov_sl": "Podeželski božič",
-      "naslov_orig": "Cross Country Christmas",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "10+",
-      "opis": "Nekdanja sošolca Lina in Max potujeta domov za praznike.\r\n\r\nLina in Max potujeta domov za praznike. Ko se začne nevihta, morata sodelovati, da bi pravočasno prispela.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/c/8/bbc8edf9-fa41-4a29-b32d-9b3efa608a77.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036631"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "06:45",
-      "cas_konec": "07:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E10 - Planet akcija",
-      "naslov_orig": "S2E10 - Planet Action: E77 Special: Movie Fights",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Zanimiva dokumentarna serija, ki vas pripelje v zakulisje najboljših akcijskih filmov. Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036691"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "07:10",
-      "cas_konec": "08:45",
-      "trajanje": "95 min",
-      "naslov_sl": "Zakopani denar",
-      "naslov_orig": "Paydirt",
-      "kategorija": "Film",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Zakopani denar je napeta kriminalka o maščevanju.\r\n\r\nSveže izpuščeni tat Damien Brooks ponovno združi svojo staro ekipo, da bi našli zakopan plen iz spodletelega ropa. A na sledi so jim smrtonosni kartel in upokojeni šerif Tucker, ki išče maščevanje. \n\nKo se lov na skrito bogastvo sprevrže v smrtonosno igro, sledi strelski obračun v puščavi, kjer bo zmagal najmočnejši.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/8/a1d8fc35-a857-48c8-8be4-681cb7f5e733.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036692"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "08:45",
-      "cas_konec": "09:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E4 - Pozor, snemamo",
-      "naslov_orig": "S2E4 - Making the Movies",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dih jemajočih akcijskih filmskih prizorov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036686"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "09:10",
-      "cas_konec": "11:05",
-      "trajanje": "115 min",
-      "naslov_sl": "Prijatelji za večerjo",
-      "naslov_orig": "Friendsgiving",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Molly in Abbey z ekipo bližnjih prijateljev in znancev priredita komično in kaotično večerjo za zahvalni dan.\r\n\r\nAbby se veseli sproščenega Dneva zahvalnosti s svojo najboljšo prijateljic Molly. Toda načrti prijateljic za mirno praznično večerjo se zapletejo, ko se jima pridružita novi Mollyjun fant in njegova mama. V celotno zgodbo dodajte še nekaj žurerjev, Molyjine stare simpatije, šamana in trio Fairy Gay Mothers, in to je recept za komično in kaotično večerjo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/b/4/62b48fe6-cd3f-47f7-b8c9-0a9969c02595.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036693"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "11:05",
-      "cas_konec": "11:30",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E9 - Planet akcija",
-      "naslov_orig": "S2E9 - Planet Action: E75 Trivia: Fighting with My Family",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Zanimiva dokumentarna serija, ki vas pripelje v zakulisje najboljših akcijskih filmov. Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036690"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "11:30",
-      "cas_konec": "14:15",
-      "trajanje": "165 min",
-      "naslov_sl": "Lišček",
-      "naslov_orig": "The Goldfinch",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "15+",
-      "opis": "Film prinaša priredbo knjižne uspešnice Lišček avtorice Donne Tart.\r\n\r\nPri trinajstih letih Theo doživi tragedijo, ko njegova mama izgubi življenje med terorističnim napadom na Metropolitanski muzej umetnosti. V kaosu dogodkov, ki sledijo incidentu, Theo ukrade dragoceno sliko imenovano 'Lišček' in se zaplete v skrivnost, ki ga vodi v svet kriminala ter mu za vedno spremeni življenje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/4/c/4f4ca6e4-c3f9-49c0-ae17-2de38ea0b803.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036684"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "14:15",
-      "cas_konec": "14:40",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E3 - Pozor, snemamo",
-      "naslov_orig": "S2E3 - Making the Movies: E265 Special: Actors Hating their iconic roles",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dih jemajočih akcijskih filmskih prizorov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036687"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "14:40",
-      "cas_konec": "17:05",
-      "trajanje": "145 min",
-      "naslov_sl": "Judež in črni mesija",
-      "naslov_orig": "Judas And The Black Messiah",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "15+",
-      "opis": "Film Judaž in črni mesija je zgodovinska drama, posneta po resničnih dogodkih iz poznih šestdesetih let.\r\n\r\nKmalu po tem, ko Fred Hampton postane predsednik Illinoiškega odseka stranke Črni Panter, poskuša FBI uničiti kakršenkoli poskus revolucije od znotraj, s tem ko kaznjencu zaupajo nalogo, da se infiltrira med Panterje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/3/d/b43d634f-d3e5-4188-b8ec-6b461a3b184d.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036694"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "17:05",
-      "cas_konec": "17:30",
-      "trajanje": "25 min",
-      "naslov_sl": "S4E5 - Planet akcija",
-      "naslov_orig": "S4E5 - Planet Action: E125 Special: What Makes A Good Adventure Movie",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Zanimiva dokumentarna serija, ki vas pripelje v zakulisje najboljših akcijskih filmov. Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036685"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "17:30",
-      "cas_konec": "20:00",
-      "trajanje": "150 min",
-      "naslov_sl": "Malenkosti",
-      "naslov_orig": "The Little Things",
-      "kategorija": "Film",
-      "zanr": [
-        "triler"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "15+",
-      "opis": "Osramočeni bivši bivši policist Joe ''Deke'' Deacon na lovu za blaznim serijskim morilcem, ki terorizira mesto.\r\n\r\nMed forenzičnim opravkom v LA-ju, se osramočeni bivši policist Joe ''Deke'' Deacon pridruži naredniku Jimu Baxterju na lovu za blaznim serijskim morilcem, ki terorizira mesto. A lov kmalu razburka stare, davno zakopane skrivnosti iz Dekove preteklosti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/a/9/0ba96c8a-72e4-4f37-9e72-84153410ee11.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036688"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "20:00",
-      "cas_konec": "22:40",
-      "trajanje": "160 min",
-      "naslov_sl": "Dan neodvisnosti",
-      "naslov_orig": "Independence Day",
-      "kategorija": "Film",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "1996",
-      "starostna_omejitev": "12+",
-      "opis": "2. julij, dva dni pred največjim ameriškim državnim praznikom, je običajen poletni dan. Dokler se na nebu brez opozorila ne pojavijo zlovešče sence.\r\n\r\nKo nezemljani začnejo napadati Zemljo s svojo vrhunsko tehnologijo, hitro postane jasno, da lahko iztrebijo celotno človeštvo v le nekaj dneh. Človekova volja je najboljše orožje za preživetje invazije, zato se preživeli uprejo s sicer slabšo tehnologijo, toda neomajnim pogumom in iznajdljivostjo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/3/b/803b27d9-c926-4d07-bdfa-8b7fc000947a.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036696"
-    },
-    {
-      "datum": "2026-10-03",
-      "dan": "Sobota",
-      "cas": "22:40",
-      "cas_konec": "00:45",
-      "trajanje": "125 min",
-      "naslov_sl": "Šesti čut",
-      "naslov_orig": "The Sixth Sense",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "1999",
-      "starostna_omejitev": "12+",
-      "opis": "Osemletnika Cola preganja temna skrivnost – obiskujejo ga duhovi, in to duhovi z nerazrešenimi problemi.\r\n\r\nOsemletnega dečka Cola preganja temačna skrivnost, obiskujejo ga namreč duhovi umrlih. Izredno občutljiv in krhek deček se končno zaupa svojemu psihiatru dr. Crowu. Njuna skupna pot do razumevanja neznanega in nadnaravnega ju vodi do spoznanja, ki ga nista pričakovala in kar lahko razumeta in obvladata le s skupnimi močmi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a9/6/b/a96b7e25-6150-453b-8e5a-bb40223472c0.jpg",
-      "show_id": "CUP_IECOM_POPKINO_1161036695"
     },
     {
       "datum": "2026-10-04",
@@ -4036,6 +3514,294 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3a/b/c/3abcd0a4-cc86-4dc6-927e-322d3b21c00c.png",
       "show_id": "CUP_FAKE_POPKINO_202610092100_202610092200"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "01:10",
+      "cas_konec": "04:20",
+      "trajanje": "190 min",
+      "naslov_sl": "Veliki svetniki Newarka",
+      "naslov_orig": "The Many Saints of Newark: The Many Saints Of Newark",
+      "kategorija": "Film",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "15+",
+      "opis": "Predzgodba serije \"Sopranovi\" v času nemirov v Newarku, ko so gangsterji z nasprotnih strani izzvali vsemogočno zločinsko družino DiMeo.\r\n\r\nZgodba o Sopranovih, ki v središče postavlja zloglasnega gangsterja Tonya Soprana. Spremlja mladost Tonyja Soprana v času nasilnih obračunov med rivalskimi mafijskimi združbami v Newarku v državi New Jersey. \n\nKljučno vlogo v njegovem odraščanju odigra stric Dickie Moltisanti, katerega vpliv mladega Tonyja postopoma oblikuje v razvpitega mafijskega šefa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ea/0/f/ea0f01a1-3ff7-455c-adaf-0bd2cc97f9f4.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1159696301"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "04:20",
+      "cas_konec": "04:45",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E3 - Pozor, snemamo",
+      "naslov_orig": "S2E3 - Making the Movies: E265 Special: Actors Hating their iconic roles",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dih jemajočih akcijskih filmskih prizorov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1160634209"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "04:45",
+      "cas_konec": "06:10",
+      "trajanje": "85 min",
+      "naslov_sl": "Podeželski božič",
+      "naslov_orig": "Cross Country Christmas",
+      "kategorija": "Film",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "10+",
+      "opis": "Nekdanja sošolca Lina in Max potujeta domov za praznike.\r\n\r\nLina in Max potujeta domov za praznike. Ko se začne nevihta, morata sodelovati, da bi pravočasno prispela.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/c/8/bbc8edf9-fa41-4a29-b32d-9b3efa608a77.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1166140750"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "06:10",
+      "cas_konec": "06:35",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E10 - Planet akcija",
+      "naslov_orig": "S2E10 - Planet Action: E77 Special: Movie Fights",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Zanimiva dokumentarna serija, ki vas pripelje v zakulisje najboljših akcijskih filmov. Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036691"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "06:35",
+      "cas_konec": "08:10",
+      "trajanje": "95 min",
+      "naslov_sl": "Zakopani denar",
+      "naslov_orig": "Paydirt",
+      "kategorija": "Film",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Zakopani denar je napeta kriminalka o maščevanju.\r\n\r\nSveže izpuščeni tat Damien Brooks ponovno združi svojo staro ekipo, da bi našli zakopan plen iz spodletelega ropa. A na sledi so jim smrtonosni kartel in upokojeni šerif Tucker, ki išče maščevanje. \n\nKo se lov na skrito bogastvo sprevrže v smrtonosno igro, sledi strelski obračun v puščavi, kjer bo zmagal najmočnejši.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/d/8/a1d8fc35-a857-48c8-8be4-681cb7f5e733.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036692"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "08:10",
+      "cas_konec": "08:40",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E4 - Pozor, snemamo",
+      "naslov_orig": "S2E4 - Making the Movies",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dih jemajočih akcijskih filmskih prizorov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036686"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "08:40",
+      "cas_konec": "10:35",
+      "trajanje": "115 min",
+      "naslov_sl": "Prijatelji za večerjo",
+      "naslov_orig": "Friendsgiving",
+      "kategorija": "Film",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Molly in Abbey z ekipo bližnjih prijateljev in znancev priredita komično in kaotično večerjo za zahvalni dan.\r\n\r\nAbby se veseli sproščenega Dneva zahvalnosti s svojo najboljšo prijateljic Molly. Toda načrti prijateljic za mirno praznično večerjo se zapletejo, ko se jima pridružita novi Mollyjun fant in njegova mama. V celotno zgodbo dodajte še nekaj žurerjev, Molyjine stare simpatije, šamana in trio Fairy Gay Mothers, in to je recept za komično in kaotično večerjo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/b/4/62b48fe6-cd3f-47f7-b8c9-0a9969c02595.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036693"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "10:35",
+      "cas_konec": "11:05",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E9 - Planet akcija",
+      "naslov_orig": "S2E9 - Planet Action: E75 Trivia: Fighting with My Family",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Zanimiva dokumentarna serija, ki vas pripelje v zakulisje najboljših akcijskih filmov. Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036690"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "11:05",
+      "cas_konec": "14:00",
+      "trajanje": "175 min",
+      "naslov_sl": "Lišček",
+      "naslov_orig": "The Goldfinch",
+      "kategorija": "Film",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "15+",
+      "opis": "Film prinaša priredbo knjižne uspešnice Lišček avtorice Donne Tart.\r\n\r\nPri trinajstih letih Theo doživi tragedijo, ko njegova mama izgubi življenje med terorističnim napadom na Metropolitanski muzej umetnosti. V kaosu dogodkov, ki sledijo incidentu, Theo ukrade dragoceno sliko imenovano 'Lišček' in se zaplete v skrivnost, ki ga vodi v svet kriminala ter mu za vedno spremeni življenje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/4/c/4f4ca6e4-c3f9-49c0-ae17-2de38ea0b803.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036684"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "14:00",
+      "cas_konec": "14:20",
+      "trajanje": "20 min",
+      "naslov_sl": "S2E3 - Pozor, snemamo",
+      "naslov_orig": "S2E3 - Making the Movies: E265 Special: Actors Hating their iconic roles",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ekskluzivne zgodbe izza kamere s snemanja filmskih uspešnic! Dokumentarna oddaja, v kateri bomo izvedeli, kako poteka snemanje filma, bili priča posnetkom iz zakulisja ter pomembnim odločitvam, ki jih morajo sprejeti producenti. Kako scenaristi priredijo scenarij? Kako se igralci pripravljajo na svoje vloge? Oglejte si nastanek neverjetnih fantazijskih, romantičnih, zabavnih ter dih jemajočih akcijskih filmskih prizorov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/a/6/77a66cde-2045-43d0-9287-6ac8e45a42ef.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036687"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "14:20",
+      "cas_konec": "17:00",
+      "trajanje": "160 min",
+      "naslov_sl": "Judež in črni mesija",
+      "naslov_orig": "Judas And The Black Messiah",
+      "kategorija": "Film",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "15+",
+      "opis": "Film Judaž in črni mesija je zgodovinska drama, posneta po resničnih dogodkih iz poznih šestdesetih let.\r\n\r\nKmalu po tem, ko Fred Hampton postane predsednik Illinoiškega odseka stranke Črni Panter, poskuša FBI uničiti kakršenkoli poskus revolucije od znotraj, s tem ko kaznjencu zaupajo nalogo, da se infiltrira med Panterje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/3/d/b43d634f-d3e5-4188-b8ec-6b461a3b184d.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036694"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "17:00",
+      "cas_konec": "17:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S4E5 - Planet akcija",
+      "naslov_orig": "S4E5 - Planet Action: E125 Special: What Makes A Good Adventure Movie",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Zanimiva dokumentarna serija, ki vas pripelje v zakulisje najboljših akcijskih filmov. Od kavbojskih strelskih obračunov do šokantnih eksplozij avtomobilov, neverjetnih kaskaderskih prizorov ter rjovečih pošasti. V vsaki epizodi vam bodo najljubši akcijski junaki razkrili svoje skrivnosti, zaupali zanimivosti in vas popeljali na filmska prizorišča, kjer boste dobili vpogled v prizore, ko ustvarjalci filma vdihnejo življenje akcijskim likom. Oddaja, ki bo navdušila vse ljubitelje akcije na filmskih platnih!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/6/8/7e68863e-2e20-4d02-a72f-5c6ee4046213.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036685"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "17:30",
+      "cas_konec": "20:00",
+      "trajanje": "150 min",
+      "naslov_sl": "Malenkosti",
+      "naslov_orig": "The Little Things",
+      "kategorija": "Film",
+      "zanr": [
+        "triler"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "15+",
+      "opis": "Osramočeni bivši bivši policist Joe ''Deke'' Deacon na lovu za blaznim serijskim morilcem, ki terorizira mesto.\r\n\r\nMed forenzičnim opravkom v LA-ju, se osramočeni bivši policist Joe ''Deke'' Deacon pridruži naredniku Jimu Baxterju na lovu za blaznim serijskim morilcem, ki terorizira mesto. A lov kmalu razburka stare, davno zakopane skrivnosti iz Dekove preteklosti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/a/9/0ba96c8a-72e4-4f37-9e72-84153410ee11.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036688"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "20:00",
+      "cas_konec": "22:50",
+      "trajanje": "170 min",
+      "naslov_sl": "Dan neodvisnosti",
+      "naslov_orig": "Independence Day",
+      "kategorija": "Film",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "1996",
+      "starostna_omejitev": "12+",
+      "opis": "2. julij, dva dni pred največjim ameriškim državnim praznikom, je običajen poletni dan. Dokler se na nebu brez opozorila ne pojavijo zlovešče sence.\r\n\r\nKo nezemljani začnejo napadati Zemljo s svojo vrhunsko tehnologijo, hitro postane jasno, da lahko iztrebijo celotno človeštvo v le nekaj dneh. Človekova volja je najboljše orožje za preživetje invazije, zato se preživeli uprejo s sicer slabšo tehnologijo, toda neomajnim pogumom in iznajdljivostjo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6b/1/4/6b14b597-c8c4-4187-a22b-3fa6b458fd09.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036696"
+    },
+    {
+      "datum": "2026-10-03",
+      "dan": "Sobota",
+      "cas": "22:50",
+      "cas_konec": "01:00",
+      "trajanje": "130 min",
+      "naslov_sl": "Šesti čut",
+      "naslov_orig": "The Sixth Sense",
+      "kategorija": "Film",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "1999",
+      "starostna_omejitev": "12+",
+      "opis": "Osemletnika Cola preganja temna skrivnost – obiskujejo ga duhovi, in to duhovi z nerazrešenimi problemi.\r\n\r\nOsemletnega dečka Cola preganja temačna skrivnost, obiskujejo ga namreč duhovi umrlih. Izredno občutljiv in krhek deček se končno zaupa svojemu psihiatru dr. Crowu. Njuna skupna pot do razumevanja neznanega in nadnaravnega ju vodi do spoznanja, ki ga nista pričakovala in kar lahko razumeta in obvladata le s skupnimi močmi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a9/6/b/a96b7e25-6150-453b-8e5a-bb40223472c0.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1161036695"
+    },
+    {
+      "datum": "2026-10-09",
+      "dan": "Petek",
+      "cas": "22:35",
+      "cas_konec": "00:45",
+      "trajanje": "130 min",
+      "naslov_sl": "99 domov",
+      "naslov_orig": "99 Homes",
+      "kategorija": "Film",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "12+",
+      "opis": "Na Floridi gradbinca Dennisa Nasha brez opozorila iz doma izseli brezobzirni nepremičninski posrednik Rick Carver.\r\n\r\nNash je osramočen in brez strehe nad glavo, z družino pa pristane v nevarnem motelu. Vse se zdi izgubljeno, dokler Nash ne dobi priložnosti za podpis pogodbe s hudičem - delati začne za Carverja in se znajde v brezobzirnem svetu goljufij, izsiljevanja in bogatenja na račun drugih. A cena za preživetje postaja vse višja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/79/d/b/79db0db5-37b1-45e6-8877-434126fcce20.jpg",
+      "show_id": "CUP_IECOM_POPKINO_1162454326"
     }
   ]
 }
