@@ -1,874 +1,10 @@
 {
   "kanal": "Travel Channel",
   "ch_ext_id": "travel-channel",
-  "posodobljeno": "2026-10-11 12:26",
-  "od": "2026-10-04",
-  "do": "2026-10-18",
+  "posodobljeno": "2026-10-12 12:26",
+  "od": "2026-10-05",
+  "do": "2026-10-19",
   "oddaje": [
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Najstrašnejši kraji: Tovarna senc",
-      "naslov_orig": "S1E1 - Most Terrifying Places: Shadow Factory",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "15+",
-      "opis": "V Zahodni Virginiji krožijo govorice, da naj bi v srhljivem zapuščenem zabaviščnem parku strašili duhovi. In kaj je tisto, kar dela predore Drakelow v Angliji tako grozljive?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/f/7/b6f718d6-9c9b-4ad6-9708-430bb104e047.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159502697"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Najstrašnejši kraji: Avtomobil smrti",
-      "naslov_orig": "S1E2 - Most Terrifying Places: Death Car",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "15+",
-      "opis": "Calumet Theatre v Michiganu je operna hiša, kjer je življenje izgubilo 70 ljudi v domnevnem požaru leta 1913. Ali je možno, da tam danes strašijo duhovi?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/01/9/f/019ff905-6358-4391-b58b-c7484998a6f3.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159502687"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "02:00",
-      "cas_konec": "03:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E10 - Starodavno zlo",
-      "naslov_orig": "S2E10 - The Holzer Files: Forever Home",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "nadnaravno"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "12+",
-      "opis": "Hans Holzer je v svoji karieri že neštetokrat obiskal Mystery Hill. Ekipa je v zvezni državi New Hampshire in želi razkriti temačne skrivnosti, ki jih skriva vrh hriba.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2e/4/8/2e487176-8d2b-4c64-9ddb-8e17742e6ce0.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159502678"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - Psihiatrična ustanova Trans-Allegheny",
-      "naslov_orig": "S1E6 - Portals To Hell: Trans-Allegheny Lunatic Asylum",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "nadnaravno"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "12+",
-      "opis": "Jack in Katrina obiščeta Weston v Zahodni Virginiji, kjer preiskujeta zloglasno bolnišnico s 130-letno temačno preteklostjo, kjer naj bi strašilo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ca/1/2/ca127bf8-4de9-46cf-b632-9478efc66ad2.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159502684"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E3 - Izginuli imperij",
-      "naslov_orig": "S4E3 - Expedition Unknown: Pyramid of Legends",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "12+",
-      "opis": "Josh Gates odpotuje v Grčijo, kjer želi ugotoviti, kako je mogočna minojska civilizacija izginila z obličja antičnega sveta.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/2/56323c1b-1227-4f7a-b0d1-776c5d92d422.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159502675"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E18 - Iskanje Velike noge: Indonezijska mala Velika noga",
-      "naslov_orig": "S2E18 - Finding Bigfoot: Indonesia's Little Bigfoot",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "8+",
-      "opis": "Ekipa se odpravi na Sumatro, kjer iščejo bitje orang pendek, človeku podobno opico, ki je manjša od Velike noge, toda nič manj strašljiva. Jim bo uspelo najti to izmuzljivo zver?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/6/0/00602995-8ae2-49af-8f78-911d01e0021c.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159502693"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "06:00",
-      "cas_konec": "07:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Bigfoot of Cook Inlet: Water Stalker",
-      "naslov_orig": "S2E5 - Alaska Monsters: Bigfoot of Cache Creek: Woodsman",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "V Aljaškem trikotniku izgine več ljudi na prebivalca kot kjerkoli drugje. Pustolovci, Midnight Sons, so na lovu za dokazi o grozljivih pošastih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/5/9/3c591db1-b3ef-4064-b69a-1a49f4723d41.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504200"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E6 - Velika noga iz medvedove dežele: Thunderfoot",
-      "naslov_orig": "S2E6 - Alaska Monsters: Bigfoot of Copper Valley: Red Devil",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "Fantje obiščejo nevarno medvedovo deželo, kjer so na lovu za bitjem, imenovanim Thunderfoot, ki domnevno napada tamkajšnje grizlije.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d9/6/5/d965c8ab-7e1b-4d22-a7e7-51b2fb0e7aa2.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504203"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "08:00",
-      "cas_konec": "09:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E4 - Iskanje Velike noge: Velika noga z Rhode Islanda",
-      "naslov_orig": "S2E4 - Finding Bigfoot: Big Rhody",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "8+",
-      "opis": "Člani ekipe se odpravijo na Rhode Island, od koder so prejeli posnetek srečanja z Veliko nogo. Ker naj bi bilo na tem področju veliko teh bitij, si želijo kakšnega tudi najti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/7/d/fc7ddac7-27ec-47a3-ba94-e91150b0e2cf.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504194"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Iskanje Velike noge: Velika noga iz Ohia",
-      "naslov_orig": "S2E5 - Finding Bigfoot: Buckeye Bigfoot",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2011",
-      "starostna_omejitev": "8+",
-      "opis": "Ekipa se odpravi v Ohio, kjer so posneli srečanje z Veliko nogo. Da bi dokazali, da so ta bitja resnična, za tokratno iskalno akcijo rekrutirajo tudi prostovoljce.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/4/f/ae4f2757-e74f-480f-a7b7-6b63ff8cb3ad.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504187"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E8 - Odbite jedi: Ciper",
-      "naslov_orig": "S8E8 - Bizarre Foods: Cyprus",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Andrew gre na Ciper, da bi se najedel polnjenih listov vinske trte in svinjskega trebuha. Uživa v starodavni prehrambni dediščini otoka, vse od sirjenja kozjega mleka do nabiranja rožičevih strokov ter pokušanja na soncu sušenega kozjega mesa in najstarejšega piškota na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/67/1/6/67160cc0-5233-4fae-93ba-d4f45443c445.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504201"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E2 - Odbite jedi: Senegal",
-      "naslov_orig": "S8E2 - Bizarre Foods: Senegal",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Andrew odpotuje v Senegal na polže, podobne možganom, in pečene goveje gležnje. Odpravi se na ribolov, ki pa se skoraj tragično konča, obišče starodavne soline in se pri domačinih masti s pečeno ovco, sproti pa spoznava zahodnoafriško kulturo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/67/1/6/67160cc0-5233-4fae-93ba-d4f45443c445.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504188"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E7 - Gradnja na Aljaski: Pogrešan helikopter",
-      "naslov_orig": "S3E7 - Building Alaska: The Missing Helicopter",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Leejeva ekipa mora med gradnjo ob jezeru Bulchitna odpraviti napako, ki je posledica napačnega izračuna, Derekovo ekipo pa zajame panika zaradi pogrešanega helikopterja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b2/6/2/b26244f4-44bc-4dec-b603-c5f1cade443a.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504189"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E9 - Gradnja na Aljaski: Dan D",
-      "naslov_orig": "S3E9 - Building Alaska: Game Day",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Pogumni posamezniki kljubujejo ekstremnim pogojem, da bi zgradili sanjske nepremičnine v odročnih predelih aljaške divjine.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bb/5/1/bb51c720-c2c6-4d5a-92a1-d9132e07324b.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504196"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E11 - Grajske skrivnosti in legende: Irska kraja umetnin, Afera Dickens, Porcelanski knez",
-      "naslov_orig": "S2E11 - Mysteries at the Castle: Irish Heist, Dickens Affair, Prince Of Porcelain",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "10+",
-      "opis": "Veličastna hiša Russborough v irskem okrožju Wicklow je tarča politično motiviranega ropa umetnin, o katerem poročajo po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/22/1/9/2219ccb7-edb5-475f-b64c-5c46d6415ed5.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504190"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E12 - Grajske skrivnosti in legende: Kako postati umetnik",
-      "naslov_orig": "S2E12 - Mysteries at the Castle: Making Of An Artist",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "10+",
-      "opis": "Gradovi in dvorci po vsem svetu skrivajo skrivnosti, ki nestrpno čakajo na odkritje. Kakšne zanimive prigode in skrivnostne zgodbe so se v resnici odvijale za njihovimi zidovi?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/2/3/d823b6da-4821-40b1-9537-1f799adcdb04.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504202"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E1 - Laboratorij za duhove: Nedolžni",
-      "naslov_orig": "S2E1 - Ghost Lab: The Innocent",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Brata Klinge zaznata paranormalno aktivnost v kletnih prostorih razvpite zapuščene sirotišnice iz obdobja državljanske vojne. Jima bo uspelo izgnati duha nasilne matrone?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7c/1/0/7c106b50-2a71-4f08-ba57-9205e857a7ca.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504204"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E2 - Laboratorij za duhove: Mrtvi bodo vstali",
-      "naslov_orig": "S2E2 - Ghost Lab: Dead Will Rise Again",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ekipa preiskuje paranormalno aktivnost na bojiščih Gettysburga, nakar obiščejo hišo od Jennie Wade. Zakaj se njen duh še naprej potika po kletnih prostorih?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1e/c/e/1ece68bd-22a4-40c3-bf1d-5fd402cff657.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504205"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Razkritje paranormalnega: Pošasti iz globin",
-      "naslov_orig": "S1E1 - Paranormal Declassified: Monsters Of the Deep",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "10+",
-      "opis": "Paul Beban išče resnico o morskih pošastih. Odpotuje v Vermont ob jezero Champlain, da bi se prepričal, ali v njegovih temnih globinah res živi še neodkrito bitje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f9/b/1/f9b1b2e6-d9ee-41da-b794-7c12e031f572.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504206"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Razkritje paranormalnega: Iskanje mitološkega bitja",
-      "naslov_orig": "S1E2 - Paranormal Declassified: Chasing Skinwalkers",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "10+",
-      "opis": "Paul raziskuje mit o bitjih, ki so lahko spreminjala obliko. Imenujejo se Skinwalkers. Z osrčja območja, kjer živi indijansko pleme Navajo, jim sledi na zloglasni ranč.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f9/b/1/f9b1b2e6-d9ee-41da-b794-7c12e031f572.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504197"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E4 - Izgubljena kolonija Roanoke",
-      "naslov_orig": "S4E4 - Expedition Unknown: Butch Cassidy's Lost Loot",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "12+",
-      "opis": "Josh Gates se pridruži vodilnim arheologom, ki raziskujejo prvi primer pogrešane osebe v Ameriki: izgubljeno kolonijo Roanoke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/eb/4/6/eb46c7fe-5150-46fe-9278-500d87449c42.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504191"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E5 - V primežu paranormalnega: Hotel Anderson",
-      "naslov_orig": "S1E5 - Paranormal Lockdown: Anderson Hotel",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Ko so v Kentuckyju zaprli hotel Anderson, se vsi njegovi gostje niso odjavili. Nick in Katrine morata med 72-urnim priporom gledati, kako snemalca surovo pretepejo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/1/f/241fa4c1-24ba-47c9-90cd-99839f4515a8.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504195"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - V primežu paranormalnega: Vila Kreischer",
-      "naslov_orig": "S1E6 - Paranormal Lockdown: Kreischer Mansion",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Nick in Katrina iščeta odgovor na vprašanje, kdo straši v zloglasni vili Kreischer. Legenda pravi, da je ob koncu devetnajstega stoletja tukaj potekalo kar nekaj seans.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e6/6/4/e664274d-1f36-4600-813c-4b9c52a8e1f7.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504207"
-    },
-    {
-      "datum": "2026-10-04",
-      "dan": "Nedelja",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E5 - Kloniranje dlakavega mamuta",
-      "naslov_orig": "S4E5 - Expedition Unknown: Viking Secrets",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "12+",
-      "opis": "Da bi pomagal pri vrnitvi dlakavih mamutov med žive, Josh obišče biotehnični laboratorij, ki bdi nad projektom, in izkopava kosti v kanadskem rudniku.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/3/c/0b3c17c7-69bf-4b9b-a9c5-5fa355a5dd9e.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1159504192"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E2 - Lovci na duhove: Skrivnostna hiša Winchestrovih",
-      "naslov_orig": "S2E2 - Ghost Brothers: Winchester Mystery House",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2009",
-      "starostna_omejitev": "12+",
-      "opis": "Fantje se odpravijo v Kalifornijo, kjer preiskujejo domovanje ekscentrične dedinje puškarske dinastije Winchester. Ali je bil njen strah pred maščevalnimi duhovi upravičen?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/2/6/b92659b0-452e-4a69-962d-60f84971b8b1.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161549465"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E6 - Skrivnostna odprava: Potovanje v ledeno dobo",
-      "naslov_orig": "S3E6 - Expedition Unknown: Journey to the Ice Age",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "10+",
-      "opis": "Josh se poda v osrčje Sibirije na območje, kjer iz trajno zamrznjenih tal izkopavajo neprecenljive kosti mamuta. Ko se vrne v laboratorij, si ogleda rezultate DNK analize, da bi ugotovil, ali bo dolgodlaki mamut spet hodil po zemeljskem površju.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7a/c/4/7ac4a90c-18ac-4f24-b405-854302e705f8.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161549474"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "02:00",
-      "cas_konec": "03:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E3 - Najstrašnejši kraji: Ladja trpečih duš",
-      "naslov_orig": "S1E3 - Most Terrifying Places: Ship Of Anguished Spirits",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "15+",
-      "opis": "Priče in zgodovinarji razkrijejo nekatere najstrašnejše kraje po svetu. Od zapuščenih otokov do propadajočih graščin. Kaj je tisto, kar dela te kraje tako strašljive?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/22/0/c/220c01dd-f9d8-4157-b380-4c21b4cb8374.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161549455"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E4 - Najstrašnejši kraji: Pokopališče Atlantika",
-      "naslov_orig": "S1E4 - Most Terrifying Places: Graveyard Of the Atlantic",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "15+",
-      "opis": "Priče na odmaknjenem otoku v Severni Karolini poročajo o strašljivih prikaznih. In v neki restavraciji trepetajo od strahu zaradi domnevne prisotnosti duhov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/54/1/a/541a725a-0b6b-47f6-bd7e-9537350dae55.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161549467"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E9 - Iskanje tasmanskega tigra",
-      "naslov_orig": "S4E9 - Expedition Unknown: Secrets of Brother XII",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "12+",
-      "opis": "Josh obišče avstralski otok Tasmanijo, kjer raziskuje poročila o srečanjih z domnevno izumrlim tasmanskim tigrom.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/2/7/9127d09f-376b-4c0f-8c77-3fbd7bf92dac.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161549461"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E21 - Iskanje Velike noge: Častna značka Bigfoota",
-      "naslov_orig": "S2E21 - Finding Bigfoot: Bigfoot Merit Badge",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "8+",
-      "opis": "Štirje strokovnjaki potujejo po severnoameriški divjini in iščejo izmuzljivo Veliko nogo. Jim bo s pomočjo najsodobnejše tehnologije uspelo najti skrivnostno bitje?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c7/2/5/c7253b28-46a0-4a39-a779-32a4ec6dd504.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161549470"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "06:00",
-      "cas_konec": "07:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Odjuga",
-      "naslov_orig": "S2E5 - Edge of Alaska: The Cave In",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "pustolovščina"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "12+",
-      "opis": "Prišla je spomladanska odjuga in sneg se je pričel topiti. Neil se odloči, da bo začel z deli za prenovo rudnika.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/9/c/729c8409-3dee-4d6b-a677-9081753dd922.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550177"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E6 - Vhod v rudnik",
-      "naslov_orig": "S2E6 - Edge of Alaska: Deadwood Forest",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "12+",
-      "opis": "Bitka za McCarthy se še odvija, ekipa strokovnjakov pa skuša odkriti edini znani vhod v rudnik Mother Lode. Jim bo uspelo?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c1/f/d/c1fd9e1c-0e79-4858-9e3d-f25a3ea6b767.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550178"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "08:00",
-      "cas_konec": "09:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E10 - Gradnja na Aljaski: Dvignjene glave",
-      "naslov_orig": "S3E10 - Building Alaska: Heads Up",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Drama na Derekovemu gradbišču na pečini blizu Valdeza se stopnjuje, potem ko dež namoči območje in se nesreča na strehi za enega od delavcev skoraj konča usodno.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b2/6/2/b26244f4-44bc-4dec-b603-c5f1cade443a.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550182"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E11 - Gradnja na Aljaski: Najboljši trenutek",
-      "naslov_orig": "S3E11 - Building Alaska: The Finest Moment",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Lee in njegova ekipa namestijo novo peč na drva, da bi posušili stene iz gipsa. Medtem ko čaka, si Lee vzame čas, da užije vse, kar Aljaska ponuja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b2/6/2/b26244f4-44bc-4dec-b603-c5f1cade443a.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550160"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Skrivnosti pogrešanih: Iskanje letala MH370",
-      "naslov_orig": "S1E1 - Mysteries of the Missing: Hunt For Flight MH370",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "10+",
-      "opis": "Leta 2014 je letalo MH370 letalske družbe Malaysia Airlines izginilo brez sledi. Ali je letalo strmoglavilo in če je temu tako, zakaj ne moremo najti razbitin?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/78/6/9/7869af27-1cc1-48fe-902b-aed86209a91a.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550161"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Skrivnosti pogrešanih: Atlantida: izgubljeni dokazi",
-      "naslov_orig": "S1E2 - Mysteries of the Missing: Atlantis: The Lost Evidence",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "10+",
-      "opis": "Atlantida je eden najbolj znanih primerov izginotja. Ali lahko sodobna tehnologija po več tisoč letih končno reši to starodavno skrivnost?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/5/e/155ece70-2572-464e-a252-5554ef78a2ec.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550179"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E3 - Laboratorij za duhove: Izdajstvo",
-      "naslov_orig": "S2E3 - Ghost Lab: The Betrayal",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ekipa raziskuje preganjane hodnike zapuščenega dvorca, kjer so nekoč nudili dom brezdomcem in duševno motenim, a je kasneje postal sinonim za samomor in nenavadne smrtne primere.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/2/e/b92eb65c-5600-4e78-a6dc-fb8f29f07d11.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550171"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Laboratorij za duhove: Mrtvašnica",
-      "naslov_orig": "S2E5 - Ghost Lab: The Morgue",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Ekipa preiskuje hišo, kjer prikazni trpinčijo tri otroke. Kasneje obiščejo bolnišnico, postavljeno na kraju nekdanje umobolnice. Kaj straši v mrtvašnici?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7c/1/0/7c106b50-2a71-4f08-ba57-9205e857a7ca.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550162"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S13E3 - Skrivnosti v muzeju: Prvi superračunalnik in še marsikaj",
-      "naslov_orig": "S13E3 - Mysteries at the Museum: The First Super Computer, Flying Under Fire and Dighton Rock",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "10+",
-      "opis": "Don preučuje skalo, na kateri so vklesana nenavadna znamenja, ki bi lahko ameriško zgodovino postavila na glavo, meč raziskovalca, ki so ga obtožili izdaje, in marmornati doprsni kip velikega vodje, ki je poskušal razvozlati starodavno uganko.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/2/c/fc2c535e-e8a9-4a8b-92a2-c3035e6dd2b9.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550174"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S13E4 - Skrivnosti v muzeju: Kralj Neptun in še marsikaj",
-      "naslov_orig": "S13E4 - Mysteries at the Museum: King Neptune, Friday Night Bank Robber and Karluk's Last Voyage",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "10+",
-      "opis": "Don preučuje domoljubnega prašiča, ki je pomagal financirati vojsko v 2. svetovni vojni, pohod moškega, ki je reševal svojo ekipo na neizprosni odpravi na Arktiko, in aktivista, ki sta tvegala življenje, ko sta se pri reševanju kitov zoperstavila velesili.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/2/c/fc2c535e-e8a9-4a8b-92a2-c3035e6dd2b9.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550164"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E5 - Cooperjev zaklad: Zmajevi zobje",
-      "naslov_orig": "S2E5 - Cooper's Treasure: Dragon's Teeth",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "10+",
-      "opis": "Darrell išče več milijonov dolarjev vredno razbitino, ki je povezana s Francisom Drakom. Z ekipo želi čim prej izslediti nevarno področje, na karti poimenovano Zmajevi zobje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/f/7/b3f7b589-9e22-4602-b84b-396ab4d9bae1.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550175"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E6 - Cooperjev zaklad: Otok obilja",
-      "naslov_orig": "S2E6 - Cooper's Treasure: Island of Fortune",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "10+",
-      "opis": "Darrell in ekipa se odpravijo na skrivnostni otok, kjer odkrijejo dragocene sledi, ki jih približajo odkritju 500 let stare ladijske razbitine.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cf/e/e/cfee98f9-3eb2-456c-95c2-7db9b2bb4878.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550172"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E15 - Osbournovi želijo verjeti: Velika noga ali nič",
-      "naslov_orig": "S2E15 - The Osbournes Want to Believe: Bigfoot or Bust",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "10+",
-      "opis": "Jack skuša prepričati Ozzyja in Sharon o obstoju Velike noge in ju povabi na virtualen lov. Pouči ju tudi o demonih ter jima predstavi posnetke žitnih krogov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6b/c/c/6bccfa20-161e-4d78-a769-91a779f337e4.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550173"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E16 - Osbournovi želijo verjeti: Čas se izteka",
-      "naslov_orig": "S2E16 - The Osbournes Want to Believe: Running Out Of Time",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "8+",
-      "opis": "Osbournovi hitro skočijo v svoj DeLorean za igro slavnih popotnikov. Ozzy pa vedno manj dvomi o obstoju NLP-jev.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/b/5/e5b573ce-ebb2-426f-9186-e69127cd03bc.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550170"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E6 - V primežu paranormalnega: Sanatorij Waverley Hills",
-      "naslov_orig": "S2E6 - Paranormal Lockdown: Waverly Hills",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Ekipa išče senčne postave, ki se potikajo po hodnikih sanatorija Waverley Hills v Kentuckyju. S pomočjo napredne tehnologije zberejo osupljive dokaze o nadnaravnih pojavih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/2/7/fc27d96e-86a0-41e0-a8a2-52ee994981e9.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550168"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E3 - Osbournovi želijo verjeti: Osbournovi ponovno v živo",
-      "naslov_orig": "S2E3 - The Osbournes Want to Believe: The Osbournes Live Again",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "10+",
-      "opis": "Jack šokira Sharon in Ozzyja z dokazi o nadčloveku, nepovabljenemu duhu na večerji in dobrem starem letečem krožniku.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/5/a/195a8e7b-c430-4f42-ad20-d1f986e18a6f.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550165"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E14 - Sanatorij v Indiani",
-      "naslov_orig": "S3E14 - Destination Fear: Indiana State Sanatorium",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "nadnaravno"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Alex s svojo izbiro krši vsa pravila. Ekipo izzove, da raziščejo sanatorij v Indiani, a jim ne izda, kako strašljiv je v resnici.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/da/a/e/daae762a-5158-43f1-a5ee-6faf86828ee9.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550180"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E10 - Gorske pošasti: Zvita bakla",
-      "naslov_orig": "S4E10 - Mountain Monsters: The Twisted Torch",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Ekipa AIMS išče Jeffa, ki ga je odpeljala skrivnostna pojava. Lov jih privede do odgovorov, ki vsaj nekoliko osvetlijo legendo imenovano Spearfinger.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/58/2/9/5829f64e-6342-43bc-9be1-e08484af39e0.jpg",
-      "show_id": "CUP_IECOM_TRAVEL_1161550166"
-    },
     {
       "datum": "2026-10-05",
       "dan": "Ponedeljek",
@@ -5710,6 +4846,888 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
       "show_id": "CUP_FAKE_TRAVEL_202610172200_202610172300"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E2 - Lovci na duhove: Skrivnostna hiša Winchestrovih",
+      "naslov_orig": "S2E2 - Ghost Brothers: Winchester Mystery House",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2009",
+      "starostna_omejitev": "12+",
+      "opis": "Fantje se odpravijo v Kalifornijo, kjer preiskujejo domovanje ekscentrične dedinje puškarske dinastije Winchester. Ali je bil njen strah pred maščevalnimi duhovi upravičen?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/2/6/b92659b0-452e-4a69-962d-60f84971b8b1.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161549465"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "01:00",
+      "cas_konec": "02:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E6 - Skrivnostna odprava: Potovanje v ledeno dobo",
+      "naslov_orig": "S3E6 - Expedition Unknown: Journey to the Ice Age",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "10+",
+      "opis": "Josh se poda v osrčje Sibirije na območje, kjer iz trajno zamrznjenih tal izkopavajo neprecenljive kosti mamuta. Ko se vrne v laboratorij, si ogleda rezultate DNK analize, da bi ugotovil, ali bo dolgodlaki mamut spet hodil po zemeljskem površju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7a/c/4/7ac4a90c-18ac-4f24-b405-854302e705f8.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161549474"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E3 - Najstrašnejši kraji: Ladja trpečih duš",
+      "naslov_orig": "S1E3 - Most Terrifying Places: Ship Of Anguished Spirits",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "15+",
+      "opis": "Priče in zgodovinarji razkrijejo nekatere najstrašnejše kraje po svetu. Od zapuščenih otokov do propadajočih graščin. Kaj je tisto, kar dela te kraje tako strašljive?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/5/4/e1542d18-cc67-4f03-9cee-868aa1093820.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161549455"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "03:00",
+      "cas_konec": "04:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E4 - Najstrašnejši kraji: Pokopališče Atlantika",
+      "naslov_orig": "S1E4 - Most Terrifying Places: Graveyard Of the Atlantic",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "15+",
+      "opis": "Priče na odmaknjenem otoku v Severni Karolini poročajo o strašljivih prikaznih. In v neki restavraciji trepetajo od strahu zaradi domnevne prisotnosti duhov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/2/4/4924bc71-9075-42a1-89da-bb564e6a04a4.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161549467"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "04:00",
+      "cas_konec": "05:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E9 - Iskanje tasmanskega tigra",
+      "naslov_orig": "S4E9 - Expedition Unknown: Secrets of Brother XII",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "12+",
+      "opis": "Josh obišče avstralski otok Tasmanijo, kjer raziskuje poročila o srečanjih z domnevno izumrlim tasmanskim tigrom.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/2/7/9127d09f-376b-4c0f-8c77-3fbd7bf92dac.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161549461"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E21 - Iskanje Velike noge: Častna značka Bigfoota",
+      "naslov_orig": "S2E21 - Finding Bigfoot: Bigfoot Merit Badge",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "8+",
+      "opis": "Štirje strokovnjaki potujejo po severnoameriški divjini in iščejo izmuzljivo Veliko nogo. Jim bo s pomočjo najsodobnejše tehnologije uspelo najti skrivnostno bitje?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c7/2/5/c7253b28-46a0-4a39-a779-32a4ec6dd504.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161549470"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E5 - Odjuga",
+      "naslov_orig": "S2E5 - Edge of Alaska: The Cave In",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "12+",
+      "opis": "Prišla je spomladanska odjuga in sneg se je pričel topiti. Neil se odloči, da bo začel z deli za prenovo rudnika.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/9/c/729c8409-3dee-4d6b-a677-9081753dd922.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550177"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E6 - Vhod v rudnik",
+      "naslov_orig": "S2E6 - Edge of Alaska: Deadwood Forest",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "12+",
+      "opis": "Bitka za McCarthy se še odvija, ekipa strokovnjakov pa skuša odkriti edini znani vhod v rudnik Mother Lode. Jim bo uspelo?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c1/f/d/c1fd9e1c-0e79-4858-9e3d-f25a3ea6b767.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550178"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "08:00",
+      "cas_konec": "09:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E10 - Gradnja na Aljaski: Dvignjene glave",
+      "naslov_orig": "S3E10 - Building Alaska: Heads Up",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "",
+      "opis": "Drama na Derekovemu gradbišču na pečini blizu Valdeza se stopnjuje, potem ko dež namoči območje in se nesreča na strehi za enega od delavcev skoraj konča usodno.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b2/6/2/b26244f4-44bc-4dec-b603-c5f1cade443a.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550182"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "09:00",
+      "cas_konec": "10:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E11 - Gradnja na Aljaski: Najboljši trenutek",
+      "naslov_orig": "S3E11 - Building Alaska: The Finest Moment",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "",
+      "opis": "Lee in njegova ekipa namestijo novo peč na drva, da bi posušili stene iz gipsa. Medtem ko čaka, si Lee vzame čas, da užije vse, kar Aljaska ponuja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b2/6/2/b26244f4-44bc-4dec-b603-c5f1cade443a.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550160"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E1 - Skrivnosti pogrešanih: Iskanje letala MH370",
+      "naslov_orig": "S1E1 - Mysteries of the Missing: Hunt For Flight MH370",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "10+",
+      "opis": "Leta 2014 je letalo MH370 letalske družbe Malaysia Airlines izginilo brez sledi. Ali je letalo strmoglavilo in če je temu tako, zakaj ne moremo najti razbitin?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/78/6/9/7869af27-1cc1-48fe-902b-aed86209a91a.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550161"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Skrivnosti pogrešanih: Atlantida: izgubljeni dokazi",
+      "naslov_orig": "S1E2 - Mysteries of the Missing: Atlantis: The Lost Evidence",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "10+",
+      "opis": "Atlantida je eden najbolj znanih primerov izginotja. Ali lahko sodobna tehnologija po več tisoč letih končno reši to starodavno skrivnost?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/15/5/e/155ece70-2572-464e-a252-5554ef78a2ec.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550179"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E3 - Laboratorij za duhove: Izdajstvo",
+      "naslov_orig": "S2E3 - Ghost Lab: The Betrayal",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "",
+      "opis": "Ekipa raziskuje preganjane hodnike zapuščenega dvorca, kjer so nekoč nudili dom brezdomcem in duševno motenim, a je kasneje postal sinonim za samomor in nenavadne smrtne primere.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/2/e/b92eb65c-5600-4e78-a6dc-fb8f29f07d11.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550171"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E5 - Laboratorij za duhove: Mrtvašnica",
+      "naslov_orig": "S2E5 - Ghost Lab: The Morgue",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "",
+      "opis": "Ekipa preiskuje hišo, kjer prikazni trpinčijo tri otroke. Kasneje obiščejo bolnišnico, postavljeno na kraju nekdanje umobolnice. Kaj straši v mrtvašnici?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7c/1/0/7c106b50-2a71-4f08-ba57-9205e857a7ca.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550162"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S13E3 - Skrivnosti v muzeju: Prvi superračunalnik in še marsikaj",
+      "naslov_orig": "S13E3 - Mysteries at the Museum: The First Super Computer, Flying Under Fire and Dighton Rock",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "10+",
+      "opis": "Don preučuje skalo, na kateri so vklesana nenavadna znamenja, ki bi lahko ameriško zgodovino postavila na glavo, meč raziskovalca, ki so ga obtožili izdaje, in marmornati doprsni kip velikega vodje, ki je poskušal razvozlati starodavno uganko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/2/c/fc2c535e-e8a9-4a8b-92a2-c3035e6dd2b9.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550174"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S13E4 - Skrivnosti v muzeju: Kralj Neptun in še marsikaj",
+      "naslov_orig": "S13E4 - Mysteries at the Museum: King Neptune, Friday Night Bank Robber and Karluk's Last Voyage",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "10+",
+      "opis": "Don preučuje domoljubnega prašiča, ki je pomagal financirati vojsko v 2. svetovni vojni, pohod moškega, ki je reševal svojo ekipo na neizprosni odpravi na Arktiko, in aktivista, ki sta tvegala življenje, ko sta se pri reševanju kitov zoperstavila velesili.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/2/c/fc2c535e-e8a9-4a8b-92a2-c3035e6dd2b9.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550164"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E5 - Cooperjev zaklad: Zmajevi zobje",
+      "naslov_orig": "S2E5 - Cooper's Treasure: Dragon's Teeth",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "10+",
+      "opis": "Darrell išče več milijonov dolarjev vredno razbitino, ki je povezana s Francisom Drakom. Z ekipo želi čim prej izslediti nevarno področje, na karti poimenovano Zmajevi zobje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/f/7/b3f7b589-9e22-4602-b84b-396ab4d9bae1.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550175"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E6 - Cooperjev zaklad: Otok obilja",
+      "naslov_orig": "S2E6 - Cooper's Treasure: Island of Fortune",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "10+",
+      "opis": "Darrell in ekipa se odpravijo na skrivnostni otok, kjer odkrijejo dragocene sledi, ki jih približajo odkritju 500 let stare ladijske razbitine.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cf/e/e/cfee98f9-3eb2-456c-95c2-7db9b2bb4878.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550172"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E15 - Osbournovi želijo verjeti: Velika noga ali nič",
+      "naslov_orig": "S2E15 - The Osbournes Want to Believe: Bigfoot or Bust",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "10+",
+      "opis": "Jack skuša prepričati Ozzyja in Sharon o obstoju Velike noge in ju povabi na virtualen lov. Pouči ju tudi o demonih ter jima predstavi posnetke žitnih krogov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6b/c/c/6bccfa20-161e-4d78-a769-91a779f337e4.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550173"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E16 - Osbournovi želijo verjeti: Čas se izteka",
+      "naslov_orig": "S2E16 - The Osbournes Want to Believe: Running Out Of Time",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "8+",
+      "opis": "Osbournovi hitro skočijo v svoj DeLorean za igro slavnih popotnikov. Ozzy pa vedno manj dvomi o obstoju NLP-jev.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/b/5/e5b573ce-ebb2-426f-9186-e69127cd03bc.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550170"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E6 - V primežu paranormalnega: Sanatorij Waverley Hills",
+      "naslov_orig": "S2E6 - Paranormal Lockdown: Waverly Hills",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Ekipa išče senčne postave, ki se potikajo po hodnikih sanatorija Waverley Hills v Kentuckyju. S pomočjo napredne tehnologije zberejo osupljive dokaze o nadnaravnih pojavih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fc/2/7/fc27d96e-86a0-41e0-a8a2-52ee994981e9.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550168"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E3 - Osbournovi želijo verjeti: Osbournovi ponovno v živo",
+      "naslov_orig": "S2E3 - The Osbournes Want to Believe: The Osbournes Live Again",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "10+",
+      "opis": "Jack šokira Sharon in Ozzyja z dokazi o nadčloveku, nepovabljenemu duhu na večerji in dobrem starem letečem krožniku.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/5/a/195a8e7b-c430-4f42-ad20-d1f986e18a6f.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550165"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E14 - Sanatorij v Indiani",
+      "naslov_orig": "S3E14 - Destination Fear: Indiana State Sanatorium",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "nadnaravno"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Alex s svojo izbiro krši vsa pravila. Ekipo izzove, da raziščejo sanatorij v Indiani, a jim ne izda, kako strašljiv je v resnici.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/da/a/e/daae762a-5158-43f1-a5ee-6faf86828ee9.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550180"
+    },
+    {
+      "datum": "2026-10-12",
+      "dan": "Ponedeljek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E10 - Gorske pošasti: Zvita bakla",
+      "naslov_orig": "S4E10 - Mountain Monsters: The Twisted Torch",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Ekipa AIMS išče Jeffa, ki ga je odpeljala skrivnostna pojava. Lov jih privede do odgovorov, ki vsaj nekoliko osvetlijo legendo imenovano Spearfinger.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/58/2/9/5829f64e-6342-43bc-9be1-e08484af39e0.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1161550166"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E13 - Zaklad kapitana Kidda",
+      "naslov_orig": "S4E13 - Expedition Unknown: Lost City of El Mirador",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "12+",
+      "opis": "Josh obišče Karibe, kjer išče legendarni zaklad kapitana Kidda. Lov ga popelje na otoško skrivališče tega zloglasnega gusarja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8b/b/a/8bba67b7-ec55-46a8-9a28-e567661aa2dc.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1165658126"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E3 - Lovci na duhove: Žaga Longleaf",
+      "naslov_orig": "S2E3 - Ghost Brothers: Longleaf Sawmill",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2009",
+      "starostna_omejitev": "12+",
+      "opis": "Fantje raziskujejo zapuščeno žago v Louisiani, ki jo domačini imenujejo Žaga smrti. Tam naj bi prebivale mračne prikazni, ki so povezane s tragično preteklostjo žage.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9d/1/9/9d1961eb-b084-480c-800d-926f24f5f4b6.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1165658121"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "01:00",
+      "cas_konec": "02:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E7 - Skrivnostna odprava: Reševanje Cooperjevega primera",
+      "naslov_orig": "S3E7 - Expedition Unknown: Cracking the D.B. Cooper Case",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "10+",
+      "opis": "Josh Gates odrine na odpravo, na kateri želi razkriti skrivnost o storilcu edine nerešene ugrabitve letala v ameriški zgodovini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7a/c/4/7ac4a90c-18ac-4f24-b405-854302e705f8.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1165658131"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E5 - Najstrašnejši kraji: Groza za zidovi",
+      "naslov_orig": "S1E5 - Most Terrifying Places: Horror Behind the Walls",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "15+",
+      "opis": "Zapor, zgrajen v 19. stoletju, skriva grozljivo skrivnost znotraj njegovih zidov. Zapečatena vrata burijo duhove v britanskem muzeju in prebivalci iz preteklosti romajo po zgodovinskem naselju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/13/0/a/130ac080-1550-45bc-963f-6f8c73596ac8.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1165658140"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "03:00",
+      "cas_konec": "04:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E3 - Najstrašnejši kraji v Ameriki: Hudičevo igrišče",
+      "naslov_orig": "S2E3 - Most Terrifying Places in America: Devil's Playground",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Od klovnovsko obarvanega motela v Nevadi do kinodvorane v Mainu, kjer preži groza v prehodih med sedeži, zgodovinarji in očividci pripovedujejo grozljive zgodbe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/7/3/5a7392ca-48c1-4604-8e91-fbb3c5601e5a.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1165658141"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "04:00",
+      "cas_konec": "05:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E13 - Zaklad kapitana Kidda",
+      "naslov_orig": "S4E13 - Expedition Unknown: Lost City of El Mirador",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "12+",
+      "opis": "Josh obišče Karibe, kjer išče legendarni zaklad kapitana Kidda. Lov ga popelje na otoško skrivališče tega zloglasnega gusarja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8b/b/a/8bba67b7-ec55-46a8-9a28-e567661aa2dc.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1165658127"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E24 - Iskanje Velike noge: Nedotaknjeno ozemlje",
+      "naslov_orig": "S2E24 - Finding Bigfoot: Virgin Sasquatch",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2011",
+      "starostna_omejitev": "8+",
+      "opis": "Pridružite se štirim ekscentričnim, toda strastnim raziskovalcem, ki imajo en sam cilj - najti izmuzljivo bitje, znano kot Velika noga ali Sasquatch.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/d/a/e9da5e46-1c94-4720-8aa0-84a4de4c9aa1.jpg",
+      "show_id": "CUP_IECOM_TRAVEL_1165658134"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610190400_202610190500"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610190500_202610190600"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "08:00",
+      "cas_konec": "09:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610190600_202610190700"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "09:00",
+      "cas_konec": "10:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610190700_202610190800"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610190800_202610190900"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610190900_202610191000"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191000_202610191100"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191100_202610191200"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191200_202610191300"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191300_202610191400"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191400_202610191500"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191500_202610191600"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191600_202610191700"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191700_202610191800"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191800_202610191900"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610191900_202610192000"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610192000_202610192100"
+    },
+    {
+      "datum": "2026-10-19",
+      "dan": "Ponedeljek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_FAKE_TRAVEL_202610192100_202610192200"
     }
   ]
 }
