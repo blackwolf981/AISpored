@@ -1,411 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-10-13 12:26",
-  "od": "2026-10-06",
-  "do": "2026-10-20",
+  "posodobljeno": "2026-10-14 12:26",
+  "od": "2026-10-07",
+  "do": "2026-10-21",
   "oddaje": [
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "00:00",
-      "cas_konec": "01:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker (M): Mark Selby - Noppon Saengkham, Odprto prvenstvo Kitajske, Finale, 2026",
-      "naslov_orig": "Snooker: China Open: Final, Mark Selby - Noppon Saengkham",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2a/6/b/2a6b85df-c8f1-47e3-b048-1d0e0b24e743.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161554042",
-      "friendly_id": "snooker_m_mark_selby__noppon_saengkham_odprto_prvenstvo_kitajske_finale_2026_3309382d"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "01:30",
-      "cas_konec": "02:57",
-      "trajanje": "87 min",
-      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
-      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161554045",
-      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_c0db163f"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "02:57",
-      "cas_konec": "04:58",
-      "trajanje": "121 min",
-      "naslov_sl": "Snooker (M): Mark Selby - Noppon Saengkham, Odprto prvenstvo Kitajske, Finale, 2026",
-      "naslov_orig": "Snooker: China Open: Final, Mark Selby - Noppon Saengkham",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2a/6/b/2a6b85df-c8f1-47e3-b048-1d0e0b24e743.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161554043",
-      "friendly_id": "snooker_m_mark_selby__noppon_saengkham_odprto_prvenstvo_kitajske_finale_2026_60f31f27"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "04:58",
-      "cas_konec": "06:26",
-      "trajanje": "88 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal: Lake Placid (Ž): Olimpijski kros",
-      "naslov_orig": "Mountainbike World Cup Lake Placid (W): Cross-country Olympic",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/4/3/d143d7ac-2ecf-4aa8-8b0d-b86d23b9fda2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161554046",
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_lake_placid_z_olimpijski_kros_2ba8fb47"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "06:26",
-      "cas_konec": "08:31",
-      "trajanje": "125 min",
-      "naslov_sl": "Snooker (M): Mark Selby - Noppon Saengkham, Odprto prvenstvo Kitajske, Finale, 2026",
-      "naslov_orig": "Snooker: China Open: Final, Mark Selby - Noppon Saengkham",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2a/6/b/2a6b85df-c8f1-47e3-b048-1d0e0b24e743.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161554044",
-      "friendly_id": "snooker_m_mark_selby__noppon_saengkham_odprto_prvenstvo_kitajske_finale_2026_9ac7d288"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "08:31",
-      "cas_konec": "09:30",
-      "trajanje": "59 min",
-      "naslov_sl": "Športno plezanje: Svetovni pokal v Chamonix (M, Ž): Hitrostno plezanje, finale",
-      "naslov_orig": "Climbing: IFSC Climbing World Cup in Chamonix: Men's and Women's Speed Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte svetovni pokal v športnem plezanju za ženske in moške v Chamonixu, mestu, ki je gostilo prve zimske olimpijske igre.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8b/0/5/8b058c04-1cc1-446f-ab39-42c2e36fd6ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956411",
-      "friendly_id": "sportno_plezanje_svetovni_pokal_v_chamonix_m_z_hitrostno_plezanje_finale_68b74bc5"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "09:30",
-      "cas_konec": "10:56",
-      "trajanje": "86 min",
-      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
-      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956412",
-      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_fdb751f1"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "10:56",
-      "cas_konec": "11:41",
-      "trajanje": "45 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal: Lake Placid (Ž): Olimpijski kros",
-      "naslov_orig": "Mountainbike World Cup Lake Placid (W): Cross-country Olympic",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/4/3/d143d7ac-2ecf-4aa8-8b0d-b86d23b9fda2.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956414",
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_lake_placid_z_olimpijski_kros_f40bfd02"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "11:41",
-      "cas_konec": "12:29",
-      "trajanje": "48 min",
-      "naslov_sl": "Gorsko kolesarstvo: Svetovni pokal: Lake Placid (M): Olimpijski kros",
-      "naslov_orig": "Mountainbike World Cup Lake Placid (m): Cross-country Olympic",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2e/6/b/2e6bac12-2987-41e1-8660-6ee8c79e0c64.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956415",
-      "friendly_id": "gorsko_kolesarstvo_svetovni_pokal_lake_placid_m_olimpijski_kros_62753639"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "12:29",
-      "cas_konec": "13:35",
-      "trajanje": "66 min",
-      "naslov_sl": "Kolesarstvo (M): Coppa Bernocchi, Legnano (174km)",
-      "naslov_orig": "Cycling: Bernocchi Cup: Legnano (174km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si pokal Bernocchi, moško cestno kolesarsko dirko, ki poteka v Lombardiji. Ime je dobila po ustanovitelju, poslovnežu Antoniu Bernocchiju.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/de/6/9/de6992f7-6bf6-4bc3-a0e4-72802959bdc0.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956417",
-      "friendly_id": "kolesarstvo_m_coppa_bernocchi_legnano_174km_06175b16"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "13:35",
-      "cas_konec": "14:45",
-      "trajanje": "70 min",
-      "naslov_sl": "Kolesarstvo (Ž): Binche _ Chimay _ Binche, Dirka: Chimay _ Binche (125km)",
-      "naslov_orig": "Cycling: Binche-Chimay-Binche Women: Chimay - Binche (125km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Enodnevno tekmovanje za kolesarke, ki vsako leto poteka v Valoniji v Belgiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4e/5/0/4e503a9e-78b6-4593-ab00-17e6327cfa2a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956418",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_z_binche___chimay___binche_dirka_chimay___binche_125km_355a899a"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "14:45",
-      "cas_konec": "15:20",
-      "trajanje": "35 min",
-      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
-      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1164151656",
-      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_81df07ce"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "15:20",
-      "cas_konec": "17:10",
-      "trajanje": "110 min",
-      "naslov_sl": "Kolesarstvo (M/Ž): Evropsko prvenstvo, Mešana ekipna dirka, Šenčur (ITT, 44.3 km)",
-      "naslov_orig": "Cycling: European Road Championships: Elite Mixed TTT | Šenčur (ITT, 44.3 km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/e/5/a4e5a23a-0f37-401c-be67-1cbbf4e1cfaf.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956420",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m_z_evropsko_prvenstvo_mesana_ekipna_dirka_sencur_itt_443_km_d04c0e18"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "17:10",
-      "cas_konec": "17:58",
-      "trajanje": "48 min",
-      "naslov_sl": "Kolesarstvo (M): Evropsko prvenstvo, Cestna dirka (196,3 km)",
-      "naslov_orig": "Cycling: European Road Championships: Ljubljana - Šenčur (196.3 km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/4/8/d74892f3-c778-4b1b-ba9d-9e822f0209e0.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1166825902",
-      "friendly_id": "kolesarstvo_m_evropsko_prvenstvo_cestna_dirka_1963_km_5439d644"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "17:58",
-      "cas_konec": "19:00",
-      "trajanje": "62 min",
-      "naslov_sl": "Kolesarstvo (Ž): Tri doline Varesine, Dirka: Busto Arsizio _ Varese (133.7km)",
-      "naslov_orig": "Cycling: Tre Valli Varesine Women: Busto Arsizio - Varese (133.7km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/a/3/d7a30a7c-99c8-4c21-9e10-f0049b1fbe88.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956423",
-      "friendly_id": "kolesarstvo_z_tri_doline_varesine_dirka_busto_arsizio___varese_1337km_eabc8ec0"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Športno plezanje: Svetovni pokal v Chamonix (M, Ž): Težavnostno plezanje, finale",
-      "naslov_orig": "Climbing: IFSC Climbing World Cup in Chamonix: Men's and Women's Lead | Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte svetovni pokal v športnem plezanju za ženske in moške v Chamonixu, mestu, ki je gostilo prve zimske olimpijske igre.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/9/d/f19d3728-7dd5-4d53-ae3c-7eafdaa1d3f6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956424",
-      "friendly_id": "sportno_plezanje_svetovni_pokal_v_chamonix_m_z_tezavnostno_plezanje_finale_1f58cdd7"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "20:00",
-      "cas_konec": "22:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker (M): Mark Selby - Noppon Saengkham, Odprto prvenstvo Kitajske, Finale, 2026",
-      "naslov_orig": "Snooker: China Open: Final, Mark Selby - Noppon Saengkham",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2a/6/b/2a6b85df-c8f1-47e3-b048-1d0e0b24e743.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956425",
-      "friendly_id": "snooker_m_mark_selby__noppon_saengkham_odprto_prvenstvo_kitajske_finale_2026_8ba78fbe"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "22:00",
-      "cas_konec": "22:30",
-      "trajanje": "30 min",
-      "naslov_sl": "Kolesarstvo (Ž): Tri doline Varesine, Dirka: Busto Arsizio _ Varese (133.7km)",
-      "naslov_orig": "Cycling: Tre Valli Varesine Women: Busto Arsizio - Varese (133.7km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/a/3/d7a30a7c-99c8-4c21-9e10-f0049b1fbe88.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956426",
-      "friendly_id": "kolesarstvo_z_tri_doline_varesine_dirka_busto_arsizio___varese_1337km_f5e1eafc"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "22:30",
-      "cas_konec": "23:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M/Ž): Evropsko prvenstvo, Mešana ekipna dirka, Šenčur (ITT, 44.3 km)",
-      "naslov_orig": "Cycling: European Road Championships: Elite Mixed TTT | Šenčur (ITT, 44.3 km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a4/e/5/a4e5a23a-0f37-401c-be67-1cbbf4e1cfaf.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956421",
-      "friendly_id": "kolesarstvo_m_z_evropsko_prvenstvo_mesana_ekipna_dirka_sencur_itt_443_km_1ab34a5e"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "23:30",
-      "cas_konec": "00:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E6 - SailGP: Jadranje na robu",
-      "naslov_orig": "S0E6 - SailGP: Racing on the Edge",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vse najnovejše novice, najbolj zanimive zgodbe, poudarki in rezultati iz SailGP, vznemirljivega mednarodnega jadralnega tekmovanja, v katerem se ekipe skozi sezono več velikih nagrad po svetu med seboj pomerijo. Ekipe uporabljajo enake visokozmogljive foiling katamarane F50.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/3/c/723c7f2f-e29d-4c50-afcd-85c124f108fe.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956427",
-      "friendly_id": "sailgp_jadranje_na_robu_28d63697"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "23:59",
-      "cas_konec": "01:31",
-      "trajanje": "92 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1161956428",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_62a74a56"
-    },
     {
       "datum": "2026-10-07",
       "dan": "Sreda",
@@ -749,312 +348,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
       "show_id": "CUP_IECOM_EUROSPORT_1162041632",
       "friendly_id": "kolesarstvo_m_evropsko_prvenstvo_kronometer_sencur_221_km_dae5b149"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "00:00",
-      "cas_konec": "01:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165540905",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_a11cc3f3"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "01:30",
-      "cas_konec": "03:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Moto (M/Ž): 6h Spa-Francorchamps, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2,",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/d/c/afdc4d5f-ee98-4cfe-b17e-782e17115af8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165540908",
-      "friendly_id": "moto_m_z_6h_spafrancorchamps_2026_7774372a"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165540906",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_c08cce7a"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Kolesarstvo (M/Ž): Eneco Tour, Prolog: Sportcampus Zuiderpark - Zuiderpark-The Hague (3,1 km clm)",
-      "naslov_orig": "Cycling: Eneco Tour: Prologue: The Hague (3.1km, ITT)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/09/d/b/09db16c5-a234-4276-a56f-2135ec598f34.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165540900",
-      "friendly_id": "kolesarstvo_m_z_eneco_tour_prolog_sportcampus_zuiderpark__zuiderparkthe_hague_31_km_clm_34c9c133"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "07:00",
-      "cas_konec": "08:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
-      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165540907",
-      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_8e5587d8"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "08:30",
-      "cas_konec": "10:35",
-      "trajanje": "125 min",
-      "naslov_sl": "Moto (M/Ž): 6h Spa-Francorchamps, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2,",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/d/c/afdc4d5f-ee98-4cfe-b17e-782e17115af8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672304",
-      "friendly_id": "moto_m_z_6h_spafrancorchamps_2026_451cae6a"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "10:35",
-      "cas_konec": "12:30",
-      "trajanje": "115 min",
-      "naslov_sl": "Kolesarstvo (Ž): Eneco Tour, 1. etapa: Ede",
-      "naslov_orig": "Cycling: Eneco Tour: Stage 1: Ede (79.5km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu ženske kolesarske dirke, ki se odvija na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f3/c/2/f3c2af29-2c26-4967-be35-175f3ab49194.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672305",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_z_eneco_tour_1_etapa_ede_011d0055"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "12:30",
-      "cas_konec": "13:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Maraton: Čikaški maraton",
-      "naslov_orig": "Chicago Marathon",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/9/6/61968456-9892-493d-8740-5129d1d90827.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672306",
-      "friendly_id": "maraton_cikaski_maraton_7a354397"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "13:30",
-      "cas_konec": "14:20",
-      "trajanje": "50 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Lombardiji, Bergamo _ Como (239km)",
-      "naslov_orig": "Cycling: Tour of Lombardy: Bergamo - Como (239km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Dirka, imenovana tudi \"klasika odpadlega listja\", se začne v Bergamu in konča na obali jezera Como, obsega pa 252 km, polnih vzponov in spustov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5c/8/d/5c8d1989-0045-40ff-9063-cd717230451c.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672307",
-      "friendly_id": "kolesarstvo_m_dirka_po_lombardiji_bergamo___como_239km_718a15d5"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "14:20",
-      "cas_konec": "16:00",
-      "trajanje": "100 min",
-      "naslov_sl": "Kolesarstvo (M): Eneco Tour, 1. etapa: Ede",
-      "naslov_orig": "Cycling: Eneco Tour: Stage 1: Ede (120km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/85/1/7/8517f47e-414d-4bdb-b919-e7e8a684c496.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672308",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m_eneco_tour_1_etapa_ede_96c6971d"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Benečiji, Dirka: Verona _ Vicenza (176km)",
-      "naslov_orig": "Cycling: Tour of Venice: Men | Verona - Vicenza (176km)",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Dirka po Benečiji (Giro del Veneto) je polklasična cestna kolesarska dirka, ki redno poteka že od leta 1922. Je del UCI Evropske turneje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/31/1/5/3115f822-f874-4d45-a364-cc3803b67a2a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672310",
-      "zivo": true,
-      "friendly_id": "kolesarstvo_m_dirka_po_beneciji_dirka_verona___vicenza_176km_d44adb0b"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "17:00",
-      "cas_konec": "19:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Dirkališčno kolesarstvo: Svetovno prvenstvo: 1. dan",
-      "naslov_orig": "Track Cycling: World Championship: Day 1, Shanghai",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Dirkališčno kolesarstvo je kolesarstvo po nagnjeni progi, pri čemer kolesarji dosegajo izredno visoke hitrosti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/84/b/3/84b3f162-3b71-4fe5-b353-e425a4af188f.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672312",
-      "friendly_id": "dirkaliscno_kolesarstvo_svetovno_prvenstvo_1_dan_ef210924"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Plezanje: Svetovni pokal, Guiyang: Finale, Guiyang",
-      "naslov_orig": "Climbing: World Cup: China: Speed Relays | Final | Guiyang",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b0/3/3/b033b888-36e9-41c0-9f7f-408c753bb41c.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672313",
-      "friendly_id": "plezanje_svetovni_pokal_guiyang_finale_guiyang_5757dfea"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "20:00",
-      "cas_konec": "21:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
-      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672314",
-      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_2917b591"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "21:30",
-      "cas_konec": "22:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E3 - Jadralski duh",
-      "naslov_orig": "S0E3 - The Spirit of Yachting",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Jadranje je poseben šport, taktika in mentalna moč sta pomembnejši od telesne moči. Jadralci morajo vedno razmišljati vnaprej, ker je vsaka napaka lahko usodna. V tej oddaji se bomo odpravili v zakulisje najzanimivejših tekmovanj v svetu jadranja, spoznali bomo jadralce in razkrivali strast, ki jih žene z vetrom naprej.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/9/a/d19a2b6f-9753-4ba6-942e-6b5b60de2aa6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672315"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "22:00",
-      "cas_konec": "00:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Moto (M/Ž): 6h Spa-Francorchamps, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2,",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/d/c/afdc4d5f-ee98-4cfe-b17e-782e17115af8.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1165672316",
-      "friendly_id": "moto_m_z_6h_spafrancorchamps_2026_4fdc5325"
     },
     {
       "datum": "2026-10-07",
@@ -4743,6 +4036,599 @@
       "show_id": "CUP_IECOM_EUROSPORT_1168099043",
       "zivo": true,
       "friendly_id": "snooker_odprto_prvenstvo_severne_irske_2_krog_46665817"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "00:23",
+      "cas_konec": "01:33",
+      "trajanje": "70 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
+      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165540905",
+      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_78deba5d"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "01:33",
+      "cas_konec": "03:02",
+      "trajanje": "89 min",
+      "naslov_sl": "Moto (M/Ž): 6h Spa-Francorchamps, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/d/c/afdc4d5f-ee98-4cfe-b17e-782e17115af8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165540908",
+      "friendly_id": "moto_m_z_6h_spafrancorchamps_2026_64bf4f7b"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "03:02",
+      "cas_konec": "05:02",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
+      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165540906",
+      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_f930e247"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "05:02",
+      "cas_konec": "06:59",
+      "trajanje": "117 min",
+      "naslov_sl": "Kolesarstvo (M/Ž): Eneco Tour, Prolog: Sportcampus Zuiderpark - Zuiderpark-The Hague (3,1 km)",
+      "naslov_orig": "Cycling: Eneco Tour: Prologue: The Hague (3.1km, ITT)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/09/d/b/09db16c5-a234-4276-a56f-2135ec598f34.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165540900",
+      "friendly_id": "kolesarstvo_m_z_eneco_tour_prolog_sportcampus_zuiderpark__zuiderparkthe_hague_31_km_aa987005"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "06:59",
+      "cas_konec": "08:34",
+      "trajanje": "95 min",
+      "naslov_sl": "Snooker (M): Odprto prvenstvo Wuhana, Finale, 2026",
+      "naslov_orig": "Snooker: Wuhan Open: Final, Zhao Xintong - Chang Bingyu",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Odprtega prvenstva Wuhana, profesionalnega turnirja v snookerju, ki poteka v kitajskem Wuhanu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/5/0/2c5095bb-89ec-4c03-a6ee-c3293ba0e716.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165540907",
+      "friendly_id": "snooker_m_odprto_prvenstvo_wuhana_finale_2026_7e6d8bf7"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "08:34",
+      "cas_konec": "10:35",
+      "trajanje": "121 min",
+      "naslov_sl": "Moto (M/Ž): 6h Spa-Francorchamps, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/d/c/afdc4d5f-ee98-4cfe-b17e-782e17115af8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672304",
+      "friendly_id": "moto_m_z_6h_spafrancorchamps_2026_2eec2f1a"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "10:35",
+      "cas_konec": "12:30",
+      "trajanje": "115 min",
+      "naslov_sl": "Kolesarstvo (Ž): Eneco Tour, 1. etapa: Ede",
+      "naslov_orig": "Cycling: Eneco Tour: Stage 1: Ede (79.5km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu ženske kolesarske dirke, ki se odvija na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/d/7/9fd7d0ff-8bc5-414a-89f5-d9d40fea63c0.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672305",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_z_eneco_tour_1_etapa_ede_011d0055"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "12:30",
+      "cas_konec": "13:32",
+      "trajanje": "62 min",
+      "naslov_sl": "Maraton: Čikaški maraton",
+      "naslov_orig": "Chicago Marathon",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/9/6/61968456-9892-493d-8740-5129d1d90827.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672306",
+      "friendly_id": "maraton_cikaski_maraton_7a354397"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "13:32",
+      "cas_konec": "14:20",
+      "trajanje": "48 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Lombardiji, Bergamo - Como (239km)",
+      "naslov_orig": "Cycling: Tour of Lombardy: Bergamo - Como (239km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dirka, imenovana tudi \"klasika odpadlega listja\", se začne v Bergamu in konča na obali jezera Como, obsega pa 252 km, polnih vzponov in spustov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/c/c/d4cc0aa7-c4f1-4835-862e-009a4231db1a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672307",
+      "friendly_id": "kolesarstvo_m_dirka_po_lombardiji_bergamo__como_239km_c4b29e77"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "14:20",
+      "cas_konec": "16:00",
+      "trajanje": "100 min",
+      "naslov_sl": "Kolesarstvo (M): Eneco Tour, 1. etapa: Ede",
+      "naslov_orig": "Cycling: Eneco Tour: Stage 1: Ede (120km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/f/4/27f48607-b62f-4c52-870c-e3cbfc454d4e.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672308",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m_eneco_tour_1_etapa_ede_96c6971d"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "16:00",
+      "cas_konec": "16:45",
+      "trajanje": "45 min",
+      "naslov_sl": "Kolesarstvo (M): Dirka po Benečiji, Dirka: Verona - Vicenza (176km)",
+      "naslov_orig": "Cycling: Tour of Venice: Men | Verona - Vicenza (176km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Dirka po Benečiji (Giro del Veneto) je polklasična cestna kolesarska dirka, ki redno poteka že od leta 1922. Je del UCI Evropske turneje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/96/1/c/961c0a6d-5c18-4341-a124-7286bbd39c0a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672310",
+      "zivo": true,
+      "friendly_id": "kolesarstvo_m_dirka_po_beneciji_dirka_verona__vicenza_176km_d36998dd"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "16:45",
+      "cas_konec": "18:15",
+      "trajanje": "90 min",
+      "naslov_sl": "Dirkališčno kolesarstvo: Svetovno prvenstvo: 1. dan",
+      "naslov_orig": "Track Cycling: World Championship: Day 1, Shanghai",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Dirkališčno kolesarstvo je kolesarstvo po nagnjeni progi, pri čemer kolesarji dosegajo izredno visoke hitrosti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/b/0/1cb08bb2-acf0-45b2-986c-6962be773440.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672312",
+      "friendly_id": "dirkaliscno_kolesarstvo_svetovno_prvenstvo_1_dan_e03d7fc3"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "18:15",
+      "cas_konec": "19:00",
+      "trajanje": "45 min",
+      "naslov_sl": "Kolesarstvo (Ž): Eneco Tour, 1. etapa: Ede",
+      "naslov_orig": "Cycling: Eneco Tour: Stage 1: Ede (79.5km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu ženske kolesarske dirke, ki se odvija na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/d/7/9fd7d0ff-8bc5-414a-89f5-d9d40fea63c0.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168308231",
+      "friendly_id": "kolesarstvo_z_eneco_tour_1_etapa_ede_1e3f62ff"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Plezanje: Svetovni pokal, Guiyang: Finale",
+      "naslov_orig": "Climbing: World Cup: China: Speed Relays | Final | Guiyang",
+      "kategorija": "Šport",
+      "zanr": [
+        "plezanje"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b0/3/3/b033b888-36e9-41c0-9f7f-408c753bb41c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672313",
+      "friendly_id": "plezanje_svetovni_pokal_guiyang_finale_a496ed11"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "20:00",
+      "cas_konec": "21:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
+      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672314",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_2917b591"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "21:30",
+      "cas_konec": "22:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E3 - Jadralski duh",
+      "naslov_orig": "S0E3 - The Spirit of Yachting",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Jadranje je poseben šport, taktika in mentalna moč sta pomembnejši od telesne moči. Jadralci morajo vedno razmišljati vnaprej, ker je vsaka napaka lahko usodna. V tej oddaji se bomo odpravili v zakulisje najzanimivejših tekmovanj v svetu jadranja, spoznali bomo jadralce in razkrivali strast, ki jih žene z vetrom naprej.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/9/a/d19a2b6f-9753-4ba6-942e-6b5b60de2aa6.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672315"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "22:00",
+      "cas_konec": "00:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Moto (M/Ž): 6h Spa-Francorchamps, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Spa-Francorchamps: Round 2,",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "6-urna Spa-Francorchamps je vzdržljivostna dirka za športne avtomobile, ki v tej obliki poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/af/d/c/afdc4d5f-ee98-4cfe-b17e-782e17115af8.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1165672316",
+      "friendly_id": "moto_m_z_6h_spafrancorchamps_2026_4fdc5325"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "00:00",
+      "cas_konec": "01:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Severne Irske: 1. krog",
+      "naslov_orig": "Snooker: Northern Ireland Open: Round 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Severnem Irskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/b/4/adb47581-936b-4798-ae24-2b6be23cab3c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168099044",
+      "friendly_id": "snooker_odprto_prvenstvo_severne_irske_1_krog_b4657ab7"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "01:30",
+      "cas_konec": "02:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
+      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168099045",
+      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_bb55a512"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "02:30",
+      "cas_konec": "04:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Severne Irske: 2. krog",
+      "naslov_orig": "Snooker: Northern Ireland Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Severnem Irskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/b/4/adb47581-936b-4798-ae24-2b6be23cab3c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168099046",
+      "friendly_id": "snooker_odprto_prvenstvo_severne_irske_2_krog_57eb16af"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "04:00",
+      "cas_konec": "05:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
+      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168099047",
+      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_634eb69f"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Severne Irske: 2. krog",
+      "naslov_orig": "Snooker: Northern Ireland Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Severnem Irskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/b/4/adb47581-936b-4798-ae24-2b6be23cab3c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168099048",
+      "friendly_id": "snooker_odprto_prvenstvo_severne_irske_2_krog_75321a68"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "07:00",
+      "cas_konec": "08:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
+      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168099049",
+      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_56d33bc7"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "08:30",
+      "cas_konec": "10:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Severne Irske: 2. krog",
+      "naslov_orig": "Snooker: Northern Ireland Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Severnem Irskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/b/4/adb47581-936b-4798-ae24-2b6be23cab3c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979842",
+      "friendly_id": "snooker_odprto_prvenstvo_severne_irske_2_krog_f507ba23"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "10:30",
+      "cas_konec": "12:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
+      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979843",
+      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_8b84344e"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Avtomobilske dirke: Svetovno vzdržljivostno prvenstvo: Pregled: 6 ur Barcelone",
+      "naslov_orig": "Endurance Car Racing World Championship: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/be/0/c/be0c955a-c9c2-40ae-93bc-956b5ab8422a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979844",
+      "friendly_id": "avtomobilske_dirke_svetovno_vzdrzljivostno_prvenstvo_pregled_6_ur_barcelone_83f87ef7"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "FIA Svetovno prvenstvo v Rally-Raidu: Pregled: 4. krog, Maroko",
+      "naslov_orig": "FIA World Rally-Raid Championship",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a1/0/5/a1050d64-e64e-4e33-adb8-94cdd8db2ea1.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979845",
+      "friendly_id": "fia_svetovno_prvenstvo_v_rallyraidu_pregled_4_krog_maroko_11656e90"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "14:00",
+      "cas_konec": "18:00",
+      "trajanje": "240 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Severne Irske: 2. krog",
+      "naslov_orig": "Snooker: Northern Ireland Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Severnem Irskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/b/4/adb47581-936b-4798-ae24-2b6be23cab3c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979846",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_severne_irske_2_krog_f0145e74"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo (Ž): Evropsko prvenstvo, Cestna dirka (130 km)",
+      "naslov_orig": "Cycling: European Road Championships: Women's Elite Road Race | Ljubljana (130km)",
+      "kategorija": "Šport",
+      "zanr": [
+        "kolesarstvo"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/6/c/f66c1058-56d7-4802-9a6b-2723bb56ed01.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979847",
+      "friendly_id": "kolesarstvo_z_evropsko_prvenstvo_cestna_dirka_130_km_b0d814f4"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Severne Irske: 2. krog",
+      "naslov_orig": "Snooker: Northern Ireland Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Severnem Irskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/b/4/adb47581-936b-4798-ae24-2b6be23cab3c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979848",
+      "friendly_id": "snooker_odprto_prvenstvo_severne_irske_2_krog_87a30b75"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "20:00",
+      "cas_konec": "00:00",
+      "trajanje": "240 min",
+      "naslov_sl": "Snooker: Odprto prvenstvo Severne Irske: 2. krog",
+      "naslov_orig": "Snooker: Northern Ireland Open: Round 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovanje v snookerju na Severnem Irskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/b/4/adb47581-936b-4798-ae24-2b6be23cab3c.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1168979849",
+      "zivo": true,
+      "friendly_id": "snooker_odprto_prvenstvo_severne_irske_2_krog_c7019982"
     }
   ]
 }

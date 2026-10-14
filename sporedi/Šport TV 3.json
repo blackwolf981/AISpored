@@ -1,370 +1,10 @@
 {
   "kanal": "Šport TV 3",
   "ch_ext_id": "sport-tv-3",
-  "posodobljeno": "2026-10-13 12:26",
-  "od": "2026-10-06",
-  "do": "2026-10-20",
+  "posodobljeno": "2026-10-14 12:26",
+  "od": "2026-10-07",
+  "do": "2026-10-21",
   "oddaje": [
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): 2. dirka, Pokal narodov 2026",
-      "naslov_orig": "Motokros: Pokal narodov: 2. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Motokros narodov je ekipno tekmovanje v motokrosu, ki poteka enkrat letno na različnih lokacijah. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/3/0/b3307f3c-b502-4814-b36f-d54aa6d48b4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1166879070",
-      "friendly_id": "motokros_m_2_dirka_pokal_narodov_2026_1fbd4b70"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): 3. dirka, Pokal narodov 2026",
-      "naslov_orig": "Motokros: Pokal narodov: 3. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Motokros narodov je ekipno tekmovanje v motokrosu, ki poteka enkrat letno na različnih lokacijah. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/3/0/b3307f3c-b502-4814-b36f-d54aa6d48b4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1166879071",
-      "friendly_id": "motokros_m_3_dirka_pokal_narodov_2026_a0f584ea"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "02:00",
-      "cas_konec": "02:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E1 - Ekstremni športi: Pure Action",
-      "naslov_orig": "S0E1 - Pure Action",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164449599",
-      "friendly_id": "ekstremni_sporti_pure_action_2b4a7afc"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "02:30",
-      "cas_konec": "03:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Jadranje: Nastro Rosa Tour",
-      "naslov_orig": "Giro d'Italia a Vela",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/4/0/4940ab34-3f26-454e-8e0f-7198d74819f2.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1166879072"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Hokej (M): Jesenice _ KAC Future Team, Alpska liga 2026/27",
-      "naslov_orig": "Hokej na ledu: Alpska liga: Jesenice - KAC Future Team",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Alpska hokejska liga, v kateri igrajo avstrijske, italijanske in slovenske ekipe.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/4/2/d442ab98-bf84-447e-80e1-59ccc1e921b5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164449601",
-      "friendly_id": "hokej_m_jesenice___kac_future_team_alpska_liga_2026_27_3e9411ba"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Burgos - Cedevita, Eurocup 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: Evropokal: Burgos - Cedevita Olimpija",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164450624",
-      "friendly_id": "kosarka_m_burgos__cedevita_eurocup_2026_2027_skupina_a_149a1bec"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "07:00",
-      "cas_konec": "07:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E1 - Ekstremni športi: Pure Action",
-      "naslov_orig": "S0E1 - Pure Action",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164450625",
-      "friendly_id": "ekstremni_sporti_pure_action_2171d1be"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "07:30",
-      "cas_konec": "08:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Jadranje: Nastro Rosa Tour",
-      "naslov_orig": "Giro d'Italia a Vela",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/4/0/4940ab34-3f26-454e-8e0f-7198d74819f2.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1167329391"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "08:00",
-      "cas_konec": "09:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Langkawiju, 6. etapa: Pandan - Rembau (121,3 km)",
-      "naslov_orig": "Kolesarstvo (M): Dirka po Langkawiju: 6. etapa",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/e/869ef438-4763-474c-be43-9631ba41f152.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1167329392",
-      "friendly_id": "kolesarstvo_m_dirka_po_langkawiju_6_etapa_pandan__rembau_1213_km_7f437a53"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "09:30",
-      "cas_konec": "11:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Langkawiju, 7. etapa: Melaka - Batu Pahat",
-      "naslov_orig": "Kolesarstvo (M): Dirka po Langkawiju: 7. etapa",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/e/869ef438-4763-474c-be43-9631ba41f152.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1167329393",
-      "friendly_id": "kolesarstvo_m_dirka_po_langkawiju_7_etapa_melaka__batu_pahat_849b91ec"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "11:00",
-      "cas_konec": "13:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): India - Brazilija, Nacionalne prijateljske tekme  2026",
-      "naslov_orig": "Nogomet: Nacionalne prijateljske tekme: Indija - Brazilija",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Mednarodne prijateljske nogometne tekme so priložnost za zbiranje ekip in uigravanje taktičnih idej.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d9/c/b/d9cb025b-8df7-48c6-b6b8-07ff04286bb8.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164848238",
-      "friendly_id": "nogomet_m_india__brazilija_nacionalne_prijateljske_tekme__2026_f96d016c"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "13:00",
-      "cas_konec": "14:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Kolesarstvo (M): Dirka po Langkawiju, 8. etapa: Muar - Putrajaya",
-      "naslov_orig": "Kolesarstvo (M): Dirka po Langkawiju: 8. etapa",
-      "kategorija": "Šport",
-      "zanr": [
-        "kolesarstvo"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/9/e/869ef438-4763-474c-be43-9631ba41f152.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1167329394",
-      "friendly_id": "kolesarstvo_m_dirka_po_langkawiju_8_etapa_muar__putrajaya_7c574e77"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "14:30",
-      "cas_konec": "15:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): 1. dirka, Pokal narodov 2026",
-      "naslov_orig": "Motokros: Pokal narodov: 1. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Motokros narodov je ekipno tekmovanje v motokrosu, ki poteka enkrat letno na različnih lokacijah. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/3/0/b3307f3c-b502-4814-b36f-d54aa6d48b4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1167329395",
-      "friendly_id": "motokros_m_1_dirka_pokal_narodov_2026_9d515a2d"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "15:30",
-      "cas_konec": "16:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): 2. dirka, Pokal narodov 2026",
-      "naslov_orig": "Motokros: Pokal narodov: 2. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Motokros narodov je ekipno tekmovanje v motokrosu, ki poteka enkrat letno na različnih lokacijah. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/3/0/b3307f3c-b502-4814-b36f-d54aa6d48b4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1167329396",
-      "friendly_id": "motokros_m_2_dirka_pokal_narodov_2026_0a1aa231"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "16:30",
-      "cas_konec": "17:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros (M): 3. dirka, Pokal narodov 2026",
-      "naslov_orig": "Motokros: Pokal narodov: 3. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Motokros narodov je ekipno tekmovanje v motokrosu, ki poteka enkrat letno na različnih lokacijah. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/3/0/b3307f3c-b502-4814-b36f-d54aa6d48b4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1167329397",
-      "friendly_id": "motokros_m_3_dirka_pokal_narodov_2026_7d1e685b"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "17:30",
-      "cas_konec": "19:25",
-      "trajanje": "115 min",
-      "naslov_sl": "Hokej (M): Jesenice _ KAC Future Team, Alpska liga 2026/27",
-      "naslov_orig": "Hokej na ledu: Alpska liga: Jesenice - KAC Future Team",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Alpska hokejska liga, v kateri igrajo avstrijske, italijanske in slovenske ekipe.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/4/2/d442ab98-bf84-447e-80e1-59ccc1e921b5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164450634",
-      "friendly_id": "hokej_m_jesenice___kac_future_team_alpska_liga_2026_27_f6189609"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "19:25",
-      "cas_konec": "21:30",
-      "trajanje": "125 min",
-      "naslov_sl": "Košarka (M): Bosna S. - PAOK, Eurocup 2026/2027, Skupina D",
-      "naslov_orig": "Košarka: Evropokal: Bosna - Paok",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164450635",
-      "zivo": true,
-      "friendly_id": "kosarka_m_bosna_s__paok_eurocup_2026_2027_skupina_d_b8d16b5d"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "21:30",
-      "cas_konec": "23:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): India - Urugvaj, Nacionalne prijateljske tekme  2026, Prijateljska tekma",
-      "naslov_orig": "Nogomet: Nacionalne prijateljske tekme: Indija - Urugvaj",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Mednarodne prijateljske nogometne tekme so priložnost za zbiranje ekip in uigravanje taktičnih idej.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d9/c/b/d9cb025b-8df7-48c6-b6b8-07ff04286bb8.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164848240",
-      "friendly_id": "nogomet_m_india__urugvaj_nacionalne_prijateljske_tekme__2026_prijateljska_tekma_575dc3e3"
-    },
-    {
-      "datum": "2026-10-06",
-      "dan": "Torek",
-      "cas": "23:30",
-      "cas_konec": "01:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Cedevita - Jerusalem, Eurocup 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: Evropokal: Cedevita Olimpija - Hapoel Jerusalem",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1164450637",
-      "friendly_id": "kosarka_m_cedevita__jerusalem_eurocup_2026_2027_skupina_a_18610150"
-    },
     {
       "datum": "2026-10-07",
       "dan": "Sreda",
@@ -669,387 +309,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
       "show_id": "CUP_IECOM_SPORTTV3_1164451576",
       "friendly_id": "kosarka_m_botevgrad__bahcesehir_eurocup_2026_2027_skupina_d_7086d6a6"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "01:00",
-      "cas_konec": "03:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Nürnberg - Wolfsburg, 2. Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: 2. Bundesliga: Nürnberg - Wolfsburg",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1166123951",
-      "friendly_id": "nogomet_m_nürnberg__wolfsburg_2_bundesliga_2026_2027_4d408ae3"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Osnabrueck - Dynamo Dresden, 2. Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: 2. Bundesliga: Osnabrück - Dynamo Dresden",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1166123944",
-      "friendly_id": "nogomet_m_osnabrueck__dynamo_dresden_2_bundesliga_2026_2027_7e6b0d8a"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "05:00",
-      "cas_konec": "06:45",
-      "trajanje": "105 min",
-      "naslov_sl": "Košarka (M): Lietkabelis - PAOK, Eurocup 2026/2027, Skupina D",
-      "naslov_orig": "Košarka: Evropokal: Lietkabelis - Paok",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1166124712",
-      "friendly_id": "kosarka_m_lietkabelis__paok_eurocup_2026_2027_skupina_d_e812f828"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "06:45",
-      "cas_konec": "07:00",
-      "trajanje": "15 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610140445_202610140500"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610140500_202610140600"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "08:00",
-      "cas_konec": "09:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610140600_202610140700"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610140700_202610140800"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610140800_202610140900"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610140900_202610141000"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141000_202610141100"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141100_202610141200"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141200_202610141300"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141300_202610141400"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141400_202610141500"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141500_202610141600"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141600_202610141700"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141700_202610141800"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141800_202610141900"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610141900_202610142000"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610142000_202610142100"
-    },
-    {
-      "datum": "2026-10-14",
-      "dan": "Sreda",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_SPORTTV3_202610142100_202610142200"
     },
     {
       "datum": "2026-10-08",
@@ -3926,6 +3185,674 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
       "show_id": "CUP_FAKE_SPORTTV3_202610202100_202610202200"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "01:00",
+      "cas_konec": "03:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Nürnberg - Wolfsburg, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Nürnberg - Wolfsburg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166123951",
+      "friendly_id": "nogomet_m_nürnberg__wolfsburg_2_bundesliga_2026_2027_4d408ae3"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Osnabrueck - Dynamo Dresden, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Osnabrück - Dynamo Dresden",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166123944",
+      "friendly_id": "nogomet_m_osnabrueck__dynamo_dresden_2_bundesliga_2026_2027_7e6b0d8a"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "05:00",
+      "cas_konec": "06:45",
+      "trajanje": "105 min",
+      "naslov_sl": "Košarka (M): Lietkabelis - PAOK, Eurocup 2026/2027, Skupina D",
+      "naslov_orig": "Košarka: Evropokal: Lietkabelis - Paok",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124712",
+      "friendly_id": "kosarka_m_lietkabelis__paok_eurocup_2026_2027_skupina_d_e812f828"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "06:45",
+      "cas_konec": "07:00",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E5 - Futsal magazin",
+      "naslov_orig": "S0E5 - Futsal magazin",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/59/9/2/5992ce55-ec56-407f-a543-0a89c0e3f7cd.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124706",
+      "friendly_id": "futsal_magazin_9be0eed1"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "07:00",
+      "cas_konec": "09:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Ajax - Nijmegen, Nizozemska liga 2026/2027",
+      "naslov_orig": "Nogomet: Eredivisie: Ajax - NEC",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124715",
+      "friendly_id": "nogomet_m_ajax__nijmegen_nizozemska_liga_2026_2027_f60656f4"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "09:00",
+      "cas_konec": "11:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej (M): Jesenice - Cortina , Alpska liga 2026/2027",
+      "naslov_orig": "Hokej na ledu: Alpska liga: Jesenice - Cortina",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Alpska hokejska liga, v kateri igrajo avstrijske, italijanske in slovenske ekipe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/4/2/d442ab98-bf84-447e-80e1-59ccc1e921b5.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124704",
+      "friendly_id": "hokej_m_jesenice__cortina__alpska_liga_2026_2027_6a306c49"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "11:00",
+      "cas_konec": "13:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Hertha B. - G. Fürth, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Hertha - Greuther Fürth",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124708",
+      "friendly_id": "nogomet_m_hertha_b__g_fürth_2_bundesliga_2026_2027_bf2d93b0"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "13:00",
+      "cas_konec": "15:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Neptunas - JL Bourg, Eurocup 2026/2027, Skupina C",
+      "naslov_orig": "Košarka: Evropokal: Klaipeda - Bourg-en-Bresse",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124714",
+      "friendly_id": "kosarka_m_neptunas__jl_bourg_eurocup_2026_2027_skupina_c_6819483e"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Lov se nadaljuje",
+      "naslov_orig": "The Chase Continues",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0a/a/a/0aaa233f-df2e-434c-9d15-11d575e698ae.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124707"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "16:00",
+      "cas_konec": "16:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E2 - Ekstremni športi: Pure Action",
+      "naslov_orig": "S0E2 - Pure Action",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124710",
+      "friendly_id": "ekstremni_sporti_pure_action_7c26564c"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "16:30",
+      "cas_konec": "18:25",
+      "trajanje": "115 min",
+      "naslov_sl": "Hokej (M): Olimpija - FTC, ICE Hockey League 2026/2027",
+      "naslov_orig": "Hokej na ledu (M): ICE liga: Olimpija - FTC",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Madžarski FTC bo tekmec po meri za nedeljsko hokejsko popoldne v Tivoliju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124716",
+      "friendly_id": "hokej_m_olimpija__ftc_ice_hockey_league_2026_2027_910a0c4b"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "18:25",
+      "cas_konec": "20:25",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Ulm - Bosna S., Eurocup 2026/2027, Skupina D",
+      "naslov_orig": "Košarka: Evropokal: Ulm - Bosna",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124711",
+      "zivo": true,
+      "friendly_id": "kosarka_m_ulm__bosna_s_eurocup_2026_2027_skupina_d_8567253e"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "20:25",
+      "cas_konec": "22:30",
+      "trajanje": "125 min",
+      "naslov_sl": "Košarka (M): Burgos - Jerusalem, Eurocup 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: Evropokal: Burgos - Hapoel Jerusalem",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124709",
+      "zivo": true,
+      "friendly_id": "kosarka_m_burgos__jerusalem_eurocup_2026_2027_skupina_a_7e7032a8"
+    },
+    {
+      "datum": "2026-10-14",
+      "dan": "Sreda",
+      "cas": "22:30",
+      "cas_konec": "00:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Košarka (M): KK Zlatorog - Ilirija, Liga OTP banka 2026/2027",
+      "naslov_orig": "Košarka (M): 1. SKL: Laško - Ilirija",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1166124705",
+      "friendly_id": "kosarka_m_kk_zlatorog__ilirija_liga_otp_banka_2026_2027_86d1ae88"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "22:30",
+      "cas_konec": "00:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Košarka (M): Rogaška - Krka, Liga OTP banka 2026/2027",
+      "naslov_orig": "Košarka (M): 1. SKL: Rogaška - Krka",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1168820272",
+      "friendly_id": "kosarka_m_rogaska__krka_liga_otp_banka_2026_2027_f21f6945"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S0E3 - Nogomet: UEFA Magazin",
+      "naslov_orig": "S0E3 - Nogomet: UEFA Magazin",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/7/d/667d778a-de6c-4a24-a27b-2a22545fd82a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1168820273",
+      "friendly_id": "nogomet_uefa_magazin_5720d500"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "01:00",
+      "cas_konec": "03:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej (M): Jesenice - Salzburg Juniors, Alpska liga 2026/2027",
+      "naslov_orig": "Hokej na ledu: Alpska liga: Jesenice - Salzburg Juniors",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Alpska hokejska liga, v kateri igrajo avstrijske, italijanske in slovenske ekipe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/4/2/d442ab98-bf84-447e-80e1-59ccc1e921b5.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1168820274",
+      "friendly_id": "hokej_m_jesenice__salzburg_juniors_alpska_liga_2026_2027_6b40941d"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): G. Fürth - E Braunschweig, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Greuther Fürth - Eintracht Braunschweig",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1168820275",
+      "friendly_id": "nogomet_m_g_fürth__e_braunschweig_2_bundesliga_2026_2027_9a4b08cb"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): H. Kiel - Hertha B., 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Holstein Kiel - Hertha",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1168821427",
+      "friendly_id": "nogomet_m_h_kiel__hertha_b_2_bundesliga_2026_2027_c24d8469"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610210500_202610210600"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "08:00",
+      "cas_konec": "09:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610210600_202610210700"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "09:00",
+      "cas_konec": "10:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610210700_202610210800"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610210800_202610210900"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610210900_202610211000"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211000_202610211100"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211100_202610211200"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211200_202610211300"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211300_202610211400"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211400_202610211500"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211500_202610211600"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211600_202610211700"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211700_202610211800"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211800_202610211900"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610211900_202610212000"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610212000_202610212100"
+    },
+    {
+      "datum": "2026-10-21",
+      "dan": "Sreda",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Neznana oddaja",
+      "naslov_orig": "Neznana oddaja",
+      "kategorija": "",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_FAKE_SPORTTV3_202610212100_202610212200"
     }
   ]
 }
