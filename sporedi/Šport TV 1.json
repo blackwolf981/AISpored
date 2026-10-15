@@ -1,277 +1,10 @@
 {
   "kanal": "Šport TV 1",
   "ch_ext_id": "sport-tv-1",
-  "posodobljeno": "2026-10-14 12:26",
-  "od": "2026-10-07",
-  "do": "2026-10-21",
+  "posodobljeno": "2026-10-15 12:26",
+  "od": "2026-10-08",
+  "do": "2026-10-22",
   "oddaje": [
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "01:00",
-      "cas_konec": "03:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Hokej (M): Olimpija - Vorarlberg, ICE Hockey League 2026/2027",
-      "naslov_orig": "Hokej na ledu (M): ICE liga: Olimpija - Vorarlberg",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162322081",
-      "friendly_id": "hokej_m_olimpija__vorarlberg_ice_hockey_league_2026_2027_97ea8789"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Bosna S. - PAOK, Eurocup 2026/2027, Skupina D",
-      "naslov_orig": "Košarka: Evropokal: Bosna - Paok",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162322093",
-      "friendly_id": "kosarka_m_bosna_s__paok_eurocup_2026_2027_skupina_d_6812f19c"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "05:00",
-      "cas_konec": "05:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E1 - Ekstremni športi: Pure Action",
-      "naslov_orig": "S0E1 - Pure Action",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324067",
-      "friendly_id": "ekstremni_sporti_pure_action_377edfe0"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "05:30",
-      "cas_konec": "07:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Košarka (M): Gorica - Domžale, Liga OTP banka 2026/2027",
-      "naslov_orig": "Košarka (M): 1. SKL: Gorica - Kansai Helios Domžale",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324068",
-      "friendly_id": "kosarka_m_gorica__domzale_liga_otp_banka_2026_2027_66f07a49"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "07:00",
-      "cas_konec": "09:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Budućnost - Napoli, Eurocup 2026/2027, Skupina C",
-      "naslov_orig": "Košarka: Evropokal: Budućnost - Napoli",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324069",
-      "friendly_id": "kosarka_m_buducnost__napoli_eurocup_2026_2027_skupina_c_815053f6"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "09:00",
-      "cas_konec": "11:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): India - Urugvaj, Nacionalne prijateljske tekme  2026, Prijateljska tekma",
-      "naslov_orig": "Nogomet: Nacionalne prijateljske tekme: Indija - Urugvaj",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Mednarodne prijateljske nogometne tekme so priložnost za zbiranje ekip in uigravanje taktičnih idej.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d9/c/b/d9cb025b-8df7-48c6-b6b8-07ff04286bb8.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1164844846",
-      "friendly_id": "nogomet_m_india__urugvaj_nacionalne_prijateljske_tekme__2026_prijateljska_tekma_60371d34"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros: Pokal narodov: 2. dirka",
-      "naslov_orig": "Motokros: Pokal narodov: 2. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Motokros narodov je ekipno tekmovanje v motokrosu, ki poteka enkrat letno na različnih lokacijah. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/3/0/b3307f3c-b502-4814-b36f-d54aa6d48b4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1167655034",
-      "friendly_id": "motokros_pokal_narodov_2_dirka_75379345"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Motokros: Pokal narodov: 3. dirka",
-      "naslov_orig": "Motokros: Pokal narodov: 3. dirka",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Motokros narodov je ekipno tekmovanje v motokrosu, ki poteka enkrat letno na različnih lokacijah. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b3/3/0/b3307f3c-b502-4814-b36f-d54aa6d48b4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1167655035",
-      "friendly_id": "motokros_pokal_narodov_3_dirka_9e84a3e5"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "13:00",
-      "cas_konec": "15:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Bosna S. - PAOK, Eurocup 2026/2027, Skupina D",
-      "naslov_orig": "Košarka: Evropokal: Bosna - Paok",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324074",
-      "friendly_id": "kosarka_m_bosna_s__paok_eurocup_2026_2027_skupina_d_cdb30f87"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "15:00",
-      "cas_konec": "17:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Pod prečko",
-      "naslov_orig": "Pod prečko",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Edina nogometna oddaja v Sloveniji Pod prečko tudi tokrat zaključuje ponedeljkov športni program.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0c/e/5/0ce52484-7405-4319-9001-7b8e81863152.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1167655036",
-      "friendly_id": "pod_precko_152c99a7"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "17:00",
-      "cas_konec": "18:55",
-      "trajanje": "115 min",
-      "naslov_sl": "Košarka (M): Cedevita - Jerusalem, Eurocup 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: Evropokal: Cedevita Olimpija - Hapoel Jerusalem",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324077",
-      "friendly_id": "kosarka_m_cedevita__jerusalem_eurocup_2026_2027_skupina_a_301db6a2"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "18:55",
-      "cas_konec": "21:00",
-      "trajanje": "125 min",
-      "naslov_sl": "Kvalifikacije za Futsal EP, ženske: Italija - Slovenija",
-      "naslov_orig": "Kvalifikacije za Futsal EP, ženske: Italija - Slovenija",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/8/8/9c886bf9-706e-4f7f-8067-cd46f973330d.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324079",
-      "zivo": true,
-      "friendly_id": "kvalifikacije_za_futsal_ep_zenske_italija__slovenija_e51edbe6"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "21:00",
-      "cas_konec": "23:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Hokej (M): Olimpija - Vorarlberg, ICE Hockey League 2026/2027",
-      "naslov_orig": "Hokej na ledu (M): ICE liga: Olimpija - Vorarlberg",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324081",
-      "friendly_id": "hokej_m_olimpija__vorarlberg_ice_hockey_league_2026_2027_ae5c5f51"
-    },
-    {
-      "datum": "2026-10-07",
-      "dan": "Sreda",
-      "cas": "23:00",
-      "cas_konec": "01:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Roma B. - Lietkabelis, Eurocup 2026/2027, Skupina D",
-      "naslov_orig": "Košarka: Evropokal: Roma Basketball - Lietkabelis",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1162324083",
-      "friendly_id": "kosarka_m_roma_b__lietkabelis_eurocup_2026_2027_skupina_d_4418a352"
-    },
     {
       "datum": "2026-10-08",
       "dan": "Četrtek",
@@ -576,331 +309,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/2/7/d827e4c5-ee18-438e-a2a8-4e6769706704.jpg",
       "show_id": "CUP_IECOM_SPORTTV_1162325103",
       "friendly_id": "nogomet_z_radomlje__mura_nona_1_sznl_2026_2027_393472d7"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "01:00",
-      "cas_konec": "03:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Venezia - Turk Telekom, Eurocup 2026/2027, Skupina B",
-      "naslov_orig": "Košarka: Evropokal: Reyer Venezia - Ankara",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166108599",
-      "friendly_id": "kosarka_m_venezia__turk_telekom_eurocup_2026_2027_skupina_b_1568614a"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Freiburg - Schalke 04, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Freiburg - Schalke",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166108614",
-      "friendly_id": "nogomet_m_freiburg__schalke_04_bundesliga_2026_2027_6db81a18"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Mainz - B. Leverkusen, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Mainz - Bayer Leverkusen",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109497",
-      "friendly_id": "nogomet_m_mainz__b_leverkusen_bundesliga_2026_2027_36214d5a"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "07:00",
-      "cas_konec": "09:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Ulm - Bosna S., Eurocup 2026/2027, Skupina D",
-      "naslov_orig": "Košarka: Evropokal: Ulm - Bosna",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109498",
-      "friendly_id": "kosarka_m_ulm__bosna_s_eurocup_2026_2027_skupina_d_8e1d8428"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "09:00",
-      "cas_konec": "11:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Augsburg - B. München, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Augsburg - Bayern München",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109500",
-      "friendly_id": "nogomet_m_augsburg__b_münchen_bundesliga_2026_2027_fbbfa571"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "11:00",
-      "cas_konec": "11:15",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E5 - Futsal magazin",
-      "naslov_orig": "S0E5 - Futsal magazin",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/59/9/2/5992ce55-ec56-407f-a543-0a89c0e3f7cd.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109502",
-      "friendly_id": "futsal_magazin_9005271e"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "11:15",
-      "cas_konec": "11:30",
-      "trajanje": "15 min",
-      "naslov_sl": "Nogomet: Škotska liga: Vrhunci 8. kola",
-      "naslov_orig": "SPFL",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/c/f/a2cfde67-e8e8-42bd-a65c-a771b0426f81.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109501",
-      "friendly_id": "nogomet_skotska_liga_vrhunci_8_kola_0e4ae0c1"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "11:30",
-      "cas_konec": "13:00",
-      "trajanje": "90 min",
-      "naslov_sl": "Košarka (M): KK Zlatorog - Ilirija, Liga OTP banka 2026/2027",
-      "naslov_orig": "Košarka (M): 1. SKL: Laško - Ilirija",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109509",
-      "friendly_id": "kosarka_m_kk_zlatorog__ilirija_liga_otp_banka_2026_2027_8f49afcf"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "13:00",
-      "cas_konec": "15:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Olimpija - Mura, Prva liga Telemach 2026/2027",
-      "naslov_orig": "Nogomet: Prva liga Telemach: Olimpija - Mura",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109503",
-      "friendly_id": "nogomet_m_olimpija__mura_prva_liga_telemach_2026_2027_09d6fa54"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "15:00",
-      "cas_konec": "17:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Tofaš - Budućnost, Eurocup 2026/2027, Skupina C",
-      "naslov_orig": "Košarka: Evropokal: Bursa - Budućnost",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109510",
-      "friendly_id": "kosarka_m_tofas__buducnost_eurocup_2026_2027_skupina_c_92cc5073"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "17:00",
-      "cas_konec": "17:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E3 - Bundesliga: Posebno poročilo",
-      "naslov_orig": "S0E3 - Bundesliga Special Report",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Športna oddaja prinaša najbolj aktualne novice in zanimivosti iz nemške Bundeslige. Prikazujemo posnetke najboljših potez, intervjuje z igralci in pregled tekem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/6/7/1167c6d3-262a-4f35-b16b-d246a767f4ba.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109505",
-      "friendly_id": "bundesliga_posebno_porocilo_532285c8"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "17:30",
-      "cas_konec": "17:45",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E10 - Ženski nogometni magazin",
-      "naslov_orig": "S0E10 - Ženski nogometni magazin",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ženski nogometni magazin je oddaja, ki vam bo približala aktualno klubsko dogajanje z ženskih zelenic, zgodbe iz zakulisja, delovanje in miselnost klubov ter člansko reprezentanco.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/7/2957df50-68f1-4353-8bc6-ec6e085c91fc.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109506",
-      "friendly_id": "zenski_nogometni_magazin_6941eab7"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "17:45",
-      "cas_konec": "18:45",
-      "trajanje": "60 min",
-      "naslov_sl": "Nogomet: Evropska liga: Studio pred Celje - Omonia",
-      "naslov_orig": "Nogomet: Evropska liga: studio pred tekmo",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/59/3/4/5934b468-b9ba-493c-b4ae-f04736312cb0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109513",
-      "zivo": true,
-      "friendly_id": "nogomet_evropska_liga_studio_pred_celje__omonia_ae74caef"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "18:45",
-      "cas_konec": "20:45",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Celje - Omonia Nikosia, UEFA Evropska liga 2026/2027",
-      "naslov_orig": "Nogomet: UEFA Evropska liga: Celje - Omonia",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/3/1/3c31424a-048e-42c8-a149-fe53db53a505.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109511",
-      "zivo": true,
-      "friendly_id": "nogomet_m_celje__omonia_nikosia_uefa_evropska_liga_2026_2027_e7887026"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "20:45",
-      "cas_konec": "21:15",
-      "trajanje": "30 min",
-      "naslov_sl": "Nogomet: Evropska liga: Studio po Celje - Omonia",
-      "naslov_orig": "Nogomet: Evropska liga: studio po tekmi",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/7/2/e872c572-f95d-4eaa-b7fe-454a9dfa855b.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109512",
-      "zivo": true,
-      "friendly_id": "nogomet_evropska_liga_studio_po_celje__omonia_78b0570a"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "21:15",
-      "cas_konec": "23:00",
-      "trajanje": "105 min",
-      "naslov_sl": "Košarka (M): Rigas Z. - Cedevita, Eurocup 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: Evropokal: Riga - Cedevita Olimpija",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/1/4b813abb-4f5c-4404-83ff-0ea4a97bf2f6.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109496",
-      "friendly_id": "kosarka_m_rigas_z__cedevita_eurocup_2026_2027_skupina_a_93b286af"
-    },
-    {
-      "datum": "2026-10-15",
-      "dan": "Četrtek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Lov se nadaljuje",
-      "naslov_orig": "The Chase Continues",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0a/a/a/0aaa233f-df2e-434c-9d15-11d575e698ae.jpg",
-      "show_id": "CUP_IECOM_SPORTTV_1166109508"
     },
     {
       "datum": "2026-10-16",
@@ -4545,6 +3953,658 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
       "show_id": "CUP_IECOM_SPORTTV_1168831340",
       "friendly_id": "hokej_m__salzburg__olimpija_ice_hockey_league_2026_2027_be72f7cb"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "01:00",
+      "cas_konec": "03:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Venezia - Turk Telekom, Eurocup 2026/2027, Skupina B",
+      "naslov_orig": "Košarka: Evropokal: Reyer Venezia - Ankara",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166108599",
+      "friendly_id": "kosarka_m_venezia__turk_telekom_eurocup_2026_2027_skupina_b_1568614a"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Freiburg - Schalke 04, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Freiburg - Schalke",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166108614",
+      "friendly_id": "nogomet_m_freiburg__schalke_04_bundesliga_2026_2027_6db81a18"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Mainz - B. Leverkusen, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Mainz - Bayer Leverkusen",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109497",
+      "friendly_id": "nogomet_m_mainz__b_leverkusen_bundesliga_2026_2027_36214d5a"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "09:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Ulm - Bosna S., Eurocup 2026/2027, Skupina D",
+      "naslov_orig": "Košarka: Evropokal: Ulm - Bosna",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109498",
+      "friendly_id": "kosarka_m_ulm__bosna_s_eurocup_2026_2027_skupina_d_8e1d8428"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "09:00",
+      "cas_konec": "11:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Augsburg - B. München, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Augsburg - Bayern München",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109500",
+      "friendly_id": "nogomet_m_augsburg__b_münchen_bundesliga_2026_2027_fbbfa571"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "11:15",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E5 - Futsal magazin",
+      "naslov_orig": "S0E5 - Futsal magazin",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/59/9/2/5992ce55-ec56-407f-a543-0a89c0e3f7cd.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109502",
+      "friendly_id": "futsal_magazin_9005271e"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "11:15",
+      "cas_konec": "11:30",
+      "trajanje": "15 min",
+      "naslov_sl": "Nogomet: Škotska liga: Vrhunci 8. kola",
+      "naslov_orig": "SPFL",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/c/f/a2cfde67-e8e8-42bd-a65c-a771b0426f81.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109501",
+      "friendly_id": "nogomet_skotska_liga_vrhunci_8_kola_0e4ae0c1"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "11:30",
+      "cas_konec": "13:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Košarka (M): KK Zlatorog - Ilirija, Liga OTP banka 2026/2027",
+      "naslov_orig": "Košarka (M): 1. SKL: Laško - Ilirija",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109509",
+      "friendly_id": "kosarka_m_kk_zlatorog__ilirija_liga_otp_banka_2026_2027_8f49afcf"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "15:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Olimpija - Mura, Prva liga Telemach 2026/2027",
+      "naslov_orig": "Nogomet: Prva liga Telemach: Olimpija - Mura",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Po premoru se vrača klubski nogomet, v derbiju kroga bo Olimpija v Stožicah gostila Muro.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/74/3/7/7437c949-2dde-4ab7-a7d4-4d73e1674034.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109503",
+      "friendly_id": "nogomet_m_olimpija__mura_prva_liga_telemach_2026_2027_09d6fa54"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "15:00",
+      "cas_konec": "17:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Tofaš - Budućnost, Eurocup 2026/2027, Skupina C",
+      "naslov_orig": "Košarka: Evropokal: Bursa - Budućnost",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109510",
+      "friendly_id": "kosarka_m_tofas__buducnost_eurocup_2026_2027_skupina_c_92cc5073"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "17:00",
+      "cas_konec": "17:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E20 - Motokros: MXGP Magazin",
+      "naslov_orig": "S0E20 - Behind the gate (MXGP)",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/e/d/9fed606e-495b-4abf-8e3c-cddcee0d1ee5.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1170960886",
+      "friendly_id": "motokros_mxgp_magazin_fa3bbd12"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "17:30",
+      "cas_konec": "17:45",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E10 - Ženski nogometni magazin",
+      "naslov_orig": "S0E10 - Ženski nogometni magazin",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ženski nogometni magazin je oddaja, ki vam bo približala aktualno klubsko dogajanje z ženskih zelenic, zgodbe iz zakulisja, delovanje in miselnost klubov ter člansko reprezentanco.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/7/2957df50-68f1-4353-8bc6-ec6e085c91fc.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109506",
+      "friendly_id": "zenski_nogometni_magazin_6941eab7"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "17:45",
+      "cas_konec": "18:45",
+      "trajanje": "60 min",
+      "naslov_sl": "Nogomet: Evropska liga: Studio pred Celje - Omonia",
+      "naslov_orig": "Nogomet: Evropska liga: studio pred tekmo",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/59/3/4/5934b468-b9ba-493c-b4ae-f04736312cb0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109513",
+      "zivo": true,
+      "friendly_id": "nogomet_evropska_liga_studio_pred_celje__omonia_ae74caef"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "18:45",
+      "cas_konec": "20:45",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Celje - Omonia Nikosia, UEFA Evropska liga 2026/2027",
+      "naslov_orig": "Nogomet: UEFA Evropska liga: Celje - Omonia",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Celjane čaka prva domača tekma Evropske lige, v goste prihaja vedno nevarna Omonia.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/3/1/3c31424a-048e-42c8-a149-fe53db53a505.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109511",
+      "zivo": true,
+      "friendly_id": "nogomet_m_celje__omonia_nikosia_uefa_evropska_liga_2026_2027_e7887026"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "20:45",
+      "cas_konec": "21:15",
+      "trajanje": "30 min",
+      "naslov_sl": "Nogomet: Evropska liga: Studio po Celje - Omonia",
+      "naslov_orig": "Nogomet: Evropska liga: studio po tekmi",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/7/2/e872c572-f95d-4eaa-b7fe-454a9dfa855b.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109512",
+      "zivo": true,
+      "friendly_id": "nogomet_evropska_liga_studio_po_celje__omonia_78b0570a"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "21:15",
+      "cas_konec": "23:00",
+      "trajanje": "105 min",
+      "naslov_sl": "Košarka (M): Rigas Z. - Cedevita, Eurocup 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: Evropokal: Riga - Cedevita Olimpija",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Košarkarji Olimpije bodo v Rigi iskali prvo letošnjo zmago v Eurocupu, a naloga ne bo lahka.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109496",
+      "friendly_id": "kosarka_m_rigas_z__cedevita_eurocup_2026_2027_skupina_a_93b286af"
+    },
+    {
+      "datum": "2026-10-15",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Lov se nadaljuje",
+      "naslov_orig": "The Chase Continues",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0a/a/a/0aaa233f-df2e-434c-9d15-11d575e698ae.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1166109508"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "01:00",
+      "cas_konec": "03:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): B. München - Leipzig, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Bayern München - Leipzig",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831341",
+      "friendly_id": "nogomet_m_b_münchen__leipzig_bundesliga_2026_2027_3c66fe2e"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Bosna S. - Bahcesehir, Eurocup 2026/2027, Skupina D",
+      "naslov_orig": "Košarka: Evropokal: Bosna - Bahcesehir",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831342",
+      "friendly_id": "kosarka_m_bosna_s__bahcesehir_eurocup_2026_2027_skupina_d_33ae214f"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): B. Leverkusen - Freiburg, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Bayer Leverkusen - Freiburg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831716",
+      "friendly_id": "nogomet_m_b_leverkusen__freiburg_bundesliga_2026_2027_42eba037"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "07:00",
+      "cas_konec": "09:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Maribor - Celje, Prva liga Telemach 2026/2027",
+      "naslov_orig": "Nogomet: Prva liga Telemach: Maribor - Celje",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831717",
+      "friendly_id": "nogomet_m_maribor__celje_prva_liga_telemach_2026_2027_da35c4bb"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "09:00",
+      "cas_konec": "11:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej (M): Jesenice - Salzburg Juniors, Alpska liga 2026/2027",
+      "naslov_orig": "Hokej na ledu: Alpska liga: Jesenice - Salzburg Juniors",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Alpska hokejska liga, v kateri igrajo avstrijske, italijanske in slovenske ekipe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/4/2/d442ab98-bf84-447e-80e1-59ccc1e921b5.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831718",
+      "friendly_id": "hokej_m_jesenice__salzburg_juniors_alpska_liga_2026_2027_9297ddc0"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "11:00",
+      "cas_konec": "11:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Ekstremni športi: Spartan Sprint Hvar: vrhunci",
+      "naslov_orig": "Spartan Sprint: Hvar, Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
+      "show_id": "CUP_IECOM_SPORTTV_1168831719",
+      "friendly_id": "ekstremni_sporti_spartan_sprint_hvar_vrhunci_5159825c"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "11:30",
+      "cas_konec": "13:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Košarka (M): Rogaška - Krka, Liga OTP banka 2026/2027",
+      "naslov_orig": "Košarka (M): 1. SKL: Rogaška - Krka",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831720",
+      "friendly_id": "kosarka_m_rogaska__krka_liga_otp_banka_2026_2027_01c4a2df"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "13:00",
+      "cas_konec": "15:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Bosna S. - Bahcesehir, Eurocup 2026/2027, Skupina D",
+      "naslov_orig": "Košarka: Evropokal: Bosna - Bahcesehir",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831721",
+      "friendly_id": "kosarka_m_bosna_s__bahcesehir_eurocup_2026_2027_skupina_d_75b1bcfb"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "15:00",
+      "cas_konec": "15:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E3 - Ekstremni športi: Pure Action",
+      "naslov_orig": "S0E3 - Pure Action",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1171064322",
+      "friendly_id": "ekstremni_sporti_pure_action_225f8dc3"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "15:30",
+      "cas_konec": "15:55",
+      "trajanje": "25 min",
+      "naslov_sl": "Ekstremni športi: Roc d'Azur: vrhunci",
+      "naslov_orig": "Extreme sports: Roc dAzur, Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a0/f/1/a0f13c3a-a7ed-4477-810f-6093bcc6dd68.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831724",
+      "friendly_id": "ekstremni_sporti_roc_dazur_vrhunci_d4c0dcd1"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "15:55",
+      "cas_konec": "18:00",
+      "trajanje": "125 min",
+      "naslov_sl": "Nogomet (Ž): Olimpija - Gažon , 1. SŽNL 2026/2027",
+      "naslov_orig": "Nogomet: 1. Slovenska liga (ž): Olimpija Ljubljana - Gažon",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/2/7/d827e4c5-ee18-438e-a2a8-4e6769706704.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1171064323",
+      "zivo": true,
+      "friendly_id": "nogomet_z_olimpija__gazon__1_sznl_2026_2027_d721cdd9"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "18:00",
+      "cas_konec": "19:45",
+      "trajanje": "105 min",
+      "naslov_sl": "Košarka (M): Cedevita - Le Mans , Eurocup 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: Evropokal: Cedevita Olimpija - Le Mans",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831723",
+      "friendly_id": "kosarka_m_cedevita__le_mans__eurocup_2026_2027_skupina_a_f33329f2"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "19:45",
+      "cas_konec": "20:00",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E11 - Ženski nogometni magazin",
+      "naslov_orig": "S0E11 - Ženski nogometni magazin",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ženski nogometni magazin je oddaja, ki vam bo približala aktualno klubsko dogajanje z ženskih zelenic, zgodbe iz zakulisja, delovanje in miselnost klubov ter člansko reprezentanco.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/5/7/2957df50-68f1-4353-8bc6-ec6e085c91fc.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831726",
+      "friendly_id": "zenski_nogometni_magazin_af4d6292"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Nogomet: Evropska liga: Studio pred Celje - Salzburg",
+      "naslov_orig": "Nogomet: Evropska liga: studio pred tekmo",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/59/3/4/5934b468-b9ba-493c-b4ae-f04736312cb0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831727",
+      "zivo": true,
+      "friendly_id": "nogomet_evropska_liga_studio_pred_celje__salzburg_c32ca94c"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "21:00",
+      "cas_konec": "23:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Celje - Salzburg, UEFA Evropska liga 2026/2027",
+      "naslov_orig": "Nogomet: UEFA Evropska liga: Celje - Salzburg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/3/1/3c31424a-048e-42c8-a149-fe53db53a505.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831728",
+      "zivo": true,
+      "friendly_id": "nogomet_m_celje__salzburg_uefa_evropska_liga_2026_2027_db95bcad"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "23:00",
+      "cas_konec": "23:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Nogomet: Evropska liga: Studio po Celje - Salzburg",
+      "naslov_orig": "Nogomet: Evropska liga: studio po tekmi",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/7/2/e872c572-f95d-4eaa-b7fe-454a9dfa855b.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831729",
+      "zivo": true,
+      "friendly_id": "nogomet_evropska_liga_studio_po_celje__salzburg_4b361467"
+    },
+    {
+      "datum": "2026-10-22",
+      "dan": "Četrtek",
+      "cas": "23:30",
+      "cas_konec": "00:30",
+      "trajanje": "60 min",
+      "naslov_sl": "S0E3 - Nogomet: UEFA Magazin",
+      "naslov_orig": "S0E3 - Nogomet: UEFA Magazin",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/66/7/d/667d778a-de6c-4a24-a27b-2a22545fd82a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV_1168831730",
+      "friendly_id": "nogomet_uefa_magazin_24fcc78f"
     }
   ]
 }
