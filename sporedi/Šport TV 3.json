@@ -1,7 +1,7 @@
 {
   "kanal": "Šport TV 3",
   "ch_ext_id": "sport-tv-3",
-  "posodobljeno": "2026-10-17 09:13",
+  "posodobljeno": "2026-10-17 12:25",
   "od": "2026-10-10",
   "do": "2026-10-24",
   "oddaje": [
@@ -3917,6 +3917,25 @@
       "show_id": "CUP_FAKE_SPORTTV3_202610232100_202610232200"
     },
     {
+      "datum": "2026-10-23",
+      "dan": "Petek",
+      "cas": "23:00",
+      "cas_konec": "01:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Košarka (M): Cedevita - Le Mans , Eurocup 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: Evropokal: Cedevita Olimpija - Le Mans",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
+      "show_id": "CUP_IECOM_SPORTTV3_1168824079",
+      "friendly_id": "kosarka_m_cedevita__le_mans__eurocup_2026_2027_skupina_a_31186a76"
+    },
+    {
       "datum": "2026-10-17",
       "dan": "Sobota",
       "cas": "01:00",
@@ -3941,7 +3960,7 @@
       "cas": "02:00",
       "cas_konec": "03:00",
       "trajanje": "60 min",
-      "naslov_sl": "Lov se nadaljuje",
+      "naslov_sl": "Hokej na ledu: Dokumentarec: Lov se nadaljuje",
       "naslov_orig": "The Chase Continues",
       "kategorija": "Dokumentarni program",
       "zanr": [
@@ -4202,25 +4221,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
       "show_id": "CUP_IECOM_SPORTTV3_1167781850",
       "friendly_id": "nogomet_m_telstar__feyenoord_nizozemska_liga_2026_2027_939cc9e5"
-    },
-    {
-      "datum": "2026-10-23",
-      "dan": "Petek",
-      "cas": "23:00",
-      "cas_konec": "01:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Cedevita - Le Mans , Eurocup 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: Evropokal: Cedevita Olimpija - Le Mans",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
-      "show_id": "CUP_IECOM_SPORTTV3_1168824079",
-      "friendly_id": "kosarka_m_cedevita__le_mans__eurocup_2026_2027_skupina_a_31186a76"
     }
   ]
 }
