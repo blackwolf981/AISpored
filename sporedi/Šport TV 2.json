@@ -1,336 +1,10 @@
 {
   "kanal": "Šport TV 2",
   "ch_ext_id": "sport-tv-2",
-  "posodobljeno": "2026-10-17 12:25",
-  "od": "2026-10-10",
-  "do": "2026-10-24",
+  "posodobljeno": "2026-10-18 21:36",
+  "od": "2026-10-11",
+  "do": "2026-10-25",
   "oddaje": [
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "00:30",
-      "cas_konec": "02:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Košarka (M): Budućnost - Napoli, Eurocup 2026/2027, Skupina C",
-      "naslov_orig": "Košarka: Evropokal: Budućnost - Napoli",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/e/9/27e957f5-a5fd-45fe-8fe5-ee0cd175ef96.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164444970",
-      "friendly_id": "kosarka_m_buducnost__napoli_eurocup_2026_2027_skupina_c_7cbe6fa7"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "02:30",
-      "cas_konec": "03:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E20 - Motokros: MXGP Magazin",
-      "naslov_orig": "S0E20 - Behind the gate (MXGP)",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/e/d/9fed606e-495b-4abf-8e3c-cddcee0d1ee5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164444971",
-      "friendly_id": "motokros_mxgp_magazin_acba391c"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): PSV - Heerenveen, Nizozemska liga 2026/2027",
-      "naslov_orig": "Nogomet: Eredivisie: PSV - Heerenveen",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164444972",
-      "friendly_id": "nogomet_m_psv__heerenveen_nizozemska_liga_2026_2027_e54a6b7d"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): B Dortmund - Werder B., Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Borussia Dortmund - Werder Bremen",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446301",
-      "friendly_id": "nogomet_m_b_dortmund__werder_b_bundesliga_2026_2027_ca25f91c"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "07:00",
-      "cas_konec": "09:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Hokej (M): Graz - Olimpija, ICE Hockey League 2026/2027",
-      "naslov_orig": "Hokej na ledu (M): ICE liga: Graz - Olimpija",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Hokejisti Olimpije potujejo na avstrijsko Štajersko, kjer jih čaka obračun v Gradcu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/7/a/bd7afbc7-c40d-4425-9ae1-65bd97d43236.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446302",
-      "friendly_id": "hokej_m_graz__olimpija_ice_hockey_league_2026_2027_c81bdf2d"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Hokej na ledu: Dokumentarec: Lov se nadaljuje",
-      "naslov_orig": "The Chase Continues",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0a/a/a/0aaa233f-df2e-434c-9d15-11d575e698ae.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446303"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "10:00",
-      "cas_konec": "11:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Košarka (M): Kranj - Domžale, Liga OTP banka 2026/2027",
-      "naslov_orig": "Košarka (M): 1. SKL: ECE Triglav - Kansai Helios",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446304",
-      "friendly_id": "kosarka_m_kranj__domzale_liga_otp_banka_2026_2027_ff5771f2"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "11:30",
-      "cas_konec": "12:55",
-      "trajanje": "85 min",
-      "naslov_sl": "Košarka (M): Šenčur - Polzela, Liga OTP banka 2026/2027",
-      "naslov_orig": "Košarka (M): 1. SKL: GGD Šenčur - Hopsi Polzela",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446305",
-      "friendly_id": "kosarka_m_sencur__polzela_liga_otp_banka_2026_2027_be776040"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "12:55",
-      "cas_konec": "15:00",
-      "trajanje": "125 min",
-      "naslov_sl": "Nogomet (M): Darmstadt - Energie Cottbus, 2. Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: 2. Bundesliga: Darmstadt - Energie Cottbus",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446306",
-      "zivo": true,
-      "friendly_id": "nogomet_m_darmstadt__energie_cottbus_2_bundesliga_2026_2027_df6a5fb6"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "15:00",
-      "cas_konec": "15:25",
-      "trajanje": "25 min",
-      "naslov_sl": "S0E7 - Bundesliga: Magazin",
-      "naslov_orig": "S0E7 - Bundesliga Magazine",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0f/b/8/0fb8f3f8-6855-4890-b9d9-b6525fcfb7f9.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446307",
-      "friendly_id": "bundesliga_magazin_0a26b658"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "15:25",
-      "cas_konec": "17:30",
-      "trajanje": "125 min",
-      "naslov_sl": "Nogomet (M): Mainz - B. Leverkusen, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Mainz - Bayer Leverkusen",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446308",
-      "zivo": true,
-      "friendly_id": "nogomet_m_mainz__b_leverkusen_bundesliga_2026_2027_227e5306"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "17:30",
-      "cas_konec": "18:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E12 - Idealna linija",
-      "naslov_orig": "S0E12 - Idealna linija",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/d/9/eed99607-cb2a-40bf-b718-6542e59a269c.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446309",
-      "friendly_id": "idealna_linija_d7426429"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "18:00",
-      "cas_konec": "18:25",
-      "trajanje": "25 min",
-      "naslov_sl": "S0E20 - Motokros: MXGP Magazin",
-      "naslov_orig": "S0E20 - Behind the gate (MXGP)",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/e/d/9fed606e-495b-4abf-8e3c-cddcee0d1ee5.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446310",
-      "friendly_id": "motokros_mxgp_magazin_11c517c4"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "18:25",
-      "cas_konec": "20:30",
-      "trajanje": "125 min",
-      "naslov_sl": "Nogomet (M): Leipzig - E Frankfurt, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Leipzig - Eintracht Frankfurt",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446311",
-      "zivo": true,
-      "friendly_id": "nogomet_m_leipzig__e_frankfurt_bundesliga_2026_2027_2482521b"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "20:30",
-      "cas_konec": "20:55",
-      "trajanje": "25 min",
-      "naslov_sl": "S0E2 - Ekstremni športi: Pure Action",
-      "naslov_orig": "S0E2 - Pure Action",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446312",
-      "friendly_id": "ekstremni_sporti_pure_action_ed0e0140"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "20:55",
-      "cas_konec": "23:00",
-      "trajanje": "125 min",
-      "naslov_sl": "Nogomet (M): Ajax - Nijmegen, Nizozemska liga 2026/2027",
-      "naslov_orig": "Nogomet: Eredivisie: Ajax - NEC",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446313",
-      "zivo": true,
-      "friendly_id": "nogomet_m_ajax__nijmegen_nizozemska_liga_2026_2027_22f36444"
-    },
-    {
-      "datum": "2026-10-10",
-      "dan": "Sobota",
-      "cas": "23:00",
-      "cas_konec": "01:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Olimpija - Mura, Prva liga Telemach 2026/2027",
-      "naslov_orig": "Nogomet: Prva liga Telemach: Olimpija - Mura",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Po premoru se vrača klubski nogomet, v derbiju kroga bo Olimpija v Stožicah gostila Muro.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1164446314",
-      "friendly_id": "nogomet_m_olimpija__mura_prva_liga_telemach_2026_2027_327f26d8"
-    },
     {
       "datum": "2026-10-11",
       "dan": "Nedelja",
@@ -580,293 +254,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
       "show_id": "CUP_IECOM_SPORTTV2_1164447325",
       "friendly_id": "nogomet_m_utrecht__willem_ii_nizozemska_liga_2026_2027_b387d62a"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Reli: Rally of Morocco: vrhunci",
-      "naslov_orig": "Rally of Morocco, Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/6/e/ae6ef08d-0145-42be-bb35-a84f78e3844e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167777068",
-      "friendly_id": "reli_rally_of_morocco_vrhunci_21e341d2"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "01:00",
-      "cas_konec": "03:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Union Berlin - B Dortmund, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Union Berlin - Borussia Dortmund",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167777069",
-      "friendly_id": "nogomet_m_union_berlin__b_dortmund_bundesliga_2026_2027_b8803a6a"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "03:00",
-      "cas_konec": "05:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Dundee  - Rangers FC, Škotska liga 2026/2027",
-      "naslov_orig": "Nogomet: Scottish Premiership: Dundee - Rangers",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Škotske lige, najpomembnejšega klubskega nogometnega tekmovanja na Škotskem. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/04/5/2/0452f313-6ceb-4446-9f14-8a5cc970c9f2.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167777070",
-      "friendly_id": "nogomet_m_dundee___rangers_fc_skotska_liga_2026_2027_97d67c32"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "05:00",
-      "cas_konec": "07:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): HSV - Stuttgart, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Hamburger SV - Stuttgart",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781314",
-      "friendly_id": "nogomet_m_hsv__stuttgart_bundesliga_2026_2027_e397eb72"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "07:00",
-      "cas_konec": "09:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Telstar - Feyenoord, Nizozemska liga 2026/2027",
-      "naslov_orig": "Nogomet: Eredivisie: Telstar - Feyenoord",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781317",
-      "friendly_id": "nogomet_m_telstar__feyenoord_nizozemska_liga_2026_2027_02a4ed17"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "09:00",
-      "cas_konec": "10:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Košarka (M): Kranj - Rogaška, Liga OTP banka 2026/2027",
-      "naslov_orig": "Košarka (M): 1. SKL: ECE Triglav Kranj - Rogaška",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781320",
-      "friendly_id": "kosarka_m_kranj__rogaska_liga_otp_banka_2026_2027_59bb12d2"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "10:30",
-      "cas_konec": "12:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Union Berlin - B Dortmund, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Union Berlin - Borussia Dortmund",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781319",
-      "friendly_id": "nogomet_m_union_berlin__b_dortmund_bundesliga_2026_2027_6b64a902"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "12:30",
-      "cas_konec": "14:25",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): B. München - Leipzig, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Bayern München - Leipzig",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781318",
-      "friendly_id": "nogomet_m_b_münchen__leipzig_bundesliga_2026_2027_70c17440"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "14:25",
-      "cas_konec": "16:30",
-      "trajanje": "125 min",
-      "naslov_sl": "Nogomet (M): SC Cambuur - AZ Alkmaar, Nizozemska liga 2026/2027",
-      "naslov_orig": "Nogomet: Eredivisie: Cambuur - AZ Alkmaar",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781321",
-      "zivo": true,
-      "friendly_id": "nogomet_m_sc_cambuur__az_alkmaar_nizozemska_liga_2026_2027_90eaf9b3"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "16:30",
-      "cas_konec": "17:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E3 - Ekstremni športi: Pure Action",
-      "naslov_orig": "S0E3 - Pure Action",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781322",
-      "friendly_id": "ekstremni_sporti_pure_action_39f5f572"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "17:00",
-      "cas_konec": "17:25",
-      "trajanje": "25 min",
-      "naslov_sl": "S0E2 - Peta četrtina",
-      "naslov_orig": "S0E2 - Peta četrtina",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1a/1/2/1a1250e2-d787-4b32-8184-e2a978d47d3e.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781323",
-      "friendly_id": "peta_cetrtina_7dc0cce8"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "17:25",
-      "cas_konec": "20:00",
-      "trajanje": "155 min",
-      "naslov_sl": "Hokej (M):  Innsbruck - Olimpija, ICE Hockey League 2026/2027",
-      "naslov_orig": "Hokej na ledu (M): ICE liga: Innsbruck - Olimpija",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781324",
-      "zivo": true,
-      "friendly_id": "hokej_m__innsbruck__olimpija_ice_hockey_league_2026_2027_d5f2034e"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "20:00",
-      "cas_konec": "20:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S0E3 - Bundesliga: Posebno poročilo",
-      "naslov_orig": "S0E3 - Bundesliga Special Report",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Športna oddaja prinaša najbolj aktualne novice in zanimivosti iz nemške Bundeslige. Prikazujemo posnetke najboljših potez, intervjuje z igralci in pregled tekem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/6/7/1167c6d3-262a-4f35-b16b-d246a767f4ba.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781325",
-      "friendly_id": "bundesliga_posebno_porocilo_c80bc3fe"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "20:30",
-      "cas_konec": "22:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Maribor - Celje, Prva liga Telemach 2026/2027",
-      "naslov_orig": "Nogomet: Prva liga Telemach: Maribor - Celje",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/c/4/83c4db07-5899-4fef-9c1c-1aa8a62c49a1.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781326",
-      "friendly_id": "nogomet_m_maribor__celje_prva_liga_telemach_2026_2027_bb3613aa"
-    },
-    {
-      "datum": "2026-10-18",
-      "dan": "Nedelja",
-      "cas": "22:30",
-      "cas_konec": "00:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): B. Leverkusen - Freiburg, Bundesliga 2026/2027",
-      "naslov_orig": "Nogomet: Bundesliga: Bayer Leverkusen - Freiburg",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
-      "show_id": "CUP_IECOM_SPORTTV2_1167781327",
-      "friendly_id": "nogomet_m_b_leverkusen__freiburg_bundesliga_2026_2027_44b92037"
     },
     {
       "datum": "2026-10-12",
@@ -3981,6 +3368,581 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/32/0/9/320988ab-8f54-4009-a510-85f39c15bf41.jpg",
       "show_id": "CUP_IECOM_SPORTTV2_1167777067",
       "friendly_id": "nogomet_m_b_münchen__leipzig_bundesliga_2026_2027_0bb6c99c"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Reli: Rally of Morocco: vrhunci",
+      "naslov_orig": "Rally of Morocco, Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/6/e/ae6ef08d-0145-42be-bb35-a84f78e3844e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167777068",
+      "friendly_id": "reli_rally_of_morocco_vrhunci_21e341d2"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "01:00",
+      "cas_konec": "03:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Union Berlin - B Dortmund, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Union Berlin - Borussia Dortmund",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167777069",
+      "friendly_id": "nogomet_m_union_berlin__b_dortmund_bundesliga_2026_2027_b8803a6a"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Dundee  - Rangers FC, Škotska liga 2026/2027",
+      "naslov_orig": "Nogomet: Scottish Premiership: Dundee - Rangers",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Škotske lige, najpomembnejšega klubskega nogometnega tekmovanja na Škotskem. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/04/5/2/0452f313-6ceb-4446-9f14-8a5cc970c9f2.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167777070",
+      "friendly_id": "nogomet_m_dundee___rangers_fc_skotska_liga_2026_2027_97d67c32"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): HSV - Stuttgart, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Hamburger SV - Stuttgart",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781314",
+      "friendly_id": "nogomet_m_hsv__stuttgart_bundesliga_2026_2027_e397eb72"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "07:00",
+      "cas_konec": "09:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Telstar - Feyenoord, Nizozemska liga 2026/2027",
+      "naslov_orig": "Nogomet: Eredivisie: Telstar - Feyenoord",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781317",
+      "friendly_id": "nogomet_m_telstar__feyenoord_nizozemska_liga_2026_2027_02a4ed17"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "09:00",
+      "cas_konec": "10:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Košarka (M): Kranj - Rogaška, Liga OTP banka 2026/2027",
+      "naslov_orig": "Košarka (M): 1. SKL: ECE Triglav Kranj - Rogaška",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781320",
+      "friendly_id": "kosarka_m_kranj__rogaska_liga_otp_banka_2026_2027_59bb12d2"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "10:30",
+      "cas_konec": "12:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Union Berlin - B Dortmund, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Union Berlin - Borussia Dortmund",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781319",
+      "friendly_id": "nogomet_m_union_berlin__b_dortmund_bundesliga_2026_2027_6b64a902"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "12:30",
+      "cas_konec": "14:25",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): B. München - Leipzig, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Bayern München - Leipzig",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.\r\n\r\nBavarski velikan je tokrat pred malce težjo nalogo, v goste prihaja Leipzig.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/32/0/9/320988ab-8f54-4009-a510-85f39c15bf41.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781318",
+      "friendly_id": "nogomet_m_b_münchen__leipzig_bundesliga_2026_2027_70c17440"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "14:25",
+      "cas_konec": "16:30",
+      "trajanje": "125 min",
+      "naslov_sl": "Nogomet (M): SC Cambuur - AZ Alkmaar, Nizozemska liga 2026/2027",
+      "naslov_orig": "Nogomet: Eredivisie: Cambuur - AZ Alkmaar",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/c/d/d6cd3b6f-da5b-4458-af63-b0d86f7cbf4e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781321",
+      "zivo": true,
+      "friendly_id": "nogomet_m_sc_cambuur__az_alkmaar_nizozemska_liga_2026_2027_90eaf9b3"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "16:30",
+      "cas_konec": "17:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E3 - Ekstremni športi: Pure Action",
+      "naslov_orig": "S0E3 - Pure Action",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781322",
+      "friendly_id": "ekstremni_sporti_pure_action_39f5f572"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "17:00",
+      "cas_konec": "17:25",
+      "trajanje": "25 min",
+      "naslov_sl": "S0E2 - Peta četrtina",
+      "naslov_orig": "S0E2 - Peta četrtina",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1a/1/2/1a1250e2-d787-4b32-8184-e2a978d47d3e.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781323",
+      "friendly_id": "peta_cetrtina_7dc0cce8"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "17:25",
+      "cas_konec": "20:00",
+      "trajanje": "155 min",
+      "naslov_sl": "Hokej (M):  Innsbruck - Olimpija, ICE Hockey League 2026/2027",
+      "naslov_orig": "Hokej na ledu (M): ICE liga: Innsbruck - Olimpija",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781324",
+      "zivo": true,
+      "friendly_id": "hokej_m__innsbruck__olimpija_ice_hockey_league_2026_2027_d5f2034e"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "20:00",
+      "cas_konec": "20:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E12 - Idealna linija",
+      "naslov_orig": "S0E12 - Idealna linija",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/d/9/eed99607-cb2a-40bf-b718-6542e59a269c.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1170961870",
+      "friendly_id": "idealna_linija_e0f55e50"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "20:30",
+      "cas_konec": "22:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Maribor - Celje, Prva liga Telemach 2026/2027",
+      "naslov_orig": "Nogomet: Prva liga Telemach: Maribor - Celje",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Maribor je na vrhu lestvice PLT, a čaka jih težka tekma, saj v goste prihajajo državni prvaki iz Celja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7f/3/f/7f3f6d46-1b44-4e7b-97d3-677e3524f758.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781326",
+      "friendly_id": "nogomet_m_maribor__celje_prva_liga_telemach_2026_2027_bb3613aa"
+    },
+    {
+      "datum": "2026-10-18",
+      "dan": "Nedelja",
+      "cas": "22:30",
+      "cas_konec": "00:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): B. Leverkusen - Freiburg, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Bayer Leverkusen - Freiburg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1167781327",
+      "friendly_id": "nogomet_m_b_leverkusen__freiburg_bundesliga_2026_2027_44b92037"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "00:30",
+      "cas_konec": "01:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E4 - Ekstremni športi: Pure Action",
+      "naslov_orig": "S0E4 - Pure Action",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103272",
+      "friendly_id": "ekstremni_sporti_pure_action_01970bc4"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "01:00",
+      "cas_konec": "02:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej (M): Jesenice - Rittner Buam, Alpska liga 2026/2027",
+      "naslov_orig": "Hokej na ledu: Alpska liga: Jesenice - Rittner Buam",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Alpska hokejska liga, v kateri igrajo avstrijske, italijanske in slovenske ekipe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d4/4/2/d442ab98-bf84-447e-80e1-59ccc1e921b5.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103273",
+      "friendly_id": "hokej_m_jesenice__rittner_buam_alpska_liga_2026_2027_11aa0826"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Avtomobilizem: European Le Mans Series: Vrhunci: Portimao",
+      "naslov_orig": "European Le Mans Series Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/0/1/e101d7da-0326-4e54-81e2-c978d553d1d1.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103274",
+      "friendly_id": "avtomobilizem_european_le_mans_series_vrhunci_portimao_584b8a30"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Nürnberg - K'lautern, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Nürnberg - Kaiserslautern",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103275",
+      "friendly_id": "nogomet_m_nürnberg__klautern_2_bundesliga_2026_2027_d3705858"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "05:00",
+      "cas_konec": "07:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Köln - Schalke 04, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Köln - Schalke",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103276",
+      "friendly_id": "nogomet_m_köln__schalke_04_bundesliga_2026_2027_6b6140c7"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "07:00",
+      "cas_konec": "07:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Avtomobilizem: Le Mans Cup: Vrhunci: Portimao",
+      "naslov_orig": "Le Mans Cup: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si najboljše trenutke avtomobilske dirke Le Mans Cup.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/3/f/553f32ed-6a7e-44b3-a163-518fcf88f895.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103277",
+      "friendly_id": "avtomobilizem_le_mans_cup_vrhunci_portimao_21ed7235"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "07:30",
+      "cas_konec": "09:00",
+      "trajanje": "90 min",
+      "naslov_sl": "Košarka (M): Šenčur - Kranj, Liga OTP banka 2026/2027",
+      "naslov_orig": "Košarka (M): 1. SKL: GGD Šenčur - ECE Triglav",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Slovenske košarkarske lige, najpomembnejšega klubskega tekmovanja v svetu slovenske košarke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/2/6/27262514-7ba7-4cca-9173-0b493cfefd39.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103278",
+      "friendly_id": "kosarka_m_sencur__kranj_liga_otp_banka_2026_2027_d0492760"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "09:00",
+      "cas_konec": "11:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Leipzig - Elversberg, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Leipzig - Elversberg",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103279",
+      "friendly_id": "nogomet_m_leipzig__elversberg_bundesliga_2026_2027_424b4a72"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "11:00",
+      "cas_konec": "13:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): B Dortmund - E Frankfurt, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Borussia Dortmund - Eintracht Frankfurt",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103280",
+      "friendly_id": "nogomet_m_b_dortmund__e_frankfurt_bundesliga_2026_2027_af744dd2"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "13:00",
+      "cas_konec": "13:25",
+      "trajanje": "25 min",
+      "naslov_sl": "S0E4 - Ekstremni športi: Pure Action",
+      "naslov_orig": "S0E4 - Pure Action",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte magazin o ekstremnih športih! Prinašamo zgodbe, katere pripovedujejo o življenju športnikov, ki se ukvarjajo z moto-dirkami, s pustolovščinami na odprtem, z vodnimi športi in ostalim. Uživajte v originalnih in spektakularnih vsebinah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/f/b/a2fbcc51-43b2-4290-9443-39c533bc06e0.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103281",
+      "friendly_id": "ekstremni_sporti_pure_action_2fc946f3"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "13:25",
+      "cas_konec": "15:25",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): H. Kiel - Dynamo Dresden, 2. Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: 2. Bundesliga: Holstein Kiel - Dynamo Dresden",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Druga najmočnejša liga v nemškem profesionalnem nogometu. Gre za najbolj spremljano drugo ligo na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8f/2/c/8f2c18e9-617b-41b6-8c3b-fda046c00e09.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103282",
+      "zivo": true,
+      "friendly_id": "nogomet_m_h_kiel__dynamo_dresden_2_bundesliga_2026_2027_80b3f551"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "15:25",
+      "cas_konec": "17:25",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Hoffenheim - B. Leverkusen, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Hoffenheim - Bayer Leverkusen",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103283",
+      "zivo": true,
+      "friendly_id": "nogomet_m_hoffenheim__b_leverkusen_bundesliga_2026_2027_566a0c22"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "17:25",
+      "cas_konec": "19:30",
+      "trajanje": "125 min",
+      "naslov_sl": "Nogomet (M): Freiburg - B. München, Bundesliga 2026/2027",
+      "naslov_orig": "Nogomet: Bundesliga: Freiburg - Bayern München",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nogometna Bundesliga je najvišji rang tekmovanja v Nemčiji, ki že vse od ustanovitve leta 1963 s svojo visoko kakovostjo igre navdušuje po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/b/a/f1bad721-9392-4a47-829c-efe2a38ecb5a.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103284",
+      "zivo": true,
+      "friendly_id": "nogomet_m_freiburg__b_münchen_bundesliga_2026_2027_4b0f45c6"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "19:30",
+      "cas_konec": "21:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej (M): Olimpija _ Milano, ICE Hockey League",
+      "naslov_orig": "Hokej na ledu (M): ICE liga: Olimpija - Milano",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/b/d/ffbdf90f-e5db-4746-998b-19e2367f5779.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103285",
+      "friendly_id": "hokej_m_olimpija___milano_ice_hockey_league_c7122046"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "21:30",
+      "cas_konec": "23:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): PSV - Feyenoord, Nizozemska liga 2026/2027",
+      "naslov_orig": "Nogomet: Eredivisie: PSV - Feyenoord",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Eredivisie je najvišje rangirano klubsko nogometno tekmovanje na Nizozemskem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/d/f/52dff209-a6c7-4028-80ba-cac667dbe858.jpg",
+      "show_id": "CUP_IECOM_SPORTTV2_1171103286",
+      "friendly_id": "nogomet_m_psv__feyenoord_nizozemska_liga_2026_2027_9e27c44d"
     }
   ]
 }
