@@ -1,554 +1,10 @@
 {
   "kanal": "Pop TV",
   "ch_ext_id": "pop-tv",
-  "posodobljeno": "2026-10-19 12:25",
-  "od": "2026-10-12",
-  "do": "2026-10-26",
+  "posodobljeno": "2026-10-20 12:25",
+  "od": "2026-10-13",
+  "do": "2026-10-27",
   "oddaje": [
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "01:25",
-      "cas_konec": "02:25",
-      "trajanje": "60 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164133786"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "02:25",
-      "cas_konec": "05:55",
-      "trajanje": "210 min",
-      "naslov_sl": "S1E32 - Pavza!",
-      "naslov_orig": "S1E32 - Pavza!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164133787"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "05:55",
-      "cas_konec": "06:10",
-      "trajanje": "15 min",
-      "naslov_sl": "S1E50 - 24UR Fokus: Dirka po Franciji",
-      "naslov_orig": "S1E50 - 24UR Fokus: Dirka po Franciji",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "24UR Fokus je rubrika informativne oddaje 24UR, v kateri se do potankosti poglobijo v družbeno relevantne, tudi zamolčane in prezrte teme, laži in afere. Osvetlijo ozadja, dejstvom dajo kontekst. V rubriki izpostavljajo tudi dobre, pozitivne zgodbe, portrete in intervjuje izjemnih ljudi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6f/4/7/6f47811d-9d55-479f-92f7-dd87176be7c2.jpg",
-      "show_id": "CUP_IECOM_POPTV_1168927133"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "06:10",
-      "cas_konec": "06:25",
-      "trajanje": "15 min",
-      "naslov_sl": "S1E208 - 24UR Inšpektor: Pasja (Ne)kultura",
-      "naslov_orig": "S1E208 - 24UR Inšpektor: Pasja (Ne)kultura",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Samo v Ljubljani je 26 tisoč psov, iztrebki pogosto ostanejo na tleh. Nadaljuje se sprehajanje brez povodcev, prepoved verig pa prinaša nove klice zavetiščem. Kam z živalmi, ko lastniki obupajo?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/6/c/b46c47fa-716e-4b8d-ab66-10889069cd7b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167507182"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "06:25",
-      "cas_konec": "06:45",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E232 - 24UR Inšpektor: Mojster ali sami?",
-      "naslov_orig": "S1E232 - 24UR Inšpektor: Mojster ali sami?",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Beljenje, polaganje tal, montaža pohištva. Je biti sam svoj mojster spet v modi? Preizkusili smo, kaj se splača narediti sam in pri katerih delih nas lahko napačna poteza drago stane.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/6/c/b46c47fa-716e-4b8d-ab66-10889069cd7b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403522"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "06:45",
-      "cas_konec": "07:55",
-      "trajanje": "70 min",
-      "naslov_sl": "S2E12 - Najini mostovi",
-      "naslov_orig": "S2E12 - Najini mostovi",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Ivan ne zaupa Robertu, da bo brezhibno organiziral podpis pogodbe. Lovro se ne javlja na Robertove klice. Monika okleva, ali naj pomaga Krisu pridobiti dokumente. \n\nDragica in Kristjan se navdušujeta nad Monikino odločnostjo med reševalno akcijo. Suzana pred lekarno zagleda nekaj, kar jo tako prestraši, da pobegne.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/6/9/d5690adf-0fa2-4cd0-8f82-d889346cbce4.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403519"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "07:55",
-      "cas_konec": "08:00",
-      "trajanje": "5 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403508"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "08:00",
-      "cas_konec": "08:15",
-      "trajanje": "15 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403524"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "08:15",
-      "cas_konec": "09:20",
-      "trajanje": "65 min",
-      "naslov_sl": "S2E105 - V dobrem in slabem",
-      "naslov_orig": "S2E105 - U dobru i zlu",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Nevenka obišče Joca in privoli v nadaljevanje poslovnega sodelovanja. Ko Petra izve za njen obisk, se jezno sooči z njo, Nevenka pa ji razkrije, da je bila z Jocom v hotelu. \n\nJoco v paniki pobegne iz bolnišnice. Veljko medtem reši Marino pred novinarji in jo doma preseneti z nepričakovano ponudbo za poroko, Lorena pa prejme Jakovovo pismo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403509"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "09:20",
-      "cas_konec": "09:35",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/2/4/bd24fce2-f9ce-4f99-9b1f-18e2f6edf0e2.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403502"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "09:35",
-      "cas_konec": "10:30",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E25 - Po poti resnice",
-      "naslov_orig": "S2E25 - Yargi",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Eren s pomočjo operacije preživi streljanje, Ilgaz pa poda svojo izjavo tožilcu. Trdi, da je on streljal dvakrat, forenziki pa najdejo samo en tulec iz njegove pištole. Yekta kot Burakov zastopnik povzroča kraval, v katerem prav uživa. \n\nMedtem Ceylin prepriča Cigdem, da prizna umor taksista",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/f/e/f6fef5f0-6c3a-4912-95e0-850203423b5b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403525"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "10:30",
-      "cas_konec": "10:45",
-      "trajanje": "15 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403510"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "10:45",
-      "cas_konec": "11:45",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E26 - Po poti resnice",
-      "naslov_orig": "S2E26 - Yargi",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Pars ponovno zasliši gospodinjo, ki pa trdi, da je res slišala samo tri strele. Tudi Metin v izjavi pove, da je slišal samo zadnji strel. Pregled posnetkov okoli hiše ne razkrije ničesar. \n\nTožilca posumita, da ima nekdo tu svojo računico. Yekta se odpravi na zbornico sodnikov in tožilcev, da bi primer prijavil inšpektorju.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/f/e/f6fef5f0-6c3a-4912-95e0-850203423b5b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403506"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "11:45",
-      "cas_konec": "12:15",
-      "trajanje": "30 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403511"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "12:15",
-      "cas_konec": "13:35",
-      "trajanje": "80 min",
-      "naslov_sl": "S9E1 - Delovna akcija: družina Majdič 1/3",
-      "naslov_orig": "S9E1 - Delovna akcija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Najprej se podajo k veliki družini Majdič, ki v stari hiši živi skupaj z desetimi otroki. Mojstre čaka zahteven začetek prenove, Ana pa družino preseneti z izletom v Postojnsko jamo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b7/8/0/b780c0ab-9b1d-499e-b3d9-27ac8862e626.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403526"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "13:35",
-      "cas_konec": "13:50",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403520"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "13:50",
-      "cas_konec": "14:25",
-      "trajanje": "35 min",
-      "naslov_sl": "S1E9 - Kuhinja na kolesih: Koroška: Hiša Ančka",
-      "naslov_orig": "S1E9 - Kuhinja na kolesih: Koroška: Hiša Ančka",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "kulinarika"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Hamo se ustavi v gostilni Hiša Ančka, kjer kuhar Gašper Kačičnik pripravi zajčkovo rolado v svinjski mrežici z mladim korenjem in ocvrtim listnatim ohrovtom, pa še korenčkov biskvit z ajdo, jabolčnim pirejem, ingverjem in korenčkovim sladoledom. \n\nSpoznali bomo tudi družino Perger, ki se že od leta 1757 ukvarja z medičarsko, lectersko in svečarsko dejavnostjo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/5/3/e553e103-e9ca-47f7-b9ca-70f8144e09cd.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403527"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "14:25",
-      "cas_konec": "15:00",
-      "trajanje": "35 min",
-      "naslov_sl": "S1E3 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
-      "naslov_orig": "S1E3 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "kulinarika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Luka je s partnerico zapustil mestni vrvež ter se preselil na podeželje, kjer želita na 7 hektarjih stare posesti ustvariti samooskrbno kmetijo in sčasoma butični kmečki turizem. \n\nOd obnove stavb, vrta, živali in rastlinjaka do kompostiranja, nabiralništva, trajnostne rabe vode in energije - vsak korak prinaša nove izzive, tudi napake. \n\nA prav te pokažejo, da pot do bolj zelenega življenja ni lahka, je pa lahko navdihujoča, pogumna in zelo resnična.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b5/e/b/b5eb96b2-f7f3-4207-9ef9-a9f4bb136615.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403512"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "15:00",
-      "cas_konec": "15:05",
-      "trajanje": "5 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403515"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "15:05",
-      "cas_konec": "16:10",
-      "trajanje": "65 min",
-      "naslov_sl": "S3E51 - Večerja za 5",
-      "naslov_orig": "S3E51 - Večera za 5",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Tekmovalci pogosto pripravijo zanimive specialitete, s katerimi razveselijo brbončice sotekmovalcev. Večerja je sestavljena iz predjedi, glavne jedi in sladice. Na koncu večera gostje komentirajo pogostitev in vzdušje ter podajo oceno gostitelju.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/7/c/777c90b2-1a2f-4e26-aa1f-83ad9066d4e6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403516"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "16:10",
-      "cas_konec": "16:45",
-      "trajanje": "35 min",
-      "naslov_sl": "S1E1 - Vrni se k meni",
-      "naslov_orig": "S1E1 - Vuelve a mí: El hijo que perdí Parte 1",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "telenovela"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Nuriino srce pripada sinu Andresu in ljubimcu Brauliu. V resnici ne pozna Braulieve prave identitete, tudi ne ve, da je poročen, laže pa ji tudi sestra Consuelo, ki se namesto študiju raje posveča Faustu, ki se zaradi zadolženosti odloči, da bo ugrabil in prodal Andresa. \n\nSantiago se vrne iz zapora, kjer je sedel po krivem. Santiago in Nuria se po naključju srečata in Santiago je očaran nad njeno lepoto. Nurii se niti sanja ne, da sta Santiago in Braulio polbrata.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/9/1/309154d1-1f8f-4239-bed5-b35b9b8d1ed1.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403513"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "16:45",
-      "cas_konec": "17:05",
-      "trajanje": "20 min",
-      "naslov_sl": "24UR popoldne",
-      "naslov_orig": "24UR popoldne",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403517",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "17:05",
-      "cas_konec": "17:55",
-      "trajanje": "50 min",
-      "naslov_sl": "S1E1 - Vrni se k meni",
-      "naslov_orig": "S1E1 - Vuelve a mí: El hijo que perdí Parte 1",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "telenovela"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Nuriino srce pripada sinu Andresu in ljubimcu Brauliu. V resnici ne pozna Braulieve prave identitete, tudi ne ve, da je poročen, laže pa ji tudi sestra Consuelo, ki se namesto študiju raje posveča Faustu, ki se zaradi zadolženosti odloči, da bo ugrabil in prodal Andresa. \n\nSantiago se vrne iz zapora, kjer je sedel po krivem. Santiago in Nuria se po naključju srečata in Santiago je očaran nad njeno lepoto. Nurii se niti sanja ne, da sta Santiago in Braulio polbrata.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/9/1/309154d1-1f8f-4239-bed5-b35b9b8d1ed1.jpg",
-      "show_id": "CUP_IECOM_POPTV_1168928941"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "17:55",
-      "cas_konec": "18:50",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E106 - V dobrem in slabem",
-      "naslov_orig": "S2E106 - U dobru i zlu",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Divna družino sooči z dejstvi, da se Ivana želi ločiti od Veljka, Marina pa potrebuje moža, zato se ji rešitev zdi očitna. Vuk medtem prosi Crnega, naj odkrije, kdo je ženska na fotografiji, ki jo je našel pri Matku. \n\nZrinka Ivano prepričuje, da Marina v sobi skriva ljubimca, Petra pa po razkritju Jocovega zmenka z Nevenko presenetljivo žari od dobre volje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403523"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "18:50",
-      "cas_konec": "18:55",
-      "trajanje": "5 min",
-      "naslov_sl": "24UR vreme",
-      "naslov_orig": "24UR vreme",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "vreme"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/2/d/1f2d1fff-adfe-456e-8c78-5b1c3c221d84.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403528",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "18:55",
-      "cas_konec": "20:10",
-      "trajanje": "75 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403507",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "20:10",
-      "cas_konec": "21:30",
-      "trajanje": "80 min",
-      "naslov_sl": "S12E25 - MasterChef Slovenija",
-      "naslov_orig": "S12E25 - MasterChef Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vsi tekmovalci si nadenejo kuharske predpasnike, kajti obeta se predzadnji boj za imuniteto. Kuha le še najboljša deseterica, ki si je mesto v eliti že priborila, tisti, ki si mu uspe izboriti še imuniteto, pa bo imel pred ostalimi veliko prednost v nadaljevanju tekmovanja. \n\nDo imunitete seveda vodi trnova pot, kajti na izbiro za kuhanje imajo dva popolna krožnika - krožnika finalistov, ki jima je oddaja MasterChef spremenila življenje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/07/d/1/07d1bf7c-ae68-4d40-991d-4e8eb822e147.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403503"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "21:30",
-      "cas_konec": "22:20",
-      "trajanje": "50 min",
-      "naslov_sl": "24UR zvečer",
-      "naslov_orig": "24UR zvečer",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403521",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "22:20",
-      "cas_konec": "23:30",
-      "trajanje": "70 min",
-      "naslov_sl": "S1E24 - Otok ljubezni Adria",
-      "naslov_orig": "S1E24 - Love Island Adria",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Skrivnostni princ na belem konju še posebej razveseli Laro. V epizodi liste vročih Drina razkrije, kaj se je z Valentinom dogajalo v ljubezenskem gnezdu, Alja in Nikola pa vsak predstavita svojo plat zgodbe. \n\nMili in Gašper skušata pojasniti čustveni vrtiljak svojega odnosa, medtem ko Anthony Dragani zaupa, kako vidi svojo povezavo z Aliso.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c6/a/3/c6a3ab1d-fb77-4645-8d5d-854424873ae6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403500"
-    },
-    {
-      "datum": "2026-10-12",
-      "dan": "Ponedeljek",
-      "cas": "23:30",
-      "cas_konec": "00:25",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E1 - Kar težki primeri",
-      "naslov_orig": "S2E1 - Pretty Hard Cases: Pencil Skirts",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "V prvi epizodi se Sam in Kelly pod krinko stevardes vkrcata na letalo, da bi razkrili člana posadke, ki za nevarno tolpo tihotapi rožnati kokain. \n\nMed zasliševanjem osebja, pregledovanjem prtljage in lovom na skrivnega kurirja pa Sam končno povabi Naza k sebi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9a/4/8/9a484473-2364-48b4-bc15-d0e4ef17f4f1.jpg",
-      "show_id": "CUP_IECOM_POPTV_1164403529"
-    },
     {
       "datum": "2026-10-13",
       "dan": "Torek",
@@ -1110,550 +566,6 @@
       "opis": "Sam in Kelly lovita izdelovalca 3D-pištole, s katero je bila ustreljena policistka. Sled ju vodi od ortodonta do telovadnice, kjer izsledita osumljenca, toda tajno akcijo jima pokvari Kellyjin nekdanji fant Len, ki dela pod krinko. Tako morata združiti moči z moškim, ki ji je strl srce in ujeti nevarnega orožarja.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5b/b/a/5bbaae60-d976-4ec0-be17-d2443c280b17.jpg",
       "show_id": "CUP_IECOM_POPTV_1164429965"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "00:30",
-      "cas_konec": "01:25",
-      "trajanje": "55 min",
-      "naslov_sl": "S5E2 - Hudson in Rex: Smrtni udarec",
-      "naslov_orig": "S5E2 - Hudson & Rex: Punch Drunk Glove",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Ko se izkaže, da bi Charliejev odtujeni brat Jack lahko bil odgovoren za smrt boksarskega nasprotnika, se detektiv znajde v kočljivi situaciji. \n\nEkipa se poglobi v temačni svet boksa, kjer odkrijejo zamolčane skrivnosti, zamere in zlorabe iz preteklosti. Bo iskanje resnice zbližalo brata ali ju dokončno razdvojilo?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ba/4/1/ba414a4b-c486-4527-acf3-3e81c54d55e5.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167743238"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "01:25",
-      "cas_konec": "02:20",
-      "trajanje": "55 min",
-      "naslov_sl": "S5E3 - Hudson in Rex: K nogi, Donovan, k nogi!",
-      "naslov_orig": "S5E3 - Hudson & Rex: Run, Donovan, Run",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Ko mora Donovana poskrbeti za prevoz zapornika Watsona, ki je hkrati njegov nekdanji partner, se znova odprejo boleče rane iz preteklosti. \n\nA Donovan ne ve, da ima Watson skrivne načrte za pobeg - in ko gre vse narobe, se Donovan znajde v rokah nevarne kriminalne združbe. Medtem pa Jesse poskuša rešiti dolgo pozabljen primer…",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/2/f/e32f741e-316a-4c62-a4f9-a4b5cbbcf775.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167743239"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "02:20",
-      "cas_konec": "03:25",
-      "trajanje": "65 min",
-      "naslov_sl": "S12E29 - MasterChef Slovenija",
-      "naslov_orig": "S12E29 - MasterChef Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Po nepričakovanem razpletu na izločitvenem testu so se razmerja povsem spremenila. Tekmovalci v kuhinjo stopijo z občutkom, da se tekmovanje začenja znova. Pričaka jih popolnoma preoblikovana MasterChef kuhinja s tremi različno opremljenimi kuharskimi postajami. \n\nŽreb odloči, kateri skupini pripada katera kuhinja. Sodniki pričakujejo dovršen fine dining krožnik, na katerem bo glavna zvezda paradižnik. Med kuhanjem sledi nov preobrat.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/2/1/b6216ca4-0427-457c-a018-3d93bf47c939.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167743240"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "03:25",
-      "cas_konec": "04:25",
-      "trajanje": "60 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167743241"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "04:25",
-      "cas_konec": "06:00",
-      "trajanje": "95 min",
-      "naslov_sl": "Pavza!",
-      "naslov_orig": "Pavza!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Prepustite se glasbi!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167743242"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "06:00",
-      "cas_konec": "06:40",
-      "trajanje": "40 min",
-      "naslov_sl": "24UR zvečer",
-      "naslov_orig": "24UR zvečer",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761171"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "06:40",
-      "cas_konec": "07:45",
-      "trajanje": "65 min",
-      "naslov_sl": "S2E18 - Najini mostovi",
-      "naslov_orig": "S2E18 - Najini mostovi",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Ivan pove Robertu za sodelovanje Monike in Kristjana. Boris Kseniji ponudi pomoč v vinogradu. Kristjan je jezen, ker njegov načrt z Ivanom ni uspel. Domen zaupa Valeriji svoje težave z denarjem. \n\nMonika Kristjanu predlaga, da bi sama odšla po dokumente v Ivanov sef. Vito prosi Ksenijo za uslugo. Suzana vidi Moniko, ko vzame ključe, in novico takoj sporoči Robertu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/6/9/d5690adf-0fa2-4cd0-8f82-d889346cbce4.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761172"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "07:45",
-      "cas_konec": "07:50",
-      "trajanje": "5 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761173"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "07:50",
-      "cas_konec": "08:05",
-      "trajanje": "15 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761174"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "08:05",
-      "cas_konec": "09:10",
-      "trajanje": "65 min",
-      "naslov_sl": "S2E111 - V dobrem in slabem",
-      "naslov_orig": "S2E111 - U dobru i zlu",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Veljko zaman prepričuje vse okoli sebe, da ni spal s Petro in da je pravzaprav sam žrtev nesporazuma, a se zapleta v vedno nove prepire. Zrinka naleti na Crnega, ki jo povabi v gostilno na pogovor. \n\nPetra je presenečena, ko izve, da bi Vuk lahko preprečil Jocovo razmerje z Nevenko, Sanja pa Miru pokaže pismo, ki ga je Jakov poslal Loreni.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761175"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "09:10",
-      "cas_konec": "09:25",
-      "trajanje": "15 min",
-      "naslov_sl": "TV prodaja",
-      "naslov_orig": "TV prodaja",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Program TV prodaje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/2/4/bd24fce2-f9ce-4f99-9b1f-18e2f6edf0e2.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761176"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "09:25",
-      "cas_konec": "10:25",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E37 - Po poti resnice",
-      "naslov_orig": "S2E37 - Yargi",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Ilgaza in Erena pripelje preiskava na teraso, kjer je bil umorjen Serdar. Pokličeta tudi forenzike, da zberejo vse dokaze. Medtem se Ceylin sooči s svojo družino in tako izve, da so ji lagali glede Serdarja, zato vse odpelje na policijsko postajo. Lacin obišče Yekto v novi pisarni in mu na obisk pripelje njegovega sina.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/f/e/f6fef5f0-6c3a-4912-95e0-850203423b5b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761177"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "10:25",
-      "cas_konec": "10:40",
-      "trajanje": "15 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761178"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "10:40",
-      "cas_konec": "11:35",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E38 - Po poti resnice",
-      "naslov_orig": "S2E38 - Yargi",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Lacin skrbi za Omerja kot za svojega sina, medtem ko Metin raziskuje, ali je gospa Ayten res mama otroka, ki živi z njo. Medtem Ceylin pripelje vso družino na policijsko postajo, kjer končno vsi povedo resnico glede tega, kaj se je dogajalo tisti dan, ko je umrl Serdar.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/f/e/f6fef5f0-6c3a-4912-95e0-850203423b5b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761179"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "11:35",
-      "cas_konec": "12:05",
-      "trajanje": "30 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761180"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "12:05",
-      "cas_konec": "13:20",
-      "trajanje": "75 min",
-      "naslov_sl": "S9E7 - Delovna akcija: društvo Križemrok 1/2",
-      "naslov_orig": "S9E7 - Delovna akcija: društvo Križemrok 1/2",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Društvo Križemrok je organizacija, ki otrokom omogoča kampiranje in brezskrben stik z naravo, predvsem otrokom iz socialno ogroženih družin ter otrokom s posebnimi potrebami. Pred mojstri je nenavadna naloga, saj ne gre za prenovo, temveč za dokončanje gradnje. \n\nMedtem ko na gradbišču pridno potekajo dela, se začnejo odpirati situacije, ki bi lahko spremenile potek celotnega kampa. Ali bo ekipi uspelo uresničiti prvotno zamisel ali pa bo en poskus porušil vse načrte?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a5/f/f/a5ff1582-4454-463b-b786-cc073116bd44.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761181"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "13:20",
-      "cas_konec": "13:35",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761182"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "13:35",
-      "cas_konec": "14:50",
-      "trajanje": "75 min",
-      "naslov_sl": "S12E29 - MasterChef Slovenija",
-      "naslov_orig": "S12E29 - MasterChef Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Po nepričakovanem razpletu na izločitvenem testu so se razmerja povsem spremenila. Tekmovalci v kuhinjo stopijo z občutkom, da se tekmovanje začenja znova. Pričaka jih popolnoma preoblikovana MasterChef kuhinja s tremi različno opremljenimi kuharskimi postajami. \n\nŽreb odloči, kateri skupini pripada katera kuhinja. Sodniki pričakujejo dovršen fine dining krožnik, na katerem bo glavna zvezda paradižnik. Med kuhanjem sledi nov preobrat.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/2/1/b6216ca4-0427-457c-a018-3d93bf47c939.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761183"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "14:50",
-      "cas_konec": "15:00",
-      "trajanje": "10 min",
-      "naslov_sl": "Telestar",
-      "naslov_orig": "TELESTAR",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Preproste in uporabne rešitve za vsakdan.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761184"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "15:00",
-      "cas_konec": "16:10",
-      "trajanje": "70 min",
-      "naslov_sl": "S3E57 - Večerja za 5",
-      "naslov_orig": "S3E57 - Večera za 5",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2010",
-      "starostna_omejitev": "",
-      "opis": "Tekmovalci pogosto pripravijo zanimive specialitete, s katerimi razveselijo brbončice sotekmovalcev. Večerja je sestavljena iz predjedi, glavne jedi in sladice. Na koncu večera gostje komentirajo pogostitev in vzdušje ter podajo oceno gostitelju.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/7/c/777c90b2-1a2f-4e26-aa1f-83ad9066d4e6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761185"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "16:10",
-      "cas_konec": "16:45",
-      "trajanje": "35 min",
-      "naslov_sl": "S1E7 - Vrni se k meni",
-      "naslov_orig": "S1E7 - Vuelve a mí: Amelia conoce a Andrés",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "telenovela"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Nuria noče verjeti, da je njen sin mrtev, čeprav Faustu in načelniku policije uspe ustvariti prepričljivo prevaro. Zaradi velike bolečine si želi vzeti življenje, vendar ji v najtežjih trenutkih pomaga Santiago. \n\nAida poskuša Martho prepričati, naj poišče hčer, toda Martha se boji, da jo bo ta sovražila. Braulio sliši, kako Roberto Santiagu ponudi predsedniški položaj v podjetju. Amelia izve, da mora pri posvojitvi sodelovati tudi Braulio, dokler sta poročena.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/b/4/55b408b5-61dc-49c3-b5bc-e1978187ed87.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761186"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "16:45",
-      "cas_konec": "17:45",
-      "trajanje": "60 min",
-      "naslov_sl": "24UR popoldne",
-      "naslov_orig": "24UR popoldne",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761187",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "17:45",
-      "cas_konec": "18:45",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E112 - V dobrem in slabem",
-      "naslov_orig": "S2E112 - U dobru i zlu",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Miro se zaupa Tomi in Niki ter izrazi svoje dvome o Jakovovem nenadnem odhodu. Petra doma zaloti Joca, Veljka in Crnega sredi prepira ter ugotovi, da Joco njene grožnje z odhodom ni vzel resno. \n\nVuka medtem pretresejo nova spoznanja o Petri, ona pa vse bolj sumi, da pred njo nekaj skriva.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761188"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "18:45",
-      "cas_konec": "18:50",
-      "trajanje": "5 min",
-      "naslov_sl": "S6E4 - Moja Slovenija",
-      "naslov_orig": "S6E4 - Moja Slovenija",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "reportaža"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Skupaj z voditeljico Tayo Damjan odkrivamo nove kotičke, spoznavamo njihove zgodbe in zgodbe ljudi, ki jih ustvarjajo. \n\nPogledamo tudi v preteklost, kako so se kraji razvijali, kaj jih je zaznamovalo in kaj jim danes daje poseben značaj. \n\nIdealno za ideje o novih izletih ali obujanje spominov, kako čudovita je Slovenija.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/4/c/f84c96c1-1987-49a0-92d0-bef638cf95f1.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761189"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "18:50",
-      "cas_konec": "18:55",
-      "trajanje": "5 min",
-      "naslov_sl": "24UR vreme",
-      "naslov_orig": "24UR vreme",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "vreme"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/2/d/1f2d1fff-adfe-456e-8c78-5b1c3c221d84.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761191",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "18:55",
-      "cas_konec": "20:00",
-      "trajanje": "65 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761192",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "20:00",
-      "cas_konec": "21:30",
-      "trajanje": "90 min",
-      "naslov_sl": "S12E30 - MasterChef Slovenija",
-      "naslov_orig": "S12E30 - MasterChef Slovenija",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Individualni izziv pokaže, kako bogata, raznolika in okusna je azijska kulinarika. Nekateri lahko košarice do vrha napolnijo v bogato založeni trgovini, spet drugi lahko na presenečenje vseh pobrskajo po njihovih košaricah in vzamejo vse, kar jim zadiši. \n\nNaloga pošteno preizkuša željo po zmagi, poštenost in iznajdljivost, pokaže pa tudi občutek za ustvarjanje azijskih jedi. Eno jed sodniki okličejo za najboljšo japonsko jed vseh sezon!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/8/0/e38051a3-839b-47df-931d-6192a8d60146.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761193"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "21:30",
-      "cas_konec": "22:20",
-      "trajanje": "50 min",
-      "naslov_sl": "24UR zvečer",
-      "naslov_orig": "24UR zvečer",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761194",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "22:20",
-      "cas_konec": "23:15",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E16 - Matlock: Primer Johnson",
-      "naslov_orig": "S1E16 - Matlock: The Johnson Case",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Olympia prevzame zahteven primer moškega, ki je bil pred več kot dvajsetimi leti obsojen za umor, zdaj pa se pojavijo novi dokazi, ki postavljajo sodbo pod vprašaj. Medtem Matty nadaljuje svojo skrivno preiskavo in od ključne priče skuša izvabiti podatek o izginulih dokumentih. Toda kmalu ugotovi, da tudi nekdo drug pozorno spremlja vsak njen korak.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/1/b/601bfe17-8cb6-4713-8790-1d3d9ec9f39f.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761195"
-    },
-    {
-      "datum": "2026-10-20",
-      "dan": "Torek",
-      "cas": "23:15",
-      "cas_konec": "00:10",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E6 - Kar težki primeri",
-      "naslov_orig": "S2E6 - Pretty Hard Cases: Life Jacket",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Naz pod krinko tihotapca Stuja skuša prodreti v vrste nevarne tolpe prek sumljivega Willa Frencha. Vse poteka po načrtu, dokler Will skoraj ne zaloti Sam in Naza v akciji. Medtem Len Kelly preseneti z nepričakovano ponudbo. Prihod Willove nepredvidljive sestre Adeline pa vse skupaj spremeni v popoln kaos.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/c/9/91c9345d-79ac-4d00-91de-f2c288997028.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167761196"
     },
     {
       "datum": "2026-10-14",
@@ -7985,6 +6897,1094 @@
       "opis": "Sam in Kelly sledita Adeline, a ju pot pripelje do lažne jasnovidke s presenetljivo povezavo s Frenchovima. Med lovom na prevarantko detektivki dobita še nepričakovano lekcijo o lastnem življenju. Sam pa se začne spraševati, ali je njen odnos z Nazom res na pravi poti.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a7/d/0/a7d0bd6d-5d86-416c-b311-a5d9b1c56bd3.jpg",
       "show_id": "CUP_IECOM_POPTV_1170985463"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "00:25",
+      "cas_konec": "01:20",
+      "trajanje": "55 min",
+      "naslov_sl": "S5E2 - Hudson in Rex: Smrtni udarec",
+      "naslov_orig": "S5E2 - Hudson & Rex: Punch Drunk Glove",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Ko se izkaže, da bi Charliejev odtujeni brat Jack lahko bil odgovoren za smrt boksarskega nasprotnika, se detektiv znajde v kočljivi situaciji. \n\nEkipa se poglobi v temačni svet boksa, kjer odkrijejo zamolčane skrivnosti, zamere in zlorabe iz preteklosti. Bo iskanje resnice zbližalo brata ali ju dokončno razdvojilo?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ba/4/1/ba414a4b-c486-4527-acf3-3e81c54d55e5.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167743238"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "01:20",
+      "cas_konec": "02:10",
+      "trajanje": "50 min",
+      "naslov_sl": "S5E3 - Hudson in Rex: K nogi, Donovan, k nogi!",
+      "naslov_orig": "S5E3 - Hudson & Rex: Run, Donovan, Run",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Ko mora Donovana poskrbeti za prevoz zapornika Watsona, ki je hkrati njegov nekdanji partner, se znova odprejo boleče rane iz preteklosti. \n\nA Donovan ne ve, da ima Watson skrivne načrte za pobeg - in ko gre vse narobe, se Donovan znajde v rokah nevarne kriminalne združbe. Medtem pa Jesse poskuša rešiti dolgo pozabljen primer…",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/2/f/e32f741e-316a-4c62-a4f9-a4b5cbbcf775.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167743239"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "02:10",
+      "cas_konec": "03:15",
+      "trajanje": "65 min",
+      "naslov_sl": "S12E29 - MasterChef Slovenija",
+      "naslov_orig": "S12E29 - MasterChef Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Po nepričakovanem razpletu na izločitvenem testu so se razmerja povsem spremenila. Tekmovalci v kuhinjo stopijo z občutkom, da se tekmovanje začenja znova. Pričaka jih popolnoma preoblikovana MasterChef kuhinja s tremi različno opremljenimi kuharskimi postajami. \n\nŽreb odloči, kateri skupini pripada katera kuhinja. Sodniki pričakujejo dovršen fine dining krožnik, na katerem bo glavna zvezda paradižnik. Med kuhanjem sledi nov preobrat.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/2/1/b6216ca4-0427-457c-a018-3d93bf47c939.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167743240"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "03:15",
+      "cas_konec": "04:15",
+      "trajanje": "60 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167743241"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "04:15",
+      "cas_konec": "06:00",
+      "trajanje": "105 min",
+      "naslov_sl": "S1E28 - Pavza!",
+      "naslov_orig": "S1E28 - Pavza!",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167743242"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "06:00",
+      "cas_konec": "06:40",
+      "trajanje": "40 min",
+      "naslov_sl": "24UR zvečer",
+      "naslov_orig": "24UR zvečer",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761171"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "06:40",
+      "cas_konec": "07:45",
+      "trajanje": "65 min",
+      "naslov_sl": "S2E18 - Najini mostovi",
+      "naslov_orig": "S2E18 - Najini mostovi",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Ivan pove Robertu za sodelovanje Monike in Kristjana. Boris Kseniji ponudi pomoč v vinogradu. Kristjan je jezen, ker njegov načrt z Ivanom ni uspel. Domen zaupa Valeriji svoje težave z denarjem. \n\nMonika Kristjanu predlaga, da bi sama odšla po dokumente v Ivanov sef. Vito prosi Ksenijo za uslugo. Suzana vidi Moniko, ko vzame ključe, in novico takoj sporoči Robertu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/6/9/d5690adf-0fa2-4cd0-8f82-d889346cbce4.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761172"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "07:45",
+      "cas_konec": "07:50",
+      "trajanje": "5 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761173"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "07:50",
+      "cas_konec": "08:05",
+      "trajanje": "15 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761174"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "08:05",
+      "cas_konec": "09:05",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E111 - V dobrem in slabem",
+      "naslov_orig": "S2E111 - U dobru i zlu",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Veljko zaman prepričuje vse okoli sebe, da ni spal s Petro in da je pravzaprav sam žrtev nesporazuma, a se zapleta v vedno nove prepire. Zrinka naleti na Crnega, ki jo povabi v gostilno na pogovor. \n\nPetra je presenečena, ko izve, da bi Vuk lahko preprečil Jocovo razmerje z Nevenko, Sanja pa Miru pokaže pismo, ki ga je Jakov poslal Loreni.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761175"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "09:05",
+      "cas_konec": "09:20",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/2/4/bd24fce2-f9ce-4f99-9b1f-18e2f6edf0e2.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761176"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "09:20",
+      "cas_konec": "10:15",
+      "trajanje": "55 min",
+      "naslov_sl": "S2E37 - Po poti resnice",
+      "naslov_orig": "S2E37 - Yargi",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Ilgaza in Erena pripelje preiskava na teraso, kjer je bil umorjen Serdar. Pokličeta tudi forenzike, da zberejo vse dokaze. Medtem se Ceylin sooči s svojo družino in tako izve, da so ji lagali glede Serdarja, zato vse odpelje na policijsko postajo. Lacin obišče Yekto v novi pisarni in mu na obisk pripelje njegovega sina.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/f/e/f6fef5f0-6c3a-4912-95e0-850203423b5b.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761177"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "10:15",
+      "cas_konec": "10:30",
+      "trajanje": "15 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761178"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "10:30",
+      "cas_konec": "11:30",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E38 - Po poti resnice",
+      "naslov_orig": "S2E38 - Yargi",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Lacin skrbi za Omerja kot za svojega sina, medtem ko Metin raziskuje, ali je gospa Ayten res mama otroka, ki živi z njo. Medtem Ceylin pripelje vso družino na policijsko postajo, kjer končno vsi povedo resnico glede tega, kaj se je dogajalo tisti dan, ko je umrl Serdar.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/f/e/f6fef5f0-6c3a-4912-95e0-850203423b5b.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761179"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "11:30",
+      "cas_konec": "12:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761180"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "12:00",
+      "cas_konec": "13:15",
+      "trajanje": "75 min",
+      "naslov_sl": "S9E7 - Delovna akcija: društvo Križemrok 1/2",
+      "naslov_orig": "S9E7 - Delovna akcija: društvo Križemrok 1/2",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Društvo Križemrok je organizacija, ki otrokom omogoča kampiranje in brezskrben stik z naravo, predvsem otrokom iz socialno ogroženih družin ter otrokom s posebnimi potrebami. Pred mojstri je nenavadna naloga, saj ne gre za prenovo, temveč za dokončanje gradnje. \n\nMedtem ko na gradbišču pridno potekajo dela, se začnejo odpirati situacije, ki bi lahko spremenile potek celotnega kampa. Ali bo ekipi uspelo uresničiti prvotno zamisel ali pa bo en poskus porušil vse načrte?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a5/f/f/a5ff1582-4454-463b-b786-cc073116bd44.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761181"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "13:15",
+      "cas_konec": "13:30",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761182"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "13:30",
+      "cas_konec": "14:50",
+      "trajanje": "80 min",
+      "naslov_sl": "S12E29 - MasterChef Slovenija",
+      "naslov_orig": "S12E29 - MasterChef Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Po nepričakovanem razpletu na izločitvenem testu so se razmerja povsem spremenila. Tekmovalci v kuhinjo stopijo z občutkom, da se tekmovanje začenja znova. Pričaka jih popolnoma preoblikovana MasterChef kuhinja s tremi različno opremljenimi kuharskimi postajami. \n\nŽreb odloči, kateri skupini pripada katera kuhinja. Sodniki pričakujejo dovršen fine dining krožnik, na katerem bo glavna zvezda paradižnik. Med kuhanjem sledi nov preobrat.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/2/1/b6216ca4-0427-457c-a018-3d93bf47c939.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761183"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "14:50",
+      "cas_konec": "15:00",
+      "trajanje": "10 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761184"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "15:00",
+      "cas_konec": "16:10",
+      "trajanje": "70 min",
+      "naslov_sl": "S3E57 - Večerja za 5",
+      "naslov_orig": "S3E57 - Večera za 5",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "",
+      "opis": "Tekmovalci pogosto pripravijo zanimive specialitete, s katerimi razveselijo brbončice sotekmovalcev. Večerja je sestavljena iz predjedi, glavne jedi in sladice. Na koncu večera gostje komentirajo pogostitev in vzdušje ter podajo oceno gostitelju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/7/c/777c90b2-1a2f-4e26-aa1f-83ad9066d4e6.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761185"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "16:10",
+      "cas_konec": "16:45",
+      "trajanje": "35 min",
+      "naslov_sl": "S1E7 - Vrni se k meni",
+      "naslov_orig": "S1E7 - Vuelve a mí: Amelia conoce a Andrés",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "telenovela"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Nuria noče verjeti, da je njen sin mrtev, čeprav Faustu in načelniku policije uspe ustvariti prepričljivo prevaro. Zaradi velike bolečine si želi vzeti življenje, vendar ji v najtežjih trenutkih pomaga Santiago. \n\nAida poskuša Martho prepričati, naj poišče hčer, toda Martha se boji, da jo bo ta sovražila. Braulio sliši, kako Roberto Santiagu ponudi predsedniški položaj v podjetju. Amelia izve, da mora pri posvojitvi sodelovati tudi Braulio, dokler sta poročena.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/b/4/55b408b5-61dc-49c3-b5bc-e1978187ed87.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761186"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "16:45",
+      "cas_konec": "17:05",
+      "trajanje": "20 min",
+      "naslov_sl": "24UR popoldne",
+      "naslov_orig": "24UR popoldne",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761187",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "17:05",
+      "cas_konec": "17:45",
+      "trajanje": "40 min",
+      "naslov_sl": "S1E7 - Vrni se k meni",
+      "naslov_orig": "S1E7 - Vuelve a mí: Amelia conoce a Andrés",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "telenovela"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Nuria noče verjeti, da je njen sin mrtev, čeprav Faustu in načelniku policije uspe ustvariti prepričljivo prevaro. Zaradi velike bolečine si želi vzeti življenje, vendar ji v najtežjih trenutkih pomaga Santiago. \n\nAida poskuša Martho prepričati, naj poišče hčer, toda Martha se boji, da jo bo ta sovražila. Braulio sliši, kako Roberto Santiagu ponudi predsedniški položaj v podjetju. Amelia izve, da mora pri posvojitvi sodelovati tudi Braulio, dokler sta poročena.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/55/b/4/55b408b5-61dc-49c3-b5bc-e1978187ed87.jpg",
+      "show_id": "CUP_IECOM_POPTV_1173295746"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "17:45",
+      "cas_konec": "18:45",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E112 - V dobrem in slabem",
+      "naslov_orig": "S2E112 - U dobru i zlu",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Miro se zaupa Tomi in Niki ter izrazi svoje dvome o Jakovovem nenadnem odhodu. Petra doma zaloti Joca, Veljka in Crnega sredi prepira ter ugotovi, da Joco njene grožnje z odhodom ni vzel resno. \n\nVuka medtem pretresejo nova spoznanja o Petri, ona pa vse bolj sumi, da pred njo nekaj skriva.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761188"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "18:45",
+      "cas_konec": "18:50",
+      "trajanje": "5 min",
+      "naslov_sl": "S6E4 - Moja Slovenija",
+      "naslov_orig": "S6E4 - Moja Slovenija",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "reportaža"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Skupaj z oddajo bomo odkrivali skrite kotičke, ki se jih splača obiskati, in doživetja, ki jih nikakor ne gre izpustiti. Poleg tega bomo spoznali tudi lokalno in regionalno kulinariko, tradicionalne dobrote, ki jih pripravljajo tako najboljši kuharski mojstri in mojstrice kot izkušene domače kuharice in kuharji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/4/c/f84c96c1-1987-49a0-92d0-bef638cf95f1.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761189"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "18:50",
+      "cas_konec": "18:55",
+      "trajanje": "5 min",
+      "naslov_sl": "24UR vreme",
+      "naslov_orig": "24UR vreme",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "vreme"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/8/1fe89ffe-238a-4646-bae2-061622b57e2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761191",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "18:55",
+      "cas_konec": "20:10",
+      "trajanje": "75 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761192",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "20:10",
+      "cas_konec": "21:30",
+      "trajanje": "80 min",
+      "naslov_sl": "S12E30 - MasterChef Slovenija",
+      "naslov_orig": "S12E30 - MasterChef Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Individualni izziv pokaže, kako bogata, raznolika in okusna je azijska kulinarika. Nekateri lahko košarice do vrha napolnijo v bogato založeni trgovini, spet drugi lahko na presenečenje vseh pobrskajo po njihovih košaricah in vzamejo vse, kar jim zadiši. \n\nNaloga pošteno preizkuša željo po zmagi, poštenost in iznajdljivost, pokaže pa tudi občutek za ustvarjanje azijskih jedi. Eno jed sodniki okličejo za najboljšo japonsko jed vseh sezon!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/8/0/e38051a3-839b-47df-931d-6192a8d60146.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761193"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "21:30",
+      "cas_konec": "22:20",
+      "trajanje": "50 min",
+      "naslov_sl": "24UR zvečer",
+      "naslov_orig": "24UR zvečer",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761194",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "22:20",
+      "cas_konec": "23:10",
+      "trajanje": "50 min",
+      "naslov_sl": "S1E16 - Matlock: Primer Johnson",
+      "naslov_orig": "S1E16 - Matlock: The Johnson Case",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Olympia prevzame zahteven primer moškega, ki je bil pred več kot dvajsetimi leti obsojen za umor, zdaj pa se pojavijo novi dokazi, ki postavljajo sodbo pod vprašaj. Medtem Matty nadaljuje svojo skrivno preiskavo in od ključne priče skuša izvabiti podatek o izginulih dokumentih. Toda kmalu ugotovi, da tudi nekdo drug pozorno spremlja vsak njen korak.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/1/b/601bfe17-8cb6-4713-8790-1d3d9ec9f39f.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761195"
+    },
+    {
+      "datum": "2026-10-20",
+      "dan": "Torek",
+      "cas": "23:10",
+      "cas_konec": "00:05",
+      "trajanje": "55 min",
+      "naslov_sl": "S2E6 - Kar težki primeri",
+      "naslov_orig": "S2E6 - Pretty Hard Cases: Life Jacket",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Naz pod krinko tihotapca Stuja skuša prodreti v vrste nevarne tolpe prek sumljivega Willa Frencha. Vse poteka po načrtu, dokler Will skoraj ne zaloti Sam in Naza v akciji. Medtem Len Kelly preseneti z nepričakovano ponudbo. Prihod Willove nepredvidljive sestre Adeline pa vse skupaj spremeni v popoln kaos.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/91/c/9/91c9345d-79ac-4d00-91de-f2c288997028.jpg",
+      "show_id": "CUP_IECOM_POPTV_1167761196"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "00:25",
+      "cas_konec": "01:20",
+      "trajanje": "55 min",
+      "naslov_sl": "S5E12 - Hudson in Rex: Črni seznam",
+      "naslov_orig": "S5E12 - Hudson & Rex: Lost Lives Club",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Ko priljubljeni fizioterapevt postane žrtev umora, se ekipa znajde v moralni dilemi, saj se izkaže, da so glavne osumljenke ženske, ki so ga obtožile spolnega nasilja. \n\nMedtem ko Charlie in Rex razkrivata temno ozadje zločina, si Donovan prizadeva pridobiti zaupanje matere žrtve napada, da bi zbral pomembne informacije in ustavil morilca.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c5/f/d/c5fd76fc-3727-45e1-8706-555db4f8575c.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170985464"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "01:20",
+      "cas_konec": "02:15",
+      "trajanje": "55 min",
+      "naslov_sl": "S5E13 - Hudson in Rex: Primer Miranda",
+      "naslov_orig": "S5E13 - Hudson & Rex: The Miranda Act",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Charliejeva teta Miranda in njene prijateljice se znajdejo v središču prevarantske investicijske sheme. Kljub opozorilom se Miranda sama loti raziskovanja, a ko pride do umora, hitro postane jasno, da je na kocki več kot le prihranki. \n\nBo ekipi uspelo razkriti prevarante, preden Miranda in njene prijateljice postanejo naslednje žrtve smrtonosne prevare?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/99/e/f/99ef5c14-a36c-4d8d-970a-1062b266a783.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170985465"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "02:15",
+      "cas_konec": "03:15",
+      "trajanje": "60 min",
+      "naslov_sl": "S12E33 - MasterChef Slovenija",
+      "naslov_orig": "S12E33 - MasterChef Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovalci se podajo v zadnji boj za značko imunitete. Tisti, ki jo bo osvojil, bo pridobil veliko prednost na poti do finala! Izbirajo lahko med dvema hudičevo zahtevnima sladicama. \n\nNa eni strani je bel, na drugi rdeč cvet in odločitev ne prinese veliko dobrega. Upanje za imuniteto pri marsikomu ugasne že ob koncu kuhanja, saj izziva enostavno ne uspejo zaključiti. Bodo sodniki kljub vsemu našli sladico, vredno imunitete?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c5/3/4/c5345959-7a06-4fc7-81a8-597fde97bf71.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170985466"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "03:15",
+      "cas_konec": "04:15",
+      "trajanje": "60 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170985467"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "04:15",
+      "cas_konec": "06:00",
+      "trajanje": "105 min",
+      "naslov_sl": "S1E27 - Pavza!",
+      "naslov_orig": "S1E27 - Pavza!",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170985468"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "24UR zvečer",
+      "naslov_orig": "24UR zvečer",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989970"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "07:00",
+      "cas_konec": "07:05",
+      "trajanje": "5 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989971"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "07:05",
+      "cas_konec": "07:20",
+      "trajanje": "15 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989972"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "07:20",
+      "cas_konec": "08:30",
+      "trajanje": "70 min",
+      "naslov_sl": "S2E23 - Najini mostovi",
+      "naslov_orig": "S2E23 - Najini mostovi",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Tanja je na tleh zaradi novice, ki ji jo pove Kristjan. Dragica poskuša prepričati Lovra, naj jima z Domnom pusti, da ga odpeljeta v Idrijo. Robert obljubi Suzani, da bo priznal njuno razmerje. \n\nKsenija pove Tanji, da jo želi Boris zapustiti. Suzana se pohvali Valeriji, da ji je nov avto kupil njen ljubimec. Kristjanu sporočijo, da se je Franjino stanje poslabšalo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/6/9/d5690adf-0fa2-4cd0-8f82-d889346cbce4.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989973"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "08:30",
+      "cas_konec": "08:45",
+      "trajanje": "15 min",
+      "naslov_sl": "TV prodaja",
+      "naslov_orig": "TV prodaja",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Program TV prodaje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/2/4/bd24fce2-f9ce-4f99-9b1f-18e2f6edf0e2.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989974"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "08:45",
+      "cas_konec": "09:50",
+      "trajanje": "65 min",
+      "naslov_sl": "S2E116 - V dobrem in slabem",
+      "naslov_orig": "S2E116 - U dobru i zlu",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Toma, Nika in Miro so pretreseni, ko ugotovijo, da je Crni na najslabši možni način rešil težavo z Zoranom, s tem pa je izginila tudi pomembna sled za Jakovom. \n\nPetra in Marina medtem nadaljujeta svoj obračun, Veljko pa ne ve, da je Divna resno bolna. Petro in Loreno v Matkovi hiši pričaka Vuk z oporoko.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989975"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "09:50",
+      "cas_konec": "10:05",
+      "trajanje": "15 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989976"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "10:05",
+      "cas_konec": "11:05",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E46 - Po poti resnice",
+      "naslov_orig": "S2E46 - Yargi",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Aylin ni huje poškodovana. Cinar v domačem nabiralniku pusti denar. Yekta zaslišijo, ker vedo, da je bil na smetišču, a ničesar ne prizna. Ceylin ve, da je Serdarja ubila Parla. \n\nDobi se z Yekto, ki od nje zahteva, da nekoga ubije, sicer bo posnetek poslal Ilgazu, Parlo pa bodo zaprli. Arda sprašuje po ženi in hčerki. Pars se odloči, da bo prisluškoval Ceylinini družini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/f/e/f6fef5f0-6c3a-4912-95e0-850203423b5b.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989977"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "11:05",
+      "cas_konec": "11:35",
+      "trajanje": "30 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989978"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "11:35",
+      "cas_konec": "13:35",
+      "trajanje": "120 min",
+      "naslov_sl": "Bikec Ferdinand",
+      "naslov_orig": "Ferdinand",
+      "kategorija": "Film",
+      "zanr": [
+        "animirani"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "8+",
+      "opis": "Ferdinand je velik bik s še večjim srcem, ki bi raje vohal cvetlice kot se boril z matadorji. Zaradi nesporazuma mora od doma na pustolovščino.\r\n\r\nPotem ko so ga napačno ocenili kot nevarno razuzdano zver, Ferdinanda zvežejo in odpeljejo od doma. Odločen, da se bo vrnil k družini, zbere druščino skrajnih značajev in se odpravi neverjetni pustolovščini naproti. \n\nZgodba o Ferdinandu dokazuje, da ne smemo imeti predsodkov ter ne smemo nikogar soditi samo po videzu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9d/a/f/9daf641b-950c-4a3d-8e58-c9c1fb63ecd3.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989979"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "13:35",
+      "cas_konec": "13:50",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989980"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "13:50",
+      "cas_konec": "15:05",
+      "trajanje": "75 min",
+      "naslov_sl": "S12E33 - MasterChef Slovenija",
+      "naslov_orig": "S12E33 - MasterChef Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Tekmovalci se podajo v zadnji boj za značko imunitete. Tisti, ki jo bo osvojil, bo pridobil veliko prednost na poti do finala! Izbirajo lahko med dvema hudičevo zahtevnima sladicama. \n\nNa eni strani je bel, na drugi rdeč cvet in odločitev ne prinese veliko dobrega. Upanje za imuniteto pri marsikomu ugasne že ob koncu kuhanja, saj izziva enostavno ne uspejo zaključiti. Bodo sodniki kljub vsemu našli sladico, vredno imunitete?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c5/3/4/c5345959-7a06-4fc7-81a8-597fde97bf71.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989981"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "15:05",
+      "cas_konec": "15:15",
+      "trajanje": "10 min",
+      "naslov_sl": "Telestar",
+      "naslov_orig": "TELESTAR",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Preproste in uporabne rešitve za vsakdan.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/98/4/4/9844fa1e-5f8f-4979-8b37-0fccd0ad2914.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989982"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "15:15",
+      "cas_konec": "16:20",
+      "trajanje": "65 min",
+      "naslov_sl": "S3E62 - Večerja za 5",
+      "naslov_orig": "S3E62 - Večera za 5",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2010",
+      "starostna_omejitev": "",
+      "opis": "Tekmovalci pogosto pripravijo zanimive specialitete, s katerimi razveselijo brbončice sotekmovalcev. Večerja je sestavljena iz predjedi, glavne jedi in sladice. Na koncu večera gostje komentirajo pogostitev in vzdušje ter podajo oceno gostitelju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/7/c/777c90b2-1a2f-4e26-aa1f-83ad9066d4e6.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989983"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "16:20",
+      "cas_konec": "16:45",
+      "trajanje": "25 min",
+      "naslov_sl": "S1E12 - Vrni se k meni",
+      "naslov_orig": "S1E12 - Vuelve a mí: Poderoso caballero es Don Dinero",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "telenovela"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Ko si noseča ženska premisli, da bi otroka dala v posvojitev, se Amelii podre svet, Brauliu pa prekriža načrte. Braulio mladenki grozi, pri tem pa ne sluti, da jo bo Amelia povabila, naj se preseli k njima. \n\nConsuelo preseneti Jacintova novica, da bi bil Andres lahko še vedno živ. Ko o tem vpraša Fausta, jo ta spomni, da je prav on identificiral dečkovo truplo, nato pa jo zaprosi za roko. Socialna delavka zavrne Diegovo prošnjo za posvojitev Andresa.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ee/8/e/ee8e82f6-0db3-46af-9992-df78c82b08b0.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989984"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "16:45",
+      "cas_konec": "17:55",
+      "trajanje": "70 min",
+      "naslov_sl": "24UR popoldne",
+      "naslov_orig": "24UR popoldne",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989985",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "17:55",
+      "cas_konec": "18:45",
+      "trajanje": "50 min",
+      "naslov_sl": "S2E117 - V dobrem in slabem",
+      "naslov_orig": "S2E117 - U dobru i zlu",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Veljko želi govoriti z mamo, vendar Divna od njega zahteva, naj se odseli iz stanovanja. Vuk Jocu predlaga, naj sprejme delo v misijonu in tako poskuša svoje življenje spraviti v red. \n\nZrinka začne slediti Crnemu in odkrije, da je povezan z Jakovovim izginotjem. Veljko se medtem poslovi od Joca, nato pa mora Marini sporočiti slabo novico.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bd/a/6/bda651ad-aa12-427e-a1a2-392c16439e69.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989986"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "18:45",
+      "cas_konec": "18:50",
+      "trajanje": "5 min",
+      "naslov_sl": "S6E5 - Moja Slovenija",
+      "naslov_orig": "S6E5 - Moja Slovenija",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "reportaža"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Skupaj z oddajo bomo odkrivali skrite kotičke, ki se jih splača obiskati, in doživetja, ki jih nikakor ne gre izpustiti. Poleg tega bomo spoznali tudi lokalno in regionalno kulinariko, tradicionalne dobrote, ki jih pripravljajo tako najboljši kuharski mojstri in mojstrice kot izkušene domače kuharice in kuharji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/4/c/f84c96c1-1987-49a0-92d0-bef638cf95f1.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989987"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "18:50",
+      "cas_konec": "18:55",
+      "trajanje": "5 min",
+      "naslov_sl": "24UR vreme",
+      "naslov_orig": "24UR vreme",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "vreme"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/8/1fe89ffe-238a-4646-bae2-061622b57e2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989988",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "18:55",
+      "cas_konec": "20:00",
+      "trajanje": "65 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989989",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "20:00",
+      "cas_konec": "21:30",
+      "trajanje": "90 min",
+      "naslov_sl": "S12E34 - MasterChef Slovenija",
+      "naslov_orig": "S12E34 - MasterChef Slovenija",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Nocoj tekmovalce čaka izziv v parih. S strani sodnikov so razdeljeni na pol, na kreativce in realizatorje. Naloga kreativcev je, da zase in svoj par zasnujejo krožnik, s katerim bi oba prišla na balkon, cilj pa ustvaritev dveh popolnoma identičnih krožnikov tako po izgledu kot po okusu. \n\nKomunikacijo med tekmovalcema še dodatno otežuje zid, ki onemogoča pogled na kuhanje. Edina vez med njima so besede. Pred nami je najbolj glasen izziv te sezone!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/7/6/ad764060-b13e-4f15-ad53-c68bd342977d.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989990"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "21:30",
+      "cas_konec": "22:20",
+      "trajanje": "50 min",
+      "naslov_sl": "24UR zvečer",
+      "naslov_orig": "24UR zvečer",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989991",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "22:20",
+      "cas_konec": "23:15",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E17 - Matlock: To sem bil tudi jaz",
+      "naslov_orig": "S1E17 - Matlock: I Was That, Too",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Olympia pomaga noseči Amy, ki želi čim prej pobegniti iz nasilnega zakona, vendar se hitro izkaže, da bi ji ločitev lahko prinesla še hujše posledice. \n\nMed iskanjem pravne rešitve se Matty trudi znova pridobiti Olympiino zaupanje in ji razkrije razlog za svojo skrivno preiskavo. Bo njuno zavezništvo dovolj trdno, da bosta lahko skupaj rešili tudi ta primer?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/5/2/0b52eccd-4492-4e1c-84e6-1d631dfd23f8.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989992"
+    },
+    {
+      "datum": "2026-10-27",
+      "dan": "Torek",
+      "cas": "23:15",
+      "cas_konec": "00:10",
+      "trajanje": "55 min",
+      "naslov_sl": "S2E10 - Kar težki primeri",
+      "naslov_orig": "S2E10 - Pretty Hard Cases: Worm Drive",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Potem ko izgine ključni dokaz, Sam in Kelly posumita, da se v policijskih vrstah skriva vohun. Ker sta izključeni iz preiskave, se prijavita na seminar o duševnem zdravju in začneta lov na izdajalca. Sam mora Nazu priznati resnico, ki jo skriva pred njim, Michaels pa pride do presenetljivega spoznanja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e6/0/a/e60ab977-de06-4669-bab3-58a3d52e4b37.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170989993"
     }
   ]
 }
