@@ -1,735 +1,10 @@
 {
   "kanal": "Arena Sport 1 Premium",
   "ch_ext_id": "arena-sport-1-premium",
-  "posodobljeno": "2026-10-23 12:26",
-  "od": "2026-10-16",
-  "do": "2026-10-30",
+  "posodobljeno": "2026-10-24 12:26",
+  "od": "2026-10-17",
+  "do": "2026-10-31",
   "oddaje": [
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "00:05",
-      "cas_konec": "01:00",
-      "trajanje": "55 min",
-      "naslov_sl": "Premier League 2026/27: Pregled 6. kroga",
-      "naslov_orig": "Premier League Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "V tej športni oddaji vam prinašamo najboljše trenutke iz angleške Premier lige, intervjuje in analizo tekem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879394",
-      "friendly_id": "premier_league_2026_27_pregled_6_kroga_dadaf6fb"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "01:00",
-      "cas_konec": "03:30",
-      "trajanje": "150 min",
-      "naslov_sl": "Hokej (M): F. Panthers - Canucks, NHL 2026/2027",
-      "naslov_orig": "Hokej: NHL: Florida Panthers - Vancouver Canucks",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/d/c/bcdc01c8-6d0f-4aca-bf0d-d09726f9b412.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879395",
-      "zivo": true,
-      "friendly_id": "hokej_m_f_panthers__canucks_nhl_2026_2027_03c70a62"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "03:30",
-      "cas_konec": "04:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Zgodbe iz Premier lige: Umetnost zabjanja golov",
-      "naslov_orig": "Premier League Stories",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Športna oddaja prinaša pregled razburljivih tekem in utrinkov iz angleške Premier lige. Vabljeni k ogledu!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1170073550",
-      "friendly_id": "zgodbe_iz_premier_lige_umetnost_zabjanja_golov_46c3c41a"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "04:00",
-      "cas_konec": "06:30",
-      "trajanje": "150 min",
-      "naslov_sl": "Hokej (M): Vegas Knights - C. Flames, NHL 2026/2027",
-      "naslov_orig": "Hokej: NHL: Vegas Golden Knights - Calgary Flames",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/d/c/bcdc01c8-6d0f-4aca-bf0d-d09726f9b412.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879397",
-      "zivo": true,
-      "friendly_id": "hokej_m_vegas_knights__c_flames_nhl_2026_2027_590667b8"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "06:30",
-      "cas_konec": "07:00",
-      "trajanje": "30 min",
-      "naslov_sl": "Zgodbe iz Premier lige: Mavericks",
-      "naslov_orig": "Premier League Stories",
-      "kategorija": "Šport",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Športna oddaja prinaša pregled razburljivih tekem in utrinkov iz angleške Premier lige. Vabljeni k ogledu!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879428",
-      "friendly_id": "zgodbe_iz_premier_lige_mavericks_f8717dc5"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "07:00",
-      "cas_konec": "08:55",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Southampton - Portsmouth, Championship 2026/2027",
-      "naslov_orig": "Nogomet: Championship: Southampton - Portsmouth",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Championshipa, drugega najmočnejšega ligaškega tekmovanja v Angliji. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/2/e/f72e9dd0-6baf-4d5e-9b37-bfd303fd61ff.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879429",
-      "friendly_id": "nogomet_m_southampton__portsmouth_championship_2026_2027_7e25d969"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "08:55",
-      "cas_konec": "10:50",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Sunderland  - Brighton, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Sunderland - Brighton",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/2/e/f72e9dd0-6baf-4d5e-9b37-bfd303fd61ff.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879430",
-      "friendly_id": "nogomet_m_sunderland___brighton_premier_liga_2026_2027_9a0978ff"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "10:50",
-      "cas_konec": "12:45",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Stoke City - Middlesb., Championship 2026/2027",
-      "naslov_orig": "Nogomet: Championship: Stoke City - Middlesbrough",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Championshipa, drugega najmočnejšega ligaškega tekmovanja v Angliji. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879431",
-      "friendly_id": "nogomet_m_stoke_city__middlesb_championship_2026_2027_0a338700"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "12:45",
-      "cas_konec": "13:15",
-      "trajanje": "30 min",
-      "naslov_sl": "Premier League 2026/27: Pregled 6. kroga",
-      "naslov_orig": "Premier League Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "V tej športni oddaji vam prinašamo najboljše trenutke iz angleške Premier lige, intervjuje in analizo tekem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879432",
-      "friendly_id": "premier_league_2026_27_pregled_6_kroga_7ad46df7"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "13:15",
-      "cas_konec": "15:10",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Lincoln Town - West Ham, Championship 2026/2027",
-      "naslov_orig": "Nogomet: Championship: Lincoln City - West Ham United",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu Championshipa, drugega najmočnejšega ligaškega tekmovanja v Angliji. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879433",
-      "friendly_id": "nogomet_m_lincoln_town__west_ham_championship_2026_2027_3b15e004"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "15:10",
-      "cas_konec": "15:25",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E59 - AS Podkast",
-      "naslov_orig": "S0E59 - AS Podkast",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "pogovorna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879434"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "15:25",
-      "cas_konec": "17:20",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Aston Villa - Brentford, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Aston Villa - Brentford",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/2/e/f72e9dd0-6baf-4d5e-9b37-bfd303fd61ff.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879435",
-      "friendly_id": "nogomet_m_aston_villa__brentford_premier_liga_2026_2027_617bbf6d"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "17:20",
-      "cas_konec": "19:15",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Chelsea - Bournemouth, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Chelsea - Bournemouth",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/2/e/f72e9dd0-6baf-4d5e-9b37-bfd303fd61ff.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879436",
-      "friendly_id": "nogomet_m_chelsea__bournemouth_premier_liga_2026_2027_b9fddbde"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "19:15",
-      "cas_konec": "20:10",
-      "trajanje": "55 min",
-      "naslov_sl": "Končnica EHF Lige prvakov",
-      "naslov_orig": "Born Rivals",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/7/e/867ee06c-afec-4315-bc55-731f4934379c.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879437"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "20:10",
-      "cas_konec": "20:45",
-      "trajanje": "35 min",
-      "naslov_sl": "Serie A 2026/27: Napoved 7. kroga",
-      "naslov_orig": "Italian Serie A Preview",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Vabljeni k ogledu napovedi Serie A, najmočnejše nogometne lige v Italiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879438",
-      "friendly_id": "serie_a_2026_27_napoved_7_kroga_e52b3f26"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "20:45",
-      "cas_konec": "22:50",
-      "trajanje": "125 min",
-      "naslov_sl": "Nogomet (M): Frosinone - Sassuolo, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Frosinone - Sassuolo",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879439",
-      "zivo": true,
-      "friendly_id": "nogomet_m_frosinone__sassuolo_serie_a_2026_2027_5284fbec"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "22:50",
-      "cas_konec": "23:20",
-      "trajanje": "30 min",
-      "naslov_sl": "Premier League 2026/27: Napoved 7. kroga",
-      "naslov_orig": "Premier League Preview",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879440",
-      "friendly_id": "premier_league_2026_27_napoved_7_kroga_68c25f64"
-    },
-    {
-      "datum": "2026-10-16",
-      "dan": "Petek",
-      "cas": "23:20",
-      "cas_konec": "01:15",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Liverpool - Man City, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Liverpool - Manchester City",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/2/e/f72e9dd0-6baf-4d5e-9b37-bfd303fd61ff.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1166879441",
-      "friendly_id": "nogomet_m_liverpool__man_city_premier_liga_2026_2027_db1ff3ef"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "01:30",
-      "cas_konec": "03:25",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Brentford - Liverpool, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Brentford - Liverpool",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/01/2/4/0124c9e8-18d1-40eb-a6aa-1ec491131463.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704247",
-      "friendly_id": "nogomet_m_brentford__liverpool_premier_liga_2026_2027_f0f9c553"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "03:25",
-      "cas_konec": "03:55",
-      "trajanje": "30 min",
-      "naslov_sl": "Premier League 2026/27: Napoved 8. kroga",
-      "naslov_orig": "Premier League Preview",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704256",
-      "friendly_id": "premier_league_2026_27_napoved_8_kroga_41332177"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "03:55",
-      "cas_konec": "05:50",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Man City - Ipswich, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Manchester City - Ipswich Town",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704254",
-      "friendly_id": "nogomet_m_man_city__ipswich_premier_liga_2026_2027_f85993e8"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "05:50",
-      "cas_konec": "07:45",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Nott. Forest - Arsenal, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Nottingham Forest - Arsenal",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/01/2/4/0124c9e8-18d1-40eb-a6aa-1ec491131463.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704249",
-      "friendly_id": "nogomet_m_nott_forest__arsenal_premier_liga_2026_2027_d16167f9"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "07:45",
-      "cas_konec": "08:00",
-      "trajanje": "15 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610240545_202610240600"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "08:00",
-      "cas_konec": "09:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610240600_202610240700"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610240700_202610240800"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610240800_202610240900"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610240900_202610241000"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241000_202610241100"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241100_202610241200"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241200_202610241300"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241300_202610241400"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241400_202610241500"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241500_202610241600"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241600_202610241700"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241700_202610241800"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241800_202610241900"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610241900_202610242000"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610242000_202610242100"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Neznana oddaja",
-      "naslov_orig": "Neznana oddaja",
-      "kategorija": "",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/89/0/d/890d6087-d772-4bdf-96b1-43ddd3bf97c2.png",
-      "show_id": "CUP_FAKE_ARENAPREMIUM_202610242100_202610242200"
-    },
     {
       "datum": "2026-10-17",
       "dan": "Sobota",
@@ -1302,25 +577,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
       "show_id": "CUP_IECOM_ARENAPREMIUM_1167784941",
       "friendly_id": "nogomet_m_brentford__liverpool_premier_liga_2026_2027_b68db06b"
-    },
-    {
-      "datum": "2026-10-24",
-      "dan": "Sobota",
-      "cas": "23:35",
-      "cas_konec": "01:35",
-      "trajanje": "120 min",
-      "naslov_sl": "Nogomet (M): Ipswich - Nott. Forest, Premier liga 2026/2027",
-      "naslov_orig": "Nogomet: Premier League: Ipswich Town - Nottingham Forest",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704244",
-      "friendly_id": "nogomet_m_ipswich__nott_forest_premier_liga_2026_2027_f31f0542"
     },
     {
       "datum": "2026-10-25",
@@ -4663,6 +3919,746 @@
       "show_id": "CUP_IECOM_ARENAPREMIUM_1172992491",
       "zivo": true,
       "friendly_id": "nogomet_m_sheffield_utd__wrexham_afc_championship_2026_2027_06d5246a"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "01:30",
+      "cas_konec": "02:00",
+      "trajanje": "30 min",
+      "naslov_sl": "EFL Championship 2026/27: Pregled 11. kroga",
+      "naslov_orig": "EFL Championship Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173952861",
+      "friendly_id": "efl_championship_2026_27_pregled_11_kroga_d3b5962b"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "02:00",
+      "cas_konec": "03:25",
+      "trajanje": "85 min",
+      "naslov_sl": "Bejzbol (M): M. Brewers - T. B. Rays, MLB 2026, Končnica",
+      "naslov_orig": "Baseball: MLB: Končnica - World Series: Milwaukee Brewers - Tampa Bay Rays, 1. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "bejzbol"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte MLB, najmočnejše tekmovanje v bejzbolu, ki poteka v Severni Ameriki. Ustanovljeno je bilo leta 1876.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/d/60ade8c0-fe8e-45fc-af2a-d3fc61818c82.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173952862",
+      "zivo": true,
+      "friendly_id": "bejzbol_m_m_brewers__t_b_rays_mlb_2026_koncnica_80ad332f"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "03:25",
+      "cas_konec": "03:55",
+      "trajanje": "30 min",
+      "naslov_sl": "Premier League 2026/27: Napoved 8. kroga",
+      "naslov_orig": "Premier League Preview",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704256",
+      "friendly_id": "premier_league_2026_27_napoved_8_kroga_41332177"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "03:55",
+      "cas_konec": "05:05",
+      "trajanje": "70 min",
+      "naslov_sl": "Nogomet (M): Man City - Ipswich, Premier liga 2026/2027",
+      "naslov_orig": "Nogomet: Premier League: Manchester City - Ipswich Town",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704254",
+      "friendly_id": "nogomet_m_man_city__ipswich_premier_liga_2026_2027_f85993e8"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "05:05",
+      "cas_konec": "05:50",
+      "trajanje": "45 min",
+      "naslov_sl": "S0E60 - AS Podkast",
+      "naslov_orig": "S0E60 - AS Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173952863"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "05:50",
+      "cas_konec": "07:45",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Nott. Forest - Arsenal, Premier liga 2026/2027",
+      "naslov_orig": "Nogomet: Premier League: Nottingham Forest - Arsenal",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704249",
+      "friendly_id": "nogomet_m_nott_forest__arsenal_premier_liga_2026_2027_d16167f9"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "07:45",
+      "cas_konec": "08:00",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E60 - AS Podkast",
+      "naslov_orig": "S0E60 - AS Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704251"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "08:00",
+      "cas_konec": "08:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Premier League 2026/27: Napoved 8. kroga",
+      "naslov_orig": "Premier League Preview",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704252",
+      "friendly_id": "premier_league_2026_27_napoved_8_kroga_302553e3"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "08:30",
+      "cas_konec": "10:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Ipswich - Nott. Forest, Premier liga 2026/2027",
+      "naslov_orig": "Nogomet: Premier League: Ipswich Town - Nottingham Forest",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704245",
+      "friendly_id": "nogomet_m_ipswich__nott_forest_premier_liga_2026_2027_90fb28f6"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "10:30",
+      "cas_konec": "12:25",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Bolton W. - Middlesb., Championship 2026/2027",
+      "naslov_orig": "Nogomet: Championship: Bolton - Middlesbrough",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Championshipa, drugega najmočnejšega ligaškega tekmovanja v Angliji. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/2/e/f72e9dd0-6baf-4d5e-9b37-bfd303fd61ff.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704242",
+      "friendly_id": "nogomet_m_bolton_w__middlesb_championship_2026_2027_112d6392"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "12:25",
+      "cas_konec": "14:20",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Reading - Leyton O., League 1 2026/2027",
+      "naslov_orig": "Nogomet: League 1: Reading - Leyton Orient",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704255",
+      "friendly_id": "nogomet_m_reading__leyton_o_league_1_2026_2027_49181ee8"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "14:20",
+      "cas_konec": "15:00",
+      "trajanje": "40 min",
+      "naslov_sl": "Premier League 2026/27: Napoved 8. kroga",
+      "naslov_orig": "Premier League Preview",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704246",
+      "friendly_id": "premier_league_2026_27_napoved_8_kroga_68926df4"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "15:00",
+      "cas_konec": "17:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Como - Sassuolo, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Como - Sassuolo",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704243",
+      "zivo": true,
+      "friendly_id": "nogomet_m_como__sassuolo_serie_a_2026_2027_4660b3d0"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "17:00",
+      "cas_konec": "17:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Veliki intervju Premier lige: Michael Carrick",
+      "naslov_orig": "Premier League: The Big Interview",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704241",
+      "friendly_id": "veliki_intervju_premier_lige_michael_carrick_6fc0faad"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "17:30",
+      "cas_konec": "18:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E9 - Športne igre mladih 2026/27",
+      "naslov_orig": "S0E9 - Sportske igre mladih",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športne igre mladih so dogodek, ki zbere mlade iz vse Evrope. Organizirajo se od leta 1996, ko so se prvič odvile v Splitu, danes se odvijajo v Sloveniji, Bosni in Hercegovini, Srbiji in na Hrvaškem in so največji amaterski športni dogodek v tem delu Evrope. Osnovnošolci in srednješolci se pomerijo v desetih športnih disciplinah, najboljši pa napredujejo v mednarodni finale.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704253"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "18:00",
+      "cas_konec": "20:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Napoli - Roma, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Napoli - Roma",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/7/4/f474ea67-639a-4821-af27-68e38249492b.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704250",
+      "zivo": true,
+      "friendly_id": "nogomet_m_napoli__roma_serie_a_2026_2027_8b3b6889"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "20:00",
+      "cas_konec": "22:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Bolton W. - Middlesb., Championship 2026/2027",
+      "naslov_orig": "Nogomet: Championship: Bolton - Middlesbrough",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Championshipa, drugega najmočnejšega ligaškega tekmovanja v Angliji. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/2/e/f72e9dd0-6baf-4d5e-9b37-bfd303fd61ff.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704248",
+      "friendly_id": "nogomet_m_bolton_w__middlesb_championship_2026_2027_f4f936fb"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "22:00",
+      "cas_konec": "23:35",
+      "trajanje": "95 min",
+      "naslov_sl": "Gogis Garage / Podkast: Danilo Gallinari",
+      "naslov_orig": "Gogis Garage / Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704257"
+    },
+    {
+      "datum": "2026-10-24",
+      "dan": "Sobota",
+      "cas": "23:35",
+      "cas_konec": "01:30",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Ipswich - Nott. Forest, Premier liga 2026/2027",
+      "naslov_orig": "Nogomet: Premier League: Ipswich Town - Nottingham Forest",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1170704244",
+      "friendly_id": "nogomet_m_ipswich__nott_forest_premier_liga_2026_2027_f31f0542"
+    },
+    {
+      "datum": "2026-10-30",
+      "dan": "Petek",
+      "cas": "23:00",
+      "cas_konec": "01:30",
+      "trajanje": "150 min",
+      "naslov_sl": "Hokej (M): Vegas Knights - Devils, NHL 2026/2027",
+      "naslov_orig": "Hokej: NHL: Vegas Golden Knights - New Jersey Devils",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/d/c/bcdc01c8-6d0f-4aca-bf0d-d09726f9b412.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1172992674",
+      "zivo": true,
+      "friendly_id": "hokej_m_vegas_knights__devils_nhl_2026_2027_aee878e3"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "01:30",
+      "cas_konec": "02:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Premier League 2026/27: Napoved 9. kroga",
+      "naslov_orig": "Premier League Preview",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/1/d/f81dd87e-b789-4163-9e4d-e1e466a51012.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956426",
+      "friendly_id": "premier_league_2026_27_napoved_9_kroga_2d2c53cc"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "02:00",
+      "cas_konec": "04:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Fleetwood - Arsenal, EFL Cup 2026/2027, Osmina finala",
+      "naslov_orig": "Nogomet: EFL Cup: Osmina finala: Fleetwood Town - Arsenal",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Angleškega ligaškega pokala. Gre za nogometno tekmovanje, ki se ga udeležijo angleški klubi iz Premier lige in treh nižjih lig. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/6/d/0b6d9026-1c45-45dc-ab0d-74f56bdd0595.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956430",
+      "friendly_id": "nogomet_m_fleetwood__arsenal_efl_cup_2026_2027_osmina_finala_56854ec7"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "04:00",
+      "cas_konec": "04:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Zgodbe iz Premier lige: Roberto Di Matteo",
+      "naslov_orig": "Premier League Stories",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športna oddaja prinaša pregled razburljivih tekem in utrinkov iz angleške Premier lige. Vabljeni k ogledu!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/3/b/7e3b9234-46ca-45e3-812c-04a0ecfaf7c8.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956434",
+      "friendly_id": "zgodbe_iz_premier_lige_roberto_di_matteo_e8cfbf7b"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "04:30",
+      "cas_konec": "06:25",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Walsall  - Salford City, League 2 2026/2027",
+      "naslov_orig": "Nogomet: League 2: Walsall - Salford City",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "\"League Two\" je tretje najvišje rangirano tekmovanje v \"The Football League\" in četrto najvišje rangirano v angleškem nogometnem sistemu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956435",
+      "friendly_id": "nogomet_m_walsall___salford_city_league_2_2026_2027_f9a2484a"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "06:25",
+      "cas_konec": "08:25",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Liverpool - Chelsea, EFL Cup 2026/2027, Osmina finala",
+      "naslov_orig": "Nogomet: EFL Cup: Osmina finala: Liverpool - Chelsea",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Angleškega ligaškega pokala. Gre za nogometno tekmovanje, ki se ga udeležijo angleški klubi iz Premier lige in treh nižjih lig. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/6/d/0b6d9026-1c45-45dc-ab0d-74f56bdd0595.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956436",
+      "friendly_id": "nogomet_m_liverpool__chelsea_efl_cup_2026_2027_osmina_finala_ab78981a"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "08:25",
+      "cas_konec": "08:55",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E4 - Ma Super Ligue 1",
+      "naslov_orig": "S0E4 - Ma super Ligue 1",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/a/b/7bab9591-5ff7-4059-be54-c1fe137aa682.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1174695061",
+      "friendly_id": "ma_super_ligue_1_c7a215cb"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "08:55",
+      "cas_konec": "10:55",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Sheffield Utd - Wrexham AFC, Championship 2026/2027",
+      "naslov_orig": "Nogomet: Championship: Sheffield United - Wrexham",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Championshipa, drugega najmočnejšega ligaškega tekmovanja v Angliji. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3f/9/3/3f938069-824b-44ae-b820-0859d5584dd5.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956437",
+      "friendly_id": "nogomet_m_sheffield_utd__wrexham_afc_championship_2026_2027_a1e983d8"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "10:55",
+      "cas_konec": "12:55",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Man City - Brighton, EFL Cup 2026/2027, Osmina finala",
+      "naslov_orig": "Nogomet: EFL Cup: Osmina finala: Manchester City - Brighton",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Angleškega ligaškega pokala. Gre za nogometno tekmovanje, ki se ga udeležijo angleški klubi iz Premier lige in treh nižjih lig. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/6/d/0b6d9026-1c45-45dc-ab0d-74f56bdd0595.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956444",
+      "friendly_id": "nogomet_m_man_city__brighton_efl_cup_2026_2027_osmina_finala_e019a40f"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "12:55",
+      "cas_konec": "13:30",
+      "trajanje": "35 min",
+      "naslov_sl": "Premier League 2026/27: Napoved 9. kroga",
+      "naslov_orig": "Premier League Preview",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/1/d/f81dd87e-b789-4163-9e4d-e1e466a51012.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956441",
+      "friendly_id": "premier_league_2026_27_napoved_9_kroga_a5aec22a"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "13:30",
+      "cas_konec": "15:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Nogomet (M): Stoke City -  Preston, Championship 2026/2027",
+      "naslov_orig": "Nogomet: Championship: Stoke City - Preston North End",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu Championshipa, drugega najmočnejšega ligaškega tekmovanja v Angliji. ",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3f/9/3/3f938069-824b-44ae-b820-0859d5584dd5.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956431",
+      "zivo": true,
+      "friendly_id": "nogomet_m_stoke_city___preston_championship_2026_2027_d58729d8"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "15:30",
+      "cas_konec": "15:45",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E10 - Športne igre mladih 2026/27",
+      "naslov_orig": "S0E10 - Sportske igre mladih",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "zabava"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športne igre mladih so dogodek, ki zbere mlade iz vse Evrope. Organizirajo se od leta 1996, ko so se prvič odvile v Splitu, danes se odvijajo v Sloveniji, Bosni in Hercegovini, Srbiji in na Hrvaškem in so največji amaterski športni dogodek v tem delu Evrope. Osnovnošolci in srednješolci se pomerijo v desetih športnih disciplinah, najboljši pa napredujejo v mednarodni finale.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956429"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "15:45",
+      "cas_konec": "16:30",
+      "trajanje": "45 min",
+      "naslov_sl": "Premier League 2026/27: Napoved 9. kroga",
+      "naslov_orig": "Premier League Preview",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte športno oddajo, ki prinaša najpomembnejše novice in informacije pred prihajajočim krogom Premier lige.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f8/1/d/f81dd87e-b789-4163-9e4d-e1e466a51012.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956432",
+      "friendly_id": "premier_league_2026_27_napoved_9_kroga_dd2c734f"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "16:30",
+      "cas_konec": "17:00",
+      "trajanje": "30 min",
+      "naslov_sl": "ABA Liga 2026/27: Arena s terena",
+      "naslov_orig": "Košarka: ABA liga: Arena s terena",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/1/5/491576c8-fa27-4842-a9ac-50922155371e.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956438",
+      "friendly_id": "aba_liga_2026_27_arena_s_terena_dc8c6dab"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "17:00",
+      "cas_konec": "19:15",
+      "trajanje": "135 min",
+      "naslov_sl": "Košarka (M): Cedevita - FMP, ABA liga 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: ABA liga: Cedevita Olimpija - FMP",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/1/5/491576c8-fa27-4842-a9ac-50922155371e.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956433",
+      "friendly_id": "kosarka_m_cedevita__fmp_aba_liga_2026_2027_skupina_a_f9f7f947"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "19:15",
+      "cas_konec": "19:45",
+      "trajanje": "30 min",
+      "naslov_sl": "Carabao Cup 2026/27: Pregled: Osmina finala",
+      "naslov_orig": "EFL Cup Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/d/e/27ded0c7-c460-4717-aa33-d8d092c47550.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956428",
+      "friendly_id": "carabao_cup_2026_27_pregled_osmina_finala_8dbb4dda"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "19:45",
+      "cas_konec": "20:00",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E60 - AS Podkast",
+      "naslov_orig": "S0E60 - AS Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956439"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Končnica EHF Lige prvakinj 2026",
+      "naslov_orig": "The Magic Moment",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956440"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "21:00",
+      "cas_konec": "23:30",
+      "trajanje": "150 min",
+      "naslov_sl": "Hokej (M): L.A. Kings - Buffalo Sabres , NHL 2026/2027",
+      "naslov_orig": "Hokej: NHL: Los Angeles Kings - Buffalo Sabres",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/d/c/bcdc01c8-6d0f-4aca-bf0d-d09726f9b412.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956442",
+      "zivo": true,
+      "friendly_id": "hokej_m_la_kings__buffalo_sabres__nhl_2026_2027_9e197d87"
+    },
+    {
+      "datum": "2026-10-31",
+      "dan": "Sobota",
+      "cas": "23:30",
+      "cas_konec": "00:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Carabao Cup 2026/27: Pregled: Osmina finala",
+      "naslov_orig": "EFL Cup Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/d/e/27ded0c7-c460-4717-aa33-d8d092c47550.jpg",
+      "show_id": "CUP_IECOM_ARENAPREMIUM_1173956443",
+      "friendly_id": "carabao_cup_2026_27_pregled_osmina_finala_54d83e99"
     }
   ]
 }
