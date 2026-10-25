@@ -1,573 +1,10 @@
 {
   "kanal": "Pop TV",
   "ch_ext_id": "pop-tv",
-  "posodobljeno": "2026-10-24 12:25",
-  "od": "2026-10-17",
-  "do": "2026-10-31",
+  "posodobljeno": "2026-10-25 12:25",
+  "od": "2026-10-18",
+  "do": "2026-11-01",
   "oddaje": [
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "00:45",
-      "cas_konec": "01:45",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E1 - Hudson in Rex: Izgubljen v pustinji",
-      "naslov_orig": "S5E1 - Hudson & Rex: Lost in the Barrens",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "V peti sezoni serije se Charlie in Rex soočata z najnevarnejšimi primeri doslej. Tokrat izgine mlada vplivnica med raziskovanjem opustošene pokrajine. V zadnji objavi je zapisala, da se boji svojega fanta, ki takoj postane glavni osumljenec. \n\nMedtem ko fant molči, pa lokalna skupnost zahteva odgovore. Bo ekipi uspelo pravočasno odkriti resnico, preden bližnji vzamejo pravico v svoje roke?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/3/f/733f7ee1-6d76-4423-8db4-c7e1febb7015.jpg",
-      "show_id": "CUP_IECOM_POPTV_1166172287"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "01:45",
-      "cas_konec": "02:50",
-      "trajanje": "65 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1166172328"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "02:50",
-      "cas_konec": "05:35",
-      "trajanje": "165 min",
-      "naslov_sl": "S1E1 - Pavza!",
-      "naslov_orig": "S1E1 - Pavza!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
-      "show_id": "CUP_IECOM_POPTV_1166172288"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "05:35",
-      "cas_konec": "06:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E34 - Pavza!",
-      "naslov_orig": "S1E34 - Pavza!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
-      "show_id": "CUP_IECOM_POPTV_1171687503"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "06:00",
-      "cas_konec": "06:20",
-      "trajanje": "20 min",
-      "naslov_sl": "24UR zvečer",
-      "naslov_orig": "24UR zvečer",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Informativna oddaja 24UR zvečer je na programu vsak delovnik od ponedeljka do petka. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/a/0/72a0cac1-5559-4d53-a7a4-717de36d4f4d.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509216"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "06:20",
-      "cas_konec": "06:40",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E109 - 24UR Inšpektor: Vitamin D",
-      "naslov_orig": "S1E109 - 24UR Inšpektor: Vitamin D",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Kako pomemben je vitamin D za naše zdravje? Ga dobimo dovolj od sonca, hrane? Zakaj ga je priporočljivo dodajati pozimi? Kakšne so najnovejše ugotovitve in potencialni vpliv na odpornost in kosti?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/6/c/b46c47fa-716e-4b8d-ab66-10889069cd7b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1171691170"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "06:40",
-      "cas_konec": "06:55",
-      "trajanje": "15 min",
-      "naslov_sl": "S2E15 - Maša in medved: Kapo dol",
-      "naslov_orig": "S2E15 - Masha i Medved: Hat Trick",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "",
-      "opis": "Medvedu jo zagode molj, ki se spravi nad njegovo hiško. Med kramo, ki jo medved vrže na prag, da bi lažje našel molja, Maša najde kapo. Kapo, ki te naredi nevidnega. In zabava se začne!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a7/c/d/a7cdfad9-8aca-4c01-a310-8426649e8039.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509218"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "06:55",
-      "cas_konec": "07:15",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E36 - Barbapapa: Srečna družina!: Male pošasti",
-      "naslov_orig": "S1E36 - Barbapapa en famille: Les petits monstres",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Barbamalčki prespijo v dnevni sobi. Ker se bojijo pošasti iz omare, nastavijo pasti, da bi jih ujeli.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/a/a/dcaa43a1-99c8-46f8-a93e-0e5063916f5a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509219"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "07:15",
-      "cas_konec": "07:25",
-      "trajanje": "10 min",
-      "naslov_sl": "S2E47 - Smrkci: Zelika se slabo počuti",
-      "naslov_orig": "S2E47 - Les Schtroumpfs: Leaf's Under the Weather",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "8+",
-      "opis": "Zjutraj je v Smrčji vasi vse narobe. Enkrat je mrzlo, nato vroče, spet hladno, to pa zato, ker je Zelika zbolela. Če želijo končati to noro vreme, ki ogroža gozd in njegove prebivalce, morajo Smrkci storite vse potrebno, da se vila narave pozdravi. Gargamel pa hoče izkoristiti nerodni trenutek, da bi ukradel Zelikino čarobno paličico.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/58/9/d/589d3e26-200d-4ce3-a416-5dcce78796e8.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509220"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "07:25",
-      "cas_konec": "07:50",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E50 - PJ Masks: Pižamarji: Poleti v nebo, Sovica!",
-      "naslov_orig": "S1E50 - PJ Masks: Take to the Skies, Owlette",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Nindžamrak ukrade letala, ki so del zračnega luping šova. Ukrasti hoče še vsa preostala zračna plovila v mestu, dokler ne bo edini in najboljši letalec na nebu. \n\nSovica izgubi svojo samozavest pri letenju, ker ji v prvem poskusu ne uspe ustaviti Nindžamraka. Če Pižamarji želijo rešiti svet, bo morala Sovica spet najti samozaupanje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/8/3/f683c4d1-d05e-49d7-9659-850de11e7635.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509221"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "07:50",
-      "cas_konec": "08:15",
-      "trajanje": "25 min",
-      "naslov_sl": "S2E7 - Samorogova akademija: Skrivni tempelj 1. del",
-      "naslov_orig": "S2E7 - Unicorn Academy: Hidden Temple part 1",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Najstnica Sophia obiskuje čarobno Akademijo samorogov, ki se nahaja na skrivnostnem otoku. Tam učenci živijo skupaj s samorogi in varujejo čarobnost otoka. \r\n\r\nSophijin samorog se imenuje Wildstar. Žival je močna in ponosna. Oba se morata naučiti postati ekipa in razviti svoje magične moči. \r\n\r\nVendar pa zlobna čarovnica želi uničiti akademijo. Sophia in njeni prijatelji, tako imenovani Safirji, se morajo s pogumom zoperstaviti tej grožnji. Pri tem doživijo številne pustolovščine.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/3/3/29333a18-1892-4137-871b-517dc3a0d5ea.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509222"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "08:15",
-      "cas_konec": "08:35",
-      "trajanje": "20 min",
-      "naslov_sl": "S3E8 - Gabijina mačja hišica: Pravi vilinski prijatelji",
-      "naslov_orig": "S3E8 - Gabby's Dollhouse: True Fairy Friends",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Na pravljični vilinski vrt se je naselila svetlinka, posebna vrsta minimicene vile, ki živi samo v bližini pravih vilinskih prijateljev. Pridnih, prijaznih in gostoljubnih ljudi. Svetlinka tako vodi Gabi in Pandija do hišice pravljičnih vil.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/8/c/578c55f0-a1c5-43a4-b955-6bc25a19e4c6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509223"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "08:35",
-      "cas_konec": "09:00",
-      "trajanje": "25 min",
-      "naslov_sl": "S3E9 - Gabijina mačja hišica: Miguli očki",
-      "naslov_orig": "S3E9 - Gabby's Dollhouse: Googly Eyes",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Gabi dobi čaroben kozarček z miguli očki, na katerem je pomembno opozorilo. Kozarčka se ne sme tresti, sicer se bodo nad mačjo hišico zgrnile poredne težave. Seveda nekdo dobro ve, kako se povzročajo težave. To je Mucon, ki seveda kozarec takoj strese.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/8/c/578c55f0-a1c5-43a4-b955-6bc25a19e4c6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509224"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "09:00",
-      "cas_konec": "09:20",
-      "trajanje": "20 min",
-      "naslov_sl": "S10E6 - Spuži Kvadratnik: Življenjsko zavarovanje / Vožnja malo drugače",
-      "naslov_orig": "S10E6 - SpongeBob SquarePants: Life Insurance & Burst Your Bubble",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Spuži in Patrik slišita pogovor o življenjskem zavarovanju, ki pa ga napačno razumeta. Prepričana sta, da sta z njim nepremagljiva in se jima nič ne more zgoditi, zato začneta izvajati nevarne podvige. Spuži si naredi čoln iz mehurčka in njegova inovacija postane tako priljubljena, da hoče imeti vsak prebivalec svojega. Začnejo se pojavljati težave, gospa Napih pa je zato slabe volje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9d/0/9/9d09eaaf-8c41-4a9e-aee8-dcc493765331.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509225"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "09:20",
-      "cas_konec": "09:45",
-      "trajanje": "25 min",
-      "naslov_sl": "S10E7 - Spuži Kvadratnik: Plankton se upokoji / Težave s trizobom",
-      "naslov_orig": "S10E7 - SpongeBob SquarePants: Trident Trouble / Plankton Retires",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Plankton zapre svojo restavracijo Vedro košte in oznani, da se bo upokojil. Gospod Rakar je navdušen, saj se je tako znebil največjega tekmeca, a kmalu začne sumiti, da Plankton nekaj skriva. Spuži najde Neptunov čarobni trizob in ga uporablja pri vsakdanjih nalogah. Ker ima trizob nepredvidljivo moč, se mora Spuži najprej naučiti, kako odgovorno ravnati z močjo, ki ni njegova.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ed/0/3/ed03fca4-e77e-437a-a8a1-e991d524feba.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509226"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "09:45",
-      "cas_konec": "09:50",
-      "trajanje": "5 min",
-      "naslov_sl": "S1E13 - Super poklici: Super kuhar",
-      "naslov_orig": "S1E13 - Super poklici: Super kuhar",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "reportaža"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Tokrat bo prigrizek obvezen, saj spoznaš poklic, ob katerem bomo kar hitro postali lačni. Kuhar točno ve, kako pripraviti najboljšo juho, slastne pohančke in odlične palačinke. Če rad dobro ješ in ustvarjaš jedi, potem je to mogoče tvoj bodoči poklic!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a7/6/3/a763a6ed-0170-4ff1-96b5-0980c88e9ad1.jpg",
-      "show_id": "CUP_IECOM_POPTV_1171691171"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "09:50",
-      "cas_konec": "10:20",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E3 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
-      "naslov_orig": "S1E3 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "kulinarika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Luka je s partnerico zapustil mestni vrvež ter se preselil na podeželje, kjer želita na 7 hektarjih stare posesti ustvariti samooskrbno kmetijo in sčasoma butični kmečki turizem. \n\nOd obnove stavb, vrta, živali in rastlinjaka do kompostiranja, nabiralništva, trajnostne rabe vode in energije - vsak korak prinaša nove izzive, tudi napake. \n\nA prav te pokažejo, da pot do bolj zelenega življenja ni lahka, je pa lahko navdihujoča, pogumna in zelo resnična.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b5/e/b/b5eb96b2-f7f3-4207-9ef9-a9f4bb136615.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509227"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "10:20",
-      "cas_konec": "12:05",
-      "trajanje": "105 min",
-      "naslov_sl": "S8E20 - Ljubezen na vasi",
-      "naslov_orig": "S8E20 - Ljubav je na selu",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Voditeljica Anita postreže s presenečenjem - tudi Miroslav in Slovenec Jože sta dobila dovolj pisem, da lahko nadaljujeta z iskanjem ljubezni! \n\nPresenečenje, ki se ga ni nihče nadejal, je tudi pri Miju, ko prikoraka nova kandidatka Ruža, ki je povrhu še bikerica. Brankica je pošteno ljubosumna. Ivan punce odpelje na vožnjo s kanujem, ko nasproti privesla kanu z Vesno ...",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ed/2/8/ed284592-742f-41a6-be21-589648032b7f.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509228"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "12:05",
-      "cas_konec": "12:20",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509229"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "12:20",
-      "cas_konec": "13:55",
-      "trajanje": "95 min",
-      "naslov_sl": "S8E21 - Ljubezen na vasi",
-      "naslov_orig": "S8E21 - Ljubav je na selu",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Miroslav na posestvu sprejme Perko, Jasmino in Dragano. Ivan svoje punce preseneti z nočnim kopanjem in ena od deklet je še posebej razpoložena za gole izzive. \n\nPri Stjepanu Ljubica najprej preveri tokove podzemnih voda in energij, s čimer prestraši ostale ženske. Pri Radoslavu je na vrsti izločanje, seveda pa ne zamudi prilike, da ne bi omenil vseh napak svojih kandidatk.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ed/2/8/ed284592-742f-41a6-be21-589648032b7f.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509230"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "13:55",
-      "cas_konec": "14:10",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509231"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "14:10",
-      "cas_konec": "16:00",
-      "trajanje": "110 min",
-      "naslov_sl": "Kipchoge: Zadnji rekord",
-      "naslov_orig": "Kipchoge: The Last Milestone",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Portret legendarnega tekača na dolge proge in svetovnega maratonskega rekorderja.\r\n\r\nDokumentarni film spremlja kenijskega tekača Eliuda Kipchogeja med pripravami na enega zadnjih mejnikov v zgodovini športa: maraton bi rad pretekel v manj kot dveh urah. \n\nResnično navdihujoča zgodba, ki ponazarja Eliudov moto: noben človek ni omejen.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/8/b/718b0b56-ab1a-4f43-bda4-610bd8f0f0c7.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509232"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "16:00",
-      "cas_konec": "16:20",
-      "trajanje": "20 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509233"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "16:20",
-      "cas_konec": "17:40",
-      "trajanje": "80 min",
-      "naslov_sl": "S1E1 - NLB 30. Ljubljanski maraton",
-      "naslov_orig": "S1E1 - Ljubljanski maraton",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Ljubljanske ulice bodo znova polne tekačev, saj bo 17. in 18. oktobra potekal NLB 30. Ljubljanski maraton. Sobotni tek na 10 km je odličen uvod v nedeljskih 42 km. Ob 16.20 je štart sobotnega Garmin teka, ki je dolg 10 km. \n\nTrasa tekaške proge je ravninska, poteka po ulicah in cestah v središču mesta ter v njegovi okolici. Zasnovana je za doseganje hitrih časov, zato se pričakujejo novi rekordi. Start teka je na Slovenski cesti, cilj na Kongresnem trgu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b2/2/b/b22bf5ad-fa74-43cc-ab5a-70d01491dd4f.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509234",
-      "zivo": true,
-      "friendly_id": "nlb_30_ljubljanski_maraton_c1dbc1ff"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "17:40",
-      "cas_konec": "17:50",
-      "trajanje": "10 min",
-      "naslov_sl": "24UR popoldne",
-      "naslov_orig": "24UR popoldne",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509235",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "17:50",
-      "cas_konec": "18:50",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E10 - Gospod profesor: Beg",
-      "naslov_orig": "S1E10 - Gospod profesor: Beg",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Klavdija se odloči, da bo odšla z Jurijem. Zadnje ure na šoli jo čaka drama, kajti policija išče dijaka Rafaela, ki je izginil, preden bi ga z mlajšo sestrico poslali k mami v Francijo. Čeprav je zanju lepo skrbel oče, sodišče potegne z mamo. \n\nRafaelu na pomoč priskočita Samo in Klavdija, ki zaradi zmede nimata časa, da bi razčistila svoj odnos. Ko jo le prosi, naj ostane, ni jasno, ali ga bolj skrbi, če bo rekla ja ali ne. A čisto na koncu naredi odločilno potezo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/27/0/a/270afd90-6590-4f5f-b5c3-3855eac23e0c.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509236"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "18:50",
-      "cas_konec": "18:55",
-      "trajanje": "5 min",
-      "naslov_sl": "24UR vreme",
-      "naslov_orig": "24UR vreme",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "vreme"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/8/1fe89ffe-238a-4646-bae2-061622b57e2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509237",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "18:55",
-      "cas_konec": "20:00",
-      "trajanje": "65 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509238",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "20:00",
-      "cas_konec": "21:50",
-      "trajanje": "110 min",
-      "naslov_sl": "Vlomilci",
-      "naslov_orig": "Breaking In",
-      "kategorija": "Film",
-      "zanr": [
-        "akcija"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "15+",
-      "opis": "Po tragični smrti očeta se žalujoča Shaun s hčerko Jasmine in sinom Gloverjem odloči obiskati hišo, v kateri je odraščala.\r\n\r\nStavbo, ki je opremljena z naprednim varnostnim sistemom, namerava prodati. Toda Shaun kmalu odkrije, da v hiši niso sami, saj nevarni vlomilci, ki iščejo skriti sef, ugrabijo njena otroka. \n\nObupana Shaun je odločena, da bo storila vse, kar je v njeni moči, da zaustavi nepridiprave in reši svojo družino.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/93/0/3/9303e1ef-1118-4a13-aef2-cba9ba1f2772.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509239"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "21:50",
-      "cas_konec": "23:05",
-      "trajanje": "75 min",
-      "naslov_sl": "S1E28 - Otok ljubezni Adria",
-      "naslov_orig": "S1E28 - Love Island Adria",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Medtem ko Mili išče oporo pri drugih, Gašperjevi pogledi namigujejo, da bi se lahko kmalu začela povsem nova zgodba. Anamarija dobi skrivno nalogo, njena razvrstitev otočanov pa sproži dvome o iskrenosti in značaju. \n\nZa tem prispe sporočilo, ki spremeni pravila igre, saj tekmovalci brez para ne smejo izbrati nikogar, s komer so že bili v paru. Za koga bo to zadnji večer v vili?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c6/a/3/c6a3ab1d-fb77-4645-8d5d-854424873ae6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509240"
-    },
-    {
-      "datum": "2026-10-17",
-      "dan": "Sobota",
-      "cas": "23:05",
-      "cas_konec": "01:20",
-      "trajanje": "135 min",
-      "naslov_sl": "Na zmagovalni črti",
-      "naslov_orig": "Overcomer",
-      "kategorija": "Film",
-      "zanr": [
-        "drama"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "12+",
-      "opis": "V drami Na zmagovalni črti spremljamo trenerja Johna Harrisona, ki se mu čez noč podrejo sanje o košarkarskem prvenstvu.\r\n\r\nKo zaradi zaprtja tovarne mesto zapusti na stotine družin, se John znajde pred negotovo prihodnostjo. A nepričakovano srečanje z mlado tekačico, ki išče svoj smisel, postane začetek ganljive zgodbe o veri, vztrajnosti in odpuščanju.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f7/f/b/f7fb2595-5747-41d9-a0b2-f89783867122.jpg",
-      "show_id": "CUP_IECOM_POPTV_1167509241"
-    },
     {
       "datum": "2026-10-18",
       "dan": "Nedelja",
@@ -1059,495 +496,6 @@
       "opis": "Po tragični smrti očeta se žalujoča Shaun s hčerko Jasmine in sinom Gloverjem odloči obiskati hišo, v kateri je odraščala.\r\n\r\nStavbo, ki je opremljena z naprednim varnostnim sistemom, namerava prodati. Toda Shaun kmalu odkrije, da v hiši niso sami, saj nevarni vlomilci, ki iščejo skriti sef, ugrabijo njena otroka. \n\nObupana Shaun je odločena, da bo storila vse, kar je v njeni moči, da zaustavi nepridiprave in reši svojo družino.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/93/0/3/9303e1ef-1118-4a13-aef2-cba9ba1f2772.jpg",
       "show_id": "CUP_IECOM_POPTV_1167512419"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "01:35",
-      "cas_konec": "02:35",
-      "trajanje": "120 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170967161"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "02:35",
-      "cas_konec": "06:00",
-      "trajanje": "205 min",
-      "naslov_sl": "S1E9 - Pavza!",
-      "naslov_orig": "S1E9 - Pavza!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "glasba"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170967179"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "06:00",
-      "cas_konec": "06:20",
-      "trajanje": "20 min",
-      "naslov_sl": "S1E222 - 24UR Inšpektor: Študentsko delo se splača",
-      "naslov_orig": "S1E222 - 24UR Inšpektor: Študentsko delo se splača",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Študentsko delo je bolje plačano kot kdaj prej. Urna postavka je prvič presegla 10 evrov bruto. Koliko zaslužijo, zakaj delajo: za študij, bivanje, izkušnje, potovanja? Kaj pravijo študentje in delodajalci?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/6/c/b46c47fa-716e-4b8d-ab66-10889069cd7b.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976227"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "06:20",
-      "cas_konec": "06:35",
-      "trajanje": "15 min",
-      "naslov_sl": "S1E259 - 24UR Fokus: Zoran Stevanović",
-      "naslov_orig": "S1E259 - 24UR Fokus: Zoran Stevanović",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Obljubljal je boj proti lažem in korupciji, zanikal pravnomočne sodbe, zavračal sodelovanje z Janšo, danes je predsednik parlamenta ob podpori SDS. Kaj je ostalo od njegovih predvolilnih načel?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6f/4/7/6f47811d-9d55-479f-92f7-dd87176be7c2.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976230"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "06:35",
-      "cas_konec": "06:40",
-      "trajanje": "5 min",
-      "naslov_sl": "S1E31 - OTO čira čara",
-      "naslov_orig": "S1E31 - OTO čira čara",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "otroška oddaja"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/64/4/b/644be34f-a671-4157-b6f5-5f904a2745dd.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976234"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "06:40",
-      "cas_konec": "06:50",
-      "trajanje": "10 min",
-      "naslov_sl": "S2E21 - Maša in medved: Zmagovalni krik",
-      "naslov_orig": "S2E21 - Masha i Medved: Krik pobedy",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "",
-      "opis": "Maša se tokrat spopade z velikim tekmecem njenega dragega medota - črnim medvedom. Seveda je govora o spopadu v teniški partiji. Maša je veliko manjša, drobnejša in šibkejša od črnega medveda, je pa bolj zvita od njega. Zato se do zmage dokoplje s skrivnim orožjem…",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/be/1/a/be1ad790-a636-4c98-88a9-5b1aeb6ae81e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976239"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "06:50",
-      "cas_konec": "07:15",
-      "trajanje": "25 min",
-      "naslov_sl": "S1E42 - Barbapapa: Srečna družina!: Rojstni dan Barbamalčkov",
-      "naslov_orig": "S1E42 - Barbapapa en famille: L'anniversaire des Barbabébés",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Barbamalčki imajo rojstni dan. Vsak bi z Barbapapo počel nekaj drugega.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/3/3/4f334635-f856-4739-8c65-56e20810885d.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976243"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "07:15",
-      "cas_konec": "07:30",
-      "trajanje": "15 min",
-      "naslov_sl": "S2E50 - Smrkci: Gargamel, Kraljica maturantskega plesa",
-      "naslov_orig": "S2E50 - Les Schtroumpfs: Gargamel, Queen of the Prom",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Dekleta vse Smrkce povabijo na svoj veliki ples. A tudi Gargamel in Azrael se skrivaj preoblečeta v Smrkce. Gargamel hoče v koktajl vliti zlobni napoj in se enkrat za vselej znebiti Smrkcev. Toda ne računa na Begonijo in Divjega! Bo Smrkcem uspelo pravočasno razkrinkati prevaranta?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/70/8/4/7084d2c6-2e18-466f-bdb9-175e3583ab55.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976240"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "07:30",
-      "cas_konec": "07:45",
-      "trajanje": "15 min",
-      "naslov_sl": "S1E19 - PJ Masks: Pižamarji: Pazi na Gekota",
-      "naslov_orig": "S1E19 - PJ Masks: Looking After Gekko",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Zlobni Nindžamrak ukrade šolski avtobus in ga spremeni v svoje supervozilo. Junaški Pižamarji se takoj podajo v akcijo, a preden lahko ustavijo Nindžamraka v novem vozilu, se mora Geko najprej naučiti, da sprejeti pomoč od drugih ne pomeni, da si šibak.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/8/3/f683c4d1-d05e-49d7-9659-850de11e7635.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976235"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "07:45",
-      "cas_konec": "08:00",
-      "trajanje": "15 min",
-      "naslov_sl": "S2E12 - Samorogova akademija: Knjiga makrobe 2. del",
-      "naslov_orig": "S2E12 - Unicorn Academy: Book of Grim part 2",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "V čarobni šoli za samoroge se skrivajo starodavne skrivnosti, ki čakajo na pogumne junakinje in junake. \n\nSkupaj s samorogi odkrivajo skrite moči, rešujejo zagonetne skrivnosti in branijo akademijo pred temnimi silami. Pripravi se na svet, poln presenečenj, čarovnije in nepozabnih dogodivščin!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/3/3/29333a18-1892-4137-871b-517dc3a0d5ea.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976231"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "08:00",
-      "cas_konec": "08:25",
-      "trajanje": "25 min",
-      "naslov_sl": "S3E12 - Gabijina mačja hišica: Avtjuša, sladoledarski kombi",
-      "naslov_orig": "S3E12 - Gabby's Dollhouse: Carlita the Ice Cream Truck!",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Gabi v mijav mijav nabiralnik dobi dodatno opremo, s katero Avtjuša postane sladoledarski kombi. Ker gabimucki naravnost obožujejo sladoled, jim ga Avtjuša rade volje razvozi. A za dostavljanje sladolednih dobrot potrebuje sladoled, jedilnik in pesem.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/8/c/578c55f0-a1c5-43a4-b955-6bc25a19e4c6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976225"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "08:25",
-      "cas_konec": "08:45",
-      "trajanje": "20 min",
-      "naslov_sl": "S10E9 - Spuži Kvadratnik: Pobeg / Najdeni predmeti",
-      "naslov_orig": "S10E9 - SpongeBob SquarePants: The Getaway / Lost and Found",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Spuži bi se rad naučil voziti. A v avtu se znajde skupaj s pobeglim kaznjencem, za katerega je prepričan, da je njegov inštruktor vožnje. Spuži upošteva vsa navodila, to pa vodi v vrsto komičnih in nevarnih zapletov. \n\nGospod Rakar Spužija pošlje v skladišče izgubljenih predmetov, da tam poišče njegovo igračo. Spuži se znajde v labirintu pozabljenih stvari in nostalgičnih spominov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/2/3/bf23d2bb-1cfd-4df2-8531-d129fa5d54a9.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976241"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "08:45",
-      "cas_konec": "09:10",
-      "trajanje": "25 min",
-      "naslov_sl": "S10E10 - Spuži Kvadratnik: Patrikov kupon / Ko odbije zadnja ura",
-      "naslov_orig": "S10E10 - SpongeBob SquarePants: Patrick's Coupon/Out of the Picture",
-      "kategorija": "Otroški/Mladinski",
-      "zanr": [
-        "risanka"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Patrik dobi kupon za brezplačen sladoled, a pot do sladoleda je polna izzivov in vsekakor ni zastonj. Kako majhna nagrada lahko sproži tako veliko pustolovščino! Gospod Rakar kupi Markove umetnine in hitro ugotovi, da bi pridobile na vrednosti, če bi se znebil umetnika. Sledi vrsta komičnih poskusov Markove odstranitve. A Marko se ne da - umetnost ni pohlep!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/c/4/40c460de-86b9-4c08-afa8-33c01baaf885.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976244"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "09:10",
-      "cas_konec": "10:50",
-      "trajanje": "100 min",
-      "naslov_sl": "S8E24 - Ljubezen na vasi",
-      "naslov_orig": "S8E24 - Ljubav je na selu",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Prišel je čas za Jožeta Mastnaka, da tudi on na svoje posestvo sprejme svoje kandidatke. Nekatere od njih poznamo že z ostalih posestev. \n\nPri Anteju se nova kandidatka Victoria spoznava z ostalimi, a njena konkurenca o njej ne špara z besedami. Pred Mijom je izločitev. Njegova odločitev prinese solze, pa tudi olajšanje. Irena in Ines okoli Radoslavove hiše posadita nekaj cvetja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ed/2/8/ed284592-742f-41a6-be21-589648032b7f.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976228"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "10:50",
-      "cas_konec": "11:05",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976236"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "11:05",
-      "cas_konec": "12:45",
-      "trajanje": "100 min",
-      "naslov_sl": "S8E25 - Ljubezen na vasi",
-      "naslov_orig": "S8E25 - Ljubav je na selu",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Pri Stjepanu se dan začne z delovno akcijo, saj morajo njegove dame počistiti vikend. Miroslava čedalje bolj moti Jasminino obnašanje. \n\nSlovenec Jože se odloči, da bo svoje dame na veliko razvajal. Priredi jim nočno kopanje, zjutraj pa jim v posteljo prinese kavo. Branko in Ruža razrešita stare račune, Mijo in Brankica pa dan zaključita s poljubom ob sončnem zahodu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/9/a/0d9aec16-534f-40c2-975e-c8e0feeaaa68.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976245"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "12:45",
-      "cas_konec": "13:00",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976232"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "13:00",
-      "cas_konec": "14:50",
-      "trajanje": "110 min",
-      "naslov_sl": "Blondinka s Harvarda 2",
-      "naslov_orig": "Legally Blonde 2: Red, White & Blonde",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2003",
-      "starostna_omejitev": "12+",
-      "opis": "Elle Woods, najbolj ambiciozna blondinka v podobi simpatične Reese Witherspoon, se vrača.\r\n\r\nPo diplomi na Harvardu in službi v odvetniški firmi načrtuje poroko, a ko odkrije, da kozmetično podjetje testira izdelke na družinskih članih njenega kužka, se odloči ukrepati. \n\nZaradi protesta izgubi službo, a ne poguma. Odpravi se v Washington, kjer želi prepričati kongresnike in ustaviti poskuse na živalih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/e/0/57e098ba-7448-4bf6-b689-3c4eb7f2fe50.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976242"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "14:50",
-      "cas_konec": "15:05",
-      "trajanje": "15 min",
-      "naslov_sl": "Vaše zdravje, naša skrb",
-      "naslov_orig": "Vaše zdravje, naša skrb",
-      "kategorija": "Ostalo",
-      "zanr": [
-        "oglas"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976229"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "15:05",
-      "cas_konec": "16:55",
-      "trajanje": "110 min",
-      "naslov_sl": "Mali šef",
-      "naslov_orig": "The Boss Baby",
-      "kategorija": "Film",
-      "zanr": [
-        "animirani"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "8+",
-      "opis": "Animirana družinska komedija o dojenčku z razumom odraslega, ki z bratom skuša preprečiti zlobni načrt in rešiti človeštvo pred izgubo ljubezni.\r\n\r\n7-letni Tim hitro posumi, da z novim bratcem nekaj ni v redu, in kmalu ugotovi, da malček zna govoriti, hoditi ter snovati nenavadne načrte. \n\nMali šef mu razkrije, da morata združiti moči in ustaviti zlovešči načrt zlobneža Francisa, ki želi človeštvu ukrasti ljubezen.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/b/8/60b837f3-a37b-4bd3-9aa1-8e153c5231d3.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976246"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "16:55",
-      "cas_konec": "17:05",
-      "trajanje": "10 min",
-      "naslov_sl": "24UR popoldne",
-      "naslov_orig": "24UR popoldne",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976223",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "17:05",
-      "cas_konec": "18:20",
-      "trajanje": "75 min",
-      "naslov_sl": "S1E3 - Vijolična kot morje",
-      "naslov_orig": "S1E3 - Viola come il mare: Blu come il bigottismo",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "kriminalka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Smrt lastnice lepotnega salona spodbudi Violo, da se začne spraševati o predsodkih in o tem, kako vplivajo na življenja ljudi, tudi na njeno. \n\nV Demirju vidi zgolj zapeljivega Don Juana, nato pa nepričakovano srečanje spremeni njeno mnenje. Medtem si Viola v uredništvu še vedno prizadeva pridobiti priznanje Claudie.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/8/b/258b7df6-1564-4069-8eb8-a67157069a3a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976247"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "18:20",
-      "cas_konec": "18:50",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E5 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
-      "naslov_orig": "S1E5 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "kulinarika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Luka je s partnerico zapustil mestni vrvež ter se preselil na podeželje, kjer želita na 7 hektarjih stare posesti ustvariti samooskrbno kmetijo in sčasoma butični kmečki turizem. \n\nOd obnove stavb, vrta, živali in rastlinjaka do kompostiranja, nabiralništva, trajnostne rabe vode in energije - vsak korak prinaša nove izzive, tudi napake. \n\nA prav te pokažejo, da pot do bolj zelenega življenja ni lahka, je pa lahko navdihujoča, pogumna in zelo resnična.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b5/e/b/b5eb96b2-f7f3-4207-9ef9-a9f4bb136615.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976248"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "18:50",
-      "cas_konec": "18:55",
-      "trajanje": "5 min",
-      "naslov_sl": "24UR vreme",
-      "naslov_orig": "24UR vreme",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "vreme"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/8/1fe89ffe-238a-4646-bae2-061622b57e2e.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976221",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "18:55",
-      "cas_konec": "20:00",
-      "trajanje": "65 min",
-      "naslov_sl": "24UR",
-      "naslov_orig": "24UR",
-      "kategorija": "Informativni program",
-      "zanr": [
-        "dnevno-informativna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "24UR je na programu vsak dan ob 18:55.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976224",
-      "zivo": true
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "20:00",
-      "cas_konec": "22:20",
-      "trajanje": "140 min",
-      "naslov_sl": "Zakaj ravno on?",
-      "naslov_orig": "Why Him?",
-      "kategorija": "Film",
-      "zanr": [
-        "komedija"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Zabavna zgodba o tradicionalnem očetu Nedu, ki se z družino odpravi na prvi obisk hčerkinega fanta.\r\n\r\nNed, pretirano skrbeč in ljubeč oče, s preostalimi člani družine med prazniki obišče hčerko in pri tem spozna svojo najhujšo nočno moro: njenega dobro namernega fanta, milijarderja Lairda iz Silicijeve doline, ki se v družbi ne znajde najbolje. \n\nPoštirkanemu Nedu se zdi Laird, ki zine, kar mu pade na pamet, kakopak skrajno neprimeren za njegovo hči. Očetova vse hujša panika se stopnjuje, ko izve, da namerava Laird njegovo hčer prositi za roko …",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/a/8/a8a89af2-28ed-4b48-90c9-95186601c549.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976233"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "22:20",
-      "cas_konec": "23:30",
-      "trajanje": "70 min",
-      "naslov_sl": "S1E35 - Otok ljubezni Adria",
-      "naslov_orig": "S1E35 - Love Island Adria",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "12+",
-      "opis": "Otok ljubezni Adria je svetovno priljubljen ljubezenski šov, ki končno prihaja tudi k nam! Samski iz regije, med njimi tudi Slovenci, bodo v sanjski vili na Tenerifih iskali ljubezen in se prepuščali prvim iskricam. Čakajo jih vroče romance, ljubosumje in nepričakovani preobrati, gledalci pa bodo lahko vplivali na dogajanje. Najuspešnejši par bo na koncu bogatejši za 50.000 evrov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c6/a/3/c6a3ab1d-fb77-4645-8d5d-854424873ae6.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976226"
     },
     {
       "datum": "2026-10-19",
@@ -2092,24 +1040,6 @@
       "opis": "Osebne napetosti med Kelly in Sam se prenesejo tudi na delovno mesto, zaradi česar se odločita slediti različnim sledem, da bi oprostili nedolžnega najstnika, obtoženega streljanja na Gabrielle. \n\nKelly z Lenom poglobi razmerje, medtem ko Sam z Nazom sledi skrivnostnemu nepremičninarju. Obe sledi pa detektivki pripeljeta naravnost do strelca ...",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c1/1/f/c11f0a4f-758e-40bc-b130-ffadcb999264.jpg",
       "show_id": "CUP_IECOM_POPTV_1167743237"
-    },
-    {
-      "datum": "2026-10-25",
-      "dan": "Nedelja",
-      "cas": "23:30",
-      "cas_konec": "01:25",
-      "trajanje": "115 min",
-      "naslov_sl": "Sirota: Prvi umor",
-      "naslov_orig": "Orphan: First Kill",
-      "kategorija": "Film",
-      "zanr": [
-        "grozljivka"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "15+",
-      "opis": "Film Sirota: Prvi umor predstavlja zgodbo, ko zakonca posvojita devetletno deklico, ki pa ni niti približno tako nedolžna, kot se zdi.\r\n\r\nTokrat spoznamo zakonca in razmere v družini… Nenavadna ženska Leena Klammer pobegne iz estonske norišnice in odpotuje v ZDA, tako da ukrade identiteto pogrešane hčerke premožne družine. \n\nVendar pa se Leenino novo življenje kot Esther pojavi z nepričakovano pomanjkljivostjo in se spopade z materjo, ki bo storila vse, da zaščiti svojo družino.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/f/d/88fdec87-fde5-417d-bc4f-3ba583a9ca21.jpg",
-      "show_id": "CUP_IECOM_POPTV_1170976237"
     },
     {
       "datum": "2026-10-26",
@@ -7930,6 +6860,984 @@
       "opis": "Otok ljubezni Adria je svetovno priljubljen ljubezenski šov, ki končno prihaja tudi k nam! Samski iz regije, med njimi tudi Slovenci, bodo v sanjski vili na Tenerifih iskali ljubezen in se prepuščali prvim iskricam. Čakajo jih vroče romance, ljubosumje in nepričakovani preobrati, gledalci pa bodo lahko vplivali na dogajanje. Najuspešnejši par bo na koncu bogatejši za 50.000 evrov.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/84/7/0/84705cb8-f35c-4126-9bc3-b0fa56ee4075.jpg",
       "show_id": "CUP_IECOM_POPTV_1174071593"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "01:45",
+      "cas_konec": "02:40",
+      "trajanje": "115 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170967161"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "02:40",
+      "cas_konec": "05:55",
+      "trajanje": "195 min",
+      "naslov_sl": "S1E9 - Pavza!",
+      "naslov_orig": "S1E9 - Pavza!",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170967179"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "05:55",
+      "cas_konec": "06:15",
+      "trajanje": "20 min",
+      "naslov_sl": "S1E222 - 24UR Inšpektor: Študentsko delo se splača",
+      "naslov_orig": "S1E222 - 24UR Inšpektor: Študentsko delo se splača",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Študentsko delo je bolje plačano kot kdaj prej. Urna postavka je prvič presegla 10 evrov bruto. Koliko zaslužijo, zakaj delajo: za študij, bivanje, izkušnje, potovanja? Kaj pravijo študentje in delodajalci?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/6/c/b46c47fa-716e-4b8d-ab66-10889069cd7b.jpg",
+      "show_id": "CUP_IECOM_POPTV_1175259790"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "06:15",
+      "cas_konec": "06:30",
+      "trajanje": "15 min",
+      "naslov_sl": "S1E259 - 24UR Fokus: Zoran Stevanović",
+      "naslov_orig": "S1E259 - 24UR Fokus: Zoran Stevanović",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Obljubljal je boj proti lažem in korupciji, zanikal pravnomočne sodbe, zavračal sodelovanje z Janšo, danes je predsednik parlamenta ob podpori SDS. Kaj je ostalo od njegovih predvolilnih načel?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6f/4/7/6f47811d-9d55-479f-92f7-dd87176be7c2.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976230"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "06:30",
+      "cas_konec": "06:31",
+      "trajanje": "1 min",
+      "naslov_sl": "S1E31 - OTO čira čara",
+      "naslov_orig": "S1E31 - OTO čira čara",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "otroška oddaja"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/64/4/b/644be34f-a671-4157-b6f5-5f904a2745dd.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976234"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "06:31",
+      "cas_konec": "06:45",
+      "trajanje": "14 min",
+      "naslov_sl": "S2E21 - Maša in medved: Zmagovalni krik",
+      "naslov_orig": "S2E21 - Masha i Medved: Krik pobedy",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2013",
+      "starostna_omejitev": "",
+      "opis": "Maša se tokrat spopade z velikim tekmecem njenega dragega medota - črnim medvedom. Seveda je govora o spopadu v teniški partiji. Maša je veliko manjša, drobnejša in šibkejša od črnega medveda, je pa bolj zvita od njega. Zato se do zmage dokoplje s skrivnim orožjem…",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/be/1/a/be1ad790-a636-4c98-88a9-5b1aeb6ae81e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976239"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "06:45",
+      "cas_konec": "07:10",
+      "trajanje": "25 min",
+      "naslov_sl": "S1E42 - Barbapapa: Srečna družina!: Rojstni dan Barbamalčkov",
+      "naslov_orig": "S1E42 - Barbapapa en famille: L'anniversaire des Barbabébés",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Barbamalčki imajo rojstni dan. Vsak bi z Barbapapo počel nekaj drugega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/3/3/4f334635-f856-4739-8c65-56e20810885d.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976243"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "07:10",
+      "cas_konec": "07:20",
+      "trajanje": "10 min",
+      "naslov_sl": "S2E50 - Smrkci: Gargamel, Kraljica maturantskega plesa",
+      "naslov_orig": "S2E50 - Les Schtroumpfs: Gargamel, Queen of the Prom",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Dekleta vse Smrkce povabijo na svoj veliki ples. A tudi Gargamel in Azrael se skrivaj preoblečeta v Smrkce. Gargamel hoče v koktajl vliti zlobni napoj in se enkrat za vselej znebiti Smrkcev. Toda ne računa na Begonijo in Divjega! Bo Smrkcem uspelo pravočasno razkrinkati prevaranta?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/70/8/4/7084d2c6-2e18-466f-bdb9-175e3583ab55.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976240"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "07:20",
+      "cas_konec": "07:35",
+      "trajanje": "15 min",
+      "naslov_sl": "S1E19 - PJ Masks: Pižamarji: Pazi na Gekota",
+      "naslov_orig": "S1E19 - PJ Masks: Looking After Gekko",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "",
+      "opis": "Zlobni Nindžamrak ukrade šolski avtobus in ga spremeni v svoje supervozilo. Junaški Pižamarji se takoj podajo v akcijo, a preden lahko ustavijo Nindžamraka v novem vozilu, se mora Geko najprej naučiti, da sprejeti pomoč od drugih ne pomeni, da si šibak.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/8/3/f683c4d1-d05e-49d7-9659-850de11e7635.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976235"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "07:35",
+      "cas_konec": "07:50",
+      "trajanje": "15 min",
+      "naslov_sl": "S2E12 - Samorogova akademija: Knjiga makrobe 2. del",
+      "naslov_orig": "S2E12 - Unicorn Academy: Book of Grim part 2",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Najstnica Sophia obiskuje čarobno Akademijo samorogov, ki se nahaja na skrivnostnem otoku. Tam učenci živijo skupaj s samorogi in varujejo čarobnost otoka. \n\nSophijin samorog se imenuje Wildstar. Žival je močna in ponosna. Oba se morata naučiti postati ekipa in razviti svoje magične moči. \n\nVendar pa zlobna čarovnica želi uničiti akademijo. Sophia in njeni prijatelji, tako imenovani Safirji, se morajo s pogumom zoperstaviti tej grožnji. Pri tem doživijo številne pustolovščine.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/3/3/29333a18-1892-4137-871b-517dc3a0d5ea.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976231"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "07:50",
+      "cas_konec": "08:10",
+      "trajanje": "20 min",
+      "naslov_sl": "S3E12 - Gabijina mačja hišica: Avtjuša, sladoledarski kombi",
+      "naslov_orig": "S3E12 - Gabby's Dollhouse: Carlita the Ice Cream Truck!",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Gabi v mijav mijav nabiralnik dobi dodatno opremo, s katero Avtjuša postane sladoledarski kombi. Ker gabimucki naravnost obožujejo sladoled, jim ga Avtjuša rade volje razvozi. A za dostavljanje sladolednih dobrot potrebuje sladoled, jedilnik in pesem.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/8/c/578c55f0-a1c5-43a4-b955-6bc25a19e4c6.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976225"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "08:10",
+      "cas_konec": "08:35",
+      "trajanje": "25 min",
+      "naslov_sl": "S10E9 - Spuži Kvadratnik: Pobeg / Najdeni predmeti",
+      "naslov_orig": "S10E9 - SpongeBob SquarePants: The Getaway / Lost and Found",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Spuži bi se rad naučil voziti. A v avtu se znajde skupaj s pobeglim kaznjencem, za katerega je prepričan, da je njegov inštruktor vožnje. Spuži upošteva vsa navodila, to pa vodi v vrsto komičnih in nevarnih zapletov. \n\nGospod Rakar Spužija pošlje v skladišče izgubljenih predmetov, da tam poišče njegovo igračo. Spuži se znajde v labirintu pozabljenih stvari in nostalgičnih spominov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/2/3/bf23d2bb-1cfd-4df2-8531-d129fa5d54a9.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976241"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "08:35",
+      "cas_konec": "09:00",
+      "trajanje": "25 min",
+      "naslov_sl": "S10E10 - Spuži Kvadratnik: Patrikov kupon / Ko odbije zadnja ura",
+      "naslov_orig": "S10E10 - SpongeBob SquarePants: Patrick's Coupon/Out of the Picture",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Patrik dobi kupon za brezplačen sladoled, a pot do sladoleda je polna izzivov in vsekakor ni zastonj. Kako majhna nagrada lahko sproži tako veliko pustolovščino! Gospod Rakar kupi Markove umetnine in hitro ugotovi, da bi pridobile na vrednosti, če bi se znebil umetnika. Sledi vrsta komičnih poskusov Markove odstranitve. A Marko se ne da - umetnost ni pohlep!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/40/c/4/40c460de-86b9-4c08-afa8-33c01baaf885.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976244"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "09:00",
+      "cas_konec": "10:45",
+      "trajanje": "105 min",
+      "naslov_sl": "S8E24 - Ljubezen na vasi",
+      "naslov_orig": "S8E24 - Ljubav je na selu",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Prišel je čas za Jožeta Mastnaka, da tudi on na svoje posestvo sprejme svoje kandidatke. Nekatere od njih poznamo že z ostalih posestev. \n\nPri Anteju se nova kandidatka Victoria spoznava z ostalimi, a njena konkurenca o njej ne špara z besedami. Pred Mijom je izločitev. Njegova odločitev prinese solze, pa tudi olajšanje. Irena in Ines okoli Radoslavove hiše posadita nekaj cvetja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ed/2/8/ed284592-742f-41a6-be21-589648032b7f.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976228"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "10:45",
+      "cas_konec": "11:00",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976236"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "11:00",
+      "cas_konec": "12:40",
+      "trajanje": "100 min",
+      "naslov_sl": "S8E25 - Ljubezen na vasi",
+      "naslov_orig": "S8E25 - Ljubav je na selu",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Pri Stjepanu se dan začne z delovno akcijo, saj morajo njegove dame počistiti vikend. Miroslava čedalje bolj moti Jasminino obnašanje. \n\nSlovenec Jože se odloči, da bo svoje dame na veliko razvajal. Priredi jim nočno kopanje, zjutraj pa jim v posteljo prinese kavo. Branko in Ruža razrešita stare račune, Mijo in Brankica pa dan zaključita s poljubom ob sončnem zahodu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/9/a/0d9aec16-534f-40c2-975e-c8e0feeaaa68.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976245"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "12:40",
+      "cas_konec": "13:00",
+      "trajanje": "20 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976232"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "13:00",
+      "cas_konec": "14:50",
+      "trajanje": "110 min",
+      "naslov_sl": "Blondinka s Harvarda 2",
+      "naslov_orig": "Legally Blonde 2: Red, White & Blonde",
+      "kategorija": "Film",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2003",
+      "starostna_omejitev": "12+",
+      "opis": "Elle Woods, najbolj ambiciozna blondinka v podobi simpatične Reese Witherspoon, se vrača.\r\n\r\nPo diplomi na Harvardu in službi v odvetniški firmi načrtuje poroko, a ko odkrije, da kozmetično podjetje testira izdelke na družinskih članih njenega kužka, se odloči ukrepati. \n\nZaradi protesta izgubi službo, a ne poguma. Odpravi se v Washington, kjer želi prepričati kongresnike in ustaviti poskuse na živalih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/57/e/0/57e098ba-7448-4bf6-b689-3c4eb7f2fe50.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976242"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "14:50",
+      "cas_konec": "15:05",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976229"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "15:05",
+      "cas_konec": "16:55",
+      "trajanje": "110 min",
+      "naslov_sl": "Mali šef",
+      "naslov_orig": "The Boss Baby",
+      "kategorija": "Film",
+      "zanr": [
+        "animirani"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "8+",
+      "opis": "Animirana družinska komedija o dojenčku z razumom odraslega, ki z bratom skuša preprečiti zlobni načrt in rešiti človeštvo pred izgubo ljubezni.\r\n\r\n7-letni Tim hitro posumi, da z novim bratcem nekaj ni v redu, in kmalu ugotovi, da malček zna govoriti, hoditi ter snovati nenavadne načrte. \n\nMali šef mu razkrije, da morata združiti moči in ustaviti zlovešči načrt zlobneža Francisa, ki želi človeštvu ukrasti ljubezen.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/b/8/60b837f3-a37b-4bd3-9aa1-8e153c5231d3.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976246"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "16:55",
+      "cas_konec": "17:05",
+      "trajanje": "10 min",
+      "naslov_sl": "24UR popoldne",
+      "naslov_orig": "24UR popoldne",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976223",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "17:05",
+      "cas_konec": "18:15",
+      "trajanje": "70 min",
+      "naslov_sl": "S1E3 - Vijolična kot morje",
+      "naslov_orig": "S1E3 - Viola come il mare: Blu come il bigottismo",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Smrt lastnice lepotnega salona spodbudi Violo, da se začne spraševati o predsodkih in o tem, kako vplivajo na življenja ljudi, tudi na njeno. \n\nV Demirju vidi zgolj zapeljivega Don Juana, nato pa nepričakovano srečanje spremeni njeno mnenje. Medtem si Viola v uredništvu še vedno prizadeva pridobiti priznanje Claudie.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/25/8/b/258b7df6-1564-4069-8eb8-a67157069a3a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976247"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "18:15",
+      "cas_konec": "18:50",
+      "trajanje": "35 min",
+      "naslov_sl": "S1E5 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
+      "naslov_orig": "S1E5 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "kulinarika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Luka je s partnerico zapustil mestni vrvež ter se preselil na podeželje, kjer želita na 7 hektarjih stare posesti ustvariti samooskrbno kmetijo in sčasoma butični kmečki turizem. \n\nOd obnove stavb, vrta, živali in rastlinjaka do kompostiranja, nabiralništva, trajnostne rabe vode in energije - vsak korak prinaša nove izzive, tudi napake. \n\nA prav te pokažejo, da pot do bolj zelenega življenja ni lahka, je pa lahko navdihujoča, pogumna in zelo resnična.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b5/e/b/b5eb96b2-f7f3-4207-9ef9-a9f4bb136615.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976248"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "18:50",
+      "cas_konec": "18:55",
+      "trajanje": "5 min",
+      "naslov_sl": "24UR vreme",
+      "naslov_orig": "24UR vreme",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "vreme"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/8/1fe89ffe-238a-4646-bae2-061622b57e2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976221",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "18:55",
+      "cas_konec": "20:10",
+      "trajanje": "75 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976224",
+      "zivo": true
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "20:10",
+      "cas_konec": "22:25",
+      "trajanje": "135 min",
+      "naslov_sl": "Zakaj ravno on?",
+      "naslov_orig": "Why Him?",
+      "kategorija": "Film",
+      "zanr": [
+        "komedija"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Zabavna zgodba o tradicionalnem očetu Nedu, ki se z družino odpravi na prvi obisk hčerkinega fanta.\r\n\r\nNed, pretirano skrbeč in ljubeč oče, s preostalimi člani družine med prazniki obišče hčerko in pri tem spozna svojo najhujšo nočno moro: njenega dobro namernega fanta, milijarderja Lairda iz Silicijeve doline, ki se v družbi ne znajde najbolje. \n\nPoštirkanemu Nedu se zdi Laird, ki zine, kar mu pade na pamet, kakopak skrajno neprimeren za njegovo hči. Očetova vse hujša panika se stopnjuje, ko izve, da namerava Laird njegovo hčer prositi za roko …",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/a/8/a8a89af2-28ed-4b48-90c9-95186601c549.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976233"
+    },
+    {
+      "datum": "2026-10-25",
+      "dan": "Nedelja",
+      "cas": "22:25",
+      "cas_konec": "23:40",
+      "trajanje": "75 min",
+      "naslov_sl": "S1E35 - Otok ljubezni Adria",
+      "naslov_orig": "S1E35 - Love Island Adria",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "12+",
+      "opis": "Otok zapusti še en otočan. Stefan dobi opozorilo, da njegov odnos z Mili ne napreduje. Napetosti med Luko in Lidio dosežejo vrhunec. Ali se njuna romantična zgodba bliža koncu? \n\nAnja in Gašper sta vse bolj prepričana v svojo povezanost, Valentin in Drina pa končno naredita velik korak. Medtem ko nekateri najdejo varnost v ljubezni, Lara prejme sporočilo, ki bi lahko spremenilo njeno pot v dvorcu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c6/a/3/c6a3ab1d-fb77-4645-8d5d-854424873ae6.jpg",
+      "show_id": "CUP_IECOM_POPTV_1170976226"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "00:05",
+      "cas_konec": "02:05",
+      "trajanje": "120 min",
+      "naslov_sl": "Roald Dahl: Čarovnice",
+      "naslov_orig": "The Witches",
+      "kategorija": "Film",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Film temelji na zgodbi Roalda Dahla o dečku in babici, ki se zoperstavita skupini zlobnih čarovnic.\r\n\r\nLeta 1967 se Bruno po smrti staršev preseli k babici v mirno mestece v Alabami. Med počitnicami v obmorskem letovišču odkrijeta, da se tam skrivaj zbirajo nevarne čarovnice pod vodstvom Velike Vrhovne čarovnice. \n\nBabica in vnuk morata združiti moči, da bi ustavila njihovo zaroto in zaščitila otroke pred veliko nevarnostjo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/b/8/1cb8f2d9-a827-48d2-b8eb-e62f06ae6546.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174071585"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "02:05",
+      "cas_konec": "03:05",
+      "trajanje": "60 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174071579"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "03:05",
+      "cas_konec": "06:00",
+      "trajanje": "175 min",
+      "naslov_sl": "S1E8 - Pavza!",
+      "naslov_orig": "S1E8 - Pavza!",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "glasba"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Videospoti popularnih izvajalcev, povezani v najboljši miks za odmor, zabavo in počitek, za sprostitev možgančkov, za vzdušje, za ples, da se napolni srce! Za vas smo pripravili Pavzo!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e2/1/5/e2150c4b-04ef-4cee-abbd-22709d0ec6e8.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174071586"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "06:00",
+      "cas_konec": "06:20",
+      "trajanje": "20 min",
+      "naslov_sl": "S1E223 - 24UR Inšpektor: Vojna za parkirišča",
+      "naslov_orig": "S1E223 - 24UR Inšpektor: Vojna za parkirišča",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Referendum, dražje parkiranje in vse manj prostih mest. V Ljubljani, Celju in Mariboru se krešejo interesi stanovalcev, voznikov in občin. Zakaj bodo spremembe navad parkiranja neizogibne?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b4/6/c/b46c47fa-716e-4b8d-ab66-10889069cd7b.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080826"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "06:20",
+      "cas_konec": "06:35",
+      "trajanje": "15 min",
+      "naslov_sl": "S1E260 - 24UR Fokus: Alpe brez ledu?",
+      "naslov_orig": "S1E260 - 24UR Fokus: Alpe brez ledu?",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Pod Triglavom smo raziskovali ledene jame, pod Skuto hodili skozi ledenik, na Marmoladi stopili na nevaren teren. Tam, kjer so nekoč smučali, danes izginja led. Kdo bo občutil posledice?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6f/4/7/6f47811d-9d55-479f-92f7-dd87176be7c2.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080836"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "06:35",
+      "cas_konec": "06:40",
+      "trajanje": "5 min",
+      "naslov_sl": "S1E2 - OTO čira čara",
+      "naslov_orig": "S1E2 - OTO čira čara",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "otroška oddaja"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/64/4/b/644be34f-a671-4157-b6f5-5f904a2745dd.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080827"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "06:40",
+      "cas_konec": "06:50",
+      "trajanje": "10 min",
+      "naslov_sl": "S2E23 - Maša in medved: Na sporedu je variete",
+      "naslov_orig": "S2E23 - Masha i Medved: Dorogaya peredacha",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2013",
+      "starostna_omejitev": "",
+      "opis": "Medved in mali panda nameščata nov, plazemski televizor. Pri tem pa ju ujame Maša in rivalstvo med pando in Mašo pripelje do uničenja televizorja. Da bi se mala nebodijihtreba izmazala, skleneta za ekranom posnemati programe.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/5/d/755d3061-61d5-4128-b030-774ed39a0736.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080828"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "06:50",
+      "cas_konec": "07:15",
+      "trajanje": "25 min",
+      "naslov_sl": "S1E44 - Barbapapa: Srečna družina!: Roy",
+      "naslov_orig": "S1E44 - Barbapapa en famille: Roy",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Barbabright ustvari sesalnega robota, ki je odličen v nogometu. Barbamalčki priredijo tekmo med roboti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a3/a/b/a3abcddb-e1d0-4016-8bd3-cec511e78390.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080821"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "07:15",
+      "cas_konec": "07:45",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E51 - Smrkci: Spanček: Mojster ljubezni",
+      "naslov_orig": "S2E51 - Les Schtroumpfs: On ne schtroumpfe pas avec l'Amour !",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "8+",
+      "opis": "Spanček je prepričan, da je mojster ljubezni, zato uporabi največje romantične klišeje, da bi združil dva zelo različna Smrkca - Ata Smrka in Smrkvrbo! Čeprav je en načrt bolj neuspešen od drugega, Spanček ne obupa. Ko ju poskuša združiti s pomočjo lažne nevarnosti, pa se Ata Smrk in Smrkvrba znajdeta v pravi nevarnosti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/7/2/e372577c-5ff4-4143-9693-4d1cd63b5e87.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080816"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "07:45",
+      "cas_konec": "08:00",
+      "trajanje": "15 min",
+      "naslov_sl": "S2E13 - Samorogova akademija: V Zvezdnem jezeru 1. del",
+      "naslov_orig": "S2E13 - Unicorn Academy: Under Starglow Lake part 1",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "V čarobni šoli za samoroge se skrivajo starodavne skrivnosti, ki čakajo na pogumne junakinje in junake. \n\nSkupaj s samorogi odkrivajo skrite moči, rešujejo zagonetne skrivnosti in branijo akademijo pred temnimi silami. Pripravi se na svet, poln presenečenj, čarovnije in nepozabnih dogodivščin!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/29/3/3/29333a18-1892-4137-871b-517dc3a0d5ea.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080820"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "08:00",
+      "cas_konec": "08:25",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E1 - Dora in prijatelji: Kateina knjiga",
+      "naslov_orig": "S2E1 - Dora and Friends: Into the City!: Kate's Book",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "",
+      "opis": "Katkina knjiga čudežno oživi, nato pa jo še ukrade zlobni pustolovec. Druščina se takoj poda na nepozabno misijo, od katere je odvisno marsikaj. \n\nDora, Katka in Pablo morajo dobiti knjigo nazaj, da bo Katka zaključila svojo zgodbo, Otok zlata pa bo rešen pred pogubo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/2/9/b9297339-066b-48dd-911f-6ee8951b693e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080840"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "08:25",
+      "cas_konec": "08:50",
+      "trajanje": "25 min",
+      "naslov_sl": "S2E2 - Dora in prijatelji: Skupni vrt",
+      "naslov_orig": "S2E2 - Dora and Friends: Into the City!: Community Garden",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "",
+      "opis": "Ko se polije Najin posebni zvarek, tam do neba zraste roža, ki Doro, Najo in Pabla ponese v čarobni svet. Prijatelji tako odkrijejo pravljični čudež - čarobni vrt, kjer vsak cvet nosi skrivnost. Čaka pa jih tudi posebna naloga. Pred nadležnimi troli morajo rešiti vrt palčkov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/82/3/5/82356157-7a6f-4287-a1ac-72ae653ac89f.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080817"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "08:50",
+      "cas_konec": "09:15",
+      "trajanje": "25 min",
+      "naslov_sl": "S11E1 - Spuži Kvadratnik: Jamski Spuži / Šepetalec školjkam",
+      "naslov_orig": "S11E1 - SpongeBob SquarePants: Cave Dwelling Sponge / The Clam Whisperer",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Arheologi odkrijejo zamrznjenega prazgodovinskega spužija. Odmrznejo ga in pripeljejo v Bikinsko Bistrico, kjer z nerazumevanjem sodobnega sveta povzroči pravi kaos. Edini, ki se z njim lahko sporazumeva, je Spuži. \n\nPoleg tega mesto napade jata školjk in Spuži mora najti način, kako rešiti to težavo, s školjkami najti sožitje in mirno rešiti nastali konflikt.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3f/a/7/3fa7d34c-8ddf-42c8-ad3b-5473baeff1f4.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080829"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "09:15",
+      "cas_konec": "09:40",
+      "trajanje": "25 min",
+      "naslov_sl": "S11E2 - Spuži Kvadratnik: Vrnitev Pikca / Pregled",
+      "naslov_orig": "S11E2 - SpongeBob SquarePants: Spot Returns / The Check-Up",
+      "kategorija": "Otroški/Mladinski",
+      "zanr": [
+        "risanka"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Ko Planktonova ameba Pikec dobi mladičke, se odloči, da jih bo uporabil za zločinsko spletko. Mladi Pikci pa s svojo igrivostjo Planktonu povzročijo nemalo težav. \n\nGospod Rakar mora opraviti zdravniški pregled, sicer bodo zaprli njegovo restavracijo Hrustljavi rak. Ker se boji zdravnikov, skušata Spuži in Marko pregled opraviti skrivaj, brez Rakove vednosti. Kako?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/e/7/dfe7bbe7-a66c-4613-aeec-1aecb23ae921.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080830"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "09:40",
+      "cas_konec": "09:55",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080832"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "09:55",
+      "cas_konec": "11:35",
+      "trajanje": "100 min",
+      "naslov_sl": "S8E28 - Ljubezen na vasi",
+      "naslov_orig": "S8E28 - Ljubav je na selu",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Pred Miroslavom je prvo izločanje. Nekoliko nepričakovan razlog za izgon privede do iskrenih solz in čustev. Pri Jožetu ni miru med dekleti. Ko jih odpelje na izlet, ga ena od njih pogumno napade s strastnim francoskim poljubom. \n\nStjepan je zaljubljen v damo, ki mu je padla v oči že prvi dan, Branko pa se nikakor ne more odločiti med Ružo in Smiljo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ed/2/8/ed284592-742f-41a6-be21-589648032b7f.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080833"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "11:35",
+      "cas_konec": "11:50",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080837"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "11:50",
+      "cas_konec": "14:40",
+      "trajanje": "170 min",
+      "naslov_sl": "Belo se pere na devetdeset",
+      "naslov_orig": "Belo se pere na devetdeset",
+      "kategorija": "Film",
+      "zanr": [
+        "drama"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Filmska upodobitev istoimenske knjižne uspešnice ter ganljiva zgodba o življenju Bronje Žakelj, ki jo spremljamo skozi različna življenjska obdobja.\r\n\r\nNjen otroški svet sestavljajo starši, brat Rok, babica Dada, pa kakav Benko, Albert keksi in prenos sarajevskih olimpijskih iger. \n\nPotem ko zaradi raka izgubi mamo, se mora pri dvajsetih s to zahrbtno boleznijo soočiti tudi sama. S številnimi izzivi se spopada z mešanico solz, smeha in neomajnega optimizma.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a7/b/6/a7b6c43b-f977-44b5-951d-b789c83ab6c1.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080841"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "14:40",
+      "cas_konec": "14:55",
+      "trajanje": "15 min",
+      "naslov_sl": "Vaše zdravje, naša skrb",
+      "naslov_orig": "Vaše zdravje, naša skrb",
+      "kategorija": "Ostalo",
+      "zanr": [
+        "oglas"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Oddaja, namenjena izključno vašemu zdravju, v kateri se bomo posvetili zdravstvenim tegobam današnjega časa in vam ponudili rešitve za boljši jutri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/5/f/905f3137-c850-46a1-ab9d-f0e31fe2fc2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080822"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "14:55",
+      "cas_konec": "16:55",
+      "trajanje": "120 min",
+      "naslov_sl": "Mali šef: Družinski posli",
+      "naslov_orig": "The Boss Baby: Family Business",
+      "kategorija": "Film",
+      "zanr": [
+        "animirani"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "8+",
+      "opis": "V nadaljevanju animirane komedije se vračata brata Templeton, ki sta sedaj že odrasla, a sta se odtujila.\r\n\r\nTim ima izjemno pametno sedemletno hčerko, za katero ga skrbi, da zamuja normalno otroštvo, in prikupno dojenčico, za katero se izkaže, da je tajna agentka na skrivnostni misiji … Kmalu morata brata Tim in Ted zopet združiti moči in ponovno razmisliti o pomenu družine.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3f/3/a/3f3a539f-74a4-4678-91a4-5d8fe286db9f.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080823"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "16:55",
+      "cas_konec": "17:05",
+      "trajanje": "10 min",
+      "naslov_sl": "24UR popoldne",
+      "naslov_orig": "24UR popoldne",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR popoldne je na programu vsak dan in poteka v živo iz osrednjega studia POP TV.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080824",
+      "zivo": true
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "17:05",
+      "cas_konec": "18:20",
+      "trajanje": "75 min",
+      "naslov_sl": "S1E5 - Vijolična kot morje",
+      "naslov_orig": "S1E5 - Viola come il mare: Giallo come le bugie",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "kriminalka"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Medtem ko Demir poskuša od Farah pridobiti informacije, se Viola pripravlja na zmenek z Ranierom. Pri vsem tem se Demir in Viola zapleteta v nov primer, v katerem je žrtev lastnik podjetja topil Siciliana. \n\nZapleteno preiskavo o primeru vodi tudi novinar Domenico. Primer Violo pripelje do razmisleka o pomembnosti resnice.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/32/4/6/324696c8-69e5-4ef7-95a5-a321617c94c8.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080834"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "18:20",
+      "cas_konec": "18:50",
+      "trajanje": "30 min",
+      "naslov_sl": "S1E6 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
+      "naslov_orig": "S1E6 - Od Masteršefa do Master-Kmeta z Luko Pangosom",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "kulinarika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Luka je s partnerico zapustil mestni vrvež ter se preselil na podeželje, kjer želita na 7 hektarjih stare posesti ustvariti samooskrbno kmetijo in sčasoma butični kmečki turizem. \n\nOd obnove stavb, vrta, živali in rastlinjaka do kompostiranja, nabiralništva, trajnostne rabe vode in energije - vsak korak prinaša nove izzive, tudi napake. \n\nA prav te pokažejo, da pot do bolj zelenega življenja ni lahka, je pa lahko navdihujoča, pogumna in zelo resnična.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b5/e/b/b5eb96b2-f7f3-4207-9ef9-a9f4bb136615.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080825"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "18:50",
+      "cas_konec": "18:55",
+      "trajanje": "5 min",
+      "naslov_sl": "24UR vreme",
+      "naslov_orig": "24UR vreme",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "vreme"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR vreme je z vami vsak dan pred osrednjo informativno oddajo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1f/e/8/1fe89ffe-238a-4646-bae2-061622b57e2e.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080842",
+      "zivo": true
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "18:55",
+      "cas_konec": "20:00",
+      "trajanje": "65 min",
+      "naslov_sl": "24UR",
+      "naslov_orig": "24UR",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "dnevno-informativna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "24UR je na programu vsak dan ob 18:55.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/4/f/4c4f86f1-c52b-4276-9751-e179f18f593a.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080831",
+      "zivo": true
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "20:00",
+      "cas_konec": "22:20",
+      "trajanje": "140 min",
+      "naslov_sl": "Tihotapec",
+      "naslov_orig": "American Made",
+      "kategorija": "Film",
+      "zanr": [
+        "akcija"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Tom Cruise bo v filmu, ki je posnet po resničnih dogodkih, stopil v škornje enega najbolj nenavadnih pilotov in tihotapcev vseh časov.\r\n\r\nUpodobil bo pilota ter tihotapca drog in orožja Adlerja Berrimana Seala poznanega kot Barryja Seala, ki je v 80. letih svojo tihotapsko kariero začel kot pilot za medellinski kartel, da ga ne bi zaprli, pa je pozneje postal tudi Cijin tajni agent. Skrbel je za transport marihuane, kokaina in pozneje tudi drugih drog iz Južne v Severno Ameriko. \n\nNjegov posel je najbolj cvetel med letoma 1976 in 1984, ko ga je vodil z zanemarjenega malega letališča Mena v Arkansasu. Naposled so ga aretirali, vendar se je zaporu izognil tako, da je svoje usluge ponudil ameriškim oblastem, za katere pa se je kmalu izkazalo, da mu v vrtincu kriminala, prevar in pranja denarja ne morejo nuditi varne zaščite.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/42/a/1/42a1bf0c-a47b-4dbd-b97f-deba7c08b6ea.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080838"
+    },
+    {
+      "datum": "2026-11-01",
+      "dan": "Nedelja",
+      "cas": "22:20",
+      "cas_konec": "23:30",
+      "trajanje": "70 min",
+      "naslov_sl": "S1E41 - Otok ljubezni Adria",
+      "naslov_orig": "S1E41 - Love Island Adria",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "12+",
+      "opis": "Otok ljubezni Adria je svetovno priljubljen ljubezenski šov, ki končno prihaja tudi k nam! Samski iz regije, med njimi tudi Slovenci, bodo v sanjski vili na Tenerifih iskali ljubezen in se prepuščali prvim iskricam. Čakajo jih vroče romance, ljubosumje in nepričakovani preobrati, gledalci pa bodo lahko vplivali na dogajanje. Najuspešnejši par bo na koncu bogatejši za 50.000 evrov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/84/7/0/84705cb8-f35c-4126-9bc3-b0fa56ee4075.jpg",
+      "show_id": "CUP_IECOM_POPTV_1174080835"
     }
   ]
 }
