@@ -1,604 +1,10 @@
 {
   "kanal": "Eurosport 1",
   "ch_ext_id": "eurosport-1",
-  "posodobljeno": "2026-11-08 12:46",
-  "od": "2026-11-01",
-  "do": "2026-11-15",
+  "posodobljeno": "2026-11-09 12:26",
+  "od": "2026-11-02",
+  "do": "2026-11-16",
   "oddaje": [
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "01:31",
-      "cas_konec": "03:30",
-      "trajanje": "119 min",
-      "naslov_sl": "Motošport: FIA WEC - 6 ur Barcelone, dirka",
-      "naslov_orig": "FIA World Endurance Championship: 6 Hours of Barselona: Round 7",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e8/a/2/e8a2227f-a7b3-450c-b9fb-a234d9e4b118.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173210572",
-      "friendly_id": "motosport_fia_wec__6_ur_barcelone_dirka_5d0070ea"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "03:30",
-      "cas_konec": "04:24",
-      "trajanje": "54 min",
-      "naslov_sl": "Športno plezanje: Svetovni pokal: Hitrostno plezanje, finale, Santiago",
-      "naslov_orig": "Climbing: IFSC Climbing World Cup: Men's and Women's Speed, Final, Santiago",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Spretnost plezalcev v tem relativno novem športu lahko na vaših zaslonih spremljate skozi vse leto, na številnih lokacijah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a3/a/1/a3a1897b-a9f1-4c23-9c0f-b9127bd2d92d.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173210573",
-      "friendly_id": "sportno_plezanje_svetovni_pokal_hitrostno_plezanje_finale_santiago_3029921e"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "04:24",
-      "cas_konec": "05:26",
-      "trajanje": "62 min",
-      "naslov_sl": "Športno plezanje: Svetovni pokal: Finale, Santiago",
-      "naslov_orig": "Climbing: IFSC Climbing World Cup: Men's and Women's Lead | Final | Santiago",
-      "kategorija": "Šport",
-      "zanr": [
-        "plezanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spretnost plezalcev v tem relativno novem športu lahko na vaših zaslonih spremljate skozi vse leto, na številnih lokacijah.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/3/b/ce3b5191-3e6b-430c-aac4-45fb6a0987bb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173210574",
-      "friendly_id": "sportno_plezanje_svetovni_pokal_finale_santiago_edb779b7"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "05:26",
-      "cas_konec": "07:00",
-      "trajanje": "94 min",
-      "naslov_sl": "Snooker: Mednarodno prvenstvo: Wu Yize - Hammad Miah",
-      "naslov_orig": "Snooker: International Championship: Wu Yize - Hammad Miah",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/9/f2a90bb4-d79d-4565-8f01-a4a25fa6ab4e.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1178436450",
-      "friendly_id": "snooker_mednarodno_prvenstvo_wu_yize__hammad_miah_982df77d"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "07:00",
-      "cas_konec": "10:30",
-      "trajanje": "210 min",
-      "naslov_sl": "Snooker: Mednarodno prvenstvo",
-      "naslov_orig": "Snooker: International Championship: Judd Trump - Fan Zhengyi",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173210576",
-      "zivo": true,
-      "friendly_id": "snooker_mednarodno_prvenstvo_7db8b084"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "10:30",
-      "cas_konec": "11:32",
-      "trajanje": "62 min",
-      "naslov_sl": "Alpsko smučanje (Ž): Veleslalom, 2. vožnja, Svetovni pokal Sőlden, 2026/27",
-      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Soelden: Giant Slalom, Run 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "smučanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si etapo ženskega svetovnega pokala v alpskem smučanju, ki poteka v avstrijskem Söldnu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d6/4/d/d64d343a-3063-4368-a638-1f94be8067e3.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641752",
-      "friendly_id": "alpsko_smucanje_z_veleslalom_2_voznja_svetovni_pokal_sőlden_2026_27_77951247"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "11:32",
-      "cas_konec": "12:30",
-      "trajanje": "58 min",
-      "naslov_sl": "Alpsko smučanje (M): Veleslalom, 2. vožnja, Svetovni pokal Sőlden, 2026/27",
-      "naslov_orig": "Alpine Skiing: Men's FIS World Cup in Soelden: Giant Slalom, Run 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "smučanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b8/7/5/b8753eb6-3921-42d3-b131-2c3fd8030956.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641753",
-      "friendly_id": "alpsko_smucanje_m_veleslalom_2_voznja_svetovni_pokal_sőlden_2026_27_cd7aaeb9"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "12:30",
-      "cas_konec": "14:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Mednarodno prvenstvo: David Lilley - Zhao Xintong",
-      "naslov_orig": "Snooker: International Championship: David Lilley - Zhao Xintong",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c0/9/d/c09dfd29-0495-408d-9b35-3b303a96a8ae.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641754",
-      "zivo": true,
-      "friendly_id": "snooker_mednarodno_prvenstvo_david_lilley__zhao_xintong_4e26267c"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "14:30",
-      "cas_konec": "17:15",
-      "trajanje": "165 min",
-      "naslov_sl": "Maraton: New York",
-      "naslov_orig": "TCS New York City Marathon",
-      "kategorija": "Šport",
-      "zanr": [
-        "atletika"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/4/4/dc44727d-caa2-4922-a354-9ab0d9ee217a.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641755",
-      "zivo": true,
-      "friendly_id": "maraton_new_york_81a4eb08"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "17:15",
-      "cas_konec": "18:00",
-      "trajanje": "45 min",
-      "naslov_sl": "Curling: Evropsko prvenstvo: Finale, Switzerland - Sweden",
-      "naslov_orig": "Curling: European Championship: Women, Final Switzerland - Sweden",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/3/f/d83f7dc4-2e65-489f-8478-a26ec36631a6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1176843079",
-      "friendly_id": "curling_evropsko_prvenstvo_finale_switzerland__sweden_ee6a7448"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "18:00",
-      "cas_konec": "20:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Curling: Evropsko prvenstvo: Finale, Italy - Scotland",
-      "naslov_orig": "Curling: European Championship: Men, Final, Italy - Scotland",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d8/3/f/d83f7dc4-2e65-489f-8478-a26ec36631a6.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641757",
-      "friendly_id": "curling_evropsko_prvenstvo_finale_italy__scotland_b0ffa786"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Umetnostno drsanje: Velika nagrada Kanade: Prosti program, moški",
-      "naslov_orig": "ISU Grand Prix: Skate Canada: Men | Free Program",
-      "kategorija": "Šport",
-      "zanr": [
-        "drsanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Najboljši umetnostni drsalci z vsega sveta se bodo pomerili na tem mednarodnem tekmovanju, ki v Kanadi poteka od leta 1973. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/4/8/5f48298e-7bea-4a7e-b84a-af46c33f862b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641758",
-      "friendly_id": "umetnostno_drsanje_velika_nagrada_kanade_prosti_program_moski_68fc66a3"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "21:00",
-      "cas_konec": "22:50",
-      "trajanje": "110 min",
-      "naslov_sl": "Umetnostno drsanje: Velika nagrada Kanade: Prosti program, ženske",
-      "naslov_orig": "ISU Grand Prix: Skate Canada: Women | Free Program",
-      "kategorija": "Šport",
-      "zanr": [
-        "drsanje"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Najboljši umetnostni drsalci z vsega sveta se bodo pomerili na tem mednarodnem tekmovanju, ki v Kanadi poteka od leta 1973. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/4/8/5f48298e-7bea-4a7e-b84a-af46c33f862b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641759",
-      "zivo": true,
-      "friendly_id": "umetnostno_drsanje_velika_nagrada_kanade_prosti_program_zenske_e9477ee0"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "22:50",
-      "cas_konec": "23:15",
-      "trajanje": "25 min",
-      "naslov_sl": "Alpsko smučanje (M): Veleslalom, 2. vožnja, Svetovni pokal Sőlden, 2026/27",
-      "naslov_orig": "Alpine Skiing: Men's FIS World Cup in Soelden: Giant Slalom, Run 2",
-      "kategorija": "Šport",
-      "zanr": [
-        "smučanje"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b8/7/5/b8753eb6-3921-42d3-b131-2c3fd8030956.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641760",
-      "friendly_id": "alpsko_smucanje_m_veleslalom_2_voznja_svetovni_pokal_sőlden_2026_27_b6e83186"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "23:15",
-      "cas_konec": "00:45",
-      "trajanje": "90 min",
-      "naslov_sl": "Umetnostno drsanje: Velika nagrada Kanade: Ples",
-      "naslov_orig": "ISU Grand Prix: Skate Canada: Ice Dancing | Free Dance",
-      "kategorija": "Šport",
-      "zanr": [
-        "drsanje"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Najboljši umetnostni drsalci z vsega sveta se bodo pomerili na tem mednarodnem tekmovanju, ki v Kanadi poteka od leta 1973. ",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/4/8/5f48298e-7bea-4a7e-b84a-af46c33f862b.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1173641761",
-      "zivo": true,
-      "friendly_id": "umetnostno_drsanje_velika_nagrada_kanade_ples_66ad7ca9"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "00:00",
-      "cas_konec": "01:30",
-      "trajanje": "90 min",
-      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1176661405",
-      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_63e521c0"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "01:30",
-      "cas_konec": "04:00",
-      "trajanje": "150 min",
-      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale",
-      "naslov_orig": "Snooker: International Championship: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1176661413",
-      "friendly_id": "snooker_mednarodno_prvenstvo_finale_b1451453"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Olimpijske igre: dvorana slavnih: Sydney",
-      "naslov_orig": "Olympic Games: Hall of Fame",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/c/5/26c5b098-ab83-4ea7-b505-a27c35793b17.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1176661414",
-      "friendly_id": "olimpijske_igre_dvorana_slavnih_sydney_e5dba544"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Kolesarstvo: Tour de France: Pregled",
-      "naslov_orig": "Cycling: Tour de France Review",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/4/9/c249c172-67ad-4ae7-b80d-d5708d2160eb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1176661415",
-      "friendly_id": "kolesarstvo_tour_de_france_pregled_4a297799"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "06:00",
-      "cas_konec": "08:30",
-      "trajanje": "150 min",
-      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1176661406",
-      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_3df629d3"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "08:30",
-      "cas_konec": "11:00",
-      "trajanje": "150 min",
-      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale",
-      "naslov_orig": "Snooker: International Championship: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205552",
-      "friendly_id": "snooker_mednarodno_prvenstvo_finale_1474baad"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Olimpijske igre: dvorana slavnih: Sydney",
-      "naslov_orig": "Olympic Games: Hall of Fame",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/c/5/26c5b098-ab83-4ea7-b505-a27c35793b17.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205553",
-      "friendly_id": "olimpijske_igre_dvorana_slavnih_sydney_d9eccf65"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "12:00",
-      "cas_konec": "13:45",
-      "trajanje": "105 min",
-      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205554",
-      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_23665248"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "13:45",
-      "cas_konec": "14:30",
-      "trajanje": "45 min",
-      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Ženske, Montferland",
-      "naslov_orig": "Cyclo-Cross: European Championship: Women, Montferland",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/d/d/81ddc84e-96cc-404d-8a3c-e8216e358cdb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205555",
-      "friendly_id": "ciklokros_evropsko_prvenstvo_zenske_montferland_2e94dbff"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "14:30",
-      "cas_konec": "15:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Moški, Montferland",
-      "naslov_orig": "Cyclo-Cross: European Championship: Men Elite, Montferland",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/6/a/496ad3ac-03ff-4af5-878b-d5d8215f4500.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205556",
-      "friendly_id": "ciklokros_evropsko_prvenstvo_moski_montferland_72309b89"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "15:30",
-      "cas_konec": "17:30",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale",
-      "naslov_orig": "Snooker: International Championship: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205557",
-      "friendly_id": "snooker_mednarodno_prvenstvo_finale_a97f3082"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "17:30",
-      "cas_konec": "18:30",
-      "trajanje": "60 min",
-      "naslov_sl": "Olimpijske igre: dvorana slavnih: Sydney",
-      "naslov_orig": "Olympic Games: Hall of Fame",
-      "kategorija": "Šport",
-      "zanr": [
-        "šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/c/5/26c5b098-ab83-4ea7-b505-a27c35793b17.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205558",
-      "friendly_id": "olimpijske_igre_dvorana_slavnih_sydney_a09b50f4"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "18:30",
-      "cas_konec": "19:15",
-      "trajanje": "45 min",
-      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Ženske, Montferland",
-      "naslov_orig": "Cyclo-Cross: European Championship: Women, Montferland",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/d/d/81ddc84e-96cc-404d-8a3c-e8216e358cdb.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205559",
-      "friendly_id": "ciklokros_evropsko_prvenstvo_zenske_montferland_19e1705b"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "19:15",
-      "cas_konec": "20:00",
-      "trajanje": "45 min",
-      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Moški, Montferland",
-      "naslov_orig": "Cyclo-Cross: European Championship: Men Elite, Montferland",
-      "kategorija": "Šport",
-      "zanr": [
-        "ekstremni šport"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/6/a/496ad3ac-03ff-4af5-878b-d5d8215f4500.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205560",
-      "friendly_id": "ciklokros_evropsko_prvenstvo_moski_montferland_b7df11ea"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "20:00",
-      "cas_konec": "22:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale",
-      "naslov_orig": "Snooker: International Championship: Final",
-      "kategorija": "Šport",
-      "zanr": [
-        "biljard"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/d/0/dcd024c5-9569-4019-99e0-860f90f8d231.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205561",
-      "friendly_id": "snooker_mednarodno_prvenstvo_finale_f6d0d62c"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "22:00",
-      "cas_konec": "00:00",
-      "trajanje": "120 min",
-      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
-      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
-      "kategorija": "Šport",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
-      "show_id": "CUP_IECOM_EUROSPORT_1177205562",
-      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_77f76c41"
-    },
     {
       "datum": "2026-11-02",
       "dan": "Ponedeljek",
@@ -4876,6 +4282,728 @@
       "show_id": "CUP_IECOM_EUROSPORT_1179805451",
       "zivo": true,
       "friendly_id": "umetnostno_drsanje_isu_grand_prix_skate_america_prosti_program_zenske_6bec5220"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "00:00",
+      "cas_konec": "01:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1176661405",
+      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_63e521c0"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "01:30",
+      "cas_konec": "04:00",
+      "trajanje": "150 min",
+      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale, Sesija 2, Kyren Wilson - John Higgins",
+      "naslov_orig": "Snooker: International Championship: Final, Session 2, Kyren Wilson - John Higgins",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/e/5/d5e5196e-7843-4ae4-ae5f-19edec60520a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1176661413",
+      "friendly_id": "snooker_mednarodno_prvenstvo_finale_sesija_2_kyren_wilson__john_higgins_7fad2c4a"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "04:00",
+      "cas_konec": "05:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Olimpijske igre: dvorana slavnih: Sydney",
+      "naslov_orig": "Olympic Games: Hall of Fame",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/c/5/26c5b098-ab83-4ea7-b505-a27c35793b17.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1176661414",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_sydney_e5dba544"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Kolesarstvo: Dirka po Franciji: Pregled",
+      "naslov_orig": "Cycling: Tour de France Review",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/4/9/c249c172-67ad-4ae7-b80d-d5708d2160eb.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1176661415",
+      "friendly_id": "kolesarstvo_dirka_po_franciji_pregled_6315f75a"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "06:00",
+      "cas_konec": "08:30",
+      "trajanje": "150 min",
+      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1176661406",
+      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_3df629d3"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "08:30",
+      "cas_konec": "11:00",
+      "trajanje": "150 min",
+      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale, Sesija 2, Kyren Wilson - John Higgins",
+      "naslov_orig": "Snooker: International Championship: Final, Session 2, Kyren Wilson - John Higgins",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/e/5/d5e5196e-7843-4ae4-ae5f-19edec60520a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205552",
+      "friendly_id": "snooker_mednarodno_prvenstvo_finale_sesija_2_kyren_wilson__john_higgins_b19b6cdc"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Olimpijske igre: dvorana slavnih: Sydney",
+      "naslov_orig": "Olympic Games: Hall of Fame",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/c/5/26c5b098-ab83-4ea7-b505-a27c35793b17.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205553",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_sydney_d9eccf65"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "12:00",
+      "cas_konec": "13:45",
+      "trajanje": "105 min",
+      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205554",
+      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_23665248"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "13:45",
+      "cas_konec": "14:30",
+      "trajanje": "45 min",
+      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Ženske, Montferland",
+      "naslov_orig": "Cyclo-Cross: European Championship: Women, Montferland",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/d/d/81ddc84e-96cc-404d-8a3c-e8216e358cdb.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205555",
+      "friendly_id": "ciklokros_evropsko_prvenstvo_zenske_montferland_2e94dbff"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "14:30",
+      "cas_konec": "15:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Moški, Montferland",
+      "naslov_orig": "Cyclo-Cross: European Championship: Men Elite, Montferland",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/6/a/496ad3ac-03ff-4af5-878b-d5d8215f4500.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205556",
+      "friendly_id": "ciklokros_evropsko_prvenstvo_moski_montferland_72309b89"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "15:30",
+      "cas_konec": "17:30",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale, Sesija 2, Kyren Wilson - John Higgins",
+      "naslov_orig": "Snooker: International Championship: Final, Session 2, Kyren Wilson - John Higgins",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/e/5/d5e5196e-7843-4ae4-ae5f-19edec60520a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205557",
+      "friendly_id": "snooker_mednarodno_prvenstvo_finale_sesija_2_kyren_wilson__john_higgins_165b4990"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "17:30",
+      "cas_konec": "18:30",
+      "trajanje": "60 min",
+      "naslov_sl": "Olimpijske igre: dvorana slavnih: Sydney",
+      "naslov_orig": "Olympic Games: Hall of Fame",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/26/c/5/26c5b098-ab83-4ea7-b505-a27c35793b17.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205558",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_sydney_a09b50f4"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "18:30",
+      "cas_konec": "19:15",
+      "trajanje": "45 min",
+      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Ženske, Montferland",
+      "naslov_orig": "Cyclo-Cross: European Championship: Women, Montferland",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/d/d/81ddc84e-96cc-404d-8a3c-e8216e358cdb.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205559",
+      "friendly_id": "ciklokros_evropsko_prvenstvo_zenske_montferland_19e1705b"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "19:15",
+      "cas_konec": "20:00",
+      "trajanje": "45 min",
+      "naslov_sl": "Ciklokros: Evropsko prvenstvo: Moški, Montferland",
+      "naslov_orig": "Cyclo-Cross: European Championship: Men Elite, Montferland",
+      "kategorija": "Šport",
+      "zanr": [
+        "ekstremni šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/6/a/496ad3ac-03ff-4af5-878b-d5d8215f4500.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205560",
+      "friendly_id": "ciklokros_evropsko_prvenstvo_moski_montferland_b7df11ea"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "22:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker: Mednarodno prvenstvo: Finale, Sesija 2, Kyren Wilson - John Higgins",
+      "naslov_orig": "Snooker: International Championship: Final, Session 2, Kyren Wilson - John Higgins",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodno prvenstvo (International Championship) je profesionalni uvrstitveni turnir v snookerju, ki na Kitajskem poteka od leta 2012.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d5/e/5/d5e5196e-7843-4ae4-ae5f-19edec60520a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205561",
+      "friendly_id": "snooker_mednarodno_prvenstvo_finale_sesija_2_kyren_wilson__john_higgins_93b08d8f"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "22:00",
+      "cas_konec": "00:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Motošport: FIA WEC; 6 ur Monze, Dirka, 2026",
+      "naslov_orig": "Endurance Car Racing: 6 Hours of Monza: Round 8",
+      "kategorija": "Šport",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Avtomobilska dirka, ki je del FIA WEC in poteka v Monzi na obrobju Milana v Italiji. Dirka traja 6 ur.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/6/f/ac6f2081-3a42-4b12-a146-c71e884dd7f1.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1177205562",
+      "friendly_id": "motosport_fia_wec_6_ur_monze_dirka_2026_77f76c41"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "23:50",
+      "cas_konec": "01:00",
+      "trajanje": "70 min",
+      "naslov_sl": "Alpsko smučanje (Ž): Slalom, 2. vožnja, Svetovni pokal FIS Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najrazburljivejše dogajanje in najboljše trenutke FIS svetovnega pokala v alpskem smučanju za ženske, ki poteka v finskem smučišču Levi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/f/a/19fad49a-47ed-4fbf-880d-1065b347c332.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1179805452",
+      "friendly_id": "alpsko_smucanje_z_slalom_2_voznja_svetovni_pokal_fis_levi_2026_2027_d338ae9d"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "01:00",
+      "cas_konec": "02:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Alpsko smučanje (M): Slalom, 2. vožnja, Svetovni pokal v Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Men's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Letovišče Levi na Finskem v regiji Laponska je smučarsko žarišče in redno gosti etape svetovnega pokala v alpskem smučanju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/0/7e007813-db36-450b-b7e8-76b2869fe352.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1179805453",
+      "friendly_id": "alpsko_smucanje_m_slalom_2_voznja_svetovni_pokal_v_levi_2026_2027_98d8a64d"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Olimpijske igre: dvorana slavnih: Peking",
+      "naslov_orig": "Olympic Games: Hall of Fame",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Posebna magazinska oddaja, posvečena olimpijskim igram.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/3/8/e33871f2-dfd6-442f-bfab-083c127e925a.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1179805454",
+      "friendly_id": "olimpijske_igre_dvorana_slavnih_peking_231e6115"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "03:00",
+      "cas_konec": "05:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
+      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1179805455",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_43bc89d4"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Alpsko smučanje (Ž): Slalom, 1. vožnja, Svetovni pokal FIS Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Levi: Slalom, Run 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najrazburljivejše dogajanje in najboljše trenutke FIS svetovnega pokala v alpskem smučanju za ženske, ki poteka v finskem smučišču Levi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/f/a/19fad49a-47ed-4fbf-880d-1065b347c332.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1179805456",
+      "friendly_id": "alpsko_smucanje_z_slalom_1_voznja_svetovni_pokal_fis_levi_2026_2027_fa28e1bc"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Alpsko smučanje (Ž): Slalom, 2. vožnja, Svetovni pokal FIS Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najrazburljivejše dogajanje in najboljše trenutke FIS svetovnega pokala v alpskem smučanju za ženske, ki poteka v finskem smučišču Levi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/f/a/19fad49a-47ed-4fbf-880d-1065b347c332.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1179805457",
+      "friendly_id": "alpsko_smucanje_z_slalom_2_voznja_svetovni_pokal_fis_levi_2026_2027_1a567ca3"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "07:00",
+      "cas_konec": "08:30",
+      "trajanje": "90 min",
+      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
+      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1179805458",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_b458a762"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "08:30",
+      "cas_konec": "09:15",
+      "trajanje": "45 min",
+      "naslov_sl": "Alpsko smučanje (M): Slalom, 1. vožnja, Svetovni pokal v Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Men's World Cup in Levi: Slalom | Run 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Letovišče Levi na Finskem v regiji Laponska je smučarsko žarišče in redno gosti etape svetovnega pokala v alpskem smučanju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/0/7e007813-db36-450b-b7e8-76b2869fe352.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272070",
+      "friendly_id": "alpsko_smucanje_m_slalom_1_voznja_svetovni_pokal_v_levi_2026_2027_456da301"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "09:15",
+      "cas_konec": "10:00",
+      "trajanje": "45 min",
+      "naslov_sl": "Alpsko smučanje (M): Slalom, 2. vožnja, Svetovni pokal v Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Men's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Letovišče Levi na Finskem v regiji Laponska je smučarsko žarišče in redno gosti etape svetovnega pokala v alpskem smučanju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/0/7e007813-db36-450b-b7e8-76b2869fe352.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272071",
+      "friendly_id": "alpsko_smucanje_m_slalom_2_voznja_svetovni_pokal_v_levi_2026_2027_bd6d1dcd"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "10:00",
+      "cas_konec": "12:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Svetovno prvenstvo, Final, 2026",
+      "naslov_orig": "Snooker: World Championships: Final: Shaun Murphy - Wu Yize",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/75/c/b/75cb5042-fff5-4ba4-a5fc-410087e1a0ad.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272072",
+      "friendly_id": "snooker_m_svetovno_prvenstvo_final_2026_37c878c6"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "12:00",
+      "cas_konec": "12:45",
+      "trajanje": "45 min",
+      "naslov_sl": "Alpsko smučanje (Ž): Slalom, 1. vožnja, Svetovni pokal FIS Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Levi: Slalom, Run 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najrazburljivejše dogajanje in najboljše trenutke FIS svetovnega pokala v alpskem smučanju za ženske, ki poteka v finskem smučišču Levi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/f/a/19fad49a-47ed-4fbf-880d-1065b347c332.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272073",
+      "friendly_id": "alpsko_smucanje_z_slalom_1_voznja_svetovni_pokal_fis_levi_2026_2027_8e912995"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "12:45",
+      "cas_konec": "13:30",
+      "trajanje": "45 min",
+      "naslov_sl": "Alpsko smučanje (Ž): Slalom, 2. vožnja, Svetovni pokal FIS Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najrazburljivejše dogajanje in najboljše trenutke FIS svetovnega pokala v alpskem smučanju za ženske, ki poteka v finskem smučišču Levi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/f/a/19fad49a-47ed-4fbf-880d-1065b347c332.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272074",
+      "friendly_id": "alpsko_smucanje_z_slalom_2_voznja_svetovni_pokal_fis_levi_2026_2027_70c165df"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "13:30",
+      "cas_konec": "14:15",
+      "trajanje": "45 min",
+      "naslov_sl": "Alpsko smučanje (M): Slalom, 1. vožnja, Svetovni pokal v Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Men's World Cup in Levi: Slalom | Run 1",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Letovišče Levi na Finskem v regiji Laponska je smučarsko žarišče in redno gosti etape svetovnega pokala v alpskem smučanju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/0/7e007813-db36-450b-b7e8-76b2869fe352.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272075",
+      "friendly_id": "alpsko_smucanje_m_slalom_1_voznja_svetovni_pokal_v_levi_2026_2027_75aea2ea"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "14:15",
+      "cas_konec": "15:00",
+      "trajanje": "45 min",
+      "naslov_sl": "Alpsko smučanje (M): Slalom, 2. vožnja, Svetovni pokal v Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Men's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Letovišče Levi na Finskem v regiji Laponska je smučarsko žarišče in redno gosti etape svetovnega pokala v alpskem smučanju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/0/7e007813-db36-450b-b7e8-76b2869fe352.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272076",
+      "friendly_id": "alpsko_smucanje_m_slalom_2_voznja_svetovni_pokal_v_levi_2026_2027_0a3c6afd"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "15:00",
+      "cas_konec": "17:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Shenzen Open, Final, 2026",
+      "naslov_orig": "Snooker: Shenzhen Open: Final, Yuan Sijun - Wu Yize",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ec/3/9/ec3994f9-8e39-4038-a80e-0604fbb2b1c2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272077",
+      "friendly_id": "snooker_m_shenzen_open_final_2026_8b209d50"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "17:00",
+      "cas_konec": "17:30",
+      "trajanje": "30 min",
+      "naslov_sl": "Alpsko smučanje (Ž): Slalom, 2. vožnja, Svetovni pokal FIS Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najrazburljivejše dogajanje in najboljše trenutke FIS svetovnega pokala v alpskem smučanju za ženske, ki poteka v finskem smučišču Levi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/f/a/19fad49a-47ed-4fbf-880d-1065b347c332.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272078",
+      "friendly_id": "alpsko_smucanje_z_slalom_2_voznja_svetovni_pokal_fis_levi_2026_2027_f98e83ad"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "17:30",
+      "cas_konec": "18:00",
+      "trajanje": "30 min",
+      "naslov_sl": "Alpsko smučanje (M): Slalom, 2. vožnja, Svetovni pokal v Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Men's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Letovišče Levi na Finskem v regiji Laponska je smučarsko žarišče in redno gosti etape svetovnega pokala v alpskem smučanju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/0/7e007813-db36-450b-b7e8-76b2869fe352.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272079",
+      "friendly_id": "alpsko_smucanje_m_slalom_2_voznja_svetovni_pokal_v_levi_2026_2027_b87ca0b1"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Gorski tek: Cappadoccia Ultra Trail",
+      "naslov_orig": "Trail: Cappadoccia Ultra Trail: Review",
+      "kategorija": "Šport",
+      "zanr": [
+        "atletika"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/82/8/6/82868ccc-5e78-406e-8997-0f1155879b46.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272080",
+      "friendly_id": "gorski_tek_cappadoccia_ultra_trail_19e4a332"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Sambo: Svetovno prvenstvo v Taškentu",
+      "naslov_orig": "World Sambo Championships in Tashkent",
+      "kategorija": "Šport",
+      "zanr": [
+        "borilni šport"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Svetovno prvenstvo v sambu bo potekalo v Taškentu, glavnem mestu Uzbekistana, od 12. do 14. novembra 2021.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/4/9/b649d49a-31fc-46d7-971d-e99bdc738e2f.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272081",
+      "friendly_id": "sambo_svetovno_prvenstvo_v_taskentu_280eadf2"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "22:00",
+      "trajanje": "120 min",
+      "naslov_sl": "Snooker (M): Shenzen Open, Final, 2026",
+      "naslov_orig": "Snooker: Shenzhen Open: Final, Yuan Sijun - Wu Yize",
+      "kategorija": "Šport",
+      "zanr": [
+        "biljard"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ec/3/9/ec3994f9-8e39-4038-a80e-0604fbb2b1c2.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272082",
+      "friendly_id": "snooker_m_shenzen_open_final_2026_004fdad6"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Alpsko smučanje (Ž): Slalom, 2. vožnja, Svetovni pokal FIS Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Women's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Spremljajte najrazburljivejše dogajanje in najboljše trenutke FIS svetovnega pokala v alpskem smučanju za ženske, ki poteka v finskem smučišču Levi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/f/a/19fad49a-47ed-4fbf-880d-1065b347c332.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272083",
+      "friendly_id": "alpsko_smucanje_z_slalom_2_voznja_svetovni_pokal_fis_levi_2026_2027_2f19adf9"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Alpsko smučanje (M): Slalom, 2. vožnja, Svetovni pokal v Levi, 2026/2027",
+      "naslov_orig": "Alpine Skiing: FIS Men's World Cup in Levi: Slalom | Run 2",
+      "kategorija": "Šport",
+      "zanr": [
+        "smučanje"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Letovišče Levi na Finskem v regiji Laponska je smučarsko žarišče in redno gosti etape svetovnega pokala v alpskem smučanju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7e/0/0/7e007813-db36-450b-b7e8-76b2869fe352.jpg",
+      "show_id": "CUP_IECOM_EUROSPORT_1180272084",
+      "friendly_id": "alpsko_smucanje_m_slalom_2_voznja_svetovni_pokal_v_levi_2026_2027_858624b1"
     }
   ]
 }

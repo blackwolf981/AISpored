@@ -1,838 +1,10 @@
 {
   "kanal": "BBC Earth",
   "ch_ext_id": "bbc-earth",
-  "posodobljeno": "2026-11-08 12:46",
-  "od": "2026-11-01",
-  "do": "2026-11-15",
+  "posodobljeno": "2026-11-09 12:26",
+  "od": "2026-11-02",
+  "do": "2026-11-16",
   "oddaje": [
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "00:25",
-      "cas_konec": "01:25",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E6 - Življenje pod ničlo Kanada: Najboljši načrti",
-      "naslov_orig": "S2E6 - Life Below Zero: Canada: Best Laid Plans",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Kim in Pierre nastavljata dodatne pasti, ko jima začne pretiti nadležni lokalni prebivalec. Jon in njegova žena Lally se borita z ekstremnimi arktičnimi razmerami v želji, da bi si zagotovila preskrbo s hrano.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/e/a/e9ea4b35-79df-4e8e-8cf0-90fa0677d622.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1169686789"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "01:25",
-      "cas_konec": "02:25",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E2 - V divjini z Benom Foglom: Indija",
-      "naslov_orig": "S2E2 - Where the Wild Men Are with Ben Fogle: Himalayan Foothills, India",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "Ben Fogle odpotuje v predgorje indijske Himalaje, kjer se pridruži nekdanjemu bojnemu pilotu Stevu Lallu, ki je danes gorski kmetovalec.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7d/3/f/7d3f3b17-a970-4a22-ba74-d016e59ec2cb.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1169686781"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "02:25",
-      "cas_konec": "03:45",
-      "trajanje": "80 min",
-      "naslov_sl": "S2E3 - Velike mačke 24/7",
-      "naslov_orig": "S2E3 - Big Cats 24/7: A Pride Divided",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Samice z mladiči morajo zaradi napadov vsiljivih levjih samcev znova poiskati svoj trop.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/38/e/9/38e92e8e-f70b-4827-8a3f-5c40b8ee7a2c.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1169686774"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "03:45",
-      "cas_konec": "04:55",
-      "trajanje": "70 min",
-      "naslov_sl": "S2E4 - Velike mačke 24/7",
-      "naslov_orig": "S2E4 - Big Cats 24/7: Reunion",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Ko so levje mame spet skupaj, se trudijo nahraniti številna lačna usta, eden od mladičev pa strada.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/c/1/c9c110da-5ecd-45d4-b878-f2104fa9ae96.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1169686780"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "04:55",
-      "cas_konec": "06:00",
-      "trajanje": "65 min",
-      "naslov_sl": "S5E4 - V divjini z Benom Foglom: Nova Zelandija",
-      "naslov_orig": "S5E4 - Where the Wild Men Are with Ben Fogle: New Zealand",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Ben potuje po obali Severnega otoka Nove Zelandije vse do otoka Great Barrier Island, kjer sreča moškega, ki se je odrekel obetavni znanstveni karieri in sprejel odmaknjeno življenje v osami.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2b/a/8/2ba80e1a-f6a5-4093-94e7-218688297081.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1169686795"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "06:00",
-      "cas_konec": "07:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E5 - V divjini z Benom Foglom: Šetlandski otoki",
-      "naslov_orig": "S9E5 - Where the Wild Men Are with Ben Fogle: Shetlands",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Ben odpotuje na Shetlandske otoke, enega najbolj osamljenih krajev v Veliki Britaniji. \n\nObišče Helen in Jasona, par, ki že nekaj let živi na otoku Yell. Odkrije, zakaj sta se odpovedala mestnemu življenju, in vidi ovire, s katerimi se soočata pri uresničevanju svojih sanj o življenju na tem čudovitem otoku, daleč od civilizacije. \n\nBenova gostitelja veliko časa posvečata fizično zahtevni prenovi svoje hiše, poleg tega pa obdelujeta 10 hektarjev zemlje. Priznavata, da sta včasih preveč zaposlena. Ben striže ovce, polaga vodovodne cevi, tka volnene preproge in pridobiva šoto.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/1/a/2c1afbdc-3ffb-4c48-b62e-829e9eb71dbd.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734868"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "07:00",
-      "cas_konec": "07:55",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E12 - Življenje pod ničlo: Konec mračne zime",
-      "naslov_orig": "S2E12 - Life Below Zero: Dark Winter's End",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "Snežni vihar v Kaviku grozi Suejini oskrbi s hrano, medtem pa v Eagleju pokanje ledu ogroža Andyjeve načrte za pomlad.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/68/5/e/685e48f8-4b12-483b-b079-7faf0edc17b7.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734872"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "07:55",
-      "cas_konec": "09:00",
-      "trajanje": "65 min",
-      "naslov_sl": "S3E4 - V tovarni: Ribje pačke",
-      "naslov_orig": "S3E4 - Inside the Factory: Fish Fingers",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Gregg obišče tovarno v Grimsbyju, kjer dnevno proizvedejo 80.000 ribjih palčk. Gregg odkrije, da polenovke prispejo v tovarno v obliki stisnjenih blokov zamrznjenih rib, ki jih nato razrežejo v palčke, dodajo moko, panirajo in nazadnje cvrejo 45 sekund.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/35/8/d/358d94b3-eae3-40fe-a851-581941cc4e6b.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734886"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "09:00",
-      "cas_konec": "09:35",
-      "trajanje": "35 min",
-      "naslov_sl": "S2E10 - Ena sama stvar",
-      "naslov_orig": "S2E10 - Michael Mosley: Just One Thing",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Je lahko sladka pregreha tudi koristna za zdravje? Zoe Ball v Birminghamu skuša športnega navdušenca Bilala prepričati, naj sladkarije zamenja za temno čokolado, bogato s flavanoli.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/a/8/12a82f6f-3bd1-4e67-8dda-776479d1675d.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734885"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "09:35",
-      "cas_konec": "10:35",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E3 - Budimpešta",
-      "naslov_orig": "S1E3 - Joanna Lumley's Danube: Europe's Mightiest River: Budapest",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "potovanje"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "0+",
-      "opis": "V Budimpešti Joanna raziskuje reko z ladjo in se popelje z edinstveno otroško železnico.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/d/9/52d96b56-ba0c-49eb-8443-6191d9cc09ae.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734873"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "10:35",
-      "cas_konec": "11:35",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E4 - Romunija",
-      "naslov_orig": "S1E4 - Joanna Lumley's Danube: Europe's Mightiest River: Romania",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "potovanje"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "0+",
-      "opis": "Joanna se odpravi proti delti Donave, enemu zadnjih velikih divjih območij v Evropi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/c/1/e1c149db-c860-4558-981e-6074816b9d7e.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734869"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "11:35",
-      "cas_konec": "12:40",
-      "trajanje": "65 min",
-      "naslov_sl": "S2E3 - Velike mačke 24/7",
-      "naslov_orig": "S2E3 - Big Cats 24/7: A Pride Divided",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Samice z mladiči morajo zaradi napadov vsiljivih levjih samcev znova poiskati svoj trop.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/38/e/9/38e92e8e-f70b-4827-8a3f-5c40b8ee7a2c.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734876"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "12:40",
-      "cas_konec": "13:55",
-      "trajanje": "75 min",
-      "naslov_sl": "S2E4 - Velike mačke 24/7",
-      "naslov_orig": "S2E4 - Big Cats 24/7: Reunion",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Ko so levje mame spet skupaj, se trudijo nahraniti številna lačna usta, eden od mladičev pa strada.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/c/1/c9c110da-5ecd-45d4-b878-f2104fa9ae96.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734889"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "13:55",
-      "cas_konec": "15:05",
-      "trajanje": "70 min",
-      "naslov_sl": "S1E2 - Velika majhna potovanja: Preživetje",
-      "naslov_orig": "S1E2 - Big Little Journeys: Pangolin & Golden Headed Lion Tamarin",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Tajvanski pangolin potuje skozi deželo velikanov in išče partnerja, v Braziliji pa družina zlatoglavih levičev odpotuje na rob svojega sveta, da bi zgradili novo prihodnost v sožitju s človekom.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fa/9/c/fa9ce1cb-b390-4b5e-96d3-2322f4a456f8.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734879"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "15:05",
-      "cas_konec": "15:40",
-      "trajanje": "35 min",
-      "naslov_sl": "S1E5 - David Attenborough: Naravne skrivnosti: Iskanje vzorca",
-      "naslov_orig": "S1E5 - Natural Curiosities: Seeing the Pattern",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "",
-      "opis": "David vzame pod drobnogled dva primera živalskih vzorcev, ki sta vrsto let begala znanstvenike.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/e/2/19e26236-6296-43d5-b301-efa81c708ef7.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734880"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "15:40",
-      "cas_konec": "16:35",
-      "trajanje": "55 min",
-      "naslov_sl": "S10E4 - V divjini z Benom Foglom: Toskana",
-      "naslov_orig": "S10E4 - Where the Wild Men Are with Ben Fogle: Tuscany",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Ben Fogle odpotuje v Toskano.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/93/7/b/937b1720-06f9-4b19-add0-baf07c5a663a.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734887"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "16:35",
-      "cas_konec": "18:05",
-      "trajanje": "90 min",
-      "naslov_sl": "S1E3 - Ben Fogle: Kitajska pustolovščina",
-      "naslov_orig": "S1E3 - Ben Fogle in China: Tomorrow's Revolution",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "V Shenzhenu in Hongkongu si Ben ogleda osupljivo predstavo z droni, raziskuje tržnico Huaqiangbei, obišče tako imenovane \\\"domove v krstah\\\", poskusi kavo, ki mu jo pripravi robotski barista, in razmišlja o okoljskem davku tehnološkega napredka.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3d/a/3/3da3b61d-9d72-4408-bee5-f6be98d0fbd7.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734871"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "18:05",
-      "cas_konec": "19:00",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E6 - Življenje pod ničlo Kanada: Najboljši načrti",
-      "naslov_orig": "S2E6 - Life Below Zero: Canada: Best Laid Plans",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Kim in Pierre nastavljata dodatne pasti, ko jima začne pretiti nadležni lokalni prebivalec. Jon in njegova žena Lally se borita z ekstremnimi arktičnimi razmerami v želji, da bi si zagotovila preskrbo s hrano.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/e/a/e9ea4b35-79df-4e8e-8cf0-90fa0677d622.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734877"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "19:00",
-      "cas_konec": "20:15",
-      "trajanje": "75 min",
-      "naslov_sl": "S1E3 - Velika majhna potovanja: Krvne linije",
-      "naslov_orig": "S1E3 - Big Little Journeys: Bloodlines",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Pritlikavi kameleon se podaja na življenjsko potovanje skozi madagaskarski gozd, na Škotskem pa velika voluharica preplava jezero in prepleza goro, da bi našla novo ozemlje in partnerja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/3/1/bf314a66-89a7-4404-a63d-87e6258913aa.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734874"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "20:15",
-      "cas_konec": "21:15",
-      "trajanje": "60 min",
-      "naslov_sl": "S10E6 - Življenje pod ničlo",
-      "naslov_orig": "S10E6 - Life Below Zero: Into the Freeze",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Aljaščani iščejo ključne surovine sredi globoke zmrzali s temperaturami precej pod ničlo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4f/3/4/4f34e0dc-1d85-4ffa-83a0-e669c32d7d1c.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734888"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "21:15",
-      "cas_konec": "22:30",
-      "trajanje": "75 min",
-      "naslov_sl": "S1E3 - Ben Fogle: Izgubljeni svetovi: Monserat",
-      "naslov_orig": "S1E3 - Ben Fogle's Lost Worlds: Montserrat",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Ben obišče karibski otok Montserrat, ki ga je v 90. letih opustošil vulkan. V dveh letih je večina prebivalcev zapustila svoje domove. Ben odkrije edinstvene zgodbe o junaštvu in izgubi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/7/4/dc74b617-7f94-4fe9-a711-9ee0982dbc03.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734881"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "22:30",
-      "cas_konec": "23:45",
-      "trajanje": "75 min",
-      "naslov_sl": "S1E3 - Epizoda 3",
-      "naslov_orig": "S1E3 - Astronauts: Toughest Job in the Universe",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "0+",
-      "opis": "Preostali kandidati za astronavte so soočeni z novimi zahtevnimi preizkušnjami, vključno s sestavljanjem velike kocke pod vodo, učenjem ruščine in poskusom pristanka z vesoljsko kapsulo Soyuz na Mednarodni vesoljski postaji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a7/a/8/a7a8531f-90c8-47fb-b4a7-e02a72af6ada.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734882"
-    },
-    {
-      "datum": "2026-11-01",
-      "dan": "Nedelja",
-      "cas": "23:45",
-      "cas_konec": "00:45",
-      "trajanje": "60 min",
-      "naslov_sl": "S5E3 - Najsmrtonosnejše vreme na svetu",
-      "naslov_orig": "S5E3 - World's Deadliest Weather",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Na vulkanskem otoku pride do silovitega izbruha, v ZDA močan dež in taljenje snega potopita majhno mesto, v Italiji pa gromozanska toča uničuje pločnike in voznike zaklene v njihove avtomobile.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c7/e/a/c7eaeec5-cb78-4c46-a1f2-04f05ceb291b.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176734883"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "00:20",
-      "cas_konec": "01:35",
-      "trajanje": "75 min",
-      "naslov_sl": "S2E1 - V divjini s Simonom Reevom",
-      "naslov_orig": "S2E1 - Wilderness with Simon Reeve: Papua New Guinea",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Simon Reeve se poda globoko v tropski deževni gozd Papue Nove Gvineje, kjer išče drevesnega kenguruja tenkileja, eno najredkejših živali na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e6/6/a/e66a09d3-b467-4549-8d80-1b04ff810db7.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176797932"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "01:35",
-      "cas_konec": "02:40",
-      "trajanje": "65 min",
-      "naslov_sl": "S3E5 - V divjini z Benom Foglom: Laos",
-      "naslov_orig": "S3E5 - Where the Wild Men Are with Ben Fogle: Laos",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "12+",
-      "opis": "Ben se odpravi v gozdove kaskadnega gorovja v Washingtonu, ZDA, da bi živel z Britancem Lynxom Vildenom, ki je razvil spretnostmi iz kamene dobe, da bi preživel v divjini.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/9/e/609ef526-cd9d-4d2a-89c2-01f13ac0a0db.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176797938"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "02:40",
-      "cas_konec": "03:55",
-      "trajanje": "75 min",
-      "naslov_sl": "S1E3 - Velika majhna potovanja: Krvne linije",
-      "naslov_orig": "S1E3 - Big Little Journeys: Bloodlines",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Pritlikavi kameleon se podaja na življenjsko potovanje skozi madagaskarski gozd, na Škotskem pa velika voluharica preplava jezero in prepleza goro, da bi našla novo ozemlje in partnerja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/3/1/bf314a66-89a7-4404-a63d-87e6258913aa.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176797934"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "03:55",
-      "cas_konec": "05:00",
-      "trajanje": "65 min",
-      "naslov_sl": "S1E1 - Evolucija",
-      "naslov_orig": "S1E1 - Evolution: The Elephant",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Chris Packham se poda na osupljivo potovanje skozi zgodovino življenja, da bi odkril, kako se je razvil tako mogočen in kompleksen velikan, kot je slon. Od ene same drobne celice pred več kot štirimi milijardami let do ene najbolj prepoznavnih živali na planetu - to je presenetljiva zgodba o izjemnih evolucijskih spremembah, ki so oblikovale življenje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/4/6/bf46d05a-010b-4cc1-b510-631643479f87.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176797924"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E5 - V divjini z Benom Foglom: Laos",
-      "naslov_orig": "S3E5 - Where the Wild Men Are with Ben Fogle: Laos",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "12+",
-      "opis": "Ben se odpravi v gozdove kaskadnega gorovja v Washingtonu, ZDA, da bi živel z Britancem Lynxom Vildenom, ki je razvil spretnostmi iz kamene dobe, da bi preživel v divjini.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/9/e/609ef526-cd9d-4d2a-89c2-01f13ac0a0db.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176797939"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "06:00",
-      "cas_konec": "07:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E5 - V divjini z Benom Foglom: Bolgarija",
-      "naslov_orig": "S6E5 - Where the Wild Men Are with Ben Fogle: Rhodope Mountains, Bulgaria",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Ben obišče prostrane gozdove gorovja Rodopi v Bolgariji, kjer se pridruži Petru in Miriam, ki sta se odločila za nomadsko življenje in se potepata po najbolj osupljivi divjini na svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/b/4/f6b4f0c8-9a54-4b93-b161-a4a384c9cc38.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804461"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "07:00",
-      "cas_konec": "08:05",
-      "trajanje": "65 min",
-      "naslov_sl": "S1E3 - Svalbard: Življenje na robu: Iz teme",
-      "naslov_orig": "S1E3 - Svalbard: Life on the Edge: Out of the Darkness",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Pridružite se nam pri potovanju v najbolj severno mesto na planetu in srečajte nenavadne prebivalce tega izoliranega kraja sredi osupljive divjine otočja Svalbard.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/d/f2ad8d68-29c7-45d8-8f19-136bcc2ced1d.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804462"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "08:05",
-      "cas_konec": "09:05",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E4 - Svalbard: Življenje na robu: V svetlobo",
-      "naslov_orig": "S1E4 - Svalbard: Life on the Edge: Into the Light",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Pridružite se nam pri potovanju v najbolj severno mesto na planetu in srečajte nenavadne prebivalce tega izoliranega kraja sredi osupljive divjine otočja Svalbard.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/d/1/00d1f5e2-129d-42a7-bf18-817e70f490d6.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804463"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "09:05",
-      "cas_konec": "10:00",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E3 - Misija: Vulkani: Etna",
-      "naslov_orig": "S1E3 - Exploration Volcano: Mamma Etna",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Etna, najaktivnejši vulkan v Evropi, doživlja najdaljši niz izbruhov v zadnjih letih. Naša zgodba se začenja leto poprej, še preden so izbruhi dosegli vrhunec. Etna bruha v presledkih in pod vrhom nastaja nov krater. Kaj bo sledilo?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/d/4/90d4ee8a-f0ad-4e0a-b7e0-28cf7096e8f3.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804464"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Najboljše pohodniške poti: Hadrijanov zid",
-      "naslov_orig": "S1E1 - World's Most Amazing Walks: Hadrian's Wall, England",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Robson Green se poda na eno najbolj legendarnih pohodniških poti v Združenem kraljestvu - na pot Hadrijanovega zidu. Za Robsona, ki se je rodil in odraščal na severovzhodu Anglije, je to globoko osebno in čustveno potovanje.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/0/b/b90b3ad4-4e16-4b0a-88e8-79b0729b8bf7.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804465"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "11:00",
-      "cas_konec": "12:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E8 - V divjini z Benom Foglom: Suffolk",
-      "naslov_orig": "S8E8 - Where the Wild Men Are with Ben Fogle: Suffolk",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Ben odpotuje v odmaknjeno gozdnato območje na podeželju Suffolka, da bi teden dni preživel s 50-letnim posebnežem Willom, ki bi ga lahko opisali kot pravega britanskega jamskega človeka. Ben se vživi v Willov kamenodobni način življenja sredi gozda.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/b/a/dcba4e34-71c6-4c02-9278-512b253a3f78.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804466"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Skrivnosti superstarostnikov: Telo",
-      "naslov_orig": "S1E2 - Secrets of the Superagers: The Body",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Osteoporoza je bolezen, ko kosti postanejo krhke in se zlahka zlomijo. Pogostejša je pri ženskah in se običajno poslabša s starostjo. Michael Mosley preuči, kako ohraniti telo, kosti in mišice zdrave.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a9/e/c/a9ec8c07-6cbb-45dc-aa19-609680458e7e.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804467"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S7E5 - Uganka rimskih podolgovatih lobanj",
-      "naslov_orig": "S7E5 - Treasures Decoded: The Riddle of the Roman Coneheads",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "0+",
-      "opis": "Padcu Rimskega cesarstva so sledile velike bitke. Nedavne najdbe pa so razkrile pokopališče s skrivnostno oblikovanimi lobanjami, ki pripadajo neznanemu plemenu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/5/5/e1550fca-9a16-43a7-ad66-a98266d337f7.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804468"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E15 - Življenje pod ničlo: Divja reka",
-      "naslov_orig": "S4E15 - Life Below Zero: River of Rage",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Pomlad se nezadržno približuje, zato so Hailstonovi v Kiwaliku na lovu za karibuji, preden se območje odtali in več ne bodo mogli prečkati reke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/5/1/2451a48b-a782-4acf-9121-9534dca472af.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804469"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E9 - V divjini z Benom Foglom: Otok Erraid",
-      "naslov_orig": "S8E9 - Where the Wild Men Are with Ben Fogle: Isle of Erraid - Scottish Hebrides",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Ben odpotuje na edinstveni majhen otok v škotskih Hebridih, kjer sreča nekdanjega socialnega delavca Philipa, ki se je odločil za nov način življenja v majhni alternativni skupnosti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/3/1/a831dc67-3760-4611-b742-73753eb9662e.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804470"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Najboljše pohodniške poti: Avstrija",
-      "naslov_orig": "S1E2 - World's Most Amazing Walks: Austria",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Robson Green v Avstriji pohajkuje po osupljivi dolini Wachau, ki sledi mogočni modri Donavi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f0/2/c/f02c606f-c1e5-453c-b3ee-08fdb249ada3.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804471"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E4 - Misija: Vulkani: Gora v čudoviti dolini",
-      "naslov_orig": "S1E4 - Exploration Volcano: The Mountain in the Beautiful Valle",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Islandski polotok Reykjanes se po več kot 1.000 letih vulkanske neaktivnosti ponovno prebuja. Ribiško mesto Grindavik vso leto pretresajo močni potresi. Nekega usodnega večera se nebo nad mestom obarva živo rdeče in tamkajšnji hrib začne bruhati lavo. Rodil se je vulkan Fagradalsfjall, ki se pet mesecev kasneje samo še krepi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/a/2/0da284a7-a4cd-4be6-9d5d-bc36ab843f99.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804472"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "18:00",
-      "cas_konec": "19:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Skrivnosti superstarostnikov: Telo",
-      "naslov_orig": "S1E2 - Secrets of the Superagers: The Body",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Osteoporoza je bolezen, ko kosti postanejo krhke in se zlahka zlomijo. Pogostejša je pri ženskah in se običajno poslabša s starostjo. Michael Mosley preuči, kako ohraniti telo, kosti in mišice zdrave.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a9/e/c/a9ec8c07-6cbb-45dc-aa19-609680458e7e.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804473"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E5 - Življenje pod ničlo: Nočno bitje",
-      "naslov_orig": "S9E5 - Life Below Zero: Creature of the Night",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "",
-      "opis": "Sue, Jessie in Hailstonovi se borijo za preživetje v nepopustljivi aljaški divjini.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/a/8/0ba89d94-eb5b-4bc4-8945-9a91a4998074.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804474"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E6 - V divjini z Benom Foglom: Kanada",
-      "naslov_orig": "S6E6 - Where the Wild Men Are with Ben Fogle: Canada",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Avanturist sreča Jeffa in Rose in njenih pet hčera, ki živijo v prostrani divjini na severozahodu Kanade. Nahajamo se pozno v jeseni in družina bo kmalu obdana z dva metra visoko snežno odejo, in to v predelu, kjer temperature pogosto dosežejo -30.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9b/7/6/9b76a8a8-af12-418b-a8e3-ae0a570e4aaa.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804475"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "21:00",
-      "cas_konec": "22:05",
-      "trajanje": "65 min",
-      "naslov_sl": "S1E3 - Skrivnosti superstarostnikov: Čutila",
-      "naslov_orig": "S1E3 - Secrets of the Superagers: Senses",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Michael Mosley sreča 73-letnega jazz glasbenika v Chicagu in odkrije, kako lahko igranje glasbe prepreči izgubo sluha. Prav tako razkrije, kako aerobna vadba preprečuje razvoj glavkoma.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0c/e/f/0cefdb09-0441-4f74-b8e0-8aff25ad1bd4.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804476"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "22:05",
-      "cas_konec": "23:25",
-      "trajanje": "80 min",
-      "naslov_sl": "S1E3 - 3. epizoda",
-      "naslov_orig": "S1E3 - Empire with David Olusoga",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Zgodovinar David Olusoga raziskuje, na kakšen način britanski imperij še danes živi po vsem svetu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/e/4/b6e4556b-9c0f-46cf-ac38-b63e8cd8bfe5.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804477"
-    },
-    {
-      "datum": "2026-11-09",
-      "dan": "Ponedeljek",
-      "cas": "23:25",
-      "cas_konec": "00:40",
-      "trajanje": "75 min",
-      "naslov_sl": "S7E3 - Slavna potovanja po evropskih železnicah: Od Berlina do Stuttgarta",
-      "naslov_orig": "S7E3 - Great Continental Railway Journeys: Berlin to Stuttgart",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Michael Portillo z vlakom potuje po Nemčiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/de/1/2/de12d45b-c1d7-42b9-809b-69b39906894a.jpg",
-      "show_id": "CUP_IECOM_BBCEARTH_1176804478"
-    },
     {
       "datum": "2026-11-02",
       "dan": "Ponedeljek",
@@ -6232,6 +5404,834 @@
       "opis": "V Kaliforniji je več sto tabornikov prisiljeno bežati pred divjim gozdnim požarom, redek tornado opustoši Češko republiko, solo avanturist pa je prisiljen plavati za svoje življenje v spodletelem poskusu, da bi preveslal Tihi ocean.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/3/2/dc32d9eb-64b0-48c0-a38f-1c688b24dc5f.jpg",
       "show_id": "CUP_IECOM_BBCEARTH_1177121108"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "00:20",
+      "cas_konec": "01:35",
+      "trajanje": "75 min",
+      "naslov_sl": "S2E1 - V divjini s Simonom Reevom",
+      "naslov_orig": "S2E1 - Wilderness with Simon Reeve: Papua New Guinea",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Simon Reeve se poda globoko v tropski deževni gozd Papue Nove Gvineje, kjer išče drevesnega kenguruja tenkileja, eno najredkejših živali na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e6/6/a/e66a09d3-b467-4549-8d80-1b04ff810db7.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176797932"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "01:35",
+      "cas_konec": "02:40",
+      "trajanje": "65 min",
+      "naslov_sl": "S3E5 - V divjini z Benom Foglom: Laos",
+      "naslov_orig": "S3E5 - Where the Wild Men Are with Ben Fogle: Laos",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2013",
+      "starostna_omejitev": "12+",
+      "opis": "Ben se odpravi v gozdove kaskadnega gorovja v Washingtonu, ZDA, da bi živel z Britancem Lynxom Vildenom, ki je razvil spretnostmi iz kamene dobe, da bi preživel v divjini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/9/e/609ef526-cd9d-4d2a-89c2-01f13ac0a0db.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176797938"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "02:40",
+      "cas_konec": "03:55",
+      "trajanje": "75 min",
+      "naslov_sl": "S1E3 - Velika majhna potovanja: Krvne linije",
+      "naslov_orig": "S1E3 - Big Little Journeys: Bloodlines",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Pritlikavi kameleon se podaja na življenjsko potovanje skozi madagaskarski gozd, na Škotskem pa velika voluharica preplava jezero in prepleza goro, da bi našla novo ozemlje in partnerja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/3/1/bf314a66-89a7-4404-a63d-87e6258913aa.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176797934"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "03:55",
+      "cas_konec": "05:00",
+      "trajanje": "65 min",
+      "naslov_sl": "S1E1 - Evolucija",
+      "naslov_orig": "S1E1 - Evolution: The Elephant",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Chris Packham se poda na osupljivo potovanje skozi zgodovino življenja, da bi odkril, kako se je razvil tako mogočen in kompleksen velikan, kot je slon. Od ene same drobne celice pred več kot štirimi milijardami let do ene najbolj prepoznavnih živali na planetu - to je presenetljiva zgodba o izjemnih evolucijskih spremembah, ki so oblikovale življenje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/d/d/4cdd096b-3164-4a8d-8a9d-501e4fbdc697.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176797924"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E5 - V divjini z Benom Foglom: Laos",
+      "naslov_orig": "S3E5 - Where the Wild Men Are with Ben Fogle: Laos",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2013",
+      "starostna_omejitev": "12+",
+      "opis": "Ben se odpravi v gozdove kaskadnega gorovja v Washingtonu, ZDA, da bi živel z Britancem Lynxom Vildenom, ki je razvil spretnostmi iz kamene dobe, da bi preživel v divjini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/9/e/609ef526-cd9d-4d2a-89c2-01f13ac0a0db.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176797939"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E5 - V divjini z Benom Foglom: Bolgarija",
+      "naslov_orig": "S6E5 - Where the Wild Men Are with Ben Fogle: Rhodope Mountains, Bulgaria",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ben obišče prostrane gozdove gorovja Rodopi v Bolgariji, kjer se pridruži Petru in Miriam, ki sta se odločila za nomadsko življenje in se potepata po najbolj osupljivi divjini na svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f6/b/4/f6b4f0c8-9a54-4b93-b161-a4a384c9cc38.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804461"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "07:00",
+      "cas_konec": "08:05",
+      "trajanje": "65 min",
+      "naslov_sl": "S1E3 - Svalbard: Življenje na robu: Iz teme",
+      "naslov_orig": "S1E3 - Svalbard: Life on the Edge: Out of the Darkness",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Pridružite se nam pri potovanju v najbolj severno mesto na planetu in srečajte nenavadne prebivalce tega izoliranega kraja sredi osupljive divjine otočja Svalbard.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/a/d/f2ad8d68-29c7-45d8-8f19-136bcc2ced1d.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804462"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "08:05",
+      "cas_konec": "09:05",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E4 - Svalbard: Življenje na robu: V svetlobo",
+      "naslov_orig": "S1E4 - Svalbard: Life on the Edge: Into the Light",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Pridružite se nam pri potovanju v najbolj severno mesto na planetu in srečajte nenavadne prebivalce tega izoliranega kraja sredi osupljive divjine otočja Svalbard.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/d/1/00d1f5e2-129d-42a7-bf18-817e70f490d6.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804463"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "09:05",
+      "cas_konec": "10:00",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E3 - Misija: Vulkani: Etna",
+      "naslov_orig": "S1E3 - Exploration Volcano: Mamma Etna",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Etna, najaktivnejši vulkan v Evropi, doživlja najdaljši niz izbruhov v zadnjih letih. Naša zgodba se začenja leto poprej, še preden so izbruhi dosegli vrhunec. Etna bruha v presledkih in pod vrhom nastaja nov krater. Kaj bo sledilo?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/90/d/4/90d4ee8a-f0ad-4e0a-b7e0-28cf7096e8f3.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804464"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E1 - Najboljše pohodniške poti: Hadrijanov zid",
+      "naslov_orig": "S1E1 - World's Most Amazing Walks: Hadrian's Wall, England",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Robson Green se poda na eno najbolj legendarnih pohodniških poti v Združenem kraljestvu - na pot Hadrijanovega zidu. Za Robsona, ki se je rodil in odraščal na severovzhodu Anglije, je to globoko osebno in čustveno potovanje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b9/0/b/b90b3ad4-4e16-4b0a-88e8-79b0729b8bf7.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804465"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "11:00",
+      "cas_konec": "12:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E8 - V divjini z Benom Foglom: Suffolk",
+      "naslov_orig": "S8E8 - Where the Wild Men Are with Ben Fogle: Suffolk",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Ben odpotuje v odmaknjeno gozdnato območje na podeželju Suffolka, da bi teden dni preživel s 50-letnim posebnežem Willom, ki bi ga lahko opisali kot pravega britanskega jamskega človeka. Ben se vživi v Willov kamenodobni način življenja sredi gozda.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/b/a/dcba4e34-71c6-4c02-9278-512b253a3f78.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804466"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Skrivnosti superstarostnikov: Telo",
+      "naslov_orig": "S1E2 - Secrets of the Superagers: The Body",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Osteoporoza je bolezen, ko kosti postanejo krhke in se zlahka zlomijo. Pogostejša je pri ženskah in se običajno poslabša s starostjo. Michael Mosley preuči, kako ohraniti telo, kosti in mišice zdrave.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a9/e/c/a9ec8c07-6cbb-45dc-aa19-609680458e7e.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804467"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S7E5 - Uganka rimskih podolgovatih lobanj",
+      "naslov_orig": "S7E5 - Treasures Decoded: The Riddle of the Roman Coneheads",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "0+",
+      "opis": "Padcu Rimskega cesarstva so sledile velike bitke. Nedavne najdbe pa so razkrile pokopališče s skrivnostno oblikovanimi lobanjami, ki pripadajo neznanemu plemenu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e1/5/5/e1550fca-9a16-43a7-ad66-a98266d337f7.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804468"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E15 - Življenje pod ničlo: Divja reka",
+      "naslov_orig": "S4E15 - Life Below Zero: River of Rage",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Pomlad se nezadržno približuje, zato so Hailstonovi v Kiwaliku na lovu za karibuji, preden se območje odtali in več ne bodo mogli prečkati reke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/5/1/2451a48b-a782-4acf-9121-9534dca472af.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804469"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E9 - V divjini z Benom Foglom: Otok Erraid",
+      "naslov_orig": "S8E9 - Where the Wild Men Are with Ben Fogle: Isle of Erraid - Scottish Hebrides",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Ben odpotuje na edinstveni majhen otok v škotskih Hebridih, kjer sreča nekdanjega socialnega delavca Philipa, ki se je odločil za nov način življenja v majhni alternativni skupnosti.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/3/1/a831dc67-3760-4611-b742-73753eb9662e.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804470"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Najboljše pohodniške poti: Avstrija",
+      "naslov_orig": "S1E2 - World's Most Amazing Walks: Austria",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Robson Green v Avstriji pohajkuje po osupljivi dolini Wachau, ki sledi mogočni modri Donavi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f0/2/c/f02c606f-c1e5-453c-b3ee-08fdb249ada3.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804471"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E4 - Misija: Vulkani: Gora v čudoviti dolini",
+      "naslov_orig": "S1E4 - Exploration Volcano: The Mountain in the Beautiful Valle",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Islandski polotok Reykjanes se po več kot 1.000 letih vulkanske neaktivnosti ponovno prebuja. Ribiško mesto Grindavik vso leto pretresajo močni potresi. Nekega usodnega večera se nebo nad mestom obarva živo rdeče in tamkajšnji hrib začne bruhati lavo. Rodil se je vulkan Fagradalsfjall, ki se pet mesecev kasneje samo še krepi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/a/2/0da284a7-a4cd-4be6-9d5d-bc36ab843f99.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804472"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - Skrivnosti superstarostnikov: Telo",
+      "naslov_orig": "S1E2 - Secrets of the Superagers: The Body",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Osteoporoza je bolezen, ko kosti postanejo krhke in se zlahka zlomijo. Pogostejša je pri ženskah in se običajno poslabša s starostjo. Michael Mosley preuči, kako ohraniti telo, kosti in mišice zdrave.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a9/e/c/a9ec8c07-6cbb-45dc-aa19-609680458e7e.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804473"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S9E5 - Življenje pod ničlo: Nočno bitje",
+      "naslov_orig": "S9E5 - Life Below Zero: Creature of the Night",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Sue, Jessie in Hailstonovi se borijo za preživetje v nepopustljivi aljaški divjini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/a/8/0ba89d94-eb5b-4bc4-8945-9a91a4998074.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804474"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E6 - V divjini z Benom Foglom: Kanada",
+      "naslov_orig": "S6E6 - Where the Wild Men Are with Ben Fogle: Canada",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Avanturist sreča Jeffa in Rose in njenih pet hčera, ki živijo v prostrani divjini na severozahodu Kanade. Nahajamo se pozno v jeseni in družina bo kmalu obdana z dva metra visoko snežno odejo, in to v predelu, kjer temperature pogosto dosežejo -30.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9b/7/6/9b76a8a8-af12-418b-a8e3-ae0a570e4aaa.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804475"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "21:00",
+      "cas_konec": "22:05",
+      "trajanje": "65 min",
+      "naslov_sl": "S1E3 - Skrivnosti superstarostnikov: Čutila",
+      "naslov_orig": "S1E3 - Secrets of the Superagers: Senses",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Michael Mosley sreča 73-letnega jazz glasbenika v Chicagu in odkrije, kako lahko igranje glasbe prepreči izgubo sluha. Prav tako razkrije, kako aerobna vadba preprečuje razvoj glavkoma.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0c/e/f/0cefdb09-0441-4f74-b8e0-8aff25ad1bd4.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804476"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "22:05",
+      "cas_konec": "23:25",
+      "trajanje": "80 min",
+      "naslov_sl": "S1E3 - 3. epizoda",
+      "naslov_orig": "S1E3 - Empire with David Olusoga",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "12+",
+      "opis": "Zgodovinar David Olusoga raziskuje, na kakšen način britanski imperij še danes živi po vsem svetu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b6/e/4/b6e4556b-9c0f-46cf-ac38-b63e8cd8bfe5.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804477"
+    },
+    {
+      "datum": "2026-11-09",
+      "dan": "Ponedeljek",
+      "cas": "23:25",
+      "cas_konec": "00:40",
+      "trajanje": "75 min",
+      "naslov_sl": "S7E3 - Najlepše evropske železniške proge: Od Berlina do Stuttgarta",
+      "naslov_orig": "S7E3 - Great Continental Railway Journeys: Berlin to Stuttgart",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Michael Portillo z vlakom potuje po Nemčiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/de/1/2/de12d45b-c1d7-42b9-809b-69b39906894a.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1176804478"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "00:15",
+      "cas_konec": "01:40",
+      "trajanje": "85 min",
+      "naslov_sl": "S2E2 - V divjini s Simonom Reevom",
+      "naslov_orig": "S2E2 - Wilderness with Simon Reeve: Mexico",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Simon Reeve raziskuje čudovito in odmaknjeno Cortezovo morje v Mehiki, znano tudi kot \\\"akvarij sveta\\\", kjer se potaplja med redkimi in nevarnimi morskimi psi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e6/6/a/e66a09d3-b467-4549-8d80-1b04ff810db7.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177121101"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "01:40",
+      "cas_konec": "02:35",
+      "trajanje": "55 min",
+      "naslov_sl": "S3E7 - V divjini z Benom Foglom",
+      "naslov_orig": "S3E7 - Where the Wild Men Are with Ben Fogle: Tennessee",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2013",
+      "starostna_omejitev": "",
+      "opis": "Ben se odpravi globoko v Apalače, da bi srečal 25-letnega Justina Burka, ki je zamenjal svojo privilegirano vzgojo za življenje v divjini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/1/a/2c1afbdc-3ffb-4c48-b62e-829e9eb71dbd.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177121097"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "02:35",
+      "cas_konec": "03:50",
+      "trajanje": "75 min",
+      "naslov_sl": "S1E1 - Evolucija",
+      "naslov_orig": "S1E1 - Evolution: The Elephant",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Chris Packham se poda na osupljivo potovanje skozi zgodovino življenja, da bi odkril, kako se je razvil tako mogočen in kompleksen velikan, kot je slon. Od ene same drobne celice pred več kot štirimi milijardami let do ene najbolj prepoznavnih živali na planetu - to je presenetljiva zgodba o izjemnih evolucijskih spremembah, ki so oblikovale življenje.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4c/d/d/4cdd096b-3164-4a8d-8a9d-501e4fbdc697.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177121093"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "03:50",
+      "cas_konec": "05:00",
+      "trajanje": "70 min",
+      "naslov_sl": "S1E2 - Evolucija",
+      "naslov_orig": "S1E2 - Evolution: The Ostrich",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Kako je noj dobil največje jajce na svetu? Chris Packham raziskuje, kako je potreba po razmnoževanju oblikovala razvoj življenja - od prvih oblik spolnega razmnoževanja do nastanka jajc, perja in sposobnosti letenja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/4/6/bf46d05a-010b-4cc1-b510-631643479f87.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177121112"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E7 - V divjini z Benom Foglom",
+      "naslov_orig": "S3E7 - Where the Wild Men Are with Ben Fogle: Tennessee",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2013",
+      "starostna_omejitev": "",
+      "opis": "Ben se odpravi globoko v Apalače, da bi srečal 25-letnega Justina Burka, ki je zamenjal svojo privilegirano vzgojo za življenje v divjini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/2c/1/a/2c1afbdc-3ffb-4c48-b62e-829e9eb71dbd.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177121114"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S7E2 - V divjini z Benom Foglom: Maroko",
+      "naslov_orig": "S7E2 - Where the Wild Men Are with Ben Fogle: Morocco",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ben obišče oazo iz blatne opeke globoko v osrčju maroške Sahare, kjer sreča v Britaniji rojeno Karen, ki je zgradila gostišče in zatočišče za umetnike na tej negostoljubni lokaciji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/17/2/9/1729bf8a-6d07-4e74-8ace-73baaaf74394.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409661"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "07:00",
+      "cas_konec": "07:55",
+      "trajanje": "55 min",
+      "naslov_sl": "S2E3 - Življenje pod ničlo Kanada: Pekel ali visoka voda",
+      "naslov_orig": "S2E3 - Life Below Zero: Canada: Hell or High Water",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Becky mora poskrbeti za redno oskrbo z vodo čez zimo, Kim in Pierre lovita divjad, Jon v divjini išče življenjske pomembne dobrine, Bentley pa se mudi na jezeru Schade.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/e/a/e9ea4b35-79df-4e8e-8cf0-90fa0677d622.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409675"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "07:55",
+      "cas_konec": "08:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E4 - Življenje pod ničlo Kanada",
+      "naslov_orig": "S2E4 - Life Below Zero: Canada: Trail Blazing",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Kim in Pierre okrepita lov na lose, Becky se žrtvuje za svoje pse, Bentley in njegov oče zgradita pisto za njuno letalo, Jon pa s svojima sinovoma načrtuje svetlo prihodnost.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/e/a/e9ea4b35-79df-4e8e-8cf0-90fa0677d622.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409655"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "08:55",
+      "cas_konec": "09:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E8 - Misija: Vulkani",
+      "naslov_orig": "S1E8 - Exploration Volcano: The Ridge of Fire Part 2",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Strokovnjak za vulkane Chris Horsley se vrne na španski otok La Palma, kjer je uničujoča lava od vulkana Cumbre Vieja uničila tisoče življenj in domov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/50/f/b/50fb7152-c402-4ba0-9f74-78f2915af143.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409677"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "09:55",
+      "cas_konec": "10:50",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E6 - Najboljše pohodniške poti: Jurska obala",
+      "naslov_orig": "S1E6 - World's Most Amazing Walks: Jurassic Coast, England",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/69/3/a/693a2461-18e7-48e5-9a7a-a7e0c00f48bc.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409656"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "10:50",
+      "cas_konec": "11:50",
+      "trajanje": "60 min",
+      "naslov_sl": "S9E3 - V divjini z Benom Foglom: Grčija",
+      "naslov_orig": "S9E3 - Where the Wild Men Are with Ben Fogle: Greece",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Ben Fogle obišče Sandy, ki je na grškem otoku Andros odprla zavetišče za živali. Teden dni preživi na pobočju gore s 25 psi, 8 osli, konjem, mulo in več kot 20 mačkami. Obdan s čudovito naravo Ben pomaga hraniti, negovati in sprehajati številne živali, ki živijo na posestvu okoli 300 let stare hiše. \n\nPridruži se Sandy pri presenetljivem reševanju mladičkov, s čimer se skupno število psov poveča na 32. Sandy si nikoli ne vzame prostega dne, Ben pa odkrije, kaj jo je pripeljalo do takšnega načina življenja. \n\nObkrožena z živalmi Sandy ne čuti potrebe po druženju z domačini in trdi, da ji živali zagotavljajo vse, kar potrebuje. Toda Ben meni, da ji to ne omogoča, da bi se dovolj posvetila sebi, in se sprašuje, kako se bo spopadla s tem, ko bo starejša.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/be/6/a/be6a66e5-3568-4b19-be83-a6423ca31330.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409662"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "11:50",
+      "cas_konec": "12:55",
+      "trajanje": "65 min",
+      "naslov_sl": "S1E3 - Skrivnosti superstarostnikov: Čutila",
+      "naslov_orig": "S1E3 - Secrets of the Superagers: Senses",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Michael Mosley sreča 73-letnega jazz glasbenika v Chicagu in odkrije, kako lahko igranje glasbe prepreči izgubo sluha. Prav tako razkrije, kako aerobna vadba preprečuje razvoj glavkoma.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0c/e/f/0cefdb09-0441-4f74-b8e0-8aff25ad1bd4.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409659"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "12:55",
+      "cas_konec": "13:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E2 - 5. epizoda",
+      "naslov_orig": "S1E2 - Mummy Mysteries: The Screaming Mummy Conspiracy",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "pustolovščina"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "12+",
+      "opis": "Egiptolog, arheolog, jezikoslovec in trikratni dobitnik nagrade emmy Ramy Romany želi razkriti fascinantne skrivnosti mumij.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/a/f/60af1ff5-bdbf-4893-a26b-c6b152fdc221.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409676"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "13:55",
+      "cas_konec": "14:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E20 - Življenje pod ničlo: V višave",
+      "naslov_orig": "S4E20 - Life Below Zero: Higher Ground",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Topli dnevi se umikajo in Aljaščani so v bitki s časom, da bi kar najbolje izkoristili zadnje sončne dni na Arktiki.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/5/1/2451a48b-a782-4acf-9121-9534dca472af.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409672"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "14:55",
+      "cas_konec": "15:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S9E4 - V divjini z Benom Foglom: Cornwall",
+      "naslov_orig": "S9E4 - Where the Wild Men Are with Ben Fogle: Cornwall",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Ben je prišel na skalnate pečine Cornwalla, kjer živita Todd in Davina s svojima otrokoma. Mesto sta zapustila in prišla na podeželje brez izkušenj – gnala ju je le velika želja, da bi postala kmetovalca. \n\nBen bo izvedel, da sta pet let potrebovala, da sta svojo tri hektarje veliko posest preoblikovala v kmetijo. Pridružil se jima bo pri skrbi za različne živali – prašiče, race in več kot sto kokoši. Iz prve roke bo izkusil, kakšna je njuna kaotična vsakdanja rutina. \n\nČas je za otroke, skrb za živali, kopanje ribnika, nabiranje zelenjave ... \n\nDobro življenje ni vedno lahko, še posebej, če si prepuščen na milost in nemilost nevihtnim vremenskim razmeram na zahodni obali. Najbolj pa bodo Bena navdušili osebni izzivi, s katerimi se soočata – finančni, fizični in psihični.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/3/a/d33adc75-1033-4257-a9d5-c817e5633ecf.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409663"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "15:55",
+      "cas_konec": "16:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E7 - Najboljše pohodniške poti: Španija",
+      "naslov_orig": "S1E7 - World's Most Amazing Walks: Spain",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Robson Green se odpravi na eno najbolj znamenitih romanj na svetu - Camino de Santiago. Želi odkriti, zaradi česa je ta romarska pot tako pomembna za tolikšno število ljudi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8d/2/3/8d23e885-bece-46f7-95f2-3cdf5612b1a8.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409665"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "16:55",
+      "cas_konec": "18:00",
+      "trajanje": "65 min",
+      "naslov_sl": "S1E1 - Sirota",
+      "naslov_orig": "S1E1 - Walking with Dinosaurs: The Orphan",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Osiroteli mladi triceratops mora pretentati smrtonosnega tiranozavra. Bo preživel?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/10/c/0/10c01e53-d2ef-4187-b0c0-8c60c74e663b.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409657"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "18:00",
+      "cas_konec": "19:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E3 - Skrivnosti superstarostnikov: Čutila",
+      "naslov_orig": "S1E3 - Secrets of the Superagers: Senses",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Michael Mosley sreča 73-letnega jazz glasbenika v Chicagu in odkrije, kako lahko igranje glasbe prepreči izgubo sluha. Prav tako razkrije, kako aerobna vadba preprečuje razvoj glavkoma.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0c/e/f/0cefdb09-0441-4f74-b8e0-8aff25ad1bd4.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409658"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S9E10 - Življenje pod ničlo",
+      "naslov_orig": "S9E10 - Life Below Zero: Bad Break",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2021",
+      "starostna_omejitev": "",
+      "opis": "Aljaski se soočajo s stisko, ko se spopadajo z neznanim sredi zime.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0b/a/8/0ba89d94-eb5b-4bc4-8945-9a91a4998074.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409666"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S7E3 - V divjini z Benom Foglom: Panama",
+      "naslov_orig": "S7E3 - Where the Wild Men Are with Ben Fogle: Panama",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Ben obišče mesto Boquete, kjer se pridruži družini iz Oregona iz ZDA. Ben odkrije, zakaj so zapustili svoja udobna življenja v Združenih državah, da bi vodili edinstveno plantažo kavovca.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cb/4/5/cb451063-05f1-4052-b97c-0518f39058df.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409673"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "21:00",
+      "cas_konec": "22:10",
+      "trajanje": "70 min",
+      "naslov_sl": "S1E4 - Skrivnosti superstarostnikov: Videz",
+      "naslov_orig": "S1E4 - Secrets of the Superagers: Appearance",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Dr. Michael Mosley odpotuje v Los Angeles v Kalifornijo na srečanje z izjemno 71-letno osebo z gladko kožo brez gub.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6c/d/7/6cd7f1ba-3258-4b50-9855-72063303cc77.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409671"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "22:10",
+      "cas_konec": "23:15",
+      "trajanje": "65 min",
+      "naslov_sl": "S1E1 - Skrivnosti piramid z Darom O'Briainom",
+      "naslov_orig": "S1E1 - Mysteries of the Pyramids with Dara Ó Briain",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Dara Ó Briain se loti ene največjih ugank človeške zgodovine – skrivnosti piramid. Odpotuje v Egipt, kjer nad pokrajino še danes veličastno kraljujejo nekatere najbolj osupljive piramide na svetu. \n\nSkupaj z arheologinjo Raksho Dave in egiptologom dr. Chrisom Nauntonom se poda v raziskovanje teh izjemnih struktur ter iskanje odgovorov na nekatera še vedno odprta vprašanja. Kako so starodavni graditelji premikali in zlagali ogromne kamnite bloke, tako težke, da bi z njimi danes imel težave celo sodoben žerjav? Kakšen je bil pravi namen piramid? In če so bile grobnice – zakaj v nobeni od njih nikoli niso našli mumificiranega faraona? Ob obilici nepojasnjenega se seveda razraščajo tudi teorije zarote, a skeptični Dara jih poskuša ovreči s pomočjo arheoloških, zgodovinskih in znanstvenih dokazov ter gledalcem ponuditi trezno, a nič manj fascinantno zgodbo o piramidah.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/2/0/dc206ac4-5728-42ab-aa7c-df1729dd84be.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409669"
+    },
+    {
+      "datum": "2026-11-16",
+      "dan": "Ponedeljek",
+      "cas": "23:15",
+      "cas_konec": "00:30",
+      "trajanje": "75 min",
+      "naslov_sl": "S7E4 - Najlepše evropske železniške proge: Palermo do Etne",
+      "naslov_orig": "S7E4 - Great Continental Railway Journeys: Palermo to Mt Etna",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Bradshawov vodnik iz leta 1936 Michaela Portilla popelje na italijanski \\\"otok zakladov\\\" - na Sicilijo, polno naravnih lepot in \\\"pokrajine največjega šarma\\\".",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ac/b/b/acbbd619-b500-41f2-8487-99c15591d0f8.jpg",
+      "show_id": "CUP_IECOM_BBCEARTH_1177409678"
     }
   ]
 }
