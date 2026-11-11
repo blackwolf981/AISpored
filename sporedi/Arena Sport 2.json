@@ -1,295 +1,10 @@
 {
   "kanal": "Arena Sport 2",
   "ch_ext_id": "arena-sport-2",
-  "posodobljeno": "2026-11-10 12:26",
-  "od": "2026-11-03",
-  "do": "2026-11-17",
+  "posodobljeno": "2026-11-11 12:26",
+  "od": "2026-11-04",
+  "do": "2026-11-18",
   "oddaje": [
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "00:40",
-      "cas_konec": "02:30",
-      "trajanje": "110 min",
-      "naslov_sl": "Nogomet (M): Lecce - Genoa, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Lecce - Genoa",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1179058632",
-      "friendly_id": "nogomet_m_lecce__genoa_serie_a_2026_2027_fc944737"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "02:30",
-      "cas_konec": "04:25",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Marseille - Toulouse, Ligue 1 2026/2027",
-      "naslov_orig": "Nogomet: Ligue 1: Marseille - Toulouse",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234828",
-      "friendly_id": "nogomet_m_marseille__toulouse_ligue_1_2026_2027_e56e6d96"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "04:25",
-      "cas_konec": "06:20",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Bologna - Monza, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Bologna - Monza",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234835",
-      "friendly_id": "nogomet_m_bologna__monza_serie_a_2026_2027_2a0afe0e"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "06:20",
-      "cas_konec": "08:10",
-      "trajanje": "110 min",
-      "naslov_sl": "Košarka (M): Crvena zvezda - Široki, ABA liga 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: ABA liga: Crvena zvezda Meridianbet - HKK Široki TT Kabeli",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234838",
-      "friendly_id": "kosarka_m_crvena_zvezda__siroki_aba_liga_2026_2027_skupina_a_161bd1c2"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "08:10",
-      "cas_konec": "08:40",
-      "trajanje": "30 min",
-      "naslov_sl": "Ligue 1 2026/27: Pregled 9. kroga",
-      "naslov_orig": "French Ligue 1 Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/8/5/1285997c-ac3b-4717-8560-0a4e17d5158e.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234832",
-      "friendly_id": "ligue_1_2026_27_pregled_9_kroga_a7219a45"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "08:40",
-      "cas_konec": "10:35",
-      "trajanje": "115 min",
-      "naslov_sl": "Košarka (M): Dubai - Zadar, ABA liga 2026/2027, Skupina B",
-      "naslov_orig": "Košarka: ABA liga: Dubai Basketball - Zadar",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234826",
-      "friendly_id": "kosarka_m_dubai__zadar_aba_liga_2026_2027_skupina_b_170d1d66"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "10:35",
-      "cas_konec": "12:30",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Sassuolo - Fiorentina, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Sassuolo - Fiorentina",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234836",
-      "friendly_id": "nogomet_m_sassuolo__fiorentina_serie_a_2026_2027_29de3be6"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "12:30",
-      "cas_konec": "14:20",
-      "trajanje": "110 min",
-      "naslov_sl": "Košarka (M): Mega - Spartak, ABA liga 2026/2027, Skupina B",
-      "naslov_orig": "Košarka: ABA liga: Mega Superbet - Spartak Office Shoes",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234827",
-      "friendly_id": "kosarka_m_mega__spartak_aba_liga_2026_2027_skupina_b_8b26076f"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "14:20",
-      "cas_konec": "14:50",
-      "trajanje": "30 min",
-      "naslov_sl": "Ligue 1 2026/27: Pregled 9. kroga",
-      "naslov_orig": "French Ligue 1 Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Spremljajte športno oddajo, posvečeno Ligue 1, prvi francoski nogometni ligi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/12/8/5/1285997c-ac3b-4717-8560-0a4e17d5158e.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234829",
-      "friendly_id": "ligue_1_2026_27_pregled_9_kroga_da4acbb9"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "14:50",
-      "cas_konec": "16:45",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Lille - Lens, Ligue 1 2026/2027",
-      "naslov_orig": "Nogomet: Ligue 1: Lille - Lens",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234830",
-      "friendly_id": "nogomet_m_lille__lens_ligue_1_2026_2027_c62e695f"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "16:45",
-      "cas_konec": "18:40",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Como - Venezia, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Como - Venezia",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/7/4/f474ea67-639a-4821-af27-68e38249492b.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234831",
-      "friendly_id": "nogomet_m_como__venezia_serie_a_2026_2027_7c14aa7d"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "18:40",
-      "cas_konec": "19:25",
-      "trajanje": "45 min",
-      "naslov_sl": "Serie A 2026/27: Pregled 10. kroga",
-      "naslov_orig": "Italian Serie A: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Prinašamo vam pregled tekem in najboljše trenutke iz lige Serie A, najvišje divizije v italijanskem nogometnem sistemu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/a/2/a2a2f9bb-3bfb-47e0-8778-b235c489e5dc.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234833",
-      "friendly_id": "serie_a_2026_27_pregled_10_kroga_99ba92d8"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "19:25",
-      "cas_konec": "21:20",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Sassuolo - Fiorentina, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Sassuolo - Fiorentina",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234834",
-      "friendly_id": "nogomet_m_sassuolo__fiorentina_serie_a_2026_2027_716d18d1"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "21:20",
-      "cas_konec": "22:20",
-      "trajanje": "60 min",
-      "naslov_sl": "Segunda Division 2026/27: Pregled 12. kroga",
-      "naslov_orig": "Resúmenes LALIGA HyperMotion",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Prinašamo pregled najboljših trenutkov španske 2. nogometne lige. Vabljeni k ogledu!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/3/0/2430c53d-036b-4eff-8d2d-723bba7ba229.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234839",
-      "friendly_id": "segunda_division_2026_27_pregled_12_kroga_f968b8e8"
-    },
-    {
-      "datum": "2026-11-03",
-      "dan": "Torek",
-      "cas": "22:20",
-      "cas_konec": "00:15",
-      "trajanje": "115 min",
-      "naslov_sl": "Košarka (M): Cibona - Igokea, ABA liga 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: ABA liga: Cibona - Igokea m:tel",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176234825",
-      "friendly_id": "kosarka_m_cibona__igokea_aba_liga_2026_2027_skupina_a_e7543252"
-    },
     {
       "datum": "2026-11-04",
       "dan": "Sreda",
@@ -558,271 +273,6 @@
       "friendly_id": "kosarka_m_dubai__zadar_aba_liga_2026_2027_skupina_b_9bbf25e7"
     },
     {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "01:20",
-      "cas_konec": "03:15",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Parma - Bologna, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Parma - Bologna",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682546",
-      "friendly_id": "nogomet_m_parma__bologna_serie_a_2026_2027_b0dcbf98"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "03:15",
-      "cas_konec": "05:10",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Lens - Marseille, Ligue 1 2026/2027",
-      "naslov_orig": "Nogomet: Ligue 1: Lens - Marseille",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682746",
-      "friendly_id": "nogomet_m_lens__marseille_ligue_1_2026_2027_bb892d71"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "05:10",
-      "cas_konec": "07:05",
-      "trajanje": "115 min",
-      "naslov_sl": "Košarka (M): FMP - Budućnost, ABA liga 2026/2027, Skupina A",
-      "naslov_orig": "Košarka: ABA liga: FMP - Budućnost VOLI",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682545",
-      "friendly_id": "kosarka_m_fmp__buducnost_aba_liga_2026_2027_skupina_a_332c3d9f"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "07:05",
-      "cas_konec": "09:00",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Torino - Lecce, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Torino - Lecce",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682553",
-      "friendly_id": "nogomet_m_torino__lecce_serie_a_2026_2027_e2b1bb90"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "09:00",
-      "cas_konec": "09:45",
-      "trajanje": "45 min",
-      "naslov_sl": "Serie A 2026/27: Pregled 11. kroga",
-      "naslov_orig": "Italian Serie A: Highlights",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Prinašamo vam pregled tekem in najboljše trenutke iz lige Serie A, najvišje divizije v italijanskem nogometnem sistemu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682547",
-      "friendly_id": "serie_a_2026_27_pregled_11_kroga_655b688c"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "09:45",
-      "cas_konec": "11:55",
-      "trajanje": "130 min",
-      "naslov_sl": "Hokej (M): Vaxjo Lakers -  Frolunda, Liga prvakov 2026/2027, Osmina finala",
-      "naslov_orig": "Hokej na ledu (M): Liga prvakov: Vaxjo Lakers - Frolunda, 1. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682556",
-      "friendly_id": "hokej_m_vaxjo_lakers___frolunda_liga_prvakov_2026_2027_osmina_finala_16003ff0"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "11:55",
-      "cas_konec": "12:10",
-      "trajanje": "15 min",
-      "naslov_sl": "S0E12 - Športne igre mladih 2026/27",
-      "naslov_orig": "S0E12 - Sportske igre mladih",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Športne igre mladih so dogodek, ki zbere mlade iz vse Evrope. Organizirajo se od leta 1996, ko so se prvič odvile v Splitu, danes se odvijajo v Sloveniji, Bosni in Hercegovini, Srbiji in na Hrvaškem in so največji amaterski športni dogodek v tem delu Evrope. Osnovnošolci in srednješolci se pomerijo v desetih športnih disciplinah, najboljši pa napredujejo v mednarodni finale.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682548"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "12:10",
-      "cas_konec": "14:05",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Parma - Bologna, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Parma - Bologna",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682549",
-      "friendly_id": "nogomet_m_parma__bologna_serie_a_2026_2027_4c470470"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "14:05",
-      "cas_konec": "16:00",
-      "trajanje": "115 min",
-      "naslov_sl": "Košarka (M): Partizan - Studentski centar, ABA liga 2026/2027, Skupina B",
-      "naslov_orig": "Košarka: ABA liga: Partizan Mozzart Bet - SC Derby",
-      "kategorija": "Šport",
-      "zanr": [
-        "košarka"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682550",
-      "friendly_id": "kosarka_m_partizan__studentski_centar_aba_liga_2026_2027_skupina_b_19bce489"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "Segunda Division 2026/27: Pregled 13. kroga",
-      "naslov_orig": "Resúmenes LALIGA HyperMotion",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Prinašamo pregled najboljših trenutkov španske 2. nogometne lige. Vabljeni k ogledu!",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682557",
-      "friendly_id": "segunda_division_2026_27_pregled_13_kroga_66217cd9"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "17:00",
-      "cas_konec": "18:55",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Inter - Como, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Inter - Como",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682552",
-      "friendly_id": "nogomet_m_inter__como_serie_a_2026_2027_195bbfd5"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "18:55",
-      "cas_konec": "20:50",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Lens - Marseille, Ligue 1 2026/2027",
-      "naslov_orig": "Nogomet: Ligue 1: Lens - Marseille",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682554",
-      "friendly_id": "nogomet_m_lens__marseille_ligue_1_2026_2027_c4a14ac4"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "20:50",
-      "cas_konec": "22:50",
-      "trajanje": "120 min",
-      "naslov_sl": "Hokej (M): Vaxjo Lakers -  Frolunda, Liga prvakov 2026/2027, Osmina finala",
-      "naslov_orig": "Hokej na ledu (M): Liga prvakov: Vaxjo Lakers - Frolunda, 1. tekma",
-      "kategorija": "Šport",
-      "zanr": [
-        "hokej"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682555",
-      "friendly_id": "hokej_m_vaxjo_lakers___frolunda_liga_prvakov_2026_2027_osmina_finala_86987c5f"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "22:50",
-      "cas_konec": "23:20",
-      "trajanje": "30 min",
-      "naslov_sl": "NFL 2026/27: Pregled 9. tedna",
-      "naslov_orig": "Američki fudbal: NFL: Pregled",
-      "kategorija": "Šport",
-      "zanr": [
-        ""
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682558",
-      "friendly_id": "nfl_2026_27_pregled_9_tedna_96503f1f"
-    },
-    {
       "datum": "2026-11-04",
       "dan": "Sreda",
       "cas": "23:50",
@@ -1087,25 +537,6 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/3/0/2430c53d-036b-4eff-8d2d-723bba7ba229.jpg",
       "show_id": "CUP_IECOM_ARENASLO2_1176272163",
       "friendly_id": "segunda_division_2026_27_pregled_12_kroga_90730c2d"
-    },
-    {
-      "datum": "2026-11-11",
-      "dan": "Sreda",
-      "cas": "23:20",
-      "cas_konec": "01:15",
-      "trajanje": "115 min",
-      "naslov_sl": "Nogomet (M): Fiorentina - Juventus, Serie A 2026/2027",
-      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Fiorentina - Juventus",
-      "kategorija": "Šport",
-      "zanr": [
-        "nogomet"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
-      "show_id": "CUP_IECOM_ARENASLO2_1176682551",
-      "friendly_id": "nogomet_m_fiorentina__juventus_serie_a_2026_2027_84b62a77"
     },
     {
       "datum": "2026-11-12",
@@ -4191,6 +3622,611 @@
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
       "show_id": "CUP_IECOM_ARENASLO2_1178356666",
       "friendly_id": "kosarka_m_studentski_centar__vienna_aba_liga_2026_2027_skupina_b_a5e1ccdd"
+    },
+    {
+      "datum": "2026-11-10",
+      "dan": "Torek",
+      "cas": "23:25",
+      "cas_konec": "01:20",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): Partizan - Studentski centar, ABA liga 2026/2027, Skupina B",
+      "naslov_orig": "Košarka: ABA liga: Partizan Mozzart Bet - SC Derby",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176676042",
+      "friendly_id": "kosarka_m_partizan__studentski_centar_aba_liga_2026_2027_skupina_b_0799244c"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "01:20",
+      "cas_konec": "03:15",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Parma - Bologna, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Parma - Bologna",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682546",
+      "friendly_id": "nogomet_m_parma__bologna_serie_a_2026_2027_b0dcbf98"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "03:15",
+      "cas_konec": "05:10",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Lens - Marseille, Ligue 1 2026/2027",
+      "naslov_orig": "Nogomet: Ligue 1: Lens - Marseille",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682746",
+      "friendly_id": "nogomet_m_lens__marseille_ligue_1_2026_2027_bb892d71"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "05:10",
+      "cas_konec": "07:05",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): FMP - Budućnost, ABA liga 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: ABA liga: FMP - Budućnost VOLI",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682545",
+      "friendly_id": "kosarka_m_fmp__buducnost_aba_liga_2026_2027_skupina_a_332c3d9f"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "07:05",
+      "cas_konec": "09:00",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Torino - Lecce, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Torino - Lecce",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682553",
+      "friendly_id": "nogomet_m_torino__lecce_serie_a_2026_2027_e2b1bb90"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "09:00",
+      "cas_konec": "09:45",
+      "trajanje": "45 min",
+      "naslov_sl": "Serie A 2026/27: Pregled 11. kroga",
+      "naslov_orig": "Italian Serie A: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Prinašamo vam pregled tekem in najboljše trenutke iz lige Serie A, najvišje divizije v italijanskem nogometnem sistemu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a2/a/2/a2a2f9bb-3bfb-47e0-8778-b235c489e5dc.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682547",
+      "friendly_id": "serie_a_2026_27_pregled_11_kroga_655b688c"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "09:45",
+      "cas_konec": "11:55",
+      "trajanje": "130 min",
+      "naslov_sl": "Hokej (M): Vaxjo Lakers -  Frolunda, Liga prvakov 2026/2027, Osmina finala",
+      "naslov_orig": "Hokej na ledu (M): Liga prvakov: Vaxjo Lakers - Frolunda, 1. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682556",
+      "friendly_id": "hokej_m_vaxjo_lakers___frolunda_liga_prvakov_2026_2027_osmina_finala_16003ff0"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "11:55",
+      "cas_konec": "12:10",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E12 - Športne igre mladih 2026/27",
+      "naslov_orig": "S0E12 - Športne igre mladih",
+      "kategorija": "Šport",
+      "zanr": [
+        "šport"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Športne igre mladih so zakon! To dokazujejo otroci, ki vsak dan pišejo nove športne zgodbe. Tokrat nas čaka pravo športno popotovanje, na katerem bomo spremljali podvige malih športnikov. Krško, Izola, Tolmin, Trbovlje, Litija in prvič Kranjska Gora. Povsod so otroci ustvarili čudovito vzdušje. Šest krajev, šest različnih zgodb in nešteto otroških nasmehov. Za dobro voljo pa povsod poskrbi tudi Viktor, maskota iger.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/9/9/249922a9-017e-4264-b78f-6bf9c32cc3aa.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682548",
+      "friendly_id": "sportne_igre_mladih_2026_27_38e644f4"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "12:10",
+      "cas_konec": "14:05",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Parma - Bologna, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Parma - Bologna",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682549",
+      "friendly_id": "nogomet_m_parma__bologna_serie_a_2026_2027_4c470470"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "14:05",
+      "cas_konec": "16:00",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): Partizan - Studentski centar, ABA liga 2026/2027, Skupina B",
+      "naslov_orig": "Košarka: ABA liga: Partizan Mozzart Bet - SC Derby",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/9/d/009dcd27-ed6a-492c-95bb-7d70ac933a83.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682550",
+      "friendly_id": "kosarka_m_partizan__studentski_centar_aba_liga_2026_2027_skupina_b_19bce489"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "Segunda Division 2026/27: Pregled 13. kroga",
+      "naslov_orig": "Resúmenes LALIGA HyperMotion",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Prinašamo pregled najboljših trenutkov španske 2. nogometne lige. Vabljeni k ogledu!",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682557",
+      "friendly_id": "segunda_division_2026_27_pregled_13_kroga_66217cd9"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "17:00",
+      "cas_konec": "18:55",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Inter - Como, Serie A 2026/2027",
+      "naslov_orig": "Nogomet: italijansko prvenstvo Serie A: Inter - Como",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/9/a/d39afab4-38f3-48d0-89cd-bd432016fabe.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682552",
+      "friendly_id": "nogomet_m_inter__como_serie_a_2026_2027_195bbfd5"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "18:55",
+      "cas_konec": "20:50",
+      "trajanje": "115 min",
+      "naslov_sl": "Nogomet (M): Lens - Marseille, Ligue 1 2026/2027",
+      "naslov_orig": "Nogomet: Ligue 1: Lens - Marseille",
+      "kategorija": "Šport",
+      "zanr": [
+        "nogomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/0/1/bf0191a7-d5fe-4dfb-a007-f1d0737da5b0.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682554",
+      "friendly_id": "nogomet_m_lens__marseille_ligue_1_2026_2027_c4a14ac4"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "20:50",
+      "cas_konec": "22:50",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej (M): Vaxjo Lakers -  Frolunda, Liga prvakov 2026/2027, Osmina finala",
+      "naslov_orig": "Hokej na ledu (M): Liga prvakov: Vaxjo Lakers - Frolunda, 1. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682555",
+      "friendly_id": "hokej_m_vaxjo_lakers___frolunda_liga_prvakov_2026_2027_osmina_finala_86987c5f"
+    },
+    {
+      "datum": "2026-11-11",
+      "dan": "Sreda",
+      "cas": "22:50",
+      "cas_konec": "23:20",
+      "trajanje": "30 min",
+      "naslov_sl": "NFL 2026/27: Pregled 9. tedna",
+      "naslov_orig": "Američki fudbal: NFL: Pregled",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/9/4/9c94b9d6-2f8b-4872-bd1b-3572ee2d5616.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1176682558",
+      "friendly_id": "nfl_2026_27_pregled_9_tedna_96503f1f"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "00:25",
+      "cas_konec": "01:20",
+      "trajanje": "55 min",
+      "naslov_sl": "Končnica EHF Lige prvakinj 2026",
+      "naslov_orig": "The Magic Moment",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/11/0/b/110ba05c-08c2-4b24-be2f-010645596157.png",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060629"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "01:20",
+      "cas_konec": "03:15",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): Bosna S. - Mega, ABA liga 2026/2027, Skupina B",
+      "naslov_orig": "Košarka: ABA liga: Bosna BH Telecom - Mega Superbet",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/1/5/491576c8-fa27-4842-a9ac-50922155371e.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060637",
+      "friendly_id": "kosarka_m_bosna_s__mega_aba_liga_2026_2027_skupina_b_0faef422"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "03:15",
+      "cas_konec": "05:00",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (Ž): Podravka  - Bistrita, EHF Liga prvakinj 2026/2027, Skupina B",
+      "naslov_orig": "Rokomet: EHF Liga prvakinj: Podravka - Gloria Bistrita",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "EHF Liga prvakinj je najpomembnejše rokometno klubsko tekmovanje za ženske ekipe v Evropi in vključuje vodilne ekipe iz najboljših evropskih lig.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5c/8/8/5c88be07-6fef-40ba-8d50-caabc1bda3a8.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060639",
+      "friendly_id": "rokomet_z_podravka___bistrita_ehf_liga_prvakinj_2026_2027_skupina_b_a7022657"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "05:00",
+      "cas_konec": "05:15",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E61 - AS Podkast",
+      "naslov_orig": "S0E61 - AS Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060640"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "05:15",
+      "cas_konec": "07:10",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): Zadar - Partizan, ABA liga 2026/2027, Skupina B",
+      "naslov_orig": "Košarka: ABA liga: Zadar - Partizan Mozzart Bet",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/1/5/491576c8-fa27-4842-a9ac-50922155371e.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060641",
+      "friendly_id": "kosarka_m_zadar__partizan_aba_liga_2026_2027_skupina_b_58b08fd1"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "07:10",
+      "cas_konec": "07:40",
+      "trajanje": "30 min",
+      "naslov_sl": "EHF Liga prvakinj 2026/27: Pregled 8. kroga",
+      "naslov_orig": "Women's EHF Champions League: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d0/d/b/d0dbc3c3-b0c6-481b-abbe-6d6b5ec0a5f7.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060609",
+      "friendly_id": "ehf_liga_prvakinj_2026_27_pregled_8_kroga_b932b3a2"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "07:40",
+      "cas_konec": "09:40",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej na ledu (M): Plzen - HC Davos, Liga prvakov 2026/2027, Osmina finala",
+      "naslov_orig": "Hokej na ledu (M): Liga prvakov: Osmina finala: Plzen - Davos, 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060610",
+      "friendly_id": "hokej_na_ledu_m_plzen__hc_davos_liga_prvakov_2026_2027_osmina_finala_9ad06eea"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "09:40",
+      "cas_konec": "09:55",
+      "trajanje": "15 min",
+      "naslov_sl": "S0E61 - AS Podkast",
+      "naslov_orig": "S0E61 - AS Podkast",
+      "kategorija": "Informativni program",
+      "zanr": [
+        "pogovorna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9c/4/6/9c46933f-d643-4076-aeee-fbac39269243.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060611"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "09:55",
+      "cas_konec": "11:55",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej na ledu (M):  Frolunda - Vaxjo Lakers, Liga prvakov 2026/2027, Osmina finala",
+      "naslov_orig": "Hokej na ledu (M): Liga prvakov: Osmina finala: Frolunda - Vaxjo Lakers, 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060612",
+      "friendly_id": "hokej_na_ledu_m__frolunda__vaxjo_lakers_liga_prvakov_2026_2027_osmina_finala_4c15b6f8"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "11:55",
+      "cas_konec": "12:25",
+      "trajanje": "30 min",
+      "naslov_sl": "S0E49 - Shortlist",
+      "naslov_orig": "S0E49 - Shortlist",
+      "kategorija": "Šport",
+      "zanr": [
+        "informativna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/32/d/e/32deacce-ae96-4f1e-9288-1948b700de54.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060613",
+      "friendly_id": "shortlist_29848621"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "12:25",
+      "cas_konec": "14:10",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (M): Eurofarm P. - VfL Gummersbach , EHF Evropska liga 2026/2027, Skupina G",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Eurofarm Pelister - Gummersbach",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060614",
+      "friendly_id": "rokomet_m_eurofarm_p__vfl_gummersbach__ehf_evropska_liga_2026_2027_skupina_g_ae2c2223"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "14:10",
+      "cas_konec": "15:55",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (M): Bergischer HC -  Sesvete, EHF Evropska liga 2026/2027, Skupina D",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Bergischer - Sesvete",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060615",
+      "friendly_id": "rokomet_m_bergischer_hc___sesvete_ehf_evropska_liga_2026_2027_skupina_d_184aca84"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "15:55",
+      "cas_konec": "17:50",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): Borac - Slovan B., ABA liga 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: ABA liga: Borac Mozzart - Slovan Bratislava",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/1/5/491576c8-fa27-4842-a9ac-50922155371e.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060616",
+      "friendly_id": "kosarka_m_borac__slovan_b_aba_liga_2026_2027_skupina_a_c7c201ac"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "17:50",
+      "cas_konec": "19:50",
+      "trajanje": "120 min",
+      "naslov_sl": "Hokej na ledu (M): Plzen - HC Davos, Liga prvakov 2026/2027, Osmina finala",
+      "naslov_orig": "Hokej na ledu (M): Liga prvakov: Osmina finala: Plzen - Davos, 2. tekma",
+      "kategorija": "Šport",
+      "zanr": [
+        "hokej"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/47/2/1/4721f700-3582-4a3e-9575-ed8c07ee43e2.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060617",
+      "friendly_id": "hokej_na_ledu_m_plzen__hc_davos_liga_prvakov_2026_2027_osmina_finala_4764c357"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "19:50",
+      "cas_konec": "20:20",
+      "trajanje": "30 min",
+      "naslov_sl": "EHF Liga prvakinj 2026/27: Pregled 8. kroga",
+      "naslov_orig": "Women's EHF Champions League: Highlights",
+      "kategorija": "Šport",
+      "zanr": [
+        ""
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d0/d/b/d0dbc3c3-b0c6-481b-abbe-6d6b5ec0a5f7.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060618",
+      "friendly_id": "ehf_liga_prvakinj_2026_27_pregled_8_kroga_97e3c153"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "20:20",
+      "cas_konec": "22:15",
+      "trajanje": "115 min",
+      "naslov_sl": "Košarka (M): Igokea - Budućnost, ABA liga 2026/2027, Skupina A",
+      "naslov_orig": "Košarka: ABA liga: Igokea m:tel - Budućnost VOLI",
+      "kategorija": "Šport",
+      "zanr": [
+        "košarka"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Mednarodna košarkarska liga, ki združuje najboljše klube iz Slovenije, Hrvaške, Srbije, Bosne in Hercegovine, Severne Makedonije ter Črne gore.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/49/1/5/491576c8-fa27-4842-a9ac-50922155371e.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060619",
+      "friendly_id": "kosarka_m_igokea__buducnost_aba_liga_2026_2027_skupina_a_d7150bcc"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "22:15",
+      "cas_konec": "00:00",
+      "trajanje": "105 min",
+      "naslov_sl": "Rokomet (M): Eurofarm P. - VfL Gummersbach , EHF Evropska liga 2026/2027, Skupina G",
+      "naslov_orig": "Rokomet: EHF Evropska liga: Eurofarm Pelister - Gummersbach",
+      "kategorija": "Šport",
+      "zanr": [
+        "rokomet"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Vabljeni k ogledu EHF Evropske lige, drugega najmočnejšega tekmovanja za rokometne klube v Evropi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/18/0/4/180402c6-5e8f-47c1-8e3d-060ea1564a5c.jpg",
+      "show_id": "CUP_IECOM_ARENASLO2_1179060620",
+      "friendly_id": "rokomet_m_eurofarm_p__vfl_gummersbach__ehf_evropska_liga_2026_2027_skupina_g_3e0aa78b"
     }
   ]
 }
