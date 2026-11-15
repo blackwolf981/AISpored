@@ -1,460 +1,10 @@
 {
   "kanal": "Viasat Explore",
   "ch_ext_id": "viasat-explore",
-  "posodobljeno": "2026-11-14 22:07",
-  "od": "2026-11-07",
-  "do": "2026-11-21",
+  "posodobljeno": "2026-11-15 17:24",
+  "od": "2026-11-08",
+  "do": "2026-11-22",
   "oddaje": [
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E2 - Vikingi ledenih voda: Tanek led",
-      "naslov_orig": "S2E2 - Ice Vikings: Thin Ice",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "12+",
-      "opis": "Na Winnipeškem jezeru še naprej ostaja precej ledu in našim ribičem nagajajo plavajoče tanke ledene plošče. Sveže zapadli sneg pa je prinesel še eno težavo: bleščeči led.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/62/a/0/62a0829a-2f60-4b14-bd2d-bde3092a6c93.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174304366"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "02:00",
-      "cas_konec": "03:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E7 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E7 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Oboroženi vsiljivec ogrozi raziskovalno misijo Gold Devilsov, Feralsi pa odkrijejo največjo zlato kepo v njihovi rudarski karieri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174304354"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E8 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E8 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Nova ekipa Alan and Salty se poda pod vodo na lov za zlatimi kepami, Feralsi pa naletijo na bogato zlato žilo, vendar morajo najprej pregnati tatove.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174304361"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "04:00",
-      "cas_konec": "04:55",
-      "trajanje": "55 min",
-      "naslov_sl": "S2E1 - Ekstremna reševanja vlečnih služb",
-      "naslov_orig": "S2E1 - Extreme Tow Truckers",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Vlečna služba Parks Towing se loti zahtevnega reševanja tovornjaka z dna strme grape v zasneženih gorah Canterburyja na Novi Zelandiji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/07/d/8/07d8b4e3-be40-4912-b000-328504125ab0.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174304362"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "04:55",
-      "cas_konec": "06:00",
-      "trajanje": "65 min",
-      "naslov_sl": "S8E11 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E11 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Gold Devilsi se borijo z naravo, Jacqui in Andrew se ženeta do novih skrajnosti, Feralsom pa zagodejo mehanske preglavice.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1d/a/b/1dab0a5d-3c31-44e7-813d-8a0f4ccdcb1d.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174304363"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "06:00",
-      "cas_konec": "06:35",
-      "trajanje": "35 min",
-      "naslov_sl": "S2E3 - Avstralski krotilci bikov",
-      "naslov_orig": "S2E3 - Outback Ringer",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2021",
-      "starostna_omejitev": "12+",
-      "opis": "Nov nakup Cookovih - povsem nov helikopter - ima težave pri vzletu, Kodi, najmlajši sin Kurta Hammarja, pa je pustil šolo, da bi postal lovec na bike.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/38/1/7/38179572-5807-4d6a-95a9-6d2332e90535.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305580"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "06:35",
-      "cas_konec": "07:35",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Tovornjakarji začetniki: Soočanje z grozo",
-      "naslov_orig": "S1E1 - Rookie Truckers: Overtaking Terror!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Irec Erik pogumno sprejme vožnjo najdaljšega tovornjaka na svetu, Shelley pa se prvič v življenju spopade s prevozom sena čez razvpit gorski prelaz.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6f/9/9/6f994e85-b971-4cbf-a02a-6f30cafed580.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305581"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "07:35",
-      "cas_konec": "08:35",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Tovornjakarji začetniki: Štirikolesnik v zagati",
-      "naslov_orig": "S1E2 - Rookie Truckers: Super-Quad Quagmire",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Erik se s 60-metrsko zverino zagozdi na krožišču, 22-letni Roy pa se loti svojega prvega prevoza s trojno prikolico.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/76/f/e/76fe90b8-d692-4dc0-863a-e1e623ebdb75.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305584"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "08:35",
-      "cas_konec": "09:30",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E3 - Tovornjakarji začetniki: Gospodar muh",
-      "naslov_orig": "S1E3 - Rookie Truckers: Lord of the Flies",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Ko Phil prispe iz Velike Britanije, se na naporni poti preko celine bori z muhami in 14-urnimi delovniki. Shelley na prvi plačani vožnji pestijo mehanske težave in kaos mestnega prometa v Melbournu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6f/9/9/6f994e85-b971-4cbf-a02a-6f30cafed580.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305567"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "09:30",
-      "cas_konec": "10:30",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E4 - Tovornjakarji začetniki: Točka preloma",
-      "naslov_orig": "S1E4 - Rookie Truckers: Braking Point",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Roy se sooča z nevarnimi tovori in zastrašujočo odpovedjo zavor, Chevy pa se na svoji prvi samostojni vožnji bori s poslabšanjem vremena in puščanjem olja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6f/9/9/6f994e85-b971-4cbf-a02a-6f30cafed580.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305568"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "10:30",
-      "cas_konec": "11:30",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E5 - Tovornjakarji začetniki: Pogumno dalje",
-      "naslov_orig": "S1E5 - Rookie Truckers: Steel Yourself",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Novinec Sehaj se bori s poškodbo hrbta, zlorabo in časovno občutljivo dostavo; medtem 22-letni Roy nosi na svojih ramenih težo sveta, ko prevaža 48 ton jeklenih plošč.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/88/c/c/88ccf077-4f6d-4f88-bfb4-2493a1b92193.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305576"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "11:30",
-      "cas_konec": "12:30",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E11 - Avstralski lovci na zlato",
-      "naslov_orig": "S9E11 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Alan in Salty odpotujeta v vinsko deželo na lovu za legendarnim zlatom, suša ogrozi Shanovo in Katino sezono, ekipa Poseidon Crew pa uporabi prevelik detektor kovin pri iskanju velikih zlatih zrn.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a9/c/d/a9cddc4c-4544-47f1-879a-bfd68e6ab801.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305585"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "12:30",
-      "cas_konec": "13:20",
-      "trajanje": "50 min",
-      "naslov_sl": "S9E12 - Avstralski lovci na zlato",
-      "naslov_orig": "S9E12 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Jacqui in Andrew kupita štirikolesnika in se odpeljeta do stare zlate žile v Queenslandu, Shane in Kate pa v Zahodni Avstraliji vse bolj zaostajata zaradi številnih okvar opreme.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/fa/1/9/fa195ef6-df1c-40ab-a71e-c12146fe065b.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305564"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "13:20",
-      "cas_konec": "14:20",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E13 - Avstralski lovci na zlato",
-      "naslov_orig": "S9E13 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Ekipa Poseidon Crew se sooča z zdravstvenim preplahom, nezanesljivo opremo in slabim vremenom v Viktoriji. Heli Huntersi zabredejo v težave, ko poskušajo zakupiti sanjsko nahajališče.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/3/6/00366811-e2a7-40af-9fa9-6f1b33f252ea.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305575"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "14:20",
-      "cas_konec": "15:20",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E14 - Avstralski lovci na zlato",
-      "naslov_orig": "S9E14 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "McGhiejevi poskušajo hkrati kopati na dveh nahajališčih kljub številnih okvarah, Paul Mackie pa se s pomočjo svoje družine loti obsežnega projekta pridobivanja zlata.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/00/3/6/00366811-e2a7-40af-9fa9-6f1b33f252ea.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305577"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "15:20",
-      "cas_konec": "16:20",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E15 - Avstralski lovci na zlato",
-      "naslov_orig": "S9E15 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Gold Devilsi priskočijo na pomoč Alexu in Mel v Zahodni Avstraliji, družina McGhie pa prične z delom na novem bogatem nahajališču.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/9/0/06903856-2c2b-451a-ab92-b8be0c647555.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305578"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "16:20",
-      "cas_konec": "17:15",
-      "trajanje": "55 min",
-      "naslov_sl": "S3E1 - Jukonsko zlato: Nov začetek",
-      "naslov_orig": "S3E1 - Yukon Gold: Fresh Start",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "To je drama iz resničnega življenja družin, ki iščejo zlato na severu Kanade; med bojem s kratko rudarsko sezono - pri čemer so na kocki njihovi življenjski prihranki - ti profesionalni rudarji kljubujejo vsem oviram, da bi iz zemlje dobesedno izkopali denar. Spoznajmo rudarje Kena Foya, Ala McGregorja, Bernieja Krefta in Karla Knutsona ter njihove ekipe, ki se iz leta v leto borijo z okvarami strojev, vremenskimi izzivi in 18-urnimi delavniki - a se vedno znova vračajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/5/9/6159c5ab-c056-4b65-9b51-47bed0e03407.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305565"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "17:15",
-      "cas_konec": "18:10",
-      "trajanje": "55 min",
-      "naslov_sl": "S3E2 - Jukonsko zlato: Trenutek spremembe",
-      "naslov_orig": "S3E2 - Yukon Gold: Game Changer",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "To je drama iz resničnega življenja družin, ki iščejo zlato na severu Kanade; med bojem s kratko rudarsko sezono - pri čemer so na kocki njihovi življenjski prihranki - ti profesionalni rudarji kljubujejo vsem oviram, da bi iz zemlje dobesedno izkopali denar. Spoznajmo rudarje Kena Foya, Ala McGregorja, Bernieja Krefta in Karla Knutsona ter njihove ekipe, ki se iz leta v leto borijo z okvarami strojev, vremenskimi izzivi in 18-urnimi delavniki - a se vedno znova vračajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/61/5/9/6159c5ab-c056-4b65-9b51-47bed0e03407.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305566"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "18:10",
-      "cas_konec": "19:10",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E3 - Jukonsko zlato: Pomembna odločitev",
-      "naslov_orig": "S3E3 - Yukon Gold: Time Crunch",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "To je drama iz resničnega življenja družin, ki iščejo zlato na severu Kanade; med bojem s kratko rudarsko sezono - pri čemer so na kocki njihovi življenjski prihranki - ti profesionalni rudarji kljubujejo vsem oviram, da bi iz zemlje dobesedno izkopali denar. Spoznajmo rudarje Kena Foya, Ala McGregorja, Bernieja Krefta in Karla Knutsona ter njihove ekipe, ki se iz leta v leto borijo z okvarami strojev, vremenskimi izzivi in 18-urnimi delavniki - a se vedno znova vračajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/4/5634bf05-66c2-4f10-b3e1-b9fa2133bf3e.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305586"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "19:10",
-      "cas_konec": "20:00",
-      "trajanje": "50 min",
-      "naslov_sl": "S3E4 - Jukonsko zlato: Pod pritiskom",
-      "naslov_orig": "S3E4 - Yukon Gold: Under Pressure",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "To je drama iz resničnega življenja družin, ki iščejo zlato na severu Kanade; med bojem s kratko rudarsko sezono - pri čemer so na kocki njihovi življenjski prihranki - ti profesionalni rudarji kljubujejo vsem oviram, da bi iz zemlje dobesedno izkopali denar. Spoznajmo rudarje Kena Foya, Ala McGregorja, Bernieja Krefta in Karla Knutsona ter njihove ekipe, ki se iz leta v leto borijo z okvarami strojev, vremenskimi izzivi in 18-urnimi delavniki - a se vedno znova vračajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/1/f/771f75ce-8df3-409f-a9eb-4bd4602e24b8.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305582"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E5 - Jukonsko zlato: Božje posredovanje",
-      "naslov_orig": "S3E5 - Yukon Gold: Divine Intervention",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "To je drama iz resničnega življenja družin, ki iščejo zlato na severu Kanade; med bojem s kratko rudarsko sezono - pri čemer so na kocki njihovi življenjski prihranki - ti profesionalni rudarji kljubujejo vsem oviram, da bi iz zemlje dobesedno izkopali denar. Spoznajmo rudarje Kena Foya, Ala McGregorja, Bernieja Krefta in Karla Knutsona ter njihove ekipe, ki se iz leta v leto borijo z okvarami strojev, vremenskimi izzivi in 18-urnimi delavniki - a se vedno znova vračajo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/4/5634bf05-66c2-4f10-b3e1-b9fa2133bf3e.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305571"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Avstralska zlata mrzlica: Nov začetek",
-      "naslov_orig": "S1E1 - Goldfever Australia: A New Beginning",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "15+",
-      "opis": "Na začetku nove sezone so iskalci zlata na surovem severu Avstralije pod velikim pritiskom. Sušna doba ponuja idealne razmere za iskanje zlata, a časa ni veliko",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c0/0/b/c00bc7cb-64e4-4f96-9b53-56da227c187a.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305572"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Avstralska zlata mrzlica: Nevarnost",
-      "naslov_orig": "S1E2 - Goldfever Australia: Danger",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "15+",
-      "opis": "Sušna doba še naprej ponuja idealne razmere za iskanje zlata. Gordon novinca Sebastiana odpelje na kraj, kjer je že imel srečo, in najde prvo zlato kepo v sezoni.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c0/0/b/c00bc7cb-64e4-4f96-9b53-56da227c187a.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305573"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "23:00",
-      "cas_konec": "23:55",
-      "trajanje": "55 min",
-      "naslov_sl": "S3E6 - Avstralski lovci na zlato",
-      "naslov_orig": "S3E6 - Aussie Gold Hunters: Game Changer",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "12+",
-      "opis": "Ted Mahoney poišče pomoč pri zgodovinarju, da bi razvozlal skrivnostno najdbo. Rick se vrne nazaj na delo veliko prej, kot je svetoval zdravnik. Gold Gypsiesi so pod pritiskom, da bi dosegli kvoto.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/60/0/0/60003d4c-bc43-4cf7-99a0-5e55d8522ba0.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305588"
-    },
-    {
-      "datum": "2026-11-07",
-      "dan": "Sobota",
-      "cas": "23:55",
-      "cas_konec": "00:55",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E7 - Avstralski lovci na zlato",
-      "naslov_orig": "S3E7 - Aussie Gold Hunters: Sunset Wedding",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "12+",
-      "opis": "Objekt za izluževanje od Dirt Dogsov doseže kritično točko. Ricku manjka še 9.000 $ do cilja. Scrappersi so prisiljeni spraviti na varno svoje zlato, preden ga ukradejo divji lovci.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f0/5/c/f05cc0b7-97ee-43df-9bf8-6e2df6d6baf2.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1174305583"
-    },
     {
       "datum": "2026-11-08",
       "dan": "Nedelja",
@@ -886,438 +436,6 @@
       "opis": "Zopet se podajamo na morsko potovanje v St. John's na Novi Fundlandiji. Barvita skupnost žilavih posameznikov se tukaj spopada z razgibano obalo in severnim Atlantskim oceanom, medtem ko živi in dela na robu sveta. Vsak dan prinaša nov izziv, od brutalnih neviht in močnega vetra do spremenljivih populacij rib. Komercialni ribiči, pristaniški delavci, upravljalci žerjavov in vlačilcev ter varilci so pravi bojevniki, odločeni, da jim bo uspelo ne glede na to, kakšne prepreke jim zastavlja mati narava.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/1/b/ce1bf4ca-80cb-4321-bbf6-dc848f83ae42.jpg",
       "show_id": "CUP_IECOM_EXPLORE_1174305620"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "00:55",
-      "cas_konec": "01:55",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E2 - Avstralski lovci na zlato",
-      "naslov_orig": "S4E2 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "12+",
-      "opis": "Ekipa Victoria Diggers je morda naletela na milijonsko nahajališče, Scrappersi so na kritični točki, in Dirt Dog Jake si z novimi rekruti prizadeva okrepiti njihovo rudarsko operacijo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/2/7/9f277451-2e93-435b-9555-7eb18e30467d.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765153"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "01:55",
-      "cas_konec": "02:55",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E3 - Avstralski lovci na zlato",
-      "naslov_orig": "S4E3 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "Gypsiesi si obetajo velik izplen, dokler roparji ne oropajo njihove bližnje baze. Težave Scrappersev se še poglobijo, in Dirt Dogsi potrebujejo stroj za mletje, ki bi obratoval naslednje tri mesece.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/a/f/73af3438-9faa-4429-9e25-62240e481128.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765147"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "02:55",
-      "cas_konec": "03:50",
-      "trajanje": "55 min",
-      "naslov_sl": "S4E4 - Avstralski lovci na zlato",
-      "naslov_orig": "S4E4 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "Gypsiesi si obetajo velik izplen, dokler roparji ne oropajo njihove bližnje baze. Težave Scrappersev se še poglobijo, in Dirt Dogsi potrebujejo stroj za mletje, ki bi obratoval naslednje tri mesece.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/e/e57e858b-b48b-4c9c-8bb0-b01bb6940e9a.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765148"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "03:50",
-      "cas_konec": "04:50",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E5 - Avstralski lovci na zlato",
-      "naslov_orig": "S4E5 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "Milijonske sanje ekipe Victoria Diggers so na prelomni točki, Dirt Dogsi so na lovu za tatovi, in Mahoneyjevi naletijo na skrivnostni umor.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/a/0/c3a019b5-4b2a-4a71-a85f-b05ae8c62ea1.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765149"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "04:50",
-      "cas_konec": "06:10",
-      "trajanje": "80 min",
-      "naslov_sl": "S4E6 - Avstralski lovci na zlato",
-      "naslov_orig": "S4E6 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "Victoria Diggersi se v boju za preživetje spogledujejo z velikansko kepo zlata, in Gold Gypsiesi preganjajo smrtonosne kače, medtem ko si prizadevajo ohraniti sanje o veliki najdbi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/a/7/81a7f08c-70ab-4d1a-a52d-c5e6ac311459.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765157"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "06:10",
-      "cas_konec": "07:10",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E3 - Gradnja velikanov: Plavajoči stadion",
-      "naslov_orig": "S3E3 - Building Up Giants: Floating Stadium",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "V Liverpoolu se inženirji spopadajo z nestabilnimi tlemi, vojnimi nevarnostmi in močnimi obalnimi vetrovi pri gradnji stadiona za 52.000 gledalcev na nekdanjem pristaniškem območju - v rekordnem času.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765419"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "07:10",
-      "cas_konec": "08:15",
-      "trajanje": "65 min",
-      "naslov_sl": "S3E4 - Gradnja velikanov: Super letališče",
-      "naslov_orig": "S3E4 - Building Up Giants: Super Airport",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "12+",
-      "opis": "V Nemčiji se inženirji spopadajo s podtalnico, omejenim prostorom in zahtevno logistiko pri gradnji tretjega terminala frankfurtskega letališča - mega vozlišča za 19 milijonov potnikov letno.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765430"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "08:15",
-      "cas_konec": "09:15",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E5 - Gradnja velikanov: Super tovorna ladja",
-      "naslov_orig": "S3E5 - Building Up Giants: Super Cargo Ship",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "12+",
-      "opis": "Na Nizozemskem inženirji hitijo z gradnjo ladje Hawaikinui 2 - tovorne ladje nove generacije, namenjene oskrbi nekaterih najbolj odročnih otokov v južnem Pacifiku.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765431"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "09:15",
-      "cas_konec": "10:20",
-      "trajanje": "65 min",
-      "naslov_sl": "S3E6 - Gradnja velikanov: Mega alpski predor",
-      "naslov_orig": "S3E6 - Building Up Giants: Alps Mega Tunnel",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "V Franciji in Italiji se inženirji spopadajo z ogromnim pritiskom kamnin, nestabilno geologijo in ekstremnimi podzemnimi razmerami pri gradnji najdaljšega železniškega predora pod Alpami doslej.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765428"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "10:20",
-      "cas_konec": "11:20",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E7 - Gradnja velikanov: Atenski super nebotičnik",
-      "naslov_orig": "S3E7 - Building Up Giants: Athens Super Skyscraper",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "12+",
-      "opis": "V Grčiji se inženirji spopadajo s potresi, nestabilnimi tlemi in obalnimi vetrovi, da bi ob Sredozemskem morju zgradili prvi pravi nebotičnik v državi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765423"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "11:20",
-      "cas_konec": "12:20",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - Rt pokola: Smrtonosni ulov",
-      "naslov_orig": "S1E6 - Cape Carnage: Killer Catch: Tragedy for Captain Bruce",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Ko Bruce izve, da je njegovo mamo zadela kap, z Juanito odhitita k njej, Tiger in Tom pa prevzameta krmilo. Usoda sezone visi na nitki, ko posadka končno doseže rt.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765420"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "12:20",
-      "cas_konec": "13:15",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E7 - Rt pokola: Smrtonosni ulov",
-      "naslov_orig": "S1E7 - Cape Carnage: Killer Catch: Lost at Sea",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Juanita izgine na Rtu pokola in Bruce se izkrca. Tiger želi odpluti v Karumbo, da bi zaradi nevarnih tokov raztovoril ulov, a njegov načrt se izjalovi in Wildcard je prisiljen v polkrožni obrat.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765425"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "13:15",
-      "cas_konec": "14:15",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E8 - Rt pokola: Smrtonosni ulov",
-      "naslov_orig": "S1E8 - Cape Carnage: Killer Catch: Making Big Money",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Družina Davey se preživlja z ročnim ribolovom v zahrbtnih vodah avstralskega Arnhem Landa. Da bi iz morja potegnili ogromno. 30-kilogramsko špansko skušo, bodo potrebovali vso svojo telesno moč.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765411"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "14:15",
-      "cas_konec": "15:10",
-      "trajanje": "55 min",
-      "naslov_sl": "S1E9 - Rt pokola: Smrtonosni ulov",
-      "naslov_orig": "S1E9 - Cape Carnage: Killer Catch: New Blood in the Dory",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "Ekipa Wildcard se bori z morskimi psi, ogromnim krokodilom in kronično poškodbo, pestijo pa jih tudi prepiri in trdovratna megla - kar vse ogroža njihov cilj sezone.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765421"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "15:10",
-      "cas_konec": "16:10",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E10 - Rt pokola: Smrtonosni ulov",
-      "naslov_orig": "S1E10 - Cape Carnage: Killer Catch: The Final Assault",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "12+",
-      "opis": "V zadnjem tednu ekipi Wildcard manjka več kot dve toni do zastavljenega cilja - 65 ton ulova. Ko okrog Rta pokola krožijo morski psi, se ekipa z zadnjimi močmi bori za izjemen ulov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765412"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "16:10",
-      "cas_konec": "17:10",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E6 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E6 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Komunikacijske težave razblinijo sanje Andrewsa in Jacqui o velikih zlatih kepah, ekipa Poseidon Crew pa se bori z deževnim vremenom na lovu za bogatim izplačilom.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765432"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "17:10",
-      "cas_konec": "18:05",
-      "trajanje": "55 min",
-      "naslov_sl": "S8E7 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E7 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Oboroženi vsiljivec ogrozi raziskovalno misijo Gold Devilsov, Feralsi pa odkrijejo največjo zlato kepo v njihovi rudarski karieri.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765416"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "18:05",
-      "cas_konec": "19:05",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E8 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E8 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Nova ekipa Alan and Salty se poda pod vodo na lov za zlatimi kepami, Feralsi pa naletijo na bogato zlato žilo, vendar morajo najprej pregnati tatove.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765417"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "19:05",
-      "cas_konec": "20:05",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E9 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E9 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Gold Devilsi stavijo na obetavno novo najdišče, Alan in Salty se podata na terensko vožnjo v divjino Kimberleyja, Shane in Kate pa poskušata zagnati dve napravi za izpiranje, a jima zmanjka vode.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1d/a/b/1dab0a5d-3c31-44e7-813d-8a0f4ccdcb1d.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765429"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "20:05",
-      "cas_konec": "21:00",
-      "trajanje": "55 min",
-      "naslov_sl": "S8E10 - Avstralski lovci na zlato",
-      "naslov_orig": "S8E10 - Aussie Gold Hunters",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Ekipa Poseidon Crew se spopada s težavnim terenom v visokogorju Viktorije, medtem pa se Gold Devilsi spogledujejo z milijonskim zaslužkom.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1d/a/b/1dab0a5d-3c31-44e7-813d-8a0f4ccdcb1d.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765426"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "21:00",
-      "cas_konec": "21:55",
-      "trajanje": "55 min",
-      "naslov_sl": "S4E3 - Življenje pod ničlo: Ko načrti propadejo",
-      "naslov_orig": "S4E3 - Life Below Zero: Falling Apart",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "15+",
-      "opis": "Aljaščani nadaljujejo s pripravami na neprizanesljivo zimsko zmrzal, pri čemer se poslužujejo vsega svojega znanja, toda njihovi načrti začnejo propadati.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/5/1/2451a48b-a782-4acf-9121-9534dca472af.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765424"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "21:55",
-      "cas_konec": "22:55",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E4 - Življenje pod ničlo: Smrtonosne sledi",
-      "naslov_orig": "S4E4 - Life Below Zero: Deadly Tracks",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "15+",
-      "opis": "Sue Aikens ob vrnitvi v tabor naleti na nevarnega plenilca. Jezero pred Glennovo kočo je zmrznilo, kar predstavlja idealne pogoje za nabiranje prosenke.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/d/f/aedfe1ee-64db-40c8-8096-f3acb4f4232a.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765413"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "22:55",
-      "cas_konec": "23:55",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E4 - Junaki vzhodnega pristanišča: To so zavore",
-      "naslov_orig": "S3E4 - East Harbour Heroes: Them's the Brakes",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Tvegan ulov morske plošče, usposabljanje za reševanje življenj in junaška zračna reševalna akcija potisnejo posadke do skrajnih meja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/1/b/ce1bf4ca-80cb-4321-bbf6-dc848f83ae42.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765414"
-    },
-    {
-      "datum": "2026-11-15",
-      "dan": "Nedelja",
-      "cas": "23:55",
-      "cas_konec": "00:50",
-      "trajanje": "55 min",
-      "naslov_sl": "S3E5 - Junaki vzhodnega pristanišča: Premikajoče se morje",
-      "naslov_orig": "S3E5 - East Harbour Heroes: Shifting Sea",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Ribiči in potapljači iščejo cenjene vrste rib, medtem ko raziskovalci poskušajo preprečiti okoljsko škodo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/1/b/ce1bf4ca-80cb-4321-bbf6-dc848f83ae42.jpg",
-      "show_id": "CUP_IECOM_EXPLORE_1176765427"
     },
     {
       "datum": "2026-11-09",
@@ -6142,6 +5260,438 @@
       "opis": "Dirt Dogsi investirajo v obrat trdnih kamnin, medtem ko nova ekipa iz Viktorije koplje za milijonskimi zlatimi kepami. Gold Gypsiesi se vračajo opogumljeni zaradi bogatega izplena iz pretekle sezone.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/7/f/e97fd98f-77ba-46cc-b4d1-04d72e45e73a.jpg",
       "show_id": "CUP_IECOM_EXPLORE_1176765152"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "00:55",
+      "cas_konec": "01:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E2 - Avstralski lovci na zlato",
+      "naslov_orig": "S4E2 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "12+",
+      "opis": "Ekipa Victoria Diggers je morda naletela na milijonsko nahajališče, Scrappersi so na kritični točki, in Dirt Dog Jake si z novimi rekruti prizadeva okrepiti njihovo rudarsko operacijo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9f/2/7/9f277451-2e93-435b-9555-7eb18e30467d.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765153"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "01:55",
+      "cas_konec": "02:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E3 - Avstralski lovci na zlato",
+      "naslov_orig": "S4E3 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Gypsiesi si obetajo velik izplen, dokler roparji ne oropajo njihove bližnje baze. Težave Scrappersev se še poglobijo, in Dirt Dogsi potrebujejo stroj za mletje, ki bi obratoval naslednje tri mesece.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/a/f/73af3438-9faa-4429-9e25-62240e481128.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765147"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "02:55",
+      "cas_konec": "03:50",
+      "trajanje": "55 min",
+      "naslov_sl": "S4E4 - Avstralski lovci na zlato",
+      "naslov_orig": "S4E4 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Gypsiesi si obetajo velik izplen, dokler roparji ne oropajo njihove bližnje baze. Težave Scrappersev se še poglobijo, in Dirt Dogsi potrebujejo stroj za mletje, ki bi obratoval naslednje tri mesece.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e5/7/e/e57e858b-b48b-4c9c-8bb0-b01bb6940e9a.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765148"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "03:50",
+      "cas_konec": "04:50",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E5 - Avstralski lovci na zlato",
+      "naslov_orig": "S4E5 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Milijonske sanje ekipe Victoria Diggers so na prelomni točki, Dirt Dogsi so na lovu za tatovi, in Mahoneyjevi naletijo na skrivnostni umor.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c3/a/0/c3a019b5-4b2a-4a71-a85f-b05ae8c62ea1.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765149"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "04:50",
+      "cas_konec": "06:10",
+      "trajanje": "80 min",
+      "naslov_sl": "S4E6 - Avstralski lovci na zlato",
+      "naslov_orig": "S4E6 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "Victoria Diggersi se v boju za preživetje spogledujejo z velikansko kepo zlata, in Gold Gypsiesi preganjajo smrtonosne kače, medtem ko si prizadevajo ohraniti sanje o veliki najdbi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/81/a/7/81a7f08c-70ab-4d1a-a52d-c5e6ac311459.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765157"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "06:10",
+      "cas_konec": "07:10",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E3 - Gradnja velikanov: Plavajoči stadion",
+      "naslov_orig": "S3E3 - Building Up Giants: Floating Stadium",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "V Liverpoolu se inženirji spopadajo z nestabilnimi tlemi, vojnimi nevarnostmi in močnimi obalnimi vetrovi pri gradnji stadiona za 52.000 gledalcev na nekdanjem pristaniškem območju - v rekordnem času.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765419"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "07:10",
+      "cas_konec": "08:15",
+      "trajanje": "65 min",
+      "naslov_sl": "S3E4 - Gradnja velikanov: Super letališče",
+      "naslov_orig": "S3E4 - Building Up Giants: Super Airport",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "12+",
+      "opis": "V Nemčiji se inženirji spopadajo s podtalnico, omejenim prostorom in zahtevno logistiko pri gradnji tretjega terminala frankfurtskega letališča - mega vozlišča za 19 milijonov potnikov letno.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765430"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "08:15",
+      "cas_konec": "09:15",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E5 - Gradnja velikanov: Super tovorna ladja",
+      "naslov_orig": "S3E5 - Building Up Giants: Super Cargo Ship",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "12+",
+      "opis": "Na Nizozemskem inženirji hitijo z gradnjo ladje Hawaikinui 2 - tovorne ladje nove generacije, namenjene oskrbi nekaterih najbolj odročnih otokov v južnem Pacifiku.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765431"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "09:15",
+      "cas_konec": "10:20",
+      "trajanje": "65 min",
+      "naslov_sl": "S3E6 - Gradnja velikanov: Mega alpski predor",
+      "naslov_orig": "S3E6 - Building Up Giants: Alps Mega Tunnel",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "V Franciji in Italiji se inženirji spopadajo z ogromnim pritiskom kamnin, nestabilno geologijo in ekstremnimi podzemnimi razmerami pri gradnji najdaljšega železniškega predora pod Alpami doslej.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765428"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "10:20",
+      "cas_konec": "11:20",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E7 - Gradnja velikanov: Atenski super nebotičnik",
+      "naslov_orig": "S3E7 - Building Up Giants: Athens Super Skyscraper",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "12+",
+      "opis": "V Grčiji se inženirji spopadajo s potresi, nestabilnimi tlemi in obalnimi vetrovi, da bi ob Sredozemskem morju zgradili prvi pravi nebotičnik v državi.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/71/a/2/71a2cddd-01f7-4bc5-85f8-ff69e2d70a32.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765423"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "11:20",
+      "cas_konec": "12:20",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E6 - Rt pokola: Smrtonosni ulov",
+      "naslov_orig": "S1E6 - Cape Carnage: Killer Catch: Tragedy for Captain Bruce",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Ko Bruce izve, da je njegovo mamo zadela kap, z Juanito odhitita k njej, Tiger in Tom pa prevzameta krmilo. Usoda sezone visi na nitki, ko posadka končno doseže rt.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765420"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "12:20",
+      "cas_konec": "13:15",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E7 - Rt pokola: Smrtonosni ulov",
+      "naslov_orig": "S1E7 - Cape Carnage: Killer Catch: Lost at Sea",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Juanita izgine na Rtu pokola in Bruce se izkrca. Tiger želi odpluti v Karumbo, da bi zaradi nevarnih tokov raztovoril ulov, a njegov načrt se izjalovi in Wildcard je prisiljen v polkrožni obrat.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765425"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "13:15",
+      "cas_konec": "14:15",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E8 - Rt pokola: Smrtonosni ulov",
+      "naslov_orig": "S1E8 - Cape Carnage: Killer Catch: Making Big Money",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Družina Davey se preživlja z ročnim ribolovom v zahrbtnih vodah avstralskega Arnhem Landa. Da bi iz morja potegnili ogromno. 30-kilogramsko špansko skušo, bodo potrebovali vso svojo telesno moč.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765411"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "14:15",
+      "cas_konec": "15:10",
+      "trajanje": "55 min",
+      "naslov_sl": "S1E9 - Rt pokola: Smrtonosni ulov",
+      "naslov_orig": "S1E9 - Cape Carnage: Killer Catch: New Blood in the Dory",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "Ekipa Wildcard se bori z morskimi psi, ogromnim krokodilom in kronično poškodbo, pestijo pa jih tudi prepiri in trdovratna megla - kar vse ogroža njihov cilj sezone.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765421"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "15:10",
+      "cas_konec": "16:10",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E10 - Rt pokola: Smrtonosni ulov",
+      "naslov_orig": "S1E10 - Cape Carnage: Killer Catch: The Final Assault",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "12+",
+      "opis": "V zadnjem tednu ekipi Wildcard manjka več kot dve toni do zastavljenega cilja - 65 ton ulova. Ko okrog Rta pokola krožijo morski psi, se ekipa z zadnjimi močmi bori za izjemen ulov.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1c/c/9/1cc9b875-030a-4902-9ab0-917448147bd7.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765412"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "16:10",
+      "cas_konec": "17:10",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E6 - Avstralski lovci na zlato",
+      "naslov_orig": "S8E6 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "12+",
+      "opis": "Komunikacijske težave razblinijo sanje Andrewsa in Jacqui o velikih zlatih kepah, ekipa Poseidon Crew pa se bori z deževnim vremenom na lovu za bogatim izplačilom.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765432"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "17:10",
+      "cas_konec": "18:05",
+      "trajanje": "55 min",
+      "naslov_sl": "S8E7 - Avstralski lovci na zlato",
+      "naslov_orig": "S8E7 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "12+",
+      "opis": "Oboroženi vsiljivec ogrozi raziskovalno misijo Gold Devilsov, Feralsi pa odkrijejo največjo zlato kepo v njihovi rudarski karieri.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765416"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "18:05",
+      "cas_konec": "19:05",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E8 - Avstralski lovci na zlato",
+      "naslov_orig": "S8E8 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "12+",
+      "opis": "Nova ekipa Alan and Salty se poda pod vodo na lov za zlatimi kepami, Feralsi pa naletijo na bogato zlato žilo, vendar morajo najprej pregnati tatove.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f4/8/1/f4813efb-4ed4-4dfb-a0db-bd9d877da5d0.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765417"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "19:05",
+      "cas_konec": "20:05",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E9 - Avstralski lovci na zlato",
+      "naslov_orig": "S8E9 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "12+",
+      "opis": "Gold Devilsi stavijo na obetavno novo najdišče, Alan in Salty se podata na terensko vožnjo v divjino Kimberleyja, Shane in Kate pa poskušata zagnati dve napravi za izpiranje, a jima zmanjka vode.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1d/a/b/1dab0a5d-3c31-44e7-813d-8a0f4ccdcb1d.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765429"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "20:05",
+      "cas_konec": "21:00",
+      "trajanje": "55 min",
+      "naslov_sl": "S8E10 - Avstralski lovci na zlato",
+      "naslov_orig": "S8E10 - Aussie Gold Hunters",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "12+",
+      "opis": "Ekipa Poseidon Crew se spopada s težavnim terenom v visokogorju Viktorije, medtem pa se Gold Devilsi spogledujejo z milijonskim zaslužkom.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/1d/a/b/1dab0a5d-3c31-44e7-813d-8a0f4ccdcb1d.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765426"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "21:00",
+      "cas_konec": "21:55",
+      "trajanje": "55 min",
+      "naslov_sl": "S4E3 - Življenje pod ničlo: Ko načrti propadejo",
+      "naslov_orig": "S4E3 - Life Below Zero: Falling Apart",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "15+",
+      "opis": "Aljaščani nadaljujejo s pripravami na neprizanesljivo zimsko zmrzal, pri čemer se poslužujejo vsega svojega znanja, toda njihovi načrti začnejo propadati.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/24/5/1/2451a48b-a782-4acf-9121-9534dca472af.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765424"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "21:55",
+      "cas_konec": "22:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E4 - Življenje pod ničlo: Smrtonosne sledi",
+      "naslov_orig": "S4E4 - Life Below Zero: Deadly Tracks",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "15+",
+      "opis": "Sue Aikens ob vrnitvi v tabor naleti na nevarnega plenilca. Jezero pred Glennovo kočo je zmrznilo, kar predstavlja idealne pogoje za nabiranje prosenke.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ae/d/f/aedfe1ee-64db-40c8-8096-f3acb4f4232a.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765413"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "22:55",
+      "cas_konec": "23:55",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E4 - Junaki vzhodnega pristanišča: To so zavore",
+      "naslov_orig": "S3E4 - East Harbour Heroes: Them's the Brakes",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Tvegan ulov morske plošče, usposabljanje za reševanje življenj in junaška zračna reševalna akcija potisnejo posadke do skrajnih meja.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/1/b/ce1bf4ca-80cb-4321-bbf6-dc848f83ae42.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765414"
+    },
+    {
+      "datum": "2026-11-15",
+      "dan": "Nedelja",
+      "cas": "23:55",
+      "cas_konec": "00:50",
+      "trajanje": "55 min",
+      "naslov_sl": "S3E5 - Junaki vzhodnega pristanišča: Premikajoče se morje",
+      "naslov_orig": "S3E5 - East Harbour Heroes: Shifting Sea",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Ribiči in potapljači iščejo cenjene vrste rib, medtem ko raziskovalci poskušajo preprečiti okoljsko škodo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ce/1/b/ce1bf4ca-80cb-4321-bbf6-dc848f83ae42.jpg",
+      "show_id": "CUP_IECOM_EXPLORE_1176765427"
     }
   ]
 }
