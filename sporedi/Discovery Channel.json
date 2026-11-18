@@ -1,496 +1,10 @@
 {
   "kanal": "Discovery Channel",
   "ch_ext_id": "discovery-channel",
-  "posodobljeno": "2026-11-17 12:26",
-  "od": "2026-11-10",
-  "do": "2026-11-24",
+  "posodobljeno": "2026-11-18 12:26",
+  "od": "2026-11-11",
+  "do": "2026-11-25",
   "oddaje": [
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E1 - Kaotična kraja avta",
-      "naslov_orig": "S2E1 - High Speed Chase: Carjack Chaos",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "12+",
-      "opis": "Odločeni osumljenec na Floridi dopustnikom povzroča kaos s krajo avtomobila in divjim begom pred policijo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/8/f/778fad76-7615-4717-b78c-8020380ea4f9.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839183"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E9 - Bel Air '56",
-      "naslov_orig": "S1E9 - Shorty's Dream Shop: '56 Bel Air Blues",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Lastnik Chevroleta Bel Air letnik 1956 je obiskal že več različnih delavnic, a njegov sanjski avtomobil še vedno ni nared. Shortyjeva delavnica je njegova zadnja postaja.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/cc/e/6/cce63bc7-4717-4ad9-b3fe-990fd6677a96.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839188"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "02:00",
-      "cas_konec": "03:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E3 - Kraljica močvirja",
-      "naslov_orig": "S9E3 - Naked And Afraid: Not Today, Satan",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "zabava"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "V misisipijskem močvirju imata Gabrielle in Brian opravka z roji komarjev in smrtonosnimi plenilci. Kako se bosta prebila skozi teden dni trajajočo nevihto s strelami?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/01/4/7/014797e5-1cab-416b-ae01-ad9552f67e50.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839170"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S9E4 - Prepovedan sadež",
-      "naslov_orig": "S9E4 - Naked And Afraid: Cry for Me, Argentina",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Garyjeva in Karrina sposobnost preživetja bo v brazilski savani deležna zahtevnega preizkusa. Po dneh stradanja bo eden od njiju zaradi nezrelega sadeža staknil resno bolezen.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ed/5/c/ed5c08d9-7e5f-4092-b8eb-dfb32409e1b0.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839166"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E13 - Hitri in glasni",
-      "naslov_orig": "S6E13 - Fast n' Loud: Hot For Firebirds",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Ekipa v delavnici stare avtomobile spreminja v zlato na kolesih.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c1/d/9/c1d98925-1c8f-4386-a5d3-3a3f4e729195.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839179"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E4 - 4. epizoda",
-      "naslov_orig": "S6E4 - Salvage Hunters: The Restorers: Archer Automata",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Drew prosi restavratorja Michaela in Mario, da bi oživela avtomaton lokostrelca. Ted in Robin se medtem posvetita ikonični telefonski govorilnici K6.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/4b/8/9/4b89df95-219f-445e-bbef-d195e581df63.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839180"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "06:00",
-      "cas_konec": "07:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E1 - Mehika: Baja hrošč",
-      "naslov_orig": "S2E1 - Wheeler Dealers World Tour: Mexico Baja Bug",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Mike in Elvis spremenita VW hrošča v Baja hrošča za dirke po peščenih sipinah. A na voljo imata le 5 dni časa. Bo njun projekt uspel ali spodletel?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/09/0/0/09004e52-5f1a-4f1c-81ea-b8987be5bac4.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839215"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E2 - Brazilija: VW SP2",
-      "naslov_orig": "S2E2 - Wheeler Dealers World Tour: Brazil: VW SP2",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Fanta v São Paulu kupita brazilski VW SP2. Miku se s tem uresničijo sanje, a avto nima dovolj moči, zato mu mora Elvis dodati nekaj \"mišic\".",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/2/5/5a253d9b-1eed-403d-9b3b-4f435959312c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839216"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "08:00",
-      "cas_konec": "08:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S19E13 - Kako je narejeno: Vesoljski kemični svinčniki/koralni akvariji/kovinske krste",
-      "naslov_orig": "S19E13 - How It's Made: Space Pens, Reef Aquariums, Metal Caskets, Composite Bike Wheels",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Pod drobnogled postavljamo še več vsakdanjih predmetov. Oglejte si, kako nastanejo avtomobilske prestave, miniaturna srebrnina, košare za toplozračne balone in puščice za pikado.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/96/9/5/9695a4d4-2797-429e-9d38-b409a2ac3050.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839200"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "08:30",
-      "cas_konec": "09:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S2E5 - Kako je narejeno: Sanjski avtomobili: Morganov trikolesnik",
-      "naslov_orig": "S2E5 - How It's Made: Dream Cars: Morgan 3-Wheeler",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "Ekipa oddaje \"Kako je narejeno\" gre obiskat mesto nastanka Morganovega trikolesnika, kjer bodo analizirali njegovo notranjost in čudovito zunanjost.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/77/5/4/7754188e-cdd1-4ddb-b972-98dd9649b003.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839213"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S11E2 - Lovci na zaklade: Francija",
-      "naslov_orig": "S11E2 - Salvage Hunters: France",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "",
-      "opis": "Drew in Tee se odpravita na svoj prvi izlet v Francijo, kjer obiščeta graščino iz 16. stoletja v loirskem departmaju. Starine nakupujeta tudi v Montsoreauju in Viarmu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/07/8/f/078f693e-5825-432a-95cd-bbb4fdb7b553.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839208"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E8 - 8. epizoda",
-      "naslov_orig": "S1E8 - Salvage Hunters: The Restorers",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2018",
-      "starostna_omejitev": "",
-      "opis": "Restavratorji obnovijo zdelano stoječe ogledalo, klasičen naslanjač in veliko železniško uro. Rebecca Pritchard se poglobi v izvor teh predmetov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/64/f/b/64fba482-e95b-43ca-a7b3-041bbac7d50e.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839192"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "11:00",
-      "cas_konec": "11:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E9 - Iskanje stalnega doma na plaži",
-      "naslov_orig": "S1E9 - Beach Hunters: A Hunt for a Galveston Beach Home Getaway",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "življenjski slog"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Upokojena mati želi živeti bliže svojim otrokom, zato se s hčerko podata na lov v obalna mesta Severne Karoline.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c9/7/0/c970991c-99ca-4d3d-9e26-03017ff12bac.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839193"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "11:30",
-      "cas_konec": "12:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S1E10 - Dom ob plaži v Melbourne Beachu",
-      "naslov_orig": "S1E10 - Beach Hunters: The Hunt for a Gulf Breeze Dream Home",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "življenjski slog"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Živahna mladoporočenca s pustolovskim duhom želita kupiti svoj prvi skupni dom v zaspanem surferskem mestu Melbourne Beach na Floridi.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f2/6/8/f268e0eb-5394-45ec-918c-d0cd4fc030e0.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839194"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E1 - Domovina",
-      "naslov_orig": "S1E1 - Deadliest Catch: The Viking Returns: Wheelhouse Redemption",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Sig zvabi družino v domovino njihovih prednikov, ko iščejo rakovice.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/9e/d/9/9ed9d5c6-04cc-4360-a6f6-ea915ec0ccb6.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839201"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E2 - Kralji proti trolom",
-      "naslov_orig": "S1E2 - Deadliest Catch: The Viking Returns: Dangerous Grounds",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "12+",
-      "opis": "Sig zaupa svojo ladjo Jaku, ko se z Mandy posvetita novemu lovu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/6c/5/b/6c5b03ea-324a-4d21-91a7-e10b57798923.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839204"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E5 - Bes zime",
-      "naslov_orig": "S1E5 - Homestead Rescue: Nevada Thirst",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "pustolovščina"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Marty, Matt in Misty Raney pomagajo družini Russell, ki ima težave s svojo propadajočo domačijo. Primanjkuje jim hrane, ne znajo loviti, ob tem pa se jim podira še koča.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d1/7/6/d1762b52-7d70-44c7-b721-525d17d80432.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839214"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - Strah pred medvedi",
-      "naslov_orig": "S1E6 - Homestead Rescue: Bearanoia",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "pustolovščina"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Raneyjeve pokličejo na propadajočo domačijo v Koloradu. Don pa mora vsak dan na 60-kilometrsko pot po gorskih cestah, pri čemer pušča Lorindo samo doma.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/08/b/b/08bb8833-8da1-48ef-ac4c-0c2406a88de2.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839195"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E3 - Zverinski projekt",
-      "naslov_orig": "S2E3 - Diesel Brothers: Diesel Defender",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Heavy D končno dokonča vozilo, ki so ga krstili za neuspeh leta, potem pa delavnico obišče še legenda ameriškega nogometa Marshawn Lynch, ki fanta prosi za predelavo vozila.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/80/a/1/80a116d7-d0af-4ab1-97bd-576a06beab3e.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839209"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E7 - Hitri in glasni",
-      "naslov_orig": "S4E7 - Fast n' Loud: Harley and Me",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "",
-      "opis": "Richard Rawlings in Aaron Kaufmann sta nazaj. Spet iščeta od vseh pozabljene in zapuščene skrite dragulje med klasičnimi avtomobili v najbolj odročnih krajih v Teksasu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ad/4/0/ad401191-c7d1-4c3b-9db6-0dab1d4f3d22.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839217"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "18:00",
-      "cas_konec": "18:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S11E11 - Kako jim uspe?: Toplotno izolativno steklo, bankomati, Pagani",
-      "naslov_orig": "S11E11 - How Do They Do It?: Glass Cookware, ATM and Hyper Car",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "",
-      "opis": "Pokukajte v zakulisje in spoznajte inženirje in vizionarske industrijske oblikovalce, ki so odgovorni za izdelavo in delovanje številnih vsakdanjih predmetov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a3/1/6/a316e572-362d-45b9-9bc5-03e92d907ca1.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839210"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "18:30",
-      "cas_konec": "19:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S25E19 - Kako je narejeno: Spiralasto stopnišče, kruh pita",
-      "naslov_orig": "S25E19 - How It's Made: Spiral Stairs, Pita Bread, Exhaust Headers, and Molded Limestone Artwork",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Pod drobnogled postavljamo še več vsakdanjih predmetov. S kakšnimi postopki izdelajo običajne stvari, kot so zbiralniki izpušnih plinov in umetnine iz apnenca.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/23/b/e/23beb358-f9cc-400b-8486-18854464b678.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839211"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E1 - Neskončno poletje",
-      "naslov_orig": "S4E1 - Alaskan Bush People: Back to the Bush",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "narava"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "Posnetki, ki jih še niste videli, na katerih se družina Brown pripravlja na prvo poletje na svoji posesti. Izvedeli boste tudi, kaj bo prinesla prihajajoča sezona.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/63/4/7/63473925-263d-4617-b584-6a0d027e9f7c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839205"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E2 - Preigravanje",
-      "naslov_orig": "S4E2 - Alaskan Bush People: Breaking Ground",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2015",
-      "starostna_omejitev": "12+",
-      "opis": "Brownovi uživajo v kratkem Aljaškem poletju. Skovali so načrt, kako rešiti pomankanje lesa. Zaradi nenadne poškodbe se bo družina morda morala ločiti.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b1/d/b/b1db8df4-50c0-4eac-862c-e9acdd9a2cd6.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839218"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S22E14 - Smrtonosni ulov",
-      "naslov_orig": "S22E14 - Deadliest Catch: Curse Of the Hybrids",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Sig in Sophia ulovita križance, ko neravnovesje v rezervoarju ogrozi njuno barko. Posadka Time Bandita se bori z ledom, da bi OJ-ja prepeljala domov.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/1/2/7b1246a5-fefc-4602-90bc-018a20d98053.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839203"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S8E17 - Lovci na opale",
-      "naslov_orig": "S8E17 - Outback Opal Hunters: No Risk, No Reward",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2022",
-      "starostna_omejitev": "",
-      "opis": "Najbolj trdoživi rudarji na svetu iščejo opal v divjini.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3e/4/9/3e499e68-0e79-4177-b1dd-fd5dbd641987.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839199"
-    },
-    {
-      "datum": "2026-11-10",
-      "dan": "Torek",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E2 - S polno močjo",
-      "naslov_orig": "S2E2 - High Speed Chase: Full Throttle",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "10+",
-      "opis": "Tat na Floridi začne divji lov z gliserjem. Policija sumi, da šesttonski tovornjak morda skriva ukradene dobrine.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3c/1/f/3c1fe386-d629-4f34-9f68-c01be84d03f8.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1177839206"
-    },
     {
       "datum": "2026-11-11",
       "dan": "Sreda",
@@ -958,492 +472,6 @@
       "opis": "V Ohiu več agencij zasleduje ukradeni kombi, ko voznik pokliče 911 in razkrije, da v vozilu ni sam.",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5f/b/1/5fb1c553-a870-40be-bf12-78afc20a9832.jpg",
       "show_id": "CUP_IECOM_DISCOVERY_1177839299"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "00:00",
-      "cas_konec": "01:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E3 - Mejna kontrola: Italija",
-      "naslov_orig": "S1E3 - Border Control: Italia",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/9/6/dc96be09-3efc-474c-8de9-96faa5d879d4.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007080"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "01:00",
-      "cas_konec": "02:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E5 - Ford XR8 - Avstralija",
-      "naslov_orig": "S1E5 - Wheeler Dealers World Tour: Ford XR8 - Australia",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Mike in Elvis se pomerita v največjem avstralskem obračunu, ford proti holdnu. Lahko njun ford XR8 na dirkališču Mount Panorama prehiti holden GTS?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/3/6/f1363096-1c6d-41a4-bbcd-35053ee5a65b.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007072"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "02:00",
-      "cas_konec": "03:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E6 - VW avtodom - Avstralija",
-      "naslov_orig": "S1E6 - Wheeler Dealers World Tour: VW Kombi - Australia",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Mike in Elvis najdeta star VW avtodom, ki potrebuje nekaj popravkov. Ga lahko spremenita v avtodom za daljše vožnje, primeren za avstralsko divjino?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/4/9/19495a39-aa16-447e-86fb-e84896ca752c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007078"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "03:00",
-      "cas_konec": "04:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E7 - Hilux – Avstralija",
-      "naslov_orig": "S1E7 - Wheeler Dealers World Tour: Hilux - Australia",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Mike in Elvis sta na lovu za priljubljenim avstralskim vozilom HiLux. Rada bi ga predelala v vrhunsko terensko zverino.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/2/3/df23d759-281a-45fd-9edb-78eb66cf7630.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007091"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "04:00",
-      "cas_konec": "05:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E8 - Surfkombi Holden – Avstralija",
-      "naslov_orig": "S1E8 - Wheeler Dealers World Tour: Holden Surf Wagon Australia",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2024",
-      "starostna_omejitev": "",
-      "opis": "Mike in Elvis gresta na plažo zaradi ikoničnega holden sandmana. Ali lahko pust kombi predelata v vrhunsko žepu prijazno različico?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3b/d/b/3bdb28f7-c9d9-4a8d-9051-e1ee997fd066.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007092"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "05:00",
-      "cas_konec": "06:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S6E10 - Egipčansko čudo",
-      "naslov_orig": "S6E10 - Salvage Hunters: The Restorers: An Egyptian Wonder",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2023",
-      "starostna_omejitev": "",
-      "opis": "Restavrator igralnih avtomatov Mark Squires popravi in obnovi avtomat iz 1960-ih. Kovinar Ted Edley pa mora obnoviti zarjavelo signalno lanterno.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/a/5/06a54fdd-3a61-47b1-909f-eb7657b3635d.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007073"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "06:00",
-      "cas_konec": "07:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E3 - 3. epizoda",
-      "naslov_orig": "S3E3 - Salvage Hunters: Classic Cars: Volvo Amazon & Toyota MR2",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Drew in Paul se odpravita v osrednji del VB po švedsko klasiko: Volva Amazona. Poleg tega se Paul zagreje za Toyoto MR2. Lahko Drewa prepriča, da bo predelava dobičkonosna?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/37/0/a/370a00a9-fe27-40f5-8782-056f3666571d.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007130"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "07:00",
-      "cas_konec": "08:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E4 - 4. epizoda",
-      "naslov_orig": "S3E4 - Salvage Hunters: Classic Cars: BMW 2002 Touring & Volvo 850R",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2020",
-      "starostna_omejitev": "",
-      "opis": "Reševalec starin Drew Pritchard se z zbiralcem dirkalnikov Paulom Cowlandom poda na misijo, kjer pretakneta vso VB ter kupujeta, obnavljata in prodajata klasične avtomobile.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/2/c/862c00d9-c633-49b3-8a6c-61d20ab5e484.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007115"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "08:00",
-      "cas_konec": "08:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S20E6 - Kako je narejeno: Papirnati robčki, počitniške prikolice, copati, motoristične čelade",
-      "naslov_orig": "S20E6 - How It's Made: Tissues, Travel Trailers, Slippers, Motorcycle Helmets",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2012",
-      "starostna_omejitev": "",
-      "opis": "Oglejte si, kako nastanejo papirnati robčki, počitniške prikolice, copati in motoristične čelade.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/96/9/5/9695a4d4-2797-429e-9d38-b409a2ac3050.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007105"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "08:30",
-      "cas_konec": "09:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S2E11 - Kako je narejeno: Sanjski avtomobili: Superformance MKIII",
-      "naslov_orig": "S2E11 - How It's Made: Dream Cars: Superformance MKIII",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "",
-      "opis": "Ste se kdaj spraševali, kako izdelajo Superformance MKIII? Ekipa oddaje \"Kako je narejeno\" gre obiskat mesto njegovega nastanka in raziskat notranjost in čudovito zunanjost.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/b/563bbc65-0093-4641-8230-7a56ac9df794.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007118"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "09:00",
-      "cas_konec": "10:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S11E8 - Lovci na zaklade: Družina",
-      "naslov_orig": "S11E8 - Salvage Hunters: Family",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Drew se v Fromu v Somersetu trdo pogaja, v Dumfriesshiru pa obišče posestvo, ki je že več generacij v lasti iste družine in ki hrani polno osupljivih starin.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/a/7/d3a7ede3-14e4-479f-a6fd-6868c59a37e3.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007119"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "10:00",
-      "cas_konec": "11:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E4 - 4. epizoda",
-      "naslov_orig": "S2E4 - Salvage Hunters: The Restorers: A Chip Off the Old Block",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2019",
-      "starostna_omejitev": "",
-      "opis": "Kiparski mojster Nick mora biti izredno previden, ko se z vrtalnikom loti vrča iz 19. stoletja. Strokovnjakinja za razsvetljavo Jolene pa popravi sejemski transparent.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/d/5/a8d51332-f7fb-4116-a489-93f86804a148.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007123"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "11:00",
-      "cas_konec": "11:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S2E5 - Iskanje hiše na obali Washingtona",
-      "naslov_orig": "S2E5 - Beach Hunters: Navarre House Hunt",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "življenjski slog"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Par zapušča kopensko Montano v upanju, da bosta našla nov dom na čudoviti obali Ferndala v Washingtonu.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/7/7/73778d1c-b9d9-4abb-af5b-11ad9a4f1d06.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007106"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "11:30",
-      "cas_konec": "12:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S2E6 - Iskanje hiše na Južni obali",
-      "naslov_orig": "S2E6 - Beach Hunters: Camano Island House Hunt",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "življenjski slog"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Nepremičninski agentka iz Bostona zapušča mestni vrvež Beantowna in išče sanjski dom ob plaži na Massachusettsovi Južni obali.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/e/8/bfe818fa-b839-4206-9f42-4015a8da43e5.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007125"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "12:00",
-      "cas_konec": "13:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S22E10 - Smrtonosni ulov",
-      "naslov_orig": "S22E10 - Deadliest Catch: He's In the Water!",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Lynn Guitard, član posadke ladje Wizard, pade čez krov. Keith in Monte sprožita reševalno akcijo. Sig omogoči Sophii, da se izkaže ob ruski meji.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/1/2/7b1246a5-fefc-4602-90bc-018a20d98053.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007120"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "13:00",
-      "cas_konec": "14:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S22E11 - Smrtonosni ulov",
-      "naslov_orig": "S22E11 - Deadliest Catch: O Captain, My Captain",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Novinec Todd dobi zobni absces, zato Rick razmišlja o dragi vrnitvi v pristanišče. Sig svoji varovanki Bob prvič zaupa krmilo.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/1/2/7b1246a5-fefc-4602-90bc-018a20d98053.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007128"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "14:00",
-      "cas_konec": "15:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E17 - Reševanje domačije: Bitka za zavetišče",
-      "naslov_orig": "S1E17 - Homestead Rescue: Storm Shelter Showdown: Part 1: 1",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Raneyjevi prispejo v Misuri na obisk družine, ki je pravkar preživela tornado. Družina živi v razpadajoči koči brez vira pitne vode.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/2/9/5a29ad0f-4c9a-416a-a10e-f00e6d6bcbbf.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007121"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "15:00",
-      "cas_konec": "16:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E18 - Reševanje domačije: Grič smrti",
-      "naslov_orig": "S1E18 - Homestead Rescue: The Hill of Death",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Raneyjevi morajo rešiti domačijo v Oregonu, ki je ujeta na dnu 30-metrske pečine in ločena od štirih hektarjev zemlje, ki jo družina potrebuje za hrano in živino.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/97/6/5/97650fd7-c7ae-4b57-a3a0-b14e596cd930.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007111"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "16:00",
-      "cas_konec": "17:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E9 - Replika bronca",
-      "naslov_orig": "S2E9 - Diesel Brothers: Now Departing: Diesel Air",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "",
-      "opis": "Ekipa sestavi kopijo forda bronca iz F-350 in excursion.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/3/a/0d3a0bc5-e84f-4fb1-a1b2-cdc239aa6851.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007126"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "17:00",
-      "cas_konec": "18:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E13 - Hitri in glasni",
-      "naslov_orig": "S4E13 - Fast n' Loud: The Vomit Comet",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2013",
-      "starostna_omejitev": "",
-      "opis": "Richard prepriča ekipo Monkeys, da njegovo prvo vozilo, bruhasto zelenega Mercury Cometa iz leta 1974, predelajo po načinu Gas Monkey.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/46/4/1/4641e758-b3b5-499e-9b49-2ff7bb5d7e31.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007112"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "18:00",
-      "cas_konec": "18:30",
-      "trajanje": "30 min",
-      "naslov_sl": "S11E17 - Kako jim uspe?",
-      "naslov_orig": "S11E17 - How Do They Do It?: Plasterboard, Casting Awards, Super Plane",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2014",
-      "starostna_omejitev": "",
-      "opis": "Kako vsak dan po svetu dostavijo na milijone pošiljk? Kako izdelajo palice za kriket, ki žogice odbijajo s hitrostjo 150 km/h? In v čem je skrivnost tokijske ribje tržnice?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/f/6/30f63d03-7de9-4e08-a010-92bcb08fa498.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007116"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "18:30",
-      "cas_konec": "19:00",
-      "trajanje": "30 min",
-      "naslov_sl": "S25E25 - Kako je narejeno: Pritrjevalni materiali za letalsko in vesoljsko industrijo",
-      "naslov_orig": "S25E25 - How It's Made: Aerospace Fasteners",
-      "kategorija": "Dokumentarni program",
-      "zanr": [
-        "dokumentarec"
-      ],
-      "leto": "2017",
-      "starostna_omejitev": "",
-      "opis": "Pod drobnogled postavljamo še več vsakdanjih predmetov. Kako izdelajo običajne stvari, kakšne so pire iz indijskih fig in laboratorijski reaktorji?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/23/b/e/23beb358-f9cc-400b-8486-18854464b678.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007122"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "19:00",
-      "cas_konec": "20:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E13 - Aljaški divji ljudje",
-      "naslov_orig": "S4E13 - Alaskan Bush People: Winter is Here",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Globoko v aljaški divjini živi divja družina. Billy in Amy Brown ter njunih sedem otrok živijo odrezani od sveta, zato se morajo za preživetje zanesti drug na drugega.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/b/5/d7b506d3-0cee-4556-8087-39b5d7dc4227.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007129"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "20:00",
-      "cas_konec": "21:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S4E14 - Aljaški divji ljudje",
-      "naslov_orig": "S4E14 - Alaskan Bush People: King of the Mountain",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2016",
-      "starostna_omejitev": "12+",
-      "opis": "Globoko v aljaški divjini živi divja družina. Billy in Amy Brown ter njunih sedem otrok živijo odrezani od sveta, zato se morajo za preživetje zanesti drug na drugega.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/5/5/e35561e6-521e-49b9-b5b9-a57db7bcb9ae.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007124"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "21:00",
-      "cas_konec": "22:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S3E5 - Trgovec z rabljenimi vozili: Svetovna turneja",
-      "naslov_orig": "S3E5 - Wheeler Dealers World Tour: France: Citroen CX",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "2026",
-      "starostna_omejitev": "",
-      "opis": "Mike in Elvis se podajata na globalno misijo! Tokrat so vložki še višji, roki še tesnejši in preobrazbe še bolj osupljive kot kdajkoli prej.",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/08/a/d/08ad3feb-c47e-41f7-8960-35dff4e72078.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007107"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "22:00",
-      "cas_konec": "23:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S2E1 - Mehika: Baja hrošč",
-      "naslov_orig": "S2E1 - Wheeler Dealers World Tour: Mexico Baja Bug",
-      "kategorija": "Nadaljevanka/Nanizanka",
-      "zanr": [
-        "avto-moto šport"
-      ],
-      "leto": "2025",
-      "starostna_omejitev": "",
-      "opis": "Mike in Elvis spremenita VW hrošča v Baja hrošča za dirke po peščenih sipinah. A na voljo imata le 5 dni časa. Bo njun projekt uspel ali spodletel?",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/09/0/0/09004e52-5f1a-4f1c-81ea-b8987be5bac4.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007110"
-    },
-    {
-      "datum": "2026-11-18",
-      "dan": "Sreda",
-      "cas": "23:00",
-      "cas_konec": "00:00",
-      "trajanje": "60 min",
-      "naslov_sl": "S1E4 - Mejna kontrola: Italija",
-      "naslov_orig": "S1E4 - Border Control: Italia",
-      "kategorija": "Razvedrilni program",
-      "zanr": [
-        "resničnostna oddaja"
-      ],
-      "leto": "0",
-      "starostna_omejitev": "10+",
-      "opis": "",
-      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/83/1/6/8316152d-8b15-4ab0-b929-82f9f131481c.jpg",
-      "show_id": "CUP_IECOM_DISCOVERY_1179007108"
     },
     {
       "datum": "2026-11-12",
@@ -7276,6 +6304,1014 @@
       "opis": "",
       "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c2/1/7/c2178a71-877c-4ebe-87b2-115630c46455.jpg",
       "show_id": "CUP_IECOM_DISCOVERY_1179461196"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "00:00",
+      "cas_konec": "01:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E3 - Mejna kontrola: Italija",
+      "naslov_orig": "S1E3 - Border Control: Italia",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/9/6/dc96be09-3efc-474c-8de9-96faa5d879d4.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007080"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "01:00",
+      "cas_konec": "02:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E5 - Ford XR8 - Avstralija",
+      "naslov_orig": "S1E5 - Wheeler Dealers World Tour: Ford XR8 - Australia",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Mike in Elvis se pomerita v največjem avstralskem obračunu, ford proti holdnu. Lahko njun ford XR8 na dirkališču Mount Panorama prehiti holden GTS?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/3/6/f1363096-1c6d-41a4-bbcd-35053ee5a65b.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007072"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E6 - VW avtodom - Avstralija",
+      "naslov_orig": "S1E6 - Wheeler Dealers World Tour: VW Kombi - Australia",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Mike in Elvis najdeta star VW avtodom, ki potrebuje nekaj popravkov. Ga lahko spremenita v avtodom za daljše vožnje, primeren za avstralsko divjino?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/19/4/9/19495a39-aa16-447e-86fb-e84896ca752c.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007078"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "03:00",
+      "cas_konec": "04:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E7 - Hilux – Avstralija",
+      "naslov_orig": "S1E7 - Wheeler Dealers World Tour: Hilux - Australia",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Mike in Elvis sta na lovu za priljubljenim avstralskim vozilom HiLux. Rada bi ga predelala v vrhunsko terensko zverino.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/2/3/df23d759-281a-45fd-9edb-78eb66cf7630.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007091"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "04:00",
+      "cas_konec": "05:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E8 - Surfkombi Holden – Avstralija",
+      "naslov_orig": "S1E8 - Wheeler Dealers World Tour: Holden Surf Wagon Australia",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2024",
+      "starostna_omejitev": "",
+      "opis": "Mike in Elvis gresta na plažo zaradi ikoničnega holden sandmana. Ali lahko pust kombi predelata v vrhunsko žepu prijazno različico?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3b/d/b/3bdb28f7-c9d9-4a8d-9051-e1ee997fd066.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007092"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E10 - Egipčansko čudo",
+      "naslov_orig": "S6E10 - Salvage Hunters: The Restorers: An Egyptian Wonder",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Restavrator igralnih avtomatov Mark Squires popravi in obnovi avtomat iz 1960-ih. Kovinar Ted Edley pa mora obnoviti zarjavelo signalno lanterno.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/06/a/5/06a54fdd-3a61-47b1-909f-eb7657b3635d.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007073"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E3 - 3. epizoda",
+      "naslov_orig": "S3E3 - Salvage Hunters: Classic Cars: Volvo Amazon & Toyota MR2",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Drew in Paul se odpravita v osrednji del VB po švedsko klasiko: Volva Amazona. Poleg tega se Paul zagreje za Toyoto MR2. Lahko Drewa prepriča, da bo predelava dobičkonosna?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/37/0/a/370a00a9-fe27-40f5-8782-056f3666571d.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007130"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E4 - 4. epizoda",
+      "naslov_orig": "S3E4 - Salvage Hunters: Classic Cars: BMW 2002 Touring & Volvo 850R",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "",
+      "opis": "Reševalec starin Drew Pritchard se z zbiralcem dirkalnikov Paulom Cowlandom poda na misijo, kjer pretakneta vso VB ter kupujeta, obnavljata in prodajata klasične avtomobile.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/86/2/c/862c00d9-c633-49b3-8a6c-61d20ab5e484.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007115"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "08:00",
+      "cas_konec": "08:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S20E6 - Kako je narejeno: Papirnati robčki, počitniške prikolice, copati, motoristične čelade",
+      "naslov_orig": "S20E6 - How It's Made: Tissues, Travel Trailers, Slippers, Motorcycle Helmets",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si, kako nastanejo papirnati robčki, počitniške prikolice, copati in motoristične čelade.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/96/9/5/9695a4d4-2797-429e-9d38-b409a2ac3050.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007105"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "08:30",
+      "cas_konec": "09:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E11 - Kako je narejeno: Sanjski avtomobili: Superformance MKIII",
+      "naslov_orig": "S2E11 - How It's Made: Dream Cars: Superformance MKIII",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ste se kdaj spraševali, kako izdelajo Superformance MKIII? Ekipa oddaje \"Kako je narejeno\" gre obiskat mesto njegovega nastanka in raziskat notranjost in čudovito zunanjost.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/56/3/b/563bbc65-0093-4641-8230-7a56ac9df794.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007118"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "09:00",
+      "cas_konec": "10:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S11E8 - Lovci na zaklade: Družina",
+      "naslov_orig": "S11E8 - Salvage Hunters: Family",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Drew se v Fromu v Somersetu trdo pogaja, v Dumfriesshiru pa obišče posestvo, ki je že več generacij v lasti iste družine in ki hrani polno osupljivih starin.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d3/a/7/d3a7ede3-14e4-479f-a6fd-6868c59a37e3.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007119"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E4 - 4. epizoda",
+      "naslov_orig": "S2E4 - Salvage Hunters: The Restorers: A Chip Off the Old Block",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Kiparski mojster Nick mora biti izredno previden, ko se z vrtalnikom loti vrča iz 19. stoletja. Strokovnjakinja za razsvetljavo Jolene pa popravi sejemski transparent.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a8/d/5/a8d51332-f7fb-4116-a489-93f86804a148.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007123"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "11:00",
+      "cas_konec": "11:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E5 - Iskanje hiše na obali Washingtona",
+      "naslov_orig": "S2E5 - Beach Hunters: Navarre House Hunt",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "življenjski slog"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Par zapušča kopensko Montano v upanju, da bosta našla nov dom na čudoviti obali Ferndala v Washingtonu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/73/7/7/73778d1c-b9d9-4abb-af5b-11ad9a4f1d06.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007106"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "11:30",
+      "cas_konec": "12:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E6 - Iskanje hiše na Južni obali",
+      "naslov_orig": "S2E6 - Beach Hunters: Camano Island House Hunt",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "življenjski slog"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Nepremičninski agentka iz Bostona zapušča mestni vrvež Beantowna in išče sanjski dom ob plaži na Massachusettsovi Južni obali.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/e/8/bfe818fa-b839-4206-9f42-4015a8da43e5.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007125"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S22E10 - Smrtonosni ulov",
+      "naslov_orig": "S22E10 - Deadliest Catch: He's In the Water!",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Lynn Guitard, član posadke ladje Wizard, pade čez krov. Keith in Monte sprožita reševalno akcijo. Sig omogoči Sophii, da se izkaže ob ruski meji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/1/2/7b1246a5-fefc-4602-90bc-018a20d98053.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007120"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S22E11 - Smrtonosni ulov",
+      "naslov_orig": "S22E11 - Deadliest Catch: O Captain, My Captain",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Novinec Todd dobi zobni absces, zato Rick razmišlja o dragi vrnitvi v pristanišče. Sig svoji varovanki Bob prvič zaupa krmilo.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/1/2/7b1246a5-fefc-4602-90bc-018a20d98053.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007128"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E17 - Reševanje domačije: Bitka za zavetišče",
+      "naslov_orig": "S1E17 - Homestead Rescue: Storm Shelter Showdown: Part 1: 1",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Raneyjevi prispejo v Misuri na obisk družine, ki je pravkar preživela tornado. Družina živi v razpadajoči koči brez vira pitne vode.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/2/9/5a29ad0f-4c9a-416a-a10e-f00e6d6bcbbf.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007121"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E18 - Reševanje domačije: Grič smrti",
+      "naslov_orig": "S1E18 - Homestead Rescue: The Hill of Death",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Raneyjevi morajo rešiti domačijo v Oregonu, ki je ujeta na dnu 30-metrske pečine in ločena od štirih hektarjev zemlje, ki jo družina potrebuje za hrano in živino.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/97/6/5/97650fd7-c7ae-4b57-a3a0-b14e596cd930.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007111"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "16:00",
+      "cas_konec": "17:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E9 - Replika bronca",
+      "naslov_orig": "S2E9 - Diesel Brothers: Now Departing: Diesel Air",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Ekipa sestavi kopijo forda bronca iz F-350 in excursion.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/0d/3/a/0d3a0bc5-e84f-4fb1-a1b2-cdc239aa6851.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007126"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "17:00",
+      "cas_konec": "18:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E13 - Hitri in glasni",
+      "naslov_orig": "S4E13 - Fast n' Loud: The Vomit Comet",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2013",
+      "starostna_omejitev": "",
+      "opis": "Richard prepriča ekipo Monkeys, da njegovo prvo vozilo, bruhasto zelenega Mercury Cometa iz leta 1974, predelajo po načinu Gas Monkey.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/46/4/1/4641e758-b3b5-499e-9b49-2ff7bb5d7e31.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007112"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "18:00",
+      "cas_konec": "18:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S11E17 - Kako jim uspe?",
+      "naslov_orig": "S11E17 - How Do They Do It?: Plasterboard, Casting Awards, Super Plane",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "Kako vsak dan po svetu dostavijo na milijone pošiljk? Kako izdelajo palice za kriket, ki žogice odbijajo s hitrostjo 150 km/h? In v čem je skrivnost tokijske ribje tržnice?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/30/f/6/30f63d03-7de9-4e08-a010-92bcb08fa498.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007116"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "18:30",
+      "cas_konec": "19:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S25E25 - Kako je narejeno: Pritrjevalni materiali za letalsko in vesoljsko industrijo",
+      "naslov_orig": "S25E25 - How It's Made: Aerospace Fasteners",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Pod drobnogled postavljamo še več vsakdanjih predmetov. Kako izdelajo običajne stvari, kakšne so pire iz indijskih fig in laboratorijski reaktorji?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/23/b/e/23beb358-f9cc-400b-8486-18854464b678.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007122"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E13 - Aljaški divji ljudje",
+      "naslov_orig": "S4E13 - Alaskan Bush People: Winter is Here",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Globoko v aljaški divjini živi divja družina. Billy in Amy Brown ter njunih sedem otrok živijo odrezani od sveta, zato se morajo za preživetje zanesti drug na drugega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/d7/b/5/d7b506d3-0cee-4556-8087-39b5d7dc4227.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007129"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E14 - Aljaški divji ljudje",
+      "naslov_orig": "S4E14 - Alaskan Bush People: King of the Mountain",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Globoko v aljaški divjini živi divja družina. Billy in Amy Brown ter njunih sedem otrok živijo odrezani od sveta, zato se morajo za preživetje zanesti drug na drugega.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e3/5/5/e35561e6-521e-49b9-b5b9-a57db7bcb9ae.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007124"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E5 - Trgovec z rabljenimi vozili: Svetovna turneja",
+      "naslov_orig": "S3E5 - Wheeler Dealers World Tour: France: Citroen CX",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mike in Elvis se podajata na globalno misijo! Tokrat so vložki še višji, roki še tesnejši in preobrazbe še bolj osupljive kot kdajkoli prej.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/08/a/d/08ad3feb-c47e-41f7-8960-35dff4e72078.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007107"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E1 - Mehika: Baja hrošč",
+      "naslov_orig": "S2E1 - Wheeler Dealers World Tour: Mexico Baja Bug",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Mike in Elvis spremenita VW hrošča v Baja hrošča za dirke po peščenih sipinah. A na voljo imata le 5 dni časa. Bo njun projekt uspel ali spodletel?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/09/0/0/09004e52-5f1a-4f1c-81ea-b8987be5bac4.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007110"
+    },
+    {
+      "datum": "2026-11-18",
+      "dan": "Sreda",
+      "cas": "23:00",
+      "cas_konec": "00:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S1E4 - Mejna kontrola: Italija",
+      "naslov_orig": "S1E4 - Border Control: Italia",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "10+",
+      "opis": "",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/7/0/df705994-dfef-4b56-94e4-88289fb4508e.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179007108"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "00:00",
+      "cas_konec": "00:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S5E1 - Mejna kontrola: Španija",
+      "naslov_orig": "S5E1 - Control de Fronteras: España",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "10+",
+      "opis": "Prehod skozi carino je lahko za večino ljudi stresna izkušnja, še posebej, če poskušate pretihotapiti droge ali orožje v državo. Spremljajte prizadevanja varnostnih in carinskih služb na meji s Španijo, ki si prizadevajo, da bi svojo državo zaščitili pred kriminalci. Ne glede na to, ali gre za droge, orožje ali celo terorizem, morajo varnostne službe upoštevati veliko stvari, da zagotovijo pravilno obravnavo vseh groženj. Te varnostne sile so vedno na sledi sumljivim dejavnostim, v zraku, na kopnem ali na morju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/3a/e/e/3aeee7ab-97a1-4d3c-9386-e2ba7992e4a4.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461211"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "00:30",
+      "cas_konec": "01:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S5E2 - Mejna kontrola: Španija",
+      "naslov_orig": "S5E2 - Control de Fronteras: España",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "10+",
+      "opis": "Prehod skozi carino je lahko za večino ljudi stresna izkušnja, še posebej, če poskušate pretihotapiti droge ali orožje v državo. Spremljajte prizadevanja varnostnih in carinskih služb na meji s Španijo, ki si prizadevajo, da bi svojo državo zaščitili pred kriminalci. Ne glede na to, ali gre za droge, orožje ali celo terorizem, morajo varnostne službe upoštevati veliko stvari, da zagotovijo pravilno obravnavo vseh groženj. Te varnostne sile so vedno na sledi sumljivim dejavnostim, v zraku, na kopnem ali na morju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c8/4/6/c846f038-7e6d-4215-be4f-66f637e8dd77.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461212"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "01:00",
+      "cas_konec": "02:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E10 - Ford proti Shortyju: Torino GT",
+      "naslov_orig": "S2E10 - Shorty's Dream Shop: The Texas Torino",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Shortyjeva delavnica se praviloma ukvarja s Chevroleti, a tokrat jih zbiratelj Fordov prepriča, da obnovijo njegov Torino GT iz leta 1971.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/c/e/e9cef487-5e6f-48dd-a8b9-1403669412a3.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461197"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "02:00",
+      "cas_konec": "03:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S22E16 - Smrtonosni ulov",
+      "naslov_orig": "S22E16 - Deadliest Catch: Contagion",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Ribiči se borijo z vremenom in brutalnimi valovi, da bi zaslužili.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7b/1/2/7b1246a5-fefc-4602-90bc-018a20d98053.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461218"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "03:00",
+      "cas_konec": "04:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E19 - Lovci na opale",
+      "naslov_orig": "S8E19 - Outback Opal Hunters: Last Chance Dig",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Najbolj trdoživi rudarji na svetu iščejo opal v divjini.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/52/b/e/52beed9b-0c36-4c9b-a6f9-976a7deca4ab.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461217"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "04:00",
+      "cas_konec": "04:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S4E1 - Porsche 911 Targa, 1. del",
+      "naslov_orig": "S4E1 - Wheeler Dealers: Porsche 911 Targa - Part 1: 1",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2006",
+      "starostna_omejitev": "12+",
+      "opis": "Mike Brewer kupi legendarni Porschejev model 911 Targa iz leta 1976, nato pa ga preda v roke strokovnjaku Eddu Chini, da bi mu ta vrnil njegov nekdanji sijaj.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/a6/a/c/a6ac91d1-4f88-43bb-bcf4-560eb55edf18.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461204"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "04:30",
+      "cas_konec": "05:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S4E2 - Porsche 911 Targa, 2. del",
+      "naslov_orig": "S4E2 - Wheeler Dealers: Porsche 911 Targa - Part 2: 2",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2006",
+      "starostna_omejitev": "",
+      "opis": "Po tem, ko je za porscheja odštel 5000 funtov, Mike komaj čaka, da bodo dela na njem zaključena, saj ga zanima, koliko bo zaslužil s popolnoma prenovljenim avtomobilom.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7d/c/d/7dcd56a0-d1c1-41a6-8c63-8049a162cc39.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461201"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "05:00",
+      "cas_konec": "06:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S6E15 - Jelenovo zmagoslavje",
+      "naslov_orig": "S6E15 - Salvage Hunters: The Restorers: A Stag Triumph",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2022",
+      "starostna_omejitev": "",
+      "opis": "Kipar Nick Elphick ima polne roke dela s kipom jelena v naravni velikosti, ki mu manjka glava. Kovinar Ted Edley pa obnovi arkadni avtomat z nezemljani.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/f1/0/f/f10f95b4-0728-49e7-b31c-70ae8320e446.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461205"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "06:00",
+      "cas_konec": "07:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E3 - Porsche 914",
+      "naslov_orig": "S8E3 - Salvage Hunters: Classic Cars: Porsche 914",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Navdušena Drew in Paul v roke dobita vozilo, ki je postalo znano kot 'Porsche za revne'. Lahko fanta končno spremenita sloves temu modelu?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/7f/9/0/7f90dd1e-15b5-44ea-a26f-48618840cf6c.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461236"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "07:00",
+      "cas_konec": "08:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S8E4 - VW Trekker",
+      "naslov_orig": "S8E4 - Salvage Hunters: Classic Cars: VW Trekker",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2023",
+      "starostna_omejitev": "",
+      "opis": "Drew Pritchard združi moči s Paulom Cowlandom na motoristični misiji. Skupaj prepotujeta Združeno kraljestvo, pri čemer kupujeta, obnavljata in prodajata klasične avtomobile.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/72/3/5/72359ef8-b768-4f92-8121-bb9080b3902a.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461241"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "08:00",
+      "cas_konec": "08:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S20E11 - Kako je narejeno: 1000. proizvod",
+      "naslov_orig": "S20E11 - How It's Made: 1000th Product",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2012",
+      "starostna_omejitev": "",
+      "opis": "Oglejte si, kako nastanejo kolesarski čevlji, jurte, barve za oljno in enkavstično tehniko ter vezane plošče okume.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bc/c/e/bcce9ef0-22c1-4278-81b1-103ded88e102.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461251"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "08:30",
+      "cas_konec": "09:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S2E16 - Kako je narejeno: Sanjski avtomobili: Aston Martin Vanquish",
+      "naslov_orig": "S2E16 - How It's Made: Dream Cars: Aston Martin Vanquish",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Ste se kdaj vprašali, kako naredijo Aston Martin Vanquish? Pridružite se ekipi ''Kako je narejeno'', ki se bo odpravila v njegov rojstni kraj in spoznala njegovo čudovito zunanjost.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/43/2/5/43252f20-b1e1-4402-ace2-002f4a953f82.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461246"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "09:00",
+      "cas_konec": "10:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S12E1 - Lovci na zaklade: Cotswolds",
+      "naslov_orig": "S12E1 - Salvage Hunters: Cotswolds",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2017",
+      "starostna_omejitev": "",
+      "opis": "Drew v svojem domačem kraju Conwyju končno otvori starinarnico. Nato se odpravi v lov za zakladi v Cotswolds in na enega največjih pokritih sejmov starin v Združenem kraljestvu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/b5/9/a/b59ae214-b638-4354-9996-9eea98acdb59.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461247"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "10:00",
+      "cas_konec": "11:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E9 - 9. epizoda",
+      "naslov_orig": "S2E9 - Salvage Hunters: The Restorers: On Reflection",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "",
+      "opis": "Trgovec s starinami iz Angleseyja, Saxon Durrant, očara usnjarja Martina Ashwortha z izredno redkim potovalnim kovčkom znamke Louis Vuitton iz 1920-ih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/08/e/3/08e3e696-b807-405f-b1c1-66af6ab33da1.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461248"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "11:00",
+      "cas_konec": "11:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S6E1 - Lovci na plaže: Lov v Virginia Beachu",
+      "naslov_orig": "S6E1 - Beach Hunters: Virginia Beach Hunt",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Par, ki obožuje morje, išče družinsko hišo ob plaži v mirni soseski Norfolka v Virginiji.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/bf/e/8/bfe89482-58b1-4267-8a90-5632c06e076b.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461249"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "11:30",
+      "cas_konec": "12:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S6E2 - Lovci na plaže: Družinski dom na Cape Codu",
+      "naslov_orig": "S6E2 - Beach Hunters: Family Home on the Cape",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2020",
+      "starostna_omejitev": "12+",
+      "opis": "Par, ki je v otroštvu veliko poletij preživel na Cape Codu, išče tradicionalen dom v slogu Nove Anglije za svojo rastočo družino.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/df/2/d/df2de905-9475-443f-ba09-3eb6a5503c64.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461237"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "12:00",
+      "cas_konec": "13:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E5 - Kralja akvarijev: Interaktivni akvarij",
+      "naslov_orig": "S4E5 - Tanked: Give a Dog a Phone",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "0",
+      "starostna_omejitev": "",
+      "opis": "Komunikacijsko podjetje potrebuje interaktivni akvarij v obliki orjaškega telefona. Ali lahko Wayne in Brett izdelata akvarij po njihovih željah?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/46/1/5/4615cd23-0180-43cf-a41a-1a3c60d1427c.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461250"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "13:00",
+      "cas_konec": "14:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S4E6 - Kralja akvarijev: Akvarij v žaru",
+      "naslov_orig": "S4E6 - Tanked: Hang Ten Barbeque",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2014",
+      "starostna_omejitev": "",
+      "opis": "V Vegasu fanta za restavracijo Rolling Smoke BBQ izdelata akvarij v žaru. Lastnik restavracije Salt Life Food Shack pa ju prosi za akvarij v obliki morskega vala.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ef/9/7/ef97beb9-20fc-4228-b74e-8731d0853bc0.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461225"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "14:00",
+      "cas_konec": "15:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E8 - Reševanje domačije: Ognjena črta",
+      "naslov_orig": "S2E8 - Homestead Rescue: Line of Fire",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "Domačiji v Kaliforniji grozi hud požar, zato Marty poseka okoliška drevesa in izdela evakuacijsko barko za živino Grantovih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/ff/3/d/ff3d32cb-4b05-4a50-81c8-c3167c659a88.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461252"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "15:00",
+      "cas_konec": "16:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E12 - Reševanje domačije: Pretres na domačiji",
+      "naslov_orig": "S2E12 - Homestead Rescue: Quake on the Forty",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2019",
+      "starostna_omejitev": "8+",
+      "opis": "Raneyjevi ob povratku na Aljasko odkrijejo svojo domačijo v popolnem razsulu. Nemudoma morajo izdelati jeklene nosilne tramove še pred prihodom zmrzali.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/e9/f/f/e9ff5122-8d20-4662-9cfd-03ee91a0f2c2.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461253"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "16:00",
+      "cas_konec": "18:00",
+      "trajanje": "120 min",
+      "naslov_sl": "S2E14 - Brata Dizel",
+      "naslov_orig": "S2E14 - Diesel Brothers: Monster Jump Live",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "",
+      "opis": "V svetu vozil na dizelski pogon so Heavy D, Diesel Dave in ekipa DieselSellerz znani po tem, da izdelujejo največje in najmogočnejše tovornjake. Njihovi jekleni konjički, ki jih občasno tudi podarijo, so dobro znani vsem, ki uživajo v dizelskih hlapih.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c7/2/5/c7252d37-dfa7-4f02-8ff2-70b1a6b2c159.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461226"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "18:00",
+      "cas_konec": "18:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S13E2 - 3. epizoda",
+      "naslov_orig": "S13E2 - How Do They Do It?: Longboards, Lemonade, Forklifts",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2015",
+      "starostna_omejitev": "",
+      "opis": "Številni predmeti iz vsakdanjika sodobnega sveta so rezultat zapletenih inženirskih in izdelovalnih procesov. Kako jim uspe?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/59/a/a/59aa8f54-ad66-4abf-b9ff-aa303ec288db.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461227"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "18:30",
+      "cas_konec": "19:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S26E4 - Kako je narejeno: Posoda za kuhanje na pari, trikolesni skuterji",
+      "naslov_orig": "S26E4 - How It's Made: Steamer Baskets; Three-Wheel Scooters; Prefabricated Conservatories",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "",
+      "opis": "Pod drobnogled postavljamo še več vsakdanjih predmetov. Kako nastanejo stvari, kot so montažni zimski vrtovi in bakrena posoda za kuhanje?",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/95/2/7/9527f99b-0294-47ba-9ea6-80ebeec16b48.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461238"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "19:00",
+      "cas_konec": "20:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E4 - Volčje krdelo se širi",
+      "naslov_orig": "S5E4 - Alaskan Bush People: A Very Bush Wedding",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Obisk iz Billyjeve preteklosti pomeni negotovost v Browntownu.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/dc/7/0/dc7037b5-8d61-490d-864b-d368ea9ecf00.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461229"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "20:00",
+      "cas_konec": "21:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S5E5 - Ko pride plima",
+      "naslov_orig": "S5E5 - Alaskan Bush People: Bam Bam's Big Build and Bears",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "narava"
+      ],
+      "leto": "2016",
+      "starostna_omejitev": "12+",
+      "opis": "Presenetljiv obisk župana bi lahko za vedno spremenil Browntown.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/04/9/c/049cdc12-d933-464f-8383-98ff5135aac6.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461232"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "21:00",
+      "cas_konec": "22:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S3E1 - Ant Anstead: rojeni mehanik",
+      "naslov_orig": "S3E1 - Ant Anstead: Born Mechanic: Sprite: Falling For A Frogeye",
+      "kategorija": "Dokumentarni program",
+      "zanr": [
+        "dokumentarec"
+      ],
+      "leto": "2026",
+      "starostna_omejitev": "",
+      "opis": "Mehanik Ant Anstead obnavlja avtomobile in zastarelo podeželsko hišo za starše.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/8d/a/1/8da19504-fcc0-41e5-8f37-f8628c14e4d5.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461233"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "22:00",
+      "cas_konec": "23:00",
+      "trajanje": "60 min",
+      "naslov_sl": "S2E2 - Brazilija: VW SP2",
+      "naslov_orig": "S2E2 - Wheeler Dealers World Tour: Brazil: VW SP2",
+      "kategorija": "Nadaljevanka/Nanizanka",
+      "zanr": [
+        "avto-moto šport"
+      ],
+      "leto": "2025",
+      "starostna_omejitev": "",
+      "opis": "Fanta v São Paulu kupita brazilski VW SP2. Miku se s tem uresničijo sanje, a avto nima dovolj moči, zato mu mora Elvis dodati nekaj \"mišic\".",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/5a/2/5/5a253d9b-1eed-403d-9b3b-4f435959312c.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461242"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "23:00",
+      "cas_konec": "23:30",
+      "trajanje": "30 min",
+      "naslov_sl": "S5E3 - Mejna kontrola: Španija",
+      "naslov_orig": "S5E3 - Control de Fronteras: España",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "10+",
+      "opis": "Prehod skozi carino je lahko za večino ljudi stresna izkušnja, še posebej, če poskušate pretihotapiti droge ali orožje v državo. Spremljajte prizadevanja varnostnih in carinskih služb na meji s Španijo, ki si prizadevajo, da bi svojo državo zaščitili pred kriminalci. Ne glede na to, ali gre za droge, orožje ali celo terorizem, morajo varnostne službe upoštevati veliko stvari, da zagotovijo pravilno obravnavo vseh groženj. Te varnostne sile so vedno na sledi sumljivim dejavnostim, v zraku, na kopnem ali na morju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c8/4/6/c846f038-7e6d-4215-be4f-66f637e8dd77.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461230"
+    },
+    {
+      "datum": "2026-11-25",
+      "dan": "Sreda",
+      "cas": "23:30",
+      "cas_konec": "00:00",
+      "trajanje": "30 min",
+      "naslov_sl": "S5E4 - Mejna kontrola: Španija",
+      "naslov_orig": "S5E4 - Control de Fronteras: España",
+      "kategorija": "Razvedrilni program",
+      "zanr": [
+        "resničnostna oddaja"
+      ],
+      "leto": "2018",
+      "starostna_omejitev": "10+",
+      "opis": "Prehod skozi carino je lahko za večino ljudi stresna izkušnja, še posebej, če poskušate pretihotapiti droge ali orožje v državo. Spremljajte prizadevanja varnostnih in carinskih služb na meji s Španijo, ki si prizadevajo, da bi svojo državo zaščitili pred kriminalci. Ne glede na to, ali gre za droge, orožje ali celo terorizem, morajo varnostne službe upoštevati veliko stvari, da zagotovijo pravilno obravnavo vseh groženj. Te varnostne sile so vedno na sledi sumljivim dejavnostim, v zraku, na kopnem ali na morju.",
+      "slika": "https://ngimg.siol.tv/sioltv/mtcmsprod/c8/4/6/c846f038-7e6d-4215-be4f-66f637e8dd77.jpg",
+      "show_id": "CUP_IECOM_DISCOVERY_1179461228"
     }
   ]
 }
